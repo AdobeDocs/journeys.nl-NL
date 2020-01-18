@@ -1,0 +1,57 @@
+---
+title: inSegment
+description: Meer informatie over de functie in Segment
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
+
+---
+
+
+# inSegment {#inSegment}
+
+Controleert of een individu tot een bepaald segment behoort.
+
+De segmentnaam moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn.
+
+Segmenten worden gedefinieerd in het [Adobe Experience Platform](https://platform.adobe.com/segment/overview). De uitdrukkingsredacteur verstrekt een autocompleted lijst van segmenten.
+
+>[!NOTE]
+>
+>U kunt tot 100 segmenten terugwinnen.
+
+## Categorie
+
+Adobe Experience Platform
+
+## Functiesyntaxis
+
+`inSegment(<parameter>)`
+
+## Parameters
+
+| Parameter | Beschrijving | Type |
+|--- |--- |--- |
+| Segment | De segmentnaam | `<string>` |
+
+## Handtekening en type geretourneerd
+
+`inSegment(<string>)`
+
+Retourneert een Booleaanse waarde.
+
+## Voorbeeld
+
+`inSegment("men over 50")`
+
+Uitleg:
+
+De functie wordt geretourneerd **[!UICONTROL true]**als de persoon binnen de reisinstantie deel uitmaakt van het platformsegment met de naam &quot;mannen boven 50&quot;,**[!UICONTROL false]** anders.
