@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
+source-git-commit: 6e7d89f4a9cb56b7b87cfc73ad7a9c7c4dc323a3
 
 ---
 
@@ -20,6 +20,11 @@ source-git-commit: 70a71d920502a40186e32d5d876a9703e844bf3f
 
 Deze pagina bevat een overzicht van alle documentatieupdates voor Journey Orchestration.
 U kunt ook de Opmerkingen bij de [release](../release-notes/release-notes.md)van de Journey Orchestration raadplegen.
+
+## januari 2020 {#january-2020}
+
+* Er zijn beperkingen voor het ophalen toegevoegd voor [ervaringsgebeurtenissen](../datasource/adobe-experience-platform-data-source.md) en [segmenten](../functions/functioninsegment.md).
+* De [getBestSendTime-documentatie](../functions/functiongetbestsendtime.md) is bijgewerkt.
 
 ## december 2019 {#december-2019}
 
@@ -32,4 +37,3 @@ U kunt ook de Opmerkingen bij de [release](../release-notes/release-notes.md)van
 * [De voorwaardelijke instructies](../expression/conditional-instruction.md) en het beheerssecties van de [Inzameling](../expression/collection-management-functions.md) zijn bewogen en bijgewerkt.
 * De sectie [Functies](../expression/functions.md) is bijgewerkt met nieuwe voorbeelden.
 * De documentatie [van de toDateTime-functie](../functions/functiontodatetime.md) is bijgewerkt met wijzigingen in de tijdzonesyntaxis.
-
