@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # Gegevensbronnen {#concept_s1s_dqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_datasources&quot;
+>title=&quot;Gegevensbronnen&quot;
+>abstract=&quot;De gegevensbronconfiguratie wordt altijd uitgevoerd door een technische gebruiker. De gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt, voor: voorwaardendefinitie, parameter en verpersoonlijkingsgegevens in acties, douane wachttijddefinitie, definitie van de douanetijdzone.&quot;
 
 De gegevensbronconfiguratie wordt altijd uitgevoerd door een **technische gebruiker**.
 
