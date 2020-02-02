@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # Handelingen {#about_actions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_actions&quot;
+>title=&quot;Informatie over handelingen&quot;
+>abstract=&quot;Dit is waar u de verbinding aan het systeem bepaalt dat berichten zal verzenden. De hier gedefinieerde acties zijn dan beschikbaar in het linkerpalet van uw reis, in de categorie Handelingen.&quot;
 
 De configuratie van douaneacties wordt altijd uitgevoerd door een **technische gebruiker**.
 
