@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d018072f2cbf2b8804c5c678f84cc8e25e3e86f4
+source-git-commit: fed9033310bf37535796638eda3b0846f1ed52c6
 
 ---
 
@@ -34,3 +34,5 @@ Klik in de bovenste menu&#39;s om de lijst met handelingen weer te geven of een 
 Als u de Norm van de Campagne van Adobe hebt, moet u de uit-van-de dooshandeling vormen. Zie [](../action/working-with-adobe-campaign.md).
 
 Als u een derdesysteem gebruikt om berichten te verzenden, moet u een douaneactie toevoegen en vormen. Zie [](../action/about-custom-action-configuration.md).
+
+Dit is een test.
