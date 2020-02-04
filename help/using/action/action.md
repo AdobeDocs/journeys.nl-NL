@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fed9033310bf37535796638eda3b0846f1ed52c6
+source-git-commit: 4ba4259a31a6f71e842d59bdbccf07c3edf3fafd
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: fed9033310bf37535796638eda3b0846f1ed52c6
 
 De configuratie van douaneacties wordt altijd uitgevoerd door een **technische gebruiker**.
 
-Hier definieert u de verbinding met het systeem dat berichten verzendt. De hier gedefinieerde acties zijn dan beschikbaar in het linkerpalet van uw reis, in de **[!UICONTROL Action]**categorie (zie[](../building-journeys/about-action-activities.md).
+Hier definieert u de verbinding met het systeem dat berichten verzendt. De hier gedefinieerde acties zijn dan beschikbaar in het linkerpalet van uw reis, in de **[!UICONTROL Action]**categorie (zie[](../building-journeys/about-action-activities.md)).
 
 Klik in de bovenste menu&#39;s om de lijst met handelingen weer te geven of een nieuwe handeling te configureren. **[!UICONTROL Actions]**De lijst met handelingen wordt weergegeven. Zie[](../about/user-interface.md)voor meer informatie over de interface.
 
@@ -34,5 +34,3 @@ Klik in de bovenste menu&#39;s om de lijst met handelingen weer te geven of een 
 Als u de Norm van de Campagne van Adobe hebt, moet u de uit-van-de dooshandeling vormen. Zie [](../action/working-with-adobe-campaign.md).
 
 Als u een derdesysteem gebruikt om berichten te verzenden, moet u een douaneactie toevoegen en vormen. Zie [](../action/about-custom-action-configuration.md).
-
-Dit is een test.
