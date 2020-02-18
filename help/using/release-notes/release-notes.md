@@ -21,22 +21,6 @@ source-git-commit: 8023d7780d43f1de4447c63568f641ce204722c7
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)raadplegen.
 
-## Release Q1 - februari 2019 {#q1-release---february-2019}
-
-* Er is nu een contextafhankelijke Help-functie beschikbaar voor de verschillende Journey Orchestration screens. Dit betekent dat u met één klik rechtstreeks toegang hebt tot de documentatie over de functionaliteit die u momenteel gebruikt. Als u contextafhankelijke Help wilt weergeven, klikt u op het pictogram &#39;i&#39; in de rechterbovenhoek van het scherm. Deze functie is momenteel beschikbaar in de lijstschermen Home, Gegevensbronnen, Gebeurtenissen en Handelingen.
-
-* In testwijze, alle wachtende activiteiten worden nu automatisch geplaatst aan laatste 5 seconden. Hierdoor hebt u snel toegang tot de testresultaten.
-
-* API&#39;s
-
-* Activiteiten kopiëren/plakken tijdens reizen?
-
-* Gebeurtenissen filteren tijdens reizen
-
-* Meerdere regio&#39;s?
-
-* Meerdere gebeurtenissen testen
-
 ## GA-release - december 2019 {#ga-release---december-2019}
 
 Reisorchestratie is nu GA.
