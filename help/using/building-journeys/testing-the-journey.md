@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0ab3528b090e34867d54174421741c689e378e7
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
@@ -22,23 +22,23 @@ Voordat u uw reis kunt testen, moet u alle eventuele fouten oplossen. Zie [](../
 
 U kunt uw reis testen voordat deze wordt gepubliceerd, met behulp van testprofielen. Dit staat u toe om te analyseren hoe de individuen in de reis stromen en problemen vóór publicatie oplossen.
 
->[!NOTE]
->
->In testwijze, worden alle wachtende activiteiten automatisch geplaatst aan laatste 5 seconden. Hierdoor hebt u snel toegang tot de testresultaten.
-
 Voer de volgende stappen uit om de testmodus te gebruiken:
 
 1. Controleer voordat u de reis test of deze geldig is en of er geen fout optreedt. U kunt een test van een reis met fouten niet starten. Zie [](../about/troubleshooting.md#section_h3q_kqk_fhb). Er wordt een waarschuwingssymbool weergegeven wanneer er fouten optreden.
 
-1. U activeert de testmodus door te klikken op de **[!UICONTROL Test]**schakeloptie in de rechterbovenhoek.
+1. U activeert de testmodus door te klikken op de **[!UICONTROL Test]** schakeloptie in de rechterbovenhoek.
 
    ![](../assets/journeytest1.png)
 
-1. Klik **[!UICONTROL Trigger an event]**om gebeurtenissen aan de reis te vormen en te verzenden. Zorg ervoor dat u gebeurtenissen verzendt die betrekking hebben op testprofielen. Zie[Uw gebeurtenissen](#firing_events)starten.
+1. Gebruik de **Wacht tijd in testparameter** , in de bodem linkerhoek, om de tijd te bepalen dat elke wachttijdactiviteit op testwijze zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Deze parameter verschijnt slechts als u één of meerdere wachtactiviteiten in uw reis hebt gelaten vallen.
+
+   ![](../assets/journeytest_wait.png)
+
+1. Klik **[!UICONTROL Trigger an event]** om gebeurtenissen aan de reis te vormen en te verzenden. Zorg ervoor dat u gebeurtenissen verzendt die betrekking hebben op testprofielen. Zie [Uw gebeurtenissen](#firing_events)starten.
 
    ![](../assets/journeyuctest1.png)
 
-1. Nadat de gebeurtenissen worden ontvangen, klik de **[!UICONTROL Show log]**knoop om het testresultaat te bekijken en hen te verifiëren. Zie De logboeken[weergeven](#viewing_logs).
+1. Nadat de gebeurtenissen worden ontvangen, klik de **[!UICONTROL Show log]** knoop om het testresultaat te bekijken en hen te verifiëren. Zie De logboeken [weergeven](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
@@ -56,15 +56,15 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
 ## Gebeurtenissen starten {#firing_events}
 
-De **[!UICONTROL Trigger an event]**knoop staat u toe om een gebeurtenis te vormen die een persoon de reis zal maken.
+De **[!UICONTROL Trigger an event]** knoop staat u toe om een gebeurtenis te vormen die een persoon de reis zal maken.
 
 Als voorwaarde moet u weten welke profielen als testprofielen zijn gemarkeerd in het gegevensplatform. In de testmodus zijn deze profielen alleen toegestaan tijdens de reis en moet het evenement een id bevatten. De verwachte id is afhankelijk van de gebeurtenisconfiguratie. Het kan bijvoorbeeld een ECID zijn.
 
-In dit scherm kunt u de velden configureren die zijn doorgegeven in de gebeurtenis en de uitvoering van de gebeurtenis die de gebeurtenis verzendt. De interface helpt u de juiste informatie in de gebeurtenislading overgaan en ervoor zorgen het informatietype correct is. In de testmodus worden de laatste parameters die in een testsessie worden gebruikt, opgeslagen voor later gebruik.
+Als uw reis verscheidene gebeurtenissen bevat, gebruik de drop-down lijst om een gebeurtenis te selecteren. Configureer vervolgens voor elke gebeurtenis de doorgegeven velden en de uitvoering van de gebeurtenis die de gebeurtenis verzendt. De interface helpt u de juiste informatie in de gebeurtenislading overgaan en ervoor zorgen het informatietype correct is. In de testmodus worden de laatste parameters die in een testsessie worden gebruikt, opgeslagen voor later gebruik.
 
 ![](../assets/journeytest4.png)
 
-Met de interface kunt u eenvoudige gebeurtenisparameters doorgeven. Als u verzamelingen of andere geavanceerde objecten in de gebeurtenis wilt doorgeven, kunt u op klikken **[!UICONTROL Code View]**om de volledige code van de laadbewerking te zien en deze te wijzigen. U kunt bijvoorbeeld gebeurtenisgegevens kopiëren en plakken die door een technische gebruiker zijn voorbereid.
+Met de interface kunt u eenvoudige gebeurtenisparameters doorgeven. Als u verzamelingen of andere geavanceerde objecten in de gebeurtenis wilt doorgeven, kunt u op klikken **[!UICONTROL Code View]** om de volledige code van de laadbewerking te zien en deze te wijzigen. U kunt bijvoorbeeld gebeurtenisgegevens kopiëren en plakken die door een technische gebruiker zijn voorbereid.
 
 ![](../assets/journeytest5.png)
 
@@ -72,9 +72,13 @@ Een technische gebruiker kan deze interface ook gebruiken om gebeurtenislading s
 
 ## Logboeken weergeven {#viewing_logs}
 
-Met de **[!UICONTROL Show log]**knop kunt u de testresultaten bekijken. Op deze pagina worden de huidige gegevens van de reis in JSON-indeling weergegeven. Met een knop kunt u hele knooppunten kopiëren. U moet de pagina handmatig vernieuwen om de testresultaten van de reis bij te werken.
+Met de **[!UICONTROL Show log]** knop kunt u de testresultaten bekijken. Op deze pagina worden de huidige gegevens van de reis in JSON-indeling weergegeven. Met een knop kunt u hele knooppunten kopiëren. U moet de pagina handmatig vernieuwen om de testresultaten van de reis bij te werken.
 
 ![](../assets/journeytest3.png)
+
+>[!NOTE]
+>
+>In de testlogboeken, in het geval van een fout wanneer het roepen van een derdesysteem (gegevensbron of actie), worden de foutencode en foutenreactie getoond.
 
 Het aantal personen (technisch gesproken worden ze instanties genoemd) dat zich momenteel in de reis bevindt, wordt weergegeven. Hier volgt nuttige informatie die voor elk individu wordt weergegeven:
 
