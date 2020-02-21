@@ -26,10 +26,6 @@ Fouten worden weergegeven met een waarschuwingssymbool dat wordt weergegeven op 
 
 ![](../assets/journey63.png)
 
-Als bijvoorbeeld op het canvas twee activiteiten worden losgekoppeld, wordt een waarschuwing weergegeven.
-
-![](../assets/canvas-disconnected.png)
-
 Naast de **[!UICONTROL Test]** schakeloptie en de **[!UICONTROL Publish]** knop kan een waarschuwingsbord worden weergegeven. Dit waarschuwingsteken bevat fouten die door het systeem zijn gedetecteerd en voorkomt activering van de testmodus of publicatie van de reis. Meestal zijn fouten die door het systeem worden gedetecteerd gekoppeld aan fouten die zichtbaar zijn voor de activiteiten, maar soms zijn ze gekoppeld aan andere problemen. In dit geval kunt u deze weergeven en proberen het probleem te identificeren aan de hand van de foutbeschrijving. Als u het probleem niet kunt identificeren, kunt u de gegevens kopiëren en naar de beheerder of ter ondersteuning verzenden. Fouten die de test blokkeren en fouten die de publicatie blokkeren, zijn vergelijkbaar.
 
 Het systeem detecteert twee soorten problemen: fouten en waarschuwingen. Foutenblokkering en activering van tests. Waarschuwingen geven mogelijke problemen aan die activering of publicatie van de test niet blokkeren. U zult een beschrijving van de kwestie en een identiteitskaart van het puntenlogboek van type ERR_XXX_XXX zien. Dit zal technische steun helpen de kwestie identificeren.
