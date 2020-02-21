@@ -20,7 +20,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;Reizigerslijst&quot;
->abstract=&quot;De reislijst staat u toe om al uw reizen in één keer te bekijken, hun status te zien en basisacties uit te voeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een voltooide reis niet stoppen of verwijderen. U kunt de zoekbalk ook gebruiken om een reis te zoeken.&quot;
+>abstract=&quot;De reislijst staat u toe om al uw reizen in één keer te bekijken, hun status te zien en basisacties uit te voeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld niet stoppen of een gestopt traject verwijderen. U kunt de zoekbalk ook gebruiken om een reis te zoeken.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Watch demo video&quot;
 
 
@@ -43,10 +43,6 @@ U hebt ook toegang tot Journey Orchestration via de startpagina van Experience C
 Met de bovenste menu&#39;s kunt u door de verschillende functies van Journey Orchestration navigeren: **[!UICONTROL Home]**(de ritten),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
-
-Klik op het ![](../assets/icon-context.png) pictogram in de rechterbovenhoek van het scherm om de contextafhankelijke Help weer te geven. Het is beschikbaar over de verschillende schermen van de Orchestration van de Reis (reizen, gebeurtenissen, acties en gegevensbronnen). Op deze manier kunt u een korte beschrijving weergeven van de huidige functionaliteit en toegang krijgen tot verwante artikelen en video&#39;s.
-
-![](../assets/journey2bis.png)
 
 ## Zoeken en filteren{#section_lgm_hpz_pgb}
 
