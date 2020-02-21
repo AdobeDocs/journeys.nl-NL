@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
@@ -26,15 +26,19 @@ Fouten worden weergegeven met een waarschuwingssymbool dat wordt weergegeven op 
 
 ![](../assets/journey63.png)
 
-Naast de **[!UICONTROL Test]**schakeloptie en de**[!UICONTROL Publish]** knop kan een waarschuwingsbord worden weergegeven. Dit waarschuwingsteken bevat fouten die door het systeem zijn gedetecteerd en voorkomt activering van de testmodus of publicatie van de reis. Meestal zijn fouten die door het systeem worden gedetecteerd gekoppeld aan fouten die zichtbaar zijn voor de activiteiten, maar soms zijn ze gekoppeld aan andere problemen. In dit geval kunt u deze weergeven en proberen het probleem te identificeren aan de hand van de foutbeschrijving. Als u het probleem niet kunt identificeren, kunt u de gegevens kopiëren en naar de beheerder of ter ondersteuning verzenden. Fouten die de test blokkeren en fouten die de publicatie blokkeren, zijn vergelijkbaar.
+Als bijvoorbeeld op het canvas twee activiteiten worden losgekoppeld, wordt een waarschuwing weergegeven.
+
+![](../assets/canvas-disconnected.png)
+
+Naast de **[!UICONTROL Test]** schakeloptie en de **[!UICONTROL Publish]** knop kan een waarschuwingsbord worden weergegeven. Dit waarschuwingsteken bevat fouten die door het systeem zijn gedetecteerd en voorkomt activering van de testmodus of publicatie van de reis. Meestal zijn fouten die door het systeem worden gedetecteerd gekoppeld aan fouten die zichtbaar zijn voor de activiteiten, maar soms zijn ze gekoppeld aan andere problemen. In dit geval kunt u deze weergeven en proberen het probleem te identificeren aan de hand van de foutbeschrijving. Als u het probleem niet kunt identificeren, kunt u de gegevens kopiëren en naar de beheerder of ter ondersteuning verzenden. Fouten die de test blokkeren en fouten die de publicatie blokkeren, zijn vergelijkbaar.
 
 Het systeem detecteert twee soorten problemen: fouten en waarschuwingen. Foutenblokkering en activering van tests. Waarschuwingen geven mogelijke problemen aan die activering of publicatie van de test niet blokkeren. U zult een beschrijving van de kwestie en een identiteitskaart van het puntenlogboek van type ERR_XXX_XXX zien. Dit zal technische steun helpen de kwestie identificeren.
 
-Er kunnen twee verschillende kleuren worden weergegeven op het teken naast de **[!UICONTROL Test]**schakelknop en de**[!UICONTROL Publish]** knop. Het teken wordt rood weergegeven in het geval van fouten. Het wordt oranje weergegeven in het geval van waarschuwingen.
+Er kunnen twee verschillende kleuren worden weergegeven op het teken naast de **[!UICONTROL Test]** schakelknop en de **[!UICONTROL Publish]** knop. Het teken wordt rood weergegeven in het geval van fouten. Het wordt oranje weergegeven in het geval van waarschuwingen.
 
 ![](../assets/journey75.png)
 
-Fouten en waarschuwingen die globaal zijn voor de rit, worden eerst in de lijst weergegeven. Fouten en waarschuwingen met betrekking tot specifieke activiteiten worden na, op volgorde van activiteit of uiterlijk op de reis van links naar rechts vermeld. De **[!UICONTROL Copy details]**knoop kopieert technische informatie over de reis die het steunteam kan gebruiken om problemen op te lossen.
+Fouten en waarschuwingen die globaal zijn voor de rit, worden eerst in de lijst weergegeven. Fouten en waarschuwingen met betrekking tot specifieke activiteiten worden na, op volgorde van activiteit of uiterlijk op de reis van links naar rechts vermeld. De **[!UICONTROL Copy details]** knoop kopieert technische informatie over de reis die het steunteam kan gebruiken om problemen op te lossen.
 
 ## Controleren of gebeurtenissen correct zijn verzonden{#section_rqz_11t_dgb}
 
