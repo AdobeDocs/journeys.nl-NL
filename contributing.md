@@ -19,7 +19,7 @@ Begin met het indienen van een probleem. De bestaande comités voor dit project 
 
 ## Licentieovereenkomst voor contribuant
 
-Alle bijdragen van derden aan dit project moeten vergezeld gaan van een ondertekende bijdrageovereenkomst. Dit geeft de toestemming van Adobe om uw bijdragen als deel van het project opnieuw te verdelen. [Onderteken onze CLA](https://opensource.adobe.com/cla.html). U hoeft slechts één keer een Adobe CLA te verzenden, dus als u al een eerder hebt verzonden, kunt u het beste gaan!
+Alle bijdragen van derden aan dit project moeten vergezeld gaan van een ondertekende bijdrageovereenkomst. Dit geeft de toestemming van Adobe om uw bijdragen als deel van het project opnieuw te verdelen. [Onderteken onze CLA](http://opensource.adobe.com/cla.html). U hoeft slechts één keer een Adobe CLA te verzenden, dus als u al een eerder hebt verzonden, kunt u het beste gaan!
 
 ## Codebeoordelingen
 
