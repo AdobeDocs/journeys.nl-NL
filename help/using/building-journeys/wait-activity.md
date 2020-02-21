@@ -11,14 +11,14 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
 
 # Wacht op activiteit{#section_rlm_nft_dgb}
 
-Als u wilt wachten alvorens de volgende activiteit in de weg uit te voeren, kunt u een **[!UICONTROL Wait]**activiteit gebruiken. Hiermee kunt u bepalen wanneer de volgende activiteit wordt uitgevoerd. Er zijn vier opties beschikbaar:
+Als u wilt wachten alvorens de volgende activiteit in de weg uit te voeren, kunt u een **[!UICONTROL Wait]** activiteit gebruiken. Hiermee kunt u bepalen wanneer de volgende activiteit wordt uitgevoerd. Er zijn vier opties beschikbaar:
 
 * [Duur](#duration)
 * [Vaste datum](#fixed_date)
@@ -37,7 +37,7 @@ U kunt een voorwaarde definiëren als u de wachttijd wilt beperken tot een bepaa
 >
 >De maximale wachttijd is 30 dagen.
 >
->In testwijze, worden alle wachtende activiteiten automatisch geplaatst aan laatste 5 seconden. Hierdoor hebt u snel toegang tot de testresultaten.
+>Op testwijze, staat de **** Wacht tijd in testparameter u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [](../building-journeys/testing-the-journey.md)
 
 ## Wachttijd duur{#duration}
 
@@ -75,10 +75,10 @@ Bij dit type wachttijd wordt een score gebruikt die in het Platform is berekend.
 >
 >De eerste gebeurtenis van uw reis moet een namespace hebben.
 >
->Deze mogelijkheid is alleen beschikbaar na een **[!UICONTROL Email]**activiteit. U hebt Adobe Campaign Standard nodig.
+>Deze mogelijkheid is alleen beschikbaar na een **[!UICONTROL Email]** activiteit. U hebt Adobe Campaign Standard nodig.
 
-1. Definieer in het **[!UICONTROL Amount of time]**veld het aantal uren dat u wilt overwegen om het verzenden van e-mail te optimaliseren.
-1. Kies in het **[!UICONTROL Optimization type]**veld of er meer moet worden geklikt of dat er meer moet worden geopend.
+1. Definieer in het **[!UICONTROL Amount of time]** veld het aantal uren dat u wilt overwegen om het verzenden van e-mail te optimaliseren.
+1. Kies in het **[!UICONTROL Optimization type]** veld of er meer moet worden geklikt of dat er meer moet worden geopend.
 1. Definieer in het veld **Standaardtijd** de standaardtijd die u wilt wachten als de voorspellende score voor de verzendtijd niet beschikbaar is.
 
    >[!NOTE]
