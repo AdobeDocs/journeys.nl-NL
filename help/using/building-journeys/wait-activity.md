@@ -37,7 +37,7 @@ U kunt een voorwaarde definiëren als u de wachttijd wilt beperken tot een bepaa
 >
 >De maximale wachttijd is 30 dagen.
 >
->Op testwijze, staat de **** Wacht tijd in testparameter u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [](../building-journeys/testing-the-journey.md)
+>In testwijze, worden alle wachtende activiteiten automatisch geplaatst aan laatste 5 seconden. Hierdoor hebt u snel toegang tot de testresultaten.
 
 ## Wachttijd duur{#duration}
 
