@@ -21,20 +21,6 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 Deze pagina bevat een overzicht van alle documentatieupdates voor Journey Orchestration.
 U kunt ook de Opmerkingen bij de [release](../release-notes/release-notes.md)van de Journey Orchestration raadplegen.
 
-## maart 2020 {#march-2020}
-
-* Het activeren van meerdere gebeurtenissen is toegevoegd aan de sectie over de testmodus [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
-* De sectie van de wijze van de Test is bijgewerkt betreffende de nieuwe **Wacht tijd in testparameter** . [Meer informatie](../building-journeys/testing-the-journey.md)
-* De het logboeksectie van de Test is bijgewerkt met externe vraagfoutencodes en reacties. [Meer informatie](../building-journeys/testing-the-journey.md#viewing_logs)
-* Het tijdzonebeheer wordt nu gecentraliseerd in het deelvenster met reiseigenschappen. Lees [hier](../building-journeys/changing-properties.md#timezone) en [hier meer](../building-journeys/timezone-management.md)
-* De sectie Journey designer is bijgewerkt met recente verbeteringen. [Meer informatie](../building-journeys/using-the-journey-designer.md)
-* De interfacebeschrijving is bijgewerkt met informatie over contextuele hulp. [Meer informatie](../about/user-interface.md#section_ksq_zr1_ffb)
-* Wanneer u door **XDM-velden** bladert, wordt de vriendelijke naam nu weergegeven. Verwante secties zijn bijgewerkt. [Meer informatie](../event/defining-the-payload-fields.md)
-
-## februari 2020 {#february-2020}
-
-* De sneltoetssectie is bijgewerkt. Met de sneltoets **C** kunt u een nieuw item maken in alle lijstschermen. [Meer informatie](../about/user-interface.md#section_ksq_zr1_ffb)
-
 ## januari 2020 {#january-2020}
 
 * Er zijn beperkingen voor het ophalen toegevoegd voor [ervaringsgebeurtenissen](../datasource/adobe-experience-platform-data-source.md) en [segmenten](../functions/functioninsegment.md).
