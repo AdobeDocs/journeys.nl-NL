@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
 
 ---
 
@@ -20,6 +20,21 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 Deze pagina bevat een overzicht van alle documentatieupdates voor Journey Orchestration.
 U kunt ook de Opmerkingen bij de [release](../release-notes/release-notes.md)van de Journey Orchestration raadplegen.
+
+## maart 2020 {#march-2020}
+
+* Het activeren van meerdere gebeurtenissen is toegevoegd aan de sectie over de testmodus [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
+* De sectie van de wijze van de Test is bijgewerkt betreffende de nieuwe **Wacht tijd in testparameter** . [Meer informatie](../building-journeys/testing-the-journey.md)
+* De het logboeksectie van de Test is bijgewerkt met externe vraagfoutencodes en reacties. [Meer informatie](../building-journeys/testing-the-journey.md#viewing_logs)
+* Het tijdzonebeheer wordt nu gecentraliseerd in het deelvenster met reiseigenschappen. Lees [hier](../building-journeys/changing-properties.md#timezone) en [hier meer](../building-journeys/timezone-management.md)
+* De sectie Journey designer is bijgewerkt met recente verbeteringen. [Meer informatie](../building-journeys/using-the-journey-designer.md)
+* De interfacebeschrijving is bijgewerkt met informatie over contextuele hulp. [Meer informatie](../about/user-interface.md#section_ksq_zr1_ffb)
+* Wanneer u door **XDM-velden** bladert, wordt de vriendelijke naam nu weergegeven. Verwante secties zijn bijgewerkt. [Meer informatie](../about/user-interface.md#friendly-names-display)
+
+
+## februari 2020 {#february-2020}
+
+* De sneltoetssectie is bijgewerkt. Met de sneltoets **C** kunt u een nieuw item maken in alle lijstschermen. [Meer informatie](../about/user-interface.md#section_ksq_zr1_ffb)
 
 ## januari 2020 {#january-2020}
 
