@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -22,7 +22,7 @@ Met het menu Home kunt u de **lijst met reizen** weergeven. Creeer een nieuwe re
 
 ## De reislijst {#journey_list}
 
-Met de **reislijst** kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt een stopreis bijvoorbeeld niet stoppen. U kunt de zoekbalk ook gebruiken om een reis te zoeken.
+Met de **reislijst** kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een voltooide reis niet stoppen of verwijderen. U kunt de zoekbalk ook gebruiken om een reis te zoeken.
 
 U **[!UICONTROL Filters]** kunt het dialoogvenster openen door linksboven in de lijst op het filterpictogram te klikken. Met het menu Filters kunt u de weergegeven ritten filteren op basis van verschillende criteria (status, de criteria die u hebt gemaakt, de criteria die in de laatste 30 dagen zijn gewijzigd, alleen de laatste versies, enzovoort). U kunt er ook voor kiezen om alleen de ritten weer te geven die een bepaalde gebeurtenis, veldgroep of handeling gebruiken. Kolommen die in de lijst worden weergegeven, kunnen worden geconfigureerd. Alle filters en kolommen worden per gebruiker opgeslagen.
 
@@ -45,6 +45,12 @@ Het **palet** bevindt zich aan de linkerkant van het scherm. Alle beschikbare ac
 >Merk op dat er regels zijn wanneer het vestigen van een reis. Niet-toegestane configuratie wordt genegeerd. U kunt bijvoorbeeld geen acties parallel plaatsen, een activiteit aan een vorige stap koppelen om een lijn te creëren, een reis met iets anders dan een gebeurtenis te beginnen, etc.
 
 ![](../assets/journey38.png)
+
+Met het pictogram Uitgeschakelde items **** tonen in de linkerbovenhoek kunt u niet-beschikbare elementen in het palet verbergen of weergeven, bijvoorbeeld gebeurtenissen die een andere naamruimte gebruiken dan de gebeurtenissen die tijdens uw reis worden gebruikt. Niet-beschikbare items worden standaard verborgen. Als u deze weergeeft, worden ze grijs weergegeven.
+
+Wanneer u het veld **Zoeken** gebruikt, wordt het aantal resultaten weergegeven voor elke categorie canvasactiviteiten.
+
+![](../assets/palette-filter.png)
 
 ## Het canvas {#canvas}
 
@@ -79,3 +85,7 @@ Wanneer u naar een gebeurtenis luistert, raden we u aan niet oneindig op de gebe
 Plaats de cursor op het pad en klik op het **[!UICONTROL Delete arrow]** pictogram om het pad te verwijderen.
 
 ![](../assets/journey42ter.png)
+
+Wanneer twee activiteiten op het canvas worden losgekoppeld, wordt een waarschuwing weergegeven. Plaats de cursor op het waarschuwingspictogram om het foutbericht weer te geven. U kunt het probleem verhelpen door de ontkoppelde activiteit te verplaatsen en deze aan te sluiten op de vorige activiteit.
+
+![](../assets/canvas-disconnected.png)
