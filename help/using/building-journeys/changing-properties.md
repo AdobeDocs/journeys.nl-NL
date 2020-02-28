@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: 76369cd714c513e0038278ad058bf1ba43fcd240
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 Klik op het potloodpictogram in de rechterbovenhoek om de eigenschappen van de rit te openen.
 
-U kunt de naam van de reis wijzigen, een beschrijving toevoegen, terugkeer toestaan, begin- en einddatum kiezen en een **[!UICONTROL Timeout and error]**duur definiëren als u beheerder bent.
+U kunt de naam van de reis wijzigen, een beschrijving toevoegen, terugkeer toestaan, begin- en einddatum kiezen en een **[!UICONTROL Timeout and error]** duur definiëren als u beheerder bent.
 
 ![](../assets/journey32.png)
 
@@ -33,11 +33,11 @@ Wanneer een reis &quot;eindigt&quot;, zal het de status hebben **[!UICONTROL Fin
 
 ## Time-out en fout in reisactiviteiten {#timeout_and_error}
 
-Wanneer u een actie of voorwaardenactiviteit bewerkt, kunt u een alternatief pad definiëren in het geval van een fout of time-out. Als de verwerking van de activiteit die een derdensysteem ondervraagt de onderbrekingsduur overschrijdt die in de eigenschappen van de reis (**[!UICONTROL Timeout and  error]**gebied) wordt bepaald, zal de tweede weg worden gekozen om een potentiële terugvalactie uit te voeren.
+Wanneer u een actie of voorwaardenactiviteit bewerkt, kunt u een alternatief pad definiëren in het geval van een fout of time-out. Als de verwerking van de activiteit die een derdensysteem ondervraagt de onderbrekingsduur overschrijdt die in de eigenschappen van de reis (**[!UICONTROL Timeout and  error]** gebied) wordt bepaald, zal de tweede weg worden gekozen om een potentiële terugvalactie uit te voeren.
 
 Toegestane waarden liggen tussen 1 en 30 seconden.
 
-Wij adviseren dat u een zeer korte **[!UICONTROL Timeout and error]**waarde bepaalt als uw reis tijdgevoelig is (voorbeeld: reageren op de locatie in real time van een persoon) omdat u de handeling niet langer dan een paar seconden kunt uitstellen. Als uw reis minder tijdgevoelig is, kunt u een langere waarde gebruiken om meer tijd aan het geroepen systeem te geven om een geldige reactie te verzenden.
+Wij adviseren dat u een zeer korte **[!UICONTROL Timeout and error]** waarde bepaalt als uw reis tijdgevoelig is (voorbeeld: reageren op de locatie in real time van een persoon) omdat u de handeling niet langer dan een paar seconden kunt uitstellen. Als uw reis minder tijdgevoelig is, kunt u een langere waarde gebruiken om meer tijd aan het geroepen systeem te geven om een geldige reactie te verzenden.
 
 Journey Orchestration gebruikt ook een global timeout. Zie de [volgende sectie](#global_timeout).
 
@@ -50,3 +50,11 @@ Naast de [time-out](#timeout_and_error) die wordt gebruikt bij reisactiviteiten,
 >Reisorchestratie reageert niet rechtstreeks op verzoeken om privacy-opt-out, toegang of verwijdering. De wereldwijde time-out zorgt er echter voor dat individuen nooit langer dan 30 dagen op een reis blijven.
 
 Vanwege de 30 dagen durende reistijd, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat de heringstop meer dan 30 dagen werkt. Aangezien we alle informatie over personen die 30 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 30 dagen geleden, is binnengekomen.
+
+## Tijdzone en profieltijdzone {#timezone}
+
+De tijdzone wordt gedefinieerd op het niveau van de reis.
+
+U kunt een vaste tijdzone invoeren of de profielen van het Platform van de Ervaring gebruiken om de reistijdzone te bepalen.
+
+Zie voor meer informatie over tijdzonebeheer [](../building-journeys/timezone-management.md).
