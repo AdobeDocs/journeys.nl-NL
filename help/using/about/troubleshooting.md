@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -25,6 +25,10 @@ Voordat u uw reis gaat testen en publiceren, controleert u of alle activiteiten 
 Fouten worden weergegeven met een waarschuwingssymbool dat wordt weergegeven op de activiteiten zelf op het canvas. Plaats de cursor op het uitroepteken om het foutbericht weer te geven. Als u op de activiteit klikt, zou u de lijn in fout met een waarschuwing moeten zien. Als een verplicht veld bijvoorbeeld leeg is, wordt een fout weergegeven.
 
 ![](../assets/journey63.png)
+
+Als bijvoorbeeld op het canvas twee activiteiten worden losgekoppeld, wordt een waarschuwing weergegeven.
+
+![](../assets/canvas-disconnected.png)
 
 Naast de **[!UICONTROL Test]** schakeloptie en de **[!UICONTROL Publish]** knop kan een waarschuwingsbord worden weergegeven. Dit waarschuwingsteken bevat fouten die door het systeem zijn gedetecteerd en voorkomt activering van de testmodus of publicatie van de reis. Meestal zijn fouten die door het systeem worden gedetecteerd gekoppeld aan fouten die zichtbaar zijn voor de activiteiten, maar soms zijn ze gekoppeld aan andere problemen. In dit geval kunt u deze weergeven en proberen het probleem te identificeren aan de hand van de foutbeschrijving. Als u het probleem niet kunt identificeren, kunt u de gegevens kopiëren en naar de beheerder of ter ondersteuning verzenden. Fouten die de test blokkeren en fouten die de publicatie blokkeren, zijn vergelijkbaar.
 
