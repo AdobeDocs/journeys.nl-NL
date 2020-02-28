@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 
 ---
 
@@ -37,7 +37,7 @@ U kunt een voorwaarde definiëren als u de wachttijd wilt beperken tot een bepaa
 >
 >De maximale wachttijd is 30 dagen.
 >
->In testwijze, worden alle wachtende activiteiten automatisch geplaatst aan laatste 5 seconden. Hierdoor hebt u snel toegang tot de testresultaten.
+>Op testwijze, staat de **** Wacht tijd in testparameter u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [](../building-journeys/testing-the-journey.md)
 
 ## Wachttijd duur{#duration}
 
@@ -47,19 +47,19 @@ Selecteer de duur van de wachttijd voordat de volgende activiteit wordt uitgevoe
 
 ## Wachttijd voor vaste datum{#fixed_date}
 
-Selecteer de datum voor de uitvoering van de volgende activiteit. Wanneer u een vaste datum definieert, moet u een tijdzone opgeven. Zie [](../building-journeys/timezone-management.md).
+Selecteer de datum voor de uitvoering van de volgende activiteit.
 
 ![](../assets/journey56.png)
 
 ## Aangepast wachten{#custom}
 
-Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 2020 om 17.00 uur, met een geavanceerde expressie die is gebaseerd op een veld dat afkomstig is van een gebeurtenis of gegevensbron. U kunt hiermee geen aangepaste duur definiëren, bijvoorbeeld 7 dagen. De expressie in de expressie-editor moet een dateTimeOnly-indeling hebben. Zie [](../expression/expressionadvanced.md). Voor meer informatie over de DateTimeOnly-indeling raadpleegt u [](../expression/data-types.md)
+Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 2020 om 17.00 uur, met een geavanceerde expressie die is gebaseerd op een veld dat afkomstig is van een gebeurtenis of gegevensbron. U kunt hiermee geen aangepaste duur definiëren, bijvoorbeeld 7 dagen. De expressie in de expressie-editor moet een dateTimeOnly-indeling hebben. Zie [](../expression/expressionadvanced.md). Zie voor meer informatie over de indeling dateTimeOnly [](../expression/data-types.md).
 
 >[!NOTE]
 >
 >U kunt een dateTimeOnly-expressie gebruiken of een functie gebruiken om om te zetten in een dateTimeOnly. Bijvoorbeeld: toDateTimeOnly(@{Event.biedOpened.activity.endTime}), waarbij het veld in de gebeurtenis de vorm 2016-08-12T09:46:06 heeft.
 >
->De **tijdzone** wordt verwacht in een andere plaats in de ruit van de douane wachtte configuratie. Dientengevolge, is het vandaag niet mogelijk van de interface om bij volledig ISO-8601 timestamp mixing time en tijdzone verschuiving zoals 2016-08-12T09:46:06.982-05 direct te richten. Zie [](../building-journeys/timezone-management.md).
+>De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, is het vandaag niet mogelijk van de interface om bij volledig ISO-8601 timestamp mixing time en tijdzone verschuiving zoals 2016-08-12T09:46:06.982-05 direct te richten. Zie [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
