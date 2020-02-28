@@ -9,20 +9,19 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
 
 ---
 
 
-# Gebruikersinterface {#concept_rcq_lqt_52b}
+# Gebruikersinterface{#concept_rcq_lqt_52b}
 
 
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;Reizigerslijst&quot;
->abstract=&quot;De reislijst staat u toe om al uw reizen in één keer te bekijken, hun status te zien en basisacties uit te voeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld niet stoppen of een gestopt traject verwijderen. U kunt de zoekbalk ook gebruiken om een reis te zoeken.&quot;
+>abstract=&quot;De reislijst staat u toe om al uw reizen in één keer te bekijken, hun status te zien en basisacties uit te voeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een voltooide reis niet stoppen of verwijderen. U kunt de zoekbalk ook gebruiken om een reis te zoeken.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Watch demo video&quot;
-
 
 >[!NOTE]
 >
@@ -44,6 +43,10 @@ Met de bovenste menu&#39;s kunt u door de verschillende functies van Journey Orc
 
 ![](../assets/journey2.png)
 
+Klik op het ![](../assets/icon-context.png) pictogram in de rechterbovenhoek van het scherm om de contextafhankelijke Help weer te geven. Het is beschikbaar over de verschillende schermen van de Orchestration van de Reis (reizen, gebeurtenissen, acties en gegevensbronnen). Op deze manier kunt u een korte beschrijving weergeven van de huidige functionaliteit en toegang krijgen tot verwante artikelen en video&#39;s.
+
+![](../assets/journey2bis.png)
+
 ## Zoeken en filteren{#section_lgm_hpz_pgb}
 
 In de lijsten **[!UICONTROL Home]**,**[!UICONTROL Data Sources]****[!UICONTROL Events]** en **[!UICONTROL Actions]** lijsten kunt u zoeken naar een item.
@@ -52,11 +55,13 @@ U **[!UICONTROL Filters]** kunt het dialoogvenster openen door linksboven in de 
 
 Gebruik in de lijst **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]** lijsten de **aanmaakfilters** om te filteren op de aanmaakdatum en de gebruiker. U kunt bijvoorbeeld alleen de gebeurtenissen weergeven die u de afgelopen 30 dagen hebt gemaakt.
 
-In de reislijst (onder **[!UICONTROL Home]**) kunt u, naast het **[!UICONTROL Creation filters]**, ook de weergegeven ritten filteren op basis van hun status en versie (**[!UICONTROL Status and version filters]**). U kunt er ook voor kiezen om alleen de ritten weer te geven die een bepaalde gebeurtenis, veldgroep of handeling (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**) gebruiken. Hiermee **[!UICONTROL Publication filters]** kunt u een publicatiedatum of -gebruiker selecteren. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live reizen weer te geven die gisteren zijn gepubliceerd. Zie [](../building-journeys/using-the-journey-designer.md).
+In de reislijst (onder **[!UICONTROL Home]**) kunt u, naast het **[!UICONTROL Creation filters]**, ook de weergegeven ritten filteren op basis van hun status en versie (**[!UICONTROL Status and version filters]**). U kunt er ook voor kiezen om alleen de ritten weer te geven die een bepaalde gebeurtenis, veldgroep of handeling (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**) gebruiken. **[!UICONTROL Publication filters]** Selecteer een publicatiedatum of -gebruiker. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live reizen weer te geven die gisteren zijn gepubliceerd. Zie [](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
 >Merk op dat de getoonde kolommen kunnen worden gepersonaliseerd gebruikend de configuratieknoop op het hoogste recht van de lijsten. Personalisatie wordt voor elke gebruiker opgeslagen.
+
+Met de **[!UICONTROL Last update]** kolommen en de **[!UICONTROL Last update by]** kolommen kunt u zien wanneer de laatste update van uw reizen is uitgevoerd en welke gebruiker deze heeft uitgevoerd.
 
 ![](../assets/journey74.png)
 
@@ -67,6 +72,23 @@ In de gebeurtenis, gegevensbron en actieconfiguratievensters, toont het **[!UICO
 In de verschillende lijsten kunt u basishandelingen op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
 
 ![](../assets/journey4.png)
+
+## Weergave XDM-veldnamen{#friendly-names-display}
+
+Namen van XDM-velden worden in schema&#39;s gedefinieerd onder veldnamen en weergavenamen bij het definiëren van de [gebeurtenislading](../event/defining-the-payload-fields.md), het laden [van](../datasource/field-groups.md) veldgroepen en het selecteren van velden in de [expressieeditor](../expression/expressionadvanced.md).
+Wanneer u een veld selecteert, wordt de technische naam van het veld en een gebruikersvriendelijkere naam weergegeven.
+
+U kunt beschrijvingen zoals &quot;xdm:alternateDisplayInfo&quot;verstrekken terwijl het opzetten van schema&#39;s om vriendschappelijke namen te bepalen die vertoningsnamen zullen vervangen. U kunt hiermee ook de waarden &quot;title&quot; en &quot;description&quot; van de schemavelden wijzigen.
+
+Als een vriendelijke naam beschikbaar is, wordt het veld weergegeven als `<friendly-name>(<name>)`. Als er geen vriendelijke naam beschikbaar is, wordt de weergavenaam weergegeven, bijvoorbeeld `<display-name>(<name>)`. Als geen van deze waarden is gedefinieerd, wordt alleen de technische naam van het veld weergegeven `<name>`.
+
+U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Voor meer informatie, zie de de ontwikkelaarsgids [van de Registratie van het](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)Schema.
+
+![](../assets/xdm-from-descriptors.png)
+
+>[!NOTE]
+>
+>De vriendschappelijke namen worden niet teruggewonnen wanneer u gebieden van een vereniging van schema&#39;s selecteert.
 
 ## De verschillende sneltoetsen gebruiken{#section_ksq_zr1_ffb}
 
