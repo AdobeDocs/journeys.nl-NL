@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57cc43d8f2a223c04cc4ccccb3b3c3e0bcadfc1
+source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
 
 ---
 
@@ -19,22 +19,41 @@ source-git-commit: f57cc43d8f2a223c04cc4ccccb3b3c3e0bcadfc1
 
 # Tijdzonebeheer {#timezone_management}
 
-De definitie van de tijdzone is beschikbaar in de volgende activiteiten:
+U kunt een tijdzone in de [eigenschappen](../building-journeys/changing-properties.md) van uw reis bepalen.
+
+Als u eigenschappen wilt openen, klikt u op het potloodpictogram rechtsboven in het scherm.
+
+Deze tijdzone wordt gebruikt voor elke activiteit van de reis die een tijdselement bevat, zoals:
 
 * [](../building-journeys/condition-activity.md#time_condition)
 * [](../building-journeys/condition-activity.md#date_condition)
 * [](../building-journeys/wait-activity.md#custom)
 * [](../building-journeys/wait-activity.md#fixed_date)
 
-Als de entry-gebeurtenis van de reis een namespace heeft, die betekent dat de reis de dienst van het Profiel van de Klant in real time van het Platform van Gegevens kan bereiken, is de tijdzone vooraf bepaald met die gespecificeerd in het profiel van het individu dat in de reis stroomt. Als het profiel van het individu geen tijdzone bevat, wordt de tijdzone van de instantie gebruikt. U kunt contact opnemen met de beheerder om de tijdzone van de instantie te kennen.
+U kunt een tijdzone selecteren of de tijdzone gebruiken die is gedefinieerd in het gebruikersprofiel.
 
-![](../assets/journey73.png)
+## Een vaste tijdzone definiëren {#fixed-timezone}
 
 De tijdzone kan ook worden vastgesteld. Wis de vooraf gedefinieerde tijdzone en kies een tijdzone in de vervolgkeuzelijst. Als je een vaste tijdzone gebruikt, zal dat hetzelfde zijn voor iedereen die de reis binnenkomt.
 
+U doet dit door in **[!UICONTROL Properties]** een tijdzone te selecteren.
+
+![](../assets/journey73.png)
+
+## Profielen gebruiken om de tijdzone voor het transport te definiëren {#timezone-from-profiles}
+
+Als de entry-gebeurtenis van de reis een namespace heeft, die betekent dat de reis de dienst van het Profiel van de Klant in real time van het Platform van Gegevens kan bereiken, is de tijdzone vooraf bepaald met die gespecificeerd in het profiel van het individu dat in de reis stroomt.
+
+Als een tijdzone in het profiel van het Platform van de Ervaring wordt bepaald, kan het in de reis worden teruggewonnen.
+
+Als het profiel van het individu geen tijdzone bevat, wordt de opgehaalde tijdzone gedefinieerd in het tijdzoneveld.
+
+Om dit te doen, in **[!UICONTROL Properties]**, controleer **[!UICONTROL Use Profile timezone in timers and conditions]**.
+
 ![](../assets/journey72.png)
 
-Tot slot kan de tijdzone dynamisch zijn voor elke persoon die de stap ingaat. In dit geval gebruikt u de expressie-editor om aan te geven waar u wilt dat het systeem deze gegevens ophaalt (dit kan een gebeurtenis of gegevensbron zijn). Zie [](../expression/expressionadvanced.md).
+## Tijdzones gebruiken in expressies {#timezone-in-expressions}
 
+Tijdzones worden gebruikt om expressie samen te stellen met de geavanceerde expressieeditor. In dit geval gebruikt u de expressie-editor om aan te geven waar het systeem deze gegevens moet ophalen. Zie [](../expression/expressionadvanced.md).
 
 De begin- en einddatum van een reis kunnen niet worden gekoppeld aan een specifieke tijdzone. Ze worden automatisch gekoppeld aan de tijdzone van de instantie.
