@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
+source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 
 ---
 
@@ -23,14 +23,12 @@ source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 >title=&quot;Gegevensbronnen&quot;
 >abstract=&quot;De gegevensbronconfiguratie wordt altijd uitgevoerd door een technische gebruiker. De gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt, voor: voorwaardendefinitie, parameter en verpersoonlijkingsgegevens in acties, douane wachttijddefinitie, definitie van de douanetijdzone.&quot;
 
-De gegevensbronconfiguratie wordt altijd uitgevoerd door een **technische gebruiker**.
-
 De gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt, voor:
 
-* conditiedefinitie
-* parameter- en personalisatiegegevens in handelingen
-* aangepaste wachtdefinitie
-* definitie van aangepaste tijdzone
+* [conditiedefinitie](../building-journeys/condition-activity.md)
+* parameter- en personalisatiegegevens in [handelingen](../action/action.md)
+* [aangepaste wachtdefinitie](../building-journeys/wait-activity.md#custom)
+* [definitie van aangepaste tijdzone](../building-journeys/timezone-management.md)
 
 Deze configuratie is niet vereist als uw reizen alleen lokale gegevens uit een gebeurtenislading gebruiken. Bijvoorbeeld, als uw reis uit een gebeurtenis wordt samengesteld die door een e-mailactiviteit wordt gevolgd die slechts gegevens van de gebeurtenis gebruikt, is er geen behoefte om een gegevensbron te vormen.
 
@@ -39,11 +37,17 @@ Er zijn twee soorten gegevensbronnen:
 * De vooraf geconfigureerde gegevensbron van het ervaringsplatform die de verbinding met de Real-Time Dienst van het Profiel van de Klant bepaalt. Dit is een ingebouwde gegevensbron. Zie [](../datasource/adobe-experience-platform-data-source.md).
 * De externe gegevensbronnen waarmee u een verbinding met externe systemen kunt definiëren. Dit zijn de methoden die u kunt maken. Zie [](../datasource/external-data-sources.md).
 
-Voor elke gegevensbron definieert u de informatie die u wilt ophalen met behulp van veldgroepen. Zie [](../datasource/field-groups.md).
+Voor elke gegevensbron definieert u de informatie die u wilt ophalen met behulp van veldgroepen. Veldgroepen zijn sets velden die uit een gegevensbron kunnen worden opgehaald. Zie [](../datasource/field-groups.md).
+
+Voor meer informatie over hoe te om een Bron van de Gegevens van het Platform van de Ervaring en een externe gegevensbron te vormen en hoe te om gegevens in een reis te vinden en te gebruiken, deze [zelfstudievideo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html)bekijken.
 
 Hier zijn de belangrijkste stappen van de gegevensbronconfiguratie:
 
-1. Klik in het bovenste menu op de **[!UICONTROL Data Sources]**tab.
+>[!NOTE]
+>
+>De gegevensbronconfiguratie wordt altijd uitgevoerd door een **technische gebruiker**.
+
+1. Klik in het bovenste menu op de **[!UICONTROL Data Sources]** tab.
 
    De lijst met gegevensbronnen wordt weergegeven. Zie [](../about/user-interface.md) voor meer informatie over de interface.
 
