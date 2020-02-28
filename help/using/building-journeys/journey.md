@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 
 ---
 
@@ -29,13 +29,13 @@ Per reis is slechts één naamruimte toegestaan. Wanneer u de eerste gebeurtenis
 
 Hier volgen de belangrijkste stappen voor het maken en publiceren van een reis.
 
-1. Klik in het bovenste menu op de **[!UICONTROL Home]**tab.
+1. Klik in het bovenste menu op de **[!UICONTROL Home]** tab.
 
    De lijst met reizen wordt weergegeven. Zie [](../building-journeys/using-the-journey-designer.md) voor meer informatie over de interface.
 
    ![](../assets/journey30.png)
 
-1. Klik **[!UICONTROL Create]**om een nieuwe reis te maken.
+1. Klik **[!UICONTROL Create]** om een nieuwe reis te maken.
 
    ![](../assets/journey31.png)
 
@@ -44,7 +44,6 @@ Hier volgen de belangrijkste stappen voor het maken en publiceren van een reis.
    ![](../assets/journey32.png)
 
 1. Begin door een gebeurtenisactiviteit van het palet naar het canvas te slepen. U kunt ook dubbelklikken op een activiteit om deze aan het canvas toe te voegen.
-
 
    ![](../assets/journey33.png)
 
@@ -56,7 +55,7 @@ Hier volgen de belangrijkste stappen voor het maken en publiceren van een reis.
 
    ![](../assets/journey36.png)
 
-## Een reis beëindigen{#ending_a_journey}
+## Een reis beëindigen {#ending_a_journey}
 
 Er zijn twee manieren om een reis te beëindigen:
 
@@ -64,4 +63,3 @@ Er zijn twee manieren om een reis te beëindigen:
 * De persoon komt bij een voorwaardenactiviteit (of een wachttijdactiviteit met een voorwaarde) aan en past geen van de voorwaarden aan.
 
 De persoon kan dan opnieuw de reis betreden als herbinnenkomst is toegestaan. Zie [](../building-journeys/changing-properties.md).
-
