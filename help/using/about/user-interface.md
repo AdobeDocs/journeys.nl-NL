@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
+source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 
 ---
 
@@ -73,18 +73,15 @@ In de verschillende lijsten kunt u basishandelingen op elk element uitvoeren. U 
 
 ![](../assets/journey4.png)
 
-## Weergave XDM-veldnamen{#friendly-names-display}
+## Bladeren door gegevensplatformvelden {#friendly-names-display}
 
-Namen van XDM-velden worden in schema&#39;s gedefinieerd onder veldnamen en weergavenamen bij het definiëren van de [gebeurtenislading](../event/defining-the-payload-fields.md), het laden [van](../datasource/field-groups.md) veldgroepen en het selecteren van velden in de [expressieeditor](../expression/expressionadvanced.md).
-Wanneer u een veld selecteert, wordt de technische naam van het veld en een gebruikersvriendelijkere naam weergegeven.
+Bij het definiëren van een [gebeurtenislading](../event/defining-the-payload-fields.md), het laden [van een](../datasource/field-groups.md) veldgroep en het selecteren van velden in de [expressieeditor](../expression/expressionadvanced.md), wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring.
 
-U kunt beschrijvingen zoals &quot;xdm:alternateDisplayInfo&quot;verstrekken terwijl het opzetten van schema&#39;s om vriendschappelijke namen te bepalen die vertoningsnamen zullen vervangen. U kunt hiermee ook de waarden &quot;title&quot; en &quot;description&quot; van de schemavelden wijzigen.
-
-Als een vriendelijke naam beschikbaar is, wordt het veld weergegeven als `<friendly-name>(<name>)`. Als er geen vriendelijke naam beschikbaar is, wordt de weergavenaam weergegeven, bijvoorbeeld `<display-name>(<name>)`. Als geen van deze waarden is gedefinieerd, wordt alleen de technische naam van het veld weergegeven `<name>`.
-
-U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Voor meer informatie, zie de de ontwikkelaarsgids [van de Registratie van het](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)Schema.
+Als er beschrijvingen zoals &quot;xdm:alternateDisplayInfo&quot; worden opgegeven tijdens het instellen van schema&#39;s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en generieke velden. U kunt beschrijvingen van vriendschappelijke namen configureren via een API-aanroep. Voor meer informatie, zie de de ontwikkelaarsgids [van de Registratie van het](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)Schema.
 
 ![](../assets/xdm-from-descriptors.png)
+
+Als een vriendelijke naam beschikbaar is, wordt het veld weergegeven als `<friendly-name>(<name>)`. Als er geen vriendelijke naam beschikbaar is, wordt de weergavenaam weergegeven, bijvoorbeeld `<display-name>(<name>)`. Als geen van deze waarden is gedefinieerd, wordt alleen de technische naam van het veld weergegeven `<name>`.
 
 >[!NOTE]
 >
