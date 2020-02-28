@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+source-git-commit: 538b350165365479caef499a74346381643033d5
 
 ---
 
@@ -29,7 +29,7 @@ Er zijn vier soorten voorwaarden beschikbaar:
 
 ## Informatie over de Condition-activiteit {#about_condition}
 
-Klik **[!UICONTROL Add a path]**als u meerdere voorwaarden wilt definiëren. Voor elke voorwaarde wordt een nieuw pad toegevoegd in het canvas na de activiteit.
+Klik **[!UICONTROL Add a path]** als u meerdere voorwaarden wilt definiëren. Voor elke voorwaarde wordt een nieuw pad toegevoegd in het canvas na de activiteit.
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ Merk op dat het ontwerp van de reizen functionele gevolgen heeft. Wanneer meerde
 
 ![](../assets/journey48.png)
 
-U kunt een ander pad maken voor soorten publiek die niet in aanmerking komen voor de gedefinieerde voorwaarden door dit te controleren **[!UICONTROL Show path for other cases than the one(s) above]**. Deze optie is niet beschikbaar in gesplitste omstandigheden. Zie[Percentage splitsing](#percentage_split).
+U kunt een ander pad maken voor soorten publiek die niet in aanmerking komen voor de gedefinieerde voorwaarden door dit te controleren **[!UICONTROL Show path for other cases than the one(s) above]**. Deze optie is niet beschikbaar in gesplitste omstandigheden. Zie [Percentage splitsing](#percentage_split).
 
 In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een combinatie van velden. Alle beschikbare velden worden links op het scherm weergegeven. Sleep velden naar de hoofdzone. Als u de verschillende elementen wilt combineren, koppelt u ze aan elkaar om verschillende groepen en/of groepsniveaus te maken. Vervolgens kunt u een logische operator selecteren om elementen op hetzelfde niveau te combineren:
 
@@ -58,7 +58,11 @@ Hierdoor kunt u een voorwaarde definiëren op basis van velden uit de gegevensbr
 
 ## Tijdvoorwaarde{#time_condition}
 
-Hierdoor kunt u verschillende handelingen uitvoeren op basis van het uur van de dag en/of de dag van de week. U kunt bijvoorbeeld besluiten SMS-berichten overdag en &#39;s nachts tijdens weekdagen te verzenden. U kunt een specifieke tijdzone voor deze voorwaarde definiëren. Zie [](../building-journeys/timezone-management.md).
+Hierdoor kunt u verschillende handelingen uitvoeren op basis van het uur van de dag en/of de dag van de week. U kunt bijvoorbeeld besluiten SMS-berichten overdag en &#39;s nachts tijdens weekdagen te verzenden.
+
+>[!NOTE]
+>
+>De tijdzone is niet langer specifiek voor een bepaalde aandoening en wordt nu op het niveau van de reis gedefinieerd in de reiseigenschappen. Zie [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
@@ -75,6 +79,10 @@ Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voo
 
 ## Datumvoorwaarde {#date_condition}
 
-Hierdoor kunt u een andere stroom definiëren op basis van de datum. Bijvoorbeeld, als de persoon de stap tijdens de &quot;verkoop&quot;periode ingaat, zult u hem een specifiek bericht verzenden. De rest van het jaar zal je nog een bericht sturen. Wanneer u een datumvoorwaarde definieert, moet u een tijdzone opgeven. Zie [](../building-journeys/timezone-management.md).
+Hierdoor kunt u een andere stroom definiëren op basis van de datum. Bijvoorbeeld, als de persoon de stap tijdens de &quot;verkoop&quot;periode ingaat, zult u hem een specifiek bericht verzenden. De rest van het jaar zal je nog een bericht sturen.
+
+>[!NOTE]
+>
+>De tijdzone is niet langer specifiek voor een bepaalde aandoening en wordt nu op het niveau van de reis gedefinieerd in de reiseigenschappen. Zie [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
