@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 ---
 
@@ -64,7 +64,7 @@ Deze functies worden hieronder uitgelegd. In de volgende voorbeelden gebruiken w
 
 **De functie &quot;all(`<condition>`)&quot;**
 
-De **[!UICONTROL all]**functie laat de definitie van een filter op een bepaalde inzameling toe door een booleaanse uitdrukking te gebruiken.
+De **[!UICONTROL all]** functie laat de definitie van een filter op een bepaalde inzameling toe door een booleaanse uitdrukking te gebruiken.
 
 ```
 <listExpression>.all(<condition>)
@@ -72,11 +72,11 @@ De **[!UICONTROL all]**functie laat de definitie van een filter op een bepaalde 
 
 Bijvoorbeeld, onder alle app gebruikers, kunt u degenen krijgen gebruikend IOS 13 (booleaanse uitdrukking &quot;gebruikte app == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (voorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
 
-In een activiteit van de Voorwaarde van de Gegevensbron kunt u controleren of is het resultaat van de **[!UICONTROL all]**functie ongeldig of niet. U kunt deze**[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]**. Voor meer informatie, zie de activiteit[van de Voorwaarde van de](../building-journeys/condition-activity.md#data_source_condition)Gegevensbron.
+In een activiteit van de Voorwaarde van de Gegevensbron kunt u controleren of is het resultaat van de **[!UICONTROL all]** functie ongeldig of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]**. Voor meer informatie, zie de activiteit [van de Voorwaarde van de](../building-journeys/condition-activity.md#data_source_condition)Gegevensbron.
 
 **Voorbeeld 1:**
 
-We willen controleren of een gebruiker een specifieke versie van een toepassing heeft geïnstalleerd. Hiervoor krijgen we alle pushberichttokens die zijn gekoppeld aan mobiele toepassingen waarvoor de versie 1.0 is. Dan, voeren wij een voorwaarde met de **[!UICONTROL count]**functie uit om te controleren dat de teruggekeerde lijst van tekenen minstens één element bevat.
+We willen controleren of een gebruiker een specifieke versie van een toepassing heeft geïnstalleerd. Hiervoor krijgen we alle pushberichttokens die zijn gekoppeld aan mobiele toepassingen waarvoor de versie 1.0 is. Dan, voeren wij een voorwaarde met de **[!UICONTROL count]** functie uit om te controleren dat de teruggekeerde lijst van tekenen minstens één element bevat.
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -86,7 +86,7 @@ Het resultaat is waar.
 
 **Voorbeeld 2:**
 
-Hier gebruiken we de **[!UICONTROL count]**functie om te controleren of er pushberichttokens in de verzameling aanwezig zijn.
+Hier gebruiken we de **[!UICONTROL count]** functie om te controleren of er pushberichttokens in de verzameling aanwezig zijn.
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -130,7 +130,7 @@ Het resultaat van de expressie is **3**.
 
 **Voorbeeld 3:**
 
-Hier controleren we of een individu in de afgelopen 24 uur geen communicatie heeft ontvangen. Wij filtreren de inzameling van ervaringsgebeurtenissen die uit de datasource ExperiencePlatform worden teruggewonnen, gebruikend twee uitdrukkingen die op twee elementen van de inzameling worden gebaseerd. Met name wordt de tijdstempel van de gebeurtenis vergeleken met de dateTime die door de **[!UICONTROL nowWithDelta]**functie wordt geretourneerd.
+Hier controleren we of een individu in de afgelopen 24 uur geen communicatie heeft ontvangen. Wij filtreren de inzameling van ervaringsgebeurtenissen die uit de datasource ExperiencePlatform worden teruggewonnen, gebruikend twee uitdrukkingen die op twee elementen van de inzameling worden gebaseerd. Met name wordt de tijdstempel van de gebeurtenis vergeleken met de dateTime die door de **[!UICONTROL nowWithDelta]** functie wordt geretourneerd.
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -152,7 +152,6 @@ count(
 )._id}) > 0
 ```
 
-
 <!--**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
 
 `count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
@@ -171,12 +170,14 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]**is alleen beschikbaar bij het manipuleren van gebeurtenisverzamelingen en** currentDataPackField **>bij het manipuleren van gegevensbronverzamelingen. Wanneer het verwerken van inzamelingen met**[!UICONTROL all]**, **[!UICONTROL first]**en**[!UICONTROL last]**, wij
->loop elk element van de inzameling één voor één. **[!UICONTROL currentEventField]**en** currentDataPackField **>komt overeen met het element dat wordt herhaald.
+>**[!UICONTROL currentEventField]** is alleen beschikbaar bij het manipuleren van gebeurtenisverzamelingen en **currentDataPackField**
+>bij het manipuleren van gegevensbronverzamelingen. Wanneer het verwerken van inzamelingen met **[!UICONTROL all]**, **[!UICONTROL first]** en **[!UICONTROL last]**, wij
+>loop elk element van de inzameling één voor één. **[!UICONTROL currentEventField]** en **currentDataPackField**
+>komt overeen met het element dat wordt herhaald.
 
 **De functies &quot;first(`<condition>`)&quot; en &quot;last(`<condition>`)&quot;**
 
-Met de **[!UICONTROL first]**en**[!UICONTROL last]** functies kunt u ook een filter op de verzameling definiëren en tegelijkertijd het eerste/laatste element van de lijst retourneren dat aan het filter voldoet.
+Met de **[!UICONTROL first]** en **[!UICONTROL last]** functies kunt u ook een filter op de verzameling definiëren en tegelijkertijd het eerste/laatste element van de lijst retourneren dat aan het filter voldoet.
 
 _`<listExpression>.first(<condition>)`_
 
@@ -205,8 +206,8 @@ Het resultaat is &quot;token_2&quot;.
 >[!NOTE]
 >
 >De ervaringsgebeurtenissen worden van het Experience Platform opgehaald als een verzameling in omgekeerde chronologische volgorde, vandaar:
->* **[!UICONTROL first]**functie retourneert de meest recente gebeurtenis
->* **[!UICONTROL last]**functie retourneert de oudste functie.
+>* **[!UICONTROL first]** functie retourneert de meest recente gebeurtenis
+>* **[!UICONTROL last]** functie retourneert de oudste functie.
 
 
 **Voorbeeld 3:**
@@ -220,7 +221,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **De functie &quot;at(`<index>`)&quot;**
 
-Met de **[!UICONTROL at]**functie kunt u naar een specifiek element in een verzameling verwijzen op basis van een index.
+Met de **[!UICONTROL at]** functie kunt u naar een specifiek element in een verzameling verwijzen op basis van een index.
 Index 0 is de eerste index van de verzameling.
 
 _`<listExpression>`.at(`<index>`)_
