@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 ---
 
@@ -79,7 +79,7 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 <td>
 <p>Het <strong>reispalet</strong>aan de linkerkant van de reisontwerper is verbeterd:</p>
 <ul>
-<li>Met een nieuw pictogram naast de balk **Zoeken** kunt u niet-beschikbare elementen in het palet verbergen of weergeven, bijvoorbeeld gebeurtenissen die een andere naamruimte gebruiken dan de gebeurtenissen die tijdens de reis worden gebruikt. Niet-beschikbare items worden standaard verborgen.</li>
+<li>Met een nieuw pictogram naast de <strong>zoekbalk</strong> kunt u niet-beschikbare elementen in het palet verbergen of weergeven, bijvoorbeeld gebeurtenissen die een andere naamruimte gebruiken dan de gebeurtenissen die tijdens de reis worden gebruikt. Niet-beschikbare items worden standaard verborgen.</li>
 <li>Wanneer u het veld <strong>Zoeken</strong> gebruikt, wordt nu het aantal resultaten voor elke categorie canvasactiviteiten weergegeven.</li>
 <li>De navigatie tussen de verschillende activiteitencategorieën is verbeterd.</li>
 </ul>
