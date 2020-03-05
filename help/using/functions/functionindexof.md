@@ -1,6 +1,6 @@
 ---
 title: indexOf
-description: Meer informatie over de functie indexOf
+description: Meer weten over de functieindexOf
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,18 +11,18 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 ---
 
 
 # indexOf {#indexOf}
 
-Controleert of de eerste argumenttekenreeks eindigt met een specifieke tekenreeks (tweede argumenttekenreeks). Retourneer -1 als de tekenreeks niet wordt gevonden.
+Controleert als het eerste argumentkoord met een specifiek koord (tweede argumentkoord) beëindigt. Als het koord niet wordt gevonden, keer - 1 terug.
 
 ## Categorie
 
-String
+Koord
 
 ## Functiesyntaxis
 
@@ -32,21 +32,21 @@ String
 
 | Parameter | Type |
 |-----------|------------------|
-|  string | String |
-| opgegeven waarde | String |
+| touwtje | Koord |
+| gespecificeerde waarde | Koord |
 
-## Handtekening en type geretourneerd
+## Handtekening en teruggekeerd type
 
 `indexOf(<string>,<string>)`
 
-Retourneert een geheel getal.
+Geeft een integer terug.
 
 ## Voorbeeld
 
-`indexOf("Hello, "l"))`
+`indexOf("Hello", "l")`
 
-Retourneert 2.
+Retourzendingen 2.
 
-Uitleg:
+Toelichting:
 
-In &quot;Hello&quot; staat de eerste instantie van &quot;l&quot; op positie 2.
+In &quot;Hello&quot;, is het eerste voorkomen van &quot;l&quot;bij positie 2.
