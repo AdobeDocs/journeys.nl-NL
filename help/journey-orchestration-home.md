@@ -4,7 +4,7 @@ solution: Journeys
 title: Documentatie voor reisorchestratieproducten
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
+source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
 
 ## Aan de slag
 
-* **[Wat is Journey Orchestration?](using/action/working-with-adobe-campaign.md)**<br/>Meer weten over Journey Orchestration?
+* **[Wat is Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>Meer weten over Journey Orchestration?
 
 * **[Bouw uw eerste reis](using/about/get-started.md)**<br/>Ontdek de belangrijkste stappen om de Orchestratie van de Reis op te zetten en uw eerste reis te bouwen.
 
@@ -34,7 +34,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/about/troubleshooting.md"><strong>Problemen oplossen</strong></a>
     </div>
-    <em></em>Ontdek de verschillende hulpmiddelen die u kunt gebruiken om uw reizen problemen op te lossen.
+    <em>Ontdek de verschillende hulpmiddelen die u kunt gebruiken om uw reizen problemen op te lossen.</em>
     <br>
   </td>
   <td valign="top">
@@ -44,7 +44,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>Hoofdletters gebruiken</strong></a>
     </div>
-    <em></em>Leer hoe u stap voor stap een geavanceerde reis kunt maken.
+    <em>Leer hoe u stap voor stap een geavanceerde reis kunt maken.</em>
     <br>
   </td>
   <td valign="top">
