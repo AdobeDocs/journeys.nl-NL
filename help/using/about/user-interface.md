@@ -9,19 +9,12 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
+source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
 
 ---
 
 
 # Gebruikersinterface{#concept_rcq_lqt_52b}
-
-
->[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;Reizigerslijst&quot;
->abstract=&quot;De reislijst staat u toe om al uw reizen in één keer te bekijken, hun status te zien en basisacties uit te voeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een voltooide reis niet stoppen of verwijderen. U kunt de zoekbalk ook gebruiken om een reis te zoeken.&quot;
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Watch demo video&quot;
 
 >[!NOTE]
 >
@@ -29,7 +22,7 @@ source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 >
 >Deze documentatie wordt regelmatig bijgewerkt om recente wijzigingen in het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van de interface van het product.
 
-## De interface detecteren{#section_jsq_zr1_ffb}
+## Toegang tot reisorkest{#accessing_journey_orchestration}
 
 Klik op het **[!UICONTROL App Selector]** pictogram in de rechterbovenhoek om de interface van de Journey Orchestration te openen. Klik **[!UICONTROL Journey Orchestration]** rechts onder Experience Platform.
 
@@ -38,6 +31,14 @@ Klik op het **[!UICONTROL App Selector]** pictogram in de rechterbovenhoek om de
 U hebt ook toegang tot Journey Orchestration via de startpagina van Experience Cloud, in de **[!UICONTROL Quick access]** sectie.
 
 ![](../assets/journey1bis.png)
+
+## De interface detecteren{#section_jsq_zr1_ffb}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_home&quot;
+>title=&quot;Reizigerslijst&quot;
+>abstract=&quot;De reislijst staat u toe om al uw reizen in één keer te bekijken, hun status te zien en basisacties uit te voeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een voltooide reis niet verwijderen of opnieuw starten. U kunt er een nieuwe versie van maken of deze dupliceren. U kunt de zoekbalk ook gebruiken om een reis te zoeken.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Watch demo video&quot;
 
 Met de bovenste menu&#39;s kunt u door de verschillende functies van Journey Orchestration navigeren: **[!UICONTROL Home]**(de ritten),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
