@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -22,7 +22,7 @@ Met het menu Home kunt u de **lijst met reizen** weergeven. Creeer een nieuwe re
 
 ## De reislijst {#journey_list}
 
-Met de **reislijst** kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een voltooide reis niet stoppen of verwijderen. U kunt de zoekbalk ook gebruiken om een reis te zoeken.
+Met de **reislijst** kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een voltooide reis niet verwijderen of opnieuw starten. U kunt er een nieuwe versie van maken of deze dupliceren. U kunt de zoekbalk ook gebruiken om een reis te zoeken.
 
 U **[!UICONTROL Filters]** kunt het dialoogvenster openen door linksboven in de lijst op het filterpictogram te klikken. Met het menu Filters kunt u de weergegeven ritten filteren op basis van verschillende criteria (status, de criteria die u hebt gemaakt, de criteria die in de laatste 30 dagen zijn gewijzigd, alleen de laatste versies, enzovoort). U kunt er ook voor kiezen om alleen de ritten weer te geven die een bepaalde gebeurtenis, veldgroep of handeling gebruiken. Kolommen die in de lijst worden weergegeven, kunnen worden geconfigureerd. Alle filters en kolommen worden per gebruiker opgeslagen.
 
