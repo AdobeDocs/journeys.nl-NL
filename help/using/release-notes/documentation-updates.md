@@ -23,6 +23,7 @@ U kunt ook de Opmerkingen bij de [release](../release-notes/release-notes.md)van
 
 ## maart 2020 {#march-2020}
 
+* Toegevoegde parameterbeschrijvingen voor _actionExecutionErrors_ en _fetchErrors_ in de sectie van testlogboeken. [Meer informatie](../action/testing-the-journey.md#viewing_logs)
 * De beperkingen op aangepaste acties die tijdens een reis worden gebruikt, zijn bijgewerkt. U kunt ook het veld **URL** en de parameters **Verificatie** wijzigen. [Meer informatie](../action/about-custom-action-configuration.md)
 * Er zijn nieuwe contextuele Help-items toegevoegd. Het deelvenster Aangepaste payload voor verificatie (in handelingen en gegevensbronnen) bevat nu een Help-pictogram dat een koppeling vormt naar deze [sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * Voltooide reizen kunnen nu worden stopgezet. [Meer informatie](../building-journeys/using-the-journey-designer.md)
