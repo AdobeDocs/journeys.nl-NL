@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
+source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
 
 ---
 
@@ -59,7 +59,7 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 <p>Het tijdzonebeheer wordt nu gecentraliseerd in het deelvenster met reiseigenschappen. Er zijn twee parameters toegevoegd aan de reiseigenschappen:</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
-<li>In de vervolgkeuzelijst <strong>Tijdzone</strong> kunt u een specifieke tijdzone selecteren. Standaard wordt de tijdzone van de browser gebruikt.</li>
+<li>In de vervolgkeuzelijst <strong>Tijdzone</strong> kunt u een specifieke tijdzone selecteren. Standaard wordt de tijdzone van de browser gebruikt. </li>
 <li>Met het selectievakje Tijdzone <strong>van</strong> profiel kunt u de tijdzone van het profiel van het ervaringsplatform gebruiken van de persoon die de reis betreedt, indien beschikbaar. Als dat niet het geval is, wordt de tijdzone gebruikt die in de vervolgkeuzelijst is gedefinieerd. Deze functie is niet compatibel met ritten die gebeurtenissen gebruiken die geen naamruimte hebben.</li>
 </ul>
 <p>Raadpleeg de secties <a href="../building-journeys/changing-properties.md#timezone">Eigenschappen</a> wijzigen en <a href="../building-journeys/timezone-management.md">Tijdzonebeheer</a> voor meer informatie.</p>
