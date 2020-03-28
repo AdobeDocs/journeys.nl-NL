@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
 
 ---
 
@@ -23,6 +23,10 @@ U kunt ook de Opmerkingen bij de [release](../release-notes/release-notes.md)van
 
 ## maart 2020 {#march-2020}
 
+* De beperkingen op aangepaste acties die tijdens een reis worden gebruikt, zijn bijgewerkt. U kunt ook het veld **URL** en de parameters **Verificatie** wijzigen. [Meer informatie](../action/about-custom-action-configuration.md)
+* Er zijn nieuwe contextuele Help-items toegevoegd. Het deelvenster Aangepaste payload voor verificatie (in handelingen en gegevensbronnen) bevat nu een Help-pictogram dat een koppeling vormt naar deze [sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+* Voltooide reizen kunnen nu worden stopgezet. [Meer informatie](../building-journeys/using-the-journey-designer.md)
+* De sectie van de interfacebeschrijving is gereorganiseerd. [Meer informatie](../about/user-interface.md)
 * Het activeren van meerdere gebeurtenissen is toegevoegd aan de sectie over de testmodus [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
 * De sectie van de wijze van de Test is bijgewerkt betreffende de nieuwe **Wacht tijd in testparameter** . [Meer informatie](../building-journeys/testing-the-journey.md)
 * De het logboeksectie van de Test is bijgewerkt met externe vraagfoutencodes en reacties. [Meer informatie](../building-journeys/testing-the-journey.md#viewing_logs)
