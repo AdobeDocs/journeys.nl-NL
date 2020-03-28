@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -86,7 +86,9 @@ Het aantal personen (technisch gesproken worden ze instanties genoemd) dat zich 
 * _huidige_ stap: de stap waar het individu op de reis is. We raden u aan labels aan uw activiteiten toe te voegen om ze gemakkelijker te kunnen identificeren.
 * _currentstep_ > phase: de status van de reis van de betrokkene (aflopend, voltooid, fout of time-out). Zie hieronder voor meer informatie.
 * _currentstep_ > _extraInfo_: beschrijving van de fout en andere contextuele informatie.
+* _currentStep_ > _fetchErrors_: informatie over de fouten van de ophaalgegevens die tijdens deze stap voorkwamen.
 * _externalKeys_: de waarde voor de sleutelformule die in de gebeurtenis wordt bepaald.
 * _enrichedData_: de gegevens die de reis heeft opgehaald als de reis gegevensbronnen gebruikt.
 * _transitionHistory_: de lijst met stappen die de persoon heeft gevolgd. Voor gebeurtenissen wordt de payload weergegeven.
+* _actionExecutionErrors_ : informatie over de fouten die zijn opgetreden.
 
