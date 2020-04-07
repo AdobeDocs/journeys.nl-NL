@@ -4,7 +4,7 @@ solution: Journeys
 title: Documentatie voor reisorchestratieproducten
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
+source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 ---
 
@@ -22,6 +22,8 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 * **[Vorm een gebeurtenis](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Leer hoe te om de gebeurtenissen te vormen die uw reizen zullen luisteren aan.
 
 * **[Toegang verlenen tot de Journey Orchestration](using/about/access-management.md)**<br/>Ontdek hoe u de toegang van uw gebruikers met productprofielen en -rechten kunt beheren.
+
+* **[Ontdek nieuwe](using/release-notes/release-notes.md)**<br/>Meer informatie over de snelste releases.
 
 ## Bovenste pagina&#39;s
 
@@ -62,9 +64,9 @@ source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ## Aanvullende bronnen
 
-* [Experience Platform](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
-* [Klantprofiel in realtime](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
-* [Experience Cloud XDM field Definition](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
-* [Naamruimte van identiteit](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
-* [Streaming-API&#39;s](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Transactieberichten voor Adobe Campagne Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [documentatie bij Experience Platform](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
+* [Documentatie van het profiel van de klant in realtime](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+* [Experience Cloud XDM field Definition](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
+* [Identiteitsnaamruimtedocumentatie](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
+* [Streaming-API&#39;s](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
+* [Campagne Standaard transactieberichtendocumentatie](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
