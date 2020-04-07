@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -23,16 +23,16 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 >
 >Wanneer u een gebeurtenis maakt, genereert de reisorganisatie automatisch een id voor deze gebeurtenis. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [](../event/previewing-the-payload.md).
 
-Om gebeurtenissen te vormen die moeten worden verzonden naar **[!UICONTROL Streaming Ingestion APIs]**en worden gebruikt in Journey Orchestration, moet u deze stappen volgen:
+Om gebeurtenissen te vormen die moeten worden verzonden naar **[!UICONTROL Streaming Ingestion APIs]** en worden gebruikt in Journey Orchestration, moet u deze stappen volgen:
 
-1. Haal de inlaatURL op via de API&#39;s van het gegevensplatform (zie [Streaming Ingestie-API&#39;s](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)).
-1. Kopieer de lading van de payload voorproef in het **[!UICONTROL Event]**menu. Zie[](../event/defining-the-payload-fields.md).
+1. Haal de inlaatURL op via de API&#39;s van het gegevensplatform (zie [Streaming Ingestie-API&#39;s](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)).
+1. Kopieer de lading van de payload voorproef in het **[!UICONTROL Event]** menu. Zie [](../event/defining-the-payload-fields.md).
 
 Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Streaming Ingestie-API&#39;s stuurt met de door u gekopieerde payload:
 
 1. Stel een POST API-aanroep in naar de URL van de Streaming Ingestie-API&#39;s (een zogenaamde inlaat).
 1. Gebruik de payload die u hebt gekopieerd van Journey Orchestration in de hoofdtekst (&quot;gegevenssectie&quot;) van de API-aanroep naar Streaming Ingestie-API&#39;s. Zie hieronder voor een voorbeeld
-1. Bepaal waar u alle variabelen in de lading wilt ophalen. Voorbeeld: als de gebeurtenis geacht wordt het adres over te brengen, zal de geplakte lading &quot;adres&quot;tonen: &quot;string&quot;. &quot;string&quot; moet worden vervangen door de variabele die automatisch de juiste waarde invult, de e-mail van de persoon waarnaar een bericht wordt verzonden. In de voorvertoning van de lading vullen we in de **[!UICONTROL Header]**sectie vele waarden automatisch die u uw werk vergemakkelijken.
+1. Bepaal waar u alle variabelen in de lading wilt ophalen. Voorbeeld: als de gebeurtenis geacht wordt het adres over te brengen, zal de geplakte lading &quot;adres&quot;tonen: &quot;string&quot;. &quot;string&quot; moet worden vervangen door de variabele die automatisch de juiste waarde invult, de e-mail van de persoon waarnaar een bericht wordt verzonden. In de voorvertoning van de lading vullen we in de **[!UICONTROL Header]** sectie vele waarden automatisch die u uw werk vergemakkelijken.
 1. Selecteer &#39;application/json&#39; als type body.
 1. Geef uw IMS ORG-id in de koptekst door met behulp van de sleutel &quot;x-gw-ims-org-id&quot;. Gebruik voor de waarde uw IMS ORG-id (&quot;XXX@AdobeOrg&quot;).
 
@@ -95,4 +95,4 @@ Hier volgt een voorbeeld van een gebeurtenis Streaming ingestie-API&#39;s:
 
 Als u de locatie waar u het onderdeel &quot;data&quot; wilt plakken gemakkelijker wilt kunnen identificeren, kunt u een JSON-visualisatiefunctie gebruiken, zoals [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-Raadpleeg deze [pagina](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingestion_FAQ.md)voor informatie over het oplossen van problemen met de API&#39;s voor streaming.
+Raadpleeg deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html)voor informatie over het oplossen van problemen met de API&#39;s voor streaming.
