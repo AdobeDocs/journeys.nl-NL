@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -46,7 +46,7 @@ Het startpunt van een reis is altijd een evenement. U kunt tests uitvoeren met g
 
 U kunt controleren of de API-aanroep die u via deze gereedschappen verzendt, correct is verzonden of niet. Als u een fout terug krijgt, betekent het dat uw vraag een kwestie heeft. Controleer opnieuw de lading, de kopbal (en vooral organisatie identiteitskaart) en bestemmingsURL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar Journey Orchestration geduwd. Journey Orchestration is immers afhankelijk van de streamingopname-API&#39;s van Experience Platform. Als gevolg hiervan kunt u in geval van problemen met gebeurtenissen naar deze [pagina](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingestion_FAQ.md) verwijzen voor het oplossen van problemen met opname-API&#39;s voor streaming.
+Gebeurtenissen worden niet rechtstreeks van de bron naar Journey Orchestration geduwd. Journey Orchestration is immers afhankelijk van de streamingopname-API&#39;s van Experience Platform. Als gevolg hiervan kunt u in geval van problemen met gebeurtenissen naar deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) verwijzen voor het oplossen van problemen met opname-API&#39;s voor streaming.
 
 ## Controleren of mensen de reis betreden{#section_x4v_zzs_dgb}
 
