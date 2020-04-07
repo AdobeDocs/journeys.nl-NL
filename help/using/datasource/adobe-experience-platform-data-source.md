@@ -11,14 +11,14 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
 
 # Gegevensbron van Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-De gegevensbron van het Platform van de Ervaring bepaalt de verbinding aan de Dienst van het Profiel van de Klant in real time. Deze gegevensbron is ingebouwd en vooraf geconfigureerd. Het kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken. Raadpleeg deze [pagina](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)voor meer informatie over de realtime service voor klantprofielen.
+De gegevensbron van het Platform van de Ervaring bepaalt de verbinding aan de Dienst van het Profiel van de Klant in real time. Deze gegevensbron is ingebouwd en vooraf geconfigureerd. Het kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken. Raadpleeg deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)voor meer informatie over de realtime service voor klantprofielen.
 
 >[!NOTE]
 >
@@ -36,13 +36,13 @@ Hier zijn de belangrijkste stappen om gebiedsgroepen aan de ingebouwde gegevensb
 
    ![](../assets/journey23.png)
 
-1. Klik **[!UICONTROL Add a New Field Group]**om een nieuwe reeks velden op te halen. Zie[](../datasource/field-groups.md).
+1. Klik **[!UICONTROL Add a New Field Group]** om een nieuwe reeks velden op te halen. Zie [](../datasource/field-groups.md).
 
    ![](../assets/journey24.png)
 
-1. Selecteer een schema in de **[!UICONTROL Schema]**vervolgkeuzelijst. In dit veld worden de schema&#39;s voor profiel- en ervaringsgebeurtenissen weergegeven die beschikbaar zijn in het platform. Het maken van schema&#39;s wordt niet uitgevoerd in Journey Orchestration. Deze wordt uitgevoerd in het gegevensplatform.
+1. Selecteer een schema in de **[!UICONTROL Schema]** vervolgkeuzelijst. In dit veld worden de schema&#39;s voor profiel- en ervaringsgebeurtenissen weergegeven die beschikbaar zijn in het platform. Het maken van schema&#39;s wordt niet uitgevoerd in Journey Orchestration. Deze wordt uitgevoerd in het gegevensplatform.
 1. Selecteer de velden die u wilt gebruiken.
 1. Definieer de duur van de cache.
 1. Klik op **[!UICONTROL Save]**.
 
-Wanneer u de cursor op de naam van een veldgroep plaatst, ziet u rechts twee pictogrammen. Hiermee kunt u de veldgroep verwijderen en dupliceren. Het **[!UICONTROL Delete]**pictogram is alleen beschikbaar als de veldgroep niet wordt gebruikt tijdens een live- of conceptreis (informatie in het**[!UICONTROL Used in]** veld).
+Wanneer u de cursor op de naam van een veldgroep plaatst, ziet u rechts twee pictogrammen. Hiermee kunt u de veldgroep verwijderen en dupliceren. Het **[!UICONTROL Delete]** pictogram is alleen beschikbaar als de veldgroep niet wordt gebruikt tijdens een live- of conceptreis (informatie in het **[!UICONTROL Used in]** veld).
