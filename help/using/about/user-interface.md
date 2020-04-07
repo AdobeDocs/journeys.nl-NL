@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -35,10 +35,10 @@ U hebt ook toegang tot Journey Orchestration via de startpagina van Experience C
 ## De interface detecteren{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;Reizigerslijst&quot;
->abstract=&quot;De reislijst staat u toe om al uw reizen in één keer te bekijken, hun status te zien en basisacties uit te voeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een voltooide reis niet verwijderen of opnieuw starten. U kunt er een nieuwe versie van maken of deze dupliceren. U kunt de zoekbalk ook gebruiken om een reis te zoeken.&quot;
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Watch demo video&quot;
+>id="jo_home"
+>title="Info"
+>abstract="Met de reislijst kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een voltooide reis niet verwijderen of opnieuw starten. U kunt er een nieuwe versie van maken of deze dupliceren. U kunt de zoekbalk ook gebruiken om een reis te zoeken."
+>additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Video over demo bekijken"
 
 Met de bovenste menu&#39;s kunt u door de verschillende functies van Journey Orchestration navigeren: **[!UICONTROL Home]**(de ritten),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
@@ -78,7 +78,7 @@ In de verschillende lijsten kunt u basishandelingen op elk element uitvoeren. U 
 
 Bij het definiëren van een [gebeurtenislading](../event/defining-the-payload-fields.md), het laden [van een](../datasource/field-groups.md) veldgroep en het selecteren van velden in de [expressieeditor](../expression/expressionadvanced.md), wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring.
 
-Als er beschrijvingen zoals &quot;xdm:alternateDisplayInfo&quot; worden opgegeven tijdens het instellen van schema&#39;s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en generieke velden. U kunt beschrijvingen van vriendschappelijke namen configureren via een API-aanroep. Voor meer informatie, zie de de ontwikkelaarsgids [van de Registratie van het](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)Schema.
+Als er beschrijvingen zoals &quot;xdm:alternateDisplayInfo&quot; worden opgegeven tijdens het instellen van schema&#39;s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en generieke velden. U kunt beschrijvingen van vriendschappelijke namen configureren via een API-aanroep. Voor meer informatie, zie de de ontwikkelaarsgids [van de Registratie van het](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)Schema.
 
 ![](../assets/xdm-from-descriptors.png)
 
