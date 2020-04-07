@@ -11,16 +11,16 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
 
 # De laadvelden definiëren {#concept_yrw_3qt_52b}
 
-De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De payload is gebaseerd op de XDM-velddefinitie van Experience Cloud. Raadpleeg deze [pagina](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)voor meer informatie over XDM.
+De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De payload is gebaseerd op de XDM-velddefinitie van Experience Cloud. Raadpleeg deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)voor meer informatie over XDM.
 
-1. Selecteer een XDM-schema in de lijst en klik op het **[!UICONTROL Payload]**veld of op het**[!UICONTROL Edit]** pictogram.
+1. Selecteer een XDM-schema in de lijst en klik op het **[!UICONTROL Payload]** veld of op het **[!UICONTROL Edit]** pictogram.
 
    ![](../assets/journey8.png)
 
@@ -38,12 +38,12 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
    >[!NOTE]
    >
-   >Het **[!UICONTROL eventID]**veld wordt automatisch toegevoegd aan de lijst met geselecteerde velden, zodat Journey Orchestration de gebeurtenis kan identificeren. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie[](../event/previewing-the-payload.md).
+   >Het **[!UICONTROL eventID]** veld wordt automatisch toegevoegd aan de lijst met geselecteerde velden, zodat Journey Orchestration de gebeurtenis kan identificeren. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [](../event/previewing-the-payload.md).
 
-1. Klik **[!UICONTROL Save]**of druk op**[!UICONTROL Enter]**.
+1. Klik **[!UICONTROL Save]** of druk op **[!UICONTROL Enter]**.
 
    ![](../assets/journey11.png)
 
-   Het aantal geselecteerde velden wordt weergegeven in het **[!UICONTROL Payload]**veld.
+   Het aantal geselecteerde velden wordt weergegeven in het **[!UICONTROL Payload]** veld.
 
    ![](../assets/journey12.png)
