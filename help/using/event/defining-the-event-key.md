@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 411ecf0ec4dc6a87c4e129b40f2918799bef54bf
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 411ecf0ec4dc6a87c4e129b40f2918799bef54bf
 
 De sleutel is het veld of de combinatie van velden maakt deel uit van de ladingsgegevens van de gebeurtenis. Hierdoor kan het systeem de persoon identificeren die aan de gebeurtenis is gekoppeld. De sleutel kan bijvoorbeeld de Experience Cloud-id, een CRM-id of een e-mailadres zijn.
 
-Als u gegevens wilt gebruiken die zijn opgeslagen in de realtime database van het klantprofiel, moet u, als de sleutel van de gebeurtenis, informatie selecteren die u als de identiteit van een profiel hebt gedefinieerd in de [realtime service](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)voor klantprofiel.
+Als u gegevens wilt gebruiken die zijn opgeslagen in de realtime database van het klantprofiel, moet u, als de sleutel van de gebeurtenis, informatie selecteren die u als de identiteit van een profiel hebt gedefinieerd in de [realtime service](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)voor klantprofiel.
 
 Hierdoor kan het systeem de afstemming tussen de gebeurtenis en het profiel van het individu uitvoeren. Als u een schema met een primaire identiteit selecteert, worden de **[!UICONTROL Key]** **[!UICONTROL Namespace]** velden en de velden vooraf ingevuld. Als er geen identiteit is gedefinieerd, selecteren we _identityMap > id_ als primaire sleutel. Vervolgens moet u een naamruimte selecteren en wordt de sleutel vooraf ingevuld (onder het **[!UICONTROL Namespace]** veld) met _identityMap > id_.
 
