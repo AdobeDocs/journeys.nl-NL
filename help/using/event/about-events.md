@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 # Gebeurtenissen {#concept_gfj_fqt_52b}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_events&quot;
->title=&quot;Over gebeurtenissen&quot;
->abstract=&quot;Een gebeurtenis is verbonden met een persoon. Het heeft betrekking op het gedrag van een persoon (bijvoorbeeld iemand heeft een product gekocht, een winkel bezocht, een website verlaten, enz.) of iets dat met een persoon verband houdt (een persoon bereikte bijvoorbeeld 10 000 loyaliteitspunten). Dit is waar Journey Orchestration naar zal luisteren tijdens reizen om de beste volgende acties te ordenen.&quot;
+>id="jo_events"
+>title="Gebeurtenissen"
+>abstract="Een gebeurtenis is gekoppeld aan een persoon. Het heeft betrekking op het gedrag van een persoon (bijvoorbeeld iemand heeft een product gekocht, een winkel bezocht, een website verlaten, enz.) of iets dat met een persoon verband houdt (een persoon bereikte bijvoorbeeld 10 000 loyaliteitspunten). Dit is waar Journey Orchestration naar zal luisteren tijdens reizen om de beste volgende acties te ordenen."
 
 Een gebeurtenis is gekoppeld aan een persoon. Het heeft betrekking op het gedrag van een persoon (bijvoorbeeld iemand heeft een product gekocht, een winkel bezocht, een website verlaten, enz.) of iets dat met een persoon verband houdt (een persoon bereikte bijvoorbeeld 10 000 loyaliteitspunten). Dit is waar Journey Orchestration naar zal luisteren tijdens reizen om de beste volgende acties te ordenen.
 
@@ -35,7 +35,7 @@ Als u een gebeurtenis bewerkt die in een concept of live transport wordt gebruik
 
 Gebeurtenissen zijn POST API-aanroepen. Gebeurtenissen worden via de API&#39;s voor streaming-inname naar het Adobe Experience Cloud Data Platform verzonden. De URL-bestemming van gebeurtenissen die via transactie-API&#39;s worden verzonden, wordt een &quot;inlet&quot; genoemd. De nuttige lading van gebeurtenissen volgt het formatteren XDM.
 
-De nuttige lading bevat informatie die door Streaming Ingestie-API&#39;s wordt vereist om te werken (in de koptekst) en de informatie die door de Journey Orchestration wordt vereist om te werken (de gebeurtenis-id, een deel van de lading) en informatie die tijdens reizen (in het lichaam, bijvoorbeeld, de hoeveelheid een verlaten karretje) moet worden gebruikt. Er zijn twee modi voor de streamingopname, geverifieerd en niet geverifieerd. Raadpleeg [deze koppeling](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)voor meer informatie over Streaming Ingestie-API&#39;s.
+De nuttige lading bevat informatie die door Streaming Ingestie-API&#39;s wordt vereist om te werken (in de koptekst) en de informatie die door de Journey Orchestration wordt vereist om te werken (de gebeurtenis-id, een deel van de lading) en informatie die tijdens reizen (in het lichaam, bijvoorbeeld, de hoeveelheid een verlaten karretje) moet worden gebruikt. Er zijn twee modi voor de streamingopname, geverifieerd en niet geverifieerd. Raadpleeg [deze koppeling](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)voor meer informatie over Streaming Ingestie-API&#39;s.
 
 Na aankomst door Streaming Ingestie APIs, stromen de gebeurtenissen in de interne dienst genoemd Pijpleiding en dan in het Platform van Gegevens. Als het gebeurtenisschema de markering van de Dienst van het Profiel van de Klant in real time toegelaten heeft en een dataset identiteitskaart die ook de vlag van het Profiel van de Klant in real time heeft, vloeit het in de Dienst van het Profiel van de Klant in real time.
 
@@ -45,11 +45,11 @@ De pijpleiding filtert gebeurtenissen die een nuttige lading hebben die Journey 
 
 Hier volgen de belangrijkste stappen voor het configureren van een nieuwe gebeurtenis:
 
-1. Klik in het bovenste menu op het **[!UICONTROL Events]**tabblad. De lijst met gebeurtenissen wordt weergegeven. Zie[](../about/user-interface.md)voor meer informatie over de interface.
+1. Klik in het bovenste menu op het **[!UICONTROL Events]** tabblad. De lijst met gebeurtenissen wordt weergegeven. Zie [](../about/user-interface.md) voor meer informatie over de interface.
 
    ![](../assets/journey5.png)
 
-1. Klik **[!UICONTROL Add]**om een nieuwe gebeurtenis te maken. Het deelvenster voor gebeurtenisconfiguratie wordt aan de rechterkant van het scherm geopend.
+1. Klik **[!UICONTROL Add]** om een nieuwe gebeurtenis te maken. Het deelvenster voor gebeurtenisconfiguratie wordt aan de rechterkant van het scherm geopend.
 
    ![](../assets/journey6.png)
 
@@ -61,11 +61,11 @@ Hier volgen de belangrijkste stappen voor het configureren van een nieuwe gebeur
 
 1. Voeg een beschrijving toe aan uw gebeurtenis. Deze stap is optioneel.
 1. Definieer het schema en de payload velden: Dit is waar u de gebeurtenisinformatie (gewoonlijk genoemd een nuttige lading) selecteert de Orchestratie van de Reis verwacht om te ontvangen. U kunt deze informatie dan gebruiken tijdens uw reis. Zie [](../event/defining-the-payload-fields.md).
-1. Het aantal reizen dat deze gebeurtenis gebruikt, wordt in het **[!UICONTROL Used in]**veld weergegeven. U kunt op het**[!UICONTROL View journeys]** pictogram klikken om de lijst met reizen weer te geven die deze gebeurtenis gebruiken.
+1. Het aantal reizen dat deze gebeurtenis gebruikt, wordt in het **[!UICONTROL Used in]** veld weergegeven. U kunt op het **[!UICONTROL View journeys]** pictogram klikken om de lijst met reizen weer te geven die deze gebeurtenis gebruiken.
 1. Voeg een naamruimte toe. Deze stap is optioneel, maar wordt aangeraden als u een naamruimte toevoegt, zodat u gegevens die zijn opgeslagen in de realtime klantenprofielservice, kunt gebruiken. Het definieert het type sleutel van de gebeurtenis. Zie [](../event/selecting-the-namespace.md).
 1. Definieer de sleutel: Kies een veld in uw payload-velden of definieer een formule om de persoon te identificeren die aan de gebeurtenis is gekoppeld. Deze sleutel wordt automatisch ingesteld (maar kan nog steeds worden bewerkt) als u een naamruimte selecteert. De reisorganisatie kiest dan ook de sleutel die moet overeenkomen met de naamruimte (als u bijvoorbeeld een naamruimte voor e-mail selecteert, wordt de e-mailsleutel geselecteerd). Zie [](../event/defining-the-event-key.md).
 1. Voeg een voorwaarde toe. Deze stap is optioneel. Hierdoor kan het systeem alleen de gebeurtenissen verwerken die aan de voorwaarde voldoen. De voorwaarde kan alleen worden gebaseerd op informatie in de gebeurtenis. Zie [](../event/adding-a-condition.md).
-1. Klik **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
 
    ![](../assets/journey7.png)
 
