@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 0%
 
 ---
 
@@ -19,9 +22,9 @@ source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 # Gegevensbronnen {#concept_s1s_dqt_52b}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_datasources&quot;
->title=&quot;Gegevensbronnen&quot;
->abstract=&quot;De gegevensbronconfiguratie wordt altijd uitgevoerd door een technische gebruiker. De gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt, voor: voorwaardendefinitie, parameter en verpersoonlijkingsgegevens in acties, douane wachttijddefinitie, definitie van de douanetijdzone.&quot;
+>id="jo_datasources"
+>title="Gegevensbronnen"
+>abstract="De gegevensbronconfiguratie wordt altijd uitgevoerd door een technische gebruiker. De gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt, voor: voorwaardendefinitie, parameter en verpersoonlijkingsgegevens in acties, douane wachttijddefinitie, definitie van de douanetijdzone."
 
 De gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt, voor:
 
@@ -57,6 +60,6 @@ Hier zijn de belangrijkste stappen van de gegevensbronconfiguratie:
 
    ![](../assets/journey23.png)
 
-1. Klik **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
 
    De gegevensbron is nu geconfigureerd en klaar om te worden gebruikt in uw reizen.
