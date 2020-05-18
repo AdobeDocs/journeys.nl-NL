@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 0%
 
 ---
 
@@ -95,9 +98,9 @@ De gegevensbron is nu geconfigureerd en klaar om te worden gebruikt in uw reizen
 ## Aangepaste verificatiemodus{#section_wjp_nl5_nhb}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_authentication_payload&quot;
->title=&quot;Aangepaste verificatie&quot;
->abstract=&quot;De wijze van de douaneauthentificatie wordt gebruikt voor complexe authentificatie om API het verpakken protocollen zoals OAuth2 te roepen. De uitvoering van de handeling bestaat uit twee stappen. Eerst, wordt een vraag aan het eindpunt uitgevoerd om het toegangstoken te produceren. Dan, wordt het toegangstoken ingespoten in het HTTP- verzoek van de actie.&quot;
+>id="jo_authentication_payload"
+>title="Aangepaste verificatie"
+>abstract="De wijze van de douaneauthentificatie wordt gebruikt voor complexe authentificatie om API omsluitende protocollen zoals OAuth2 te roepen. De uitvoering van de handeling bestaat uit twee stappen. Eerst, wordt een vraag aan het eindpunt uitgevoerd om het toegangstoken te produceren. Vervolgens wordt het toegangstoken geïnjecteerd in de HTTP-aanvraag van de handeling."
 
 Deze authentificatiemodus wordt gebruikt voor complexe authentificatie, vaak gebruikt om API omsluitende protocollen zoals OAuth2 te roepen, om een toegangstoken terug te winnen dat in het echte HTTP- verzoek voor de actie moet worden ingespoten.
 
@@ -129,13 +132,13 @@ De definitie van de manier waarop het toegangstoken in het HTTP- verzoek van de 
 
 * authenticationType: bepaalt hoe het geproduceerde toegangstoken in de vraag van HTTP voor de actie moet worden geïnjecteerd. De mogelijke waarden zijn:
 
-   * drager: Geeft aan dat het toegangstoken moet worden geïnjecteerd in de machtigingheader, zoals: _Vergunning: Drager &lt;toegangstoken>_
+   * drager: Geeft aan dat het toegangstoken moet worden geïnjecteerd in de machtigingheader, zoals: _Autorisatie: Drager &lt;toegangstoken>_
    * header: Geeft aan dat het toegangstoken moet worden geïnjecteerd als een header, de headernaam gedefinieerd door de eigenschap tokenTarget. Bijvoorbeeld, als tokenTarget myHeader is, zal het toegangstoken als kopbal als worden geïnjecteerd: _myHeader: &lt;toegangstoken>_
    * queryParam: wijst erop dat het toegangstoken als queryParam moet worden ingespoten, de naam van de vraagparam die door het bezit tokenTarget wordt bepaald. Bijvoorbeeld, als tokenTarget myQueryParam is, zal URL van de actievraag zijn: _&lt;url>?myQueryParam=&lt;access token>_
 
 * tokenInResponse: wijst erop hoe te om het toegangstoken uit de authentificatievraag te halen. Deze eigenschap kan zijn:
    * &quot;reactie&quot;: wijst erop dat de reactie van HTTP het toegangstoken is
-   * een kiezer in een json (ervan uitgaande dat de reactie een json is, ondersteunen we geen andere indelingen, zoals XML). De indeling van deze kiezer is _json://&lt;path to the access token property>_. Bijvoorbeeld, als de reactie van de vraag is: _{&quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, zal tokenInResponse zijn: _json: //access_token_
+   * een kiezer in een json (ervan uitgaande dat de reactie een json is, ondersteunen we geen andere indelingen, zoals XML). De indeling van deze kiezer is _json://&lt;path to the access token property>_. Bijvoorbeeld, als de reactie van de vraag is: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, zal tokenInResponse zijn: _json: //access_token_
 
 De indeling van deze verificatie is:
 
