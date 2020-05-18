@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 0%
 
 ---
 
@@ -19,9 +22,9 @@ source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
 # Handelingen {#about_actions}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_actions&quot;
->title=&quot;Informatie over handelingen&quot;
->abstract=&quot;Dit is waar u de verbinding aan het systeem bepaalt dat berichten zal verzenden. De hier gedefinieerde acties zijn dan beschikbaar in het linkerpalet van uw reis, in de categorie Handelingen. &quot;
+>id="jo_actions"
+>title="Handelingen"
+>abstract="Hier definieert u de verbinding met het systeem dat berichten verzendt. De hier gedefinieerde acties zijn dan beschikbaar in het linkerpalet van uw reis, in de categorie Handelingen. "
 
 Handelingen zijn verbindingen waarmee u persoonlijke, real-time ervaringen kunt bieden aan klanten, zoals pushberichten, e-mail, SMS of andere digitale mogelijkheden die u in uw bedrijf gebruikt.
 
