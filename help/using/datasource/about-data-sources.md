@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,14 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="Gegevensbronnen"
->abstract="De gegevensbronconfiguratie wordt altijd uitgevoerd door een technische gebruiker. De gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt, voor: voorwaardendefinitie, parameter en verpersoonlijkingsgegevens in acties, douane wachttijddefinitie, definitie van de douanetijdzone."
+>abstract="De gegevensbronconfiguratie wordt altijd uitgevoerd door een technische gebruiker. De gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt, voor: voorwaardendefinitie, parameter en verpersoonlijkingsgegevens in acties, douane wachtte definitie, tijdzonedefinitie."
 
 De gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt, voor:
 
 * [conditiedefinitie](../building-journeys/condition-activity.md)
 * parameter- en personalisatiegegevens in [handelingen](../action/action.md)
 * [aangepaste wachtdefinitie](../building-journeys/wait-activity.md#custom)
-* [definitie van aangepaste tijdzone](../building-journeys/timezone-management.md)
+* [tijdzonedefinitie](../building-journeys/timezone-management.md)
 
 Deze configuratie is niet vereist als uw reizen alleen lokale gegevens uit een gebeurtenislading gebruiken. Bijvoorbeeld, als uw reis uit een gebeurtenis wordt samengesteld die door een e-mailactiviteit wordt gevolgd die slechts gegevens van de gebeurtenis gebruikt, is er geen behoefte om een gegevensbron te vormen.
 
