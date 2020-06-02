@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om het beste uit de Orchestratie van de Reis te krijgen, adviseren wij gebruikend Chrome als uw browser van Internet.
+>Om het beste uit de Orchestratie van de Reis te krijgen, adviseren wij gebruikend Chrome als uw browser van Internet. De interface wordt weergegeven in de taal die is gedefinieerd in IMS. Als uw taal IMS niet door Journey Orchestration wordt gesteund, wordt de interface getoond in het Engels.
 >
 >Deze documentatie wordt regelmatig bijgewerkt om recente wijzigingen in het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van de interface van het product.
 
@@ -40,7 +40,7 @@ U hebt ook toegang tot Journey Orchestration via de startpagina van Experience C
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Info"
->abstract="Met de reislijst kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een voltooide reis niet verwijderen of opnieuw starten. U kunt er een nieuwe versie van maken of deze dupliceren. U kunt de zoekbalk ook gebruiken om een reis te zoeken."
+>abstract="Met de reislijst kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een gesloten reis niet verwijderen of opnieuw starten. U kunt er een nieuwe versie van maken of deze dupliceren. U kunt de zoekbalk ook gebruiken om een reis te zoeken."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Video over demo bekijken"
 
 Met de bovenste menu&#39;s kunt u door de verschillende functies van Journey Orchestration navigeren: **[!UICONTROL Home]**(de ritten),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
