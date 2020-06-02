@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +56,5 @@ Om dit te doen, in **[!UICONTROL Properties]**, controleer **[!UICONTROL Use Pro
 ![](../assets/journey72.png)
 
 ## Tijdzones gebruiken in expressies {#timezone-in-expressions}
-
-Tijdzones worden gebruikt om expressie samen te stellen met de geavanceerde expressieeditor. In dit geval gebruikt u de expressie-editor om aan te geven waar het systeem deze gegevens moet ophalen. Zie [](../expression/expressionadvanced.md).
 
 De begin- en einddatum van een reis kunnen niet worden gekoppeld aan een specifieke tijdzone. Ze worden automatisch gekoppeld aan de tijdzone van de instantie.
