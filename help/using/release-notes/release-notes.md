@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
+source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +23,72 @@ source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)raadplegen.
+
+## Release Q2 - juni 2020 {#q2-release---june-2020}
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbeterde integratie van Adobe Experience Platform</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De volgende verbeteringen zijn doorgevoerd in de platformintegratie:</p>
+<ul>
+<li><p>Een nieuwe activiteit staat het luisteren van het segmentententangen/de uitgang van het Platform toe om mensen te maken binnen of zich voorwaarts in een reis bewegen. <a href="../building-journeys/event-activities.md#segment-qualification">Meer informatie</a></p>
+<img src="../assets/rn-segment7.png"/>
+</li>
+<li><p>De segmenten van het platform kunnen nu worden gecreeerd en worden uitgegeven zonder de interface van de Orchestratie van de Reis, dankzij een nieuw lusje van <strong>Segmenten</strong> te verlaten. Effectieve beschikbaarheid: 15 juni 2020. <a href="../segment/about-segments.md">Meer informatie</a></p>
+<img src="../assets/rn-segment1.png"/>
+</li>
+<li><p>In de eenvoudige uitdrukkingsredacteur, zijn de segmenten van het Platform nu direct vermeld in de navigatieboom om gemakkelijke opstelling van voorwaarden zoals "toe te staan behoort deze persoon tot segment A?". <a href="../segment/using-a-segment.md">Meer informatie</a></p>
+<img src="../assets/rn-segment4.png"/>
+</li>
+<li><p>Reisorchestratie geeft nu automatisch aan het Adobe-gegevensplatform de stappen door individuele personen tijdens reizen door. Dit geldt ook voor mogelijke fouten. Deze informatie kan worden gebruikt voor analyse- of segmentatiedoeleinden. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
+<img src="../assets/rn-sharing.png"/>
+</li>
+<li><p>Reisorchestratie kan nu worden verbonden met productie en niet-productie Platform Sandbox. Effectieve beschikbaarheid: 15 juni 2020. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
+</li>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbeteringen in de reisontwerper en testmodus</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De volgende verbeteringen zijn aangebracht aan de reisontwerper en de testmodus:</p>
+<ul>
+<li><p>U kunt nu plakactiviteiten kopiëren van de ene reis naar de andere en 1 of N reisactiviteiten selecteren. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Meer informatie</a></p>
+<img src="../assets/rn-copy-paste1.png"/>
+</li>
+<li><p>Nadat u een gebeurtenis hebt afgevuurd om een testprofiel een reis te laten maken, kunt u nu de voortgang van de reis zien dankzij een gekleurde visuele stroom. In het geval van een fout tijdens de rit worden ook details van fouten weergegeven. <a href="../building-journeys/testing-the-journey.md#firing_events">Meer informatie</a></p>
+<img src="../assets/rn-journeytest6.png"/>
+</li>
+<li>De <strong>voltooide</strong> reisstaat is hernoemd <strong>Gesloten (geen ingang)</strong> om beter te weerspiegelen wat deze staat betekent.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+**Overige verbeteringen**
+
+Om te voorkomen dat er te veel API-aanroepen naar systemen van derden worden verzonden, introduceren we een nieuwe openbare API voor het instellen van ‘plafondregels&#39;. De begrenzingsregels staan de definitie van een maximumaantal vraag aan een API eindpunt per milliseconden toe. [Meer informatie](../api/capping.md)
+
+Het beheer van de toegang staat nu meer granulariteit in het beheer van de gebruikerstoegang toe. Effectieve beschikbaarheid: 15 juni 2020. [Meer informatie](../about/access-management.md#create-product-profile)
+
+Reisorchestratie is nu beschikbaar in APAC (Australisch datacenter). Effectieve beschikbaarheid: 15 juni 2020
+
+De interface Journey Orchestration is beschikbaar in het Japans.
 
 ## Release Q1 - maart 2020 {#q1-release---march-2020}
 
