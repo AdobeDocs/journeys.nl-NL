@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: 957e72de7feccb33684523e26b2bdccb2074e4ca
+workflow-type: tm+mt
+source-wordcount: '969'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ Begin altijd uw reis door een gebeurtenisactiviteit te slepen en neer te zetten.
 
 ![](../assets/journey44.png)
 
-Wanneer u op de gebeurtenisactiviteit in het canvas klikt, wordt de ruit van de activiteitenconfiguratie getoond. Wanneer u dezelfde gebeurtenis meerdere keren gebruikt, wordt standaard een verhoogd getal toegevoegd aan de naam van de gebeurtenis op het canvas. Bovendien kunt u het **[!UICONTROL Label]**veld gebruiken om een achtervoegsel toe te voegen aan de naam van de gebeurtenis die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u gebeurtenissen op het canvas wilt identificeren, vooral als u dezelfde gebeurtenis meerdere keren gebruikt. Het zal ook het zuiveren in het geval van fouten gemakkelijker maken en het zal rapporten gemakkelijker te lezen maken.
+Wanneer u op de gebeurtenisactiviteit in het canvas klikt, wordt de ruit van de activiteitenconfiguratie getoond. Wanneer u dezelfde gebeurtenis meerdere keren gebruikt, wordt standaard een verhoogd getal toegevoegd aan de naam van de gebeurtenis op het canvas. Bovendien kunt u het **[!UICONTROL Label]** veld gebruiken om een achtervoegsel toe te voegen aan de naam van de gebeurtenis die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u gebeurtenissen op het canvas wilt identificeren, vooral als u dezelfde gebeurtenis meerdere keren gebruikt. Het zal ook het zuiveren in het geval van fouten gemakkelijker maken en het zal rapporten gemakkelijker te lezen maken.
 
 ![](../assets/journey33.png)
 
@@ -48,7 +51,7 @@ Zie [](../building-journeys/about-action-activities.md).
 
 Hier volgen de verschillende stappen voor het configureren van reactiegebeurtenissen:
 
-1. Voeg een reactie toe **[!UICONTROL Label]**aan de reactie. Deze stap is optioneel.
+1. Voeg een reactie toe **[!UICONTROL Label]** aan de reactie. Deze stap is optioneel.
 1. Selecteer in de vervolgkeuzelijst de activiteit waarop u wilt reageren. U kunt alle handelingen selecteren die zich in de vorige stappen van het pad bevinden.
 1. Afhankelijk van de actie die u hebt geselecteerd (een e-mail, SMS of een pushmelding), kiest u waarop u wilt reageren.
 1. U kunt een voorwaarde definiëren als een optionele stap. Zo kunt u na een e-mailactie bijvoorbeeld besluiten om twee paden te maken, één met een reactiegebeurtenis om alleen klikken voor VIP-klanten te volgen en één met een reactiegebeurtenis om door vrouwen uitgevoerde klikbewerkingen te volgen.
@@ -62,6 +65,38 @@ Hier volgen de verschillende stappen voor het configureren van reactiegebeurteni
 >[!CAUTION]
 >
 >E-mailclients zoals Gmail staan het blokkeren van afbeeldingen toe. E-mails die worden geopend, worden bijgehouden met een afbeelding van 0 pixels die in de e-mail is opgenomen. Als afbeeldingen worden geblokkeerd, wordt er geen rekening gehouden met het openen van e-mail.
+
+## Segmentkwalificatiegebeurtenissen {#segment-qualification}
+
+Deze activiteit staat uw reis toe om aan de ingangen en de uitgang van profielen in de segmenten van het Platform te luisteren om individuen te maken binnen of zich op een reis vooruit te bewegen. Raadpleeg deze [sectie](../segment/about-segments.md)voor meer informatie over het maken van segmenten.
+
+Laten we zeggen dat je een &quot;zilveren klant&quot;-segment hebt. Met deze activiteit, kunt u alle nieuwe zilveren klanten een reis maken en hen een reeks gepersonaliseerde berichten verzenden.
+
+Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
+
+Wanneer het segment wordt gestreamd met de optie High Frequency Audiences van Platform, wordt er in real-time naar toegang en uitgangen geluisterd. Als het segment niet wordt gestreamd, wordt bij de berekening van het segment rekening gehouden met de in- en uitgangen.
+
+1. Ontgrendel de categorie **Gebeurtenissen** en zet een **segmentkwalificatieactiviteit** neer op uw canvas.
+
+   ![](../assets/segment5.png)
+
+1. Voeg een **Label** toe aan de activiteit. Deze stap is optioneel.
+
+1. Klik in het veld **Segment** en selecteer de segmenten die u wilt benutten.
+
+   ![](../assets/segment6.png)
+
+1. Kies in het veld **Gedrag** of u wilt luisteren naar segmentingangen, uitgangen of beide.
+
+1. Selecteer een naamruimte. Dit is alleen nodig als het evenement als de eerste stap van de reis wordt geplaatst.
+
+   ![](../assets/segment7.png)
+
+De nuttige lading bevat de volgende contextinformatie, die u in voorwaarden en acties kunt gebruiken:
+
+* het gedrag (ingang, uitgang)
+* het tijdstempel van de kwalificatie
+* segment-id
 
 ## Geavanceerd gebruik: gebeurtenissen met een wachttijd parallel{#section_vxv_h25_pgb}
 
