@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 0%
 
 ---
 
@@ -70,6 +73,16 @@ Met de interface kunt u eenvoudige gebeurtenisparameters doorgeven. Als u verzam
 
 Een technische gebruiker kan deze interface ook gebruiken om gebeurtenislading samen te stellen en gebeurtenissen teweeg te brengen zonder het moeten een derdehulpmiddel gebruiken.
 
+Wanneer het klikken van de **Send** knoop, begint de test. De voortgang van het individu tijdens de reis wordt weergegeven door een visuele stroom. Het pad wordt steeds groen naarmate het individu over de reis beweegt. Als er een fout optreedt, wordt er een waarschuwingssymbool weergegeven bij de bijbehorende stap. U kunt de cursor erop plaatsen om meer informatie over de fout weer te geven en volledige details te openen (indien beschikbaar).
+
+![](../assets/journeytest6.png)
+
+Wanneer u een ander testprofiel in het scherm van de gebeurtenisconfiguratie selecteert en de test opnieuw in werking stelt, wordt de visuele stroom ontruimd en toont de weg van nieuw individu.
+
+Wanneer u een rit tijdens de test opent, komt het weergegeven pad overeen met de laatste uitgevoerde test.
+
+De visuele stroom wordt slechts getoond wanneer de gebeurtenis die naar de reis wordt verzonden in het scherm van de gebeurtenisconfiguratie wordt bepaald. Als de gebeurtenis extern wordt gedefinieerd, bijvoorbeeld met Postman, wordt de visuele stroom niet weergegeven.
+
 ## Logboeken weergeven {#viewing_logs}
 
 Met de **[!UICONTROL Show log]** knop kunt u de testresultaten bekijken. Op deze pagina worden de huidige gegevens van de reis in JSON-indeling weergegeven. Met een knop kunt u hele knooppunten kopiëren. U moet de pagina handmatig vernieuwen om de testresultaten van de reis bij te werken.
@@ -92,3 +105,9 @@ Het aantal personen (technisch gesproken worden ze instanties genoemd) dat zich 
 * _transitionHistory_: de lijst met stappen die de persoon heeft gevolgd. Voor gebeurtenissen wordt de payload weergegeven.
 * _actionExecutionErrors_ : informatie over de fouten die zijn opgetreden.
 
+Hier zijn de verschillende statussen van de reis van een individu:
+
+* _Wordt uitgevoerd_: het individu is momenteel onderweg .
+* _Voltooid_: het individu bevindt zich aan het einde van de reis .
+* _Fout_: het individu tijdens de reis wordt gestopt als gevolg van een fout.
+* _Onderbroken_: het individu wordt tijdens de reis tegengehouden vanwege een stap die te veel tijd heeft gekost .
