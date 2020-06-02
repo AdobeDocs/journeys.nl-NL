@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 76369cd714c513e0038278ad058bf1ba43fcd240
+source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ U kunt de naam van de reis wijzigen, een beschrijving toevoegen, terugkeer toest
 
 Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de optie uitschakelen voor &#39;één opname&#39;-reizen, bijvoorbeeld als u een eenmalige gift wilt aanbieden wanneer een persoon een winkel betreedt. In dat geval, wilt u niet de klant de reis kunnen opnieuw ingaan en de aanbieding opnieuw ontvangen.
 
-Wanneer een reis &quot;eindigt&quot;, zal het de status hebben **[!UICONTROL Finished]**. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken.
+Wanneer een reis &quot;eindigt&quot;, zal het de status hebben **[!UICONTROL Closed (no entrance)]**. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken.
 
 ## Time-out en fout in reisactiviteiten {#timeout_and_error}
 
