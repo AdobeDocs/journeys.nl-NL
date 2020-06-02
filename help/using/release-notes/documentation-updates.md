@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0bf8ce5974b7be684a156d5c5445dca122213237
+source-git-commit: 3b19e771b6fa3a679a36398c12417b190ee7ff18
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 0%
 
 ---
 
@@ -21,12 +24,24 @@ source-git-commit: 0bf8ce5974b7be684a156d5c5445dca122213237
 Deze pagina bevat een overzicht van alle documentatieupdates voor Journey Orchestration.
 U kunt ook de Opmerkingen bij de [release](../release-notes/release-notes.md)van de Journey Orchestration raadplegen.
 
+## juni 2020 {#june-2020}
+
+* Toegevoegde informatie over hoe te om de geheim voorgeheugenduur van het teken voor een bron van de douaneauthentificatiegegevens te veranderen. [Meer informatie](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Bijgewerkte schermafbeeldingen en tekst die de hernoeming van de **voltooide** reisstaat weerspiegelen die in **Gesloten (geen ingang)** is veranderd.
+* Toegevoegde informatie over hoe de taal voor de interface wordt bepaald. [Meer informatie](../about/user-interface.md)
+* De lijst met statussen van de reis van een individu is verplaatst naar het gedeelte Logboeken [van de](../building-journeys/testing-the-journey.md#viewing_logs) testmodus.
+
+## april 2020 {#april-2020}
+
+* Een nieuwe sectie toegevoegd over de definitie van het ervaringsgebeurtenisschema om gebruikers te helpen hun eerste gebeurtenis vormen. [Meer informatie](../event/experience-event-schema.md)
+* De homepage voor de documentatie van de Orchestratie van de Reis is bijgewerkt met extra nuttige verbindingen. [Meer informatie](../../journey-orchestration-home.md)
+
 ## maart 2020 {#march-2020}
 
 * Toegevoegde parameterbeschrijvingen voor _actionExecutionErrors_ en _fetchErrors_ in de sectie van testlogboeken. [Meer informatie](../building-journeys/testing-the-journey.md#viewing_logs)
 * De beperkingen op aangepaste acties die tijdens een reis worden gebruikt, zijn bijgewerkt. U kunt ook het veld **URL** en de parameters **Verificatie** wijzigen. [Meer informatie](../action/about-custom-action-configuration.md)
 * Er zijn nieuwe contextuele Help-items toegevoegd. Het deelvenster Aangepaste payload voor verificatie (in handelingen en gegevensbronnen) bevat nu een Help-pictogram dat een koppeling vormt naar deze [sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-* Voltooide reizen kunnen nu worden stopgezet. [Meer informatie](../building-journeys/using-the-journey-designer.md)
+* Gesloten reizen kunnen nu worden gestopt. [Meer informatie](../building-journeys/using-the-journey-designer.md)
 * De sectie van de interfacebeschrijving is gereorganiseerd. [Meer informatie](../about/user-interface.md)
 * Het activeren van meerdere gebeurtenissen is toegevoegd aan de sectie over de testmodus [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
 * De sectie van de wijze van de Test is bijgewerkt betreffende de nieuwe **Wacht tijd in testparameter** . [Meer informatie](../building-journeys/testing-the-journey.md)
@@ -36,10 +51,10 @@ U kunt ook de Opmerkingen bij de [release](../release-notes/release-notes.md)van
 * De interfacebeschrijving is bijgewerkt met informatie over contextuele hulp. [Meer informatie](../about/user-interface.md#section_ksq_zr1_ffb)
 * Wanneer u door **XDM-velden** bladert, wordt de vriendelijke naam nu weergegeven. Verwante secties zijn bijgewerkt. [Meer informatie](../about/user-interface.md#friendly-names-display)
 
-
 ## februari 2020 {#february-2020}
 
 * De sneltoetssectie is bijgewerkt. Met de sneltoets **C** kunt u een nieuw item maken in alle lijstschermen. [Meer informatie](../about/user-interface.md#section_ksq_zr1_ffb)
+* De pagina&#39;s met [gegevensbronnen](../datasource/about-data-sources.md) en [het overzicht van acties](../action/action.md) zijn verbeterd.
 
 ## januari 2020 {#january-2020}
 
