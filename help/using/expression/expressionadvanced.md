@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 0%
 
 ---
 
@@ -30,11 +33,10 @@ _De geavanceerde interface van de uitdrukkingsredacteur_
 De geavanceerde uitdrukkingsredacteur kan worden gebruikt om:
 
 * creëren [geavanceerde voorwaarden](../building-journeys/condition-activity.md#about_condition) op gegevensbronnen en gebeurtenisinformatie
-* aangepaste [tijdzones](../building-journeys/timezone-management.md) definiëren in datumcondities, wachtactiviteiten voor vaste datum, aangepaste wachtactiviteiten
 * aangepaste [wachtactiviteiten definiëren](../building-journeys/wait-activity.md#custom)
 * handeling parameters toewijzen
 
-Indien mogelijk kunt u tussen de twee modi schakelen met de **[!UICONTROL Advanced mode]**knop /**[!UICONTROL Simple mode]** . De eenvoudige modus wordt [hier](../building-journeys/condition-activity.md#about_condition)beschreven.
+Indien mogelijk kunt u tussen de twee modi schakelen met de **[!UICONTROL Advanced mode]** knop / **[!UICONTROL Simple mode]** . De eenvoudige modus wordt [hier](../building-journeys/condition-activity.md#about_condition)beschreven.
 
 >[!NOTE]
 >
@@ -50,7 +52,7 @@ U kunt de geavanceerde expressieeditor op verschillende manieren openen:
 
    ![](../assets/journeyuc2_33.png)
 
-* Wanneer u een douanetijdzone of een douanetijdopnemer creeert, zal de geavanceerde redacteur direct worden getoond.
+* Wanneer u een douanetijdopnemer creeert, zal de geavanceerde redacteur direct worden getoond.
 * Wanneer u actieparameter toewijst, klik op **[!UICONTROL Advanced mode]**.
 
 ## De interface detecteren{#section_otq_tnj_cjb}
