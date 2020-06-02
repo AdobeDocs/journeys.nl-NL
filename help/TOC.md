@@ -4,7 +4,10 @@ audience: end-user
 user-guide-title: Help voor reisorganisatie
 index: true
 translation-type: tm+mt
-source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
+source-git-commit: b199c8c2d0940b5ba3b0093cf8a654739249263d
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 0%
 
 ---
 
@@ -43,6 +46,10 @@ source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
       + [Beperkingen voor aangepaste handelingen](using/action/custom-action-limitations.md)
       + [URL-configuratie](using/action/url-configuration.md)
       + [De berichtparameters definiëren](using/action/defining-the-message-parameters.md)
++ Plaformuliersegmenten gebruiken {#configuring-segment}
+   + [Informatie over segmenten van het platform](using/segment/about-segments.md)
+   + [Een segment maken](using/segment/creating-a-segment.md)
+   + [Segmenten in omstandigheden gebruiken](using/segment/using-a-segment.md)
 + Een reis maken {#building-journeys}
    + Informatie over het maken van reizen {#about-journey-building}
       + [Een reis maken](using/building-journeys/journey.md)
@@ -64,6 +71,13 @@ source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
          + [Aangepaste handelingen gebruiken](using/building-journeys/using-custom-actions.md)
    + [De reis testen](using/building-journeys/testing-the-journey.md)
    + [De reis publiceren](using/building-journeys/publishing-the-journey.md)
+   + Reisstappen delen met Platform {#sharing-journey-steps}
+      + [Overzicht van stap delen voor reizen](using/building-journeys/sharing-overview.md)
+      + [tripSteps-gebeurtenissen - gemeenschappelijke velden](using/building-journeys/sharing-common-fields.md)
+      + [uitvoeringsvelden van handelingen voor gebeurtenissen van de tripStep](using/building-journeys/sharing-execution-fields.md)
+      + [gegevens ophalen van gebeurtenissen van de tripStep velden](using/building-journeys/sharing-fetch-fields.md)
+      + [identiteitsvelden van gebeurtenissen van de tripStep](using/building-journeys/sharing-identity-fields.md)
+      + [reisvelden](using/building-journeys/sharing-journey-fields.md)
 + De geavanceerde expressie-editor gebruiken {#building-advanced-conditions-journeys}
    + [Over de geavanceerde expressie-editor](using/expression/expressionadvanced.md)
    + Syntaxis {#syntax}
@@ -160,4 +174,6 @@ source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
       + [De gegevensbronnen configureren](using/usecase/configuring-the-data-sources.md)
       + [De reis maken](using/usecase/building-the-journey.md)
    + [Hefboomwerking van vermoeidheidsscores](using/usecase/leveraging-fatigue-scores.md)
++ Werken met API&#39;s{#working-with-apis}
+   + [API&#39;s uitlijnen](using/api/capping.md)
 
