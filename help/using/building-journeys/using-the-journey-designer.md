@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+source-git-commit: 7bdba1be0b5fe95417038c0d6788e76b155104aa
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Met het menu Home kunt u de **lijst met reizen** weergeven. Creeer een nieuwe re
 
 ## De reislijst {#journey_list}
 
-Met de **reislijst** kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een voltooide reis niet verwijderen of opnieuw starten. U kunt er een nieuwe versie van maken, deze dupliceren of stoppen. U kunt de zoekbalk ook gebruiken om een reis te zoeken.
+Met de **reislijst** kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een gesloten reis niet verwijderen of opnieuw starten. U kunt er een nieuwe versie van maken, deze dupliceren of stoppen. U kunt de zoekbalk ook gebruiken om een reis te zoeken.
 
 U **[!UICONTROL Filters]** kunt het dialoogvenster openen door linksboven in de lijst op het filterpictogram te klikken. Met het menu Filters kunt u de weergegeven ritten filteren op basis van verschillende criteria (status, de criteria die u hebt gemaakt, de criteria die in de laatste 30 dagen zijn gewijzigd, alleen de laatste versies, enzovoort). U kunt er ook voor kiezen om alleen de ritten weer te geven die een bepaalde gebeurtenis, veldgroep of handeling gebruiken. Kolommen die in de lijst worden weergegeven, kunnen worden geconfigureerd. Alle filters en kolommen worden per gebruiker opgeslagen.
 
@@ -68,7 +71,7 @@ Op het canvas worden uw actie en gebeurtenisactiviteiten vertegenwoordigd door e
 
 ## De acties op de bovenste balk {#top_actions}
 
-Afhankelijk van de status van de reis kunt u verschillende handelingen op uw reis uitvoeren met de knoppen in de rechterbovenhoek: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Deze knoppen worden weergegeven wanneer er geen activiteit is geselecteerd. Sommige knoppen worden contextueel weergegeven. De knop Logbestand van de testmodus verschijnt wanneer de testmodus wordt geactiveerd (zie [](../building-journeys/testing-the-journey.md)). De rapportknop wordt weergegeven wanneer de reis live, gestopt of voltooid is.
+Afhankelijk van de status van de reis kunt u verschillende handelingen op uw reis uitvoeren met de knoppen in de rechterbovenhoek: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Deze knoppen worden weergegeven wanneer er geen activiteit is geselecteerd. Sommige knoppen worden contextueel weergegeven. De knop Logbestand van de testmodus verschijnt wanneer de testmodus wordt geactiveerd (zie [](../building-journeys/testing-the-journey.md)). De rapportknop wordt weergegeven wanneer de reis live, gestopt of gesloten is.
 
 ![](../assets/journey41.png)
 
@@ -89,3 +92,28 @@ Plaats de cursor op het pad en klik op het **[!UICONTROL Delete arrow]** pictogr
 Wanneer twee activiteiten op het canvas worden losgekoppeld, wordt een waarschuwing weergegeven. Plaats de cursor op het waarschuwingspictogram om het foutbericht weer te geven. U kunt het probleem verhelpen door de ontkoppelde activiteit te verplaatsen en deze aan te sluiten op de vorige activiteit.
 
 ![](../assets/canvas-disconnected.png)
+
+## Kopiëren en plakken {#copy-paste}
+
+U kunt een of meer activiteiten van een reis kopiëren en deze in dezelfde of een andere reis plakken. Dit staat u toe om tijd te besparen als u talrijke activiteiten wilt hergebruiken die reeds in een vorige reis zijn gevormd.
+
+**Belangrijke opmerkingen**
+
+* U kunt kopiëren/plakken over verschillende tabbladen en browsers. U kunt alleen activiteiten kopiëren/plakken binnen dezelfde instantie.
+* U kunt een gebeurtenis niet kopiëren/plakken als de doelreis een gebeurtenis heeft die een andere naamruimte gebruikt.
+* Geplakte activiteiten kunnen verwijzen naar gegevens die niet aanwezig zijn in de doelreis, bijvoorbeeld als u kopieert/plakt over verschillende sandboxen. Controleer altijd op fouten en breng de vereiste aanpassingen aan.
+* Houd er rekening mee dat u een handeling niet ongedaan kunt maken. Als u geplakte activiteiten wilt verwijderen, moet u deze selecteren en verwijderen. Zorg er daarom voor dat u alleen de activiteiten selecteert die u nodig hebt voordat u deze kopieert.
+* U kunt activiteiten van om het even welke reis kopiëren, zelfs degenen die in read-only zijn.
+* U kunt elke activiteit selecteren, ook als deze niet is gekoppeld. Gekoppelde activiteiten blijven gekoppeld nadat ze zijn geplakt.
+
+Hier volgen de stappen voor het kopiëren/plakken van activiteiten:
+
+1. Open een reis.
+1. Selecteer de activiteiten die u wilt kopiëren door de muis te verplaatsen terwijl u klikt. U kunt ook op elke activiteit klikken terwijl u op de **Ctrl/Command** -toets drukt. Gebruik **Ctrl/Command + A** als u alle activiteiten wilt selecteren.
+   ![](../assets/copy-paste1.png)
+1. Druk op **Ctrl/Command + C**.
+Als u slechts één activiteit wilt kopiëren, kunt u op het klikken en het pictogram van het **Exemplaar** in de bovenkant verlaten van de ruit van de activiteitenconfiguratie gebruiken.
+   ![](../assets/copy-paste2.png)
+1. Druk tijdens elke reis op **Ctrl/Command + V** om de activiteiten te plakken zonder deze aan een bestaand knooppunt te koppelen. Geplakte activiteiten worden in dezelfde volgorde geplaatst. Na het plakken blijven de activiteiten geselecteerd zodat u ze gemakkelijk kunt verplaatsen. U kunt de cursor ook op een lege plaatsaanduiding plaatsen en op **Ctrl/Command + V**drukken. Geplakte activiteiten worden gekoppeld aan het knooppunt.
+   ![](../assets/copy-paste3.png)
+
