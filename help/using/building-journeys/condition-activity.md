@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 538b350165365479caef499a74346381643033d5
+source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+workflow-type: tm+mt
+source-wordcount: '677'
+ht-degree: 0%
 
 ---
 
@@ -46,6 +49,9 @@ In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een 
 
 ![](../assets/journey64.png)
 
+Als u de Dienst [van de Segmentatie van het](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Platform gebruikt om uw segmenten tot stand te brengen, kunt u hen in uw reisvoorwaarden hefboomwerking. Zie Segmenten [gebruiken in voorwaarden](../segment/using-a-segment.md).
+
+
 >[!NOTE]
 >
 >U kunt geen vragen op tijdreeksen (bijvoorbeeld een lijst van aankopen, voorbij klikken op berichten) met de eenvoudige redacteur uitvoeren. Hiervoor moet u de geavanceerde editor gebruiken. Zie [](../expression/expressionadvanced.md).
@@ -68,7 +74,7 @@ Hierdoor kunt u verschillende handelingen uitvoeren op basis van het uur van de 
 
 ## Percentage splitsing {#percentage_split}
 
-Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Definieer het aantal splitsingen en de verdeling voor elk pad. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen er in deze reisactiviteit zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig Java-mechanisme (zie deze [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Definieer het aantal splitsingen en de verdeling voor elk pad. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen in deze activiteit van de reis zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig Java-mechanisme (zie deze [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
 >[!NOTE]
 >
