@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: ffcb0bd7c6b94a412878bae16ac9ffd1742d34d2
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 0%
 
 ---
 
@@ -25,15 +28,8 @@ Als u wijzigingen in een gepubliceerde reis moet aanbrengen, moet u een nieuwe v
 Als je een reis stopt, wordt deze definitief gestopt. Alle mensen die op de reis gaan, zullen permanent worden gestopt en de reis zal ophouden nieuwkomers toe te laten. Als u de reis opnieuw moet gebruiken, moet u het dupliceren en het publiceren.
 
 1. Controleer voordat u uw reis publiceert of deze geldig is en of er geen fout optreedt. U kunt geen reis met fouten publiceren. Zie [](../about/troubleshooting.md#section_h3q_kqk_fhb). Het wordt ook aanbevolen uw reis vóór publicatie te testen. Zie [](../building-journeys/testing-the-journey.md).
-1. Als u de rit wilt publiceren, klikt u op de **[!UICONTROL Publish]**optie in het keuzemenu rechtsboven.
+1. Als u de rit wilt publiceren, klikt u op de **[!UICONTROL Publish]** optie in het keuzemenu rechtsboven.
 
    ![](../assets/journeyuc1_18.png)
 
 Wanneer de reis wordt gepubliceerd, is het op read-only wijze.
-
-Hier zijn de verschillende statussen van de reis van een individu:
-
-* _Wordt uitgevoerd_: het individu is momenteel onderweg .
-* _Voltooid_: het individu bevindt zich aan het einde van de reis .
-* _Fout_: het individu tijdens de reis wordt gestopt als gevolg van een fout.
-* _Onderbroken_: het individu wordt tijdens de reis tegengehouden vanwege een stap die te veel tijd heeft gekost .
