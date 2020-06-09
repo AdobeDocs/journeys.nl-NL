@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 <table>
 <thead>
 <tr>
-<th><strong>Verbeterde integratie van Adobe Experience Platform</strong><br/></th>
+<th><strong>Verbeterde Adobe Experience Platform-integratie</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -46,8 +46,8 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 <li><p>In de eenvoudige uitdrukkingsredacteur, zijn de segmenten van het Platform nu direct vermeld in de navigatieboom om gemakkelijke opstelling van voorwaarden zoals "toe te staan behoort deze persoon tot segment A?". <a href="../segment/using-a-segment.md">Meer informatie</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Reisorchestratie geeft nu automatisch aan het Adobe-gegevensplatform de stappen door individuele personen tijdens reizen door. Dit geldt ook voor mogelijke fouten. Deze informatie kan worden gebruikt voor analyse- of segmentatiedoeleinden. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
-<img src="../assets/rn-sharing.png"/>
+<li><p>Reisorchestratie geeft nu automatisch de stappen door die tijdens reizen worden uitgevoerd aan het Adobe-gegevensplatform. Dit geldt ook voor mogelijke fouten. Deze informatie kan voor het bereiken van rapportering en het oplossen van problemen worden gebruikt door vragen over de gebeurtenissen van de Stap van de Reis voor een bepaalde reis of voor alle reizen uit te voeren. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
+<img src="../assets/rn-journeystepevent.png"/>
 </li>
 <li><p>Reisorchestratie kan nu worden verbonden met productie en niet-productie Platform Sandbox. Effectieve beschikbaarheid: 15 juni 2020. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
 </li>
@@ -196,7 +196,7 @@ Reisorchestratie is nu GA.
 
 Stel in real-time implementatiefuncties samen voor het orkestgebruik, waarbij gebruik wordt gemaakt van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen.
 
-De Orchestratie van de reis staat in real time orchestratie toe die door contextafhankelijke gegevens van gebeurtenissen, informatie van het Platform van de Ervaring van Adobe, of gegevens van de diensten van derdeAPI wordt aangedreven. De toepassing bepaalt in multistep stromen die reizen de volgende beste acties specifiek voor de consument, op hun profiel en gedrag worden genoemd. Dit omvat zowel de optimale timing als het type actie, zoals het verzenden van een pushmelding aan de consument via de mogelijkheden voor transactiemeldingen in Adobe Campagne Standard (hiervoor is Adobe Campagne Standard vereist) of het melden van een systeem van derden. Deze beslissingen worden genomen op basis van regels en Sensei-scores.
+De Orchestratie van de reis staat in real time orchestratie toe die door contextuele gegevens van gebeurtenissen, informatie van de Adobe Experience Platform, of gegevens van de diensten van derdeAPI wordt aangedreven. De toepassing bepaalt in multistep stromen die reizen de volgende beste acties specifiek voor de consument, op hun profiel en gedrag worden genoemd. Dit omvat zowel de optimale timing als het type actie, zoals het verzenden van een pushmelding aan de consument via de mogelijkheden voor transactiemeldingen in Adobe Campagne Standard (hiervoor is Adobe Campagne Standard vereist) of het melden van een systeem van derden. Deze beslissingen worden genomen op basis van regels en Sensei-scores.
 
 [Meer](../action/working-with-adobe-campaign.md) weten over Journey Orchestration?
 
