@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om het beste uit de Orchestratie van de Reis te krijgen, adviseren wij gebruikend Chrome als uw browser van Internet. De interface wordt weergegeven in de taal die is gedefinieerd in IMS. Als uw taal IMS niet door Journey Orchestration wordt gesteund, wordt de interface getoond in het Engels.
+>We raden u aan Chrome als uw internetbrowser te gebruiken om het beste uit [!DNL Journey Orchestration]de lijst te halen. De interface wordt weergegeven in de taal die is gedefinieerd in IMS. Als uw taal IMS niet door wordt gesteund, wordt de interface getoond in het Engels. [!DNL Journey Orchestration]
 >
 >Deze documentatie wordt regelmatig bijgewerkt om recente wijzigingen in het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van de interface van het product.
 
-## Toegang tot reisorkest{#accessing_journey_orchestration}
+## Toegang [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Klik op het **[!UICONTROL App Selector]** pictogram in de rechterbovenhoek om de interface van de Journey Orchestration te openen. Klik **[!UICONTROL Journey Orchestration]** rechts onder Experience Platform.
+Als u toegang wilt krijgen tot de interface van [!DNL Journey Orchestration]de toepassing, klikt u op het **[!UICONTROL App Selector]** pictogram rechtsboven. Klik **[!UICONTROL Journey Orchestration]** rechts onder Experience Platform.
 
 ![](../assets/journey1.png)
 
-U hebt ook toegang tot Journey Orchestration via de startpagina van Experience Cloud, in de **[!UICONTROL Quick access]** sectie.
+U kunt ook toegang krijgen [!DNL Journey Orchestration] vanaf de startpagina van Experience Cloud in de **[!UICONTROL Quick access]** sectie.
 
 ![](../assets/journey1bis.png)
 
@@ -43,11 +43,11 @@ U hebt ook toegang tot Journey Orchestration via de startpagina van Experience C
 >abstract="Met de reislijst kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een gesloten reis niet verwijderen of opnieuw starten. U kunt er een nieuwe versie van maken of deze dupliceren. U kunt de zoekbalk ook gebruiken om een reis te zoeken."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Video over demo bekijken"
 
-Met de bovenste menu&#39;s kunt u door de verschillende functies van Journey Orchestration navigeren: **[!UICONTROL Home]**(de ritten),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+Met de bovenste menu&#39;s kunt u door de verschillende functies van [!DNL Journey Orchestration]: **[!UICONTROL Home]**(de ritten),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
-Klik op het ![](../assets/icon-context.png) pictogram in de rechterbovenhoek van het scherm om de contextafhankelijke Help weer te geven. Het is beschikbaar over de verschillende schermen van de Orchestration van de Reis (reizen, gebeurtenissen, acties en gegevensbronnen). Op deze manier kunt u een korte beschrijving weergeven van de huidige functionaliteit en toegang krijgen tot verwante artikelen en video&#39;s.
+Klik op het ![](../assets/icon-context.png) pictogram in de rechterbovenhoek van het scherm om de contextafhankelijke Help weer te geven. Het is beschikbaar over de verschillende [!DNL Journey Orchestration] lijstschermen (reizen, gebeurtenissen, acties en gegevensbronnen). Op deze manier kunt u een korte beschrijving weergeven van de huidige functionaliteit en toegang krijgen tot verwante artikelen en video&#39;s.
 
 ![](../assets/journey2bis.png)
 
@@ -93,7 +93,7 @@ Als een vriendelijke naam beschikbaar is, wordt het veld weergegeven als `<frien
 
 ## De verschillende sneltoetsen gebruiken{#section_ksq_zr1_ffb}
 
-Hier zijn de verschillende sneltoetsen beschikbaar in de interface van de Journey Orchestration.
+Hier volgen de verschillende sneltoetsen die beschikbaar zijn in de interface van [!DNL Journey Orchestration]de website.
 
 _In de lijst van reizen, handelingen, gegevensbronnen of gebeurtenissen:_
 
