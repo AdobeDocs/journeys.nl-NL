@@ -11,19 +11,22 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 0%
 
 ---
 
 
 
-# Aanvullende stappen om gebeurtenissen naar Journey Orchestration te verzenden {#concept_xrz_n1q_y2b}
+# Aanvullende stappen om gebeurtenissen te verzenden naar [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 
 >[!NOTE]
 >
->Wanneer u een gebeurtenis maakt, genereert de reisorganisatie automatisch een id voor deze gebeurtenis. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [](../event/previewing-the-payload.md).
+>Wanneer u een gebeurtenis maakt, wordt [!DNL Journey Orchestration] automatisch een id voor deze gebeurtenis gegenereerd. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [](../event/previewing-the-payload.md).
 
-Om gebeurtenissen te vormen die moeten worden verzonden naar **[!UICONTROL Streaming Ingestion APIs]** en worden gebruikt in Journey Orchestration, moet u deze stappen volgen:
+Als u gebeurtenissen wilt configureren die moeten worden verzonden naar **[!UICONTROL Streaming Ingestion APIs]** en gebruikt in [!DNL Journey Orchestration], moet u de volgende stappen uitvoeren:
 
 1. Haal de inlaatURL op via de API&#39;s van het gegevensplatform (zie [Streaming Ingestie-API&#39;s](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)).
 1. Kopieer de lading van de payload voorproef in het **[!UICONTROL Event]** menu. Zie [](../event/defining-the-payload-fields.md).
@@ -31,7 +34,7 @@ Om gebeurtenissen te vormen die moeten worden verzonden naar **[!UICONTROL Strea
 Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Streaming Ingestie-API&#39;s stuurt met de door u gekopieerde payload:
 
 1. Stel een POST API-aanroep in naar de URL van de Streaming Ingestie-API&#39;s (een zogenaamde inlaat).
-1. Gebruik de payload die u hebt gekopieerd van Journey Orchestration in de hoofdtekst (&quot;gegevenssectie&quot;) van de API-aanroep naar Streaming Ingestie-API&#39;s. Zie hieronder voor een voorbeeld
+1. Gebruik de payload die u hebt gekopieerd vanuit [!DNL Journey Orchestration] de hoofdtekst (&quot;gegevenssectie&quot;) van de API-aanroep naar de API&#39;s voor streaming congestie. Zie hieronder voor een voorbeeld
 1. Bepaal waar u alle variabelen in de lading wilt ophalen. Voorbeeld: als de gebeurtenis geacht wordt het adres over te brengen, zal de geplakte lading &quot;adres&quot;tonen: &quot;string&quot;. &quot;string&quot; moet worden vervangen door de variabele die automatisch de juiste waarde invult, de e-mail van de persoon waarnaar een bericht wordt verzonden. In de voorvertoning van de lading vullen we in de **[!UICONTROL Header]** sectie vele waarden automatisch die u uw werk vergemakkelijken.
 1. Selecteer &#39;application/json&#39; als type body.
 1. Geef uw IMS ORG-id in de koptekst door met behulp van de sleutel &quot;x-gw-ims-org-id&quot;. Gebruik voor de waarde uw IMS ORG-id (&quot;XXX@AdobeOrg&quot;).
