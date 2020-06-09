@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b19e771b6fa3a679a36398c12417b190ee7ff18
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 0%
 
 # Documentatieupdates
 
-Deze pagina bevat een overzicht van alle documentatieupdates voor Journey Orchestration.
-U kunt ook de Opmerkingen bij de [release](../release-notes/release-notes.md)van de Journey Orchestration raadplegen.
+Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Orchestration].
+U kunt ook de opmerkingen bij de [!DNL Journey Orchestration] release [](../release-notes/release-notes.md)raadplegen.
 
 ## juni 2020 {#june-2020}
 
@@ -34,7 +34,7 @@ U kunt ook de Opmerkingen bij de [release](../release-notes/release-notes.md)van
 ## april 2020 {#april-2020}
 
 * Een nieuwe sectie toegevoegd over de definitie van het ervaringsgebeurtenisschema om gebruikers te helpen hun eerste gebeurtenis vormen. [Meer informatie](../event/experience-event-schema.md)
-* De homepage voor de documentatie van de Orchestratie van de Reis is bijgewerkt met extra nuttige verbindingen. [Meer informatie](../../journey-orchestration-home.md)
+* De homepage voor [!DNL Journey Orchestration] documentatie is bijgewerkt met extra nuttige verbindingen. [Meer informatie](../../journey-orchestration-home.md)
 
 ## maart 2020 {#march-2020}
 
