@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 26246bd44407a818afba8b80513cb62da9cf6ebd
+source-git-commit: a6a98eca551bf5fc46ebd3a6d0d11486e3fbe06b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Overzicht van stap delen voor reizen{#sharing-overview}
 
-Reisorchestratie verzendt automatisch de gegevens over de reisprestaties naar het Adobe Experience Platform, zodat deze kunnen worden gecombineerd met andere gegevens voor analysedoeleinden.
+Reisorchestratie stuurt automatisch gegevens over de reisprestaties naar de Adobe Experience Platform zodat deze kunnen worden gecombineerd met andere gegevens voor analysedoeleinden.
 
 U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Met deze functie kunt u gegevens van Reisorganisatie combineren met gegevens van downstream-gebeurtenissen, zoals hoeveel conversies er hebben plaatsgevonden, hoeveel betrokkenheid er op de website heeft plaatsgevonden of hoeveel transacties er in de winkel hebben plaatsgevonden. De reisinformatie kan worden gecombineerd met gegevens op het Platform, hetzij van andere digitale eigenschappen of van off-line eigenschappen om een vollediger beeld van prestaties te geven.
 
@@ -34,6 +34,12 @@ De lijst met XDM-velden die worden doorgegeven, is uitgebreid. Sommige bevatten 
 >Door gebrek, worden de datasets niet aangezet voor de dienst van het tijdprofiel in real time. Als u een dataset in de profieldienst wilt, moet u het (de knevel van het **Profiel** ) aanzetten. Houd er rekening mee dat een groot aantal gebeurtenissen opslagruimte in uw quota in beslag neemt. Ga zorgvuldig te werk voordat u een dataset voor profielen activeert
 >
 >![](../assets/sharing4.png)
+
+>[!]
+>
+>De reizen hebben ook de capaciteit of om de gebeurtenis van het Profiel van de Stap van de Reis naar platform al dan niet te verzenden.  Reizen houden een technicus bij om dit te beslissen.
+>
+>![](../assets/techtoggle.png)
 
 De reizen verzenden gegevens aangezien het voorkomt, op een het stromen manier. U kunt deze gegevens vragen met de Query-service. U kunt verbinding maken met de analysefuncties van de Klant of met andere BI-tools om de gegevens met betrekking tot deze stappen weer te geven.
 
