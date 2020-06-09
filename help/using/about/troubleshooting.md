@@ -9,7 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 0%
 
 ---
 
@@ -46,11 +49,11 @@ Het startpunt van een reis is altijd een evenement. U kunt tests uitvoeren met g
 
 U kunt controleren of de API-aanroep die u via deze gereedschappen verzendt, correct is verzonden of niet. Als u een fout terug krijgt, betekent het dat uw vraag een kwestie heeft. Controleer opnieuw de lading, de kopbal (en vooral organisatie identiteitskaart) en bestemmingsURL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar Journey Orchestration geduwd. Journey Orchestration is immers afhankelijk van de streamingopname-API&#39;s van Experience Platform. Als gevolg hiervan kunt u in geval van problemen met gebeurtenissen naar deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) verwijzen voor het oplossen van problemen met opname-API&#39;s voor streaming.
+Gebeurtenissen worden niet rechtstreeks van de bron naar [!DNL Journey Orchestration]geduwd. Vertrouw inderdaad [!DNL Journey Orchestration] op de streaming opname-API&#39;s van Experience Platform. Als gevolg hiervan kunt u in geval van problemen met gebeurtenissen naar deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) verwijzen voor het oplossen van problemen met opname-API&#39;s voor streaming.
 
 ## Controleren of mensen de reis betreden{#section_x4v_zzs_dgb}
 
-Journey Orchestration reporting meet de toegang van mensen tot een reis in real-time.
+[!DNL Journey Orchestration] rapportage meet de toegang van mensen tot een reis in real-time.
 
 Als je het evenement met succes verzendt maar geen toegang ziet, betekent het dat er iets mis gaat tussen het verzenden van het evenement en de ontvangst van het evenement op de reis.
 
@@ -70,7 +73,7 @@ Hier volgen een paar dingen die de beheerder moet controleren:
 
 ## Controleren hoe mensen door de reis navigeren{#section_l5y_yzs_dgb}
 
-De rapportage van de reisorganisatie meet de voortgang van individuen binnen een reis. Het is gemakkelijk om te identificeren waar en waarom een persoon werd tegengehouden.
+[!DNL Journey Orchestration] de rapportage meet de voortgang van individuen tijdens een reis . Het is gemakkelijk om te identificeren waar en waarom een persoon werd tegengehouden.
 
 Hier volgen enkele zaken:
 
