@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2a53413c79f0213434f9ca6a7847bd7f20fbf41e
+source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## Over toegangsbeheer {#about-access-management}
 
-Met reisorchestratie kunt u een set rechten en sandboxen aan uw gebruikers toewijzen om te definiëren tot welk deel van de interface ze toegang hebben.
+[!DNL Journey Orchestration] staat u toe om een reeks rechten aan uw gebruikers toe te wijzen om te bepalen tot welk deel van de interface zij toegang hebben.
 
 Ze kunnen worden beheerd door beheerders die toegang hebben tot de beheerconsole. Raadpleeg deze [documentatie](https://helpx.adobe.com/enterprise/managing/user-guide.html)voor meer informatie over de beheerconsole.
 
@@ -56,19 +56,19 @@ Gebruikers moeten altijd zijn gekoppeld aan een productprofiel, zodat u hun spec
 * **[!UICONTROL Publish journeys]**
 * **[!UICONTROL Manage reports]**
 
-Hieronder vindt u de compatibiliteit tussen rechten en de verschillende functies van de Journey Orchestration.
+Hieronder vindt u de compatibiliteit tussen rechten en [!DNL Journey Orchestration]de verschillende functies.
 
 ![](../assets/journey_permission.png)
 
 ## Een productprofiel maken {#create-product-profile}
 
-Met Reisorchestratie kunt u uw eigen productprofielen maken en een set rechten en sandboxen aan uw gebruikers toewijzen. Met productprofielen kunt u toegang tot bepaalde functies of objecten in de interface toestaan of weigeren.
+[!DNL Journey Orchestration] kunt u uw eigen productprofielen maken en een reeks rechten en sandboxen aan uw gebruikers toewijzen. Met productprofielen kunt u toegang tot bepaalde functies of objecten in de interface toestaan of weigeren.
 
-Raadpleeg de documentatie bij het [Adobe Experience Platform voor meer informatie over het maken en beheren van sandboxen](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
+Raadpleeg de documentatie bij [Adobe Experience Platform voor meer informatie over het maken en beheren van sandboxen](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
 
 Een productprofiel maken en een set rechten en sandboxen toewijzen:
 
-1. Selecteer in de beheerconsole **[!UICONTROL Journey orchestration]**. Klik op het tabblad **[!UICONTROL Product profile]** op **[!UICONTROL New Profile]**.
+1. Selecteer in de beheerconsole **[!UICONTROL Journey Orchestration]**. Klik op het tabblad **[!UICONTROL Product profile]** op **[!UICONTROL New Profile]**.
 
 1. Voeg een **[!UICONTROL Profile Name]** en **[!UICONTROL Description]** voor uw nieuwe productprofiel toe. Als u wilt dat uw profiel anders is, schakelt u de optie uit **[!UICONTROL Display name]** en typt u het profiel in **[!UICONTROL Same as Profile Name]** **[!UICONTROL Display name]**.
 
@@ -86,26 +86,26 @@ Een productprofiel maken en een set rechten en sandboxen toewijzen:
 
    >[!NOTE]
    >
-   >Reisorchestratie kan nu worden verbonden met productie en niet-productie Platform Sandbox. Effectieve beschikbaarheid: 15 juni 2020.
+   >De zandbak van het platform is een bètaeigenschap.
    <br>Zie deze [sectie](../about/access-management.md#sandboxes)voor meer informatie over sandboxen.
 
 1. Klik, indien nodig, onder **[!UICONTROL Included Permission Items]** het X-pictogram naast het verwijderen van machtigingen voor uw productprofiel.
 
 1. Voer vanuit de **[!UICONTROL Authoring]** machtigingencategorie dezelfde stappen uit als hierboven om rechten toe te voegen aan uw productprofiel.
-   <br>Zie deze [sectie](../about/access-management.md#about-access-management)voor meer informatie over rechten en compatibiliteit tussen rechten en de verschillende functies van de Journey Orchestration.
+   <br>Zie deze [!DNL Journey Orchestration]sectie voor meer informatie over rechten en compatibiliteit tussen rechten en [de verschillende functies van de rechten](../about/access-management.md#about-access-management).
 
 1. Klik wanneer u klaar bent op **[!UICONTROL Save]**.
 
-Uw productprofiel is nu gemaakt en geconfigureerd. Gebruikers die aan dit profiel zijn gekoppeld, kunnen nu verbinding maken met Reisorchestratie.
+Uw productprofiel is nu gemaakt en geconfigureerd. Gebruikers die aan dit profiel zijn gekoppeld, kunnen nu verbinding maken met [!DNL Journey Orchestration].
 
 ## Een productprofiel toewijzen {#assigning-product-profile}
 
 Productprofielen worden toegewezen aan een reeks gebruikers die dezelfde rechten hebben binnen uw organisatie.
 De lijst met alle out-of-the-box productprofielen met toegewezen rechten vindt u in deze sectie.
 
-Een productprofiel toewijzen aan een gebruiker om toegang te krijgen tot Journey Orchestration:
+Een productprofiel toewijzen dat een gebruiker kan openen [!DNL Journey Orchestration]:
 
-1. Selecteer in de beheerconsole **[!UICONTROL Journey orchestration]**.
+1. Selecteer in de beheerconsole **[!UICONTROL Journey Orchestration]**.
 
    ![](../assets/user_management.png)
 
@@ -123,18 +123,18 @@ Een productprofiel toewijzen aan een gebruiker om toegang te krijgen tot Journey
 
    ![](../assets/user_management_4.png)
 
-Uw gebruiker moet dan een e-mail ontvangen die wordt doorgestuurd naar uw instantie van de Journey Orchestration.
+Uw gebruiker moet dan een e-mail ontvangen die naar uw [!DNL Journey Orchestration] instantie wordt doorgestuurd.
 
 ## Sandboxen gebruiken {#sandboxes}
 
 >[!NOTE]
 >
->Reisorchestratie kan nu worden verbonden met productie en niet-productie Platform Sandbox. Effectieve beschikbaarheid: 15 juni 2020.
+>De zandbak van het platform is een bètaeigenschap.
 
-Met reisorchestratie kunt u uw instantie opdelen in afzonderlijke virtuele omgevingen, sandboxen genoemd.
+[!DNL Journey Orchestration] kunt u uw instantie opdelen in afzonderlijke virtuele omgevingen, sandboxen genoemd.
 Sandboxen worden toegewezen via productprofielen in de beheerconsole. Raadpleeg deze [sectie](../about/access-management.md#create-product-profile)voor meer informatie over het toewijzen van sandboxen.
 
-Reisorchestratie weerspiegelt de platformsandboxen die voor een bepaalde organisatie zijn gemaakt.
-U kunt platformsandboxen maken of opnieuw instellen vanuit uw Adobe Experience Platform-exemplaar. Raadpleeg de gebruikershandleiding [van de](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) sandbox voor de gedetailleerde stappen.
+[!DNL Journey Orchestration] weerspiegelt de platformsandboxen die voor een bepaalde organisatie zijn gemaakt.
+Platformsandboxen kunnen worden gemaakt of opnieuw worden ingesteld vanuit uw Adobe Experience Platform-instantie. Raadpleeg de gebruikershandleiding [van de](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) sandbox voor de gedetailleerde stappen.
 
 U kunt het besturingselement voor de sandboxswitch linksboven in het scherm vinden. Als u van de ene naar de andere sandbox wilt schakelen, klikt u op de momenteel actieve sandbox in de switch en selecteert u een andere sandbox in de vervolgkeuzelijst.
