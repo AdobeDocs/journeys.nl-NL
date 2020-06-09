@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f28bdc0e74359ff9f8d84961769b84973ae3f39
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## Inleiding
 
-De API&#39;s van de Journey Orchestration ondersteunen 5000 gebeurtenissen/seconden, maar sommige externe systemen of API&#39;s kunnen geen equivalente doorvoer hebben. Dat is waarom de Orchestratie van de Reis met een specifieke eigenschap komt genoemd Capping API om het tarief te controleren en te beperken dat wij aan externe systemen opleggen.
+[!DNL Journey Orchestration]API&#39;s ondersteunen 5000 gebeurtenissen/seconden, maar sommige externe systemen of API&#39;s kunnen geen equivalente doorvoer hebben. Daarom [!DNL Journey Orchestration] wordt er een speciale functie met de naam Capping API (Capping API) gebruikt om de snelheid die we opleggen aan externe systemen te controleren en te beperken.
 
 Tijdens een gegevensbronconfiguratie, zult u een verbinding aan een systeem bepalen om extra informatie terug te winnen die in uw reizen, of voor een actiedefinitie zal worden gebruikt, zult u verbinding van een derdesysteem vormen om berichten of API vraag te verzenden. Telkens wanneer een API vraag door Journey wordt uitgevoerd, wordt het maximum dat API wordt gevraagd, komt de vraag door de API motor. Als er een bepaalde grens is, wordt de vraag verworpen en het externe systeem zal niet worden overbelast.
 
@@ -30,9 +30,9 @@ Meer over actie of datasource configuratie leren, zie [Ongeveer acties](https://
 
 ## Bronnen
 
-De API voor het uitlijnen van reisorchestratie wordt beschreven in een Swagger-bestand dat [hier](https://adobedocs.github.io/JourneyAPI/docs/)beschikbaar is.
+De API voor [!DNL Journey Orchestration] uitlijnen wordt beschreven in een Swagger-bestand dat [hier](https://adobedocs.github.io/JourneyAPI/docs/)beschikbaar is.
 
-Als u deze API met uw instantie van de Journey Orchestration wilt gebruiken, moet u de AdobeIO-console gebruiken. U begint met het volgen van deze [Aan de slag met Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) en gebruikt vervolgens de secties op deze pagina.
+Als u deze API met uw [!DNL Journey Orchestration] instantie wilt gebruiken, moet u de AdobeIO-console gebruiken. U begint met het volgen van deze [Aan de slag met Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) en gebruikt vervolgens de secties op deze pagina.
 
 Om uw integratie te testen en voor te bereiden, is een inzameling van Postman beschikbaar [hier](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
@@ -40,14 +40,14 @@ Om uw integratie te testen en voor te bereiden, is een inzameling van Postman be
 
 ### API-toegang instellen
 
-De toegang tot de API voor reisorganisatie wordt ingesteld via de onderstaande stappen. Elk van deze stappen wordt beschreven in de documentatie [van](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe IO.
+[!DNL Journey Orchestration] API-toegang wordt ingesteld via de onderstaande stappen. Elk van deze stappen wordt beschreven in de documentatie [van](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe IO.
 
 >[!CAUTION]
 >
 >Als u certificaten wilt beheren in Adobe IO, moet u ervoor zorgen dat u <b>Systeembeheerdersrechten</b> hebt voor de organisatie of een <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">ontwikkelaarsaccount</a> in de beheerconsole.
 
 1. **Controleer of u een digitaal certificaat** hebt of maak er zo nodig een. De openbare en persoonlijke sleutels die van het certificaat worden voorzien zijn vereist in de volgende stappen.
-1. **Maak een nieuwe integratie met de Journey Orchestration Service** in Adobe IO en configureer deze. Toegang tot het productprofiel is vereist voor Journey Orchestration and Adobe Experience Platform. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).
+1. **Maak een nieuwe integratie met[!DNL Journey Orchestration]Service** in Adobe IO en configureer deze. Toegang tot het productprofiel is vereist voor [!DNL Journey Orchestration] en Adobe Experience Platform. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).
 1. **Maak een JSON Web Token (JWT)** van de eerder gegenereerde referenties en onderteken deze met uw persoonlijke sleutel. De JWT codeert alle identiteits- en beveiligingsgegevens die Adobe nodig heeft om uw identiteit te verifiëren en u toegang te verlenen tot de API. Deze stap wordt beschreven in deze [sectie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Uitwisseling uw JWT voor een Token** van de Toegang door een POST- verzoek of via de Interface van de Console van de Ontwikkelaar. Dit toegangstoken moet worden gebruikt in elke header van uw API-aanvragen.
 
@@ -67,7 +67,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ACCESS_TOKEN>**: Uw persoonlijke toegangstoken, die werd teruggewonnen toen het ruilen van uw JWT door een POST- verzoek.
 
-* **&lt;API_KEY>**: uw persoonlijke API-sleutel. Deze wordt geleverd in Adobe I/O nadat u een nieuwe integratie hebt gemaakt in de Journey Orchestration Service.
+* **&lt;API_KEY>**: uw persoonlijke API-sleutel. Deze wordt geleverd in Adobe I/O nadat u een nieuwe integratie in de [!DNL Journey Orchestration] service hebt gemaakt.
 
 
 
@@ -164,14 +164,14 @@ De mogelijke waarschuwing is:
 
 ## Gebruiksscenario&#39;s
 
-In deze sectie, zult u de vijf belangrijkste gebruik-gevallen vinden die u kunt uitvoeren om uw het in kaart brengen configuratie in de Orchestratie van de Reis te beheren.
+In deze sectie, zult u de vijf belangrijkste gebruik-gevallen vinden die u kunt uitvoeren om uw het capteren configuratie binnen te beheren [!DNL Journey Orchestration].
 
 Om u in uw het testen en configuratie te helpen, is een inzameling van Postman beschikbaar [hier](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 Deze Postman-verzameling is ingesteld om de Postman-variabele-verzameling te delen die via de integratie __[> Uitproberen > Download voor Postman](https://console.adobe.io/integrations)van__ Adobe I/O Console is gegenereerd. Hiermee wordt een Postman-milieubestand met de geselecteerde integratiewaarden gegenereerd.
 
 Nadat u de gegevens hebt gedownload en geüpload naar Postman, moet u twee variabelen toevoegen: `{JO_HOST}` en `{Base_Path}`.
-* `{JO_HOST}` : Reisorchestratie Gateway-URL
+* `{JO_HOST}` : [!DNL Journey Orchestration] Gateway-URL
 * `{BASE_PATH}` : ingangspunt voor de API. De waarde is &#39;/authoring&#39;
 
 
