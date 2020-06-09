@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
 >
 >Wanneer u een gebeurtenis maakt, slaat u de gebeurtenis op en opent u deze opnieuw voordat u de voorvertoning van de payload weergeeft. Deze stap is nodig om een gebeurtenis-id in de lading te produceren.
 
-1. Klik op het **[!UICONTROL View Payload]**pictogram om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht.
+1. Klik op het **[!UICONTROL View Payload]** pictogram om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht.
 
    ![](../assets/journey13.png)
 
@@ -35,4 +38,4 @@ Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
 
 1. Controleer de voorvertoning om de definitie van de payload te valideren.
 
-1. Vervolgens kunt u de voorvertoning van de lading delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis. Deze lading kan hem helpen de opstelling van een gebeurtenis ontwerpen die aan de Orchestratie van de Reis duwt. Zie [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Vervolgens kunt u de voorvertoning van de lading delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis. Deze lading kan hem helpen de opstelling van een gebeurtenis ontwerpen die zich aan [!DNL Journey Orchestration]duwt. Zie [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
