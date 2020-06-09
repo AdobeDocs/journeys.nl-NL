@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6a98eca551bf5fc46ebd3a6d0d11486e3fbe06b
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 # Overzicht van stap delen voor reizen{#sharing-overview}
 
-Reisorchestratie stuurt automatisch gegevens over de reisprestaties naar de Adobe Experience Platform zodat deze kunnen worden gecombineerd met andere gegevens voor analysedoeleinden.
+[!DNL Journey Orchestration] stuurt automatisch gegevens over de reisprestaties naar de Adobe Experience Platform zodat deze kunnen worden gecombineerd met andere gegevens voor analysedoeleinden.
 
-U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Met deze functie kunt u gegevens van Reisorganisatie combineren met gegevens van downstream-gebeurtenissen, zoals hoeveel conversies er hebben plaatsgevonden, hoeveel betrokkenheid er op de website heeft plaatsgevonden of hoeveel transacties er in de winkel hebben plaatsgevonden. De reisinformatie kan worden gecombineerd met gegevens op het Platform, hetzij van andere digitale eigenschappen of van off-line eigenschappen om een vollediger beeld van prestaties te geven.
+U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Met deze functie kunt u [!DNL Journey Orchestration] gegevens combineren met gegevens over gebeurtenissen stroomafwaarts, zoals hoeveel conversies er hebben plaatsgevonden, hoeveel betrokkenheid er op de website heeft plaatsgevonden of hoeveel transacties er in de winkel hebben plaatsgevonden. De reisinformatie kan worden gecombineerd met gegevens op het Platform, hetzij van andere digitale eigenschappen of van off-line eigenschappen om een vollediger beeld van prestaties te geven.
 
-De Orchestratie van de reis leidt automatisch tot de noodzakelijke schema&#39;s en stromen in datasets aan het Platform voor elke stap een individu neemt in een reis. Een step-gebeurtenis komt overeen met een individuele gebeurtenis die zich tijdens een rit van het ene knooppunt naar het andere verplaatst. Bijvoorbeeld, in een reis die een gebeurtenis, een voorwaarde en een actie heeft, worden de drie stapgebeurtenissen verzonden naar het Platform.
+[!DNL Journey Orchestration] leidt automatisch tot de noodzakelijke schema&#39;s en stromen in datasets aan het Platform voor elke stap een individu in een reis neemt. Een step-gebeurtenis komt overeen met een individuele gebeurtenis die zich tijdens een rit van het ene knooppunt naar het andere verplaatst. Bijvoorbeeld, in een reis die een gebeurtenis, een voorwaarde en een actie heeft, worden de drie stapgebeurtenissen verzonden naar het Platform.
 
 De lijst met XDM-velden die worden doorgegeven, is uitgebreid. Sommige bevatten door het systeem gegenereerde codes en andere hebben door mensen leesbare vriendelijke namen. Voorbeelden zijn het etiket van de reisactiviteit of de stapstatus: hoe vaak een time-out of een fout is opgetreden.
 
@@ -45,9 +45,9 @@ De reizen verzenden gegevens aangezien het voorkomt, op een het stromen manier. 
 
 De volgende schema&#39;s worden gemaakt:
 
-* Het schema van de Gebeurtenis van het Profiel van de Stap van de reis voor Reis Orchestration - de Gebeurtenissen van de Ervaring voor stappen die in een Reis samen met een Kaart van de Identiteit worden genomen die voor afbeelding aan een individuele Deelnemer van de Reis moeten worden gebruikt.
-* Gebeurtenisschema voor stap van de reis voor reisorganisatie - gebeurtenis voor stap van de reis die is gekoppeld aan metagegevens van de reis.
-* Reisschema met reisvelden voor reisorchestratie - Reismetagegevens voor het beschrijven van reizen.
+* Het schema van de Gebeurtenis van het Profiel van de Stap van de reis voor - de Gebeurtenissen van de Ervaring voor stappen die in een Reizen samen met een Kaart van de Identiteit worden genomen die voor afbeelding aan een individuele Deelnemer van de Reizen moeten worden gebruikt. [!DNL Journey Orchestration]
+* Gebeurtenisschema voor stap van de reis voor [!DNL Journey Orchestration] - gebeurtenis van de stap van de reis die aan een Meta-gegevens van de Reis wordt gebonden.
+* Reisschema met reisvelden voor [!DNL Journey Orchestration] - Reismetagegevens voor het beschrijven van reizen.
 
 ![](../assets/sharing1.png)
 
@@ -55,7 +55,7 @@ De volgende schema&#39;s worden gemaakt:
 
 De volgende datasets worden overgegaan:
 
-* Tijdlijnstapprofielgebeurtenisschema voor reisorchestratie
+* Gebeurtenisschema voor stapsgewijze reis voor [!DNL Journey Orchestration]
 * Gebeurtenissen reisstap
 * Reizen
 
