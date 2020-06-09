@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,7 @@ ht-degree: 0%
 
 # Een segment maken {#creating-a-segment}
 
->De tab van het segment en de creatie/wijziging van segmenten in Journey Orchestration zullen op 15 juni beschikbaar zijn.
-
-U kunt of een segment tot stand brengen gebruikend de Dienst [van de Segmentatie van het](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Platform of u kunt tot hen toegang hebben en direct tot stand brengen in de Orchestratie van de Reis.
+U kunt of een segment tot stand brengen gebruikend de Dienst [van de Segmentatie van het](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Platform of u kunt tot hen toegang hebben en direct tot stand brengen in [!DNL Journey Orchestration].
 
 1. Klik in het bovenste menu op het **[!UICONTROL Segments]** tabblad. De lijst met platformsegmenten wordt weergegeven. U kunt naar een specifiek segment in de lijst zoeken.
 
