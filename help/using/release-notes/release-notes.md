@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -40,16 +40,17 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 <li><p>Een nieuwe activiteit staat het luisteren van het segmentententangen/de uitgang van het Platform toe om mensen te maken binnen of zich voorwaarts in een reis bewegen. <a href="../building-journeys/event-activities.md#segment-qualification">Meer informatie</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>De segmenten van het platform kunnen nu worden gecreeerd en worden uitgegeven zonder de interface van de Orchestratie van de Reis, dankzij een nieuw lusje van <strong>Segmenten</strong> te verlaten. Effectieve beschikbaarheid: 15 juni 2020. <a href="../segment/about-segments.md">Meer informatie</a></p>
+<li><p>De segmenten van het platform kunnen nu worden gecreeerd en worden uitgegeven zonder de interface van de Orchestratie van de Reis, dankzij een nieuw lusje van <strong>Segmenten</strong> te verlaten.<a href="../segment/about-segments.md">Meer informatie</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>In de eenvoudige uitdrukkingsredacteur, zijn de segmenten van het Platform nu direct vermeld in de navigatieboom om gemakkelijke opstelling van voorwaarden zoals "toe te staan behoort deze persoon tot segment A?". <a href="../segment/using-a-segment.md">Meer informatie</a></p>
+<li><p>In de eenvoudige uitdrukkingsredacteur, zijn de segmenten van het Platform nu direct vermeld in de navigatieboom om gemakkelijke opstelling van voorwaarden zoals "toe te staan behoort deze persoon tot segment A?".<a href="../segment/using-a-segment.md">Meer informatie</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>Reisorchestratie geeft nu automatisch de stappen door die tijdens reizen worden uitgevoerd aan het Adobe-gegevensplatform. Dit geldt ook voor mogelijke fouten. Deze informatie kan voor het bereiken van rapportering en het oplossen van problemen worden gebruikt door vragen over de gebeurtenissen van de Stap van de Reis voor een bepaalde reis of voor alle reizen uit te voeren. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Reisorchestratie kan nu worden verbonden met productie en niet-productie Platform Sandbox. Effectieve beschikbaarheid: 15 juni 2020. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
+</li>
+<li><p>Reisorchestratie kan nu worden verbonden met productie- en niet-productie platformsandboxen. Sandboxen zijn bètafuncties. Effectieve beschikbaarheid: 30 juni 2020. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
 </li>
 </td>
 </tr>
@@ -84,9 +85,9 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 
 Om te voorkomen dat er te veel API-aanroepen naar systemen van derden worden verzonden, introduceren we een nieuwe openbare API voor het instellen van ‘plafondregels&#39;. De begrenzingsregels staan de definitie van een maximumaantal vraag aan een API eindpunt per milliseconden toe. [Meer informatie](../api/capping.md)
 
-Het beheer van de toegang staat nu meer granulariteit in het beheer van de gebruikerstoegang toe. Effectieve beschikbaarheid: 15 juni 2020. [Meer informatie](../about/access-management.md#create-product-profile)
+Het beheer van de toegang staat nu meer granulariteit in het beheer van de gebruikerstoegang toe. Effectieve beschikbaarheid: 30 juni 2020. [Meer informatie](../about/access-management.md#create-product-profile)
 
-Reisorchestratie is nu beschikbaar in APAC (Australisch datacenter). Effectieve beschikbaarheid: 15 juni 2020
+Reisorchestratie is nu beschikbaar in APAC (Australisch datacenter). Effectieve beschikbaarheid: 30 juni 2020
 
 De interface Journey Orchestration is beschikbaar in het Japans.
 
