@@ -9,16 +9,19 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: fed6fd8d8ee497ec47727f7297dc72f319fabe27
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 0%
 
 ---
 
 
 # Aan de slag{#concept_y4b_4qt_52b}
 
-In Journey Orchestration, zijn er twee soorten gebruikers, elk van hen die specifieke taken uitvoeren: de **technische gebruiker** en de **zakelijke gebruiker**. Gebruikerstoegang wordt beheerd via productprofielen en rechten. Zie [](../about/access-management.md) hoe u gebruikerstoegang kunt configureren.
+In [!DNL Journey Orchestration], zijn er twee soorten gebruikers, elk van hen die specifieke taken uitvoeren: de **technische gebruiker** en de **zakelijke gebruiker**. Gebruikerstoegang wordt beheerd via productprofielen en rechten. Zie [](../about/access-management.md) hoe u gebruikerstoegang kunt configureren.
 
-Hier volgen de belangrijkste stappen voor het configureren en gebruiken van Journey Orchestration:
+Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DNL Journey Orchestration]:
 
 1. **Een gebeurtenis configureren**
 
@@ -38,7 +41,7 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van Jour
 
 1. **Een handeling configureren**
 
-   Als u een derdesysteem gebruikt om uw berichten te verzenden, moet u zijn verbinding met de Orchestratie van de Reis vormen. Zie [](../action/about-custom-action-configuration.md).
+   Als u een derdesysteem gebruikt om uw berichten te verzenden, moet u zijn verbinding met vormen [!DNL Journey Orchestration]. Zie [](../action/about-custom-action-configuration.md).
 
    Als u berichten verzendt met de Adobe Campagnestandaard, moet u de ingebouwde actie configureren. Zie [](../action/working-with-adobe-campaign.md).
 
