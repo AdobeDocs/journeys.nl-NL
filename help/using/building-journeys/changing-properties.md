@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Toegestane waarden liggen tussen 1 en 30 seconden.
 
 Wij adviseren dat u een zeer korte **[!UICONTROL Timeout and error]** waarde bepaalt als uw reis tijdgevoelig is (voorbeeld: reageren op de locatie in real time van een persoon) omdat u de handeling niet langer dan een paar seconden kunt uitstellen. Als uw reis minder tijdgevoelig is, kunt u een langere waarde gebruiken om meer tijd aan het geroepen systeem te geven om een geldige reactie te verzenden.
 
-Journey Orchestration gebruikt ook een global timeout. Zie de [volgende sectie](#global_timeout).
+[!DNL Journey Orchestration] gebruikt ook een algemene time-out. Zie de [volgende sectie](#global_timeout).
 
 ## Globale time-out voor transport {#global_timeout}
 
@@ -50,7 +50,7 @@ Naast de [time-out](#timeout_and_error) die wordt gebruikt bij reisactiviteiten,
 
 >[!NOTE]
 >
->Reisorchestratie reageert niet rechtstreeks op verzoeken om privacy-opt-out, toegang of verwijdering. De wereldwijde time-out zorgt er echter voor dat individuen nooit langer dan 30 dagen op een reis blijven.
+>[!DNL Journey Orchestration] reageert niet rechtstreeks op verzoeken om privacy te weigeren, toegang te krijgen of te verwijderen. De wereldwijde time-out zorgt er echter voor dat individuen nooit langer dan 30 dagen op een reis blijven.
 
 Vanwege de 30 dagen durende reistijd, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat de heringstop meer dan 30 dagen werkt. Aangezien we alle informatie over personen die 30 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 30 dagen geleden, is binnengekomen.
 
