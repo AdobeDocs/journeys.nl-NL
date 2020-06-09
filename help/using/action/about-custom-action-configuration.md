@@ -11,14 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 0%
 
 ---
 
 
 # Aangepaste actieconfiguratie {#concept_sxy_bzs_dgb}
 
-Als u een derdesysteem gebruikt om berichten te verzenden of als u de Orchestratie van de Reis API vraag naar een derdesysteem wilt verzenden, is dit waar u zijn verbinding aan de Orchestratie van de Reis vormt. De aangepaste actie die door technische gebruikers is gedefinieerd, is dan beschikbaar in het linkerpalet van uw reis, in de **[!UICONTROL Action]** categorie (zie [](../building-journeys/about-action-activities.md). Hier volgen enkele voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste handelingen: Epsilon, Facebook, Adobe.io, Firebase, enz.
+Als u een derdesysteem gebruikt om berichten te verzenden of als u API vraag [!DNL Journey Orchestration] naar een derdesysteem wilt verzenden, is dit waar u zijn verbinding vormt aan [!DNL Journey Orchestration]. De aangepaste actie die door technische gebruikers is gedefinieerd, is dan beschikbaar in het linkerpalet van uw reis, in de **[!UICONTROL Action]** categorie (zie [](../building-journeys/about-action-activities.md). Hier volgen enkele voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste handelingen: Epsilon, Facebook, Adobe.io, Firebase, enz.
 Hier worden beperkingen weergegeven: [](../action/custom-action-limitations.md).
 
 Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vormen:
