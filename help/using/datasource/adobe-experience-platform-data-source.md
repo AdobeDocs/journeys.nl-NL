@@ -1,6 +1,6 @@
 ---
-title: 'Gegevensbron van Adobe Experience Platform '
-description: 'Leer hoe u de gegevensbron van het Adobe Experience Platform configureert '
+title: 'Adobe Experience Platform-gegevensbron '
+description: 'Leer hoe u de Adobe Experience Platform-gegevensbron configureert '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,12 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 0%
 
 ---
 
 
-# Gegevensbron van Adobe Experience Platform {#concept_zrb_nqt_52b}
+# Adobe Experience Platform-gegevensbron {#concept_zrb_nqt_52b}
 
 De gegevensbron van het Platform van de Ervaring bepaalt de verbinding aan de Dienst van het Profiel van de Klant in real time. Deze gegevensbron is ingebouwd en vooraf geconfigureerd. Het kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken. Raadpleeg deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)voor meer informatie over de realtime service voor klantprofielen.
 
@@ -40,7 +43,7 @@ Hier zijn de belangrijkste stappen om gebiedsgroepen aan de ingebouwde gegevensb
 
    ![](../assets/journey24.png)
 
-1. Selecteer een schema in de **[!UICONTROL Schema]** vervolgkeuzelijst. In dit veld worden de schema&#39;s voor profiel- en ervaringsgebeurtenissen weergegeven die beschikbaar zijn in het platform. Het maken van schema&#39;s wordt niet uitgevoerd in Journey Orchestration. Deze wordt uitgevoerd in het gegevensplatform.
+1. Selecteer een schema in de **[!UICONTROL Schema]** vervolgkeuzelijst. In dit veld worden de schema&#39;s voor profiel- en ervaringsgebeurtenissen weergegeven die beschikbaar zijn in het platform. Het maken van schema&#39;s wordt niet uitgevoerd in [!DNL Journey Orchestration]. Deze wordt uitgevoerd in het gegevensplatform.
 1. Selecteer de velden die u wilt gebruiken.
 1. Definieer de duur van de cache.
 1. Klik op **[!UICONTROL Save]**.
