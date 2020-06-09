@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,7 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
    >[!NOTE]
    >
-   >Controleer of u de mix &quot;orkest&quot; aan het XDM-schema hebt toegevoegd. Dit zal ervoor zorgen dat uw schema alle vereiste informatie bevat om met de Orchestratie van de Reis te werken.
+   >Controleer of u de mix &quot;orkest&quot; aan het XDM-schema hebt toegevoegd. Dit zal ervoor zorgen dat uw schema alle vereiste informatie bevat om met te werken [!DNL Journey Orchestration].
 
    ![](../assets/journey9.png)
 
@@ -38,7 +41,7 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
    >[!NOTE]
    >
-   >Het **[!UICONTROL eventID]** veld wordt automatisch toegevoegd aan de lijst met geselecteerde velden, zodat Journey Orchestration de gebeurtenis kan identificeren. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [](../event/previewing-the-payload.md).
+   >Het **[!UICONTROL eventID]** [!DNL Journey Orchestration] veld wordt automatisch toegevoegd aan de lijst met geselecteerde velden, zodat de gebeurtenis kan worden geïdentificeerd. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [](../event/previewing-the-payload.md).
 
 1. Klik **[!UICONTROL Save]** of druk op **[!UICONTROL Enter]**.
 
