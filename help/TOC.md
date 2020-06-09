@@ -4,22 +4,22 @@ audience: end-user
 user-guide-title: Help voor reisorganisatie
 index: true
 translation-type: tm+mt
-source-git-commit: b199c8c2d0940b5ba3b0093cf8a654739249263d
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
 
 
-# Help voor reisorganisatie {#using}
+# [!DNL Journey Orchestration] Help {#using}
 
 + [Productdocumentatie](journey-orchestration-home.md)
 + Nieuwe functies {#release-notes}
    + [Opmerkingen bij de release](using/release-notes/release-notes.md)
    + [Documentatieupdates](using/release-notes/documentation-updates.md)
-+ Beginnen met Journey Orchestration {#starting-with-journeys}
-   + [Informatie over Journey Orchestration](using/about/about-journey-orchestration.md)
++ Beginnen met [!DNL Journey Orchestration] {#starting-with-journeys}
+   + [Info [!DNL Reisorkest]](using/about/about-journey-orchestration.md)
    + [Aan de slag](using/about/get-started.md)
    + [Gebruikersinterface](using/about/user-interface.md)
    + [Toegangsbeheer](using/about/access-management.md)
@@ -36,7 +36,7 @@ ht-degree: 0%
 + Een gegevensbron configureren {#data-source-journeys}
    + [Gegevensbronnen](using/datasource/about-data-sources.md)
    + [Veldgroepen](using/datasource/field-groups.md)
-   + [Gegevensbron van Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
+   + [Adobe Experience Platform-gegevensbron](using/datasource/adobe-experience-platform-data-source.md)
    + [Externe gegevensbronnen](using/datasource/external-data-sources.md)
 + Een handeling configureren {#action-journeys}
    + [Handelingen](using/action/action.md)
