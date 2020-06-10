@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
+source-git-commit: 96c84047952eed8835879b1375bce6326c55fd35
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -35,9 +35,9 @@ De lijst met XDM-velden die worden doorgegeven, is uitgebreid. Sommige bevatten 
 >
 >![](../assets/sharing4.png)
 
->[!]
+>[!NOTE]
 >
->De reizen hebben ook de capaciteit of om de gebeurtenis van het Profiel van de Stap van de Reis naar platform al dan niet te verzenden.  Reizen houden een technicus bij om dit te beslissen.
+>De reizen hebben ook de capaciteit of om de gebeurtenis van het Profiel van de Stap van de Reis naar Platform of niet te verzenden. Reizen houden een technicus bij om dit te beslissen.
 >
 >![](../assets/techtoggle.png)
 
