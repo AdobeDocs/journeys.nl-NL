@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96c84047952eed8835879b1375bce6326c55fd35
+source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,7 @@ De lijst met XDM-velden die worden doorgegeven, is uitgebreid. Sommige bevatten 
 
 >[!CAUTION]
 >
->Door gebrek, worden de datasets niet aangezet voor de dienst van het tijdprofiel in real time. Als u een dataset in de profieldienst wilt, moet u het (de knevel van het **Profiel** ) aanzetten. Houd er rekening mee dat een groot aantal gebeurtenissen opslagruimte in uw quota in beslag neemt. Ga zorgvuldig te werk voordat u een dataset voor profielen activeert
->
->![](../assets/sharing4.png)
-
->[!NOTE]
->
->De reizen hebben ook de capaciteit of om de gebeurtenis van het Profiel van de Stap van de Reis naar Platform of niet te verzenden. Reizen houden een technicus bij om dit te beslissen.
->
->![](../assets/techtoggle.png)
+>Datasets kunnen niet worden ingeschakeld voor realtime profielservice. Controleer of de **profielschakelaar** is uitgeschakeld
 
 De reizen verzenden gegevens aangezien het voorkomt, op een het stromen manier. U kunt deze gegevens vragen met de Query-service. U kunt verbinding maken met de analysefuncties van de Klant of met andere BI-tools om de gegevens met betrekking tot deze stappen weer te geven.
 
