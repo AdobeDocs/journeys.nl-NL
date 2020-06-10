@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Wanneer u een ander testprofiel in het scherm van de gebeurtenisconfiguratie sel
 
 Wanneer u een rit tijdens de test opent, komt het weergegeven pad overeen met de laatste uitgevoerde test.
 
-De visuele stroom wordt slechts getoond wanneer de gebeurtenis die naar de reis wordt verzonden in het scherm van de gebeurtenisconfiguratie wordt bepaald. Als de gebeurtenis extern wordt gedefinieerd, bijvoorbeeld met Postman, wordt de visuele stroom niet weergegeven.
+De visuele stroom werkt of de gebeurtenis via de interface of extern (bijvoorbeeld met Postman) wordt geactiveerd.
 
 ## Logboeken weergeven {#viewing_logs}
 
