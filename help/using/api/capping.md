@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,13 @@ Meer over actie of datasource configuratie leren, zie [Ongeveer acties](https://
 
 ## Bronnen
 
-De API voor [!DNL Journey Orchestration] uitlijnen wordt beschreven in een Swagger-bestand dat [hier](https://adobedocs.github.io/JourneyAPI/docs/)beschikbaar is.
+>[!NOTE]
+>
+>De API voor [!DNL Journey Orchestration] uitlijnen wordt beschreven in een Swagger-bestand dat [hier](https://adobedocs.github.io/JourneyAPI/docs/)beschikbaar is.
 
 Als u deze API met uw [!DNL Journey Orchestration] instantie wilt gebruiken, moet u de AdobeIO-console gebruiken. U begint met het volgen van deze [Aan de slag met Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) en gebruikt vervolgens de secties op deze pagina.
 
-Om uw integratie te testen en voor te bereiden, is een inzameling van Postman beschikbaar [hier](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Om uw integratie te testen en voor te bereiden, is een inzameling van Postman beschikbaar [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 ## Verificatie
 
@@ -44,7 +46,7 @@ Om uw integratie te testen en voor te bereiden, is een inzameling van Postman be
 
 >[!CAUTION]
 >
->Als u certificaten wilt beheren in Adobe IO, moet u ervoor zorgen dat u <b>Systeembeheerdersrechten</b> hebt voor de organisatie of een <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">ontwikkelaarsaccount</a> in de beheerconsole.
+>Als u certificaten wilt beheren in Adobe IO, moet u ervoor zorgen dat u <b>Systeembeheerdersrechten</b> hebt voor de organisatie of een [ontwikkelaarsaccount](https://helpx.adobe.com/enterprise/using/manage-developers.html) in de beheerconsole.
 
 1. **Controleer of u een digitaal certificaat** hebt of maak er zo nodig een. De openbare en persoonlijke sleutels die van het certificaat worden voorzien zijn vereist in de volgende stappen.
 1. **Maak een nieuwe integratie met[!DNL Journey Orchestration]Service** in Adobe IO en configureer deze. Toegang tot het productprofiel is vereist voor [!DNL Journey Orchestration] en Adobe Experience Platform. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).
@@ -166,7 +168,7 @@ De mogelijke waarschuwing is:
 
 In deze sectie, zult u de vijf belangrijkste gebruik-gevallen vinden die u kunt uitvoeren om uw het capteren configuratie binnen te beheren [!DNL Journey Orchestration].
 
-Om u in uw het testen en configuratie te helpen, is een inzameling van Postman beschikbaar [hier](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Om u in uw het testen en configuratie te helpen, is een inzameling van Postman beschikbaar [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 Deze Postman-verzameling is ingesteld om de Postman-variabele-verzameling te delen die via de integratie __[> Uitproberen > Download voor Postman](https://console.adobe.io/integrations)van__ Adobe I/O Console is gegenereerd. Hiermee wordt een Postman-milieubestand met de geselecteerde integratiewaarden gegenereerd.
 
@@ -174,7 +176,7 @@ Nadat u de gegevens hebt gedownload en geüpload naar Postman, moet u twee varia
 * `{JO_HOST}` : [!DNL Journey Orchestration] Gateway-URL
 * `{BASE_PATH}` : ingangspunt voor de API. De waarde is &#39;/authoring&#39;
 
-
+In de volgende sectie vindt u de lijst met gerangschikte aanroepen van de Rest-API om de use-case uit te voeren.
 
 Gebruiksscenario n°1: **Het creëren en de plaatsing van een nieuwe het maximum configuratie**
 
