@@ -1,6 +1,6 @@
 ---
 title: Metriek en afmetingen
-description: Meer informatie over de afmetingen en metriek die beschikbaar zijn voor Journey Orchestration
+description: Meer informatie over de afmetingen en maatstaven die beschikbaar zijn voor Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+workflow-type: tm+mt
+source-wordcount: '1034'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 
 >[!NOTE]
 >
->De leveringsgegevens worden alleen ingevuld als u Adobe Campagnestandaard hebt.
+>Leveringsgegevens worden alleen ingevuld als u Adobe Campaign Standard hebt.
 
 Hier vindt u de lijst met alle componenten die beschikbaar zijn in dynamische rapporten en hun definities.
 
@@ -72,7 +75,7 @@ In de onderstaande tabel vindt u een lijst met maatstaven die worden gebruikt in
 | **Voltooiingsgraad** | Het totale aantal personen dat normaal gesproken de reis beëindigde, vergeleken met het totale aantal personen dat de reis heeft betreden. |
 | **Huidig** | Het totale aantal personen dat momenteel op reis is, d.w.z. het aantal personen dat is binnengekomen min het aantal personen dat is vertrokken, de fouten en het tijdstip waarop de reis heeft plaatsgevonden. |
 | **Huidige rentevoet** | Het totale aantal personen dat momenteel op reis is, in vergelijking met het aantal personen dat de reis heeft betreden. |
-| **Ingegaan** | Het totale aantal gebeurtenissen dat zich heeft voorgedaan om een individuele ingang in de reis te beginnen. |
+| **Ingegaan** | Het totale aantal gebeurtenissen dat heeft plaatsgevonden om een individuele ingang in de reis te beginnen. |
 | **Fout** | Het totale aantal fouten dat tijdens een reis is opgetreden, maar dat de reis niet heeft verhinderd succesvol te zijn. |
 | **Fout in handeling** | Het totale aantal fouten dat is opgetreden voor handelingen. |
 | **Fout in verrijking** | Het totale aantal fouten dat voor een gegevensverrijking voorkwam toen het roepen van een gegevensbron/gebiedsgroep. |
@@ -91,11 +94,11 @@ In de onderstaande tabel vindt u een lijst met maatstaven die worden gebruikt in
 
 | Metrisch | Definitie |
 |--- |--- |
-| **Zwart** | Aantal ontvangers die een e-mailbericht hebben gedeclareerd als spam of junk. |
-| **Tarief op zwarte lijst** | Het totale aantal berichten dat op de zwarte lijst staat in vergelijking met de verzonden berichten. |
+| **Op bloklijst** | Aantal ontvangers die een e-mailbericht hebben gedeclareerd als spam of junk. |
+| **Bloklijstfrequentie** | Het totale aantal berichten op blocklist vergeleken met verzonden berichten. |
 | **Bounces + fouten** | Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd. |
 | **Stuiteren + foutenfrequentie** | Het totale aantal berichten dat is teruggevallen in vergelijking met verzonden berichten. |
-| **Klikken** | Het aantal keren dat op een inhoud is geklikt in een levering. |
+| **Klik op** | Het aantal keren dat op een inhoud is geklikt in een levering. |
 | **Klikken tot snelheid** | Het totale aantal klikken in een levering in verhouding tot het aantal geleverde berichten. |
 | **Geleverd** | Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten. |
 | **Afgeleverde rente** | Het totale aantal berichten dat is afgeleverd in vergelijking met verzonden berichten. |
@@ -104,7 +107,7 @@ In de onderstaande tabel vindt u een lijst met maatstaven die worden gebruikt in
 | **Harde stuitsnelheid** | Het totale aantal leveringen dat is mislukt als gevolg van permanente fouten in vergelijking met verzonden berichten. |
 | **Pagina spiegelen** | Aantal ontvangers die op de verbinding van de spiegelpagina klikte. |
 | **Paginasnelheid spiegelen** | Het totale aantal klikken op de koppeling van de spiegelpagina in verhouding tot het totale aantal geleverde berichten. |
-| **Openen** | Aantal keren dat een bericht in een levering werd geopend. |
+| **Open** | Aantal keren dat een bericht in een levering werd geopend. |
 | **OpenRate** | Het totale aantal geopende berichten in verhouding tot het aantal geleverde berichten. |
 | **Quarantine** | Aantal berichten die in quarantaine van het adres stuitten en resulteerden. |
 | **Quarantine Rate** | Het totale aantal quarantines in vergelijking met verzonden berichten. |
