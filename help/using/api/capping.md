@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
+source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Meer over actie of datasource configuratie leren, zie [Ongeveer acties](https://
 >
 >De API voor [!DNL Journey Orchestration] uitlijnen wordt beschreven in een Swagger-bestand dat [hier](https://adobedocs.github.io/JourneyAPI/docs/)beschikbaar is.
 
-Als u deze API met uw [!DNL Journey Orchestration] instantie wilt gebruiken, moet u de AdobeIO-console gebruiken. U begint met het volgen van deze [Aan de slag met Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) en gebruikt vervolgens de secties op deze pagina.
+Als u deze API met uw [!DNL Journey Orchestration] instantie wilt gebruiken, moet u de AdobeI/O-console gebruiken. U begint met het volgen van deze [Aan de slag met Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) en gebruikt vervolgens de secties op deze pagina.
 
 Om uw integratie te testen en voor te bereiden, is een inzameling van Postman beschikbaar [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
@@ -42,14 +42,14 @@ Om uw integratie te testen en voor te bereiden, is een inzameling van Postman be
 
 ### API-toegang instellen
 
-[!DNL Journey Orchestration] API-toegang wordt ingesteld via de onderstaande stappen. Elk van deze stappen wordt beschreven in de documentatie [van](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe IO.
+[!DNL Journey Orchestration] API-toegang wordt ingesteld via de onderstaande stappen. Deze stappen worden allemaal beschreven in de [Adobe I/O-documentatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
->Als u certificaten wilt beheren in Adobe IO, moet u ervoor zorgen dat u <b>Systeembeheerdersrechten</b> hebt voor de organisatie of een [ontwikkelaarsaccount](https://helpx.adobe.com/enterprise/using/manage-developers.html) in de beheerconsole.
+>Als u certificaten wilt beheren in Adobe I/O, moet u ervoor zorgen dat u <b>Systeembeheerdersrechten</b> hebt voor de organisatie of een [ontwikkelaarsaccount](https://helpx.adobe.com/enterprise/using/manage-developers.html) in de beheerconsole.
 
 1. **Controleer of u een digitaal certificaat** hebt of maak er zo nodig een. De openbare en persoonlijke sleutels die van het certificaat worden voorzien zijn vereist in de volgende stappen.
-1. **Maak een nieuwe integratie met[!DNL Journey Orchestration]Service** in Adobe IO en configureer deze. Toegang tot het productprofiel is vereist voor [!DNL Journey Orchestration] en Adobe Experience Platform. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).
+1. **Maak een nieuwe integratie met de[!DNL Journey Orchestration]service** in Adobe I/O en configureer deze. Toegang tot het productprofiel is vereist voor [!DNL Journey Orchestration] en Adobe Experience Platform. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).
 1. **Maak een JSON Web Token (JWT)** van de eerder gegenereerde referenties en onderteken deze met uw persoonlijke sleutel. De JWT codeert alle identiteits- en beveiligingsgegevens die Adobe nodig heeft om uw identiteit te verifiëren en u toegang te verlenen tot de API. Deze stap wordt beschreven in deze [sectie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Uitwisseling uw JWT voor een Token** van de Toegang door een POST- verzoek of via de Interface van de Console van de Ontwikkelaar. Dit toegangstoken moet worden gebruikt in elke header van uw API-aanvragen.
 
@@ -65,7 +65,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;ORGANISATIE>**: Dit is uw persoonlijke ORGANIZATION-id. Adobe levert één ORGANIZATION-id voor elk van uw varianten:
 
    * &lt;ORGANISATIE>: productie-instantie
-   Raadpleeg de beheerder of uw technische contactpersoon van Adobe voor informatie over de waarde van uw organisatie-id. U kunt de software ook ophalen in de Adobe I/O-lijst wanneer u een nieuwe integratie maakt, in de lijst met licenties (zie de <a href="https://www.adobe.io/authentication.html">Adobe IO-documentatie</a>).
+   Raadpleeg de beheerder of uw technische contactpersoon van Adobe voor informatie over de waarde van uw organisatie-id. U kunt de software ook ophalen in de Adobe I/O-lijst wanneer u een nieuwe integratie maakt, in de lijst met licenties (zie de <a href="https://www.adobe.io/authentication.html">Adobe I/O-documentatie</a>).
 
 * **&lt;ACCESS_TOKEN>**: Uw persoonlijke toegangstoken, die werd teruggewonnen toen het ruilen van uw JWT door een POST- verzoek.
 
@@ -79,14 +79,14 @@ Met de API voor uitsnijden kunt u uw configuraties voor uitlijnen maken, configu
 
 | Methode | Pad | Beschrijving |
 |---|---|---|
-| POST | list/endConfigs | Krijg een lijst van de eindpunt die configuraties begrenzen |
-| POST | /endConfigs | Creeer een eindpunt het bedekken configuratie |
-| POST | /EndendConfigs/{uid}/opstellen | Implementeer een configuratie voor het afdekken van eindpunten |
-| POST | /EndendConfigs/{uid}/undeploy | Maak een eindpunt onbruikbaar dat configuratie begrenst |
-| POST | /endConfigs/{uid}/canDeploy | Controle als een eindpunt het begrenzen configuratie kan worden opgesteld of niet |
-| PUT | /endConfigs/{uid} | Een configuratie voor het afdekken van eindpunten bijwerken |
-| GET | /endConfigs/{uid} | Retrireer een eindpunt dat configuratie begrenst |
-| VERWIJDEREN | /endConfigs/{uid} | Een configuratie voor het toewijzen van een hoekpunt verwijderen |
+| [!DNL POST] | list/endConfigs | Krijg een lijst van de eindpunt die configuraties begrenzen |
+| [!DNL POST] | /endConfigs | Creeer een eindpunt het bedekken configuratie |
+| [!DNL POST] | /EndendConfigs/{uid}/opstellen | Implementeer een configuratie voor het afdekken van eindpunten |
+| [!DNL POST] | /EndendConfigs/{uid}/undeploy | Maak een eindpunt onbruikbaar dat configuratie begrenst |
+| [!DNL POST] | /endConfigs/{uid}/canDeploy | Controle als een eindpunt het begrenzen configuratie kan worden opgesteld of niet |
+| [!DNL PUT] | /endConfigs/{uid} | Een configuratie voor het afdekken van eindpunten bijwerken |
+| [!DNL GET] | /endConfigs/{uid} | Retrireer een eindpunt dat configuratie begrenst |
+| [!DNL DELETE] | /endConfigs/{uid} | Een configuratie voor het toewijzen van een hoekpunt verwijderen |
 
 Wanneer een configuratie wordt gecreeerd of bijgewerkt, automatisch wordt een controle uitgevoerd om de syntaxis en de integriteit van de lading te waarborgen.
 Als sommige problemen voorkomen, keert de verrichting waarschuwing of fouten terug om u te helpen de configuratie verbeteren.
@@ -172,9 +172,10 @@ Om u in uw het testen en configuratie te helpen, is een inzameling van Postman b
 
 Deze Postman-verzameling is ingesteld om de Postman-variabele-verzameling te delen die via de integratie __[> Uitproberen > Download voor Postman](https://console.adobe.io/integrations)van__ Adobe I/O Console is gegenereerd. Hiermee wordt een Postman-milieubestand met de geselecteerde integratiewaarden gegenereerd.
 
-Nadat u de gegevens hebt gedownload en geüpload naar Postman, moet u twee variabelen toevoegen: `{JO_HOST}` en `{Base_Path}`.
+Nadat u het bestand hebt gedownload en geüpload naar Postman, moet u drie variabelen toevoegen: `{JO_HOST}`,`{Base_Path}` en `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] Gateway-URL
 * `{BASE_PATH}` : ingangspunt voor de API. De waarde is &#39;/authoring&#39;
+* `{SANDBOX_NAME}` : de naam **van de header** x-sandbox (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de naam van de sandbox waarin de API-bewerkingen worden uitgevoerd. Zie het [sandboxoverzicht](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) voor meer informatie.
 
 In de volgende sectie vindt u de lijst met gerangschikte aanroepen van de Rest-API om de use-case uit te voeren.
 
