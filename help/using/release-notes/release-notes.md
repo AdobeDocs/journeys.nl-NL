@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 556dbe88d2717a387e5f0ce8795c9fa02a45ac6f
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -29,28 +29,28 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 <table>
 <thead>
 <tr>
-<th><strong>Verbeterde Adobe Experience Platform-integratie</strong><br/></th>
+<th><strong>Verbeterde integratie van Adobe Experience Platforms</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De volgende verbeteringen zijn doorgevoerd in de platformintegratie:</p>
+<p>De volgende verbeteringen op het gebied van Platform-integratie zijn doorgevoerd:</p>
 <ul>
-<li><p>Een nieuwe activiteit staat het luisteren van het segmentententangen/de uitgang van het Platform toe om mensen te maken binnen of zich voorwaarts in een reis bewegen. <a href="../building-journeys/event-activities.md#segment-qualification">Meer informatie</a></p>
+<li><p>Een nieuwe activiteit staat het luisteren van de de segmententententangen/uitgang van het Platform toe om mensen te maken binnen of zich voorwaarts in een reis bewegen. <a href="../building-journeys/event-activities.md#segment-qualification">Meer informatie</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>De segmenten van het platform kunnen nu worden gecreeerd en worden uitgegeven zonder de interface van de Orchestratie van de Reis, dankzij een nieuw lusje van <strong>Segmenten</strong> te verlaten.<a href="../segment/about-segments.md">Meer informatie</a></p>
+<li><p>U kunt nu Platforms segmenten maken en bewerken zonder de Journey Orchestration-interface te verlaten, dankzij een nieuw tabblad <strong>Segmenten</strong> .<a href="../segment/about-segments.md">Meer informatie</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
 <li><p>In de eenvoudige uitdrukkingsredacteur, zijn de segmenten van het Platform nu direct vermeld in de navigatieboom om gemakkelijke opstelling van voorwaarden zoals "toe te staan behoort deze persoon tot segment A?".<a href="../segment/using-a-segment.md">Meer informatie</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Reisorchestratie geeft nu automatisch de stappen door die tijdens reizen worden uitgevoerd aan het Adobe-gegevensplatform. Dit geldt ook voor mogelijke fouten. Deze informatie kan voor het bereiken van rapportering en het oplossen van problemen worden gebruikt door vragen over de gebeurtenissen van de Stap van de Reis voor een bepaalde reis of voor alle reizen uit te voeren. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
+<li><p>Journey Orchestration geeft nu automatisch de stappen door die tijdens reizen worden uitgevoerd aan het Adobe Data Platform. Dit geldt ook voor mogelijke fouten. Deze informatie kan voor het bereiken van rapportering en het oplossen van problemen worden gebruikt door vragen over de gebeurtenissen van de Stap van de Reis voor een bepaalde reis of voor alle reizen uit te voeren. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Reisorchestratie kan nu worden verbonden met productie- en niet-productie platformsandboxen. Sandboxen zijn bètafuncties. Effectieve beschikbaarheid: 30 juni 2020. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
+<li><p>Journey Orchestration kan nu worden verbonden met sandboxen voor productie- en niet-productie-Platforms. Sandboxen zijn bètafuncties. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
 </li>
 </td>
 </tr>
@@ -87,9 +87,9 @@ Om te voorkomen dat er te veel API-aanroepen naar systemen van derden worden ver
 
 Het beheer van de toegang staat nu meer granulariteit in het beheer van de gebruikerstoegang toe. Effectieve beschikbaarheid: 30 juni 2020. [Meer informatie](../about/access-management.md#create-product-profile)
 
-Reisorchestratie is nu beschikbaar in APAC (Australisch datacenter). Effectieve beschikbaarheid: 30 juni 2020
+Journey Orchestration is nu verkrijgbaar in APAC (Australische datacenter). Effectieve beschikbaarheid: 30 juni 2020
 
-De interface Journey Orchestration is beschikbaar in het Japans.
+De Journey Orchestration-interface is beschikbaar in het Japans.
 
 ## Release Q1 - maart 2020 {#q1-release---march-2020}
 
@@ -130,7 +130,7 @@ De interface Journey Orchestration is beschikbaar in het Japans.
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>In de vervolgkeuzelijst <strong>Tijdzone</strong> kunt u een specifieke tijdzone selecteren. Standaard wordt de tijdzone van de browser gebruikt. </li>
-<li>Met het selectievakje Tijdzone <strong>van</strong> profiel kunt u de tijdzone van het profiel van het ervaringsplatform gebruiken van de persoon die de reis betreedt, indien beschikbaar. Als dat niet het geval is, wordt de tijdzone gebruikt die in de vervolgkeuzelijst is gedefinieerd. Deze functie is niet compatibel met ritten die gebeurtenissen gebruiken die geen naamruimte hebben.</li>
+<li>Met het selectievakje Tijdzone <strong>van</strong> profiel kunt u de tijdzone van het profiel van het Experience Platform gebruiken van de persoon die de reis betreedt, indien beschikbaar. Als dat niet het geval is, wordt de tijdzone gebruikt die in de vervolgkeuzelijst is gedefinieerd. Deze functie is niet compatibel met ritten die gebeurtenissen gebruiken die geen naamruimte hebben.</li>
 </ul>
 <p>Raadpleeg de secties <a href="../building-journeys/changing-properties.md#timezone">Eigenschappen</a> wijzigen en <a href="../building-journeys/timezone-management.md">Tijdzonebeheer</a> voor meer informatie.</p>
 </td>
@@ -171,7 +171,7 @@ De interface Journey Orchestration is beschikbaar in het Japans.
 <tbody>
 <tr>
 <td>
-<p>Er is nu een contextafhankelijke Help beschikbaar in de verschillende lijstschermen van de Journey Orchestration (reizen, gebeurtenissen, handelingen en gegevensbronnen). Op deze manier kunt u een korte beschrijving weergeven van de huidige functionaliteit en toegang krijgen tot verwante artikelen en video's.</p>
+<p>Er is nu een contextafhankelijke Help beschikbaar in de verschillende Journey Orchestration-lijstschermen (reizen, gebeurtenissen, handelingen en gegevensbronnen). Op deze manier kunt u een korte beschrijving weergeven van de huidige functionaliteit en toegang krijgen tot verwante artikelen en video's.</p>
 <p>Klik op het <img src="../assets/icon-context.png"/> pictogram in de rechterbovenhoek van het scherm om de contextafhankelijke Help weer te geven. </p>
 <img src="../assets/rn-context.png"/>
 </td>
@@ -183,21 +183,21 @@ De interface Journey Orchestration is beschikbaar in het Japans.
 
 * Naast de VS is nu ook de Journey Orchestration (Reisorchestratie) beschikbaar in **EMEA**. De aanvraag en documentatie zijn in het Frans en Duits beschikbaar.
 
-* De Experience League is nu geïntegreerd in het product. Dit vereenvoudigt de toegang tot gerelateerde inhoud en helpt u optimaal te profiteren van Experience Cloud. De directe toegang tot de documentatie van het Orchestration van de Reis is beschikbaar bij de bodem van de Hulp tabel. Klik bovendien op Help > Feedback om problemen te melden of uw ideeën te delen met Adobe.
+* De Experience League is nu geïntegreerd in het product. Dit vereenvoudigt de toegang tot verwante inhoud en helpt u het beste uit Experience Cloud te halen. Rechtstreekse toegang tot Journey Orchestration-documentatie is beschikbaar onder aan het tabblad Help. Klik bovendien op Help > Feedback om problemen te melden of uw ideeën te delen met Adobe.
 
 * De sneltoets **C** , waarmee u een nieuw item kunt maken, is nu beschikbaar in alle lijstschermen: reizen, gegevensbronnen, acties en gebeurtenissen. [Meer informatie](../about/user-interface.md#section_ksq_zr1_ffb)
 
 * U kunt gestopt reizen nu **verwijderen** . Rapporten over deze verwijderde reizen zijn niet beschikbaar.
 
-* Wanneer u door **gegevensplatformvelden** bladert (XDM-indeling), wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring. Indien beschikbaar wordt de alternatieve weergavenaam weergegeven. Met deze gebruiksvriendelijke beschrijving, vooral handig in het geval van eVar-velden, kunt u uw velden gemakkelijker identificeren. [Meer informatie](../about/user-interface.md#friendly-names-display)
+* Wanneer u door de velden **** Data Platform (XDM-indeling) bladert, wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring. Indien beschikbaar wordt de alternatieve weergavenaam weergegeven. Met deze gebruiksvriendelijke beschrijving, vooral handig in het geval van eVar-velden, kunt u uw velden gemakkelijker identificeren. [Meer informatie](../about/user-interface.md#friendly-names-display)
 
 ## GA-release - december 2019 {#ga-release---december-2019}
 
-Reisorchestratie is nu GA.
+Journey Orchestration is nu GA.
 
 Stel in real-time implementatiefuncties samen voor het orkestgebruik, waarbij gebruik wordt gemaakt van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen.
 
-De Orchestratie van de reis staat in real time orchestratie toe die door contextuele gegevens van gebeurtenissen, informatie van de Adobe Experience Platform, of gegevens van de diensten van derdeAPI wordt aangedreven. De toepassing bepaalt in multistep stromen die reizen de volgende beste acties specifiek voor de consument, op hun profiel en gedrag worden genoemd. Dit omvat zowel de optimale timing als het type actie, zoals het verzenden van een pushmelding aan de consument via de mogelijkheden voor transactiemeldingen in Adobe Campagne Standard (hiervoor is Adobe Campagne Standard vereist) of het melden van een systeem van derden. Deze beslissingen worden genomen op basis van regels en Sensei-scores.
+Journey Orchestration staat realtime orchestratie toe, aangedreven door contextafhankelijke gegevens van gebeurtenissen, informatie van het Adobe Experience Platform of gegevens van externe API-services. De toepassing bepaalt in multistep stromen die reizen de volgende beste acties specifiek voor de consument, op hun profiel en gedrag worden genoemd. Dit omvat zowel de optimale timing als het type actie, zoals het verzenden van een pushmelding aan de consument via de Adobe Campaign Standard-mogelijkheden voor transactieberichten (Adobe Campaign Standard vereist) of het melden van een systeem van derden. Deze beslissingen worden genomen op basis van regels en Sensei-scores.
 
 [Meer](../action/working-with-adobe-campaign.md) weten over Journey Orchestration?
 
