@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Een productprofiel maken en een set rechten en sandboxen toewijzen:
 
 1. Klik wanneer u klaar bent op **[!UICONTROL Done]**. Uw nieuwe productprofiel is nu gemaakt.
 
-   ![](../assets/user_management_6.png)
+   ![](../assets/user_management_1.png)
 
 1. Selecteer het nieuwe productprofiel om machtigingen te beheren. Voeg op het **[!UICONTROL Users]** tabblad gebruikers toe aan uw productprofiel. Raadpleeg deze [pagina](../about/access-management.md#assigning-product-profile)voor meer informatie.
 
@@ -88,7 +88,7 @@ Een productprofiel maken en een set rechten en sandboxen toewijzen:
 
    ![](../assets/user_management_7.png)
 
-1. Kies in de **[!UICONTROL Sandbox]** machtigingencategorie welke sandbox(s) u wilt toewijzen aan uw productprofiel. Klik onder **[!UICONTROL Available Permissions Items]**, op de plusknop (+) om sandboxen aan uw profiel toe te wijzen. Zie deze [sectie](../about/access-management.md#sandboxes)voor meer informatie over sandboxen.
+1. Kies in de **[!UICONTROL Sandboxes]** machtigingencategorie welke sandbox(s) u wilt toewijzen aan uw productprofiel. Klik onder **[!UICONTROL Available Permissions Items]**, op de plusknop (+) om sandboxen aan uw profiel toe te wijzen. Zie deze [sectie](../about/access-management.md#sandboxes)voor meer informatie over sandboxen.
 
    ![](../assets/user_management_8.png)
 
