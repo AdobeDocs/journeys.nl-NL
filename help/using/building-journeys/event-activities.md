@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 957e72de7feccb33684523e26b2bdccb2074e4ca
+source-git-commit: 3937f92035651fca5ddd7f54c9b650d050f2587f
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -39,13 +39,13 @@ Voor dit type gebeurtenis kunt u alleen een label en een beschrijving toevoegen.
 
 ## Gebeurtenissen van Reaction {#section_dhx_gss_dgb}
 
-De ingebouwde gebeurtenis **Reacties** is een van de verschillende gebeurtenisactiviteiten die beschikbaar zijn in het palet. Met deze activiteit kunt u reageren op volggegevens met betrekking tot een bericht dat is verzonden met e-mail, SMS of push-activiteiten binnen dezelfde reis. Deze informatie is afkomstig van transactiemeldingen in Adobe Campaign Standard. We leggen deze informatie in real time vast op het moment dat ze wordt gedeeld met het gegevensplatform. Voor pushberichten kunt u reageren op geklikte, verzonden of mislukte berichten. Voor SMS-berichten kunt u reageren op verzonden of mislukte berichten. Voor e-mailberichten kunt u reageren op geklikte, verzonden, geopende of mislukte berichten.
+De ingebouwde gebeurtenis **Reacties** is een van de verschillende gebeurtenisactiviteiten die beschikbaar zijn in het palet. Met deze activiteit kunt u reageren op volggegevens met betrekking tot een bericht dat is verzonden met e-mail, SMS of push-activiteiten binnen dezelfde reis. Deze informatie is afkomstig van transactiemeldingen in Adobe Campaign Standard. We leggen deze informatie in real time vast op het moment dat ze wordt gedeeld met het Platform Gegevens. Voor pushberichten kunt u reageren op geklikte, verzonden of mislukte berichten. Voor SMS-berichten kunt u reageren op verzonden of mislukte berichten. Voor e-mailberichten kunt u reageren op geklikte, verzonden, geopende of mislukte berichten.
 
 U kunt dit mechanisme ook gebruiken om een actie uit te voeren wanneer er geen reactie op uw berichten is. Hiertoe maakt u een tweede pad parallel aan de reactieactiviteit en voegt u een wachtactiviteit toe. Als er geen reactie optreedt tijdens de periode die is gedefinieerd in de wachtdienst, wordt het tweede pad gekozen. U kunt bijvoorbeeld een vervolgbericht verzenden.
 
 Let op: u kunt alleen reactieactiviteiten op het canvas gebruiken als er al eerder een e-mail-, push- of SMS-activiteit is.
 
-Zie [](../building-journeys/about-action-activities.md).
+Zie [Informatie over actieactiviteiten](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey45.png)
 
@@ -58,23 +58,25 @@ Hier volgen de verschillende stappen voor het configureren van reactiegebeurteni
 
 >[!NOTE]
 >
+>Reactiegebeurtenissen werken met Adobe Campaign Standard, ongeacht of ze zijn geïmplementeerd op AWS- of Azure-servers.
+>
 >Reactiegebeurtenissen kunnen geen e-mail-, SMS- of pushacties bijhouden die op een andere reis plaatsvinden.
 >
 >Gebeurtenissen van Reaction volgen klikt op koppelingen van het type &quot;bijgehouden&quot; (zie deze [pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Er wordt geen rekening gehouden met abonnements- en spiegelpaginakoppelingen.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >E-mailclients zoals Gmail staan het blokkeren van afbeeldingen toe. E-mails die worden geopend, worden bijgehouden met een afbeelding van 0 pixels die in de e-mail is opgenomen. Als afbeeldingen worden geblokkeerd, wordt er geen rekening gehouden met het openen van e-mail.
 
 ## Segmentkwalificatiegebeurtenissen {#segment-qualification}
 
-Deze activiteit staat uw reis toe om aan de ingangen en de uitgang van profielen in de segmenten van het Platform te luisteren om individuen te maken binnen of zich op een reis vooruit te bewegen. Raadpleeg deze [sectie](../segment/about-segments.md)voor meer informatie over het maken van segmenten.
+Met deze activiteit kunt u luisteren naar de in- en uitgangen van profielen in segmenten van het Platform om ervoor te zorgen dat individuen een reis kunnen maken of vooruit kunnen gaan. Raadpleeg deze [sectie](../segment/about-segments.md)voor meer informatie over het maken van segmenten.
 
 Laten we zeggen dat je een &quot;zilveren klant&quot;-segment hebt. Met deze activiteit, kunt u alle nieuwe zilveren klanten een reis maken en hen een reeks gepersonaliseerde berichten verzenden.
 
 Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
-Wanneer het segment wordt gestreamd met de optie High Frequency Audiences van Platform, wordt er in real-time naar toegang en uitgangen geluisterd. Als het segment niet wordt gestreamd, wordt bij de berekening van het segment rekening gehouden met de in- en uitgangen.
+Wanneer het segment wordt gestreamd met de optie Frequentie van publiek Platform, wordt er in real-time naar de toegang en de uitgang geluisterd. Als het segment niet wordt gestreamd, wordt bij de berekening van het segment rekening gehouden met de in- en uitgangen.
 
 1. Ontgrendel de categorie **Gebeurtenissen** en zet een **segmentkwalificatieactiviteit** neer op uw canvas.
 
@@ -97,6 +99,12 @@ De nuttige lading bevat de volgende contextinformatie, die u in voorwaarden en a
 * het gedrag (ingang, uitgang)
 * het tijdstempel van de kwalificatie
 * segment-id
+
+Wanneer het gebruiken van de uitdrukkingsredacteur in een voorwaarde of een actie die een **de kwalificatieactiviteit** van het Segment volgt, hebt u toegang tot de knoop **SegmentQualification** . U kunt kiezen tussen de **laatste kwalificatietijd** en de **status** (invoeren of afsluiten).
+
+Zie [Condition activity](../building-journeys/condition-activity.md#about_condition).
+
+![](../assets/segment8.png)
 
 ## Geavanceerd gebruik: gebeurtenissen met een wachttijd parallel{#section_vxv_h25_pgb}
 
