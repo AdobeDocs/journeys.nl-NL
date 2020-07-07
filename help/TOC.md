@@ -1,12 +1,12 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Help voor reisorganisatie
+user-guide-title: Journey Orchestration Help
 index: true
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
    + [Opmerkingen bij de release](using/release-notes/release-notes.md)
    + [Documentatieupdates](using/release-notes/documentation-updates.md)
 + Beginnen met [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Info [!DNL Reisorkest]](using/about/about-journey-orchestration.md)
+   + [Info over [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Aan de slag](using/about/get-started.md)
    + [Gebruikersinterface](using/about/user-interface.md)
    + [Toegangsbeheer](using/about/access-management.md)
@@ -36,11 +36,11 @@ ht-degree: 0%
 + Een gegevensbron configureren {#data-source-journeys}
    + [Gegevensbronnen](using/datasource/about-data-sources.md)
    + [Veldgroepen](using/datasource/field-groups.md)
-   + [Adobe Experience Platform-gegevensbron](using/datasource/adobe-experience-platform-data-source.md)
+   + [Gegevensbron Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
    + [Externe gegevensbronnen](using/datasource/external-data-sources.md)
 + Een handeling configureren {#action-journeys}
    + [Handelingen](using/action/action.md)
-   + [Werken met Adobe-campagne](using/action/working-with-adobe-campaign.md)
+   + [Werken met Adobe Campaign](using/action/working-with-adobe-campaign.md)
    + Een systeem van derden gebruiken {#action-third-party}
       + [Aangepaste actieconfiguratie](using/action/about-custom-action-configuration.md)
       + [Beperkingen voor aangepaste handelingen](using/action/custom-action-limitations.md)
@@ -67,7 +67,7 @@ ht-degree: 0%
          + [Wacht op activiteit](using/building-journeys/wait-activity.md)
       + Acties {#action-activities}
          + [Informatie over actieactiviteiten](using/building-journeys/about-action-activities.md)
-         + [Adobe Campagne-acties gebruiken](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Adobe Campaign-handelingen gebruiken](using/building-journeys/using-adobe-campaign-actions.md)
          + [Aangepaste handelingen gebruiken](using/building-journeys/using-custom-actions.md)
    + [De reis testen](using/building-journeys/testing-the-journey.md)
    + [De reis publiceren](using/building-journeys/publishing-the-journey.md)
@@ -162,6 +162,10 @@ ht-degree: 0%
    + [Informatie over reisrapporten](using/reporting/about-journey-reports.md)
    + [Uw reisrapporten maken](using/reporting/creating-your-journey-reports.md)
    + [Metriek en afmetingen](using/reporting/metrics-and-dimensions.md)
++ Integratie met intelligente services{#use-case-advanced}
+   + [Over AI-integratie](using/ai-services/ai-services-overview.md)
+   + [Hefboomwerkings-AI](using/ai-services/leveraging-fatigue-scores.md)
+   + [Levering van AI van Klant](using/ai-services/leveraging-customer-ai.md)
 + Gebruik hoofdletters{#use-cases-journeys}
    + Eenvoudig gebruik{#use-case-simple}
       + [Over het eenvoudige gebruik](using/usecase/about-the-simple-use-case.md)
@@ -173,7 +177,11 @@ ht-degree: 0%
       + [Gebeurtenissen configureren](using/usecase/configuring-the-events.md)
       + [De gegevensbronnen configureren](using/usecase/configuring-the-data-sources.md)
       + [De reis maken](using/usecase/building-the-journey.md)
-   + [Hefboomwerking van vermoeidheidsscores](using/usecase/leveraging-fatigue-scores.md)
 + Werken met API&#39;s{#working-with-apis}
    + [API&#39;s uitlijnen](using/api/capping.md)
++ Alfa-functies {#alpha}
+   + [Overzicht van Alfa-functies](using/alpha/alpha-overview.md)
+   + [Gebruikersinterface](using/alpha/alpha-interface.md)
+   + [Segmenttriggeractiviteit](using/alpha/alpha-segment-trigger.md)
+   + [Gebeurtenissen op basis van regels](using/alpha/alpha-events.md)
 
