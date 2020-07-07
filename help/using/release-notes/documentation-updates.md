@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5d92b9d70a70700026a4715c6cb6a6c4ba565ba5
+source-git-commit: 18364d6e93b48e065b21bbaddee33e7ba4d9274d
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ U kunt ook de opmerkingen bij de [!DNL Journey Orchestration] release [](../rele
 
 * Een nieuwe sectie toegevoegd over de Alpha-functies die onder een beperkte groep klanten worden getest. [Meer informatie](../alpha/alpha-overview.md)
 * Er is een nieuwe sectie toegevoegd over de integratie met intelligente services. [Meer informatie](../ai-services/ai-services-overview.md)
-* Er is een nieuwe sectie toegevoegd over het maken van het testprofiel. [Lees meer](../building-journeys/testing-the-journey.md#create-test-profile).
-* Toegevoegde informatie over hoe te om de knoop **SegmentQualification** in een reisvoorwaarde of een actie te gebruiken. [Lees meer](../building-journeys/event-activities.md#segment-qualification).
-* Er is een opmerking toegevoegd bij het transactiebericht en de publicatie van gebeurtenissen voor campagnes. Zie [](../action/working-with-adobe-campaign.md) en [](../building-journeys/using-adobe-campaign-actions.md).
+* Er is een nieuwe sectie toegevoegd over het maken van het testprofiel. [Meer informatie](../building-journeys/testing-the-journey.md#create-test-profile)
+* Toegevoegde informatie over hoe te om de knoop **SegmentQualification** in een reisvoorwaarde of een actie te gebruiken. [Meer informatie](../building-journeys/event-activities.md#segment-qualification)
+* Er is een opmerking toegevoegd bij het transactiebericht en de publicatie van gebeurtenissen voor campagnes. Zie [Werken met Adobe Campaign](../action/working-with-adobe-campaign.md) en [Adobe Campaign-handelingen](../building-journeys/using-adobe-campaign-actions.md)gebruiken.
 * Er is informatie toegevoegd over de controles die worden uitgevoerd wanneer de Campaign Standard-instantie-URL wordt getest. [Meer informatie](../action/working-with-adobe-campaign.md)
 * Er is informatie toegevoegd over de compatibiliteit van reactiegebeurtenissen met Campaign Standard-instanties die worden gehost op AWS- of Azure-servers. [Meer informatie](../building-journeys/event-activities.md#section_dhx_gss_dgb)
 * Er is een opmerking toegevoegd over de noodzaak om een begrenzingsregel in te stellen wanneer u werkt met Campaign Standard-berichten voor transacties. [Meer informatie](../action/working-with-adobe-campaign.md)
-* Er is een opmerking toegevoegd over het genereren van gebeurtenissen Real bij het activeren van gebeurtenissen in de testmodus. [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
+* Er is een opmerking toegevoegd over het genereren van echte gebeurtenissen bij het activeren van gebeurtenissen in de testmodus. [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
 
 ## juni 2020 {#june-2020}
 
