@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 5d92b9d70a70700026a4715c6cb6a6c4ba565ba5
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,18 @@ ht-degree: 0%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Orchestration].
 U kunt ook de opmerkingen bij de [!DNL Journey Orchestration] release [](../release-notes/release-notes.md)raadplegen.
+
+## juli 2020 {#july-2020}
+
+* Een nieuwe sectie toegevoegd over de Alpha-functies die onder een beperkte groep klanten worden getest. [Meer informatie](../alpha/alpha-overview.md)
+* Er is een nieuwe sectie toegevoegd over de integratie met intelligente services. [Meer informatie](../ai-services/ai-services-overview.md)
+* Er is een nieuwe sectie toegevoegd over het maken van het testprofiel. [Lees meer](../building-journeys/testing-the-journey.md#create-test-profile).
+* Toegevoegde informatie over hoe te om de knoop **SegmentQualification** in een reisvoorwaarde of een actie te gebruiken. [Lees meer](../building-journeys/event-activities.md#segment-qualification).
+* Er is een opmerking toegevoegd bij het transactiebericht en de publicatie van gebeurtenissen voor campagnes. Zie [](../action/working-with-adobe-campaign.md) en [](../building-journeys/using-adobe-campaign-actions.md).
+* Er is informatie toegevoegd over de controles die worden uitgevoerd wanneer de Campaign Standard-instantie-URL wordt getest. [Meer informatie](../action/working-with-adobe-campaign.md)
+* Er is informatie toegevoegd over de compatibiliteit van reactiegebeurtenissen met Campaign Standard-instanties die worden gehost op AWS- of Azure-servers. [Meer informatie](../building-journeys/event-activities.md#section_dhx_gss_dgb)
+* Er is een opmerking toegevoegd over de noodzaak om een begrenzingsregel in te stellen wanneer u werkt met Campaign Standard-berichten voor transacties. [Meer informatie](../action/working-with-adobe-campaign.md)
+* Er is een opmerking toegevoegd over het genereren van gebeurtenissen Real bij het activeren van gebeurtenissen in de testmodus. [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
 
 ## juni 2020 {#june-2020}
 
@@ -65,7 +77,7 @@ U kunt ook de opmerkingen bij de [!DNL Journey Orchestration] release [](../rele
 
 * Alle schermafbeeldingen zijn bijgewerkt om interfacewijzigingen te weerspiegelen.
 * De sectie over de testmodus is bijgewerkt. [Meer informatie](../building-journeys/testing-the-journey.md)
-* Er is een waarschuwing toegevoegd aan de gedeelten voor tijdoptimalisatie [en](../building-journeys/wait-activity.md) voorspellende vermoeidheidsscores [](../usecase/leveraging-fatigue-scores.md) in de e-mail. Deze mogelijkheden zijn alleen beschikbaar voor klanten die de functie Adobe Campagne Standard Data Service gebruiken.
+* Er is een waarschuwing toegevoegd aan de gedeelten voor tijdoptimalisatie [en](../building-journeys/wait-activity.md) voorspellende vermoeidheidsscores [](../ai-services/leveraging-fatigue-scores.md) in de e-mail. Deze mogelijkheden zijn alleen beschikbaar voor klanten die de functie Adobe Campaign Standard Data Service gebruiken.
 * Gestandaardiseerde reizen kunnen nu worden verwijderd. Gerelateerde documentatiepagina&#39;s zijn bijgewerkt.
 * Er worden nu twee kleuren weergegeven wanneer tijdens een reis problemen worden gedetecteerd. Rood voor fouten en oranje voor waarschuwingen. [Meer informatie](../about/troubleshooting.md)
 * De sectie met de geavanceerde expressieeditor is bijgewerkt. [Lees meer](../expression/expressionadvanced.md).
