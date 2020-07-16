@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
+source-git-commit: 94ef4e30d16b7d23dc029863fcd2d9f34173c433
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -21,32 +21,38 @@ ht-degree: 0%
 
 ## Over toegangsbeheer {#about-access-management}
 
-[!DNL Journey Orchestration] staat u toe om een reeks rechten aan uw gebruikers toe te wijzen om te bepalen tot welk deel van de interface zij toegang hebben.
+[!DNL Journey Orchestration] staat u toe om een reeks toestemmingen aan uw gebruikers toe te wijzen om te bepalen tot welk deel van de interface zij toegang hebben.
 
 Ze kunnen worden beheerd door beheerders die toegang hebben tot de beheerconsole. Raadpleeg deze [documentatie](https://helpx.adobe.com/enterprise/managing/user-guide.html)voor meer informatie over de beheerconsole.
 
+Een gebruiker moet het volgende hebben om toegang te krijgen [!DNL Journey Orchestration]:
+
+* onderdeel van een [!DNL Journey Orchestration] koppeling **[!UICONTROL product profile]** naar [!DNL Journey Orchestration] machtigingen.
+* een deel van een [!DNL Adobe Experience Platform] . **[!UICONTROL product profile]**. Er is geen verplichte toestemming. De gebruiker zou de **[!UICONTROL profile management]** toestemming moeten hebben om platformsegmenten van [!DNL Journey Orchestration] interface tot stand te brengen en uit te geven. For more on this, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html#adobe-admin-console).
+
 In de beheerconsole kunt u een van de volgende out-of-the-box productprofielen aan uw gebruikers toewijzen:
 
-* **[!UICONTROL Limited Access User]**: alleen-lezen toegang tot reizen en rapporten. Dit productprofiel bevat de volgende rechten:
+* **[!UICONTROL Limited Access User]**: alleen-lezen toegang tot reizen en rapporten. Dit productprofiel bevat de volgende machtigingen:
    * Reizen lezen
    * Rapporten lezen
 
-* **[!UICONTROL Administrators]**: gebruikers die toegang hebben tot de menu&#39;s van de administratie, met de mogelijkheid om reizen, gebeurtenissen en rapporten te beheren. Dit productprofiel bevat de volgende rechten:
+* **[!UICONTROL Administrators]**: gebruikers die toegang hebben tot de menu&#39;s van de administratie, met de mogelijkheid om reizen, gebeurtenissen en rapporten te beheren. Dit productprofiel bevat de volgende machtigingen:
    * Reizen beheren
    * Reizen publiceren
    * Gebeurtenissen, gegevensbronnen en handelingen beheren
    * Rapporten beheren
+
    >[!NOTE]
    >
    >**[!UICONTROL Administrators]** is het enige productprofiel dat het maken, de uitgave en de publicatie van transactiemeldingen (of berichtsjablonen) in Adobe Campaign Standard mogelijk maakt. Dit productprofiel is nodig als u Adobe Campaign Standard gebruikt om berichten tijdens uw reizen te verzenden.
 
-* **[!UICONTROL Standard User]**: gebruikers met basistoegang zoals reisbeheer. Dit productprofiel bevat de volgende rechten:
+* **[!UICONTROL Standard User]**: gebruikers met basistoegang zoals reisbeheer. Dit productprofiel bevat de volgende machtigingen:
    * Reizen beheren
    * Reizen publiceren
    * Rapporten beheren
 
 U kunt ook uw eigen productprofielen maken als de out-of-box-profielen niet voldoende zijn om uw gebruikers te beheren.
-Gebruikers moeten altijd zijn gekoppeld aan een productprofiel, zodat u hun specifieke inbouwrechten kunt toewijzen, zoals:
+Gebruikers moeten altijd zijn gekoppeld aan een productprofiel, zodat u hun specifieke inbouwmachtigingen kunt toewijzen, zoals:
 
 * **[!UICONTROL Read journeys]**
 * **[!UICONTROL Read reports]**
@@ -56,17 +62,17 @@ Gebruikers moeten altijd zijn gekoppeld aan een productprofiel, zodat u hun spec
 * **[!UICONTROL Publish journeys]**
 * **[!UICONTROL Manage reports]**
 
-Hieronder vindt u de compatibiliteit tussen rechten en [!DNL Journey Orchestration]de verschillende functies.
+Hieronder vindt u de compatibiliteit tussen machtigingen en [!DNL Journey Orchestration]de verschillende functies.
 
 ![](../assets/journey_permission.png)
 
 ## Een productprofiel maken {#create-product-profile}
 
-[!DNL Journey Orchestration] kunt u uw eigen productprofielen maken en een reeks rechten en sandboxen aan uw gebruikers toewijzen. Met productprofielen kunt u toegang tot bepaalde functies of objecten in de interface toestaan of weigeren.
+[!DNL Journey Orchestration] kunt u uw eigen productprofielen maken en een set machtigingen en sandboxen aan uw gebruikers toewijzen. Met productprofielen kunt u toegang tot bepaalde functies of objecten in de interface toestaan of weigeren.
 
 Raadpleeg de documentatie bij het [Adobe Experience Platform voor meer informatie over het maken en beheren van sandboxen](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
 
-Een productprofiel maken en een set rechten en sandboxen toewijzen:
+Een productprofiel maken en een set machtigingen en sandboxen toewijzen:
 
 1. Selecteer in de Admin Console **[!UICONTROL Journey Orchestration]**. Klik op het tabblad **[!UICONTROL Product profile]** op **[!UICONTROL New Profile]**.
 
@@ -80,7 +86,7 @@ Een productprofiel maken en een set rechten en sandboxen toewijzen:
 
    ![](../assets/user_management_1.png)
 
-1. Selecteer het nieuwe productprofiel om machtigingen te beheren. Voeg op het **[!UICONTROL Users]** tabblad gebruikers toe aan uw productprofiel. Raadpleeg deze [pagina](../about/access-management.md#assigning-product-profile)voor meer informatie.
+1. Selecteer het nieuwe productprofiel om machtigingen te beheren. Voeg op het **[!UICONTROL Users]** tabblad gebruikers toe aan uw productprofiel. For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
 1. Voer dezelfde stappen uit als hierboven beschreven om toe te voegen **[!UICONTROL Admin]** aan uw productprofiel.
 
@@ -96,8 +102,8 @@ Een productprofiel maken en een set rechten en sandboxen toewijzen:
 
    ![](../assets/user_management_9.png)
 
-1. Voer vanuit de **[!UICONTROL Authoring]** machtigingencategorie dezelfde stappen uit als hierboven om rechten toe te voegen aan uw productprofiel.
-   <br>Zie deze [!DNL Journey Orchestration]sectie voor meer informatie over rechten en compatibiliteit tussen rechten en [de verschillende functies van de rechten](../about/access-management.md#about-access-management).
+1. Voer vanuit de **[!UICONTROL Authoring]** machtigingencategorie dezelfde stappen uit als hierboven om machtigingen toe te voegen aan uw productprofiel.
+   <br>Raadpleeg deze [!DNL Journey Orchestration]sectie voor meer informatie over machtigingen en compatibiliteit tussen machtigingen en [de verschillende functies](../about/access-management.md#about-access-management).
 
    ![](../assets/user_management_10.png)
 
@@ -107,8 +113,8 @@ Uw productprofiel is nu gemaakt en geconfigureerd. Gebruikers die aan dit profie
 
 ## Een productprofiel toewijzen {#assigning-product-profile}
 
-Productprofielen worden toegewezen aan een reeks gebruikers die dezelfde rechten hebben binnen uw organisatie.
-De lijst met alle out-of-the-box productprofielen met toegewezen rechten vindt u in deze sectie.
+Productprofielen worden toegewezen aan een reeks gebruikers die dezelfde machtigingen binnen uw organisatie hebben.
+De lijst van alle uit-van-de-doos productprofielen met toegewezen toestemmingen kan in deze sectie worden gevonden.
 
 Een productprofiel toewijzen dat een gebruiker kan openen [!DNL Journey Orchestration]:
 
@@ -122,7 +128,7 @@ Een productprofiel toewijzen dat een gebruiker kan openen [!DNL Journey Orchestr
 
 1. Klik op **[!UICONTROL Add user]**.
 
-   U kunt uw nieuwe gebruiker aan een gebruikersgroep ook toevoegen om de gedeelde reeks toestemmingen te verfijnen. Raadpleeg deze [pagina](https://helpx.adobe.com/enterprise/using/user-groups.html)voor meer informatie.
+   U kunt uw nieuwe gebruiker aan een gebruikersgroep ook toevoegen om de gedeelde reeks toestemmingen te verfijnen. For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
    ![](../assets/user_management_3.png)
 
