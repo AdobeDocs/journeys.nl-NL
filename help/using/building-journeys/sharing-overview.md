@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
+source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ ht-degree: 0%
 
 # Overzicht van stap delen voor reizen{#sharing-overview}
 
-[!DNL Journey Orchestration] stuurt automatisch gegevens over de reisprestaties naar de Adobe Experience Platform zodat deze kunnen worden gecombineerd met andere gegevens voor analysedoeleinden.
+[!DNL Journey Orchestration] stuurt automatisch gegevens over de reisprestaties naar het Adobe Experience Platform zodat deze voor analysedoeleinden met andere gegevens kunnen worden gecombineerd.
 
-U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Met deze functie kunt u [!DNL Journey Orchestration] gegevens combineren met gegevens over gebeurtenissen stroomafwaarts, zoals hoeveel conversies er hebben plaatsgevonden, hoeveel betrokkenheid er op de website heeft plaatsgevonden of hoeveel transacties er in de winkel hebben plaatsgevonden. De reisinformatie kan worden gecombineerd met gegevens op het Platform, hetzij van andere digitale eigenschappen of van off-line eigenschappen om een vollediger beeld van prestaties te geven.
+U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Met deze functie kunt u [!DNL Journey Orchestration] gegevens combineren met gegevens over gebeurtenissen stroomafwaarts, zoals hoeveel conversies er hebben plaatsgevonden, hoeveel betrokkenheid er op de website heeft plaatsgevonden of hoeveel transacties er in de winkel hebben plaatsgevonden. De reisinformatie kan worden gecombineerd met gegevens over het Adobe Experience Platform, hetzij uit andere digitale eigenschappen, hetzij uit offline eigenschappen, om een vollediger beeld van de prestaties te geven.
 
-[!DNL Journey Orchestration] leidt automatisch tot de noodzakelijke schema&#39;s en stromen in datasets aan het Platform voor elke stap een individu in een reis neemt. Een step-gebeurtenis komt overeen met een individuele gebeurtenis die zich tijdens een rit van het ene knooppunt naar het andere verplaatst. Bijvoorbeeld, in een reis die een gebeurtenis, een voorwaarde en een actie heeft, worden de drie stapgebeurtenissen verzonden naar het Platform.
+[!DNL Journey Orchestration] leidt automatisch tot de noodzakelijke schema&#39;s en stromen in datasets aan het Adobe Experience Platform voor elke stap een individu in een reis neemt. Een step-gebeurtenis komt overeen met een individuele gebeurtenis die zich tijdens een rit van het ene knooppunt naar het andere verplaatst. Bijvoorbeeld, in een reis die een gebeurtenis, een voorwaarde en een actie heeft, worden de drie stapgebeurtenissen verzonden naar het Adobe Experience Platform.
 
 De lijst met XDM-velden die worden doorgegeven, is uitgebreid. Sommige bevatten door het systeem gegenereerde codes en andere hebben door mensen leesbare vriendelijke namen. Voorbeelden zijn het etiket van de reisactiviteit of de stapstatus: hoe vaak een time-out of een fout is opgetreden.
 
 >[!CAUTION]
 >
->Datasets kunnen niet worden ingeschakeld voor realtime profielservice. Controleer of de **profielschakelaar** is uitgeschakeld
+>Datasets kunnen niet worden ingeschakeld voor realtime profielservice. Zorg dat de **[!UICONTROL Profile]** schakeloptie is uitgeschakeld
 
-De reizen verzenden gegevens aangezien het voorkomt, op een het stromen manier. U kunt deze gegevens vragen met de Query-service. U kunt verbinding maken met de analysefuncties van de Klant of met andere BI-tools om de gegevens met betrekking tot deze stappen weer te geven.
+De reizen verzenden gegevens aangezien het voorkomt, op een het stromen manier. U kunt deze gegevens vragen met de Query-service. U kunt verbinding maken met Customer Journey Analytics of andere BI-gereedschappen om gegevens met betrekking tot deze stappen weer te geven.
 
 De volgende schema&#39;s worden gemaakt:
 
@@ -53,7 +53,7 @@ De volgende datasets worden overgegaan:
 
 ![](../assets/sharing3.png)
 
-De lijsten van XDM gebieden die tot het Platform worden overgegaan zijn hier gedetailleerd:
+De lijsten van gebieden XDM die tot het Adobe Experience Platform worden overgegaan zijn hier gedetailleerd:
 
 * [tripSteps-gebeurtenissen - gemeenschappelijke velden](../building-journeys/sharing-common-fields.md)
 * [uitvoeringsvelden van handelingen voor gebeurtenissen van de tripStep](../building-journeys/sharing-execution-fields.md)
@@ -61,3 +61,4 @@ De lijsten van XDM gebieden die tot het Platform worden overgegaan zijn hier ged
 * [identiteitsvelden van gebeurtenissen van de tripStep](../building-journeys/sharing-identity-fields.md)
 * [reisvelden](../building-journeys/sharing-journey-fields.md)
 
+Bekijk deze [zelfstudievideo](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)voor meer informatie over stapgebeurtenissen die aan het Adobe Experience Platform worden gerapporteerd.
