@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -54,4 +57,4 @@ Retourneert een Booleaanse waarde.
 
 Uitleg:
 
-De functie wordt geretourneerd **[!UICONTROL true]**als de persoon binnen de reisinstantie deel uitmaakt van het platformsegment met de naam &quot;mannen boven 50&quot;,**[!UICONTROL false]** anders.
+De functie wordt geretourneerd **[!UICONTROL true]** als de persoon binnen de reisinstantie deel uitmaakt van het Adobe Experience Platform segment met de naam &quot;mannen boven 50&quot;, **[!UICONTROL false]** anders.
