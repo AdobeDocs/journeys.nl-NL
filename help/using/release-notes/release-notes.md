@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 0%
+source-wordcount: '1107'
+ht-degree: 3%
 
 ---
 
 
-# Opmerkingen bij de release {#release-notes}
+# Release Notes {#release-notes}
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)raadplegen.
@@ -35,22 +35,22 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 <tbody>
 <tr>
 <td>
-<p>De volgende verbeteringen op het gebied van Platform-integratie zijn doorgevoerd:</p>
+<p>De volgende verbeteringen op het gebied van Adobe Experience Platform-integratie zijn doorgevoerd:</p>
 <ul>
-<li><p>Een nieuwe activiteit staat het luisteren van de de segmententententangen/uitgang van het Platform toe om mensen te maken binnen of zich voorwaarts in een reis bewegen. <a href="../building-journeys/event-activities.md#segment-qualification">Meer informatie</a></p>
+<li><p>Een nieuwe activiteit staat het luisteren van Adobe Experience Platform segmententententangen/uitgang toe om mensen te maken binnen of zich voorwaarts op een reis bewegen. <a href="../building-journeys/segment-qualification-events.md">Meer informatie</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>U kunt nu Platforms segmenten maken en bewerken zonder de Journey Orchestration-interface te verlaten, dankzij een nieuw tabblad <strong>Segmenten</strong> .<a href="../segment/about-segments.md">Meer informatie</a></p>
+<li><p>U kunt nu Adobe Experience Platforms segmenten maken en bewerken zonder de Journey Orchestration-interface te verlaten, dankzij een nieuw tabblad <strong>Segmenten</strong> .<a href="../segment/about-segments.md">Meer informatie</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>In de eenvoudige uitdrukkingsredacteur, zijn de segmenten van het Platform nu direct vermeld in de navigatieboom om gemakkelijke opstelling van voorwaarden zoals "toe te staan behoort deze persoon tot segment A?".<a href="../segment/using-a-segment.md">Meer informatie</a></p>
+<li><p>In de eenvoudige uitdrukkingsredacteur, zijn de segmenten van het Adobe Experience Platform nu direct vermeld in de navigatieboom om gemakkelijke opstelling van voorwaarden zoals "toe te staan behoort deze persoon tot segment A?".<a href="../segment/using-a-segment.md">Meer informatie</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration geeft nu automatisch de stappen door die tijdens reizen worden uitgevoerd aan het Adobe Data Platform. Dit geldt ook voor mogelijke fouten. Deze informatie kan voor het bereiken van rapportering en het oplossen van problemen worden gebruikt door vragen over de gebeurtenissen van de Stap van de Reis voor een bepaalde reis of voor alle reizen uit te voeren. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
+<li><p>Journey Orchestration geeft nu automatisch de stappen door die tijdens reizen zijn uitgevoerd. Dit geldt ook voor mogelijke fouten. Deze informatie kan voor het bereiken van rapportering en het oplossen van problemen worden gebruikt door vragen over de gebeurtenissen van de Stap van de Reis voor een bepaalde reis of voor alle reizen uit te voeren. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestration kan nu worden verbonden met sandboxen voor productie- en niet-productie-Platforms. Sandboxen zijn bètafuncties. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
+<li><p>Journey Orchestration kan nu worden verbonden met sandboxen voor productie- en niet-productie-Adobe Experience Platforms. Sandboxen zijn bètafuncties. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
 </li>
 </td>
 </tr>
@@ -93,7 +93,7 @@ De Journey Orchestration-interface is beschikbaar in het Japans.
 
 ## Release Q1 - maart 2020 {#q1-release---march-2020}
 
-**Wat is nieuw?**
+**Nieuwe functies?**
 
 <table>
 <thead>
@@ -130,7 +130,7 @@ De Journey Orchestration-interface is beschikbaar in het Japans.
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>In de vervolgkeuzelijst <strong>Tijdzone</strong> kunt u een specifieke tijdzone selecteren. Standaard wordt de tijdzone van de browser gebruikt. </li>
-<li>Met het selectievakje Tijdzone <strong>van</strong> profiel kunt u de tijdzone van het profiel van het Experience Platform gebruiken van de persoon die de reis betreedt, indien beschikbaar. Als dat niet het geval is, wordt de tijdzone gebruikt die in de vervolgkeuzelijst is gedefinieerd. Deze functie is niet compatibel met ritten die gebeurtenissen gebruiken die geen naamruimte hebben.</li>
+<li>Met het selectievakje Tijdzone <strong>van</strong> profiel kunt u de tijdzone van het profiel van het Adobe Experience Platform gebruiken van de persoon die de reis betreedt, indien beschikbaar. Als dat niet het geval is, wordt de tijdzone gebruikt die in de vervolgkeuzelijst is gedefinieerd. Deze functie is niet compatibel met ritten die gebeurtenissen gebruiken die geen naamruimte hebben.</li>
 </ul>
 <p>Raadpleeg de secties <a href="../building-journeys/changing-properties.md#timezone">Eigenschappen</a> wijzigen en <a href="../building-journeys/timezone-management.md">Tijdzonebeheer</a> voor meer informatie.</p>
 </td>
@@ -189,7 +189,7 @@ De Journey Orchestration-interface is beschikbaar in het Japans.
 
 * U kunt gestopt reizen nu **verwijderen** . Rapporten over deze verwijderde reizen zijn niet beschikbaar.
 
-* Wanneer u door de velden **** Data Platform (XDM-indeling) bladert, wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring. Indien beschikbaar wordt de alternatieve weergavenaam weergegeven. Met deze gebruiksvriendelijke beschrijving, vooral handig in het geval van eVar-velden, kunt u uw velden gemakkelijker identificeren. [Meer informatie](../about/user-interface.md#friendly-names-display)
+* Wanneer u door **Adobe Experience Platforms velden** bladert (XDM-indeling), wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring. Indien beschikbaar wordt de alternatieve weergavenaam weergegeven. Met deze gebruiksvriendelijke beschrijving, vooral handig in het geval van eVar-velden, kunt u uw velden gemakkelijker identificeren. [Meer informatie](../about/user-interface.md#friendly-names-display)
 
 ## GA-release - december 2019 {#ga-release---december-2019}
 
