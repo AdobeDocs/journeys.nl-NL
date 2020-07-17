@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 Biedt een voorspelbare tijd voor het leveren van een e-mail aan een individu.
 
-Deze functie gebruikt een score die in het Platform wordt berekend. De score berekent de neiging om in de toekomst op e-mail te klikken of te openen op basis van gedrag uit het verleden. Merk op dat het algoritme dat de score berekent een bepaalde hoeveelheid gegevens vereist om te werken. Als er onvoldoende gegevens zijn, is de standaardtijd dus van toepassing. Zie voor meer informatie [](../building-journeys/wait-activity.md).
+Deze functie gebruikt een score die in het Adobe Experience Platform wordt berekend. De score berekent de neiging om in de toekomst op e-mail te klikken of te openen op basis van gedrag uit het verleden. Merk op dat het algoritme dat de score berekent een bepaalde hoeveelheid gegevens vereist om te werken. Als er onvoldoende gegevens zijn, is de standaardtijd dus van toepassing. Zie voor meer informatie [](../building-journeys/wait-activity.md).
 
 Voor het gebruik van deze functie is een [naamruimte](../event/selecting-the-namespace.md) nodig.
 
