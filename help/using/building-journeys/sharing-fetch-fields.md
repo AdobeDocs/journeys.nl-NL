@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Type: lang
 
 ## fetchTypeInError
 
-Definieert of de functie Ophalen in fout zich op het platform of op een aangepaste gegevensbron bevindt.
+Definieert of de fout Ophalen zich op het Adobe Experience Platform of op een aangepaste gegevensbron bevindt.
 
 Type: string
 
@@ -93,13 +93,13 @@ Type: lang
 
 ## fetchPlatformTotalTime
 
-De totale hoeveelheid tijd die nodig is om de gegevens van het Data Platform in millis op te halen. Opmerking: deze hoeveelheid tijd wordt berekend vanaf het tijdstip waarop de motor de verrijkingsgebeurtenis naar de verrijkingsdienst verzendt en de reactie ontvangt .
+De totale hoeveelheid tijd die nodig is om de gegevens van het Adobe Experience Platform in millis op te halen. Opmerking: deze hoeveelheid tijd wordt berekend vanaf het tijdstip waarop de motor de verrijkingsgebeurtenis naar de verrijkingsdienst verzendt en de reactie ontvangt .
 
 Type: lang
 
 ## fetchPlatformCount
 
-Hoeveel keer worden de gegevens opgehaald van Platform.
+Hoeveel keer worden de gegevens opgehaald van Adobe Experience Platform.
 
 Type: lang
 
