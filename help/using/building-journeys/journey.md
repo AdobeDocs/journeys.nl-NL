@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Deze stap wordt uitgevoerd door de **bedrijfsgebruiker**. Hier maak je je reizen
 
 Met de interface voor reizen kunt u activiteiten van het palet gemakkelijk naar het canvas slepen. U kunt ook dubbelklikken op een activiteit om deze in het canvas toe te voegen bij de volgende beschikbare stap. Elke activiteit heeft een specifieke rol en plaats in het proces. De activiteiten worden gesequenceerd. Wanneer een activiteit wordt gebeëindigd, gaat de stroom verder en verwerkt de volgende activiteit, etc.
 
-Per reis is slechts één naamruimte toegestaan. Wanneer u de eerste gebeurtenis neerzet, worden gebeurtenissen met verschillende naamruimten grijs weergegeven. Als de eerste gebeurtenis geen naamruimte heeft, worden alle gebeurtenissen met een naamruimte grijs weergegeven. Zie [](../event/selecting-the-namespace.md). Bovendien worden de de gebiedsgroepen van het Platform van de Ervaring grijs als de reis gebeurtenissen zonder namespace heeft. En tot slot, als u verscheidene gebeurtenissen in de zelfde reis gebruikt, moeten zij zelfde namespace gebruiken.
+Per reis is slechts één naamruimte toegestaan. Wanneer u de eerste gebeurtenis neerzet, worden gebeurtenissen met verschillende naamruimten grijs weergegeven. Als de eerste gebeurtenis geen naamruimte heeft, worden alle gebeurtenissen met een naamruimte grijs weergegeven. Zie [](../event/selecting-the-namespace.md). Bovendien worden veldgroepen van Adobe Experience Platforms grijs weergegeven als de rit gebeurtenissen zonder naamruimte bevat. En tot slot, als u verscheidene gebeurtenissen in de zelfde reis gebruikt, moeten zij zelfde namespace gebruiken.
 
 ## Snel starten {#creating_journey}
 
