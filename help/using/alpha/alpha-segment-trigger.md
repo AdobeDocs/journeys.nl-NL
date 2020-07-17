@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c8d28b51f14ba511a860874e45d341a6977c58fa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 ## Informatie over de activiteit Segmenttrigger {#about-segment-trigger-actvitiy}
 
-Met de segmenttriggeractiviteit kunt u alle personen die tot een segment van het Experience Platform behoren een reis laten maken. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden.
+Met de segmenttriggeractiviteit kunt u alle personen die tot een segment van het Adobe Experience Platform behoren een reis laten maken. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden.
 
-Laten we zeggen dat je een Gold-klantensegment hebt op Experience Platform. Met de Segment Trigger-activiteit, kunt u alle individuen die tot het Gouden klantensegment behoren een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit gebruiken: voorwaarden, timers, gebeurtenissen, handelingen.
+Laten we zeggen dat je een Gold-klantensegment hebt op Adobe Experience Platform. Met de Segment Trigger-activiteit, kunt u alle individuen die tot het Gouden klantensegment behoren een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit gebruiken: voorwaarden, timers, gebeurtenissen, handelingen.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Laten we zeggen dat je een Gold-klantensegment hebt op Experience Platform. Met 
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. Kies in het **[!UICONTROL Segment]** veld het segment Experience Platform dat de rit moet ingaan en klik op **[!UICONTROL Save]**.
+1. Kies in het **[!UICONTROL Segment]** veld het segment Adobe Experience Platform dat de rit moet ingaan en klik op **[!UICONTROL Save]**.
 
    ![](../assets/segment-trigger-segment-selection.png)
 
@@ -69,6 +69,6 @@ Laten we zeggen dat je een Gold-klantensegment hebt op Experience Platform. Met 
 
    >[!IMPORTANT]
    >
-   >Onthoud dat de segmenten van het Experience Platform één keer per dag (**partijsegmenten** ) of in real time (**gestroomde** segmenten) worden berekend.
+   >Onthoud dat de segmenten van het Adobe Experience Platform één keer per dag (**partijsegmenten** ) of in real time (**gestroomde** segmenten) worden berekend.
    >
-   >Als het geselecteerde segment wordt gestreamd, zullen de individuen die tot dit segment behoren potentieel de reis in real time ingaan. Als het segment partij is, zullen de mensen die nieuw voor dit segment worden gekwalificeerd de reis potentieel ingaan wanneer de segmentberekening op het Experience Platform wordt uitgevoerd.
+   >Als het geselecteerde segment wordt gestreamd, zullen de individuen die tot dit segment behoren potentieel de reis in real time ingaan. Als het segment partij is, zullen de mensen die nieuw voor dit segment worden gekwalificeerd de reis potentieel ingaan wanneer de segmentberekening op het Adobe Experience Platform wordt uitgevoerd.
