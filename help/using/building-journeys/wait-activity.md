@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +40,7 @@ U kunt een voorwaarde definiëren als u de wachttijd wilt beperken tot een bepaa
 >
 >De maximale wachttijd is 30 dagen.
 >
->Op testwijze, staat de **** Wacht tijd in testparameter u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [](../building-journeys/testing-the-journey.md)
+>Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [](../building-journeys/testing-the-journey.md)
 
 ## Wachttijd duur{#duration}
 
@@ -67,19 +70,19 @@ Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 202
 
 >[!CAUTION]
 >
->De functie voor het optimaliseren van de verzendtijd van e-mail is alleen beschikbaar voor klanten die de functie Adobe Campagne Standard Data Service gebruiken.
+>De functie voor het optimaliseren van de verzendtijd van e-mail is alleen beschikbaar voor klanten die de functie Adobe Campaign Standard Data Service gebruiken.
 
-Bij dit type wachttijd wordt een score gebruikt die in het Platform is berekend. De score berekent de neiging om in de toekomst op e-mail te klikken of te openen op basis van gedrag uit het verleden. Merk op dat het algoritme dat de score berekent een bepaalde hoeveelheid gegevens vereist om te werken. Als er onvoldoende gegevens zijn, is de standaardwachttijd dus van toepassing. Tijdens de publicatie wordt u op de hoogte gesteld dat de standaardtijd van toepassing is.
+Bij dit type wachttijd wordt een score gebruikt die in het Adobe Experience Platform is berekend. De score berekent de neiging om in de toekomst op e-mail te klikken of te openen op basis van gedrag uit het verleden. Merk op dat het algoritme dat de score berekent een bepaalde hoeveelheid gegevens vereist om te werken. Als er onvoldoende gegevens zijn, is de standaardwachttijd dus van toepassing. Tijdens de publicatie wordt u op de hoogte gesteld dat de standaardtijd van toepassing is.
 
 >[!NOTE]
 >
 >De eerste gebeurtenis van uw reis moet een namespace hebben.
 >
->Deze mogelijkheid is alleen beschikbaar na een **[!UICONTROL Email]** activiteit. U hebt Adobe Campaign Standard nodig.
+>Deze mogelijkheid is alleen beschikbaar na een **[!UICONTROL Email]** activiteit. Je hebt Adobe Campaign Standard nodig.
 
 1. Definieer in het **[!UICONTROL Amount of time]** veld het aantal uren dat u wilt overwegen om het verzenden van e-mail te optimaliseren.
 1. Kies in het **[!UICONTROL Optimization type]** veld of er meer moet worden geklikt of dat er meer moet worden geopend.
-1. Definieer in het veld **Standaardtijd** de standaardtijd die u wilt wachten als de voorspellende score voor de verzendtijd niet beschikbaar is.
+1. Definieer in het **[!UICONTROL Default time]** veld de standaardtijd die u wilt wachten als de voorspellende score voor de verzendtijd niet beschikbaar is.
 
    >[!NOTE]
    >
