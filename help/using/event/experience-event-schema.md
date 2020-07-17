@@ -1,5 +1,5 @@
 ---
-title: 'Over ExperienceEvent-schema''s voor Journey Orchestration Events '
+title: 'Over ExperienceEvent-schema''s voor Journey Orchestration-gebeurtenissen '
 description: 'Meer informatie over ExperienceEvent-schema''s voor Journey Orchestration Events '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 # Over ExperienceEvent-schema&#39;s voor [!DNL Journey Orchestration] gebeurtenissen
 
-[!DNL Journey Orchestration] Gebeurtenissen zijn XDM Experience Events die via Streaming Ingestie naar de Adobe Experience Platform worden verzonden.
+[!DNL Journey Orchestration] gebeurtenissen zijn XDM Experience Events die naar het Adobe Experience Platform worden verzonden via Streaming Ingestie.
 
-Als dusdanig, een belangrijke voorwaarde voor vestiging gebeurtenissen voor [!DNL Journey Orchestration] is dat u met het Model van de Gegevens van de Ervaring van het Platform (of XDM) vertrouwd bent en hoe te om de schema&#39;s van de Gebeurtenis van de Ervaring XDM samen te stellen, evenals hoe te om XDM-Geformatteerde gegevens aan het Platform te stromen.
+Als dusdanig, een belangrijke voorwaarde voor vestiging gebeurtenissen voor [!DNL Journey Orchestration] is dat u met het Model van de Gegevens van de Ervaring van het Adobe Experience Platform (of XDM) vertrouwd bent en hoe te om de schema&#39;s van de Gebeurtenis van de Ervaring XDM samen te stellen, evenals hoe te om XDM-Geformatteerde gegevens aan het Adobe Experience Platform te stromen.
 
 ## Schemavereisten voor [!DNL Journey Orchestration] gebeurtenissen
 
-De eerste stap in vestiging een gebeurtenis voor [!DNL Journey Orchestration] is ervoor te zorgen dat u een schema XDM hebt dat wordt bepaald om de gebeurtenis te vertegenwoordigen, en een dataset die wordt gecreeerd om instanties van de gebeurtenis op het Platform te registreren. Het hebben van een dataset voor uw gebeurtenissen is niet strikt noodzakelijk, maar het verzenden van de gebeurtenissen naar een specifieke dataset zal u toestaan om gebruikers&#39; gebeurtenisgeschiedenis voor toekomstige verwijzing en analyse te handhaven, zodat is het altijd een goed idee. Als u nog geen geschikt schema en een geschikte dataset voor uw gebeurtenis hebt, kunnen beide taken in de het Webinterface van het Platform worden gedaan.
+De eerste stap in vestiging een gebeurtenis voor [!DNL Journey Orchestration] is ervoor te zorgen dat u een schema XDM hebt dat wordt bepaald om de gebeurtenis te vertegenwoordigen, en een dataset die wordt gecreeerd om instanties van de gebeurtenis op het Adobe Experience Platform te registreren. Het hebben van een dataset voor uw gebeurtenissen is niet strikt noodzakelijk, maar het verzenden van de gebeurtenissen naar een specifieke dataset zal u toestaan om gebruikers&#39; gebeurtenisgeschiedenis voor toekomstige verwijzing en analyse te handhaven, zodat is het altijd een goed idee. Als u nog geen geschikt schema en dataset voor uw gebeurtenis hebt, kunnen beide taken in de het Webinterface van het Adobe Experience Platform worden gedaan.
 
 ![](../assets/schema1.png)
 
