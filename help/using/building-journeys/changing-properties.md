@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,6 @@ Vanwege de 30 dagen durende reistijd, wanneer het niet is toegestaan om de reis 
 
 De tijdzone wordt gedefinieerd op het niveau van de reis.
 
-U kunt een vaste tijdzone invoeren of de profielen van het Platform van de Ervaring gebruiken om de reistijdzone te bepalen.
+U kunt een vaste tijdzone invoeren of profielen voor Adobe Experience Platforms gebruiken om de tijdzone van de reistijd te definiëren.
 
 Zie voor meer informatie over tijdzonebeheer [](../building-journeys/timezone-management.md).
