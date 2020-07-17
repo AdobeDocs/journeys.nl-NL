@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ In de onderstaande tabel staan de afmetingen die worden gebruikt in reisrapporte
 | Afmetingen | Definitie |
 |--- |--- |
 | **Handeling** | Lijst van alle handelingen (naam van de **handeling - actielabel**) die tijdens reizen worden gebruikt, bijvoorbeeld push - Check out bevestiging, Email - Rewards getrouwheid. |
-| **Gegevensbron** | Lijst van gegevensbronnen (naam **van** gegevensbron) die worden gebruikt om gegevens te verrijken in een reis, bijvoorbeeld het ervaringsplatform, het reserveringssysteem. |
+| **Gegevensbron** | Lijst met gegevensbronnen (naam **van** gegevensbron) die worden gebruikt om gegevens te verrijken op een reis, bijvoorbeeld Adobe Experience platform, Reservation System. |
 | **[!UICONTROL Event]** | Lijst van alle gebeurtenissen (naam van de **gebeurtenis - label** van de gebeurtenis) die tijdens reizen worden gebruikt, bijvoorbeeld Geometrixx-gebeurtenis - Geometrixx-uitchecken. |
 | **Veldgroep** | Lijst van veldgroepen (**veldgroepsnaam**) die worden gebruikt om gegevens te verrijken tijdens reizen, bijvoorbeeld profielveldgroep, Geometrixx-reserveringssysteem. |
 | **Reis** | Lijst van elke reis (**reisnaam**) in testmodus en live, bv. stopzetting van de auto, kennisgeving van reservering van het hotel. |
@@ -94,8 +94,8 @@ In de onderstaande tabel vindt u een lijst met maatstaven die worden gebruikt in
 
 | Metrisch | Definitie |
 |--- |--- |
-| **Op bloklijst** | Aantal ontvangers die een e-mailbericht hebben gedeclareerd als spam of junk. |
-| **Bloklijstfrequentie** | Het totale aantal berichten op blocklist vergeleken met verzonden berichten. |
+| **Op lijst van afgewezen personen** | Aantal ontvangers die een e-mailbericht hebben gedeclareerd als spam of junk. |
+| **Lijst van afgewezen personen** | Het totale aantal berichten op lijst van afgewezen personen vergeleken met verzonden berichten. |
 | **Bounces + fouten** | Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd. |
 | **Stuiteren + foutenfrequentie** | Het totale aantal berichten dat is teruggevallen in vergelijking met verzonden berichten. |
 | **Klik op** | Het aantal keren dat op een inhoud is geklikt in een levering. |
