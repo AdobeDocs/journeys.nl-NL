@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f146a22cec5ffbbc61b51f8fc3c875078b2ee6bf
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Dit nieuwe type gebeurtenis genereert geen eventID. Gebruikend de eenvoudige uit
 
 Deze nieuwe methode is meestal transparant voor gebruikers. De enige wijziging is een nieuw veld in het scherm met gebeurtenisdefinities.
 
-1. Klik in het linkermenu op het pictogram **Beheer** en klik vervolgens op **Gebeurtenissen**. De lijst met gebeurtenissen wordt weergegeven.
+1. Klik in het linkermenu op het **[!UICONTROL Admin]** pictogram en klik vervolgens op **[!UICONTROL Events]**. De lijst met gebeurtenissen wordt weergegeven.
 
    ![](../assets/alpha-event1.png)
 
-1. Klik op **Toevoegen** om een nieuwe gebeurtenis te maken. Het deelvenster voor gebeurtenisconfiguratie wordt aan de rechterkant van het scherm geopend.
+1. Klik **[!UICONTROL Add]** om een nieuwe gebeurtenis te maken. Het deelvenster voor gebeurtenisconfiguratie wordt aan de rechterkant van het scherm geopend.
 
    ![](../assets/alpha-event2.png)
 
@@ -39,29 +39,29 @@ Deze nieuwe methode is meestal transparant voor gebruikers. De enige wijziging i
 
    ![](../assets/alpha-event3.png)
 
-1. Selecteer Op **regel gebaseerd** in het veld Type **nieuwe** Event-id.
+1. Selecteer in het nieuwe **[!UICONTROL Event ID type]** veld **[!UICONTROL Rule Based]**.
 
    ![](../assets/alpha-event4.png)
 
    >[!NOTE]
    >
-   >Het gegenereerde **type** systeem is de bestaande methode die een eventID vereist. Zie [deze sectie](../event/about-events.md).
+   >Het **[!UICONTROL System Generated]** type is de bestaande methode die een eventID vereist. Zie [deze sectie](../event/about-events.md).
 
-1. Definieer het **schema** en de **payload velden**. Zie [deze sectie](../event/defining-the-payload-fields.md).
+1. Definieer de **[!UICONTROL Schema]** lading en de lading **[!UICONTROL Fields]**. Zie [deze sectie](../event/defining-the-payload-fields.md).
 
    ![](../assets/alpha-event5.png)
 
    >[!NOTE]
    >
-   >Wanneer u het **Door het systeem gegenereerde type** selecteert, zijn alleen schema&#39;s beschikbaar die de gebeurtenisid-typemengsel hebben. Wanneer u het op **regel gebaseerde** type selecteert, zijn alle schema&#39;s van de Gebeurtenis van de Ervaring beschikbaar.
+   >Wanneer u de optie selecteert, **[!UICONTROL System Generated type]** zijn alleen schema&#39;s beschikbaar die de mix van het type eventID hebben. Wanneer u het **[!UICONTROL Rule Based]** type selecteert, zijn alle schema&#39;s van de Gebeurtenis van de Ervaring beschikbaar.
 
-1. Klik in het veld Voorwaarde **-id van** gebeurtenis. Gebruikend de eenvoudige uitdrukkingsredacteur, bepaal de voorwaarde die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
+1. Klik in het **[!UICONTROL Event ID condition]** veld. Gebruikend de eenvoudige uitdrukkingsredacteur, bepaal de voorwaarde die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
 
    ![](../assets/alpha-event6.png)
 
-   In ons voorbeeld schreven we een voorwaarde op basis van de stad van het profiel. Dit betekent dat wanneer het systeem een gebeurtenis ontvangt die aan deze voorwaarde (het gebied van de **Stad** en de waarde van **Parijs** ) aanpast, het het aan Journey Orchestration zal overgaan.
+   In ons voorbeeld schreven we een voorwaarde op basis van de stad van het profiel. Dit betekent dat wanneer het systeem een gebeurtenis ontvangt die overeenkomt met deze voorwaarde (**[!UICONTROL City]** veld en **[!UICONTROL Paris]** waarde), deze wordt doorgegeven aan Journey Orchestration.
 
-1. Definieer de **naamruimte** en **sleutel**. Zie [De naamruimte](../event/selecting-the-namespace.md) selecteren en de [gebeurtenissleutel](../event/defining-the-event-key.md)definiëren.
+1. Definieer de **[!UICONTROL Namespace]** en **[!UICONTROL Key]**. Zie [De naamruimte](../event/selecting-the-namespace.md) selecteren en de [gebeurtenissleutel](../event/defining-the-event-key.md)definiëren.
 
    ![](../assets/alpha-event7.png)
 
