@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
    ![](../assets/journeytest1.png)
 
-1. Gebruik de **Wacht tijd in testparameter** , in de bodem linkerhoek, om de tijd te bepalen dat elke wachttijdactiviteit op testwijze zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Deze parameter verschijnt slechts als u één of meerdere wachtactiviteiten in uw reis hebt gelaten vallen.
+1. Gebruik de **[!UICONTROL Wait time in test]** parameter, in de bodem linkerhoek, om de tijd te bepalen dat elke wachttijdactiviteit op testwijze zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Deze parameter verschijnt slechts als u één of meerdere wachtactiviteiten in uw reis hebt gelaten vallen.
 
    ![](../assets/journeytest_wait.png)
 
@@ -51,17 +51,17 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
 * Er is een interface beschikbaar voor het afvuren van gebeurtenissen naar de geteste reis, maar evenementen kunnen ook door systemen van derden, zoals Postman, worden verzonden.
 * Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Zie [](../building-journeys/testing-the-journey.md#create-test-profile).
-* De testmodus is alleen beschikbaar voor conceptochten waarbij een naamruimte wordt gebruikt. In de testmodus moet namelijk worden nagegaan of een persoon die de reis betreedt al dan niet een testprofiel is en moet hij dus het Platform van Gegevens kunnen bereiken.
+* De testmodus is alleen beschikbaar voor conceptochten waarbij een naamruimte wordt gebruikt. In de testmodus moet worden nagegaan of een persoon die de reis betreedt, een testprofiel is en dus in staat moet zijn het Adobe Experience Platform te bereiken.
 * Het maximumaantal testprofielen dat een reis tijdens een testsessie kan betreden, is 100.
-* Wanneer u de testmodus uitschakelt, worden de reizen verwijderd van alle mensen die het in het verleden hebben betreden of die er momenteel in zitten.
+* Wanneer u de testmodus uitschakelt, worden de reizen verwijderd van alle mensen die het in het verleden hebben betreden of die er momenteel in zitten. Ook wordt de rapportage gewist.
 * U kunt de testmodus zo vaak als nodig in- en uitschakelen.
 * U kunt uw reis niet wijzigen wanneer de testwijze wordt geactiveerd. In de testmodus kunt u de rit rechtstreeks publiceren. U hoeft de testmodus daarvoor niet te deactiveren.
 
 ## Een testprofiel maken{#create-test-profile}
 
-Het proces voor het maken van een testprofiel is hetzelfde als wanneer u een profiel maakt in het Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+Het proces voor het maken van een testprofiel is hetzelfde als wanneer u een profiel maakt in het Adobe Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 
-U moet een profielschema gebruiken dat de &quot;details van de profieltest&quot;mengen bevat. De markering testProfile maakt inderdaad deel uit van deze mix.
+U moet een profielschema gebruiken dat de &quot;details van de profieltest&quot;mengen bevat. De markering testProfile maakt deel uit van deze mix.
 
 Wanneer u een profiel maakt, moet u de waarde doorgeven: testprofile = true.
 
@@ -71,7 +71,7 @@ Hier volgt een voorbeeld van een API-aanroep om een testprofiel te maken:
 
 ```
 curl -X POST \
-'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+'https://dcs.adobedc.net/collection/xxxxxxxxxxxxxx' \
 -H 'Cache-Control: no-cache' \
 -H 'Content-Type: application/json' \
 -H 'Postman-Token: xxxxx' \
@@ -119,7 +119,7 @@ De **[!UICONTROL Trigger an event]** knoop staat u toe om een gebeurtenis te vor
 >
 >Wanneer u een gebeurtenis in testmodus activeert, wordt een echte gebeurtenis gegenereerd. Dit betekent dat ook andere reizen naar deze gebeurtenis worden beïnvloed.
 
-Als voorwaarde moet u weten welke profielen in het Platform Gegevens zijn gemarkeerd als testprofielen. In de testmodus zijn deze profielen alleen toegestaan tijdens de reis en moet het evenement een id bevatten. De verwachte id is afhankelijk van de gebeurtenisconfiguratie. Het kan bijvoorbeeld een ECID zijn.
+Als voorwaarde moet u weten welke profielen als testprofielen zijn gemarkeerd in het Adobe Experience Platform. In de testmodus zijn deze profielen alleen toegestaan tijdens de reis en moet het evenement een id bevatten. De verwachte id is afhankelijk van de gebeurtenisconfiguratie. Het kan bijvoorbeeld een ECID zijn.
 
 Als uw reis verscheidene gebeurtenissen bevat, gebruik de drop-down lijst om een gebeurtenis te selecteren. Configureer vervolgens voor elke gebeurtenis de doorgegeven velden en de uitvoering van de gebeurtenis die de gebeurtenis verzendt. De interface helpt u de juiste informatie in de gebeurtenislading overgaan en ervoor zorgen het informatietype correct is. In de testmodus worden de laatste parameters die in een testsessie worden gebruikt, opgeslagen voor later gebruik.
 
@@ -131,7 +131,7 @@ Met de interface kunt u eenvoudige gebeurtenisparameters doorgeven. Als u verzam
 
 Een technische gebruiker kan deze interface ook gebruiken om gebeurtenislading samen te stellen en gebeurtenissen teweeg te brengen zonder het moeten een derdehulpmiddel gebruiken.
 
-Wanneer het klikken van de **Send** knoop, begint de test. De voortgang van het individu tijdens de reis wordt weergegeven door een visuele stroom. Het pad wordt steeds groen naarmate het individu over de reis beweegt. Als er een fout optreedt, wordt er een waarschuwingssymbool weergegeven bij de bijbehorende stap. U kunt de cursor erop plaatsen om meer informatie over de fout weer te geven en volledige details te openen (indien beschikbaar).
+Wanneer u op de **[!UICONTROL Send]** knop klikt, wordt de test gestart. De voortgang van het individu tijdens de reis wordt weergegeven door een visuele stroom. Het pad wordt steeds groen naarmate het individu over de reis beweegt. Als er een fout optreedt, wordt er een waarschuwingssymbool weergegeven bij de bijbehorende stap. U kunt de cursor erop plaatsen om meer informatie over de fout weer te geven en volledige details te openen (indien beschikbaar).
 
 ![](../assets/journeytest6.png)
 
