@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,15 @@ Er kunnen twee verschillende kleuren worden weergegeven op het teken naast de **
 
 Fouten en waarschuwingen die globaal zijn voor de rit, worden eerst in de lijst weergegeven. Fouten en waarschuwingen met betrekking tot specifieke activiteiten worden na, op volgorde van activiteit of uiterlijk op de reis van links naar rechts vermeld. De **[!UICONTROL Copy details]** knoop kopieert technische informatie over de reis die het steunteam kan gebruiken om problemen op te lossen.
 
+Wanneer een fout in een actie of een voorwaarde voorkomt, de reis van een individuele einden. De enige manier om door te gaan is het selectievakje in te schakelen **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Zie [](../building-journeys/using-the-journey-designer.md#paths).
+
 ## Controleren of gebeurtenissen correct zijn verzonden{#section_rqz_11t_dgb}
 
 Het startpunt van een reis is altijd een evenement. U kunt tests uitvoeren met gereedschappen als Postman.
 
 U kunt controleren of de API-aanroep die u via deze gereedschappen verzendt, correct is verzonden of niet. Als u een fout terug krijgt, betekent het dat uw vraag een kwestie heeft. Controleer opnieuw de lading, de kopbal (en vooral organisatie identiteitskaart) en bestemmingsURL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar [!DNL Journey Orchestration]geduwd. Vertrouw inderdaad [!DNL Journey Orchestration] op de streaming opname-API&#39;s van Experience Platform. Als gevolg hiervan kunt u in geval van problemen met gebeurtenissen naar deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) verwijzen voor het oplossen van problemen met opname-API&#39;s voor streaming.
+Gebeurtenissen worden niet rechtstreeks van de bron naar [!DNL Journey Orchestration]geduwd. Vertrouwt inderdaad [!DNL Journey Orchestration] op de streaming opname-API&#39;s van het Adobe Experience Platform. Als gevolg hiervan kunt u in geval van problemen met gebeurtenissen naar deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) verwijzen voor het oplossen van problemen met opname-API&#39;s voor streaming.
 
 ## Controleren of mensen de reis betreden{#section_x4v_zzs_dgb}
 
