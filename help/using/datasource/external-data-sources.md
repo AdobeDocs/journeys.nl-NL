@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Externe gegevensbronnen {#concept_t2s_kqt_52b}
 
-Met externe gegevensbronnen kunt u een verbinding met systemen van derden definiëren, bijvoorbeeld als u een boekingssysteem voor hotels gebruikt om te controleren of de persoon een kamer heeft geregistreerd. In tegenstelling tot de ingebouwde gegevensbron van het Platform van de Ervaring, kunt u zo vele externe gegevensbronnen tot stand brengen aangezien u nodig hebt.
+Met externe gegevensbronnen kunt u een verbinding met systemen van derden definiëren, bijvoorbeeld als u een boekingssysteem voor hotels gebruikt om te controleren of de persoon een kamer heeft geregistreerd. In tegenstelling tot de ingebouwde gegevensbron van het Adobe Experience Platform, kunt u zo vele externe gegevensbronnen tot stand brengen aangezien u nodig hebt.
 
 REST-API&#39;s die gebruikmaken van POST of GET en JSON retourneren, worden ondersteund. API-sleutel, standaard- en aangepaste verificatiemodi worden ondersteund.
 
@@ -67,6 +67,7 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
    * **[!UICONTROL Value]**: &quot;1234&quot; (dit is de waarde van onze API-sleutel)
    * **[!UICONTROL Name]**: &quot;appid&quot; (dit is de naam van de API-sleutelparameter)
    * **[!UICONTROL Location]**: &quot;Query-parameter&quot; (de API-sleutel bevindt zich in de URL)
+
    ![](../assets/journey28.png)
 
 1. Voeg een nieuwe veldgroep voor elke API parameterreeks toe door te klikken **[!UICONTROL Add a New Field Group]**. Gebruik geen spaties of speciale tekens in de naam van de veldgroep. In ons voorbeeld moeten we twee veldgroepen maken, één voor elke parameterset (stad en lang/lang).
