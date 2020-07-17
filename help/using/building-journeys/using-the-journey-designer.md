@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Alle versies van uw reizen worden in de lijst weergegeven met het versienummer. 
 
 >[!NOTE]
 >
->Als u het canvas van een rit wilt openen op een ander browsertabblad, houdt u de toets **Control** of **Command ingedrukt** en klikt u op de rit.
+>Als u het canvas van een rit wilt openen op een ander browsertabblad, houdt u de toets **Control** of **Command** ingedrukt en klikt u op de rit.
 
 ## Het palet {#palette}
 
@@ -49,9 +49,9 @@ Het **palet** bevindt zich aan de linkerkant van het scherm. Alle beschikbare ac
 
 ![](../assets/journey38.png)
 
-Met het pictogram Uitgeschakelde items **** tonen in de linkerbovenhoek kunt u niet-beschikbare elementen in het palet verbergen of weergeven, bijvoorbeeld gebeurtenissen die een andere naamruimte gebruiken dan de gebeurtenissen die tijdens uw reis worden gebruikt. Niet-beschikbare items worden standaard verborgen. Als u deze weergeeft, worden ze grijs weergegeven.
+Met het **[!UICONTROL Show disabled items]** pictogram in de linkerbovenhoek kunt u niet-beschikbare elementen in het palet verbergen of weergeven, bijvoorbeeld gebeurtenissen die een andere naamruimte gebruiken dan de gebeurtenissen die tijdens uw reis worden gebruikt. Niet-beschikbare items worden standaard verborgen. Als u deze weergeeft, worden ze grijs weergegeven.
 
-Wanneer u het veld **Zoeken** gebruikt, wordt het aantal resultaten weergegeven voor elke categorie canvasactiviteiten.
+Wanneer u het **[!UICONTROL Search]** veld gebruikt, wordt het aantal resultaten weergegeven voor elke categorie canvasactiviteiten.
 
 ![](../assets/palette-filter.png)
 
