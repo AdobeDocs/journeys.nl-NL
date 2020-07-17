@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Voer de in [](../event/about-events.md)beschreven stappen uit.
 
 Voer de volgende stappen uit om de gebieden van de vermoeidheidsscore in de ingebouwde gegevensbron te selecteren:
 
-1. Klik in het bovenste menu op het **[!UICONTROL Data Sources]** tabblad en selecteer de gegevensbron van het ingebouwde Experience Platform.
+1. Klik in het bovenste menu op het **[!UICONTROL Data Sources]** tabblad en selecteer de gegevensbron van het ingebouwde Adobe Experience Platform.
 
    ![](../assets/journey23.png)
 
