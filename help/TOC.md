@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Journey Orchestration Help
 index: true
 translation-type: tm+mt
-source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 0%
+source-wordcount: '382'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
    + [Opmerkingen bij de release](using/release-notes/release-notes.md)
    + [Documentatieupdates](using/release-notes/documentation-updates.md)
 + Beginnen met [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Info over [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Info [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Aan de slag](using/about/get-started.md)
    + [Gebruikersinterface](using/about/user-interface.md)
    + [Toegangsbeheer](using/about/access-management.md)
@@ -59,7 +59,11 @@ ht-degree: 0%
       + [Een reis beëindigen](using/building-journeys/terminating-a-journey.md)
       + [Tijdzonebeheer](using/building-journeys/timezone-management.md)
    + Activiteiten {#about-journey-building}
-      + [Gebeurtenisactiviteiten](using/building-journeys/event-activities.md)
+      + Gebeurtenisactiviteiten {#events-activities}
+         + [Gebeurtenisactiviteiten](using/building-journeys/event-activities.md)
+         + [Algemene gebeurtenissen](using/building-journeys/general-events.md)
+         + [Gebeurtenissen van Reaction](using/building-journeys/reaction-events.md)
+         + [Segmentkwalificatiegebeurtenissen](using/building-journeys/segment-qualification-events.md)
       + Orchestratie {#orchestration-activities}
          + [Informatie over orkestwerkzaamheden](using/building-journeys/about-orchestration-activities.md)
          + [Condition-activiteit](using/building-journeys/condition-activity.md)
@@ -71,7 +75,7 @@ ht-degree: 0%
          + [Aangepaste handelingen gebruiken](using/building-journeys/using-custom-actions.md)
    + [De reis testen](using/building-journeys/testing-the-journey.md)
    + [De reis publiceren](using/building-journeys/publishing-the-journey.md)
-   + Reisstappen delen met Platform {#sharing-journey-steps}
+   + Reisstappen delen met Adobe Experience Platform {#sharing-journey-steps}
       + [Overzicht van stap delen voor reizen](using/building-journeys/sharing-overview.md)
       + [tripSteps-gebeurtenissen - gemeenschappelijke velden](using/building-journeys/sharing-common-fields.md)
       + [uitvoeringsvelden van handelingen voor gebeurtenissen van de tripStep](using/building-journeys/sharing-execution-fields.md)
