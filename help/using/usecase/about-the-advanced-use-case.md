@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 0%
 
 ---
 
@@ -46,16 +49,16 @@ Voor dit gebruik moeten we twee gebeurtenissen maken (zie [](../usecase/configur
 
 We moeten een verbinding met twee gegevensbronnen configureren (zie [](../usecase/configuring-the-data-sources.md)):
 
-* De ingebouwde gegevensbron van het Platform van de Ervaring, om de informatie voor onze twee voorwaarden (loyaliteitslidmaatschap en laatste contactdatum) evenals de informatie van de berichtverpersoonlijking terug te winnen.
+* De ingebouwde gegevensbron van het Adobe Experience Platform, om de informatie voor onze twee voorwaarden (loyaliteitslidmaatschap en laatste contactdatum) evenals de informatie van de berichtverpersoonlijking terug te winnen.
 * Het hotelreserveringssysteem om de informatie over de reserveringsstatus op te halen.
 
 ## Voorwaarden {#prerequisites}
 
-Voor ons gebruik hebben we drie Adobe Campagne Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Zie deze [pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Zie deze [pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
 Adobe Campaign Standard is geconfigureerd voor het verzenden van e-mails en pushberichten.
 
-De Experience Cloud-id wordt gebruikt als sleutel om de klant in het reserveringssysteem voor hotels te identificeren.
+De Experience Cloud-id wordt gebruikt als sleutel voor de identificatie van de klant in het reserveringssysteem voor hotels.
 
 De gebeurtenissen worden verzonden van de mobiele telefoon van de klanten wanneer zij dichtbij een baken ontdekten. U moet een mobiele toepassing ontwerpen om gebeurtenissen van de mobiele telefoon van de klant naar de mobiele SDK te verzenden.
 
