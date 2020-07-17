@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -49,12 +49,15 @@ In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een 
 
 ![](../assets/journey64.png)
 
-Als u de Dienst [van de Segmentatie van het](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Platform gebruikt om uw segmenten tot stand te brengen, kunt u hen in uw reisvoorwaarden hefboomwerking. Zie Segmenten [gebruiken in voorwaarden](../segment/using-a-segment.md).
+Als u de Dienst [van de Segmentatie van het](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Adobe Experience Platform gebruikt om uw segmenten tot stand te brengen, kunt u hen in uw reisvoorwaarden hefboomwerking. Zie Segmenten [gebruiken in voorwaarden](../segment/using-a-segment.md).
 
 
 >[!NOTE]
 >
 >U kunt geen vragen op tijdreeksen (bijvoorbeeld een lijst van aankopen, voorbij klikken op berichten) met de eenvoudige redacteur uitvoeren. Hiervoor moet u de geavanceerde editor gebruiken. Zie [](../expression/expressionadvanced.md).
+
+
+Wanneer een fout in een actie of een voorwaarde voorkomt, de reis van een individuele einden. De enige manier om door te gaan is het selectievakje in te schakelen **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Zie [](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Gegevensbronvoorwaarde {#data_source_condition}
 
