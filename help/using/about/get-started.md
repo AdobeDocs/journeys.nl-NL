@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,15 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DN
 
    U moet de verwachte informatie bepalen en hoe te om het te verwerken. Deze configuratie is verplicht. Deze stap wordt uitgevoerd door een **technische gebruiker**.
 
-   Zie voor meer informatie hierover [](../event/about-events.md).
+   For more on this, refer to [](../event/about-events.md).
 
    ![](../assets/journey7.png)
 
 1. **De gegevensbron configureren**
 
-   U moet een verbinding met een systeem bepalen om extra informatie terug te winnen die in uw reizen, bijvoorbeeld in uw voorwaarden zal worden gebruikt. Een ingebouwde gegevensbron van het Platform van de Ervaring wordt ook gevormd bij leveringstijd. Deze stap is niet vereist als u alleen gegevens uit de gebeurtenissen op uw reis gebruikt. Deze stap wordt uitgevoerd door een **technische gebruiker**.
+   U moet een verbinding met een systeem bepalen om extra informatie terug te winnen die in uw reizen, bijvoorbeeld in uw voorwaarden zal worden gebruikt. Een ingebouwde gegevensbron van het Adobe Experience Platform wordt ook gevormd bij leveringstijd. Deze stap is niet vereist als u alleen gegevens uit de gebeurtenissen op uw reis gebruikt. Deze stap wordt uitgevoerd door een **technische gebruiker**.
 
-   Zie voor meer informatie hierover [](../datasource/about-data-sources.md).
+   For more on this, refer to [](../datasource/about-data-sources.md).
 
    ![](../assets/journey22.png)
 
@@ -43,7 +43,7 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DN
 
    Als u een derdesysteem gebruikt om uw berichten te verzenden, moet u zijn verbinding met vormen [!DNL Journey Orchestration]. Zie [](../action/about-custom-action-configuration.md).
 
-   Als u berichten verzendt met de Adobe Campagnestandaard, moet u de ingebouwde actie configureren. Zie [](../action/working-with-adobe-campaign.md).
+   Als u Adobe Campaign Standard gebruikt om berichten te verzenden, moet u de ingebouwde actie vormen. Zie [](../action/working-with-adobe-campaign.md).
 
    Deze stappen worden uitgevoerd door een **technische gebruiker**.
 
