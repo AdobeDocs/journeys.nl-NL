@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -27,21 +27,21 @@ ht-degree: 0%
 
 ## Toegang [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Als u toegang wilt krijgen tot de interface van [!DNL Journey Orchestration]de toepassing, klikt u op het **[!UICONTROL App Selector]** pictogram rechtsboven. Klik **[!UICONTROL Journey Orchestration]** rechts onder Experience Platform.
+Als u toegang wilt krijgen tot de interface van [!DNL Journey Orchestration]de toepassing, klikt u op het **[!UICONTROL App Selector]** pictogram rechtsboven. Klik vervolgens **[!UICONTROL Journey Orchestration]** rechts onder **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
-U kunt ook toegang krijgen [!DNL Journey Orchestration] vanaf de startpagina van Experience Cloud in de **[!UICONTROL Quick access]** sectie.
+U kunt ook toegang krijgen [!DNL Journey Orchestration] vanaf de startpagina van Experience Cloud, in de **[!UICONTROL Quick access]** sectie.
 
 ![](../assets/journey1bis.png)
 
-## De interface detecteren{#section_jsq_zr1_ffb}
+## De interface verkennen{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Info"
 >abstract="Met de reislijst kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een gesloten reis niet verwijderen of opnieuw starten. U kunt er een nieuwe versie van maken of deze dupliceren. U kunt de zoekbalk ook gebruiken om een reis te zoeken."
->additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Video over demo bekijken"
+>additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Demovideo bekijken"
 
 Met de bovenste menu&#39;s kunt u door de verschillende functies van [!DNL Journey Orchestration]: **[!UICONTROL Home]**(de ritten),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
@@ -57,7 +57,7 @@ In de lijsten **[!UICONTROL Home]**,**[!UICONTROL Data Sources]****[!UICONTROL E
 
 U **[!UICONTROL Filters]** kunt het dialoogvenster openen door linksboven in de lijst op het filterpictogram te klikken. Met het menu Filters kunt u de weergegeven elementen filteren op basis van verschillende criteria. U kunt ervoor kiezen alleen de elementen van een bepaald type of een bepaalde status weer te geven, de elementen die u hebt gemaakt of de elementen die in de afgelopen 30 dagen zijn gewijzigd.
 
-Gebruik in de lijst **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]** lijsten de **aanmaakfilters** om te filteren op de aanmaakdatum en de gebruiker. U kunt bijvoorbeeld alleen de gebeurtenissen weergeven die u de afgelopen 30 dagen hebt gemaakt.
+In de **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]** lijsten, gebruik **[!UICONTROL Creation filters]** aan filter op de aanmaakdatum en de gebruiker. U kunt bijvoorbeeld alleen de gebeurtenissen weergeven die u de afgelopen 30 dagen hebt gemaakt.
 
 In de reislijst (onder **[!UICONTROL Home]**) kunt u, naast het **[!UICONTROL Creation filters]**, ook de weergegeven ritten filteren op basis van hun status en versie (**[!UICONTROL Status and version filters]**). U kunt er ook voor kiezen om alleen de ritten weer te geven die een bepaalde gebeurtenis, veldgroep of handeling (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**) gebruiken. **[!UICONTROL Publication filters]** Selecteer een publicatiedatum of -gebruiker. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live reizen weer te geven die gisteren zijn gepubliceerd. Zie [](../building-journeys/using-the-journey-designer.md).
 
@@ -77,7 +77,7 @@ In de verschillende lijsten kunt u basishandelingen op elk element uitvoeren. U 
 
 ![](../assets/journey4.png)
 
-## Bladeren door gegevensplatformvelden {#friendly-names-display}
+## Door Adobe Experience Platforms velden bladeren {#friendly-names-display}
 
 Bij het definiëren van een [gebeurtenislading](../event/defining-the-payload-fields.md), het laden [van een](../datasource/field-groups.md) veldgroep en het selecteren van velden in de [expressieeditor](../expression/expressionadvanced.md), wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring.
 
@@ -104,18 +104,18 @@ _Wanneer het vormen van een activiteit in een reis:_
 Het canvas wordt automatisch opgeslagen. U kunt linksboven op het canvas de status van opslaan zien.
 
 * Druk op **Escape** om het configuratievenster te sluiten en de aangebrachte wijzigingen te negeren. Dit is het equivalent van de **[!UICONTROL Cancel]** knop.
-* Druk op **[!UICONTROL Enter]** of klik buiten het deelvenster om het configuratievenster te sluiten. Wijzigingen worden opgeslagen. Dit is het equivalent van de **[!UICONTROL Ok]** knop.
-* Als u **[!UICONTROL Delete]** of **backspace** drukt, kunt u dan drukken **[!UICONTROL Enter]** om de schrapping te bevestigen.
+* Druk op **Enter** of klik buiten het deelvenster om het configuratievenster te sluiten. Wijzigingen worden opgeslagen. Dit is het equivalent van de **[!UICONTROL Ok]** knop.
+* Als u **Schrapping** of **backspace** drukt, kunt u **binnengaan** dan drukken om de schrapping te bevestigen.
 
 _In pop-ups:_
 
-* Druk op **Escape** om deze te sluiten (equivalent van de knop **Annuleren** ).
-* Druk op **[!UICONTROL Enter]** om op te slaan of te bevestigen (equivalent van de **[!UICONTROL Ok]** knop of **[!UICONTROL Save]** knop).
+* Druk op **Escape** om deze te sluiten (equivalent aan de **[!UICONTROL Cancel]** knop).
+* Druk op **Enter** om op te slaan of te bevestigen (equivalent van de **[!UICONTROL Ok]** knop of **[!UICONTROL Save]** knop).
 
 _In de gebeurtenis, gegevensbron of actieconfiguratieruit:_
 
 * Druk op **escape** om het configuratievenster te sluiten zonder het op te slaan.
-* Druk op **[!UICONTROL Enter]** om wijzigingen op te slaan en het configuratievenster te sluiten.
+* Druk op **Enter** om wijzigingen op te slaan en het configuratievenster te sluiten.
 * Druk op **het tabblad** om te schakelen tussen de verschillende velden.
 
 _In de editor voor eenvoudige expressies_
@@ -137,5 +137,5 @@ _In een scherm met een zoekbalk:_
 _Op het canvas van een reis:_
 
 * Gebruik de toetsencombinatie **Ctrl/Command + A** om alle activiteiten te selecteren.
-* Wanneer een of meerdere activiteiten zijn geselecteerd, drukt u op **[!UICONTROL Delete]** of **backspace** om deze te verwijderen. Vervolgens kunt u in het bevestigingspop-upvenster op deze bevestiging klikken **[!UICONTROL Enter]** om deze te bevestigen.
+* Wanneer een of meerdere activiteiten zijn geselecteerd, drukt u op **Delete** of **backspace** om deze te verwijderen. Vervolgens kunt u op **Enter** drukken om te bevestigen in het bevestigingspop-upvenster.
 * Dubbelklik op een activiteit in het linkerpalet om deze toe te voegen op de eerste beschikbare positie (van boven naar beneden).
