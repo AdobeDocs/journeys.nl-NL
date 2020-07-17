@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 295112e2d18fd275a0fd2826aa8bd87a8ed12636
+source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Hier volgen enkele beperkingen ten aanzien van het gebruik van aangepaste handel
 
 * Er is geen verzendend volume bufferen/vloeiend maken.
 * In het geval van een fout worden systematisch twee pogingen uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht.
-* Met de ingebouwde **[!UICONTROL Reaction]** gebeurtenis kunt u reageren op acties die buiten de box vallen (zie [](../building-journeys/event-activities.md)). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
+* Met de ingebouwde **[!UICONTROL Reaction]** gebeurtenis kunt u reageren op acties die buiten de box vallen (zie [](../building-journeys/reaction-events.md)). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters.
 * Alleen POST- en PUT-callmethoden worden ondersteund.
 * De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;.
