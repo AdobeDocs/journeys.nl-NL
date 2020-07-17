@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 69809da5cb96099baa20ea130a3cf7650b26c094
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ De navigatie binnen [!DNL Journey Orchestration] menu&#39;s is verbeterd om een 
 * Menu&#39;s verplaatst van de bovenkant naar de linkerkant van de interface.
 * Het groeperen van adminfunctionaliteit in één enkel dashboard.
 
-Globale concepten voor het gebruiken en navigeren in de interface (zoeken en filteren, bladeren door de gebieden van het Platform van Gegevens, kortere weg) worden voorgesteld in [deze sectie](../about/user-interface.md).
+Algemene concepten voor het gebruik en navigeren in de interface (zoeken en filteren, bladeren door velden van Adobe Experience Platforms, sneltoetsen) worden in [deze sectie](../about/user-interface.md)weergegeven.
 
 ## Toegang tot [!DNL Journey Orchestration] functies {#accessing-journey-orchestration-functionalities}
 
@@ -36,7 +36,7 @@ Wanneer u toegang hebt tot [!DNL Journey Orchestration], wordt het **[!UICONTROL
 
 ![](../assets/interface-journeys.png)
 
-Met het **[!UICONTROL Segments]** menu hebt u toegang tot Experience Platforms segmenten en kunt u deze maken. Zie [Informatie over Platforms](../segment/about-segments.md).
+Met het **[!UICONTROL Segments]** menu hebt u toegang tot Adobe Experience Platforms segmenten en kunt u deze maken. Zie [Informatie over Adobe Experience Platforms](../segment/about-segments.md).
 
 ![](../assets/interface-segments.png)
 
