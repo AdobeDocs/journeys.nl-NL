@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6685565797a6cdc43b9c8fc39c9354ae6d213f1f
+source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Hier volgen de stappen om het te configureren:
    >* De ORG die aan deze Adobe Campaign Standard-instantie is gekoppeld, is gelijk aan de Journey Orchestration ORG.
 
 
-Wanneer het ontwerpen van uw reis, zullen drie acties in de **[!UICONTROL Action]** categorie beschikbaar zijn: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (zie [Adobe Campaign-handelingen](../building-journeys/using-adobe-campaign-actions.md)gebruiken). **Met de gebeurtenis** Reacties kunt u ook reageren op berichtklikken, wordt geopend, enzovoort. (zie [Reacties gebeurtenissen](../building-journeys/event-activities.md#section_dhx_gss_dgb)).
+Wanneer het ontwerpen van uw reis, zullen drie acties in de **[!UICONTROL Action]** categorie beschikbaar zijn: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (zie [Adobe Campaign-handelingen](../building-journeys/using-adobe-campaign-actions.md)gebruiken). **Met de gebeurtenis** Reacties kunt u ook reageren op berichtklikken, wordt geopend, enzovoort. (zie [Reacties gebeurtenissen](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 
