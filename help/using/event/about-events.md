@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,11 @@ Als u een gebeurtenis bewerkt die in een concept of live transport wordt gebruik
 
 ## Algemeen beginsel {#section_r1f_xqt_pgb}
 
-Gebeurtenissen zijn POST API-aanroepen. Gebeurtenissen worden via de API&#39;s voor streaming-inname naar het Adobe Experience Cloud Data Platform verzonden. De URL-bestemming van gebeurtenissen die via transactie-API&#39;s worden verzonden, wordt een &quot;inlet&quot; genoemd. De nuttige lading van gebeurtenissen volgt het formatteren XDM.
+Gebeurtenissen zijn POST API-aanroepen. Gebeurtenissen worden naar het Adobe Experience Platform verzonden via de Streaming Ingestie-API&#39;s. De URL-bestemming van gebeurtenissen die via transactie-API&#39;s worden verzonden, wordt een &quot;inlet&quot; genoemd. De nuttige lading van gebeurtenissen volgt het formatteren XDM.
 
 De nuttige lading bevat informatie die door Streaming Ingestie-API&#39;s wordt vereist om te werken (in de koptekst) en de informatie die vereist is om te werken (de gebeurtenis-id, een deel van de ladingsbak) en informatie die moet worden gebruikt tijdens reizen (in het lichaam, bijvoorbeeld de hoeveelheid verlaten wagen). [!DNL Journey Orchestration] Er zijn twee modi voor de streamingopname, geverifieerd en niet geverifieerd. Raadpleeg [deze koppeling](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)voor meer informatie over Streaming Ingestie-API&#39;s.
 
-Na aankomst door Streaming Ingestie APIs, stromen de gebeurtenissen in de interne dienst genoemd Pijpleiding en dan in het Platform van Gegevens. Als het gebeurtenisschema de markering van de Dienst van het Profiel van de Klant in real time toegelaten heeft en een dataset identiteitskaart die ook de vlag van het Profiel van de Klant in real time heeft, vloeit het in de Dienst van het Profiel van de Klant in real time.
+Na aankomst door Streaming Ingestie APIs, stromen de gebeurtenissen in de interne dienst genoemd Pijpleiding en dan in het Adobe Experience Platform. Als het gebeurtenisschema de markering van de Dienst van het Profiel van de Klant in real time toegelaten heeft en een dataset identiteitskaart die ook de vlag van het Profiel van de Klant in real time heeft, vloeit het in de Dienst van het Profiel van de Klant in real time.
 
 De pijpleiding filtert gebeurtenissen die een lading hebben die gebeurtenisIDs (zie het proces van de gebeurtenisverwezenlijking hieronder) bevat door [!DNL Journey Orchestration] [!DNL Journey Orchestration] en in gebeurtenislading bevat. Er wordt naar deze gebeurtenissen geluisterd [!DNL Journey Orchestration] en de bijbehorende tocht wordt geactiveerd.
 
