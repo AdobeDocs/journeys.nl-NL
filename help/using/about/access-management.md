@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 829f6cdb11aa9b1529607f409e53616a2b809f84
+source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Gebruikers moeten altijd zijn gekoppeld aan een productprofiel, zodat u hun spec
 
 Hieronder vindt u de compatibiliteit tussen machtigingen en [!DNL Journey Orchestration]de verschillende functies.
 
-![](../assets/journey_permission.png)
+![](../assets/do-not-localize/journey_permission.png)
 
 ## Een productprofiel maken {#create-product-profile}
 
@@ -76,7 +76,7 @@ Een productprofiel maken en een set machtigingen en sandboxen toewijzen:
 
 1. Selecteer in de Admin Console **[!UICONTROL Journey Orchestration]**. Klik op het tabblad **[!UICONTROL Product profile]** op **[!UICONTROL New Profile]**.
 
-   ![](../assets/user_management_5.png)
+   ![](../assets/do-not-localize/user_management_5.png)
 
 1. Voeg een **[!UICONTROL Profile Name]** en **[!UICONTROL Description]** voor uw nieuwe productprofiel toe. Als u wilt dat uw profiel anders is, schakelt u de optie uit **[!UICONTROL Display name]** en typt u het profiel in **[!UICONTROL Same as Profile Name]** **[!UICONTROL Display name]**.
 
@@ -84,7 +84,7 @@ Een productprofiel maken en een set machtigingen en sandboxen toewijzen:
 
 1. Klik wanneer u klaar bent op **[!UICONTROL Done]**. Uw nieuwe productprofiel is nu gemaakt.
 
-   ![](../assets/user_management_1.png)
+   ![](../assets/do-not-localize/user_management_1.png)
 
 1. Selecteer het nieuwe productprofiel om machtigingen te beheren. Voeg op het **[!UICONTROL Users]** tabblad gebruikers toe aan uw productprofiel. For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
@@ -92,20 +92,20 @@ Een productprofiel maken en een set machtigingen en sandboxen toewijzen:
 
 1. Selecteer op het **[!UICONTROL Permissions]** tabblad een van de twee categorieën **[!UICONTROL Sandbox]** of **[!UICONTROL Authoring]** om de **[!UICONTROL Edit Permissions]** pagina te openen en machtigingen voor uw productprofiel toe te voegen of te verwijderen.
 
-   ![](../assets/user_management_7.png)
+   ![](../assets/do-not-localize/user_management_7.png)
 
 1. Kies in de **[!UICONTROL Sandboxes]** machtigingencategorie welke sandbox(s) u wilt toewijzen aan uw productprofiel. Klik onder **[!UICONTROL Available Permissions Items]**, op de plusknop (+) om sandboxen aan uw profiel toe te wijzen. Zie deze [sectie](../about/access-management.md#sandboxes)voor meer informatie over sandboxen.
 
-   ![](../assets/user_management_8.png)
+   ![](../assets/do-not-localize/user_management_8.png)
 
 1. Klik, indien nodig, onder **[!UICONTROL Included Permission Items]** het X-pictogram naast het verwijderen van machtigingen voor uw productprofiel.
 
-   ![](../assets/user_management_9.png)
+   ![](../assets/do-not-localize/user_management_9.png)
 
 1. Voer vanuit de **[!UICONTROL Authoring]** machtigingencategorie dezelfde stappen uit als hierboven om machtigingen toe te voegen aan uw productprofiel.
    <br>Raadpleeg deze [!DNL Journey Orchestration]sectie voor meer informatie over machtigingen en compatibiliteit tussen machtigingen en [de verschillende functies](../about/access-management.md#about-access-management).
 
-   ![](../assets/user_management_10.png)
+   ![](../assets/do-not-localize/user_management_10.png)
 
 1. Klik wanneer u klaar bent op **[!UICONTROL Save]**.
 
@@ -120,21 +120,21 @@ Een productprofiel toewijzen dat een gebruiker kan openen [!DNL Journey Orchestr
 
 1. Selecteer in de Admin Console **[!UICONTROL Journey Orchestration]**.
 
-   ![](../assets/user_management.png)
+   ![](../assets/do-not-localize/user_management.png)
 
 1. Selecteer het productprofiel waaraan de nieuwe gebruiker wordt gekoppeld.
 
-   ![](../assets/user_management_2.png)
+   ![](../assets/do-not-localize/user_management_2.png)
 
 1. Klik op **[!UICONTROL Add user]**.
 
    U kunt uw nieuwe gebruiker aan een gebruikersgroep ook toevoegen om de gedeelde reeks toestemmingen te verfijnen. For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
-   ![](../assets/user_management_3.png)
+   ![](../assets/do-not-localize/user_management_3.png)
 
 1. Typ het e-mailadres van de nieuwe gebruiker en klik op **[!UICONTROL Save]**.
 
-   ![](../assets/user_management_4.png)
+   ![](../assets/do-not-localize/user_management_4.png)
 
 Uw gebruiker moet dan een e-mail ontvangen die naar uw [!DNL Journey Orchestration] instantie wordt doorgestuurd.
 
