@@ -1,6 +1,6 @@
 ---
 title: Segmenttriggeractiviteit
-description: Meer informatie over xxxx
+description: Meer informatie over Segment Trigger
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,19 @@ ht-degree: 0%
 
 ## Informatie over de activiteit Segmenttrigger {#about-segment-trigger-actvitiy}
 
+>[!NOTE]
+>
+>Als er op het canvas tijdens de publicatie of tijdens de activering van de testmodus een Adobe Campaign Standard-actie buiten de doos aanwezig is, wordt de rit vertraagd bij 13 ingangen per seconde. <br>Als er op het canvas geen buiten-de-box-activiteit van Adobe Campaign Standard aanwezig is tijdens de publicatie of activering van de testmodus, wordt de rit vertraagd bij 1000 gebeurtenissen per seconde.
+
 Met de segmenttriggeractiviteit kunt u alle personen die tot een segment van het Adobe Experience Platform behoren een reis laten maken. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden.
 
 Laten we zeggen dat je een Gold-klantensegment hebt op Adobe Experience Platform. Met de Segment Trigger-activiteit, kunt u alle individuen die tot het Gouden klantensegment behoren een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit gebruiken: voorwaarden, timers, gebeurtenissen, handelingen.
 
+## De activiteit configureren {#configuring-segment-trigger-activity}
+
 >[!NOTE]
 >
 >Vanwege de vertraging bij de segmentuitvoer is het niet mogelijk om een op segmenten gebaseerde reis binnen een kortere periode dan 1 uur te activeren.
-
-## De activiteit configureren {#configuring-segment-trigger-activity}
 
 1. Ontvouw de **[!UICONTROL Orchestration]** categorie en laat een **[!UICONTROL Segment Trigger]** activiteit op uw canvas vallen.
 
