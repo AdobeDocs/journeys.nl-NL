@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Gebeurtenissen op basis van regels{#simplified-events}
 
-We hebben de manier vereenvoudigd waarop u Experience Events instelt. We introduceren een nieuwe methode waarvoor geen eventID nodig is. Wanneer u een gebeurtenis instelt in Journey Orchestration, kunt u nu een op regels gebaseerde gebeurtenis definiëren.
+We hebben de manier vereenvoudigd waarop u Experience Events instelt. We introduceren een nieuwe methode waarvoor geen eventID nodig is. Wanneer u de gebeurtenis instelt in Journey Orchestration, kunt u nu een op regels gebaseerde gebeurtenis definiëren.
 
 Dit nieuwe type gebeurtenis genereert geen eventID. Gebruikend de eenvoudige uitdrukkingsredacteur, definieert u nu eenvoudig een regel die door het systeem zal worden gebruikt om de relevante gebeurtenissen te identificeren die uw reizen zullen teweegbrengen. Deze regel kan worden gebaseerd op elk veld dat beschikbaar is in de gebeurtenislading, bijvoorbeeld de locatie van het profiel of het aantal items dat is toegevoegd aan het winkelwagentje van het profiel.
 
@@ -67,5 +67,5 @@ Deze nieuwe methode is meestal transparant voor gebruikers. De enige wijziging i
 
 De andere stappen voor gebeurtenisconfiguratie en het creëren van de reis blijven onveranderd.
 
-De gebeurtenis is nu geconfigureerd en klaar om op een reis te worden neergezet, net als elke andere gebeurtenis. Telkens wanneer een gebeurtenis die overeenkomt met de regel naar het systeem wordt verzonden, wordt het doorgegeven aan Journey Orchestration om uw reizen te starten.
+De gebeurtenis is nu geconfigureerd en klaar om op een reis te worden neergezet, net als elke andere gebeurtenis. Telkens wanneer een gebeurtenis die de regel aanpast naar het systeem wordt verzonden, wordt het overgegaan tot Journey Orchestration om uw reizen teweeg te brengen.
 
