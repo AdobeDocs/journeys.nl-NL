@@ -30,7 +30,7 @@ Als u wilt wachten alvorens de volgende activiteit in de weg uit te voeren, kunt
 
 ## Informatie over de activiteit Wachten{#about_wait}
 
-Hier is hoe de wacht voorrang krijgt wanneer u verscheidene wacht parallel gebruikt. Als zij de zelfde tijdconfiguratie en een verschillende maar overlappende voorwaarde hebben, hierboven gepositioneerde wachttijd zal aan voorrang gegeven zijn. Bijvoorbeeld, is de voorwaarde van eerste wacht &quot;een vrouw zijn&quot;en de voorwaarde van tweede wacht parallel is &quot;een VIP zijn&quot;. De eerste wachttijdactiviteit krijgt prioriteit
+Hier is hoe de wacht voorrang krijgt wanneer u verscheidene wacht parallel gebruikt. Als zij de zelfde tijdconfiguratie en een verschillende maar overlappende voorwaarde hebben, hierboven gepositioneerde wachttijd zal aan voorrang gegeven zijn. De eerste wachttijd is bijvoorbeeld &#39;een vrouw zijn&#39; en de tweede wachttijd is &#39;een VIP zijn&#39;. De eerste wachttijdactiviteit krijgt prioriteit
 
 Houd er ook rekening mee dat als twee verschillende wachttijden parallel lopen, de eerste prioriteit krijgt, ongeacht de verticale positie. Bijvoorbeeld, als een 1 uur wacht boven is en een 30 minuut wacht onder is, na 30 minuten, zal het 30 minieme ogenblik worden verwerkt.
 
