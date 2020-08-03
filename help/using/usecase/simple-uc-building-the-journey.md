@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 0%
 
 ---
 
@@ -21,17 +24,17 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 De **bedrijfsgebruiker** kan nu de reis bouwen. Onze reis zal slechts één weg met de volgende activiteiten omvatten:
 
 * het &quot;SpaBeacon&quot; **[!UICONTROL Event]**: wanneer een persoon in de buurt van het spa - baken loopt , zal het systeem een evenement ontvangen en zal de reis voor die persoon beginnen .
-* een **[!UICONTROL Condition]**activiteit om na te gaan of de persoon een vrouw is
-* een **[!UICONTROL Email]**activiteit (met Adobe Campaign Standard)
-* een **[!UICONTROL End]**activiteit
+* een **[!UICONTROL Condition]** activiteit om na te gaan of de persoon een vrouw is
+* een **[!UICONTROL Email]** activiteit (met Adobe Campaign Standard)
+* een **[!UICONTROL End]** activiteit
 
 >[!NOTE]
 >
->De **[!UICONTROL Push]**en**[!UICONTROL Email]** activiteiten zijn alleen beschikbaar in het palet als u Adobe Campagnestandaard hebt.
+>De **[!UICONTROL Push]** en **[!UICONTROL Email]** activiteiten zijn alleen beschikbaar in het palet als u Adobe Campaign Standard hebt.
 
 Raadpleeg [](../building-journeys/journey.md)voor meer informatie over het maken van een reis.
 
-1. Klik in het bovenste menu op het **[!UICONTROL Home]**tabblad en**[!UICONTROL Create]** maak een nieuwe rit.
+1. Klik in het bovenste menu op het **[!UICONTROL Home]** tabblad en **[!UICONTROL Create]** maak een nieuwe rit.
 
    ![](../assets/journey31.png)
 
@@ -47,7 +50,7 @@ Raadpleeg [](../building-journeys/journey.md)voor meer informatie over het maken
 
    ![](../assets/journeyuc1_10.png)
 
-1. Kies het **[!UICONTROL Data Source Condition]**type en klik in het**[!UICONTROL Expression]** veld. U kunt ook een voorwaardelabel definiëren dat wordt weergegeven op de pijl, in het canvas.
+1. Kies het **[!UICONTROL Data Source Condition]** type en klik in het **[!UICONTROL Expression]** veld. U kunt ook een voorwaardelabel definiëren dat wordt weergegeven op de pijl, in het canvas.
 
    ![](../assets/journeyuc1_11.png)
 
@@ -55,11 +58,11 @@ Raadpleeg [](../building-journeys/journey.md)voor meer informatie over het maken
 
    ![](../assets/journeyuc1_12.png)
 
-1. Zet een **[!UICONTROL Email]**activiteit neer en selecteer uw transactiemalplaatje van de &quot;korting van de Buur&quot;transactie. Deze sjabloon is ontworpen met Adobe Campaign. Zie deze[pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+1. Zet een **[!UICONTROL Email]** activiteit neer en selecteer uw transactiemalplaatje van de &quot;korting van de Buur&quot;transactie. Deze sjabloon is ontworpen met Adobe Campaign. Zie deze [pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Klik in het **[!UICONTROL Email]**veld en selecteer het e-mailadres in de gegevensbron.
+1. Klik in het **[!UICONTROL Email]** veld en selecteer het e-mailadres in de gegevensbron.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -67,11 +70,11 @@ Raadpleeg [](../building-journeys/journey.md)voor meer informatie over het maken
 
    ![](../assets/journeyuc1_15.png)
 
-1. Zet een **[!UICONTROL End]**activiteit neer.
+1. Zet een **[!UICONTROL End]** activiteit neer.
 
    ![](../assets/journeyuc1_17.png)
 
-1. Klik op de **[!UICONTROL Test]**knevel en test uw reis gebruikend testprofielen. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de reis en test u deze opnieuw. Raadpleeg voor meer informatie over de testmodus[](../building-journeys/testing-the-journey.md).
+1. Klik op de **[!UICONTROL Test]** knevel en test uw reis gebruikend testprofielen. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de reis en test u deze opnieuw. Raadpleeg voor meer informatie over de testmodus [](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
