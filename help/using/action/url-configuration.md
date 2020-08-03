@@ -12,26 +12,29 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 0%
 
 ---
 
 
 # URL-configuratie {#concept_gbg_1f1_2gb}
 
-Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Configuration]**parameters bepalen:
+Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Configuration]** parameters bepalen:
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Voeg de **[!UICONTROL URL]**externe service toe.
+1. Voeg de **[!UICONTROL URL]** externe service toe.
 
    >[!NOTE]
    >
-   >We raden u ten zeerste aan HTTPS te gebruiken om beveiligingsredenen. We staan het gebruik van Adobe-adressen die niet openbaar zijn en het gebruik van IP-adressen niet toe.
+   >We raden u ten zeerste aan HTTPS te gebruiken om beveiligingsredenen. Wij staan niet het gebruik van Adobe adressen toe die niet openbaar en het gebruik van IP adressen zijn.
 
-1. Selecteer de vraag **[!UICONTROL Method]**: het kan of**[!UICONTROL POST]** of **[!UICONTROL PUT]**.
-1. Klik in de **[!UICONTROL Headers]**sectie**[!UICONTROL Add a header field]** om een nieuw sleutel-/waardepaar te definiëren. Ze komen overeen met de HTTP-headers van de aanvraag die aan de externe service is gedaan. Als u sleutel-/waardeparen wilt verwijderen, plaatst u de cursor in het **[!UICONTROL Headers]**veld en klikt u op het**[!UICONTROL Delete]** pictogram.
+1. Selecteer de vraag **[!UICONTROL Method]**: het kan of **[!UICONTROL POST]** of **[!UICONTROL PUT]**.
+1. Klik in de **[!UICONTROL Headers]** sectie **[!UICONTROL Add a header field]** om een nieuw sleutel-/waardepaar te definiëren. Ze komen overeen met de HTTP-headers van de aanvraag die aan de externe service is gedaan. Als u sleutel-/waardeparen wilt verwijderen, plaatst u de cursor in het **[!UICONTROL Headers]** veld en klikt u op het **[!UICONTROL Delete]** pictogram.
 
-   **[!UICONTROL Content-Type]**en**[!UICONTROL Charset]** worden standaard ingesteld en kunnen niet worden verwijderd of overschreven.
+   **[!UICONTROL Content-Type]** en **[!UICONTROL Charset]** worden standaard ingesteld en kunnen niet worden verwijderd of overschreven.
 
    >[!NOTE]
    >
