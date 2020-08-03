@@ -36,7 +36,7 @@ Klik **[!UICONTROL Add a path]** als u meerdere voorwaarden wilt definiëren. Vo
 
 ![](../assets/journey47.png)
 
-Merk op dat het ontwerp van de reizen functionele gevolgen heeft. Wanneer meerdere paden na een voorwaarde worden gedefinieerd, wordt alleen het eerste in aanmerking komende pad uitgevoerd. Dit betekent dat u de prioritering van paden kunt wijzigen door deze boven of onder elkaar te plaatsen. Als de voorwaarde van het eerste pad bijvoorbeeld &#39;De persoon is een VIP&#39; is en de voorwaarde van het tweede pad is &#39;De persoon is een man&#39;. Als een persoon die aan beide voorwaarden voldoet (een man die een VIP is) deze stap overgaat, zal de eerste weg worden gekozen zelfs als hij ook aan tweede verkiest, omdat de eerste weg &quot;boven&quot;is. Verplaats uw activiteiten in een andere verticale volgorde om deze prioriteit te wijzigen.
+Merk op dat het ontwerp van de reizen functionele gevolgen heeft. Wanneer meerdere paden na een voorwaarde worden gedefinieerd, wordt alleen het eerste in aanmerking komende pad uitgevoerd. Dit betekent dat u de prioritering van paden kunt wijzigen door deze boven of onder elkaar te plaatsen. Als de voorwaarde van het eerste pad bijvoorbeeld &#39;De persoon is een VIP&#39; is en de voorwaarde van het tweede pad is &#39;De persoon is een man&#39;. Als een persoon die aan beide voorwaarden voldoet (een man die een VIP is) deze stap doorstaat, wordt het eerste pad gekozen, zelfs als hij ook in aanmerking komt voor het tweede pad, omdat het eerste pad &quot;boven&quot; is. Verplaats uw activiteiten in een andere verticale volgorde om deze prioriteit te wijzigen.
 
 ![](../assets/journey48.png)
 
