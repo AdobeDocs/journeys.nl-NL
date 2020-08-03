@@ -33,7 +33,7 @@ Als u gebeurtenissen wilt configureren die moeten worden verzonden naar **[!UICO
 
 Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Streaming Ingestie-API&#39;s stuurt met de door u gekopieerde payload:
 
-1. Stel een POST API-aanroep in naar de URL van de Streaming Ingestie-API&#39;s (een zogenaamde inlaat).
+1. Stel een POST-API-aanroep in naar de URL van de Streaming Ingestie-API&#39;s (een zogenaamde inlaat).
 1. Gebruik de payload die u hebt gekopieerd vanuit [!DNL Journey Orchestration] de hoofdtekst (&quot;gegevenssectie&quot;) van de API-aanroep naar de API&#39;s voor streaming congestie. Zie hieronder voor een voorbeeld
 1. Bepaal waar u alle variabelen in de lading wilt ophalen. Voorbeeld: als de gebeurtenis geacht wordt het adres over te brengen, zal de geplakte lading &quot;adres&quot;tonen: &quot;string&quot;. &quot;string&quot; moet worden vervangen door de variabele die automatisch de juiste waarde invult, de e-mail van de persoon waarnaar een bericht wordt verzonden. In de voorvertoning van de lading vullen we in de **[!UICONTROL Header]** sectie vele waarden automatisch die u uw werk vergemakkelijken.
 1. Selecteer &#39;application/json&#39; als type body.
