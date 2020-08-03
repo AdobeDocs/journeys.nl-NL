@@ -31,7 +31,7 @@ Als u toegang wilt krijgen tot de interface van [!DNL Journey Orchestration]de t
 
 ![](../assets/journey1.png)
 
-U kunt ook toegang krijgen [!DNL Journey Orchestration] vanaf de startpagina van Experience Cloud, in de **[!UICONTROL Quick access]** sectie.
+U kunt ook toegang krijgen [!DNL Journey Orchestration] vanaf de startpagina van de Experience Cloud, in de **[!UICONTROL Quick access]** sectie.
 
 ![](../assets/journey1bis.png)
 
