@@ -58,7 +58,7 @@ Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transacti
 
 Adobe Campaign Standard is geconfigureerd voor het verzenden van e-mails en pushberichten.
 
-De Experience Cloud-id wordt gebruikt als sleutel voor de identificatie van de klant in het reserveringssysteem voor hotels.
+De Experience Cloud-id wordt gebruikt als sleutel om de klant in het reserveringssysteem voor hotels te identificeren.
 
 De gebeurtenissen worden verzonden van de mobiele telefoon van de klanten wanneer zij dichtbij een baken ontdekten. U moet een mobiele toepassing ontwerpen om gebeurtenissen van de mobiele telefoon van de klant naar de mobiele SDK te verzenden.
 
