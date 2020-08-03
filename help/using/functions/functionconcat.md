@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ String
 | Parameter | Type |
 |-----------|------------------|
 | Lijst | listString |
-|  string |  string |
+| string | string |
 
 ## Handtekening en type geretourneerd
 
