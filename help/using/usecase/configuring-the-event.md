@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ In ons scenario, moeten wij een gebeurtenis ontvangen telkens als een persoon di
 
 Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-events.md).
 
-1. Klik in het bovenste menu op het **[!UICONTROL Events]**tabblad en klik**[!UICONTROL Add]** om een nieuwe gebeurtenis te maken.
+1. Klik in het bovenste menu op het **[!UICONTROL Events]** tabblad en klik **[!UICONTROL Add]** om een nieuwe gebeurtenis te maken.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -32,7 +35,7 @@ Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-ev
 
    <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
 
-1. Vervolgens selecteert u het schema en definieert u de lading die voor deze gebeurtenis wordt verwacht. We selecteren de velden die nodig zijn in het genormaliseerde XDM-model. We hebben de Experience Cloud-id nodig om de persoon te identificeren in de realtime database voor klantprofielen: _endUserIDs > ervaring > identiteitskaart_. Er wordt automatisch een id voor deze gebeurtenis gegenereerd. Deze id wordt opgeslagen in het **[!UICONTROL eventID]**veld (_ervaring > Campagne > Orchestratie > eventID_). Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. In ons gebruiksgeval, wordt dit ID gebruikt om de bakenplaats te identificeren. Elke keer dat een persoon in de buurt van de spa-baken loopt, wordt een gebeurtenis verzonden die deze specifieke gebeurtenis-id bevat. Dit staat het systeem toe om te weten welk baken de gebeurtenis teweegbracht die verzendt.
+1. Vervolgens selecteert u het schema en definieert u de lading die voor deze gebeurtenis wordt verwacht. We selecteren de velden die nodig zijn in het genormaliseerde XDM-model. We hebben de Experience Cloud-id nodig om de persoon te identificeren in de realtime database voor klantprofielen: _endUserIDs > ervaring > mcid > identiteitskaart_. Er wordt automatisch een id voor deze gebeurtenis gegenereerd. Deze id wordt opgeslagen in het **[!UICONTROL eventID]** veld (_ervaring > Campagne > Orchestratie > eventID_). Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. In ons gebruiksgeval, wordt dit ID gebruikt om de bakenplaats te identificeren. Elke keer dat een persoon in de buurt van de spa-baken loopt, wordt een gebeurtenis verzonden die deze specifieke gebeurtenis-id bevat. Dit staat het systeem toe om te weten welk baken de gebeurtenis teweegbracht die verzendt.
 
    ![](../assets/journeyuc1_3.png)
 
@@ -48,9 +51,9 @@ Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-ev
 
    ![](../assets/journeyuc1_5.png)
 
-1. Klik **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
 
-1. Klik op het **[!UICONTROL View Payload]**pictogram om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht en deze te delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis. Deze nuttige lading zal in postback van de Mobiele het beleidsconsole van de Diensten moeten worden gevormd.
+1. Klik op het **[!UICONTROL View Payload]** pictogram om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht en deze te delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis. Deze nuttige lading zal in postback van de Mobiele het beleidsconsole van de Diensten moeten worden gevormd.
 
    ![](../assets/journeyuc1_7.png)
 
