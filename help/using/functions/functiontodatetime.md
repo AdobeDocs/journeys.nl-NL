@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 0%
 
 ---
 
@@ -31,8 +34,8 @@ Conversie
 
 | Parameter | Type |
 |-----------|------------------|
-| datumtijd in ISO-8601-indeling |  string |
-| tijdzone-id |  string |
+| datumtijd in ISO-8601-indeling | string |
+| tijdzone-id | string |
 | datumtijd zonder tijdzone | dateTimeOnly |
 | geheel-getalwaarde van een tijdperk in milliseconden | integer |
 
