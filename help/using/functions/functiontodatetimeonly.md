@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ Conversie
 
 | Parameter | Type |
 |-----------|------------------|
-| date time without time zone in ISO-8601 format |  string |
+| date time without time zone in ISO-8601 format | string |
 | dateTime | dateTime |
 
 ## Handtekeningen en geretourneerde typen
