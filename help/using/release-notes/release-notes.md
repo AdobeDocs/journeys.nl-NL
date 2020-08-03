@@ -40,17 +40,17 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 <li><p>Een nieuwe activiteit staat het luisteren van Adobe Experience Platform segmententententangen/uitgang toe om mensen te maken binnen of zich voorwaarts op een reis bewegen. <a href="../building-journeys/segment-qualification-events.md">Meer informatie</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>U kunt nu Adobe Experience Platforms segmenten maken en bewerken zonder de Journey Orchestration-interface te verlaten, dankzij een nieuw tabblad <strong>Segmenten</strong> .<a href="../segment/about-segments.md">Meer informatie</a></p>
+<li><p>De segmenten van het Adobe Experience Platform kunnen nu worden gecreeerd en worden uitgegeven zonder de interface van Journey Orchestration te verlaten, dankzij een nieuw <strong>lusje van Segmenten</strong> .<a href="../segment/about-segments.md">Meer informatie</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
 <li><p>In de eenvoudige uitdrukkingsredacteur, zijn de segmenten van het Adobe Experience Platform nu direct vermeld in de navigatieboom om gemakkelijke opstelling van voorwaarden zoals "toe te staan behoort deze persoon tot segment A?".<a href="../segment/using-a-segment.md">Meer informatie</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration geeft nu automatisch de stappen door die tijdens reizen zijn uitgevoerd. Dit geldt ook voor mogelijke fouten. Deze informatie kan voor het bereiken van rapportering en het oplossen van problemen worden gebruikt door vragen over de gebeurtenissen van de Stap van de Reis voor een bepaalde reis of voor alle reizen uit te voeren. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
+<li><p>Journey Orchestration gaat nu automatisch door naar het Adobe Experience Platform van de stappen die tijdens reizen worden uitgevoerd. Dit geldt ook voor mogelijke fouten. Deze informatie kan voor het bereiken van rapportering en het oplossen van problemen worden gebruikt door vragen over de gebeurtenissen van de Stap van de Reis voor een bepaalde reis of voor alle reizen uit te voeren. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestration kan nu worden verbonden met sandboxen voor productie- en niet-productie-Adobe Experience Platforms. Sandboxen zijn bètafuncties. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
+<li><p>Journey Orchestration kan nu worden aangesloten op sandboxen voor productie- en niet-productie-Adobe Experience Platforms. Sandboxen zijn bètafuncties. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
 </li>
 </td>
 </tr>
@@ -87,9 +87,9 @@ Om te voorkomen dat er te veel API-aanroepen naar systemen van derden worden ver
 
 Het beheer van de toegang staat nu meer granulariteit in het beheer van de gebruikerstoegang toe. Effectieve beschikbaarheid: 30 juni 2020. [Meer informatie](../about/access-management.md#create-product-profile)
 
-Journey Orchestration is nu verkrijgbaar in APAC (Australische datacenter). Effectieve beschikbaarheid: 30 juni 2020
+Journey Orchestration is nu verkrijgbaar in APAC (Australische datacenters). Effectieve beschikbaarheid: 30 juni 2020
 
-De Journey Orchestration-interface is beschikbaar in het Japans.
+De interface Journey Orchestration is beschikbaar in het Japans.
 
 ## Release Q1 - maart 2020 {#q1-release---march-2020}
 
@@ -183,13 +183,13 @@ De Journey Orchestration-interface is beschikbaar in het Japans.
 
 * Naast de VS is nu ook de Journey Orchestration (Reisorchestratie) beschikbaar in **EMEA**. De aanvraag en documentatie zijn in het Frans en Duits beschikbaar.
 
-* De Experience League is nu geïntegreerd in het product. Dit vereenvoudigt de toegang tot verwante inhoud en helpt u het beste uit Experience Cloud te halen. Rechtstreekse toegang tot Journey Orchestration-documentatie is beschikbaar onder aan het tabblad Help. Klik bovendien op Help > Feedback om problemen te melden of uw ideeën te delen met Adobe.
+* De Experience League is nu geïntegreerd in het product. Dit vereenvoudigt de toegang tot verwante inhoud en helpt u het meeste uit Experience Cloud halen. Rechtstreekse toegang tot de documentatie van Journey Orchestration is beschikbaar bij de bodem van de Hulp tabel. Klik bovendien op Help > Feedback om problemen te melden of uw ideeën te delen met Adobe.
 
 * De sneltoets **C** , waarmee u een nieuw item kunt maken, is nu beschikbaar in alle lijstschermen: reizen, gegevensbronnen, acties en gebeurtenissen. [Meer informatie](../about/user-interface.md#section_ksq_zr1_ffb)
 
 * U kunt gestopt reizen nu **verwijderen** . Rapporten over deze verwijderde reizen zijn niet beschikbaar.
 
-* Wanneer u door **Adobe Experience Platforms velden** bladert (XDM-indeling), wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring. Indien beschikbaar wordt de alternatieve weergavenaam weergegeven. Met deze gebruiksvriendelijke beschrijving, vooral handig in het geval van eVar-velden, kunt u uw velden gemakkelijker identificeren. [Meer informatie](../about/user-interface.md#friendly-names-display)
+* Wanneer u door **Adobe Experience Platforms velden** bladert (XDM-indeling), wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring. Indien beschikbaar wordt de alternatieve weergavenaam weergegeven. Met deze gebruiksvriendelijke beschrijving, die vooral handig is in het geval van eVar-velden, kunt u uw velden gemakkelijker identificeren. [Meer informatie](../about/user-interface.md#friendly-names-display)
 
 ## GA-release - december 2019 {#ga-release---december-2019}
 
@@ -197,11 +197,11 @@ Journey Orchestration is nu GA.
 
 Stel in real-time implementatiefuncties samen voor het orkestgebruik, waarbij gebruik wordt gemaakt van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen.
 
-Journey Orchestration staat realtime orchestratie toe, aangedreven door contextafhankelijke gegevens van gebeurtenissen, informatie van het Adobe Experience Platform of gegevens van externe API-services. De toepassing bepaalt in multistep stromen die reizen de volgende beste acties specifiek voor de consument, op hun profiel en gedrag worden genoemd. Dit omvat zowel de optimale timing als het type actie, zoals het verzenden van een pushmelding aan de consument via de Adobe Campaign Standard-mogelijkheden voor transactieberichten (Adobe Campaign Standard vereist) of het melden van een systeem van derden. Deze beslissingen worden genomen op basis van regels en Sensei-scores.
+Journey Orchestration staat organisatie in real time toe die door contextafhankelijke gegevens van gebeurtenissen, informatie van het Adobe Experience Platform, of gegevens van de diensten van derdeAPI wordt aangedreven. De toepassing bepaalt in multistep stromen die reizen de volgende beste acties specifiek voor de consument, op hun profiel en gedrag worden genoemd. Dit omvat zowel de optimale timing als het type actie, zoals het verzenden van een pushmelding aan de consument via de Adobe Campaign Standard-mogelijkheden voor transactieberichten (Adobe Campaign Standard vereist) of het melden van een systeem van derden. Deze beslissingen worden genomen op basis van regels en Sensei-scores.
 
 [Meer](../action/working-with-adobe-campaign.md) weten over Journey Orchestration?
 
 Aanvullende bronnen:
 
-* [Zelfstudies](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [Tutorials](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Gemeenschap](https://www.adobe.com/go/journeyorchestrationcommunity)
