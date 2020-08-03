@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 0%
 
 ---
 
@@ -33,8 +36,8 @@ Hieronder wordt beschreven hoe expressies van gegevenstypen worden weergegeven:
     </thead>
     <tbody>
     <tr>
-        <td> string</td>
-        <td><p>Algemene reeks tekens.</p><p>Het heeft geen specifieke grootte behalve impliciet die uit het milieu zoals de beschikbare hoeveelheid geheugen komt.</p><p>JSON-indeling:String</p><p>Serienummeringsindeling: UTF-8</p></td>
+        <td>string</td>
+        <td><p>Algemene reeks tekens.</p><p>Het heeft geen specifieke grootte behalve impliciet die uit het milieu zoals de beschikbare hoeveelheid geheugen komt.</p><p>JSON-indeling: String</p><p>Serienummeringsindeling: UTF-8</p></td>
         <td><p>"&lt;value&gt;"</p><p>'&lt;value&gt;'</p></td>
         <td><p><pre>"hello world"</pre></p><p><pre>'hello world'</pre></p></td>
     </tr>
@@ -55,7 +58,7 @@ Hieronder wordt beschreven hoe expressies van gegevenstypen worden weergegeven:
     </tr>
     <tr>
         <td>boolean</td>
-        <td><p>Booleaanse waarde, in kleine letters geschreven: true of false</p><p>JSON-indeling:Boolean</p></td>
+        <td><p>Booleaanse waarde, in kleine letters geschreven: true of false</p><p>JSON-indeling: Boolean</p></td>
         <td><p>true</p><p>false</p></td>
         <td><p><pre>true</pre></p></td>
     </tr>
@@ -69,7 +72,7 @@ Hieronder wordt beschreven hoe expressies van gegevenstypen worden weergegeven:
         <td>dateTime</td>
         <td><p>Datumtijdconstante die ook rekening houdt met tijdzone.</p><p>Deze vertegenwoordigt een datum-tijd met een verschuiving van UTC. Het kan als onmiddellijk in tijd met de extra informatie van de compensatie worden bekeken. </p><p>Het is een manier om een specifiek "moment" te vertegenwoordigen op een bepaalde plaats in de wereld.</p><p>JSON-indeling: Tekenreeks.</p><p> Deze moet zijn ingekapseld in een toDateTime-functie.</p><p>
         Serienummeringsindeling: ISO-8601 extended offset date-time format.</p><p> Het gebruikt DateTimeFormatter.ISO_OFFSET_DATE_TIME om de waarde te deserialiseren en serialiseren.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">Meer</a>informatie. 
-        <p>U kunt ook een geheel getal doorgeven dat een epochwaarde doorgeeft.</p> <a href="https://www.epochconverter.com/">Lees meer</a>.</p>
+        <p>U kunt ook een geheel getal doorgeven dat een epochwaarde doorgeeft.</p> <a href="https://www.epochconverter.com/">Meer informatie</a>.</p>
         <p>De tijdzone kan door een compensatie of een code van de tijdzone worden gespecificeerd (voorbeeld: Europa/Parijs, Z - UTC).</p></td>
         <td><p>toDateTime("&lt;dateTime in ISO-8601-indeling&gt;")</p>
         <p>toDateTime(&lt;geheel-getalwaarde van een tijdperk in milliseconden&gt;)</p></td>
