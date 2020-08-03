@@ -25,7 +25,7 @@ AI van de klant maakt deel uit van de Intelligente Diensten. Het helpt voorspell
 
 Klant-AI staat merken toe om op basis van leerresultaten op basis van leerprocessen voor conversie- of conversiesystemen te maken die beschikbaar zijn als profielkenmerken in de profielen van het Adobe Experience Platform (Real-time Klantprofiel).
 
-Dientengevolge, kunnen zij als andere profielattributen in Journey Orchestration-voorwaarden (om de beste besluiten te nemen), acties of segmentbouw worden gebruikt.
+Dientengevolge, kunnen zij als andere profielattributen in Journey Orchestration (om de beste besluiten te nemen), acties of segmentbouw worden gebruikt.
 
 ![](../assets/customer-ai.png)
 
