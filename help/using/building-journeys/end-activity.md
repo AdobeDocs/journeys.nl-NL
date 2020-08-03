@@ -12,12 +12,15 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 0%
 
 ---
 
 
 # Eindactiviteit{#section_vqp_4ft_dgb}
 
-Met deze **[!UICONTROL End]**activiteit kunt u het einde van elk pad van de reis markeren. Het is niet verplicht, maar aanbevolen voor visuele duidelijkheid. Als de reis verschillende eindactiviteiten heeft, raden wij u aan om aan elk doel een label toe te voegen om de rapporten leesbaarder te maken. Zie[](../reporting/about-journey-reports.md).
+Met deze **[!UICONTROL End]** activiteit kunt u het einde van elk pad van de reis markeren. Het is niet verplicht, maar aanbevolen voor visuele duidelijkheid. Als de reis verschillende eindactiviteiten heeft, raden wij u aan om aan elk doel een label toe te voegen om de rapporten leesbaarder te maken. Zie [](../reporting/about-journey-reports.md).
 
 ![](../assets/journey54.png)
