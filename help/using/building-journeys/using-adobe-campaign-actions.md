@@ -31,7 +31,7 @@ Voor elk van deze kanalen selecteert u een Adobe Campaign Standard Transaction M
 
 >[!NOTE]
 >
->Het Campaign Standard-transactiebericht en de bijbehorende gebeurtenis moeten worden gepubliceerd om in Journey Orchestration te kunnen worden gebruikt. Als de gebeurtenis wordt gepubliceerd maar het bericht niet is, is het niet zichtbaar in de interface van Journey Orchestration. Als het bericht wordt gepubliceerd maar zijn bijbehorende gebeurtenis niet, zal het in de interface van Journey Orchestration zichtbaar zijn maar het zal niet bruikbaar zijn.
+>Het transactiemelding van de Campaign Standard en zijn bijbehorende gebeurtenis moeten worden gepubliceerd om in Journey Orchestration te worden gebruikt. Als de gebeurtenis wordt gepubliceerd maar het bericht niet is, zal het niet in de interface van Journey Orchestration zichtbaar zijn. Als het bericht wordt gepubliceerd maar zijn bijbehorende gebeurtenis is niet, zal het in de interface van Journey Orchestration zichtbaar zijn maar het zal niet bruikbaar zijn.
 
 ![](../assets/journey59.png)
 
@@ -51,7 +51,7 @@ Voor **[!UICONTROL Email]** en **[!UICONTROL SMS]**, zijn de parameters identiek
 
 >[!NOTE]
 >
->Voor e-mail, als u een malplaatje van de profieltransactie gebruikt, wordt het unsubscription mechanisme behandeld uit-van-de-doos door Campaign Standard. U voegt eenvoudig een **[!UICONTROL Unsubscription link]** inhoudsblok in het malplaatje toe ([leer meer](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Als u een op een gebeurtenis gebaseerde sjabloon (rtEvent) gebruikt, moet u in het bericht een koppeling toevoegen die de e-mail van de persoon in de URL-parameter doorgeeft en naar een bestemmingspagina zonder abonnement verwijst. U moet deze openingspagina maken en ervoor zorgen dat de beslissing van de persoon om het abonnement op te zeggen wordt overgebracht naar Adobe.
+>Voor e-mail, als u een malplaatje van de profieltransactie gebruikt, wordt het unsubscription mechanisme behandeld uit-van-de-doos door Campaign Standard. U voegt eenvoudig een **[!UICONTROL Unsubscription link]** inhoudsblok in het malplaatje toe ([leer meer](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Als u een op een gebeurtenis gebaseerde sjabloon (rtEvent) gebruikt, moet u in het bericht een koppeling toevoegen die de e-mail van de persoon in de URL-parameter doorgeeft en naar een bestemmingspagina zonder abonnement verwijst. U moet deze landingspagina maken en ervoor zorgen dat de beslissing van de persoon om het abonnement op te zeggen wordt doorgegeven aan Adobe.
 
 Eerst, moet u een transactioneel overseinensjabloon kiezen. Zie [](../building-journeys/about-action-activities.md).
 
@@ -81,7 +81,7 @@ Dit zijn de velden die worden verwacht door het Adobe Campaign Standard-bericht.
 
 ## Push {#section_im3_hvf_nhb}
 
-Voordat u de pushactiviteit kunt gebruiken, moet uw mobiele app samen met Campaign Standard worden geconfigureerd om pushberichten te verzenden. Gebruik dit [artikel](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) om de benodigde implementatiestappen voor mobiele apparaten uit te voeren.
+Voordat u de pushactiviteit kunt gebruiken, moet uw mobiele app samen met Campaign Standard worden geconfigureerd om pushmeldingen te verzenden. Gebruik dit [artikel](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) om de benodigde implementatiestappen voor mobiele apparaten uit te voeren.
 
 Eerst moet u een mobiele app kiezen in de vervolgkeuzelijst en een transactiebericht. Zie [](../building-journeys/about-action-activities.md).
 
