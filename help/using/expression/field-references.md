@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Als u speciale tekens in een veld gebruikt, moet u dubbele aanhalingstekens of e
 
 * het veld begint met numerieke tekens
 * het veld begint met het &quot;-&quot; teken
-* het veld bevat iets anders dan: _a_-_z_, _A_-_Z_, _0____-9, _,_
+* het veld bevat iets anders dan: _a_-_z_, _A_-_Z_, _0_-___9, _,_
 
 Als uw veld bijvoorbeeld _3u_ is: _#{OpenWeather.weerData.rain.&#39;3h&#39;} > 0_
 
