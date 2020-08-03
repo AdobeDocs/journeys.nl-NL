@@ -36,7 +36,7 @@ Hier volgen de verschillende stappen voor het configureren van reactiegebeurteni
 1. Voeg een reactie toe **[!UICONTROL Label]** aan de reactie. Deze stap is optioneel.
 1. Selecteer in de vervolgkeuzelijst de activiteit waarop u wilt reageren. U kunt alle handelingen selecteren die zich in de vorige stappen van het pad bevinden.
 1. Afhankelijk van de actie die u hebt geselecteerd (een e-mail, SMS of een pushmelding), kiest u waarop u wilt reageren.
-1. U kunt een voorwaarde definiëren als een optionele stap. Zo kunt u na een e-mailactie bijvoorbeeld besluiten om twee paden te maken, één met een reactiegebeurtenis om alleen klikken voor VIP-klanten te volgen en één met een reactiegebeurtenis om door vrouwen uitgevoerde klikbewerkingen te volgen.
+1. U kunt een voorwaarde definiëren als een optionele stap. Zo kunt u na een e-mailactie bijvoorbeeld besluiten om twee paden te maken, één met een reactiegebeurtenis om alleen kliks voor VIP klanten te volgen en één met een reactiegebeurtenis om door vrouwen uitgevoerde klikbewerkingen te volgen.
 
 >[!NOTE]
 >
