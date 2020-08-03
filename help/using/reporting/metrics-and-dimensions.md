@@ -1,6 +1,6 @@
 ---
 title: Metriek en afmetingen
-description: Meer informatie over de afmetingen en maatstaven die beschikbaar zijn voor Journey Orchestration
+description: Meer informatie over de beschikbare afmetingen en meetgegevens voor Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -35,12 +35,12 @@ Raadpleeg [deze pagina](../assets/do-not-localize/dynamic_report_compatibility_j
 
 In de onderstaande tabel staan de afmetingen die worden gebruikt in reisrapporten, de definities en de formules van de reisverslagen.
 
-| Afmetingen | Definitie |
+| Dimension | Definitie |
 |--- |--- |
 | **Handeling** | Lijst van alle handelingen (naam van de **handeling - actielabel**) die tijdens reizen worden gebruikt, bijvoorbeeld push - Check out bevestiging, Email - Rewards getrouwheid. |
 | **Gegevensbron** | Lijst met gegevensbronnen (naam **van** gegevensbron) die worden gebruikt om gegevens te verrijken op een reis, bijvoorbeeld Adobe Experience platform, Reservation System. |
-| **[!UICONTROL Event]** | Lijst van alle gebeurtenissen (naam van de **gebeurtenis - label** van de gebeurtenis) die tijdens reizen worden gebruikt, bijvoorbeeld Geometrixx-gebeurtenis - Geometrixx-uitchecken. |
-| **Veldgroep** | Lijst van veldgroepen (**veldgroepsnaam**) die worden gebruikt om gegevens te verrijken tijdens reizen, bijvoorbeeld profielveldgroep, Geometrixx-reserveringssysteem. |
+| **[!UICONTROL Event]** | Lijst van alle gebeurtenissen (naam van **gebeurtenis - label** van gebeurtenis) die tijdens reizen worden gebruikt, bijv. gebeurtenis Geometrixx - uitchecken van Geometrixx. |
+| **Veldgroep** | Lijst van veldgroepen (**veldgroepsnaam**) die worden gebruikt om gegevens te verrijken tijdens reizen, bijvoorbeeld profielveldgroep, reserveringssysteem Geometrixx. |
 | **Reis** | Lijst van elke reis (**reisnaam**) in testmodus en live, bv. stopzetting van de auto, kennisgeving van reservering van het hotel. |
 | **Reisversie** | Lijst van elke gepubliceerde versie van een reis (**reisnaam + versienummer**), bv. Afhalen van winkelwagentje v1, kennisgeving van hotelreservering v2. |
 | **Orchestratie** | Lijst van elke orkestactiviteit (**Voorwaarde, Eind, Wacht**) bepaald en gebruikt in reizen. |
@@ -49,7 +49,7 @@ In de onderstaande tabel staan de afmetingen die worden gebruikt in reisrapporte
 
 In de onderstaande tabel vindt u een overzicht van de afleveringsafmetingen die worden gebruikt in reisrapporten, de definities en de formules van de aflevering.
 
-| Dimensie | Definitie |
+| Dimension | Definitie |
 |--- |--- |
 | **Browser** | Browser waarvan het bericht werd geopend of aangeklikt. |
 | **Leveringsnaam** | Label en id van de levering. |
