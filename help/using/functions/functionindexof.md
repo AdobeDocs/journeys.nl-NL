@@ -1,6 +1,6 @@
 ---
 title: indexOf
-description: Meer weten over de functieindexOf
+description: Meer informatie over de functie indexOf
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,17 +12,20 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
 
 # indexOf {#indexOf}
 
-Controleert als het eerste argumentkoord met een specifiek koord (tweede argumentkoord) beëindigt. Als het koord niet wordt gevonden, keer - 1 terug.
+Controleert of de eerste argumenttekenreeks eindigt met een specifieke tekenreeks (tweede argumenttekenreeks). Retourneer -1 als de tekenreeks niet wordt gevonden.
 
 ## Categorie
 
-Koord
+String
 
 ## Functiesyntaxis
 
@@ -32,21 +35,21 @@ Koord
 
 | Parameter | Type |
 |-----------|------------------|
-| touwtje | Koord |
-| gespecificeerde waarde | Koord |
+| string | String |
+| opgegeven waarde | String |
 
-## Handtekening en teruggekeerd type
+## Handtekening en type geretourneerd
 
 `indexOf(<string>,<string>)`
 
-Geeft een integer terug.
+Retourneert een geheel getal.
 
 ## Voorbeeld
 
 `indexOf("Hello", "l")`
 
-Retourzendingen 2.
+Retourneert 2.
 
-Toelichting:
+Uitleg:
 
-In &quot;Hello&quot;, is het eerste voorkomen van &quot;l&quot;bij positie 2.
+In &quot;Hello&quot; staat de eerste instantie van &quot;l&quot; op positie 2.
