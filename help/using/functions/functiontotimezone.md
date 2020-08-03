@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ Conversie
 
 | Parameter | Beschrijving |
 |--- |--- |
-|  string | De tekenreekswaarde moet de zone-id bevatten. Dit kan een veldverwijzing of een expressie zijn |
+| string | De tekenreekswaarde moet de zone-id bevatten. Dit kan een veldverwijzing of een expressie zijn |
 
 ## Handtekeningen en geretourneerde typen
 
