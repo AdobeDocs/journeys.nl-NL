@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ In de reislijst, worden alle reisversies getoond met het versieaantal. Zie [](..
 
 Als u zich aan een levende reis moet aanpassen, moet u een nieuwe versie van uw reis tot stand brengen.
 
-1. Open de nieuwste versie van uw livereis, klik **[!UICONTROL Create a new version]**en bevestig deze.
+1. Open de nieuwste versie van uw livereis, klik **[!UICONTROL Create a new version]** en bevestig deze.
 
    ![](../assets/journeyversions2.png)
 
@@ -32,7 +35,7 @@ Als u zich aan een levende reis moet aanpassen, moet u een nieuwe versie van uw 
    >
    >U kunt alleen een nieuwe versie maken van de meest recente versie van een reis.
 
-1. Breng uw wijzigingen aan, klik **[!UICONTROL Publish]**en bevestig.
+1. Breng uw wijzigingen aan, klik **[!UICONTROL Publish]** en bevestig.
 
    ![](../assets/journeyversions3.png)
 
