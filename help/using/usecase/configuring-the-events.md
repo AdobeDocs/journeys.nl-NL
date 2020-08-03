@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ In ons scenario moeten we telkens een evenement ontvangen wanneer een persoon he
 
 Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-events.md).
 
-1. Klik in het bovenste menu op het **[!UICONTROL Events]**tabblad en klik**[!UICONTROL Add]** om een nieuwe gebeurtenis te maken.
+1. Klik in het bovenste menu op het **[!UICONTROL Events]** tabblad en klik **[!UICONTROL Add]** om een nieuwe gebeurtenis te maken.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -36,7 +39,7 @@ Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-ev
 
    Het registratietoken is ook nodig voor het verzenden van pushberichten: &quot;_experience > campagne > bericht > profiel > pushNotificationTokens > token&quot;
 
-   Er wordt automatisch een id voor deze gebeurtenis gegenereerd. Deze id wordt opgeslagen in het **[!UICONTROL eventID]**veld (&quot;_experience > Campagne > Orchestratie > eventID&quot;). Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. In ons gebruiksgeval, wordt dit ID gebruikt om de bakenplaats te identificeren. Elke keer dat een persoon in de buurt van het lobby-baken loopt, wordt een gebeurtenis verzonden die deze specifieke gebeurtenis-id bevat. Hetzelfde beginsel geldt voor de restaurantbakenevenementen. Dit staat het systeem toe om te weten welk baken de gebeurtenis teweegbracht die verzendt.
+   Er wordt automatisch een id voor deze gebeurtenis gegenereerd. Deze id wordt opgeslagen in het **[!UICONTROL eventID]** veld (&quot;_experience > Campagne > Orchestratie > eventID&quot;). Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. In ons gebruiksgeval, wordt dit ID gebruikt om de bakenplaats te identificeren. Elke keer dat een persoon in de buurt van het lobby-baken loopt, wordt een gebeurtenis verzonden die deze specifieke gebeurtenis-id bevat. Hetzelfde beginsel geldt voor de restaurantbakenevenementen. Dit staat het systeem toe om te weten welk baken de gebeurtenis teweegbracht die verzendt.
 
    ![](../assets/journeyuc2_2.png)
 
@@ -52,9 +55,9 @@ Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-ev
 
    ![](../assets/journeyuc2_4bis.png)
 
-1. Klik **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
 
-1. Klik op het **[!UICONTROL View Payload]**pictogram om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht en deze te delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis.  Deze nuttige lading zal in postback van de Mobiele het beleidsconsole van de Diensten moeten worden gevormd.
+1. Klik op het **[!UICONTROL View Payload]** pictogram om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht en deze te delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis.  Deze nuttige lading zal in postback van de Mobiele het beleidsconsole van de Diensten moeten worden gevormd.
 
    ![](../assets/journeyuc2_5.png)
 
