@@ -27,7 +27,7 @@ Hier volgen enkele beperkingen ten aanzien van het gebruik van aangepaste handel
 * In het geval van een fout worden systematisch twee pogingen uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht.
 * Met de ingebouwde **[!UICONTROL Reaction]** gebeurtenis kunt u reageren op acties die buiten de box vallen (zie [](../building-journeys/reaction-events.md)). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters.
-* Alleen POST- en PUT-callmethoden worden ondersteund.
+* Alleen methoden voor het aanroepen van POSTEN en PUTTEN worden ondersteund.
 * De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;.
 * IP-adressen zijn niet toegestaan.
 * Interne Adobe-adressen (.adobe.) zijn niet toegestaan.
