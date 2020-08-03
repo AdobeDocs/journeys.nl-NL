@@ -1,10 +1,13 @@
 ---
 keywords: Journeys;home;popular topics
 solution: Journeys
-title: Documentatie voor reisorchestratieproducten
+title: Journey Orchestration-productdocumentatie
 topic: Premium
 translation-type: tm+mt
 source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
@@ -17,11 +20,11 @@ source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 * **[Wat is Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>Meer weten over Journey Orchestration?
 
-* **[Bouw uw eerste reis](using/about/get-started.md)**<br/>Ontdek de belangrijkste stappen om de Orchestratie van de Reis op te zetten en uw eerste reis te bouwen.
+* **[Bouw uw eerste reis](using/about/get-started.md)**<br/>Ontdek de belangrijkste stappen om Journey Orchestration op te zetten en uw eerste reis te bouwen.
 
 * **[Vorm een gebeurtenis](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Leer hoe te om de gebeurtenissen te vormen die uw reizen zullen luisteren aan.
 
-* **[Toegang verlenen tot de Journey Orchestration](using/about/access-management.md)**<br/>Ontdek hoe u de toegang van uw gebruikers met productprofielen en -rechten kunt beheren.
+* **[Toegang verlenen tot Journey Orchestration](using/about/access-management.md)**<br/>Ontdek hoe u de toegang van uw gebruikers met productprofielen en -rechten kunt beheren.
 
 * **[Ontdek nieuwe](using/release-notes/release-notes.md)**<br/>Meer informatie over de snelste releases.
 
@@ -64,9 +67,9 @@ source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 
 ## Aanvullende bronnen
 
-* [documentatie bij Experience Platform](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
+* [Documentatie Experience Platform](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
 * [Documentatie van het profiel van de klant in realtime](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
-* [Experience Cloud XDM field Definition](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
+* [Experience Cloud XDM-velddefinitie](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
 * [Identiteitsnaamruimtedocumentatie](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
 * [Streaming-API&#39;s](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
-* [Campagne Standaard transactieberichtendocumentatie](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Campaign Standard transactie berichtendocumentatie](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
