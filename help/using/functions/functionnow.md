@@ -1,6 +1,6 @@
 ---
-title: nu
-description: Meer weten over de functie?
+title: now
+description: Meer informatie over de functie
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 0%
 
 ---
 
 
-# nu {#now}
+# now {#now}
 
-Keert de huidige datum in het formaat van de datumtijd terug. Voor meer informatie over gegevenstypes, verwijs naar [](../expression/data-types.md).
+Retourneert de huidige datum in de datumtijdnotatie. Raadpleeg [](../expression/data-types.md)voor meer informatie over gegevenstypen.
 
 ## Categorie
 
@@ -32,26 +35,26 @@ Datum
 
 | Parameter | Beschrijving |
 |--- |--- |
-| touwtje |  |
+| string |  |
 
-## Handtekeningen en teruggestuurd type
+## Handtekeningen en type geretourneerd
 
 `now()`
 
 `now("<timeZone id>")`
 
-Keert een dateTime terug.
+Retourneert een dateTime.
 
 ## Voorbeelden
 
 `now()`
 
-Geeft 2019-06-03T06:30Z.
+Retourneert 2019-06-03T06:30Z.
 
 `toString(now())`
 
-Geeft &quot;2019-06-03T06:30Z&quot; terug
+Retourneert &quot;2019-06-03T06:30Z&quot;
 
 `now("Europe/Paris")`
 
-Keert 2019-06-03T08:30+02:00 terug.
+Retourneert 2019-06-03T08:30+02:00.
