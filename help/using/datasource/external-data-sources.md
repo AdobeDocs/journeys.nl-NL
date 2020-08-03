@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Met externe gegevensbronnen kunt u een verbinding met systemen van derden definiëren, bijvoorbeeld als u een boekingssysteem voor hotels gebruikt om te controleren of de persoon een kamer heeft geregistreerd. In tegenstelling tot de ingebouwde gegevensbron van het Adobe Experience Platform, kunt u zo vele externe gegevensbronnen tot stand brengen aangezien u nodig hebt.
 
-REST-API&#39;s die gebruikmaken van POST of GET en JSON retourneren, worden ondersteund. API-sleutel, standaard- en aangepaste verificatiemodi worden ondersteund.
+REST API&#39;s die POST of GET en JSON retourneren, worden ondersteund. API-sleutel, standaard- en aangepaste verificatiemodi worden ondersteund.
 
 Laten we het voorbeeld nemen van een weerdienst van API die ik wil gebruiken om het gedrag van mijn reis aan te passen aan weergegevens in real time.
 
@@ -56,7 +56,7 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
 
    >[!CAUTION]
    >
-   >We raden u ten zeerste aan HTTPS te gebruiken om beveiligingsredenen. Merk ook op dat wij het gebruik van de adressen van Adobe niet toestaan die niet openbaar beschikbaar en het gebruik van IP adressen zijn.
+   >We raden u ten zeerste aan HTTPS te gebruiken om beveiligingsredenen. Merk ook op dat wij niet het gebruik van Adobe adressen toestaan die niet openbaar beschikbaar en het gebruik van IP adressen zijn.
 
    ![](../assets/journey27.png)
 
@@ -75,13 +75,13 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
 Voor de parameterset &quot;long/lat&quot; maken we een veldgroep met de volgende informatie:
 
 * **[!UICONTROL Used in]**: geeft het aantal ritten weer dat een veldgroep gebruikt. U kunt op het **[!UICONTROL View journeys]** pictogram klikken om de lijst met reizen weer te geven met deze veldgroep.
-* **[!UICONTROL Method]**: Selecteer de methode POST of GET. In ons geval, selecteren wij de GET methode.
+* **[!UICONTROL Method]**: Selecteer de methode POST of GET. In ons geval selecteren we de methode GET.
 * **[!UICONTROL Cache duration]**: in ons geval willen wij dat het weer tien minuten in de cache wordt opgeslagen .
 * **[!UICONTROL Response Payload]**: Klik binnen het **[!UICONTROL Payload]** gebied en deeg een voorbeeld van de lading die door de vraag is teruggekeerd. Voor ons voorbeeld hebben we een payload gebruikt die op een API-website voor weersomstandigheden is gevonden. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payload-voorbeeld zijn opgenomen. U kunt op de optie klikken **[!UICONTROL Paste a new payload]** als u de huidige lading wilt wijzigen.
 * **[!UICONTROL Dynamic Values]**: Voer in ons voorbeeld de verschillende parameters in, gescheiden door een komma, &quot;long,lat&quot;. Aangezien de parameterwaarden afhankelijk zijn van de uitvoeringscontext, worden ze tijdens de reizen gedefinieerd. Zie [](../expression/expressionadvanced.md).
 * **[!UICONTROL Sent Payload]**: dit veld staat niet in ons voorbeeld . Deze optie is alleen beschikbaar als u de methode POST selecteert. Plak de lading die naar het derdesysteem zal worden verzonden.
 
-In het geval van een GET vraag die parameter(s) vereist, gaat u de parameter(s) op het **[!UICONTROL Parameters]** gebied in en zij worden automatisch toegevoegd aan het eind van de vraag. In het geval van een vraag van de POST, moet u:
+Als een GET-aanroep parameters vereist, voert u de parameter(s) in het **[!UICONTROL Parameters]** veld in en worden deze automatisch aan het einde van de aanroep toegevoegd. In het geval van een vraag van de POST, moet u:
 
 * geef een lijst op van de parameters die bij de vraagtijd op het **[!UICONTROL Parameter]** gebied moeten worden overgegaan (in het voorbeeld hieronder: &quot;id&quot;).
 * ze ook precies dezelfde syntaxis geven in de hoofdtekst van de verzonden lading. Hiervoor moet u het volgende toevoegen: &quot;param&quot;: &quot;naam van de parameter&quot; (in het onderstaande voorbeeld: &quot;id&quot;). Volg de onderstaande syntaxis:
