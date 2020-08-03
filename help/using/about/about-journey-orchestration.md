@@ -1,5 +1,5 @@
 ---
-title: Informatie over Journey Orchestration
+title: Info over Journey Orchestration
 description: Meer informatie over Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -27,7 +27,7 @@ Stel in real-time implementatiefuncties samen voor het orkestgebruik, waarbij ge
 
 [!DNL Journey Orchestration] staat organisatie in real time toe die door contextafhankelijke gegevens van gebeurtenissen, informatie van het Adobe Experience Platform, of gegevens van de diensten van derdeAPI wordt aangedreven. U kunt een douaneactie vormen als u een derdesysteem gebruikt om uw berichten te verzenden. Als je Adobe Campaign Standard hebt, kun je e-mails, pushberichten en SMS verzenden via de mogelijkheden [voor](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)Transactieberichten van Adobe Campaign Standard.
 
-In het lusje van de gebeurtenisconfiguratie, vormt een **technische gebruiker** gebeurtenissen die in de reizen worden verwacht. De gegevens van binnenkomende gebeurtenissen worden genormaliseerd volgens het Adobe Experience Data Model (XDM). Gebeurtenissen zijn afkomstig van de Streaming Ingestie-API&#39;s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen).
+In het lusje van de gebeurtenisconfiguratie, vormt een **technische gebruiker** gebeurtenissen die in de reizen worden verwacht. De gegevens van binnenkomende gebeurtenissen worden genormaliseerd volgens het Adobe Experience Data Model (XDM). Gebeurtenissen komen van de Streaming Ingestie-API&#39;s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen).
 
 In het lusje van de gegevensbronconfiguratie, vormt een **technische gebruiker** :
 
