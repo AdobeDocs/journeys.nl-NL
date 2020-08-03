@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ Conversie
 
 | Parameter | Beschrijving |
 |--- |--- |
-|  string | converteert de tekenreekswaarde als een decimaal |
+| string | converteert de tekenreekswaarde als een decimaal |
 | dateTime | zet de datum om als aantal milliseconden (epoch milliseconds) |
 | boolean | Zet de booleaanse waarde om als 1 indien true, 0 indien false |
 | integer | wordt omgezet in decimaal (voorbeeld.: 1 wordt 1,0) |
