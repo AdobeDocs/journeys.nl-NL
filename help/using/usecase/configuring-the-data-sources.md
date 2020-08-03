@@ -63,7 +63,7 @@ We moeten ook controleren of de persoon een boeking heeft in het hotelreserverin
 
 1. Klik **[!UICONTROL Add a New Field Group]** om de op te halen informatie en de API-parameters te definiëren. Voor ons voorbeeld is er slechts één parameter (de id), dus moeten we één veldgroep maken met de volgende informatie:
 
-   * **[!UICONTROL Method]**: Selecteer de methode POST of GET. In ons geval, selecteren wij de GET methode.
+   * **[!UICONTROL Method]**: Selecteer de methode POST of GET. In ons geval selecteren we de methode GET.
    * **[!UICONTROL Cache duration]**: dit varieert afhankelijk van de frequentie van de API-aanroepen. In ons geval wordt het reserveringssysteem elke 10 minuten bijgewerkt.
    * **[!UICONTROL Response Payload]**: Klik in het **[!UICONTROL Payload]** veld en plak een voorbeeld van de laadbewerking. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payload-voorbeeld zijn opgenomen. In ons voorbeeld bevat de lading alleen de reserveringsstatus:
 
