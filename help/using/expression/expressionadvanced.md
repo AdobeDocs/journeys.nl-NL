@@ -55,7 +55,7 @@ U kunt de geavanceerde expressieeditor op verschillende manieren openen:
 * Wanneer u een douanetijdopnemer creeert, zal de geavanceerde redacteur direct worden getoond.
 * Wanneer u actieparameter toewijst, klik op **[!UICONTROL Advanced mode]**.
 
-## De interface detecteren{#section_otq_tnj_cjb}
+## De interface verkennen{#section_otq_tnj_cjb}
 
 In dit scherm kunt u uw expressie handmatig schrijven.
 
