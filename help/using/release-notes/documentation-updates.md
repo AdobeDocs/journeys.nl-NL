@@ -35,9 +35,9 @@ U kunt ook de opmerkingen bij de [!DNL Journey Orchestration] release [](../rele
 * Er is een nieuwe sectie toegevoegd over het maken van het testprofiel. [Meer informatie](../building-journeys/testing-the-journey.md#create-test-profile)
 * Extra informatie over hoe te om de **[!UICONTROL SegmentQualification]** knoop in een reisvoorwaarde of een actie te gebruiken. [Meer informatie](../building-journeys/segment-qualification-events.md)
 * Er is een opmerking toegevoegd bij het transactiebericht en de publicatie van gebeurtenissen voor campagnes. Zie [Werken met Adobe Campaign](../action/working-with-adobe-campaign.md) en [Adobe Campaign-handelingen](../building-journeys/using-adobe-campaign-actions.md)gebruiken.
-* Er is informatie toegevoegd over de controles die worden uitgevoerd wanneer de Campaign Standard-instantie-URL wordt getest. [Meer informatie](../action/working-with-adobe-campaign.md)
+* Er is informatie toegevoegd over de controles die worden uitgevoerd wanneer de URL van de instantie Campaign Standard wordt getest. [Meer informatie](../action/working-with-adobe-campaign.md)
 * Er is informatie toegevoegd over de compatibiliteit van reactiegebeurtenissen met Campaign Standard-instanties die worden gehost op AWS- of Azure-servers. [Meer informatie](../building-journeys/reaction-events.md)
-* Er is een opmerking toegevoegd over de noodzaak om een begrenzingsregel in te stellen wanneer u werkt met Campaign Standard-berichten voor transacties. [Meer informatie](../action/working-with-adobe-campaign.md)
+* Een nota is toegevoegd op de behoefte aan opstelling een het plafonneren regel wanneer het werken met het transactionele overseinen van Campaign Standard. [Meer informatie](../action/working-with-adobe-campaign.md)
 * Er is een opmerking toegevoegd over het genereren van echte gebeurtenissen bij het activeren van gebeurtenissen in de testmodus. [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Juni 2020 {#june-2020}
