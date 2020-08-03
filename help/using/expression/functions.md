@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,7 @@ Hier volgt een lijst met ondersteunde functies.
 
 ## Belangrijkste functies
 
-| Categorie | Functie |
+| Categorie | -functie |
 |-------------|-----------------------|
 | Adobe Experience Platform | [](../functions/functiongetbestsendtime.md) |
 | Adobe Experience Platform | [](../functions/functioninsegment.md) |
