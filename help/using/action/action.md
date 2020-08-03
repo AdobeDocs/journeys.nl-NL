@@ -42,8 +42,8 @@ Klik in de bovenste menu&#39;s om de lijst met handelingen weer te geven of een 
 
 ![](../assets/custom1.png)
 
-Als u Adobe Campaign Standard hebt, moet u de actie &#39;out-of-the-box&#39; configureren voor het verzenden van e-mails, pushmeldingen en sms-berichten met behulp van de Transactionele communicatiemogelijkheden van Adobe Campagne Standard. Zie [](../action/working-with-adobe-campaign.md).
+Als u Adobe Campaign Standard hebt, moet u de actie buiten de doos vormen om e-mail, dupberichten en SMS te verzenden gebruikend de mogelijkheden van het Transactieoverseinen van Adobe Campaign Standard. Zie [](../action/working-with-adobe-campaign.md).
 
-Als u berichten verzendt via een systeem van derden, zoals Epsilon, Facebook, Adobe.io, Firebase, enzovoort, moet u een aangepaste handeling toevoegen en configureren. Zie [](../action/about-custom-action-configuration.md).
+Als u een systeem van derden gebruikt om berichten te verzenden zoals Epsilon, Facebook, Adobe.io, Firebase, enz., moet u een aangepaste handeling toevoegen en configureren. Zie [](../action/about-custom-action-configuration.md).
 
 Voor meer informatie over hoe te om een Actie voor te vormen [!DNL Journey Orchestration] en hoe te om het in een reis te gebruiken, bekijk deze [videozelfstudie](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
