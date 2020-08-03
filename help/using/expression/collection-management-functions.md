@@ -215,7 +215,7 @@ Het resultaat is &quot;token_2&quot;.
 
 **Voorbeeld 3:**
 
-We controleren of de eerste (meest recente) Adobe Analytics-gebeurtenis met een andere waarde dan nul voor DMA-id een waarde heeft die gelijk is aan 602.
+We controleren of de eerste (meest recente) Adobe Analytics-gebeurtenis met een waarde groter dan nul voor DMA-id een waarde heeft die gelijk is aan 602.
 
 ```
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
