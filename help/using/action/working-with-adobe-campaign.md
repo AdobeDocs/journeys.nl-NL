@@ -25,11 +25,11 @@ U kunt e-mails, pushberichten en SMS verzenden met de mogelijkheden voor Transac
 
 [!DNL Journey Orchestration] wordt geleverd met een actie buiten de doos die de verbinding aan Adobe Campaign Standard toestaat.
 
-Het Campaign Standard-transactiebericht en de bijbehorende gebeurtenis moeten worden gepubliceerd om in Journey Orchestration te kunnen worden gebruikt. Als de gebeurtenis wordt gepubliceerd maar het bericht niet is, is het niet zichtbaar in de interface van Journey Orchestration. Als het bericht wordt gepubliceerd maar zijn bijbehorende gebeurtenis niet, zal het in de interface van Journey Orchestration zichtbaar zijn maar het zal niet bruikbaar zijn.
+Het transactiemelding van de Campaign Standard en zijn bijbehorende gebeurtenis moeten worden gepubliceerd om in Journey Orchestration te worden gebruikt. Als de gebeurtenis wordt gepubliceerd maar het bericht niet is, zal het niet in de interface van Journey Orchestration zichtbaar zijn. Als het bericht wordt gepubliceerd maar zijn bijbehorende gebeurtenis is niet, zal het in de interface van Journey Orchestration zichtbaar zijn maar het zal niet bruikbaar zijn.
 
 >[!NOTE]
 >
->Als u wilt voorkomen dat Adobe Campaign Standard Transactional Messaging wordt overbelast, kunt u het beste een **bijlageregel** voor de Campaign Standard-integratie instellen.
+>Om het Transactionele Overseinen van Adobe Campaign Standard te vermijden, wordt het geadviseerd om een **afschilderingsregel** voor de integratie van de Campaign Standard te plaatsen.
 >
 >Meer informatie over SLA&#39;s voor transactieberichten vindt u in de productbeschrijving [van](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)Adobe Campaign Standard.
 
