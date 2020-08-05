@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Externe gegevensbronnen {#concept_t2s_kqt_52b}
 
-Met externe gegevensbronnen kunt u een verbinding met systemen van derden definiëren, bijvoorbeeld als u een boekingssysteem voor hotels gebruikt om te controleren of de persoon een kamer heeft geregistreerd. In tegenstelling tot de ingebouwde gegevensbron van het Adobe Experience Platform, kunt u zo vele externe gegevensbronnen tot stand brengen aangezien u nodig hebt.
+Met externe gegevensbronnen kunt u een verbinding met systemen van derden definiëren, bijvoorbeeld als u een boekingssysteem voor hotels gebruikt om te controleren of de persoon een kamer heeft geregistreerd. In tegenstelling tot de ingebouwde Adobe Experience Platform-gegevensbron kunt u zoveel externe gegevensbronnen maken als u nodig hebt.
 
 REST API&#39;s die POST of GET en JSON retourneren, worden ondersteund. API-sleutel, standaard- en aangepaste verificatiemodi worden ondersteund.
 
