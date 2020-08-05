@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 771b2b35e0aba412e4eb9e12a5d57de3d4c7068c
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ De **bedrijfsgebruiker** kan nu de reis bouwen. Onze reis zal de volgende activi
 * twee **[!UICONTROL Event]** activiteiten : &quot;LobbyBeacon&quot; en &quot;RestaurantBeacon&quot;
 * twee **[!UICONTROL Condition]** activiteiten
 * drie **[!UICONTROL Push]** activiteiten en één **[!UICONTROL Email]** activiteit (met Adobe Campaign Standard)
-* een **[!UICONTROL Wait]** activiteit
+* a **[!UICONTROL Wait]** activity
 * vier **[!UICONTROL End]** activiteiten
 
 >[!NOTE]
@@ -57,7 +57,7 @@ Raadpleeg [](../building-journeys/journey.md)voor meer informatie over het maken
 
    ![](../assets/journeyuc2_15.png)
 
-1. Klik op de velden &quot;timestamp&quot; **[!UICONTROL Advanced mode]** en &quot;directMarketing.send.value&quot; die uit de gegevensbron van het Adobe Experience Platform afkomstig zijn en definieer de volgende voorwaarde. De syntaxis van de expressie is:
+1. Klik op de velden &quot;timestamp&quot; **[!UICONTROL Advanced mode]** en &quot;directMarketing.send.value&quot; die uit de Adobe Experience Platform-gegevensbron afkomstig zijn en definieer de volgende voorwaarde. De syntaxis van de expressie is:
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -146,7 +146,7 @@ Na uw voorwaarde worden twee paden gemaakt:
 
    ![](../assets/journeyuc2_23.png)
 
-1. Voeg een nieuwe **[!UICONTROL Push]** activiteit toe, selecteer het malplaatje &quot;van de Korting van de Overeenkomst&quot;en bepaal de **[!UICONTROL Address]** en **[!UICONTROL Personalization]** gebieden. Voeg een **[!UICONTROL End]** activiteit toe.
+1. Voeg een nieuwe **[!UICONTROL Push]** activiteit toe, selecteer het malplaatje &quot;van de Korting van de Overeenkomst&quot;en bepaal de **[!UICONTROL Address]** en **[!UICONTROL Personalization]** gebieden. Voeg een **[!UICONTROL End]**-activiteit toe.
 
    ![](../assets/journeyuc2_24.png)
 
@@ -154,7 +154,7 @@ Na uw voorwaarde worden twee paden gemaakt:
 
    ![](../assets/journeyuc2_31.png)
 
-1. In het tweede pad dat volgt op de reserveringsvoorwaarde (geen ruimte geboekt), voegt u een **[!UICONTROL Push]** activiteit toe en selecteert u de sjabloon &quot;Ruimtetarieven&quot;. Voeg een **[!UICONTROL End]** activiteit toe.
+1. In het tweede pad dat volgt op de reserveringsvoorwaarde (geen ruimte geboekt), voegt u een **[!UICONTROL Push]** activiteit toe en selecteert u de sjabloon &quot;Ruimtetarieven&quot;. Voeg een **[!UICONTROL End]**-activiteit toe.
 
    ![](../assets/journeyuc2_25.png)
 
@@ -172,7 +172,7 @@ Na uw voorwaarde worden twee paden gemaakt:
 
    ![](../assets/journeyuc2_28.png)
 
-1. Voeg een **[!UICONTROL End]** activiteit toe.
+1. Voeg een **[!UICONTROL End]**-activiteit toe.
 
 Klik op de **[!UICONTROL Test]** knevel en test uw reis. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de reis en test u deze opnieuw. Raadpleeg voor meer informatie over de testmodus [](../building-journeys/testing-the-journey.md).
 
