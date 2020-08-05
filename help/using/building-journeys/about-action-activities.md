@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ In het palet, links op het scherm, onder **[!UICONTROL Events]** en **[!UICONTRO
 
 ![](../assets/journey58.png)
 
-Deze activiteiten vertegenwoordigen de verschillende beschikbare communicatiekanalen. U kunt ze combineren om een scenario voor meerdere kanalen te maken.
+Deze activiteiten staan voor de verschillende beschikbare communicatiekanalen. U kunt ze combineren om een scenario voor meerdere kanalen te maken.
 
 Als u Adobe Campaign Standard hebt, zijn de volgende buiten-de-box actieactiviteiten beschikbaar: **[!UICONTROL Email]**, **[!UICONTROL Push]** en **[!UICONTROL SMS]**. Zie [](../building-journeys/using-adobe-campaign-actions.md).
 
