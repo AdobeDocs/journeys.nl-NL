@@ -51,15 +51,15 @@ U kunt als volgt de reisrapporten openen en het succes van uw leveringen volgen:
 
    ![](../assets/dynamic_report_journey_3.png)
 
-1. Sleep vanuit het **[!UICONTROL Panels]** tabblad zoveel deelvensters of vrije-vormtabellen als u wilt. Zie deze [sectie](#adding-panels)voor meer informatie.
+1. Sleep vanuit het **[!UICONTROL Panels]** tabblad zoveel deelvensters of vrije-vormtabellen als u wilt. For more information, refer to this [section](#adding-panels).
 
    ![](../assets/dynamic_report_journey_4.png)
 
-1. Vervolgens kunt u uw gegevens filteren door de afmetingen en metriek van de **[!UICONTROL Components]** tab naar de vrije-vormtabel te slepen. Zie deze [sectie](#adding-components)voor meer informatie.
+1. Vervolgens kunt u uw gegevens filteren door de afmetingen en metriek van de **[!UICONTROL Components]** tab naar de vrije-vormtabel te slepen. For more information, refer to this [section](#adding-components).
 
    ![](../assets/dynamic_report_journey_5.png)
 
-1. Voor een duidelijkere weergave van uw gegevens kunt u afbeeldingen toevoegen via het **[!UICONTROL Visualizations]** tabblad. Zie deze [sectie](#adding-visualizations)voor meer informatie.
+1. Voor een duidelijkere weergave van uw gegevens kunt u afbeeldingen toevoegen via het **[!UICONTROL Visualizations]** tabblad. For more information, refer to this [section](#adding-visualizations).
 
 ## Deelvensters toevoegen{#adding-panels}
 
