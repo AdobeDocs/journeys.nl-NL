@@ -1,5 +1,5 @@
 ---
-title: Opmerkingen bij de release
+title: Opmerkingen bij de releases in
 description: Meer informatie over opmerkingen bij releases
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -19,7 +19,7 @@ ht-degree: 3%
 ---
 
 
-# Release Notes {#release-notes}
+# Release-opmerkingen{#release-notes}
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)raadplegen.
@@ -29,28 +29,28 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 <table>
 <thead>
 <tr>
-<th><strong>Verbeterde integratie van Adobe Experience Platforms</strong><br/></th>
+<th><strong>Verbeterde Adobe Experience Platform-integratie</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De volgende verbeteringen op het gebied van Adobe Experience Platform-integratie zijn doorgevoerd:</p>
+<p>De volgende Adobe Experience Platform-integratieverbeteringen zijn doorgevoerd:</p>
 <ul>
-<li><p>Een nieuwe activiteit staat het luisteren van Adobe Experience Platform segmententententangen/uitgang toe om mensen te maken binnen of zich voorwaarts op een reis bewegen. <a href="../building-journeys/segment-qualification-events.md">Meer informatie</a></p>
+<li><p>Een nieuwe activiteit staat het luisteren van de het segmententententangen/uitgang van Adobe Experience Platform toe om mensen te maken binnen of vooruit in een reis. <a href="../building-journeys/segment-qualification-events.md">Meer informatie</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>De segmenten van het Adobe Experience Platform kunnen nu worden gecreeerd en worden uitgegeven zonder de interface van Journey Orchestration te verlaten, dankzij een nieuw <strong>lusje van Segmenten</strong> .<a href="../segment/about-segments.md">Meer informatie</a></p>
+<li><p>Adobe Experience Platform-segmenten kunnen nu worden gemaakt en bewerkt zonder de interface Journey Orchestration te verlaten, dankzij een nieuw tabblad <strong>Segmenten</strong> .<a href="../segment/about-segments.md">Meer informatie</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>In de eenvoudige uitdrukkingsredacteur, zijn de segmenten van het Adobe Experience Platform nu direct vermeld in de navigatieboom om gemakkelijke opstelling van voorwaarden zoals "toe te staan behoort deze persoon tot segment A?".<a href="../segment/using-a-segment.md">Meer informatie</a></p>
+<li><p>In de eenvoudige uitdrukkingsredacteur, zijn de segmenten van Adobe Experience Platform nu direct vermeld in de navigatieboom om gemakkelijke opstelling van voorwaarden zoals "toe te staan behoort deze persoon tot segment A?".<a href="../segment/using-a-segment.md">Meer informatie</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration gaat nu automatisch door naar het Adobe Experience Platform van de stappen die tijdens reizen worden uitgevoerd. Dit geldt ook voor mogelijke fouten. Deze informatie kan voor het bereiken van rapportering en het oplossen van problemen worden gebruikt door vragen over de gebeurtenissen van de Stap van de Reis voor een bepaalde reis of voor alle reizen uit te voeren. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
+<li><p>Journey Orchestration gaat nu automatisch de stappen door die tijdens reizen zijn uitgevoerd naar de Adobe Experience Platform. Dit geldt ook voor mogelijke fouten. Deze informatie kan voor het bereiken van rapportering en het oplossen van problemen worden gebruikt door vragen over de gebeurtenissen van de Stap van de Reis voor een bepaalde reis of voor alle reizen uit te voeren. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestration kan nu worden aangesloten op sandboxen voor productie- en niet-productie-Adobe Experience Platforms. Sandboxen zijn bètafuncties. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
+<li><p>Journey Orchestration kan nu worden aangesloten op Adobe Experience Platform-sandboxen die niet voor productie zijn bedoeld. Sandboxen zijn bètafuncties. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
 </li>
 </td>
 </tr>
@@ -93,7 +93,7 @@ De interface Journey Orchestration is beschikbaar in het Japans.
 
 ## Release Q1 - maart 2020 {#q1-release---march-2020}
 
-**Nieuwe functies?**
+**Nieuwe functies**
 
 <table>
 <thead>
@@ -130,7 +130,7 @@ De interface Journey Orchestration is beschikbaar in het Japans.
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>In de vervolgkeuzelijst <strong>Tijdzone</strong> kunt u een specifieke tijdzone selecteren. Standaard wordt de tijdzone van de browser gebruikt. </li>
-<li>Met het selectievakje Tijdzone <strong>van</strong> profiel kunt u de tijdzone van het profiel van het Adobe Experience Platform gebruiken van de persoon die de reis betreedt, indien beschikbaar. Als dat niet het geval is, wordt de tijdzone gebruikt die in de vervolgkeuzelijst is gedefinieerd. Deze functie is niet compatibel met ritten die gebeurtenissen gebruiken die geen naamruimte hebben.</li>
+<li>Met het selectievakje Tijdzone <strong>profiel</strong> van profiel kunt u de tijdzone Adobe Experience Platform-profiel gebruiken van de persoon die de reis betreedt, indien beschikbaar. Als dat niet het geval is, wordt de tijdzone gebruikt die in de vervolgkeuzelijst is gedefinieerd. Deze functie is niet compatibel met ritten die gebeurtenissen gebruiken die geen naamruimte hebben.</li>
 </ul>
 <p>Raadpleeg de secties <a href="../building-journeys/changing-properties.md#timezone">Eigenschappen</a> wijzigen en <a href="../building-journeys/timezone-management.md">Tijdzonebeheer</a> voor meer informatie.</p>
 </td>
@@ -156,7 +156,7 @@ De interface Journey Orchestration is beschikbaar in het Japans.
 <p>In de reisontwerper, kunt u nu controleren u tot de recentste versie van de reis toegang hebt. Deze informatie wordt weergegeven naast het versienummer.</p>
 <p>Op het <strong>reiscanvas</strong>, wanneer twee activiteiten worden losgemaakt, wordt een waarschuwingsbericht nu getoond.</p>
 <img src="../assets/rn-canvas.png"/>
-<p>Raadpleeg de <a href="../building-journeys/using-the-journey-designer.md">gedetailleerde documentatie</a>voor meer informatie.</p>
+<p>Raadpleeg de <a href="../building-journeys/using-the-journey-designer.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -189,7 +189,7 @@ De interface Journey Orchestration is beschikbaar in het Japans.
 
 * U kunt gestopt reizen nu **verwijderen** . Rapporten over deze verwijderde reizen zijn niet beschikbaar.
 
-* Wanneer u door **Adobe Experience Platforms velden** bladert (XDM-indeling), wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring. Indien beschikbaar wordt de alternatieve weergavenaam weergegeven. Met deze gebruiksvriendelijke beschrijving, die vooral handig is in het geval van eVar-velden, kunt u uw velden gemakkelijker identificeren. [Meer informatie](../about/user-interface.md#friendly-names-display)
+* Wanneer u door **Adobe Experience Platform-velden** bladert (XDM-indeling), wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring. Indien beschikbaar wordt de alternatieve weergavenaam weergegeven. Met deze gebruiksvriendelijke beschrijving, die vooral handig is in het geval van eVar-velden, kunt u uw velden gemakkelijker identificeren. [Meer informatie](../about/user-interface.md#friendly-names-display)
 
 ## GA-release - december 2019 {#ga-release---december-2019}
 
@@ -197,11 +197,11 @@ Journey Orchestration is nu GA.
 
 Stel in real-time implementatiefuncties samen voor het orkestgebruik, waarbij gebruik wordt gemaakt van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen.
 
-Journey Orchestration staat organisatie in real time toe die door contextafhankelijke gegevens van gebeurtenissen, informatie van het Adobe Experience Platform, of gegevens van de diensten van derdeAPI wordt aangedreven. De toepassing bepaalt in multistep stromen die reizen de volgende beste acties specifiek voor de consument, op hun profiel en gedrag worden genoemd. Dit omvat zowel de optimale timing als het type actie, zoals het verzenden van een pushmelding aan de consument via de Adobe Campaign Standard-mogelijkheden voor transactieberichten (Adobe Campaign Standard vereist) of het melden van een systeem van derden. Deze beslissingen worden genomen op basis van regels en Sensei-scores.
+Met Journey Orchestration kunt u in real-time werken op basis van contextuele gegevens van gebeurtenissen, informatie van de Adobe Experience Platform of gegevens van externe API-services. De toepassing bepaalt in multistep stromen die reizen de volgende beste acties specifiek voor de consument, op hun profiel en gedrag worden genoemd. Dit omvat zowel de optimale timing als het type actie, zoals het verzenden van een pushmelding aan de consument via de Adobe Campaign Standard-mogelijkheden voor transactieberichten (Adobe Campaign Standard vereist) of het melden van een systeem van derden. Deze beslissingen worden genomen op basis van regels en Sensei-scores.
 
 [Meer](../action/working-with-adobe-campaign.md) weten over Journey Orchestration?
 
-Aanvullende bronnen:
+Aanvullende resources:
 
 * [Tutorials](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Gemeenschap](https://www.adobe.com/go/journeyorchestrationcommunity)
