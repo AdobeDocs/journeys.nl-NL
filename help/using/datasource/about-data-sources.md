@@ -37,12 +37,12 @@ Deze configuratie is niet vereist als uw reizen alleen lokale gegevens uit een g
 
 Er zijn twee soorten gegevensbronnen:
 
-* De vooraf geconfigureerde gegevensbron van het Adobe Experience Platform die de verbinding met de Real-time service van het Profiel van de Klant definieert. Dit is een ingebouwde gegevensbron. Zie [](../datasource/adobe-experience-platform-data-source.md).
+* De vooraf geconfigureerde Adobe Experience Platform-gegevensbron die de verbinding met de Real-Time Customer Profile Service definieert. Dit is een ingebouwde gegevensbron. Zie [](../datasource/adobe-experience-platform-data-source.md).
 * De externe gegevensbronnen waarmee u een verbinding met externe systemen kunt definiëren. Dit zijn de methoden die u kunt maken. Zie [](../datasource/external-data-sources.md).
 
 Voor elke gegevensbron definieert u de informatie die u wilt ophalen met behulp van veldgroepen. Veldgroepen zijn sets velden die uit een gegevensbron kunnen worden opgehaald. Zie [](../datasource/field-groups.md).
 
-Voor meer informatie over hoe te om een Bron van de Gegevens van het Adobe Experience Platform en een externe gegevensbron te vormen en hoe te om gegevens in een reis te vinden en te gebruiken, deze [zelfstudievideo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html)bekijken.
+Voor meer informatie over hoe te om een Gegevensbron van Adobe Experience Platform en een externe gegevensbron te vormen en hoe te om gegevens in een reis te vinden en te gebruiken, deze [zelfstudievideo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html)bekijken.
 
 Hier zijn de belangrijkste stappen van de gegevensbronconfiguratie:
 
