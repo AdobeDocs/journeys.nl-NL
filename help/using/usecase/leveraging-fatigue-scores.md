@@ -35,7 +35,7 @@ Voer de in [](../event/about-events.md)beschreven stappen uit.
 
 Voer de volgende stappen uit om de gebieden van de vermoeidheidsscore in de ingebouwde gegevensbron te selecteren:
 
-1. Klik in het bovenste menu op het **[!UICONTROL Data Sources]** tabblad en selecteer de gegevensbron van het ingebouwde Adobe Experience Platform.
+1. Klik in het bovenste menu op het **[!UICONTROL Data Sources]** tabblad en selecteer de Adobe Experience Platform-gegevensbron voor de build-in.
 
    ![](../assets/journey23.png)
 
