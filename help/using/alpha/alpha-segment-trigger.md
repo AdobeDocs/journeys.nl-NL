@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >Als er op het canvas tijdens de publicatie of tijdens de activering van de testmodus een Adobe Campaign Standard-actie buiten de doos aanwezig is, wordt de rit vertraagd bij 13 ingangen per seconde. <br>Als er op het canvas geen buiten-de-box-activiteit van Adobe Campaign Standard aanwezig is tijdens de publicatie of activering van de testmodus, wordt de rit vertraagd bij 1000 gebeurtenissen per seconde.
 
-Met de segmenttriggeractiviteit kunt u alle personen die tot een segment van het Adobe Experience Platform behoren een reis laten maken. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden.
+Met de Segment Trigger-activiteit kunt u alle personen die tot een Adobe Experience Platform-segment behoren een reis laten maken. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden.
 
 Laten we zeggen dat je een Gold-klantensegment hebt op Adobe Experience Platform. Met de Segment Trigger-activiteit, kunt u alle individuen die tot het Gouden klantensegment behoren een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit gebruiken: voorwaarden, timers, gebeurtenissen, handelingen.
 
@@ -49,7 +49,7 @@ Laten we zeggen dat je een Gold-klantensegment hebt op Adobe Experience Platform
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. Kies in het **[!UICONTROL Segment]** veld het segment Adobe Experience Platform dat de rit moet ingaan en klik op **[!UICONTROL Save]**.
+1. Kies in het **[!UICONTROL Segment]** veld het Adobe Experience Platform-segment dat de rit moet ingaan en klik op **[!UICONTROL Save]**.
 
    ![](../assets/segment-trigger-segment-selection.png)
 
@@ -73,6 +73,6 @@ Laten we zeggen dat je een Gold-klantensegment hebt op Adobe Experience Platform
 
    >[!IMPORTANT]
    >
-   >Onthoud dat de segmenten van het Adobe Experience Platform één keer per dag (**partijsegmenten** ) of in real time (**gestroomde** segmenten) worden berekend.
+   >Onthoud dat Adobe Experience Platform-segmenten één keer per dag (**batchsegmenten** ) of in realtime (**gestreamde** segmenten) worden berekend.
    >
-   >Als het geselecteerde segment wordt gestreamd, zullen de individuen die tot dit segment behoren potentieel de reis in real time ingaan. Als het segment partij is, zullen de mensen die nieuw voor dit segment worden gekwalificeerd de reis potentieel ingaan wanneer de segmentberekening op het Adobe Experience Platform wordt uitgevoerd.
+   >Als het geselecteerde segment wordt gestreamd, zullen de individuen die tot dit segment behoren potentieel de reis in real time ingaan. Als het segment partij is, zullen de mensen die nieuw voor dit segment worden gekwalificeerd de reis potentieel ingaan wanneer de segmentberekening op Adobe Experience Platform wordt uitgevoerd.
