@@ -45,9 +45,9 @@ U doet dit door in **[!UICONTROL Properties]** een tijdzone te selecteren.
 
 ## Profielen gebruiken om de tijdzone voor het transport te definiëren {#timezone-from-profiles}
 
-Als de entry-gebeurtenis van de reis een naamruimte heeft, wat betekent dat de reis de Real-time dienst van het Profiel van de Klant van het Adobe Experience Platform kan bereiken, is de tijdzone vooraf bepaald met die gespecificeerd in het profiel van de individuele die in de reis stroomt.
+Als de entry-gebeurtenis van de reis een naamruimte heeft, wat betekent dat de reis de Real-time dienst van het Profiel van de Klant van de Adobe Experience Platform kan bereiken, is de tijdzone vooraf gedefinieerd met die gespecificeerd in het profiel van de individuele die in de reis stroomt.
 
-Als een tijdzone in het profiel van het Adobe Experience Platform wordt bepaald, kan het in de reis worden teruggewonnen.
+Als een tijdzone wordt gedefinieerd in het Adobe Experience Platform-profiel, kan deze tijdens de reis worden opgehaald.
 
 Als het profiel van het individu geen tijdzone bevat, wordt de opgehaalde tijdzone gedefinieerd in het tijdzoneveld.
 
