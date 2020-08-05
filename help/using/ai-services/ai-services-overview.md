@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Dankzij de integratie met intelligente services kunt u de kracht van kunstmatige intelligentie en het leren van machines benutten in gevallen waarin de klant gebruikmaakt van ervaring. Dit staat voor marketing analisten toe om voorspellingen op te zetten specifiek voor de behoeften van een bedrijf gebruikend zaken-vlakke configuraties zonder de behoefte aan de deskundigheid van de gegevenswetenschap.
 
-Raadpleeg de [documentatie](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html)voor meer informatie over intelligente services.
+For more information on Intelligent Services, refer to the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html).
 
 Dankzij deze integratie kunt u gebruikmaken van:
 
