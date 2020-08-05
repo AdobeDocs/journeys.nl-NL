@@ -41,7 +41,7 @@ Als u een andere sleutel, zoals een identiteitskaart van CRM of een e-mailadres 
 
    ![](../assets/journey20.png)
 
-Wanneer de gebeurtenis wordt ontvangen, zal de waarde van de sleutel het systeem toestaan om de persoon te identificeren verbonden aan de gebeurtenis. Gekoppeld aan een naamruimte (zie [](../event/selecting-the-namespace.md)), kan de sleutel worden gebruikt om query&#39;s uit te voeren op het Adobe Experience Platform. Zie [](../building-journeys/about-orchestration-activities.md).
+Wanneer de gebeurtenis wordt ontvangen, zal de waarde van de sleutel het systeem toestaan om de persoon te identificeren verbonden aan de gebeurtenis. Gekoppeld aan een naamruimte (zie [](../event/selecting-the-namespace.md)) kan de sleutel worden gebruikt om query&#39;s uit te voeren op de Adobe Experience Platform. Zie [](../building-journeys/about-orchestration-activities.md).
 De sleutel wordt ook gebruikt om te controleren of een persoon op reis is. Een persoon kan namelijk niet op twee verschillende plaatsen op dezelfde reis zijn. Als gevolg hiervan staat het systeem niet toe dat dezelfde sleutel, bijvoorbeeld de sleutel CRMID=3224, zich op verschillende plaatsen op dezelfde reis bevindt.
 
 U hebt ook toegang tot de geavanceerde expressiefuncties (**[!UICONTROL Advanced mode]**) als u aanvullende bewerkingen wilt uitvoeren. Met deze functies kunt u de waarden manipuleren die worden gebruikt voor het uitvoeren van specifieke query&#39;s, zoals het wijzigen van de opmaak, het uitvoeren van veldsamenvoegingen, waarbij alleen rekening wordt gehouden met een deel van een veld (bijvoorbeeld de eerste 10 tekens). Zie [](../expression/expressionadvanced.md).
