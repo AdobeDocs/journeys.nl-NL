@@ -51,15 +51,15 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
 * Er is een interface beschikbaar voor het afvuren van gebeurtenissen naar de geteste reis, maar evenementen kunnen ook door systemen van derden, zoals Postman, worden verzonden.
 * Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Zie [](../building-journeys/testing-the-journey.md#create-test-profile).
-* De testmodus is alleen beschikbaar voor conceptochten waarbij een naamruimte wordt gebruikt. In de testmodus moet worden nagegaan of een persoon die de reis betreedt, een testprofiel is en dus in staat moet zijn het Adobe Experience Platform te bereiken.
+* De testmodus is alleen beschikbaar voor conceptochten waarbij een naamruimte wordt gebruikt. In de testmodus moet worden gecontroleerd of een persoon die de reis betreedt een testprofiel is en moet dus de Adobe Experience Platform kunnen bereiken.
 * Het maximumaantal testprofielen dat een reis tijdens een testsessie kan betreden, is 100.
 * Wanneer u de testmodus uitschakelt, worden de reizen verwijderd van alle mensen die het in het verleden hebben betreden of die er momenteel in zitten. Ook wordt de rapportage gewist.
 * U kunt de testmodus zo vaak als nodig in- en uitschakelen.
 * U kunt uw reis niet wijzigen wanneer de testwijze wordt geactiveerd. In de testmodus kunt u de rit rechtstreeks publiceren. U hoeft de testmodus daarvoor niet te deactiveren.
 
-## Een testprofiel maken{#create-test-profile}
+## Creating a test profile{#create-test-profile}
 
-Het proces voor het maken van een testprofiel is hetzelfde als wanneer u een profiel maakt in het Adobe Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+Het maken van een testprofiel gebeurt op dezelfde manier als wanneer u een profiel maakt in de Adobe Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 
 U moet een profielschema gebruiken dat de &quot;details van de profieltest&quot;mengen bevat. De markering testProfile maakt deel uit van deze mix.
 
@@ -119,7 +119,7 @@ De **[!UICONTROL Trigger an event]** knoop staat u toe om een gebeurtenis te vor
 >
 >Wanneer u een gebeurtenis in testmodus activeert, wordt een echte gebeurtenis gegenereerd. Dit betekent dat ook andere reizen naar deze gebeurtenis worden beïnvloed.
 
-Als voorwaarde moet u weten welke profielen als testprofielen zijn gemarkeerd in het Adobe Experience Platform. In de testmodus zijn deze profielen alleen toegestaan tijdens de reis en moet het evenement een id bevatten. De verwachte id is afhankelijk van de gebeurtenisconfiguratie. Het kan bijvoorbeeld een ECID zijn.
+Als voorwaarde moet u weten welke profielen in de Adobe Experience Platform zijn gemarkeerd als testprofielen. In de testmodus zijn deze profielen alleen toegestaan tijdens de reis en moet het evenement een id bevatten. De verwachte id is afhankelijk van de gebeurtenisconfiguratie. Het kan bijvoorbeeld een ECID zijn.
 
 Als uw reis verscheidene gebeurtenissen bevat, gebruik de drop-down lijst om een gebeurtenis te selecteren. Configureer vervolgens voor elke gebeurtenis de doorgegeven velden en de uitvoering van de gebeurtenis die de gebeurtenis verzendt. De interface helpt u de juiste informatie in de gebeurtenislading overgaan en ervoor zorgen het informatietype correct is. In de testmodus worden de laatste parameters die in een testsessie worden gebruikt, opgeslagen voor later gebruik.
 
