@@ -36,19 +36,19 @@ Als u een gebeurtenis bewerkt die in een concept of live transport wordt gebruik
 
 ## Algemeen beginsel {#section_r1f_xqt_pgb}
 
-Gebeurtenissen zijn POST API-aanroepen. Gebeurtenissen worden naar het Adobe Experience Platform verzonden via de Streaming Ingestie-API&#39;s. De URL-bestemming van gebeurtenissen die via transactie-API&#39;s worden verzonden, wordt een &quot;inlet&quot; genoemd. De nuttige lading van gebeurtenissen volgt het formatteren XDM.
+Gebeurtenissen zijn POST API-aanroepen. Gebeurtenissen worden naar de Adobe Experience Platform verzonden via Streaming Ingestie-API&#39;s. De URL-bestemming van gebeurtenissen die via transactie-API&#39;s worden verzonden, wordt een &quot;inlet&quot; genoemd. De nuttige lading van gebeurtenissen volgt het formatteren XDM.
 
 De nuttige lading bevat informatie die door Streaming Ingestie-API&#39;s wordt vereist om te werken (in de koptekst) en de informatie die vereist is om te werken (de gebeurtenis-id, een deel van de ladingsbak) en informatie die moet worden gebruikt tijdens reizen (in het lichaam, bijvoorbeeld de hoeveelheid verlaten wagen). [!DNL Journey Orchestration] Er zijn twee modi voor de streamingopname, geverifieerd en niet geverifieerd. Raadpleeg [deze koppeling](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)voor meer informatie over Streaming Ingestie-API&#39;s.
 
-Na aankomst door Streaming Ingestie APIs, stromen de gebeurtenissen in de interne dienst genoemd Pijpleiding en dan in het Adobe Experience Platform. Als het gebeurtenisschema de markering van de Dienst van het Profiel van de Klant in real time toegelaten heeft en een dataset identiteitskaart die ook de vlag van het Profiel van de Klant in real time heeft, vloeit het in de Dienst van het Profiel van de Klant in real time.
+Na aankomst door Streaming Ingestie APIs, stromen de gebeurtenissen in de interne dienst genoemd Pijpleiding en dan in de Adobe Experience Platform. Als het gebeurtenisschema de markering van de Dienst van het Profiel van de Klant in real time toegelaten heeft en een dataset identiteitskaart die ook de vlag van het Profiel van de Klant in real time heeft, vloeit het in de Dienst van het Profiel van de Klant in real time.
 
 De pijpleiding filtert gebeurtenissen die een lading hebben die gebeurtenisIDs (zie het proces van de gebeurtenisverwezenlijking hieronder) bevat door [!DNL Journey Orchestration] [!DNL Journey Orchestration] en in gebeurtenislading bevat. Er wordt naar deze gebeurtenissen geluisterd [!DNL Journey Orchestration] en de bijbehorende tocht wordt geactiveerd.
 
-## Een nieuwe gebeurtenis maken {#section_tbk_5qt_pgb}
+## Creating a new event {#section_tbk_5qt_pgb}
 
 Hier volgen de belangrijkste stappen voor het configureren van een nieuwe gebeurtenis:
 
-1. Klik in het bovenste menu op het **[!UICONTROL Events]** tabblad. De lijst met gebeurtenissen wordt weergegeven. Zie [](../about/user-interface.md) voor meer informatie over de interface.
+1. In the top menu, click on the **[!UICONTROL Events]** tab. De lijst met gebeurtenissen wordt weergegeven. Zie [](../about/user-interface.md) voor meer informatie over de interface.
 
    ![](../assets/journey5.png)
 
