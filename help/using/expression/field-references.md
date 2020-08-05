@@ -67,7 +67,7 @@ Er kan een standaardwaarde aan een veldnaam worden gekoppeld. De syntaxis is als
 
 Er wordt verwezen naar de elementen die in verzamelingen zijn gedefinieerd met behulp van de specifieke functies all, first en last. Zie voor meer informatie [](../expression/collection-management-functions.md).
 
-Voorbeeld:
+Voorbeeld :
 
 ```
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
