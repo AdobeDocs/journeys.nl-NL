@@ -49,7 +49,7 @@ Voor dit gebruik moeten we twee gebeurtenissen maken (zie [](../usecase/configur
 
 We moeten een verbinding met twee gegevensbronnen configureren (zie [](../usecase/configuring-the-data-sources.md)):
 
-* De ingebouwde gegevensbron van het Adobe Experience Platform, om de informatie voor onze twee voorwaarden (loyaliteitslidmaatschap en laatste contactdatum) evenals de informatie van de berichtverpersoonlijking terug te winnen.
+* De ingebouwde gegevensbron van Adobe Experience Platform, om de informatie voor onze twee voorwaarden (loyaliteitslidmaatschap en laatste contactdatum) evenals de informatie van de berichtverpersoonlijking terug te winnen.
 * Het hotelreserveringssysteem om de informatie over de reserveringsstatus op te halen.
 
 ## Voorwaarden {#prerequisites}
