@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 72a3fd98b7911a1b8f23ccfeb55b884926f795ce
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ U kunt een reis sluiten door te klikken **[!UICONTROL Close to new entrances]** 
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
-U kunt ook:
+U kunt ook het volgende doen:
 
 1. Klik in **[!UICONTROL Home]** op de rit die u wilt sluiten.
 1. Klik rechtsboven op de pijl omlaag.
@@ -57,7 +57,7 @@ U kunt een reis tegenhouden (bijvoorbeeld als een prijsmeter zich realiseert dat
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
-U kunt ook:
+U kunt ook het volgende doen:
 
 1. Klik **[!UICONTROL Home]** in op de reis die u wilt stoppen.
 1. Klik rechtsboven op de pijl omlaag.
