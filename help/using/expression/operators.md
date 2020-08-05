@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -96,7 +96,7 @@ Hier volgt een lijst met ondersteunde operatoren:
 <tr ><td>is integer</td><td><p><pre>&lt;expression&gt; is integer</pre></p><p>Het type van de expressie is geheel getal.</p></td><td><pre>@ is geheel getal</pre></td></tr>
 <tr ><td>is decimaal</td><td><p><pre>&lt;expression&gt; is decimal</pre></p><p>Het type van de expressie is decimaal.</p></td><td><pre>@ is decimaal</pre></td></tr>
 
-## String
+## Tekenreeks
 
 <table>
 <thead>
