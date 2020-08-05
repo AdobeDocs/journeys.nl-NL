@@ -23,13 +23,13 @@ ht-degree: 0%
 
 ## Informatie over segmentkwalificatiegebeurtenissen{#about-segment-qualification}
 
-Met deze activiteit kunt u luisteren naar de in- en uitgangen van profielen in segmenten van het Adobe Experience Platform om ervoor te zorgen dat individuen een reis kunnen maken of vooruit kunnen gaan. Raadpleeg deze [sectie](../segment/about-segments.md)voor meer informatie over het maken van segmenten.
+Met deze activiteit kunt u luisteren naar de ingangen en uitgangen van profielen in Adobe Experience Platform-segmenten om ervoor te zorgen dat individuen op reis kunnen gaan of vooruit kunnen gaan. For more information on segment creation, refer to this [section](../segment/about-segments.md).
 
 Laten we zeggen dat je een &quot;zilveren klant&quot;-segment hebt. Met deze activiteit, kunt u alle nieuwe zilveren klanten een reis maken en hen een reeks gepersonaliseerde berichten verzenden.
 
 Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
-Wanneer het segment wordt gestreamd met de optie Frequentie van publiek Adobe Experience Platform, wordt er in real-time naar de toegang en de uitgang geluisterd. Als het segment niet wordt gestreamd, wordt bij de berekening van het segment rekening gehouden met de in- en uitgangen.
+Wanneer het segment wordt gestreamd met de optie High Frequency Audiences van Adobe Experience Platform, wordt er in real-time naar de toegang en de uitgang geluisterd. Als het segment niet wordt gestreamd, wordt bij de berekening van het segment rekening gehouden met de in- en uitgangen.
 
 1. Ontvouw de **[!UICONTROL Events]** categorie en laat een **[!UICONTROL Segment qualification]** activiteit op uw canvas vallen.
 
@@ -85,6 +85,6 @@ Gebruik in een **[!UICONTROL Segment Qualification]** activiteit niet onmiddelli
 
 Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen (zie deze [sectie](../api/capping.md)). De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door de doos **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of acties te controleren.
 
-Voordat u het segment in een productietraject gaat gebruiken, moet u altijd eerst het aantal personen beoordelen dat dagelijks voor dit segment in aanmerking komt. U kunt dit doen door de **[!UICONTROL Segments]** sectie in het Adobe Experience Platform te controleren en de grafiek aan de rechterkant te bekijken.
+Voordat u het segment in een productietraject gaat gebruiken, moet u altijd eerst het aantal personen beoordelen dat dagelijks voor dit segment in aanmerking komt. U kunt dit doen door de **[!UICONTROL Segments]** sectie in de Adobe Experience Platform te controleren en de grafiek aan de rechterkant te bekijken.
 
 ![](../assets/segment-overload.png)
