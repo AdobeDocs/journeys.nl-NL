@@ -21,11 +21,11 @@ ht-degree: 0%
 
 # De gegevensbronnen configureren {#concept_vml_hdy_w2b}
 
-In ons gebruiksgeval, willen wij verpersoonlijkingsgegevens voor onze berichten gebruiken. We moeten ook controleren of de persoon een loyaliteitslid is en in de afgelopen 24 uur niet is benaderd. Deze informatie wordt opgeslagen in het gegevensbestand van het Profiel van de Klant in real time. De **technische gebruiker** moet de gegevensbron van het Adobe Experience Platform vormen om die gebieden terug te winnen.
+In ons gebruiksgeval, willen wij verpersoonlijkingsgegevens voor onze berichten gebruiken. We moeten ook controleren of de persoon een loyaliteitslid is en in de afgelopen 24 uur niet is benaderd. Deze informatie wordt opgeslagen in het gegevensbestand van het Profiel van de Klant in real time. De **technische gebruiker** moet de Adobe Experience Platform-gegevensbron configureren om deze velden op te halen.
 
 Voor extra informatie over gegevensbronconfiguratie, verwijs naar [](../datasource/about-data-sources.md).
 
-1. Klik in het bovenste menu op het **[!UICONTROL Data Sources]** tabblad en selecteer de gegevensbron van het ingebouwde Adobe Experience Platform.
+1. Klik in het bovenste menu op het **[!UICONTROL Data Sources]** tabblad en selecteer de Adobe Experience Platform-gegevensbron voor de build-in.
 
    ![](../assets/journey23.png)
 
