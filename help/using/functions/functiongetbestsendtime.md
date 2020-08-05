@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Biedt een voorspelbare tijd voor het leveren van een e-mail aan een individu.
 
-Deze functie gebruikt een score die in het Adobe Experience Platform wordt berekend. De score berekent de neiging om in de toekomst op e-mail te klikken of te openen op basis van gedrag uit het verleden. Merk op dat het algoritme dat de score berekent een bepaalde hoeveelheid gegevens vereist om te werken. Als er onvoldoende gegevens zijn, is de standaardtijd dus van toepassing. Zie voor meer informatie [](../building-journeys/wait-activity.md).
+Deze functie gebruikt een score die in de Adobe Experience Platform is berekend. De score berekent de neiging om in de toekomst op e-mail te klikken of te openen op basis van gedrag uit het verleden. Merk op dat het algoritme dat de score berekent een bepaalde hoeveelheid gegevens vereist om te werken. Als er onvoldoende gegevens zijn, is de standaardtijd dus van toepassing. Zie voor meer informatie [](../building-journeys/wait-activity.md).
 
 Voor het gebruik van deze functie is een [naamruimte](../event/selecting-the-namespace.md) nodig.
 
