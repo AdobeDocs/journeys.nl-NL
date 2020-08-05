@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Retourneert true als de tweede parameter een voorvoegsel van de eerste is zonder
 
 ## Categorie
 
-String
+Tekenreeks
 
 ## Functiesyntaxis
 
