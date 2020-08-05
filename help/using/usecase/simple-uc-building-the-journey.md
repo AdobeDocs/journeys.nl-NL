@@ -26,7 +26,7 @@ De **bedrijfsgebruiker** kan nu de reis bouwen. Onze reis zal slechts één weg 
 * het &quot;SpaBeacon&quot; **[!UICONTROL Event]**: wanneer een persoon in de buurt van het spa - baken loopt , zal het systeem een evenement ontvangen en zal de reis voor die persoon beginnen .
 * een **[!UICONTROL Condition]** activiteit om na te gaan of de persoon een vrouw is
 * een **[!UICONTROL Email]** activiteit (met Adobe Campaign Standard)
-* een **[!UICONTROL End]** activiteit
+* an **[!UICONTROL End]** activity
 
 >[!NOTE]
 >
