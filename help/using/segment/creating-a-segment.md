@@ -22,9 +22,9 @@ ht-degree: 0%
 
 # Een segment maken {#creating-a-segment}
 
-U kunt of een segment tot stand brengen gebruikend de Dienst [van de Segmentatie van het](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Adobe Experience Platform of u kunt tot hen toegang hebben en direct tot stand brengen in [!DNL Journey Orchestration].
+U kunt of een segment tot stand brengen gebruikend de Dienst [van de Segmentatie van](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Adobe Experience Platform of u kunt tot hen toegang hebben en direct tot stand brengen in [!DNL Journey Orchestration].
 
-1. Klik in het bovenste menu op het **[!UICONTROL Segments]** tabblad. De lijst met Adobe Experience Platforms segmenten wordt weergegeven. U kunt naar een specifiek segment in de lijst zoeken.
+1. In the top menu, click on the **[!UICONTROL Segments]** tab. De lijst met Adobe Experience Platform-segmenten wordt weergegeven. U kunt naar een specifiek segment in de lijst zoeken.
 
 ![](../assets/segment1.png)
 
