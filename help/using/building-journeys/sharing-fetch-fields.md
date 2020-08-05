@@ -33,7 +33,7 @@ Type: lang
 
 ## fetchTypeInError
 
-Definieert of de fout Ophalen zich op het Adobe Experience Platform of op een aangepaste gegevensbron bevindt.
+Definieert of de fout Ophalen in zich op de Adobe Experience Platform of op een aangepaste gegevensbron bevindt.
 
 Type: string
 
@@ -93,13 +93,13 @@ Type: lang
 
 ## fetchPlatformTotalTime
 
-De totale hoeveelheid tijd die nodig is om de gegevens van het Adobe Experience Platform in millis op te halen. Opmerking: deze hoeveelheid tijd wordt berekend vanaf het tijdstip waarop de motor de verrijkingsgebeurtenis naar de verrijkingsdienst verzendt en de reactie ontvangt .
+De totale hoeveelheid tijd die nodig is om de gegevens van Adobe Experience Platform op te halen in millis. Opmerking: deze hoeveelheid tijd wordt berekend vanaf het tijdstip waarop de motor de verrijkingsgebeurtenis naar de verrijkingsdienst verzendt en de reactie ontvangt .
 
 Type: lang
 
 ## fetchPlatformCount
 
-Hoeveel keer worden de gegevens opgehaald van Adobe Experience Platform.
+Hoeveel keer worden de gegevens opgehaald uit Adobe Experience Platform.
 
 Type: lang
 
