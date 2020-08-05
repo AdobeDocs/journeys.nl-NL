@@ -12,23 +12,23 @@ translation-type: tm+mt
 source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
 # Toegangsbeheer{#concept_rfj_wpt_52b}
 
-## Over toegangsbeheer {#about-access-management}
+## Toegangsbeheer {#about-access-management}
 
 [!DNL Journey Orchestration] staat u toe om een reeks toestemmingen aan uw gebruikers toe te wijzen om te bepalen tot welk deel van de interface zij toegang hebben.
 
-Ze kunnen worden beheerd door beheerders die toegang hebben tot de beheerconsole. Raadpleeg deze [documentatie](https://helpx.adobe.com/enterprise/managing/user-guide.html)voor meer informatie over de beheerconsole.
+Ze kunnen worden beheerd door beheerders die toegang hebben tot de beheerconsole. Raadpleeg deze [documentatie](https://helpx.adobe.com/enterprise/managing/user-guide.html)voor meer informatie over de Admin Console.
 
 Een gebruiker moet het volgende hebben om toegang te krijgen [!DNL Journey Orchestration]:
 
 * onderdeel van een [!DNL Journey Orchestration] koppeling **[!UICONTROL product profile]** naar [!DNL Journey Orchestration] machtigingen.
-* een deel van een [!DNL Adobe Experience Platform] . **[!UICONTROL product profile]**. Er is geen verplichte toestemming. De gebruiker zou de **[!UICONTROL profile management]** toestemming moeten hebben om platformsegmenten van [!DNL Journey Orchestration] interface tot stand te brengen en uit te geven. For more on this, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html#adobe-admin-console).
+* een deel van een [!DNL Adobe Experience Platform] . **[!UICONTROL product profile]**. Er is geen verplichte toestemming. De gebruiker zou de **[!UICONTROL profile management]** toestemming moeten hebben om platformsegmenten van [!DNL Journey Orchestration] interface tot stand te brengen en uit te geven. Raadpleeg [deze pagina](https://docs.adobe.com/content/help/en/experience-platform/access-control/home.html#adobe-admin-console) voor meer informatie.
 
 In de beheerconsole kunt u een van de volgende out-of-the-box productprofielen aan uw gebruikers toewijzen:
 
@@ -70,7 +70,7 @@ Hieronder vindt u de compatibiliteit tussen machtigingen en [!DNL Journey Orches
 
 [!DNL Journey Orchestration] kunt u uw eigen productprofielen maken en een set machtigingen en sandboxen aan uw gebruikers toewijzen. Met productprofielen kunt u toegang tot bepaalde functies of objecten in de interface toestaan of weigeren.
 
-Raadpleeg de documentatie bij het [Adobe Experience Platform voor meer informatie over het maken en beheren van sandboxen](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
+Raadpleeg de documentatie bij [Adobe Experience Platform voor meer informatie over het maken en beheren van sandboxen](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
 
 Een productprofiel maken en een set machtigingen en sandboxen toewijzen:
 
@@ -86,7 +86,7 @@ Een productprofiel maken en een set machtigingen en sandboxen toewijzen:
 
    ![](../assets/do-not-localize/user_management_1.png)
 
-1. Selecteer het nieuwe productprofiel om machtigingen te beheren. Voeg op het **[!UICONTROL Users]** tabblad gebruikers toe aan uw productprofiel. For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
+1. Selecteer het nieuwe productprofiel om machtigingen te beheren. Voeg op het **[!UICONTROL Users]** tabblad gebruikers toe aan uw productprofiel. Raadpleeg [deze pagina](../about/access-management.md#assigning-product-profile) voor meer informatie.
 
 1. Voer dezelfde stappen uit als hierboven beschreven om toe te voegen **[!UICONTROL Admin]** aan uw productprofiel.
 
@@ -94,7 +94,7 @@ Een productprofiel maken en een set machtigingen en sandboxen toewijzen:
 
    ![](../assets/do-not-localize/user_management_7.png)
 
-1. Kies in de **[!UICONTROL Sandboxes]** machtigingencategorie welke sandbox(s) u wilt toewijzen aan uw productprofiel. Klik onder **[!UICONTROL Available Permissions Items]**, op de plusknop (+) om sandboxen aan uw profiel toe te wijzen. Zie deze [sectie](../about/access-management.md#sandboxes)voor meer informatie over sandboxen.
+1. Kies in de **[!UICONTROL Sandboxes]** machtigingencategorie welke sandbox(s) u wilt toewijzen aan uw productprofiel. Klik onder **[!UICONTROL Available Permissions Items]**, op de plusknop (+) om sandboxen aan uw profiel toe te wijzen. For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
    ![](../assets/do-not-localize/user_management_8.png)
 
@@ -128,7 +128,7 @@ Een productprofiel toewijzen dat een gebruiker kan openen [!DNL Journey Orchestr
 
 1. Klik op **[!UICONTROL Add user]**.
 
-   U kunt uw nieuwe gebruiker aan een gebruikersgroep ook toevoegen om de gedeelde reeks toestemmingen te verfijnen. For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
+   U kunt uw nieuwe gebruiker aan een gebruikersgroep ook toevoegen om de gedeelde reeks toestemmingen te verfijnen. Raadpleeg [deze pagina](https://helpx.adobe.com/enterprise/using/user-groups.html) voor meer informatie.
 
    ![](../assets/do-not-localize/user_management_3.png)
 
@@ -141,9 +141,9 @@ Uw gebruiker moet dan een e-mail ontvangen die naar uw [!DNL Journey Orchestrati
 ## Sandboxen gebruiken {#sandboxes}
 
 [!DNL Journey Orchestration] kunt u uw instantie opdelen in afzonderlijke virtuele omgevingen, sandboxen genoemd.
-Sandboxen worden toegewezen via productprofielen in de beheerconsole. Raadpleeg deze [sectie](../about/access-management.md#create-product-profile)voor meer informatie over het toewijzen van sandboxen.
+Sandboxen worden toegewezen via productprofielen in de beheerconsole. For more information on how to assign sandboxes, refer to this [section](../about/access-management.md#create-product-profile).
 
-[!DNL Journey Orchestration] weerspiegelt de sandboxen voor Adobe Experience Platforms die voor een bepaalde organisatie zijn gemaakt.
-U kunt Adobe Experience Platform-sandboxen maken of opnieuw instellen vanuit uw Adobe Experience Platform-instantie. Raadpleeg de gebruikershandleiding [van de](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) sandbox voor de gedetailleerde stappen.
+[!DNL Journey Orchestration] weerspiegelt de Adobe Experience Platform-sandboxen die voor een bepaalde organisatie zijn gemaakt.
+Adobe Experience Platform-sandboxen kunnen worden gemaakt of opnieuw worden ingesteld vanuit uw Adobe Experience Platform-instantie. Raadpleeg de gebruikershandleiding [van de](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) sandbox voor de gedetailleerde stappen.
 
 U kunt het besturingselement voor de sandboxswitch linksboven in het scherm vinden. Als u van de ene naar de andere sandbox wilt schakelen, klikt u op de momenteel actieve sandbox in de switch en selecteert u een andere sandbox in de vervolgkeuzelijst.
