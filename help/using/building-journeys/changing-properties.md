@@ -58,6 +58,6 @@ Vanwege de 30 dagen durende reistijd, wanneer het niet is toegestaan om de reis 
 
 De tijdzone wordt gedefinieerd op het niveau van de reis.
 
-U kunt een vaste tijdzone invoeren of profielen voor Adobe Experience Platforms gebruiken om de tijdzone van de reistijd te definiëren.
+U kunt een vaste tijdzone invoeren of Adobe Experience Platform-profielen gebruiken om de tijdzone van de reis te definiëren.
 
 Zie voor meer informatie over tijdzonebeheer [](../building-journeys/timezone-management.md).
