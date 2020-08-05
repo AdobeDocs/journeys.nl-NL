@@ -72,7 +72,7 @@ Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 202
 >
 >De functie voor het optimaliseren van de verzendtijd van e-mail is alleen beschikbaar voor klanten die de functie Adobe Campaign Standard Data Service gebruiken.
 
-Bij dit type wachttijd wordt een score gebruikt die in het Adobe Experience Platform is berekend. De score berekent de neiging om in de toekomst op e-mail te klikken of te openen op basis van gedrag uit het verleden. Merk op dat het algoritme dat de score berekent een bepaalde hoeveelheid gegevens vereist om te werken. Als er onvoldoende gegevens zijn, is de standaardwachttijd dus van toepassing. Tijdens de publicatie wordt u op de hoogte gesteld dat de standaardtijd van toepassing is.
+Voor dit type wachttijd wordt een score gebruikt die in de Adobe Experience Platform is berekend. De score berekent de neiging om in de toekomst op e-mail te klikken of te openen op basis van gedrag uit het verleden. Merk op dat het algoritme dat de score berekent een bepaalde hoeveelheid gegevens vereist om te werken. Als er onvoldoende gegevens zijn, is de standaardwachttijd dus van toepassing. Tijdens de publicatie wordt u op de hoogte gesteld dat de standaardtijd van toepassing is.
 
 >[!NOTE]
 >
