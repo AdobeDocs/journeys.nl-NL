@@ -83,7 +83,7 @@ Mogelijke waarden:
 
 * Voorwaarde
 * Handeling
-* Planner
+* De activiteit Planner
 * Timer
 
 ## stepStatus
