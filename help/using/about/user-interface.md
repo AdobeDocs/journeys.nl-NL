@@ -35,7 +35,7 @@ U kunt ook toegang krijgen [!DNL Journey Orchestration] vanaf de startpagina van
 
 ![](../assets/journey1bis.png)
 
-## De interface verkennen{#section_jsq_zr1_ffb}
+## Kennismaken met de interface{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
 >id="jo_home"
@@ -77,7 +77,7 @@ In de verschillende lijsten kunt u basishandelingen op elk element uitvoeren. U 
 
 ![](../assets/journey4.png)
 
-## Door Adobe Experience Platforms velden bladeren {#friendly-names-display}
+## Bladeren door Adobe Experience Platform-velden {#friendly-names-display}
 
 Bij het definiëren van een [gebeurtenislading](../event/defining-the-payload-fields.md), het laden [van een](../datasource/field-groups.md) veldgroep en het selecteren van velden in de [expressieeditor](../expression/expressionadvanced.md), wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring.
 
