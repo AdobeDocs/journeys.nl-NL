@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -39,7 +39,7 @@ Deze nieuwe methode is meestal transparant voor gebruikers. De enige wijziging i
 
    ![](../assets/alpha-event3.png)
 
-1. Selecteer in het nieuwe **[!UICONTROL Event ID type]** veld **[!UICONTROL Rule Based]**.
+1. In the new **[!UICONTROL Event ID type]** field, select **[!UICONTROL Rule Based]**.
 
    ![](../assets/alpha-event4.png)
 
