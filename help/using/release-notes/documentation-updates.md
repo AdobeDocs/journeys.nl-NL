@@ -1,5 +1,5 @@
 ---
-title: Documentatieupdates
+title: Documentatie-updates
 description: Meer informatie over updates van documentatie
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,19 +14,19 @@ translation-type: tm+mt
 source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 
-# Documentatieupdates
+# Documentatie-updates
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Orchestration].
 U kunt ook de opmerkingen bij de [!DNL Journey Orchestration] release [](../release-notes/release-notes.md)raadplegen.
 
 ## Juli 2020 {#july-2020}
 
-* Er is een koppeling toegevoegd naar een nieuwe zelfstudievideo over stapgebeurtenissen die rapporteren aan het Adobe Experience Platform. [Meer informatie](../building-journeys/sharing-overview.md)
+* Er is een koppeling toegevoegd naar een nieuwe zelfstudievideo over stapgebeurtenissen die rapporteren aan Adobe Experience Platform. [Meer informatie](../building-journeys/sharing-overview.md)
 * De sectie van de gebeurtenisactiviteiten is gereorganiseerd in specifieke subsecties voor elk type van gebeurtenissen. [Meer informatie](../building-journeys/event-activities.md)
 * Toegevoegde beste praktijken om overbelasting met segmentkwantificering te vermijden. [Meer informatie](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Er is een notitie toegevoegd om uit te leggen hoe een reis moet worden voortgezet na een fout in een handeling of een voorwaarde. [Meer informatie](../about/troubleshooting.md#section_h3q_kqk_fhb)
@@ -67,7 +67,7 @@ U kunt ook de opmerkingen bij de [!DNL Journey Orchestration] release [](../rele
 * De interfacebeschrijving is bijgewerkt met informatie over contextuele hulp. [Meer informatie](../about/user-interface.md#section_ksq_zr1_ffb)
 * Wanneer u door **XDM-velden** bladert, wordt de vriendelijke naam nu weergegeven. Verwante secties zijn bijgewerkt. [Meer informatie](../about/user-interface.md#friendly-names-display)
 
-## februari 2020 {#february-2020}
+## February 2020 {#february-2020}
 
 * De sneltoetssectie is bijgewerkt. Met de sneltoets **C** kunt u een nieuw item maken in alle lijstschermen. [Meer informatie](../about/user-interface.md#section_ksq_zr1_ffb)
 * De pagina&#39;s met [gegevensbronnen](../datasource/about-data-sources.md) en [het overzicht van acties](../action/action.md) zijn verbeterd.
