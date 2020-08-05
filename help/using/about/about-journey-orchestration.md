@@ -21,17 +21,17 @@ ht-degree: 0%
 
 Stel in real-time implementatiefuncties samen voor het orkestgebruik, waarbij gebruik wordt gemaakt van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen.
 
-[!DNL Journey Orchestration] is een toepassingsservice die met het Adobe Experience Platform is geïntegreerd.
+[!DNL Journey Orchestration] is een toepassingsservice die is geïntegreerd met de Adobe Experience Platform.
 
 ![](../assets/journeydiagram.png)
 
-[!DNL Journey Orchestration] staat organisatie in real time toe die door contextafhankelijke gegevens van gebeurtenissen, informatie van het Adobe Experience Platform, of gegevens van de diensten van derdeAPI wordt aangedreven. U kunt een douaneactie vormen als u een derdesysteem gebruikt om uw berichten te verzenden. Als je Adobe Campaign Standard hebt, kun je e-mails, pushberichten en SMS verzenden via de mogelijkheden [voor](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)Transactieberichten van Adobe Campaign Standard.
+[!DNL Journey Orchestration] staat organisatie in real time toe die door contextuele gegevens van gebeurtenissen, informatie van de Adobe Experience Platform, of gegevens van de diensten van derdeAPI wordt aangedreven. U kunt een douaneactie vormen als u een derdesysteem gebruikt om uw berichten te verzenden. Als je Adobe Campaign Standard hebt, kun je e-mails, pushberichten en SMS verzenden via de mogelijkheden [voor](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)Transactieberichten van Adobe Campaign Standard.
 
 In het lusje van de gebeurtenisconfiguratie, vormt een **technische gebruiker** gebeurtenissen die in de reizen worden verwacht. De gegevens van binnenkomende gebeurtenissen worden genormaliseerd volgens het Adobe Experience Data Model (XDM). Gebeurtenissen komen van de Streaming Ingestie-API&#39;s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen).
 
 In het lusje van de gegevensbronconfiguratie, vormt een **technische gebruiker** :
 
-* De verschillende gebieden die van het Adobe Experience Platform in de reisontwerper voor voorwaardenbouw en verpersoonlijkingsdoeleinden worden blootgesteld.
+* De verschillende velden die vanuit de Adobe Experience Platform in de reisontwerper beschikbaar worden gesteld voor conditieopbouw en personalisatie.
 * De extra bronnen van douanegegevens die u hefboomwerking in de reisontwerper. Aangepaste gegevensbronnen zijn verbindingen tussen systemen [!DNL Journey Orchestration] en services van derden via API. U kunt een systeem van de derde zoals een loyaliteitssysteem aansluiten. De derdediensten kunnen, bijvoorbeeld, een weer API zijn.
 
 Met de reisontwerper, kan een **bedrijfsgebruiker** een ingangsgebeurtenis gemakkelijk slepen en laten vallen, voorwaarden toevoegen en de uit te voeren actie specificeren.
