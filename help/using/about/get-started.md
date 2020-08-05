@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DN
 
 1. **De gegevensbron configureren**
 
-   U moet een verbinding met een systeem bepalen om extra informatie terug te winnen die in uw reizen, bijvoorbeeld in uw voorwaarden zal worden gebruikt. Een ingebouwde gegevensbron van het Adobe Experience Platform wordt ook gevormd bij leveringstijd. Deze stap is niet vereist als u alleen gegevens uit de gebeurtenissen op uw reis gebruikt. Deze stap wordt uitgevoerd door een **technische gebruiker**.
+   U moet een verbinding met een systeem bepalen om extra informatie terug te winnen die in uw reizen, bijvoorbeeld in uw voorwaarden zal worden gebruikt. Een ingebouwde Adobe Experience Platform-gegevensbron wordt ook geconfigureerd tijdens de provisioning. Deze stap is niet vereist als u alleen gegevens uit de gebeurtenissen op uw reis gebruikt. Deze stap wordt uitgevoerd door een **technische gebruiker**.
 
    For more on this, refer to [](../datasource/about-data-sources.md).
 
@@ -53,7 +53,7 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DN
 
    Combineer de verschillende gebeurtenis-, organisatie- en actieactiviteiten om uw meerstapsscenario&#39;s voor meerdere kanalen te maken. Deze stap wordt uitgevoerd door een **bedrijfsgebruiker**.
 
-   Zie voor meer informatie [](../building-journeys/journey.md).
+   Voor meer informatie raadpleegt u [](../building-journeys/journey.md).
 
    ![](../assets/journeyuc2_24.png)
 
@@ -61,7 +61,7 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DN
 
    U moet de reis valideren en activeren. Deze stap wordt uitgevoerd door een **bedrijfsgebruiker**.
 
-   Zie [](../building-journeys/testing-the-journey.md) en [](../building-journeys/publishing-the-journey.md).
+   For more on this, see [](../building-journeys/testing-the-journey.md) and [](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journeyuc2_32bis.png)
 
@@ -69,7 +69,7 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DN
 
    Gebruik de specifieke rapporteringshulpmiddelen om de doeltreffendheid van uw reis te meten. Deze stap wordt uitgevoerd door een **bedrijfsgebruiker**.
 
-   Zie voor meer informatie [](../reporting/about-journey-reports.md).
+   Voor meer informatie raadpleegt u [](../reporting/about-journey-reports.md).
 
    ![](../assets/dynamic_report_journey_12.png)
 
