@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Voegt twee tekenreeksparameters of een lijst met tekenreeksen samen.
 
 ## Categorie
 
-String
+Tekenreeks
 
 ## Functiesyntaxis
 
