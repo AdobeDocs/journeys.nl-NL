@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -72,25 +72,25 @@ Hier volgt een lijst met ondersteunde functies.
 | Lijst | [](../functions/functionsort.md) |
 | Math | [](../functions/functionrandom.md) |
 | Math | [](../functions/functionround.md) |
-| String | [](../functions/functionconcat.md) |
-| String | [](../functions/functioncontain.md) |
-| String | [](../functions/functioncontainwithignorecase.md) |
-| String | [](../functions/functionendwith.md) |
-| String | [](../functions/functionendwithignorecase.md) |
-| String | [](../functions/functionequalignorecase.md) |
-| String | [](../functions/functionindexof.md) |
-| String | [](../functions/functionisempty.md) |
-| String | [](../functions/functionisnotempty.md) |
-| String | [](../functions/functionlastindexof.md) |
-| String | [](../functions/functionlength.md) |
-| String | [](../functions/functionlower.md) |
-| String | [](../functions/functionmatchregexp.md) |
-| String | [](../functions/functionnotequalignorecase.md) |
-| String | [](../functions/functionreplace.md) |
-| String | [](../functions/functionreplaceall.md) |
-| String | [](../functions/functionstartwith.md) |
-| String | [](../functions/functionstartwithignorecase.md) |
-| String | [](../functions/functionsubstr.md) |
-| String | [](../functions/functiontrim.md) |
-| String | [](../functions/functionupper.md) |
-| String | [](../functions/functionuuid.md) |
+| Tekenreeks | [](../functions/functionconcat.md) |
+| Tekenreeks | [](../functions/functioncontain.md) |
+| Tekenreeks | [](../functions/functioncontainwithignorecase.md) |
+| Tekenreeks | [](../functions/functionendwith.md) |
+| Tekenreeks | [](../functions/functionendwithignorecase.md) |
+| Tekenreeks | [](../functions/functionequalignorecase.md) |
+| Tekenreeks | [](../functions/functionindexof.md) |
+| Tekenreeks | [](../functions/functionisempty.md) |
+| Tekenreeks | [](../functions/functionisnotempty.md) |
+| Tekenreeks | [](../functions/functionlastindexof.md) |
+| Tekenreeks | [](../functions/functionlength.md) |
+| Tekenreeks | [](../functions/functionlower.md) |
+| Tekenreeks | [](../functions/functionmatchregexp.md) |
+| Tekenreeks | [](../functions/functionnotequalignorecase.md) |
+| Tekenreeks | [](../functions/functionreplace.md) |
+| Tekenreeks | [](../functions/functionreplaceall.md) |
+| Tekenreeks | [](../functions/functionstartwith.md) |
+| Tekenreeks | [](../functions/functionstartwithignorecase.md) |
+| Tekenreeks | [](../functions/functionsubstr.md) |
+| Tekenreeks | [](../functions/functiontrim.md) |
+| Tekenreeks | [](../functions/functionupper.md) |
+| Tekenreeks | [](../functions/functionuuid.md) |
