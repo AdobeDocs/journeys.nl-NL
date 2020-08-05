@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 workflow-type: tm+mt
 source-wordcount: '34'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -25,7 +25,7 @@ Retourneert het aantal tekens van de tekenreeksexpressie in de parameter.
 
 ## Categorie
 
-String
+Tekenreeks
 
 ## Functiesyntaxis
 
