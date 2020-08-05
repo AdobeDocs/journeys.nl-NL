@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -64,14 +64,14 @@ Hieronder wordt beschreven hoe expressies van gegevenstypen worden weergegeven:
     </tr>
     <tr>
         <td>dateTimeOnly</td>
-        <td><p>Vertegenwoordigt een datumtijd zonder een tijdzone, die als jaar-maand-dag-uur-minuut-seconde-milliseconde wordt bekeken.</p><p>Er wordt geen tijdzone opgeslagen of weergegeven.</p><p>In plaats daarvan is het een beschrijving van de datum, zoals die voor verjaardagen wordt gebruikt, gecombineerd met de lokale tijd zoals die op een muurklok wordt gezien.</p><p>Het kan geen onmiddellijk op tijdlijn zonder extra informatie zoals een compensatie of tijdzone vertegenwoordigen.</p><p>Serienummeringsindeling: ISO-8601 extended offset date-time format.</p><p>Er wordt DateTimeFormatter gebruikt.</p><p>ISO_LOCAL_DATE_TIME om de waarde te deserialiseren en serialiseren.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">Meer</a>informatie.</td>
+        <td><p>Vertegenwoordigt een datumtijd zonder een tijdzone, die als jaar-maand-dag-uur-minuut-seconde-milliseconde wordt bekeken.</p><p>Er wordt geen tijdzone opgeslagen of weergegeven.</p><p>In plaats daarvan is het een beschrijving van de datum, zoals die voor verjaardagen wordt gebruikt, gecombineerd met de lokale tijd zoals die op een muurklok wordt gezien.</p><p>Het kan geen onmiddellijk op tijdlijn zonder extra informatie zoals een compensatie of tijdzone vertegenwoordigen.</p><p>Serienummeringsindeling: ISO-8601 extended offset date-time format.</p><p>Er wordt DateTimeFormatter gebruikt.</p><p>ISO_LOCAL_DATE_TIME om de waarde te deserialiseren en serialiseren.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">Meer informatie</a>.</td>
         <td><p>toDateTimeOnly("&lt;dateTimeOnly in ISO-8601-indeling&gt;")</p></td>
         <td></td>
     </tr>
     <tr>
         <td>dateTime</td>
         <td><p>Datumtijdconstante die ook rekening houdt met tijdzone.</p><p>Deze vertegenwoordigt een datum-tijd met een verschuiving van UTC. Het kan als onmiddellijk in tijd met de extra informatie van de compensatie worden bekeken. </p><p>Het is een manier om een specifiek "moment" te vertegenwoordigen op een bepaalde plaats in de wereld.</p><p>JSON-indeling: Tekenreeks.</p><p> Deze moet zijn ingekapseld in een toDateTime-functie.</p><p>
-        Serienummeringsindeling: ISO-8601 extended offset date-time format.</p><p> Het gebruikt DateTimeFormatter.ISO_OFFSET_DATE_TIME om de waarde te deserialiseren en serialiseren.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">Meer</a>informatie. 
+        Serienummeringsindeling: ISO-8601 extended offset date-time format.</p><p> Het gebruikt DateTimeFormatter.ISO_OFFSET_DATE_TIME om de waarde te deserialiseren en serialiseren.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">Meer informatie</a>. 
         <p>U kunt ook een geheel getal doorgeven dat een epochwaarde doorgeeft.</p> <a href="https://www.epochconverter.com/">Meer informatie</a>.</p>
         <p>De tijdzone kan door een compensatie of een code van de tijdzone worden gespecificeerd (voorbeeld: Europa/Parijs, Z - UTC).</p></td>
         <td><p>toDateTime("&lt;dateTime in ISO-8601-indeling&gt;")</p>
@@ -81,7 +81,7 @@ Hieronder wordt beschreven hoe expressies van gegevenstypen worden weergegeven:
     </tr>
     <tr>
         <td>duur</td>
-        <td><p>Het vertegenwoordigt een tijd-gebaseerde hoeveelheid tijd, zoals "34.5 seconden".</p><p> Het modelleert een hoeveelheid of een hoeveelheid tijd in milliseconden.</p><p>De ondersteunde tijdseenheden zijn: milliseconden, seconden, minuten, uren, dagen waarbij een dag gelijk is aan 24 uur.</p><p> Jaren en maanden worden niet ondersteund omdat het geen vaste tijd is.</p><p>JSON-indeling: Tekenreeks. Het moet in een toDuration functie worden ingekapseld.</p><p>Serienummeringsindeling: Als u een tijdzone-id wilt deserialiseren, wordt de java-functie java.time gebruikt.</p><p>Duration.parse: de aanvaarde formaten zijn gebaseerd op de ISO-8601-duurnotatie PnDTnHnMn.nS met dagen die precies 24 uur worden geacht.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Meer</a>informatie.</td>
+        <td><p>Het vertegenwoordigt een tijd-gebaseerde hoeveelheid tijd, zoals "34.5 seconden".</p><p> Het modelleert een hoeveelheid of een hoeveelheid tijd in milliseconden.</p><p>De ondersteunde tijdseenheden zijn: milliseconden, seconden, minuten, uren, dagen waarbij een dag gelijk is aan 24 uur.</p><p> Jaren en maanden worden niet ondersteund omdat het geen vaste tijd is.</p><p>JSON-indeling: Tekenreeks. Het moet in een toDuration functie worden ingekapseld.</p><p>Serienummeringsindeling: Als u een tijdzone-id wilt deserialiseren, wordt de java-functie java.time gebruikt.</p><p>Duration.parse: de aanvaarde formaten zijn gebaseerd op de ISO-8601-duurnotatie PnDTnHnMn.nS met dagen die precies 24 uur worden geacht.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Meer informatie</a>.</td>
         <td><p>toDuration("&lt;duration in ISO-8601 format&gt;")</p><p>toDuration(&lt;duration in milliseconds&gt;)</p></td>
         <td><p><pre>toDuration("PT5S") // 5 seconden</pre></p>
         <p><pre>toDuration(500) // </pre></p>
