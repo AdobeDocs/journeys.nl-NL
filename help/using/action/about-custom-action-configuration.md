@@ -38,9 +38,9 @@ Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vorm
 
 1. Voeg een beschrijving aan uw actie toe. Deze stap is optioneel.
 1. Het aantal ritten dat van deze actie gebruik maakt, wordt weergegeven in het **[!UICONTROL Used in]** veld. U kunt op de **[!UICONTROL View journeys]** knop klikken om de lijst met ritten weer te geven die deze handeling gebruikt.
-1. Definieer de verschillende **[!UICONTROL URL Configuration]** parameters. Zie [](../action/url-configuration.md).
+1. Define the different **[!UICONTROL URL Configuration]** parameters. Zie [](../action/url-configuration.md).
 1. Configureer de **[!UICONTROL Authentication]** sectie. Deze configuratie is het zelfde als voor gegevensbronnen.  Zie [](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Definieer de **[!UICONTROL Message parameters]**. Zie [](../action/defining-the-message-parameters.md).
+1. Define the **[!UICONTROL Message parameters]**. Zie [](../action/defining-the-message-parameters.md).
 1. Klik op **[!UICONTROL Save]**.
 
    De aangepaste handeling is nu geconfigureerd en klaar om te worden gebruikt tijdens uw reizen. Zie [](../building-journeys/about-action-activities.md).
