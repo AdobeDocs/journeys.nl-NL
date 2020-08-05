@@ -14,18 +14,18 @@ translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# lager {#lower}
+# lower {#lower}
 
 Retourneert een versie in kleine letters van de parameter.
 
 ## Categorie
 
-String
+Tekenreeks
 
 ## Functiesyntaxis
 
