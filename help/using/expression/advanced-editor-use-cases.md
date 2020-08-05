@@ -31,7 +31,7 @@ De Geavanceerde uitdrukkingsredacteur kan worden gebruikt om voorwaarden tot sta
 
 De geavanceerde uitdrukkingsredacteur is verplicht om vragen op tijdreeksen zoals een lijst van aankopen of voorbij klikken op berichten uit te voeren. Dergelijke vragen kunnen niet worden uitgevoerd gebruikend de eenvoudige redacteur.
 
-De ervaringsgebeurtenissen worden uit het Adobe Experience Platform opgehaald als een verzameling in omgekeerde chronologische volgorde, vandaar:
+De ervaringsgebeurtenissen worden uit de Adobe Experience Platform opgehaald als een verzameling in omgekeerde chronologische volgorde, vandaar:
 
 * De eerste functie retourneert de meest recente gebeurtenis
 * last function retourneert de oudste functie.
