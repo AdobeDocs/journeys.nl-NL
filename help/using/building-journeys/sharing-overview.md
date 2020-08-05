@@ -21,11 +21,11 @@ ht-degree: 0%
 
 # Overzicht van stap delen voor reizen{#sharing-overview}
 
-[!DNL Journey Orchestration] stuurt automatisch gegevens over de reisprestaties naar het Adobe Experience Platform zodat deze voor analysedoeleinden met andere gegevens kunnen worden gecombineerd.
+[!DNL Journey Orchestration] stuurt automatisch gegevens over de reisprestaties naar de Adobe Experience Platform zodat deze kunnen worden gecombineerd met andere gegevens voor analysedoeleinden.
 
-U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Met deze functie kunt u [!DNL Journey Orchestration] gegevens combineren met gegevens over gebeurtenissen stroomafwaarts, zoals hoeveel conversies er hebben plaatsgevonden, hoeveel betrokkenheid er op de website heeft plaatsgevonden of hoeveel transacties er in de winkel hebben plaatsgevonden. De reisinformatie kan worden gecombineerd met gegevens over het Adobe Experience Platform, hetzij uit andere digitale eigenschappen, hetzij uit offline eigenschappen, om een vollediger beeld van de prestaties te geven.
+U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Met deze functie kunt u [!DNL Journey Orchestration] gegevens combineren met gegevens over gebeurtenissen stroomafwaarts, zoals hoeveel conversies er hebben plaatsgevonden, hoeveel betrokkenheid er op de website heeft plaatsgevonden of hoeveel transacties er in de winkel hebben plaatsgevonden. De reisinformatie kan worden gecombineerd met gegevens over de Adobe Experience Platform, hetzij uit andere digitale eigenschappen, hetzij uit offline eigenschappen, om een uitgebreider beeld van de prestaties te krijgen.
 
-[!DNL Journey Orchestration] leidt automatisch tot de noodzakelijke schema&#39;s en stromen in datasets aan het Adobe Experience Platform voor elke stap een individu in een reis neemt. Een step-gebeurtenis komt overeen met een individuele gebeurtenis die zich tijdens een rit van het ene knooppunt naar het andere verplaatst. Bijvoorbeeld, in een reis die een gebeurtenis, een voorwaarde en een actie heeft, worden de drie stapgebeurtenissen verzonden naar het Adobe Experience Platform.
+[!DNL Journey Orchestration] leidt automatisch tot de noodzakelijke schema&#39;s en stromen in datasets aan de Adobe Experience Platform voor elke stap een individu in een reis neemt. Een step-gebeurtenis komt overeen met een individuele gebeurtenis die zich tijdens een rit van het ene knooppunt naar het andere verplaatst. Bijvoorbeeld, in een reis die een gebeurtenis, een voorwaarde en een actie heeft, worden de drie stapgebeurtenissen verzonden naar Adobe Experience Platform.
 
 De lijst met XDM-velden die worden doorgegeven, is uitgebreid. Sommige bevatten door het systeem gegenereerde codes en andere hebben door mensen leesbare vriendelijke namen. Voorbeelden zijn het etiket van de reisactiviteit of de stapstatus: hoe vaak een time-out of een fout is opgetreden.
 
@@ -53,7 +53,7 @@ De volgende datasets worden overgegaan:
 
 ![](../assets/sharing3.png)
 
-De lijsten van gebieden XDM die tot het Adobe Experience Platform worden overgegaan zijn hier gedetailleerd:
+Hier worden de lijsten met XDM-velden weergegeven die aan de Adobe Experience Platform worden doorgegeven:
 
 * [tripSteps-gebeurtenissen - gemeenschappelijke velden](../building-journeys/sharing-common-fields.md)
 * [uitvoeringsvelden van handelingen voor gebeurtenissen van de tripStep](../building-journeys/sharing-execution-fields.md)
@@ -61,4 +61,4 @@ De lijsten van gebieden XDM die tot het Adobe Experience Platform worden overgeg
 * [identiteitsvelden van gebeurtenissen van de tripStep](../building-journeys/sharing-identity-fields.md)
 * [reisvelden](../building-journeys/sharing-journey-fields.md)
 
-Bekijk deze [zelfstudievideo](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)voor meer informatie over stapgebeurtenissen die aan het Adobe Experience Platform worden gerapporteerd.
+Bekijk deze [zelfstudievideo](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)voor meer informatie over stapgebeurtenissen die aan Adobe Experience Platform worden gerapporteerd.
