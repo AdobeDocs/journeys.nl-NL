@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ Retourneert de positie (in het eerste argument) van de laatste instantie van de 
 
 ## Categorie
 
-String
+Tekenreeks
 
 ## Functiesyntaxis
 
@@ -35,8 +35,8 @@ String
 
 | Parameter | Type |
 |-----------|------------------|
-| string | String |
-| opgegeven waarde | String |
+| string | Tekenreeks |
+| opgegeven waarde | Tekenreeks |
 
 ## Handtekening en type geretourneerd
 
