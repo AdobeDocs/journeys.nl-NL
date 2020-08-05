@@ -23,12 +23,12 @@ ht-degree: 0%
 
 ## Informatie over de Alpha-versie-interface {#about-alpha-interface}
 
-De navigatie binnen [!DNL Journey Orchestration] menu&#39;s is verbeterd om een consistente interface met Adobe Experience Platform te bieden. Wijzigingen zijn onder meer:
+De navigatie binnen [!DNL Journey Orchestration] menu&#39;s is verbeterd, zodat een consistente interface met Adobe Experience Platform beschikbaar is. Wijzigingen zijn onder meer:
 
 * Menu&#39;s verplaatst van de bovenkant naar de linkerkant van de interface.
 * Het groeperen van adminfunctionaliteit in één enkel dashboard.
 
-Algemene concepten voor het gebruik en navigeren in de interface (zoeken en filteren, bladeren door velden van Adobe Experience Platforms, sneltoetsen) worden in [deze sectie](../about/user-interface.md)weergegeven.
+Algemene concepten voor het gebruik en navigatie in de interface (zoeken en filteren, bladeren door Adobe Experience Platform-velden, sneltoetsen) worden in [deze sectie](../about/user-interface.md)weergegeven.
 
 ## Toegang tot [!DNL Journey Orchestration] functies {#accessing-journey-orchestration-functionalities}
 
@@ -36,7 +36,7 @@ Wanneer u toegang hebt tot [!DNL Journey Orchestration], wordt het **[!UICONTROL
 
 ![](../assets/interface-journeys.png)
 
-Met het **[!UICONTROL Segments]** menu hebt u toegang tot Adobe Experience Platforms segmenten en kunt u deze maken. Zie [Informatie over Adobe Experience Platforms](../segment/about-segments.md).
+Met het **[!UICONTROL Segments]** menu hebt u toegang tot Adobe Experience Platform-segmenten en kunt u deze maken. Zie [Informatie over Adobe Experience Platform-segmenten](../segment/about-segments.md).
 
 ![](../assets/interface-segments.png)
 
