@@ -51,7 +51,7 @@ Het startpunt van een reis is altijd een evenement. U kunt tests uitvoeren met g
 
 U kunt controleren of de API-aanroep die u via deze gereedschappen verzendt, correct is verzonden of niet. Als u een fout terug krijgt, betekent het dat uw vraag een kwestie heeft. Controleer opnieuw de lading, de kopbal (en vooral organisatie identiteitskaart) en bestemmingsURL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar [!DNL Journey Orchestration]geduwd. Vertrouwt inderdaad [!DNL Journey Orchestration] op de streaming opname-API&#39;s van het Adobe Experience Platform. Als gevolg hiervan kunt u in geval van problemen met gebeurtenissen naar deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) verwijzen voor het oplossen van problemen met opname-API&#39;s voor streaming.
+Gebeurtenissen worden niet rechtstreeks van de bron naar [!DNL Journey Orchestration]geduwd. Vertrouw inderdaad op de streaming opname-API&#39;s van Adobe Experience Platform. [!DNL Journey Orchestration] Als gevolg hiervan kunt u in geval van problemen met gebeurtenissen naar deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) verwijzen voor het oplossen van problemen met opname-API&#39;s voor streaming.
 
 ## Controleren of mensen de reis betreden{#section_x4v_zzs_dgb}
 
