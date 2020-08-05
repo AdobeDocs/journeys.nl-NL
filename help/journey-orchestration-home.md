@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 504d19f151863378ea8d0a84978d7df4304d6614
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 * **[Ontdek nieuwe](using/release-notes/release-notes.md)**<br/>Meer informatie over de snelste releases.
 
-## Bovenste pagina&#39;s
+## Meest bezochte pagina&#39;s
 
 <table>
 <tr>
@@ -65,7 +65,7 @@ ht-degree: 3%
 </tr>
 </table>
 
-## Aanvullende bronnen
+## Aanvullende resources
 
 * [Documentatie Experience Platform](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
 * [Documentatie van het profiel van de klant in realtime](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
