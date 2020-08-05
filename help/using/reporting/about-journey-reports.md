@@ -27,7 +27,7 @@ ht-degree: 0%
 
 In dit gedeelte wordt uitgelegd hoe u rapporten kunt openen en gebruiken om de doeltreffendheid van uw reizen te meten.
 
-## Rapportageinterface {#reporting-interface}
+## Rapportage-interface {#reporting-interface}
 
 Op de bovenste werkbalk kunt u bijvoorbeeld uw rapport wijzigen, opslaan of afdrukken.
 
