@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# vervangen {#replace}
+# replace {#replace}
 
 Vervangt de eerste instantie die overeenkomt met de doeltekenreeks door de vervangende tekenreeks in de basistekenreeks.
 
@@ -27,7 +27,7 @@ De vervanging vindt plaats vanaf het begin van de tekenreeks tot het einde. Als 
 
 ## Categorie
 
-String
+Tekenreeks
 
 ## Functiesyntaxis
 
