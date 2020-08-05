@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Controleert of een individu tot een bepaald segment behoort.
 
 De segmentnaam moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn.
 
-Segmenten worden gedefinieerd in het [Adobe Experience Platform](https://platform.adobe.com/segment/overview). De uitdrukkingsredacteur verstrekt een autocompleted lijst van segmenten.
+Segmenten worden gedefinieerd in de [Adobe Experience Platform](https://platform.adobe.com/segment/overview). De uitdrukkingsredacteur verstrekt een autocompleted lijst van segmenten.
 
 >[!NOTE]
 >
@@ -57,4 +57,4 @@ Retourneert een Booleaanse waarde.
 
 Uitleg:
 
-De functie wordt geretourneerd **[!UICONTROL true]** als de persoon binnen de reisinstantie deel uitmaakt van het Adobe Experience Platform segment met de naam &quot;mannen boven 50&quot;, **[!UICONTROL false]** anders.
+De functie wordt geretourneerd **[!UICONTROL true]** als de persoon binnen de reisinstantie deel uitmaakt van het Adobe Experience Platform-segment met de naam &quot;mannen boven 50&quot;, **[!UICONTROL false]** anders.
