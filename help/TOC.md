@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 1%
 
 + [Productdocumentatie](journey-orchestration-home.md)
 + Nieuwe functies {#release-notes}
-   + [Opmerkingen bij de release](using/release-notes/release-notes.md)
-   + [Documentatieupdates](using/release-notes/documentation-updates.md)
+   + [Opmerkingen bij de releases in](using/release-notes/release-notes.md)
+   + [Documentatie-updates](using/release-notes/documentation-updates.md)
 + Beginnen met [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Info [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Aan de slag](using/about/get-started.md)
@@ -36,7 +36,7 @@ ht-degree: 1%
 + Een gegevensbron configureren {#data-source-journeys}
    + [Gegevensbronnen](using/datasource/about-data-sources.md)
    + [Veldgroepen](using/datasource/field-groups.md)
-   + [Gegevensbron Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
+   + [Adobe Experience Platform-gegevensbron](using/datasource/adobe-experience-platform-data-source.md)
    + [Externe gegevensbronnen](using/datasource/external-data-sources.md)
 + Een handeling configureren {#action-journeys}
    + [Handelingen](using/action/action.md)
@@ -115,7 +115,7 @@ ht-degree: 1%
          + [toDuration](using/functions/functiontoduration.md)
          + [toInteger](using/functions/functiontointeger.md)
          + [toString](using/functions/functiontostring.md)
-      + Datum {#date}
+      + Date {#date}
          + [currentTime &#x200B; InMillis](using/functions/functioncurrenttimeinmillis.md)
          + [inLastDays](using/functions/functioninlastdays.md)
          + [inLastHours](using/functions/functioninlasthours.md)
@@ -139,7 +139,7 @@ ht-degree: 1%
       + Math {#math}
          + [willekeurig](using/functions/functionrandom.md)
          + [rond](using/functions/functionround.md)
-      + String {#string}
+      + Tekenreeks{#string}
          + [concat](using/functions/functionconcat.md)
          + [bevatten](using/functions/functioncontain.md)
          + [containWithIgnoreCase](using/functions/functioncontainwithignorecase.md)
@@ -170,7 +170,7 @@ ht-degree: 1%
    + [Over AI-integratie](using/ai-services/ai-services-overview.md)
    + [Hefboomwerkings-AI](using/ai-services/leveraging-fatigue-scores.md)
    + [Levering van AI van Klant](using/ai-services/leveraging-customer-ai.md)
-+ Gebruik hoofdletters{#use-cases-journeys}
++ Use cases{#use-cases-journeys}
    + Eenvoudig gebruik{#use-case-simple}
       + [Over het eenvoudige gebruik](using/usecase/about-the-simple-use-case.md)
       + [De gebeurtenis configureren](using/usecase/configuring-the-event.md)
