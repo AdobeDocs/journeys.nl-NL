@@ -208,7 +208,7 @@ Het resultaat is &quot;token_2&quot;.
 
 >[!NOTE]
 >
->De ervaringsgebeurtenissen worden uit het Adobe Experience Platform opgehaald als een verzameling in omgekeerde chronologische volgorde, vandaar:
+>De ervaringsgebeurtenissen worden uit de Adobe Experience Platform opgehaald als een verzameling in omgekeerde chronologische volgorde, vandaar:
 >* **[!UICONTROL first]** functie retourneert de meest recente gebeurtenis
 >* **[!UICONTROL last]** functie retourneert de oudste functie.
 
