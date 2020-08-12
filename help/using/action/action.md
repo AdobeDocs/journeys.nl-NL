@@ -1,6 +1,6 @@
 ---
-title: Handelingen
-description: Leer hoe u een handeling configureert
+title: Acties
+description: Leer hoe u een actie configureert
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,36 +14,36 @@ translation-type: tm+mt
 source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Handelingen {#about_actions}
+# Acties {#about_actions}
 
 >[!CONTEXTUALHELP]
 >id="jo_actions"
->title="Handelingen"
->abstract="Hier definieert u de verbinding met het systeem dat berichten verzendt. De hier gedefinieerde acties zijn dan beschikbaar in het linkerpalet van uw reis, in de categorie Handelingen. "
+>title="Acties"
+>abstract="Hier definieert u de verbinding met het systeem dat berichten verzendt. De hier gedefinieerde acties zijn dan beschikbaar in het linkerpalet van uw journey, in de categorie Acties. "
 
-Handelingen zijn verbindingen waarmee u persoonlijke, real-time ervaringen kunt bieden aan klanten, zoals pushberichten, e-mail, SMS of andere digitale mogelijkheden die u in uw bedrijf gebruikt.
+Acties zijn verbindingen waarmee u persoonlijke, realtime-ervaringen kunt bieden aan klanten, zoals pushberichten, e-mail, sms of andere digitale opties die in uw bedrijf worden gebruikt.
 
-Met aangepaste acties kunt u de verbinding van een systeem van derden configureren voor het verzenden van berichten of API-aanroepen. Een actie kan met om het even welke dienst van om het even welke leverancier worden gevormd die door REST API met een JSON-Geformatteerde lading kan worden geroepen.
+Met aangepaste acties kunt u een verbinding met een extern systeem configureren voor het verzenden van berichten of API-aanroepen. Een actie kan worden geconfigureerd met elke service van elke provider die door een REST-API met een payload in JSON-indeling kan worden aangeroepen.
 
-De acties zijn beschikbaar in het linkerpalet van uw reis, in de **[!UICONTROL Action]** categorie (zie [](../building-journeys/about-action-activities.md) ).
+De acties zijn beschikbaar in het linkerpalet van uw journey, in de categorie **[!UICONTROL Action]** (zie [](../building-journeys/about-action-activities.md)).
 
 >[!NOTE]
 >
->De configuratie van douaneacties wordt altijd uitgevoerd door een **technische gebruiker**.
+>De configuratie van aangepaste acties wordt altijd uitgevoerd door een **technische gebruiker**.
 
-In de lijst van **Acties**, kunt u c drukken om een nieuwe reis, een actie, een gegevensbron of een gebeurtenis tot stand te brengen. Zie voor meer informatie over sneltoetsen [!DNL Journey Orchestration]in [](../about/user-interface.md#section_ksq_zr1_ffb).
+In de lijst met **Acties** kunt u op C drukken om een nieuwe journey, actie, databron of gebeurtenis te maken. Zie [](../about/user-interface.md#section_ksq_zr1_ffb) voor meer informatie over sneltoetsen in [!DNL Journey Orchestration].
 
-Klik in de bovenste menu&#39;s om de lijst met handelingen weer te geven of een nieuwe handeling te configureren. **[!UICONTROL Actions]** De lijst met handelingen wordt weergegeven. Zie [](../about/user-interface.md) voor meer informatie over de interface.
+Als u de actielijst wilt bekijken of een nieuwe actie wilt configureren, klikt u in de bovenste menu’s op **[!UICONTROL Actions]**. De lijst met acties wordt weergegeven. Zie [](../about/user-interface.md) voor meer informatie over de interface.
 
 ![](../assets/custom1.png)
 
-Als u Adobe Campaign Standard hebt, moet u de actie buiten de doos vormen om e-mail, dupberichten en SMS te verzenden gebruikend de mogelijkheden van het Transactieoverseinen van Adobe Campaign Standard. Zie [](../action/working-with-adobe-campaign.md).
+Als u Adobe Campaign Standard hebt, moet u de ingebouwde actie configureren om e-mails, pushberichten en sms-berichten te verzenden met de functies voor transactionele berichten van Adobe Campaign Standard. Zie [](../action/working-with-adobe-campaign.md).
 
-Als u een systeem van derden gebruikt om berichten te verzenden zoals Epsilon, Facebook, Adobe.io, Firebase, enz., moet u een aangepaste handeling toevoegen en configureren. Zie [](../action/about-custom-action-configuration.md).
+Als u berichten verzendt via een extern systeem zoals Epsilon, Facebook, Adobe.io, Firebase, enzovoort, moet u een aangepaste actie toevoegen en configureren. Zie [](../action/about-custom-action-configuration.md).
 
-Voor meer informatie over hoe te om een Actie voor te vormen [!DNL Journey Orchestration] en hoe te om het in een reis te gebruiken, bekijk deze [videozelfstudie](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
+Kijk voor meer informatie over het configureren van een actie voor [!DNL Journey Orchestration] en het gebruik ervan in een journey naar deze [videotutorial](https://docs.adobe.com/content/help/nl-NL/journey-orchestration-learn/tutorials/configure-actions.html).
