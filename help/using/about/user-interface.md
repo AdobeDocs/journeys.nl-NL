@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
@@ -21,121 +21,121 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->We raden u aan Chrome als uw internetbrowser te gebruiken om het beste uit [!DNL Journey Orchestration]de lijst te halen. De interface wordt weergegeven in de taal die is gedefinieerd in IMS. Als uw taal IMS niet door wordt gesteund, wordt de interface getoond in het Engels. [!DNL Journey Orchestration]
+>We raden u aan Chrome als uw internetbrowser te gebruiken om het beste uit [!DNL Journey Orchestration] te halen. De interface wordt weergegeven in de taal die is gedefinieerd in IMS. Als uw IMS-taal niet door [!DNL Journey Orchestration] wordt ondersteund, wordt de interface weergegeven in het Engels.
 >
->Deze documentatie wordt regelmatig bijgewerkt om recente wijzigingen in het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van de interface van het product.
+>Deze documentatie wordt regelmatig aangepast aan recente wijzigingen in het product. Sommige screenshots kunnen echter iets afwijken van de interface van het product.
 
-## Toegang [!DNL Journey Orchestration]{#accessing_journey_orchestration}
+## Toegang tot [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Als u toegang wilt krijgen tot de interface van [!DNL Journey Orchestration]de toepassing, klikt u op het **[!UICONTROL App Selector]** pictogram rechtsboven. Klik vervolgens **[!UICONTROL Journey Orchestration]** rechts onder **[!UICONTROL Experience Platform]**.
+Voor toegang tot de [!DNL Journey Orchestration]-interface klikt u op het pictogram **[!UICONTROL App Selector]** rechtsboven. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
-U kunt ook toegang krijgen [!DNL Journey Orchestration] vanaf de startpagina van de Experience Cloud, in de **[!UICONTROL Quick access]** sectie.
+U kunt [!DNL Journey Orchestration] ook openen via de startpagina van Experience Cloud, in de sectie **[!UICONTROL Quick access]**.
 
 ![](../assets/journey1bis.png)
 
-## Kennismaken met de interface{#section_jsq_zr1_ffb}
+## De interface verkennen{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
 >id="jo_home"
->title="Info"
->abstract="Met de reislijst kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een gesloten reis niet verwijderen of opnieuw starten. U kunt er een nieuwe versie van maken of deze dupliceren. U kunt de zoekbalk ook gebruiken om een reis te zoeken."
+>title="Journeylijst"
+>abstract="Met de journeylijst kunt u al uw journey’s tegelijk weergeven, hun status bekijken en basisacties uitvoeren. U kunt uw journey’s dupliceren, stopzetten of verwijderen. Afhankelijk van de journey zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een gesloten journey niet verwijderen of opnieuw starten. U kunt deze dupliceren of een nieuwe versie maken op basis van de gesloten journey. U kunt ook de zoekbalk gebruiken om een journey te zoeken."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Demovideo bekijken"
 
-Met de bovenste menu&#39;s kunt u door de verschillende functies van [!DNL Journey Orchestration]: **[!UICONTROL Home]**(de ritten),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+Met de bovenste menu’s kunt u navigeren door de verschillende functies van [!DNL Journey Orchestration]: **[!UICONTROL Home]** (de journey’s), **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
-Klik op het ![](../assets/icon-context.png) pictogram in de rechterbovenhoek van het scherm om de contextafhankelijke Help weer te geven. Het is beschikbaar over de verschillende [!DNL Journey Orchestration] lijstschermen (reizen, gebeurtenissen, acties en gegevensbronnen). Op deze manier kunt u een korte beschrijving weergeven van de huidige functionaliteit en toegang krijgen tot verwante artikelen en video&#39;s.
+Klik op het pictogram ![](../assets/icon-context.png) in de rechterbovenhoek van het scherm om de contextafhankelijke Help weer te geven. Deze is beschikbaar in de verschillende [!DNL Journey Orchestration]-lijstschermen (journey’s, gebeurtenissen, acties en databronnen). Hiermee kunt u een korte beschrijving weergeven van de huidige functionaliteit en toegang krijgen tot verwante artikelen en video’s.
 
 ![](../assets/journey2bis.png)
 
 ## Zoeken en filteren{#section_lgm_hpz_pgb}
 
-In de lijsten **[!UICONTROL Home]**,**[!UICONTROL Data Sources]****[!UICONTROL Events]** en **[!UICONTROL Actions]** lijsten kunt u zoeken naar een item.
+In de lijsten **[!UICONTROL Home]**,**[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]** kunt u met een zoekbalk naar een item zoeken.
 
-U **[!UICONTROL Filters]** kunt het dialoogvenster openen door linksboven in de lijst op het filterpictogram te klikken. Met het menu Filters kunt u de weergegeven elementen filteren op basis van verschillende criteria. U kunt ervoor kiezen alleen de elementen van een bepaald type of een bepaalde status weer te geven, de elementen die u hebt gemaakt of de elementen die in de afgelopen 30 dagen zijn gewijzigd.
+U kunt het dialoogvenster **[!UICONTROL Filters]** openen door te klikken op het filterpictogram linksboven van de lijst. Met het menu Filters kunt u de weergegeven elementen filteren op basis van verschillende criteria. U kunt ervoor kiezen alleen de elementen van een bepaald type of een bepaalde status weer te geven, de elementen die u hebt gemaakt, of de elementen die in de afgelopen 30 dagen zijn gewijzigd.
 
-In de **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]** lijsten, gebruik **[!UICONTROL Creation filters]** aan filter op de aanmaakdatum en de gebruiker. U kunt bijvoorbeeld alleen de gebeurtenissen weergeven die u de afgelopen 30 dagen hebt gemaakt.
+In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **[!UICONTROL Creation filters]** to filter on the creation date and user. U kunt bijvoorbeeld besluiten alleen gebeurtenissen weer te geven die u in de afgelopen 30 dagen hebt gemaakt.
 
-In de reislijst (onder **[!UICONTROL Home]**) kunt u, naast het **[!UICONTROL Creation filters]**, ook de weergegeven ritten filteren op basis van hun status en versie (**[!UICONTROL Status and version filters]**). U kunt er ook voor kiezen om alleen de ritten weer te geven die een bepaalde gebeurtenis, veldgroep of handeling (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**) gebruiken. **[!UICONTROL Publication filters]** Selecteer een publicatiedatum of -gebruiker. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live reizen weer te geven die gisteren zijn gepubliceerd. Zie [](../building-journeys/using-the-journey-designer.md).
+In de journeylijst (onder **[!UICONTROL Home]**) kunt u, naast **[!UICONTROL Creation filters]**, ook de weergegeven journey’s filteren op basis van hun status en versie (**[!UICONTROL Status and version filters]**). U kunt er ook voor kiezen om alleen de journey’s weer te geven die een bepaalde gebeurtenis, veldengroep of actie (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**) gebruiken. Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of gebruiker selecteren. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live journey’s weer te geven die gisteren zijn gepubliceerd. Zie [](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
->Merk op dat de getoonde kolommen kunnen worden gepersonaliseerd gebruikend de configuratieknoop op het hoogste recht van de lijsten. Personalisatie wordt voor elke gebruiker opgeslagen.
+>De weergegeven kolommen kunnen worden gepersonaliseerd met de configuratieknop rechtsboven van de lijsten. Personalisatie wordt voor elke gebruiker opgeslagen.
 
-Met de **[!UICONTROL Last update]** kolommen en de **[!UICONTROL Last update by]** kolommen kunt u zien wanneer de laatste update van uw reizen is uitgevoerd en welke gebruiker deze heeft uitgevoerd.
+Met de kolommen **[!UICONTROL Last update]** en **[!UICONTROL Last update by]** kunt u weergeven wanneer de laatste update van uw journey’s is uitgevoerd en welke gebruiker deze heeft uitgevoerd.
 
 ![](../assets/journey74.png)
 
-In de gebeurtenis, gegevensbron en actieconfiguratievensters, toont het **[!UICONTROL Used in]** gebied het aantal reizen die die bepaalde gebeurtenis, gebiedsgroep of actie gebruiken. U kunt op de **[!UICONTROL View journeys]** knop klikken om de lijst met bijbehorende reizen weer te geven.
+In de deelvensters voor gebeurtenissen, databronnen en actieconfiguratie geeft het veld **[!UICONTROL Used in]** het aantal journey’s weer dat deze bepaalde gebeurtenis, veldengroep of actie gebruikt. U kunt klikken op de knop **[!UICONTROL View journeys]** om de lijst met corresponderende journey’s weer te geven.
 
 ![](../assets/journey3bis.png)
 
-In de verschillende lijsten kunt u basishandelingen op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
+In de verschillende lijsten kunt u standaardacties op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
 
 ![](../assets/journey4.png)
 
 ## Bladeren door Adobe Experience Platform-velden {#friendly-names-display}
 
-Bij het definiëren van een [gebeurtenislading](../event/defining-the-payload-fields.md), het laden [van een](../datasource/field-groups.md) veldgroep en het selecteren van velden in de [expressieeditor](../expression/expressionadvanced.md), wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring.
+Bij het definiëren van een [gebeurtenispayload](../event/defining-the-payload-fields.md), een [veldengroep-payload](../datasource/field-groups.md) en het selecteren van velden in de [expressie-editor](../expression/expressionadvanced.md) wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt opgehaald uit de schemadefinitie in het Gegevenservaringmodel.
 
-Als er beschrijvingen zoals &quot;xdm:alternateDisplayInfo&quot; worden opgegeven tijdens het instellen van schema&#39;s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en generieke velden. U kunt beschrijvingen van vriendschappelijke namen configureren via een API-aanroep. Voor meer informatie, zie de de ontwikkelaarsgids [van de Registratie van het](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)Schema.
+Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met eVars en generieke velden. U kunt beschrijvende namen configureren via een API-aanroep. Zie de [ontwikkelaarshandleiding voor schemaregistratie](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/api/getting-started.html) voor meer informatie.
 
 ![](../assets/xdm-from-descriptors.png)
 
-Als een vriendelijke naam beschikbaar is, wordt het veld weergegeven als `<friendly-name>(<name>)`. Als er geen vriendelijke naam beschikbaar is, wordt de weergavenaam weergegeven, bijvoorbeeld `<display-name>(<name>)`. Als geen van deze waarden is gedefinieerd, wordt alleen de technische naam van het veld weergegeven `<name>`.
+Als een beschrijvende naam beschikbaar is, wordt het veld weergegeven als `<friendly-name>(<name>)`. Als er geen beschrijvende naam beschikbaar is, wordt de weergavenaam weergegeven, bijvoorbeeld `<display-name>(<name>)`. Als geen van deze waarden is gedefinieerd, wordt alleen de technische naam van het veld weergegeven: `<name>`.
 
 >[!NOTE]
 >
->De vriendschappelijke namen worden niet teruggewonnen wanneer u gebieden van een vereniging van schema&#39;s selecteert.
+>De beschrijvende namen worden niet opgehaald wanneer u velden selecteert uit een samenvoeging van schema’s.
 
 ## De verschillende sneltoetsen gebruiken{#section_ksq_zr1_ffb}
 
-Hier volgen de verschillende sneltoetsen die beschikbaar zijn in de interface van [!DNL Journey Orchestration]de website.
+Hier volgt een overzicht van de verschillende sneltoetsen die beschikbaar zijn in de interface van [!DNL Journey Orchestration].
 
-_In de lijst van reizen, handelingen, gegevensbronnen of gebeurtenissen:_
+_In de lijst van journey’s, acties, databronnen of gebeurtenissen:_
 
-* Druk op **c** om een nieuwe reis, handeling, gegevensbron of gebeurtenis te maken.
+* Druk op **c** om een nieuwe journey, actie, databron of gebeurtenis te maken.
 
-_Wanneer het vormen van een activiteit in een reis:_
+_Bij het configureren van een activiteit in een journey:_
 
-Het canvas wordt automatisch opgeslagen. U kunt linksboven op het canvas de status van opslaan zien.
+Het canvas wordt automatisch opgeslagen. U kunt linksboven op het canvas de opslagstatus zien.
 
-* Druk op **Escape** om het configuratievenster te sluiten en de aangebrachte wijzigingen te negeren. Dit is het equivalent van de **[!UICONTROL Cancel]** knop.
-* Druk op **Enter** of klik buiten het deelvenster om het configuratievenster te sluiten. Wijzigingen worden opgeslagen. Dit is het equivalent van de **[!UICONTROL Ok]** knop.
-* Als u **Schrapping** of **backspace** drukt, kunt u **binnengaan** dan drukken om de schrapping te bevestigen.
+* Druk op **Escape** om het configuratievenster te sluiten en de aangebrachte wijzigingen te negeren. Dit is het equivalent van de knop **[!UICONTROL Cancel]**.
+* Press **Enter** or click outside the pane to close the configuration pane. Wijzigingen worden opgeslagen. Dit is het equivalent van de knop **[!UICONTROL Ok]**.
+* If you press **Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
 
 _In pop-ups:_
 
-* Druk op **Escape** om deze te sluiten (equivalent aan de **[!UICONTROL Cancel]** knop).
-* Druk op **Enter** om op te slaan of te bevestigen (equivalent van de **[!UICONTROL Ok]** knop of **[!UICONTROL Save]** knop).
+* Press **escape** to close it (equivalent of the **[!UICONTROL Cancel]** button).
+* Press **Enter** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
 
-_In de gebeurtenis, gegevensbron of actieconfiguratieruit:_
+_In het configuratiedeelvenster van de gebeurtenis, databron of actie:_
 
-* Druk op **escape** om het configuratievenster te sluiten zonder het op te slaan.
-* Druk op **Enter** om wijzigingen op te slaan en het configuratievenster te sluiten.
-* Druk op **het tabblad** om te schakelen tussen de verschillende velden.
+* Druk op **Escape** om het configuratievenster te sluiten zonder het op te slaan.
+* Press **Enter** to save modifications and close the configuration pane.
+* Druk op **Tab** om van het ene te configureren veld naar het andere te gaan.
 
 _In de editor voor eenvoudige expressies_
 
-* Dubbelklik op een veld aan de linkerkant om een query toe te voegen (equivalent aan slepen en neerzetten).
+* Dubbelklik op een veld aan de linkerkant om een query toe te voegen (equivalent van slepen en neerzetten).
 
 _Wanneer u door XDM-velden bladert:_
 
-* Als u een &quot;knooppunt&quot; inschakelt, worden alle velden van het knooppunt geselecteerd.
+* Als u een node inschakelt, worden alle velden van de node geselecteerd.
 
 _In alle tekstgebieden:_
 
-* Selecteer de tekst met de toetsencombinatie **Ctrl/Command + A** . In de voorvertoning van de lading wordt de lading geselecteerd.
+* Selecteer de tekst met de toetsencombinatie **Ctrl/Command + A**. In de payloadvoorvertoning wordt de payload geselecteerd.
 
 _In een scherm met een zoekbalk:_
 
-* Selecteer de zoekbalk met de toetsencombinatie **Ctrl/Command + F** .
+* Selecteer de zoekbalk met de toetsencombinatie **Ctrl/Command + F**.
 
-_Op het canvas van een reis:_
+_Op het canvas van een journey:_
 
 * Gebruik de toetsencombinatie **Ctrl/Command + A** om alle activiteiten te selecteren.
-* Wanneer een of meerdere activiteiten zijn geselecteerd, drukt u op **Delete** of **backspace** om deze te verwijderen. Vervolgens kunt u op **Enter** drukken om te bevestigen in het bevestigingspop-upvenster.
+* When one or several activities are selected, press **Delete** or **backspace** to delete them. Then you can press **Enter** to confirm in the confirmation pop-up.
 * Dubbelklik op een activiteit in het linkerpalet om deze toe te voegen op de eerste beschikbare positie (van boven naar beneden).
