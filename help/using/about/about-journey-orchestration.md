@@ -1,5 +1,5 @@
 ---
-title: Info over Journey Orchestration
+title: Informatie over Journey Orchestration
 description: Meer informatie over Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,42 +12,42 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 0%
+ht-degree: 97%
 
 ---
 
 
-# Info [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
+# Informatie over [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
-Stel in real-time implementatiefuncties samen voor het orkestgebruik, waarbij gebruik wordt gemaakt van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen.
+Stel real-timegebruiksscenario’s voor orkestratie samen aan de hand van contextuele data die zijn opgeslagen in gebeurtenissen of databronnen.
 
 [!DNL Journey Orchestration] is een toepassingsservice die is geïntegreerd met de Adobe Experience Platform.
 
 ![](../assets/journeydiagram.png)
 
-[!DNL Journey Orchestration] staat organisatie in real time toe die door contextuele gegevens van gebeurtenissen, informatie van de Adobe Experience Platform, of gegevens van de diensten van derdeAPI wordt aangedreven. U kunt een douaneactie vormen als u een derdesysteem gebruikt om uw berichten te verzenden. Als je Adobe Campaign Standard hebt, kun je e-mails, pushberichten en SMS verzenden via de mogelijkheden [voor](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)Transactieberichten van Adobe Campaign Standard.
+Met [!DNL Journey Orchestration] is real-timeorkestratie mogelijk aan de hand van contextuele data van gebeurtenissen, informatie van het Adobe Experience Platform of data van externe API-services. U kunt een aangepaste actie configureren als u een extern systeem gebruikt om uw berichten te verzenden. Als u Adobe Campaign Standard hebt, kunt u e-mails, pushberichten en sms-berichten verzenden met de [functies voor transactionele berichten](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) van Adobe Campaign Standard.
 
-In het lusje van de gebeurtenisconfiguratie, vormt een **technische gebruiker** gebeurtenissen die in de reizen worden verwacht. De gegevens van binnenkomende gebeurtenissen worden genormaliseerd volgens het Adobe Experience Data Model (XDM). Gebeurtenissen komen van de Streaming Ingestie-API&#39;s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen).
+Op het tabblad voor gebeurtenisconfiguratie worden door een **technische gebruiker** gebeurtenissen geconfigureerd die tijdens de journey’s worden verwacht. De data van binnenkomende gebeurtenissen worden genormaliseerd volgens het Adobe Experience Data Model (XDM). Gebeurtenissen zijn afkomstig van de streamingopname-API’s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen).
 
-In het lusje van de gegevensbronconfiguratie, vormt een **technische gebruiker** :
+Op het tabblad voor databronconfiguratie configureert een **technische gebruiker** het volgende:
 
-* De verschillende velden die vanuit de Adobe Experience Platform in de reisontwerper beschikbaar worden gesteld voor conditieopbouw en personalisatie.
-* De extra bronnen van douanegegevens die u hefboomwerking in de reisontwerper. Aangepaste gegevensbronnen zijn verbindingen tussen systemen [!DNL Journey Orchestration] en services van derden via API. U kunt een systeem van de derde zoals een loyaliteitssysteem aansluiten. De derdediensten kunnen, bijvoorbeeld, een weer API zijn.
+* De verschillende zichtbare velden van het Adobe Experience Platform in de journeyontwerper voor het samenstellen van voorwaarden en personalisatie.
+* De aanvullende aangepaste databronnen die u gebruikt in de journeyontwerper. Aangepaste databronnen zijn verbindingen tussen [!DNL Journey Orchestration] en externe systemen of services via API. U kunt verbinding maken met een extern systeem zoals een loyaliteitschema. Een externe service is bijvoorbeeld een weer-API.
 
-Met de reisontwerper, kan een **bedrijfsgebruiker** een ingangsgebeurtenis gemakkelijk slepen en laten vallen, voorwaarden toevoegen en de uit te voeren actie specificeren.
+Met de journeyontwerper kan een **zakelijke gebruiker** gemakkelijk een eerste gebeurtenis slepen en neerzetten, voorwaarden toevoegen en de uit te voeren actie opgeven.
 
 Vervolgens maakt u voorwaarden op basis van:
 
 * tijd
-* gegevens die afkomstig zijn van de gebeurtenislading
-* informatie uit gegevensbronnen: Gegevensbron van gebruikersprofiel of aangepaste gegevensbronnen in realtime
+* data uit de gebeurtenispayload
+* informatie uit databronnen: een realtime klantprofieldatabron of aangepaste databronnen
 
-U kunt de splitsingsvoorwaarde gebruiken om mensen in de reis in verschillende richtingen te sturen.
+U kunt de splitsingsvoorwaarde gebruiken om mensen in de journey in verschillende richtingen te sturen.
 
-Gebruikend actieactiviteiten, kunt u een bericht via een derdesysteem dan verzenden. Als je Adobe Campaign Standard hebt, verzend je realtime persoonlijke SMS, pushberichten of e-mails.
+Met actieactiviteiten kunt u vervolgens een bericht sturen via een extern systeem. Als u Adobe Campaign Standard hebt, kunt u gepersonaliseerde pushberichten, sms-berichten of e-mails verzenden in realtime.
 
-Zoals [!DNL Journey Orchestration] in meerdere stappen gebeurt, kunt u geavanceerde scenario&#39;s maken. U kunt bijvoorbeeld na een eerste gebeurtenis en handeling andere gebeurtenissen slepen. Vervolgens kunt u een tweede handeling toevoegen, een wachtbewerking plaatsen om een tijd te wachten, een gesplitste voorwaarde toevoegen om mensen naar twee verschillende paden te duwen en vervolgens andere berichten verzenden.
+Aangezien [!DNL Journey Orchestration] meerdere stappen omvat, kunt u geavanceerde scenario’s maken. U kunt bijvoorbeeld na een eerste gebeurtenis en actie andere gebeurtenissen slepen. Vervolgens kunt u een tweede actie toevoegen, een wachtactiviteit plaatsen om enige tijd te wachten, een gesplitste voorwaarde toevoegen om mensen naar twee verschillende paden te sturen en vervolgens verschillende berichten aan hen verzenden.
 
 >[!NOTE]
 >
->Deze documentatie wordt regelmatig bijgewerkt om recente wijzigingen in het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van de interface van het product.
+>Deze documentatie wordt regelmatig aangepast aan recente wijzigingen in het product. Sommige screenshots kunnen echter iets afwijken van de interface van het product.
