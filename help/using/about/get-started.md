@@ -12,64 +12,64 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 3%
+ht-degree: 95%
 
 ---
 
 
 # Aan de slag{#concept_y4b_4qt_52b}
 
-In [!DNL Journey Orchestration], zijn er twee soorten gebruikers, elk van hen die specifieke taken uitvoeren: de **technische gebruiker** en de **zakelijke gebruiker**. Gebruikerstoegang wordt beheerd via productprofielen en rechten. Zie [](../about/access-management.md) hoe u gebruikerstoegang kunt configureren.
+In [!DNL Journey Orchestration] zijn er twee soorten gebruikers die elk hun eigen specifieke taken uitvoeren: de **technische gebruiker** en de **zakelijke gebruiker**. Gebruikerstoegang wordt beheerd via productprofielen en rechten. Raadpleeg [](../about/access-management.md) om te zien hoe u gebruikerstoegang kunt configureren.
 
 Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DNL Journey Orchestration]:
 
 1. **Een gebeurtenis configureren**
 
-   U moet de verwachte informatie bepalen en hoe te om het te verwerken. Deze configuratie is verplicht. Deze stap wordt uitgevoerd door een **technische gebruiker**.
+   U moet definiëren welke informatie wordt verwacht en hoe deze moet worden verwerkt. Deze configuratie is verplicht. Deze stap wordt uitgevoerd door een **technische gebruiker**.
 
-   For more on this, refer to [](../event/about-events.md).
+   Raadpleeg [](../event/about-events.md) voor meer informatie.
 
    ![](../assets/journey7.png)
 
-1. **De gegevensbron configureren**
+1. **De databron configureren**
 
-   U moet een verbinding met een systeem bepalen om extra informatie terug te winnen die in uw reizen, bijvoorbeeld in uw voorwaarden zal worden gebruikt. Een ingebouwde Adobe Experience Platform-gegevensbron wordt ook geconfigureerd tijdens de provisioning. Deze stap is niet vereist als u alleen gegevens uit de gebeurtenissen op uw reis gebruikt. Deze stap wordt uitgevoerd door een **technische gebruiker**.
+   U moet een verbinding definiëren met een systeem voor het ophalen van extra informatie die in uw journey’s wordt gebruikt, bijvoorbeeld in uw voorwaarden. Een ingebouwde Adobe Experience Platform-gegevensbron wordt ook geconfigureerd tijdens de provisioning. Deze stap is niet vereist als u alleen data gebruikt van de gebeurtenissen in uw journey. Deze stap wordt uitgevoerd door een **technische gebruiker**.
 
-   For more on this, refer to [](../datasource/about-data-sources.md).
+   Raadpleeg [](../datasource/about-data-sources.md) voor meer informatie.
 
    ![](../assets/journey22.png)
 
-1. **Een handeling configureren**
+1. **Een actie configureren**
 
-   Als u een derdesysteem gebruikt om uw berichten te verzenden, moet u zijn verbinding met vormen [!DNL Journey Orchestration]. Zie [](../action/about-custom-action-configuration.md).
+   Als u een extern systeem gebruikt om uw berichten te verzenden, moet u de verbinding tussen dit systeem en [!DNL Journey Orchestration] configureren. Zie [](../action/about-custom-action-configuration.md).
 
-   Als u Adobe Campaign Standard gebruikt om berichten te verzenden, moet u de ingebouwde actie vormen. Zie [](../action/working-with-adobe-campaign.md).
+   Als u Adobe Campaign Standard gebruikt om berichten te verzenden, moet u de ingebouwde actie configureren. Zie [](../action/working-with-adobe-campaign.md).
 
    Deze stappen worden uitgevoerd door een **technische gebruiker**.
 
    ![](../assets/custom2.png)
 
-1. **Uw reis ontwerpen**
+1. **Uw journey ontwerpen**
 
-   Combineer de verschillende gebeurtenis-, organisatie- en actieactiviteiten om uw meerstapsscenario&#39;s voor meerdere kanalen te maken. Deze stap wordt uitgevoerd door een **bedrijfsgebruiker**.
+   Combineer de verschillende actie-, orkestratie- en gebeurtenisactiviteiten om uw kanaaloverschrijdende scenario’s met meerdere stappen te maken. Deze stap wordt uitgevoerd door een **zakelijke gebruiker**.
 
-   Voor meer informatie raadpleegt u [](../building-journeys/journey.md).
+   Raadpleeg [](../building-journeys/journey.md) voor meer informatie.
 
    ![](../assets/journeyuc2_24.png)
 
-1. **De reis testen en publiceren**
+1. **De journey testen en publiceren**
 
-   U moet de reis valideren en activeren. Deze stap wordt uitgevoerd door een **bedrijfsgebruiker**.
+   U moet de journey valideren en activeren. Deze stap wordt uitgevoerd door een **zakelijke gebruiker**.
 
-   For more on this, see [](../building-journeys/testing-the-journey.md) and [](../building-journeys/publishing-the-journey.md).
+   Ga voor meer informatie hierover naar [](../building-journeys/testing-the-journey.md) en [](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journeyuc2_32bis.png)
 
-1. **Uw reis volgen**
+1. **Uw journey bewaken**
 
-   Gebruik de specifieke rapporteringshulpmiddelen om de doeltreffendheid van uw reis te meten. Deze stap wordt uitgevoerd door een **bedrijfsgebruiker**.
+   Gebruik de speciale rapportagetools om de doeltreffendheid van uw journey te meten. Deze stap wordt uitgevoerd door een **zakelijke gebruiker**.
 
-   Voor meer informatie raadpleegt u [](../reporting/about-journey-reports.md).
+   Raadpleeg [](../reporting/about-journey-reports.md) voor meer informatie.
 
    ![](../assets/dynamic_report_journey_12.png)
 
