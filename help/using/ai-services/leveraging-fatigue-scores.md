@@ -11,27 +11,27 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 0%
+source-wordcount: '245'
+ht-degree: 6%
 
 ---
 
 
-# Hefboomwerkings-AI {#concept_dsh_1ry_wfb}
+# Journey-AI gebruiken {#concept_dsh_1ry_wfb}
 
 Met deze gebruiksaanwijzing kunt u de vermoeidheidsscores benutten om te voorkomen dat uw klanten op reis te veel vragen.
 
 >[!CAUTION]
 >
->De functie voor voorspellende vermoeidheidsscore is alleen beschikbaar voor klanten die de functie Adobe Campaign Standard Data Service gebruiken.
+>De functie voor voorspellende vermoeidheidsscore is alleen beschikbaar voor klanten die de [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)gebruiken.
 
 ## De gebeurtenis configureren {#section_ptb_ws1_ffb}
 
 Voer de in [](../event/about-events.md)beschreven stappen uit.
 
-## De gegevensbron configureren {#section_o3n_4yy_wfb}
+## De databron configureren {#section_o3n_4yy_wfb}
 
 Voer de volgende stappen uit om de gebieden van de vermoeidheidsscore in de ingebouwde gegevensbron te selecteren:
 
@@ -46,7 +46,7 @@ Voer de volgende stappen uit om de gebieden van de vermoeidheidsscore in de inge
 
 1. Klik op **[!UICONTROL Save]**.
 
-## De reis maken {#section_uzm_pyy_wfb}
+## De journey samenstellen {#section_uzm_pyy_wfb}
 
 Volg de stappen in deze sectie om de reis te maken, te valideren en te publiceren [](../building-journeys/journey.md).
 
