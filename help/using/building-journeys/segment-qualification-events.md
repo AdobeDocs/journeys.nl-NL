@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78c486c3e43b0bbda666afba9cf36ba34b362a03
+source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,17 @@ Wanneer het segment wordt gestreamd met de optie High Frequency Audiences van Ad
 
 1. Klik in het **[!UICONTROL Segment]** veld en selecteer de segmenten die u wilt benutten.
 
+   >[!NOTE]
+   >
+   >U kunt de kolommen in de lijst aanpassen en sorteren.
+
    ![](../assets/segment6.png)
+
+   Zodra het segment wordt toegevoegd, staat de **[!UICONTROL Copy]** knoop u toe om zijn naam en identiteitskaart te kopiëren:
+
+   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-copy.png)
 
 1. Kies in het **[!UICONTROL Behavior]** veld of u wilt luisteren naar segmentingangen, uitgangen of beide.
 
@@ -59,7 +69,7 @@ Zie [Condition activity](../building-journeys/condition-activity.md#about_condit
 
 ![](../assets/segment8.png)
 
-## Aanbevolen werkwijzen voor segmenten {#best-practices-segments}
+## Aanbevolen procedures {#best-practices-segments}
 
 De **[!UICONTROL Segment Qualification]** activiteit maakt het mogelijk dat personen die gekwalificeerd of gediskwalificeerd zijn, onmiddellijk toegang krijgen tot de reis.
 
