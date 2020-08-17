@@ -1,5 +1,5 @@
 ---
-title: De reis testen
+title: Journey testen
 description: 'Meer informatie over het testen van reizen '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 0%
+source-wordcount: '1154'
+ht-degree: 2%
 
 ---
 
 
-# De reis testen{#testing_the_journey}
+# Journey testen{#testing_the_journey}
 
 Voordat u uw reis kunt testen, moet u alle eventuele fouten oplossen. Zie [](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
@@ -59,7 +59,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
 ## Creating a test profile{#create-test-profile}
 
-Het maken van een testprofiel gebeurt op dezelfde manier als wanneer u een profiel maakt in de Adobe Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+Het maken van een testprofiel gebeurt op dezelfde manier als wanneer u een profiel maakt in de Adobe Experience Platform. Het wordt uitgevoerd door API vraag. See this [page](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)
 
 U moet een profielschema gebruiken dat de &quot;details van de profieltest&quot;mengen bevat. De markering testProfile maakt deel uit van deze mix.
 
@@ -122,6 +122,10 @@ De **[!UICONTROL Trigger an event]** knoop staat u toe om een gebeurtenis te vor
 Als voorwaarde moet u weten welke profielen in de Adobe Experience Platform zijn gemarkeerd als testprofielen. In de testmodus zijn deze profielen alleen toegestaan tijdens de reis en moet het evenement een id bevatten. De verwachte id is afhankelijk van de gebeurtenisconfiguratie. Het kan bijvoorbeeld een ECID zijn.
 
 Als uw reis verscheidene gebeurtenissen bevat, gebruik de drop-down lijst om een gebeurtenis te selecteren. Configureer vervolgens voor elke gebeurtenis de doorgegeven velden en de uitvoering van de gebeurtenis die de gebeurtenis verzendt. De interface helpt u de juiste informatie in de gebeurtenislading overgaan en ervoor zorgen het informatietype correct is. In de testmodus worden de laatste parameters die in een testsessie worden gebruikt, opgeslagen voor later gebruik.
+
+>[!NOTE]
+>
+>De **[!UICONTROL TIMESTAMP]**
 
 ![](../assets/journeytest4.png)
 
