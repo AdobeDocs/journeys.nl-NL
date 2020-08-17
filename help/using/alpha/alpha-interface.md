@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 10c6406adb1473dcd150b43b5b5c8b178376f3ed
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,11 @@ Algemene concepten voor het gebruik en navigatie in de interface (zoeken en filt
 
 ## Toegang tot [!DNL Journey Orchestration] functies {#accessing-journey-orchestration-functionalities}
 
-Wanneer u toegang hebt tot [!DNL Journey Orchestration], wordt het **[!UICONTROL Journeys]** menu weergegeven, waarmee u toegang kunt krijgen tot bestaande reizen of nieuwe ritten kunt maken. Zie De [reisontwerper](../building-journeys/using-the-journey-designer.md)gebruiken.
+Met de menubalk aan de linkerkant hebt u toegang tot de verschillende functies. Klik op een pictogram om het bijbehorende menu te openen. U kunt op de pijl linksonder klikken om de menubalk uit of samen te vouwen.
+
+![](../assets/interface-journeys2.png)
+
+Wanneer u toegang hebt tot [!DNL Journey Orchestration], wordt het **[!UICONTROL Journeys]** menu weergegeven, waarmee u toegang kunt krijgen tot bestaande reizen of nieuwe ritten kunt maken. See [Using the journey designer](../building-journeys/using-the-journey-designer.md).
 
 ![](../assets/interface-journeys.png)
 
@@ -43,3 +47,4 @@ Met het **[!UICONTROL Segments]** menu hebt u toegang tot Adobe Experience Platf
 Het **[!UICONTROL Admin]** menu is beschikbaar voor alle gebruikers met beheerdersrechten (zie [Toegangsbeheer](../about/access-management.md)). Het verstrekt een dashboard dat u aan opstellings [gegevensbronnen](../datasource/about-data-sources.md), [gebeurtenissen](../event/about-events.md) en [acties](../action/action.md)toestaat.
 
 ![](../assets/interface-admin-dashboard.png)
+
