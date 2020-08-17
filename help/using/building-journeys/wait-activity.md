@@ -1,5 +1,5 @@
 ---
-title: Wacht op activiteit
+title: Wachtactiviteit
 description: Meer informatie over wachtactiviteiten
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 2%
 
 ---
 
 
-# Wacht op activiteit{#section_rlm_nft_dgb}
+# Wachtactiviteit{#section_rlm_nft_dgb}
 
 Als u wilt wachten alvorens de volgende activiteit in de weg uit te voeren, kunt u een **[!UICONTROL Wait]** activiteit gebruiken. Hiermee kunt u bepalen wanneer de volgende activiteit wordt uitgevoerd. Er zijn vier opties beschikbaar:
 
@@ -70,7 +70,7 @@ Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 202
 
 >[!CAUTION]
 >
->De functie voor het optimaliseren van de verzendtijd van e-mail is alleen beschikbaar voor klanten die de functie Adobe Campaign Standard Data Service gebruiken.
+>De functie voor het optimaliseren van de verzendtijd van e-mail is alleen beschikbaar voor klanten die de [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)gebruiken.
 
 Voor dit type wachttijd wordt een score gebruikt die in de Adobe Experience Platform is berekend. De score berekent de neiging om in de toekomst op e-mail te klikken of te openen op basis van gedrag uit het verleden. Merk op dat het algoritme dat de score berekent een bepaalde hoeveelheid gegevens vereist om te werken. Als er onvoldoende gegevens zijn, is de standaardwachttijd dus van toepassing. Tijdens de publicatie wordt u op de hoogte gesteld dat de standaardtijd van toepassing is.
 
