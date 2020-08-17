@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
+source-git-commit: 76c2f4c1f459bb7bb21101708340137ae5f89ae0
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
@@ -41,6 +41,8 @@ Laten we zeggen dat je een Gold-klantensegment hebt op Adobe Experience Platform
 
    De activiteit moet als eerste stap van een reis worden geplaatst.
 
+1. Voeg een **[!UICONTROL Label]** aan de activiteit toe. Deze stap is optioneel.
+
 1. Configureer de activiteit **[!UICONTROL Scheduler type]**.
 
    Door gebrek, zal het segment de reis ingaan **[!UICONTROL As soon as possible]**, die 1 uur betekent na de reis wordt gepubliceerd. Als u wilt dat het segment de reis op een specifieke datum/tijd of op een terugkomende basis ingaat, selecteer de gewenste optie van de lijst.
@@ -51,7 +53,17 @@ Laten we zeggen dat je een Gold-klantensegment hebt op Adobe Experience Platform
 
 1. Kies in het **[!UICONTROL Segment]** veld het Adobe Experience Platform-segment dat de rit moet ingaan en klik op **[!UICONTROL Save]**.
 
+   >[!NOTE]
+   >
+   >U kunt de kolommen in de lijst aanpassen en sorteren.
+
    ![](../assets/segment-trigger-segment-selection.png)
+
+   Zodra het segment wordt toegevoegd, staat de **[!UICONTROL Copy]** knoop u toe om zijn naam en identiteitskaart te kopiëren:
+
+   `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-trigger-copy.png)
 
 1. Kies in het **[!UICONTROL Namespace]** veld de naamruimte die u wilt gebruiken om de personen te identificeren. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
 
