@@ -1,5 +1,5 @@
 ---
-title: Metriek en afmetingen
+title: Cijfers en dimensies
 description: Meer informatie over de beschikbare afmetingen en meetgegevens voor Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 ---
 
 
-# Metriek en afmetingen {#concept_rfj_wpt_52b}
+# Cijfers en dimensies {#concept_rfj_wpt_52b}
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ In de onderstaande tabel staan de afmetingen die worden gebruikt in reisrapporte
 | Dimension | Definitie |
 |--- |--- |
 | **Handeling** | Lijst van alle handelingen (naam van de **handeling - actielabel**) die tijdens reizen worden gebruikt, bijvoorbeeld push - Check out bevestiging, Email - Rewards getrouwheid. |
-| **Gegevensbron** | Lijst met gegevensbronnen (naam **van** gegevensbron) die worden gebruikt om gegevens te verrijken op een reis, bijvoorbeeld Adobe Experience platform, Reservation System. |
+| **Gegevensbron** | Lijst van gegevensbronnen (naam **van** gegevensbron) die worden gebruikt om gegevens te verrijken in een reis, bijvoorbeeld Adobe Experience Platform, reserveringssysteem. |
 | **[!UICONTROL Event]** | Lijst van alle gebeurtenissen (naam van **gebeurtenis - label** van gebeurtenis) die tijdens reizen worden gebruikt, bijv. gebeurtenis Geometrixx - uitchecken van Geometrixx. |
 | **Veldgroep** | Lijst van veldgroepen (**veldgroepsnaam**) die worden gebruikt om gegevens te verrijken tijdens reizen, bijvoorbeeld profielveldgroep, reserveringssysteem Geometrixx. |
 | **Reis** | Lijst van elke reis (**reisnaam**) in testmodus en live, bv. stopzetting van de auto, kennisgeving van reservering van het hotel. |
