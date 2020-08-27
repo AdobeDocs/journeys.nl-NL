@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 20%
+source-wordcount: '107'
+ht-degree: 60%
 
 ---
 
@@ -33,7 +33,6 @@ Hier volgt een lijst met ondersteunde functies.
 
 | Categorie | -functie |
 |-------------|-----------------------|
-| Adobe Experience Platform | [](../functions/functiongetbestsendtime.md) |
 | Adobe Experience Platform | [](../functions/functioninsegment.md) |
 | Samenvoeging | [](../functions/functionavg.md) |
 | Samenvoeging | [](../functions/functioncount.md) |
@@ -70,8 +69,8 @@ Hier volgt een lijst met ondersteunde functies.
 | Lijst | [](../functions/functionlistsize.md) |
 | Lijst | [](../functions/functionserializelist.md) |
 | Lijst | [](../functions/functionsort.md) |
-| Math | [](../functions/functionrandom.md) |
-| Math | [](../functions/functionround.md) |
+| Wiskundig | [](../functions/functionrandom.md) |
+| Wiskundig | [](../functions/functionround.md) |
 | Tekenreeks | [](../functions/functionconcat.md) |
 | Tekenreeks | [](../functions/functioncontain.md) |
 | Tekenreeks | [](../functions/functioncontainwithignorecase.md) |
