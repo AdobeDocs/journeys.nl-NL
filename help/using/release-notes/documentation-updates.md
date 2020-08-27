@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 78%
+source-wordcount: '724'
+ht-degree: 80%
 
 ---
 
@@ -28,7 +28,7 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 
 * Toegevoegde informatie over het sorteren en kiezen van de kolommen die in de lijst met segmenten moeten worden weergegeven. [Meer informatie](../building-journeys/segment-qualification-events.md)
 * Er is informatie toegevoegd over de manier waarop de naam en id van een segment moeten worden gekopieerd nadat het segment is geselecteerd. [Meer informatie](../building-journeys/segment-qualification-events.md)
-* Experience Platform is op de verschillende pagina&#39;s geharmoniseerd.
+* Het aantal gevallen van Experience Platform is op de verschillende pagina&#39;s geharmoniseerd.
 
 ## Juli 2020 {#july-2020}
 
@@ -81,13 +81,14 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 ## Januari 2020 {#january-2020}
 
 * Er zijn beperkingen toegevoegd voor het ophalen van [ervaringsgebeurtenissen](../datasource/adobe-experience-platform-data-source.md) en [segmenten](../functions/functioninsegment.md).
-* De [getBestSendTime-documentatie](../functions/functiongetbestsendtime.md) is bijgewerkt.
+
+<!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## December 2019 {#december-2019}
 
 * Alle screenshots zijn bijgewerkt met interfacewijzigingen.
 * De sectie over de testmodus is bijgewerkt. [Meer informatie](../building-journeys/testing-the-journey.md)
-* Er is een waarschuwing toegevoegd in de secties over [optimalisatie van e-mailverzendingstijd](../building-journeys/wait-activity.md) en [voorspelbare moeheidsscores](../ai-services/leveraging-fatigue-scores.md). Deze mogelijkheden zijn alleen beschikbaar voor klanten die de [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html)gebruiken.
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
 * Gestandaardiseerde journey’s kunnen nu worden verwijderd. Gerelateerde documentatiepagina’s zijn bijgewerkt.
 * Er worden nu twee kleuren weergegeven wanneer tijdens een journey problemen worden gedetecteerd. Rood voor fouten en oranje voor waarschuwingen. [Meer informatie](../about/troubleshooting.md)
 * De sectie over de geavanceerde expressie-editor is bijgewerkt. [Meer informatie](../expression/expressionadvanced.md).
