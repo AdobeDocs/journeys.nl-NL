@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -38,8 +38,8 @@ De expressies worden van links naar rechts geëvalueerd. De associatie bij reken
 
 Hier volgen de verschillende regels voor hoofdlettergevoeligheid:
 
-* Alle operatoren (en, enz.) moet in kleine letters worden geschreven. Bijvoorbeeld, _`<expression1>`en`<expression2>`_is een geldige uitdrukking terwijl de uitdrukking_`<expression1>` EN `<expression2>`_ niet is.
-* Alle functienamen zijn hoofdlettergevoelig. Zo is _getBestSendTime()_ geldig, terwijl de functie _GETBESTSENDTIME()_ dat niet is.
+* Alle operatoren (en, enz.) moet in kleine letters worden geschreven. Bijvoorbeeld, _`<expression1>`en`<expression2>`_ is een geldige uitdrukking terwijl de uitdrukking _`<expression1>`EN`<expression2>`_ niet is.
+* Alle functienamen zijn hoofdlettergevoelig. Bijvoorbeeld, _inSegment()_ is geldig terwijl de functie _INSEGMENT()_ niet geldig is.
 * Veldverwijzingen en constante waarden zijn hoofdlettergevoelig: zij zijn geen ingebouwde elementen van de taal (in tegenstelling tot exploitanten en functies), zij worden ontworpen door de eindgebruiker.
 
 ## Type geretourneerde expressie{#section_gyc_435_53b}
