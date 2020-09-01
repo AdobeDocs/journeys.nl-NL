@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 1%
+source-wordcount: '619'
+ht-degree: 5%
 
 ---
 
@@ -27,11 +27,35 @@ Dit nieuwe type gebeurtenis genereert geen eventID. Gebruikend de eenvoudige uit
 
 Deze nieuwe methode is meestal transparant voor gebruikers. De enige wijziging is een nieuw veld in het scherm met gebeurtenisdefinities.
 
+## Adobe Analytics-gegevens gebruiken{#analytics-data}
+
+>[!NOTE]
+>
+>Deze sectie is alleen van toepassing op klanten die Adobe Analytics-gegevens moeten gebruiken.
+
+U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en in het Platform stroomt, benutten om reizen te starten en ervaringen voor uw klanten te automatiseren.
+
+Dit werkt alleen als u in Adobe Experience Platform de rapportsuite activeert die u wilt gebruiken:
+
+1. Selecteer vervolgens in Adobe Experience Platform **[!UICONTROL Sources]** **[!UICONTROL Add data]** de sectie Adobe Analytics. De lijst met beschikbare Adobe Analytics-rapportsuites wordt weergegeven.
+
+1. Kies de rapportsuite die u wilt inschakelen, klik **[!UICONTROL Next]** en klik **[!UICONTROL Finish]**.
+
+1. Deel de id van de brongegevens met uw Alpha- programmapunt van contact.
+
+Dit laat de bron van Analytics schakelaar voor die rapportreeks toe. Telkens wanneer de gegevens binnenkomen, worden ze omgezet in een Experience-gebeurtenis en verzonden naar Adobe Experience Platform.
+
+![](../assets/alpha-event9.png)
+
+Raadpleeg de [documentatie](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) en [zelfstudie](https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html)voor meer informatie over de Adobe Analytics-bronaansluiting.
+
+## Het vormen van een op regel-gebaseerde gebeurtenis{#configuring-rule-based}
+
 1. Klik in het linkermenu op het **[!UICONTROL Admin]** pictogram en klik vervolgens op **[!UICONTROL Events]**. De lijst met gebeurtenissen wordt weergegeven.
 
    ![](../assets/alpha-event1.png)
 
-1. Klik **[!UICONTROL Add]** om een nieuwe gebeurtenis te maken. Het deelvenster voor gebeurtenisconfiguratie wordt aan de rechterkant van het scherm geopend.
+1. Klik op **[!UICONTROL Add]** om een nieuwe gebeurtenis te maken. Het deelvenster voor gebeurtenisconfiguratie wordt aan de rechterkant van het scherm geopend.
 
    ![](../assets/alpha-event2.png)
 
@@ -68,4 +92,14 @@ Deze nieuwe methode is meestal transparant voor gebruikers. De enige wijziging i
 De andere stappen voor gebeurtenisconfiguratie en het creëren van de reis blijven onveranderd.
 
 De gebeurtenis is nu geconfigureerd en klaar om op een reis te worden neergezet, net als elke andere gebeurtenis. Telkens wanneer een gebeurtenis die de regel aanpast naar het systeem wordt verzonden, wordt het overgegaan tot Journey Orchestration om uw reizen teweeg te brengen.
+
+## De wijze van de test voor op regel-gebaseerde gebeurtenissen{#test-rule-based}
+
+De testmodus is ook beschikbaar voor reizen die een op regels gebaseerde gebeurtenis gebruiken.
+
+Wanneer u een gebeurtenis activeert, kunt u in het configuratiescherm **Gebeurtenis** de gebeurtenisparameters definiëren die tijdens de test moeten worden doorgegeven. U kunt de voorwaarde van de gebeurtenis-identiteitskaart bekijken door het tooltip pictogram in de hoogste juiste hoek te klikken. Er is ook knopinfo beschikbaar naast elk veld dat deel uitmaakt van de regelevaluatie.
+
+![](../assets/alpha-event8.png)
+
+Raadpleeg [](../building-journeys/testing-the-journey.md)voor meer informatie over het gebruik van de testmodus.
 
