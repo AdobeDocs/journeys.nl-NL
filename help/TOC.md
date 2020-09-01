@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Help bij Journey Orchestration
 index: true
 translation-type: tm+mt
-source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
+source-git-commit: 8a9c6e4f70ff88e60a85caff5e18a05070cf3f93
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 95%
@@ -184,6 +184,6 @@ ht-degree: 95%
 + Alfa-functies {#alpha}
    + [Overzicht van Alfa-functies](using/alpha/alpha-overview.md)
    + [Gebruikersinterface](using/alpha/alpha-interface.md)
-   + [Segmenttriggeractiviteit](using/alpha/alpha-segment-trigger.md)
+   + [Segmentactiviteit lezen](using/alpha/alpha-segment-trigger.md)
    + [Gebeurtenissen op basis van regels](using/alpha/alpha-events.md)
 
