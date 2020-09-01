@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
+source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 84%
+source-wordcount: '1527'
+ht-degree: 63%
 
 ---
 
@@ -23,6 +23,127 @@ ht-degree: 84%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)raadplegen.
+
+## Release van augustus 2020 {#august-release}
+
+### GA-updates{#august-ga-update}
+
+De nuttige lading van de gebeurtenissen van de Kwalificatie van het Segment bevat nu de volgende contextinformatie, die u in voorwaarden en acties kunt gebruiken: het gedrag (ingang, uitgang), het tijdstempel van kwalificatie en de segment-id. [Meer informatie](../building-journeys/segment-qualification-events.md)
+
+### Alfa-updates{#august-alpha-update}
+
+Om het werkingsgebied van Alpha te ontdekken, verwijs naar deze [sectie](../alpha/alpha-overview.md).
+
+<table>
+<thead>
+<tr>
+<th><strong>Segmenttriggeractiviteit</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De activiteit van Segment Trigger is als volgt verbeterd:
+</p>
+<ul>
+<li><p>De naam van de activiteit is veranderd in "Leessegment". </p>
+</li>
+<li><p>De configuratie van de reisplanner is verwijderd uit de eigenschappen van de activiteit. Het is nu direct toegankelijk van de eigenschappen van de Reis, in een specifieke sectie die zal tonen als een Gelezen activiteit van het Segment in het canvas is gelaten vallen. </p>
+</li>
+<li><p>U kunt de reis nu testen op een uniform profiel en de voortgang van de reis volgen met behulp van de visuele stroom.</p>
+</li>
+</ul>
+<p>Raadpleeg de <a href="../alpha/alpha-segment-trigger.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Gebeurtenissen op basis van regels</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De volgende verbeteringen zijn doorgevoerd in op regels gebaseerde gebeurtenissen:
+</p>
+<ul>
+<li><p>U kunt nu alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en in het Platform streamt, benutten om reizen te starten en ervaringen voor uw klanten te automatiseren. <a href="../alpha/alpha-events.md#analytics-data">Meer informatie</a></p>
+</li>
+<li><p>Wanneer u een op regels gebaseerde gebeurtenis activeert in de testmodus, kunt u de voorwaarde van de gebeurtenis-id nu rechtstreeks weergeven. Ook, is tooltip toegevoegd naast elk gebied dat deel van de regelevaluatie uitmaakt. <a href="../alpha/alpha-events.md#configuring-rule-based">Meer informatie</a></p>
+</li>
+<li><p>Het op regel-gebaseerde scherm van de gebeurtenisdefinitie is gereorganiseerd voor een betere ervaring. <a href="../alpha/alpha-events.md#test-rule-based">Meer informatie</a></p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Alfa-release - juli 2020 {#alpha-release---july-2020}
+
+Het Alpha- programma biedt eigenschappen aan die momenteel onder een beperkte reeks klanten worden getest. Hierdoor kunnen we ons product verbeteren op basis van de ontvangen feedback. Deze functies zijn niet beschikbaar voor alle Journey Orchestration-klanten.
+
+Deze functies worden beschreven in een speciale [sectie](../alpha/alpha-overview.md).
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbeterde gebruikersinterface</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De navigatie binnen de menu's van Journey Orchestration is verbeterd, om een verenigbare interface met Adobe Experience Platform te verstrekken:
+</p>
+<ul>
+<li><p>Menu's zijn van boven naar links in de interface verplaatst. </p>
+</li>
+<li><p>Het groeperen van adminfunctionaliteit in één enkel dashboard.</p>
+</li>
+</ul>
+<p>Raadpleeg de <a href="../alpha/alpha-interface.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Segmenttriggeractiviteit</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met de Segment Trigger-activiteit kunt u alle personen die tot een Adobe Experience Platform-segment behoren een reis laten maken. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden. <a href="../alpha/alpha-segment-trigger.md">Meer informatie</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Gebeurtenissen op basis van regels</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>We hebben de manier vereenvoudigd waarop u Experience Events instelt. We introduceren een nieuwe methode waarvoor geen eventID nodig is. Wanneer u de gebeurtenis instelt in Journey Orchestration, kunt u nu een op regels gebaseerde gebeurtenis definiëren. <a href="../alpha/alpha-events.md">Meer informatie</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Q2-release - juni 2020 {#q2-release---june-2020}
 
@@ -49,9 +170,9 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 <li><p>Journey Orchestration gaat nu automatisch de stappen door die tijdens reizen zijn uitgevoerd naar de Adobe Experience Platform. Dit geldt ook voor mogelijke fouten. Deze informatie kan worden gebruikt voor rapportage en probleemoplossing door query’s uit te voeren op journeystapgebeurtenissen voor een bepaalde journey of voor alle journey’s. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-</li>
 <li><p>Journey Orchestration kan nu worden aangesloten op Adobe Experience Platform-sandboxen die niet voor productie zijn bedoeld. Sandboxen zijn bètafuncties. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
 </li>
+</ul>
 </td>
 </tr>
 </tbody>
