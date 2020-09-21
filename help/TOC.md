@@ -1,18 +1,18 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Journey Orchestration Guide
+user-guide-title: Journey Orchestration-handleiding
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Orchestration] Hulplijn {#using}
+# [!DNL Journey Orchestration]-handleiding {#using}
 
 + [Productdocumentatie](journey-orchestration-home.md)
 + Nieuwe functies {#release-notes}
@@ -62,7 +62,7 @@ ht-degree: 94%
       + Gebeurtenisactiviteiten {#events-activities}
          + [Gebeurtenisactiviteiten](using/building-journeys/event-activities.md)
          + [Algemene gebeurtenissen](using/building-journeys/general-events.md)
-         + [Gebeurtenissen van Reaction](using/building-journeys/reaction-events.md)
+         + [Reactiegebeurtenissen](using/building-journeys/reaction-events.md)
          + [Segmentkwalificatiegebeurtenissen](using/building-journeys/segment-qualification-events.md)
       + Orkestratieactiviteiten {#orchestration-activities}
          + [Informatie over orkestratieactiviteiten](using/building-journeys/about-orchestration-activities.md)
@@ -75,7 +75,7 @@ ht-degree: 94%
          + [Aangepaste acties gebruiken](using/building-journeys/using-custom-actions.md)
    + [Journey testen](using/building-journeys/testing-the-journey.md)
    + [Journey publiceren](using/building-journeys/publishing-the-journey.md)
-   + Reisstappen delen met Adobe Experience Platform {#sharing-journey-steps}
+   + Journeystappen delen met Adobe Experience Platform {#sharing-journey-steps}
       + [Overzicht van het delen van journeystappen](using/building-journeys/sharing-overview.md)
       + [journeySteps-gebeurtenissen - gemeenschappelijke velden](using/building-journeys/sharing-common-fields.md)
       + [journeyStep-gebeurtenissen - velden voor het uitvoeren van acties](using/building-journeys/sharing-execution-fields.md)
