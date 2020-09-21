@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -37,12 +37,12 @@ Deze configuratie is niet vereist als uw journey’s alleen lokale data uit een 
 
 Er zijn twee soorten databronnen:
 
-* De vooraf geconfigureerde Adobe Experience Platform-gegevensbron die de verbinding met de Real-Time Customer Profile Service definieert. Dit is een ingebouwde databron. Zie [](../datasource/adobe-experience-platform-data-source.md).
+* De vooraf geconfigureerde Adobe Experience Platform-databron die de verbinding met de realtimeservice van het klantprofiel definieert. Dit is een ingebouwde databron. Zie [](../datasource/adobe-experience-platform-data-source.md).
 * De externe databronnen waarmee u een verbinding met externe systemen kunt definiëren. Dit zijn databronnen die u kunt maken. Zie [](../datasource/external-data-sources.md).
 
 Voor elke databron definieert u de informatie die u wilt ophalen met behulp van veldengroepen. Veldengroepen zijn reeksen velden die uit een databron kunnen worden opgehaald. Zie [](../datasource/field-groups.md).
 
-For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/nl-NL/journey-orchestration-learn/tutorials/configure-data-sources.html).
+Voor meer informatie over het configureren van een Adobe Experience Platform-databron en een externe databron en hoe u gegevens in een journey kunt vinden en gebruiken, bekijkt u deze [zelfstudievideo](https://docs.adobe.com/content/help/nl-NL/journey-orchestration-learn/tutorials/configure-data-sources.html).
 
 Dit zijn de belangrijkste stappen voor de configuratie van databronnen:
 
