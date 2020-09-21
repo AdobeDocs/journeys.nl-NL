@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1527'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 
 ### GA-updates{#august-ga-update}
 
-De nuttige lading van de gebeurtenissen van de Kwalificatie van het Segment bevat nu de volgende contextinformatie, die u in voorwaarden en acties kunt gebruiken: het gedrag (ingang, uitgang), het tijdstempel van kwalificatie en de segment-id. [Meer informatie](../building-journeys/segment-qualification-events.md)
+De payload van segmentkwalificatiegebeurtenissen bevat nu de volgende contextinformatie, die u in voorwaarden en acties kunt gebruiken: het gedrag (openen, sluiten), het tijdstempel van kwalificatie en de segment-ID. [Meer informatie](../building-journeys/segment-qualification-events.md)
 
 ### Alfa-updates{#august-alpha-update}
 
-Om het werkingsgebied van Alpha te ontdekken, verwijs naar deze [sectie](../alpha/alpha-overview.md).
+Raadpleeg deze [sectie](../alpha/alpha-overview.md) om de scope van Alfa te ontdekken.
 
 <table>
 <thead>
@@ -43,14 +43,14 @@ Om het werkingsgebied van Alpha te ontdekken, verwijs naar deze [sectie](../alph
 <tbody>
 <tr>
 <td>
-<p>De activiteit van Segment Trigger is als volgt verbeterd:
+<p>De segmenttriggeractiviteit bevat de volgende verbeteringen:
 </p>
 <ul>
-<li><p>De naam van de activiteit is veranderd in "Leessegment". </p>
+<li><p>De naam van de activiteit is veranderd in ‘Segment lezen’. </p>
 </li>
-<li><p>De configuratie van de reisplanner is verwijderd uit de eigenschappen van de activiteit. Het is nu direct toegankelijk van de eigenschappen van de Reis, in een specifieke sectie die zal tonen als een Gelezen activiteit van het Segment in het canvas is gelaten vallen. </p>
+<li><p>De configuratie van de journeyplanner is verwijderd uit de eigenschappen van de activiteit. De activiteit is nu direct toegankelijk vanuit de eigenschappen van de journey in een specifieke sectie die wordt weergegeven als een activiteit voor Segment lezen op het canvas is neergezet. </p>
 </li>
-<li><p>U kunt de reis nu testen op een uniform profiel en de voortgang van de reis volgen met behulp van de visuele stroom.</p>
+<li><p>U kunt de journey nu testen op een uniform profiel en de voortgang van de journey volgen met behulp van de visuele stroom.</p>
 </li>
 </ul>
 <p>Raadpleeg de <a href="../alpha/alpha-segment-trigger.md">gedetailleerde documentatie</a> voor meer informatie.</p>
@@ -71,11 +71,11 @@ Om het werkingsgebied van Alpha te ontdekken, verwijs naar deze [sectie](../alph
 <p>De volgende verbeteringen zijn doorgevoerd in op regels gebaseerde gebeurtenissen:
 </p>
 <ul>
-<li><p>U kunt nu alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en in het Platform streamt, benutten om reizen te starten en ervaringen voor uw klanten te automatiseren. <a href="../alpha/alpha-events.md#analytics-data">Meer informatie</a></p>
+<li><p>U kunt nu alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en naar het platform streamt, gebruiken om journey’s te starten en ervaringen voor uw klanten te automatiseren. <a href="../alpha/alpha-events.md#analytics-data">Meer informatie</a></p>
 </li>
-<li><p>Wanneer u een op regels gebaseerde gebeurtenis activeert in de testmodus, kunt u de voorwaarde van de gebeurtenis-id nu rechtstreeks weergeven. Ook, is tooltip toegevoegd naast elk gebied dat deel van de regelevaluatie uitmaakt. <a href="../alpha/alpha-events.md#configuring-rule-based">Meer informatie</a></p>
+<li><p>Wanneer u een op regels gebaseerde gebeurtenis activeert in de testmodus, kunt u de voorwaarde van de gebeurtenis-ID nu rechtstreeks weergeven. Ook is er een tooltip toegevoegd naast elk veld dat deel uitmaakt van de regelevaluatie. <a href="../alpha/alpha-events.md#configuring-rule-based">Meer informatie</a></p>
 </li>
-<li><p>Het op regel-gebaseerde scherm van de gebeurtenisdefinitie is gereorganiseerd voor een betere ervaring. <a href="../alpha/alpha-events.md#test-rule-based">Meer informatie</a></p>
+<li><p>Het scherm voor de definitie van op regels gebaseerde gebeurtenissen is gereorganiseerd voor een betere ervaring. <a href="../alpha/alpha-events.md#test-rule-based">Meer informatie</a></p>
 </li>
 </ul>
 </td>
@@ -85,7 +85,7 @@ Om het werkingsgebied van Alpha te ontdekken, verwijs naar deze [sectie](../alph
 
 ## Alfa-release - juli 2020 {#alpha-release---july-2020}
 
-Het Alpha- programma biedt eigenschappen aan die momenteel onder een beperkte reeks klanten worden getest. Hierdoor kunnen we ons product verbeteren op basis van de ontvangen feedback. Deze functies zijn niet beschikbaar voor alle Journey Orchestration-klanten.
+Het Alfa-programma biedt functies die momenteel bij een beperkt aantal klanten worden getest. Hierdoor kunnen we ons product verbeteren op basis van de ontvangen feedback. Deze functies zijn niet beschikbaar voor alle Journey Orchestration-klanten.
 
 Deze functies worden beschreven in een speciale [sectie](../alpha/alpha-overview.md).
 
@@ -98,12 +98,12 @@ Deze functies worden beschreven in een speciale [sectie](../alpha/alpha-overview
 <tbody>
 <tr>
 <td>
-<p>De navigatie binnen de menu's van Journey Orchestration is verbeterd, om een verenigbare interface met Adobe Experience Platform te verstrekken:
+<p>De navigatie binnen de menu’s van Journey Orchestration is verbeterd en biedt nu een consistente interface met Adobe Experience Platform:
 </p>
 <ul>
-<li><p>Menu's zijn van boven naar links in de interface verplaatst. </p>
+<li><p>Menu’s zijn van de bovenkant verplaatst naar de linkerkant van de interface. </p>
 </li>
-<li><p>Het groeperen van adminfunctionaliteit in één enkel dashboard.</p>
+<li><p>Groepering van beheerdersfuncties in één dashboard.</p>
 </li>
 </ul>
 <p>Raadpleeg de <a href="../alpha/alpha-interface.md">gedetailleerde documentatie</a> voor meer informatie.</p>
@@ -121,7 +121,7 @@ Deze functies worden beschreven in een speciale [sectie](../alpha/alpha-overview
 <tbody>
 <tr>
 <td>
-<p>Met de Segment Trigger-activiteit kunt u alle personen die tot een Adobe Experience Platform-segment behoren een reis laten maken. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden. <a href="../alpha/alpha-segment-trigger.md">Meer informatie</a>
+<p>Met de segmenttriggeractiviteit kunt u alle personen die tot een Adobe Experience Platform-segment behoren, een journey laten starten. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden. <a href="../alpha/alpha-segment-trigger.md">Meer informatie</a>
 </p>
 </td>
 </tr>
@@ -137,7 +137,7 @@ Deze functies worden beschreven in een speciale [sectie](../alpha/alpha-overview
 <tbody>
 <tr>
 <td>
-<p>We hebben de manier vereenvoudigd waarop u Experience Events instelt. We introduceren een nieuwe methode waarvoor geen eventID nodig is. Wanneer u de gebeurtenis instelt in Journey Orchestration, kunt u nu een op regels gebaseerde gebeurtenis definiëren. <a href="../alpha/alpha-events.md">Meer informatie</a>
+<p>We hebben de manier vereenvoudigd waarop u Experience-gebeurtenissen instelt. We introduceren een nieuwe methode waarvoor geen eventID nodig is. Wanneer u de gebeurtenis instelt in Journey Orchestration, kunt u nu een op regels gebaseerde gebeurtenis definiëren. <a href="../alpha/alpha-events.md">Meer informatie</a>
 </p>
 </td>
 </tr>
@@ -158,19 +158,19 @@ Deze functies worden beschreven in een speciale [sectie](../alpha/alpha-overview
 <td>
 <p>De volgende Adobe Experience Platform-integratieverbeteringen zijn doorgevoerd:</p>
 <ul>
-<li><p>Een nieuwe activiteit staat het luisteren van de het segmententententangen/uitgang van Adobe Experience Platform toe om mensen te maken binnen of vooruit in een reis. <a href="../building-journeys/segment-qualification-events.md">Meer informatie</a></p>
+<li><p>Met een nieuwe activiteit kan worden geluisterd naar het openen en sluiten van Adobe Experience Platform-segmenten waarmee mensen aan een journey beginnen of ermee doorgaan. <a href="../building-journeys/segment-qualification-events.md">Meer informatie</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">Meer informatie</a></p>
+<li><p>U kunt nu Adobe Experience Platform-segmenten maken en bewerken zonder de Journey Orchestration-interface te verlaten dankzij het nieuwe tabblad <strong>Segments</strong>.<a href="../segment/about-segments.md">Meer informatie</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>In de eenvoudige uitdrukkingsredacteur, zijn de segmenten van Adobe Experience Platform nu direct vermeld in de navigatieboom om gemakkelijke opstelling van voorwaarden zoals "toe te staan behoort deze persoon tot segment A?".<a href="../segment/using-a-segment.md">Meer informatie</a></p>
+<li><p>In de eenvoudige expressie-editor worden Adobe Experience Platform-segmenten nu direct vermeld in de navigatiestructuur voor het gemakkelijk instellen van voorwaarden zoals ‘hoort deze persoon bij segment A?’.<a href="../segment/using-a-segment.md">Meer informatie</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration gaat nu automatisch de stappen door die tijdens reizen zijn uitgevoerd naar de Adobe Experience Platform. Dit geldt ook voor mogelijke fouten. Deze informatie kan worden gebruikt voor rapportage en probleemoplossing door query’s uit te voeren op journeystapgebeurtenissen voor een bepaalde journey of voor alle journey’s. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
+<li><p>Journey Orchestration geeft nu automatisch de stappen die tijdens journey’s worden uitgevoerd, door aan het Adobe Experience Platform. Dit geldt ook voor mogelijke fouten. Deze informatie kan worden gebruikt voor rapportage en probleemoplossing door query’s uit te voeren op journeystapgebeurtenissen voor een bepaalde journey of voor alle journey’s. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Journey Orchestration kan nu worden aangesloten op Adobe Experience Platform-sandboxen die niet voor productie zijn bedoeld. Sandboxen zijn bètafuncties. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
+<li><p>Journey Orchestration kan nu worden verbonden met productie- en niet-productie Adobe Experience Platform-sandboxen. Sandboxen zijn bètafuncties. <a href="../about/access-management.md#sandboxes">Meer informatie</a></p>
 </li>
 </ul>
 </td>
@@ -251,7 +251,7 @@ De Journey Orchestration-interface is beschikbaar in het Japans.
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>In de vervolgkeuzelijst <strong>Timezone</strong> kunt u een specifieke tijdzone selecteren. Standaard wordt de tijdzone van de browser gebruikt. </li>
-<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Adobe Experience Platform Profile timezone of the person entering the journey, if available. Als dat niet het geval is, wordt de tijdzone gebruikt die in de vervolgkeuzelijst is gedefinieerd. Deze functie is niet compatibel met journey’s die gebeurtenissen gebruiken die geen naamruimte hebben.</li>
+<li>Met het selectievakje <strong>Profile Timezone</strong> kunt u de Adobe Experience Platform-profieltijdzone gebruiken van de persoon die aan de journey begint, mits beschikbaar. Als dat niet het geval is, wordt de tijdzone gebruikt die in de vervolgkeuzelijst is gedefinieerd. Deze functie is niet compatibel met journey’s die gebeurtenissen gebruiken die geen naamruimte hebben.</li>
 </ul>
 <p>Raadpleeg de secties <a href="../building-journeys/changing-properties.md#timezone">Eigenschappen wijzigen</a> en <a href="../building-journeys/timezone-management.md">Tijdzonebeheer</a> voor meer informatie.</p>
 </td>
@@ -277,7 +277,7 @@ De Journey Orchestration-interface is beschikbaar in het Japans.
 <p>In de journeyontwerper kunt u nu controleren of u de meest recente versie van de journey gebruikt. Deze informatie wordt weergegeven naast het versienummer.</p>
 <p>Op het journey<strong>canvas</strong> wordt nu een waarschuwingsbericht weergegeven als twee activiteiten worden losgekoppeld.</p>
 <img src="../assets/rn-canvas.png"/>
-<p>Raadpleeg de <a href="../building-journeys/using-the-journey-designer.md">gedetailleerde documentatie</a>voor meer informatie.</p>
+<p>Raadpleeg de <a href="../building-journeys/using-the-journey-designer.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -302,7 +302,7 @@ De Journey Orchestration-interface is beschikbaar in het Japans.
 
 **Overige verbeteringen**
 
-* In addition to US, Journey Orchestration is now available in **EMEA**. De applicatie en documentatie zijn in het Frans en Duits beschikbaar.
+* Naast de VS is Journey Orchestration nu ook verkrijgbaar in **EMEA**. De applicatie en documentatie zijn in het Frans en Duits beschikbaar.
 
 * Experience League is nu geïntegreerd in het product. Dit vereenvoudigt de toegang tot verwante content en helpt u Experience Cloud optimaal te benutten. Onderaan het tabblad Help hebt u rechtstreeks toegang tot de Journey Orchestration-documentatie. U kunt bovendien op Help > Feedback klikken om problemen te melden of uw ideeën te delen met Adobe.
 
@@ -310,7 +310,7 @@ De Journey Orchestration-interface is beschikbaar in het Japans.
 
 * U kunt gestopte journey’s nu **verwijderen**. Er zijn geen rapporten beschikbaar over deze verwijderde journey’s.
 
-* When browsing through **Adobe Experience Platform fields** (XDM format), you will now see the display name in addition to the field name. Deze informatie wordt opgehaald uit de schemadefinitie in het Gegevenservaringmodel. Indien beschikbaar ziet u de alternatieve weergavenaam. Met deze gebruiksvriendelijke beschrijving, vooral handig bij eVar-velden, kunt u uw velden gemakkelijker identificeren. [Meer informatie](../about/user-interface.md#friendly-names-display)
+* Wanneer u door **Adobe Experience Platform-velden** (XDM-indeling) bladert, ziet u nu behalve de veldnaam ook de weergavenaam. Deze informatie wordt opgehaald uit de schemadefinitie in het Gegevenservaringmodel. Indien beschikbaar ziet u de alternatieve weergavenaam. Met deze gebruiksvriendelijke beschrijving, vooral handig bij eVar-velden, kunt u uw velden gemakkelijker identificeren. [Meer informatie](../about/user-interface.md#friendly-names-display)
 
 ## GA-release - december 2019 {#ga-release---december-2019}
 
