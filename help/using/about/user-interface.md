@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 
 ## Toegang tot [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Voor toegang tot de [!DNL Journey Orchestration]-interface klikt u op het pictogram **[!UICONTROL App Selector]** rechtsboven. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
+Voor toegang tot de [!DNL Journey Orchestration]-interface klikt u op het pictogram **[!UICONTROL App Selector]** rechtsboven. Klik vervolgens op **[!UICONTROL Journey Orchestration]** aan de rechterkant, onder **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
@@ -57,7 +57,7 @@ In de lijsten **[!UICONTROL Home]**,**[!UICONTROL Data Sources]**, **[!UICONTROL
 
 U kunt het dialoogvenster **[!UICONTROL Filters]** openen door te klikken op het filterpictogram linksboven van de lijst. Met het menu Filters kunt u de weergegeven elementen filteren op basis van verschillende criteria. U kunt ervoor kiezen alleen de elementen van een bepaald type of een bepaalde status weer te geven, de elementen die u hebt gemaakt, of de elementen die in de afgelopen 30 dagen zijn gewijzigd.
 
-In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **[!UICONTROL Creation filters]** to filter on the creation date and user. U kunt bijvoorbeeld besluiten alleen gebeurtenissen weer te geven die u in de afgelopen 30 dagen hebt gemaakt.
+Gebruik in de lijsten **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]** de **[!UICONTROL Creation filters]** om te filteren op de datum waarop en de gebruiker door wie een element is gemaakt. U kunt bijvoorbeeld besluiten alleen gebeurtenissen weer te geven die u in de afgelopen 30 dagen hebt gemaakt.
 
 In de journeylijst (onder **[!UICONTROL Home]**) kunt u, naast **[!UICONTROL Creation filters]**, ook de weergegeven journey’s filteren op basis van hun status en versie (**[!UICONTROL Status and version filters]**). U kunt er ook voor kiezen om alleen de journey’s weer te geven die een bepaalde gebeurtenis, veldengroep of actie (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**) gebruiken. Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of gebruiker selecteren. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live journey’s weer te geven die gisteren zijn gepubliceerd. Zie [](../building-journeys/using-the-journey-designer.md).
 
@@ -104,18 +104,18 @@ _Bij het configureren van een activiteit in een journey:_
 Het canvas wordt automatisch opgeslagen. U kunt linksboven op het canvas de opslagstatus zien.
 
 * Druk op **Escape** om het configuratievenster te sluiten en de aangebrachte wijzigingen te negeren. Dit is het equivalent van de knop **[!UICONTROL Cancel]**.
-* Press **Enter** or click outside the pane to close the configuration pane. Wijzigingen worden opgeslagen. Dit is het equivalent van de knop **[!UICONTROL Ok]**.
-* If you press **Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
+* Druk op **Enter** of klik buiten het deelvenster om het configuratievenster te sluiten. Wijzigingen worden opgeslagen. Dit is het equivalent van de knop **[!UICONTROL Ok]**.
+* Als u op **Verwijderen** of **Backspace** klikt, kunt u drukken op **Enter** om de verwijdering te bevestigen.
 
 _In pop-ups:_
 
-* Press **escape** to close it (equivalent of the **[!UICONTROL Cancel]** button).
-* Press **Enter** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
+* Druk op **Escape** om de pop-up te sluiten (equivalent van de knop **[!UICONTROL Cancel]**).
+* Druk op **Enter** om op te slaan of te bevestigen (equivalent van de knop **[!UICONTROL Ok]** of **[!UICONTROL Save]**).
 
 _In het configuratiedeelvenster van de gebeurtenis, databron of actie:_
 
 * Druk op **Escape** om het configuratievenster te sluiten zonder het op te slaan.
-* Press **Enter** to save modifications and close the configuration pane.
+* Druk op **Enter** om wijzigingen op te slaan en het configuratievenster te sluiten.
 * Druk op **Tab** om van het ene te configureren veld naar het andere te gaan.
 
 _In de editor voor eenvoudige expressies_
@@ -137,5 +137,5 @@ _In een scherm met een zoekbalk:_
 _Op het canvas van een journey:_
 
 * Gebruik de toetsencombinatie **Ctrl/Command + A** om alle activiteiten te selecteren.
-* When one or several activities are selected, press **Delete** or **backspace** to delete them. Then you can press **Enter** to confirm in the confirmation pop-up.
+* Wanneer een of meerdere activiteiten zijn geselecteerd, drukt u op **Verwijderen** of **Backspace** om deze te verwijderen. Vervolgens kunt u in het pop-upvenster ter bevestiging op **Enter** drukken.
 * Dubbelklik op een activiteit in het linkerpalet om deze toe te voegen op de eerste beschikbare positie (van boven naar beneden).
