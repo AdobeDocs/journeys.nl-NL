@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DN
 
 1. **De databron configureren**
 
-   U moet een verbinding definiëren met een systeem voor het ophalen van extra informatie die in uw journey’s wordt gebruikt, bijvoorbeeld in uw voorwaarden. Een ingebouwde Adobe Experience Platform-gegevensbron wordt ook geconfigureerd tijdens de provisioning. Deze stap is niet vereist als u alleen data gebruikt van de gebeurtenissen in uw journey. Deze stap wordt uitgevoerd door een **technische gebruiker**.
+   U moet een verbinding definiëren met een systeem voor het ophalen van extra informatie die in uw journey’s wordt gebruikt, bijvoorbeeld in uw voorwaarden. Tijdens de provisioning wordt ook een ingebouwde Adobe Experience Platform-databron geconfigureerd. Deze stap is niet vereist als u alleen data gebruikt van de gebeurtenissen in uw journey. Deze stap wordt uitgevoerd door een **technische gebruiker**.
 
    Raadpleeg [](../datasource/about-data-sources.md) voor meer informatie.
 
