@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -26,16 +26,16 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 
 ## Augustus 2020 {#august-2020}
 
-* Toegevoegde informatie over het sorteren en kiezen van de kolommen die in de lijst met segmenten moeten worden weergegeven. [Meer informatie](../building-journeys/segment-qualification-events.md)
-* Er is informatie toegevoegd over de manier waarop de naam en id van een segment moeten worden gekopieerd nadat het segment is geselecteerd. [Meer informatie](../building-journeys/segment-qualification-events.md)
-* Het aantal gevallen van Experience Platform is op de verschillende pagina&#39;s geharmoniseerd.
+* Er is informatie toegevoegd over het sorteren en kiezen van de kolommen die in de lijst met segmenten moeten worden weergegeven. [Meer informatie](../building-journeys/segment-qualification-events.md)
+* Er is informatie toegevoegd over de manier waarop de naam en ID van een segment moeten worden gekopieerd nadat het segment is geselecteerd. [Meer informatie](../building-journeys/segment-qualification-events.md)
+* Het aantal gevallen van Experience Platform is op de verschillende pagina’s geharmoniseerd.
 
 ## Juli 2020 {#july-2020}
 
-* Er is een koppeling toegevoegd naar een nieuwe zelfstudievideo over stapgebeurtenissen die rapporteren aan Adobe Experience Platform. [Meer informatie](../building-journeys/sharing-overview.md)
-* De sectie van de gebeurtenisactiviteiten is gereorganiseerd in specifieke subsecties voor elk type van gebeurtenissen. [Meer informatie](../building-journeys/event-activities.md)
-* Toegevoegde beste praktijken om overbelasting met segmentkwantificering te vermijden. [Meer informatie](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* Er is een notitie toegevoegd om uit te leggen hoe een reis moet worden voortgezet na een fout in een handeling of een voorwaarde. [Meer informatie](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* Er is een koppeling toegevoegd naar een nieuwe zelfstudievideo over stapgebeurtenisrapportage aan Adobe Experience Platform. [Meer informatie](../building-journeys/sharing-overview.md)
+* De sectie voor gebeurtenisactiviteiten is gereorganiseerd in specifieke subsecties voor elk type gebeurtenissen. [Meer informatie](../building-journeys/event-activities.md)
+* Er zijn best practices toegevoegd om overbelasting met segmentkwalificatie te vermijden. [Meer informatie](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* Er is een notitie toegevoegd om uit te leggen hoe een journey moet worden voortgezet na een fout in een actie of een voorwaarde. [Meer informatie](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Er is een nieuwe sectie toegevoegd over de Alfa-functies die onder een beperkte groep klanten worden getest. [Meer informatie](../alpha/alpha-overview.md)
 * Er is een nieuwe sectie toegevoegd over de integratie met Intelligent Services. [Meer informatie](../ai-services/ai-services-overview.md)
 * Er is een nieuwe sectie toegevoegd over het maken van testprofielen. [Meer informatie](../building-journeys/testing-the-journey.md#create-test-profile)
@@ -49,7 +49,7 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 ## Juni 2020 {#june-2020}
 
 * Er is informatie toegevoegd over het aanpassen van de cachetermijn van de token voor een databron met aangepaste verificatie. [Meer informatie](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-* Updated screenshots and text to reflect the renaming of the **[!UICONTROL Finished]** journey state which has been changed to **[!UICONTROL Closed (no entrance)]**.
+* Screenshots en tekst zijn bijgewerkt met de nieuwe benaming van de journeystatus **[!UICONTROL Finished]** die is gewijzigd in **[!UICONTROL Closed (no entrance)]**.
 * Er is informatie toegevoegd over het definiëren van de taal voor de interface. [Meer informatie](../about/user-interface.md)
 * De lijst met statussen van de journey van een gebruiker is verplaatst naar de sectie [Logboeken voor testmodus](../building-journeys/testing-the-journey.md#viewing_logs).
 
@@ -61,12 +61,12 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 ## Maart 2020 {#march-2020}
 
 * Er zijn parameterbeschrijvingen toegevoegd voor _actionExecutionErrors_ en _fetchErrors_ in de sectie voor testlogboeken. [Meer informatie](../building-journeys/testing-the-journey.md#viewing_logs)
-* De beperkingen voor aangepaste acties die tijdens een journey worden gebruikt, zijn bijgewerkt. You can also modify the **[!UICONTROL URL]** field and the **[!UICONTROL Authentication]** parameters. [Meer informatie](../action/about-custom-action-configuration.md)
+* De beperkingen voor aangepaste acties die tijdens een journey worden gebruikt, zijn bijgewerkt. U kunt ook het veld **[!UICONTROL URL]** en de parameters **[!UICONTROL Authentication]** wijzigen. [Meer informatie](../action/about-custom-action-configuration.md)
 * Er zijn nieuwe contextuele Help-items toegevoegd. Het deelvenster voor aangepaste payloadverificatie (bij acties en databronnen) bevat nu een Help-pictogram dat naar deze [sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb) verwijst.
 * Gesloten journey’s kunnen nu worden gestopt. [Meer informatie](../building-journeys/using-the-journey-designer.md)
 * De sectie met de interfacebeschrijving heeft een nieuwe lay-out. [Meer informatie](../about/user-interface.md)
 * Het activeren van meerdere gebeurtenissen is toegevoegd aan de sectie over de testmodus [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
-* The Test mode section has been updated regarding the new **[!UICONTROL Wait time in test]** parameter. [Meer informatie](../building-journeys/testing-the-journey.md)
+* De sectie over de testmodus is bijgewerkt wat betreft de nieuwe parameter **[!UICONTROL Wait time in test]**. [Meer informatie](../building-journeys/testing-the-journey.md)
 * De sectie over testlogboeken is bijgewerkt met foutcodes en reacties met betrekking tot externe aanroepen. [Meer informatie](../building-journeys/testing-the-journey.md#viewing_logs)
 * Tijdzonebeheer wordt nu centraal geregeld in het deelvenster voor journey-eigenschappen. Meer informatie leest u [hier](../building-journeys/changing-properties.md#timezone) en [hier](../building-journeys/timezone-management.md)
 * De sectie over de journeyontwerper is bijgewerkt met recente verbeteringen. [Meer informatie](../building-journeys/using-the-journey-designer.md)
