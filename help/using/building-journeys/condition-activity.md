@@ -1,5 +1,5 @@
 ---
-title: Condition-activiteit
+title: Voorwaardeactiviteit
 description: Meer informatie over voorwaardenactiviteiten
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 25d3c3062bca2151faf10d11e9636799c1331f24
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 3%
+source-wordcount: '730'
+ht-degree: 8%
 
 ---
 
 
-# Condition-activiteit{#section_e2n_pft_dgb}
+# Voorwaardeactiviteit{#section_e2n_pft_dgb}
 
 Er zijn vier soorten voorwaarden beschikbaar:
 
@@ -32,11 +32,15 @@ Er zijn vier soorten voorwaarden beschikbaar:
 
 ## Informatie over de Condition-activiteit {#about_condition}
 
+Wanneer u verschillende voorwaarden in een reis gebruikt, kunt u labels voor elk van deze voorwaarden definiëren om ze gemakkelijker te kunnen identificeren.
+
 Klik **[!UICONTROL Add a path]** als u meerdere voorwaarden wilt definiëren. Voor elke voorwaarde wordt een nieuw pad toegevoegd in het canvas na de activiteit.
 
 ![](../assets/journey47.png)
 
-Merk op dat het ontwerp van de reizen functionele gevolgen heeft. Wanneer meerdere paden na een voorwaarde worden gedefinieerd, wordt alleen het eerste in aanmerking komende pad uitgevoerd. Dit betekent dat u de prioritering van paden kunt wijzigen door deze boven of onder elkaar te plaatsen. Als de voorwaarde van het eerste pad bijvoorbeeld &#39;De persoon is een VIP&#39; is en de voorwaarde van het tweede pad is &#39;De persoon is een man&#39;. Als een persoon die aan beide voorwaarden voldoet (een man die een VIP is) deze stap doorstaat, wordt het eerste pad gekozen, zelfs als hij ook in aanmerking komt voor het tweede pad, omdat het eerste pad &quot;boven&quot; is. Verplaats uw activiteiten in een andere verticale volgorde om deze prioriteit te wijzigen.
+Merk op dat het ontwerp van de reizen functionele gevolgen heeft. Wanneer meerdere paden na een voorwaarde worden gedefinieerd, wordt alleen het eerste in aanmerking komende pad uitgevoerd. Dit betekent dat u de prioritering van paden kunt wijzigen door deze boven of onder elkaar te plaatsen.
+
+Laten we bijvoorbeeld het voorbeeld nemen van de voorwaarde &#39;De persoon is een VIP&#39; van een eerste pad en de voorwaarde &#39;De persoon is een man&#39; van een tweede pad. Als een persoon die aan beide voorwaarden voldoet (een man die een VIP is) deze stap doorstaat, wordt het eerste pad gekozen, zelfs als hij ook in aanmerking komt voor het tweede pad, omdat het eerste pad &quot;boven&quot; is. Verplaats uw activiteiten in een andere verticale volgorde om deze prioriteit te wijzigen.
 
 ![](../assets/journey48.png)
 
@@ -57,7 +61,7 @@ Als u de [Adobe Experience Platform Segmentation Service](https://docs.adobe.com
 >U kunt geen vragen op tijdreeksen (bijvoorbeeld een lijst van aankopen, voorbij klikken op berichten) met de eenvoudige redacteur uitvoeren. Hiervoor moet u de geavanceerde editor gebruiken. Zie [](../expression/expressionadvanced.md).
 
 
-Wanneer een fout in een actie of een voorwaarde voorkomt, de reis van een individuele einden. De enige manier om door te gaan is het selectievakje in te schakelen **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Zie [](../building-journeys/using-the-journey-designer.md#paths).
+Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Gegevensbronvoorwaarde {#data_source_condition}
 
