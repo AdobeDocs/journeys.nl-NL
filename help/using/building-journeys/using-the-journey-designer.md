@@ -1,5 +1,5 @@
 ---
-title: De reisontwerper gebruiken
+title: Journeyontwerper gebruiken
 description: Meer informatie over het gebruik van de reisontwerper
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,23 +11,23 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 27cd94ec9da9e89d62ec8e4f471dab43d2e9e657
 workflow-type: tm+mt
-source-wordcount: '1335'
-ht-degree: 0%
+source-wordcount: '1344'
+ht-degree: 5%
 
 ---
 
 
-# De reisontwerper gebruiken {#concept_m1g_5qt_52b}
+# Journeyontwerper gebruiken {#concept_m1g_5qt_52b}
 
 Met het menu Home kunt u de **lijst met reizen** weergeven. Creeer een nieuwe reis of klik op bestaande om de interface **van de** reisontwerper te openen. De ontwerper bestaat uit de volgende zones: het palet, het canvas en het deelvenster Activiteitsconfiguratie.
 
 ## De reislijst {#journey_list}
 
-Met de **reislijst** kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren. U kunt uw reizen dupliceren, stoppen of verwijderen. Afhankelijk van de reis zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een gesloten reis niet verwijderen of opnieuw starten. U kunt er een nieuwe versie van maken, deze dupliceren of stoppen. U kunt de zoekbalk ook gebruiken om een reis te zoeken.
+The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. U kunt uw journey’s dupliceren, stopzetten of verwijderen. Afhankelijk van de journey zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een gesloten journey niet verwijderen of opnieuw starten. U kunt er een nieuwe versie van maken, deze dupliceren of stoppen. U kunt ook de zoekbalk gebruiken om een journey te zoeken.
 
-U **[!UICONTROL Filters]** kunt het dialoogvenster openen door linksboven in de lijst op het filterpictogram te klikken. Met het menu Filters kunt u de weergegeven ritten filteren op basis van verschillende criteria (status, de criteria die u hebt gemaakt, de criteria die in de laatste 30 dagen zijn gewijzigd, alleen de laatste versies, enzovoort). U kunt er ook voor kiezen om alleen de ritten weer te geven die een bepaalde gebeurtenis, veldgroep of handeling gebruiken. Kolommen die in de lijst worden weergegeven, kunnen worden geconfigureerd. Alle filters en kolommen worden per gebruiker opgeslagen.
+U kunt het dialoogvenster **[!UICONTROL Filters]** openen door te klikken op het filterpictogram linksboven van de lijst. Met het menu Filters kunt u de weergegeven ritten filteren op basis van verschillende criteria (status, de criteria die u hebt gemaakt, de criteria die in de laatste 30 dagen zijn gewijzigd, alleen de laatste versies, enzovoort). U kunt er ook voor kiezen om alleen de ritten weer te geven die een bepaalde gebeurtenis, veldgroep of handeling gebruiken. Kolommen die in de lijst worden weergegeven, kunnen worden geconfigureerd. Alle filters en kolommen worden per gebruiker opgeslagen.
 
 ![](../assets/journey74.png)
 
@@ -49,7 +49,7 @@ Het **palet** bevindt zich aan de linkerkant van het scherm. Alle beschikbare ac
 
 ![](../assets/journey38.png)
 
-Met het **[!UICONTROL Show disabled items]** pictogram in de linkerbovenhoek kunt u niet-beschikbare elementen in het palet verbergen of weergeven, bijvoorbeeld gebeurtenissen die een andere naamruimte gebruiken dan de gebeurtenissen die tijdens uw reis worden gebruikt. Niet-beschikbare items worden standaard verborgen. Als u deze weergeeft, worden ze grijs weergegeven.
+The **[!UICONTROL Show disabled items]** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. Niet-beschikbare items zijn standaard verborgen. Als u deze weergeeft, worden ze grijs weergegeven.
 
 Wanneer u het **[!UICONTROL Search]** veld gebruikt, wordt het aantal resultaten weergegeven voor elke categorie canvasactiviteiten.
 
@@ -65,7 +65,7 @@ Het **canvas** is de centrale zone in de reisontwerper. Het is in deze streek da
 
 Het deelvenster **** Activiteitsconfiguratie wordt weergegeven wanneer u op een activiteit in het palet klikt. Vul de vereiste velden in. Klik op het **[!UICONTROL Delete]** pictogram om de activiteit te verwijderen. Klik op **[!UICONTROL Cancel]** om de wijzigingen te annuleren of **[!UICONTROL Ok]** te bevestigen. Als u activiteiten wilt verwijderen, kunt u ook één activiteit (of meerdere activiteiten) selecteren en op de backspace-toets drukken. Als u op de escape-toets drukt, wordt het deelvenster voor activiteitenconfiguratie gesloten.
 
-Op het canvas worden uw actie en gebeurtenisactiviteiten vertegenwoordigd door een pictogram met de naam van de gebeurtenis of actie die onder wordt weergegeven. In het deelvenster Activiteitsconfiguratie kunt u het **[!UICONTROL Label]** veld gebruiken om een achtervoegsel aan de naam van de activiteit toe te voegen. Deze labels helpen u bij het contextualiseren van het gebruik van gebeurtenissen en handelingen, vooral wanneer u dezelfde gebeurtenis of handeling meerdere malen gebruikt op uw reis. U kunt ook de labels zien die u in de [!DNL Journey Orchestration] rapportage hebt toegevoegd.
+Op het canvas worden uw actie en gebeurtenisactiviteiten vertegenwoordigd door een pictogram met de naam van de gebeurtenis of actie die onder wordt weergegeven. In het deelvenster Activiteitsconfiguratie kunt u het **[!UICONTROL Label]** veld gebruiken om een achtervoegsel aan de naam van de activiteit toe te voegen. Deze labels helpen u bij het contextualiseren van het gebruik van gebeurtenissen en handelingen, vooral wanneer u dezelfde gebeurtenis of handeling meerdere malen gebruikt op uw reis. U kunt ook de labels zien die u in de [!DNL Journey Orchestration] rapportage hebt toegevoegd. U kunt ook labels definiëren voor activiteiten in uw toestand.
 
 ![](../assets/journey59bis.png)
 
