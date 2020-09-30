@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 967f453145dcf9af0e3efc5d52854d0c5c68c54f
+source-git-commit: b068429a0eb72c585de27faefe51ea2889be28f1
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 0%
+source-wordcount: '624'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >Als er op het canvas tijdens de publicatie of tijdens de activering van de testmodus een Adobe Campaign Standard-actie buiten de doos aanwezig is, wordt de rit vertraagd bij 13 ingangen per seconde. Anders zal de reis worden vertraagd bij 1000 gebeurtenissen per seconde.
 
-Met de activiteit Leessegment kunt u alle personen die tot een Adobe Experience Platform-segment behoren een reis laten maken. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden.
+Met de activiteit Leessegment kunt u alle personen die tot een Adobe Experience Platform-segment behoren een reis laten maken. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden.
 
 Laten we zeggen dat je een Gold-klantensegment hebt op Adobe Experience Platform. Met de activiteit van het Leessegment, kunt u alle individuen van het Gouden klantensegment een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit gebruiken: voorwaarden, timers, gebeurtenissen, handelingen.
 
@@ -83,14 +83,20 @@ Hiervoor activeert u de testmodus en selecteert u de gewenste optie in het linke
 
 ![](../assets/segment-trigger-test-modes.png)
 
-U kunt de testwijze dan vormen zoals gebruikelijk. Gedetailleerde stappen voor het testen van een reis worden in [dit gedeelte](../building-journeys/testing-the-journey.md)beschreven.
+U kunt de testwijze dan vormen en in werking stellen zoals gebruikelijk. Gedetailleerde stappen voor het testen van een reis worden in [dit gedeelte](../building-journeys/testing-the-journey.md)beschreven.
 
-Houd er rekening mee dat u door het testen van de reis met maximaal 100 profielen tegelijk de voortgang van de individuele personen op de reis niet kunt bijhouden met behulp van de visuele stroom.
+Als de test eenmaal is uitgevoerd, kunt u met de **[!UICONTROL Show logs]** knop de testresultaten weergeven volgens de geselecteerde testoptie:
+
+* **[!UICONTROL Single profile at a time]**: de teststammen bevatten dezelfde informatie als wanneer de monitaire testmodus wordt gebruikt. Raadpleeg [deze sectie](../building-journeys/testing-the-journey.md#viewing_logs) voor meer informatie
+
+* **[!UICONTROL Up to 100 profiles at once]**: Aan de hand van de testlogboeken kunt u de voortgang van de segmentexport vanuit Adobe Experience Platform volgen, evenals de individuele voortgang van alle personen die de reis hebben betreden.
+
+   Houd er rekening mee dat u door het testen van de reis met maximaal 100 profielen tegelijk de voortgang van de individuele personen op de reis niet kunt bijhouden met behulp van de visuele stroom.
+
+   ![](../assets/read-segment-log.png)
 
 Zodra de tests succesvol zijn, kunt u uw reis publiceren (zie het [Publiceren van de reis](../building-journeys/publishing-the-journey.md)). Personen die tot het segment behoren, komen de reis binnen op de datum/tijd die in de **[!UICONTROL Scheduler]** afdeling Eigenschappen van de reis is vermeld.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Onthoud dat Adobe Experience Platform-segmenten één keer per dag (**batchsegmenten** ) of in realtime (**gestreamde** segmenten) worden berekend.
->
->Als het geselecteerde segment wordt gestreamd, zullen de individuen die tot dit segment behoren potentieel de reis in real time ingaan. Als het segment partij is, zullen de mensen die nieuw voor dit segment worden gekwalificeerd de reis potentieel ingaan wanneer de segmentberekening op Adobe Experience Platform wordt uitgevoerd.
+>Wanneer het doen van een nieuwe versie van een op segment-gebaseerde reis die niet terugkomt (die zo spoedig mogelijk begint of &quot;eens&quot;), zullen alle individuen die eerder de reis inging niet zijn nieuwe versie ingaan wanneer u het zult publiceren. Als u hen wilt toestaan om opnieuw binnen te komen, zou u de reis moeten dupliceren.
