@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 619f05137bfad573a5de23ceda5448180dad2d6a
-workflow-type: ht
-source-wordcount: '1527'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '1653'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,54 @@ ht-degree: 100%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)raadplegen.
+
+## Release september 2020 {#september-release}
+
+### GA-updates{#september-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbeteringen in voorwaardenactiviteit</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Wanneer u voorwaarden toevoegt aan uw reis, kunt u nu een etiket bepalen. Als u tijdens een reis verschillende omstandigheden gebruikt, kunt u deze gemakkelijker identificeren.
+</p>
+<p>Raadpleeg de <a href="../building-journeys/condition-activity.md#about_condition">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Alfa-updates{#september-alpha-update}
+
+Raadpleeg deze [sectie](../alpha/alpha-overview.md) om de scope van Alfa te ontdekken.
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbeteringen voor segmentactiviteit lezen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+</p>
+<ul>
+<li><p>Op segmenten gebaseerde reizen tonen nu, boven het canvas, een herinnering aan het planningstype van de reis. U kunt op deze herinnering klikken om tot het menu van de planningsconfiguratie toegang te hebben.</p>
+</li>
+<li><p>De granulariteit van de logboeken van de testwijze is verbeterd om de de vooruitgangsstatus van de segmentuitvoer te tonen.</p>
+</li>
+</ul>
+<p>Voor meer informatie over de <strong>Gelezen segmentactiviteit</strong> , verwijs naar de <a href="../alpha/alpha-segment-trigger.md">gedetailleerde documentatie</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Release van augustus 2020 {#august-release}
 
