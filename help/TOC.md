@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Journey Orchestration-handleiding
 index: true
-translation-type: ht
-source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '380'
+ht-degree: 97%
 
 ---
 
@@ -169,12 +169,12 @@ ht-degree: 100%
    + [AI-integratie](using/ai-services/ai-services-overview.md)
    + [Klant-AI gebruiken](using/ai-services/leveraging-customer-ai.md)
 + Gebruiksscenario’s{#use-cases-journeys}
-   + Eenvoudig gebruiksscenario{#use-case-simple}
+   + Een persoonlijke e-mail verzenden{#use-case-simple}
       + [Informatie over eenvoudige gebruiksscenario&#39;s](using/usecase/about-the-simple-use-case.md)
       + [De gebeurtenis configureren](using/usecase/configuring-the-event.md)
       + [De databron configureren](using/usecase/configuring-the-data-source.md)
       + [De journey samenstellen](using/usecase/simple-uc-building-the-journey.md)
-   + Geavanceerd gebruiksscenario{#use-case-advanced}
+   + Building a cross-channel journey{#use-case-advanced}
       + [Informatie over geavanceerde gebruiksscenario&#39;s](using/usecase/about-the-advanced-use-case.md)
       + [Gebeurtenissen configureren](using/usecase/configuring-the-events.md)
       + [Databronnen configureren](using/usecase/configuring-the-data-sources.md)
