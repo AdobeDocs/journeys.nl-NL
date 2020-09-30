@@ -11,21 +11,25 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
+source-git-commit: 9cdaa673dbe9247aa1e9c9aef58cfa003d014786
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 5%
+source-wordcount: '656'
+ht-degree: 11%
 
 ---
 
 
 # Gebeurtenissen op basis van regels{#simplified-events}
 
-We hebben de manier vereenvoudigd waarop u Experience Events instelt. We introduceren een nieuwe methode waarvoor geen eventID nodig is. Wanneer u de gebeurtenis instelt in Journey Orchestration, kunt u nu een op regels gebaseerde gebeurtenis definiëren.
+We hebben de manier vereenvoudigd waarop u Experience-gebeurtenissen instelt. We introduceren een nieuwe methode waarvoor geen eventID nodig is. Wanneer u de gebeurtenis instelt in Journey Orchestration, kunt u nu een op regels gebaseerde gebeurtenis definiëren.
 
 Dit nieuwe type gebeurtenis genereert geen eventID. Gebruikend de eenvoudige uitdrukkingsredacteur, definieert u nu eenvoudig een regel die door het systeem zal worden gebruikt om de relevante gebeurtenissen te identificeren die uw reizen zullen teweegbrengen. Deze regel kan worden gebaseerd op elk veld dat beschikbaar is in de gebeurtenislading, bijvoorbeeld de locatie van het profiel of het aantal items dat is toegevoegd aan het winkelwagentje van het profiel.
 
 Deze nieuwe methode is meestal transparant voor gebruikers. De enige wijziging is een nieuw veld in het scherm met gebeurtenisdefinities.
+
+>[!CAUTION]
+>
+>Een afschilderingsregel wordt bepaald voor op regel-gebaseerde gebeurtenissen. Het beperkt het aantal gekwalificeerde gebeurtenissen dat een reis kan verwerken tot 400 k per minuut. Neem contact op met het contactpunt voor het alpha-programma voor meer informatie.
 
 ## Adobe Analytics-gegevens gebruiken{#analytics-data}
 
@@ -101,5 +105,5 @@ Wanneer u een gebeurtenis activeert, kunt u in het configuratiescherm **Gebeurte
 
 ![](../assets/alpha-event8.png)
 
-Raadpleeg [](../building-journeys/testing-the-journey.md)voor meer informatie over het gebruik van de testmodus.
+For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md).
 
