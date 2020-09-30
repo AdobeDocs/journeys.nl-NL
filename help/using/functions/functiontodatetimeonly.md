@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 2%
+source-wordcount: '47'
+ht-degree: 8%
 
 ---
 
@@ -35,8 +35,8 @@ Conversie
 
 | Parameter | Type |
 |-----------|------------------|
-| date time without time zone in ISO-8601 format | string |
-| dateTime | dateTime |
+| datumtijd in ISO-8601-indeling | string |
+| datumtijd | dateTime |
 
 ## Handtekeningen en geretourneerde typen
 
@@ -50,7 +50,7 @@ Retourneer een datetime zonder rekening te houden met tijdzone.
 
 ## Voorbeelden
 
-`toDateTimeOnly ("2016-08-18T23:17:59.123")`
+`toDateTimeOnly ("2016-08-18T23:17:59.123Z")`
 
 Retourneert 2016-08-18T23:17:59.123.
 
