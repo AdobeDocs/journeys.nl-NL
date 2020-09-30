@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: db16f947e8c885167d289484cc2269dcee3bd646
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -25,15 +25,13 @@ In ons scenario, moeten wij een gebeurtenis ontvangen telkens als een persoon di
 
 Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-events.md).
 
-1. Klik in het bovenste menu op het **[!UICONTROL Events]** tabblad en klik **[!UICONTROL Add]** om een nieuwe gebeurtenis te maken.
+1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
    ![](../assets/journeyuc1_1.png)
 
 1. De naam wordt ingevoerd zonder spaties of speciale tekens: &quot;SpaBeacon&quot;.
 
    ![](../assets/journeyuc1_2.png)
-
-   <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
 
 1. Vervolgens selecteert u het schema en definieert u de lading die voor deze gebeurtenis wordt verwacht. We selecteren de velden die nodig zijn in het genormaliseerde XDM-model. We hebben de Experience Cloud-id nodig om de persoon te identificeren in de realtime database voor klantprofielen: _endUserIDs > ervaring > mcid > identiteitskaart_. Er wordt automatisch een id voor deze gebeurtenis gegenereerd. Deze id wordt opgeslagen in het **[!UICONTROL eventID]** veld (_ervaring > Campagne > Orchestratie > eventID_). Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. In ons gebruiksgeval, wordt dit ID gebruikt om de bakenplaats te identificeren. Elke keer dat een persoon in de buurt van de spa-baken loopt, wordt een gebeurtenis verzonden die deze specifieke gebeurtenis-id bevat. Dit staat het systeem toe om te weten welk baken de gebeurtenis teweegbracht die verzendt.
 
@@ -43,7 +41,7 @@ Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-ev
    >
    >De lijst met velden verschilt per schema. Volgens de schemadefinitie zijn sommige velden mogelijk verplicht en vooraf geselecteerd.
 
-1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Zie voor meer informatie over naamruimten [](../event/selecting-the-namespace.md).
+1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Zie [](../event/selecting-the-namespace.md) voor meer informatie over naamruimten.
 
    ![](../assets/journeyuc1_6.png)
 
