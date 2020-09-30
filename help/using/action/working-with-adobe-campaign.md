@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
+source-git-commit: 4f7cc4da51a93019b5a296003c51d4bee6724498
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -47,13 +47,14 @@ Hier volgen de stappen om het te configureren:
    >
    >Deze test verifieert dat:
    >
-   >* De host is &quot;.campagne.adobe.com&quot; of &quot;.campagne-sandbox.adobe.com&quot;,
-   >* De URL begint met https.
-   >* De ORG die aan deze Adobe Campaign Standard-instantie is gekoppeld, is gelijk aan de Journey Orchestration ORG.
-
+   >De host is &quot;.campagne.adobe.com&quot; of &quot;.campagne-sandbox.adobe.com&quot;,
+   >
+   >De URL begint met https.
+   >
+   >De ORG die aan deze Adobe Campaign Standard-instantie is gekoppeld, is gelijk aan de Journey Orchestration ORG.
 
 Wanneer het ontwerpen van uw reis, zullen drie acties in de **[!UICONTROL Action]** categorie beschikbaar zijn: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (zie [Adobe Campaign-handelingen](../building-journeys/using-adobe-campaign-actions.md)gebruiken). **Met de gebeurtenis** Reacties kunt u ook reageren op berichtklikken, wordt geopend, enzovoort. (zie [Reacties gebeurtenissen](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 
-Als u een derdesysteem gebruikt om berichten te verzenden, moet u een douaneactie toevoegen en vormen. Zie [Informatie over aangepaste actieconfiguratie](../action/about-custom-action-configuration.md).
+Als u een derdesysteem gebruikt om berichten te verzenden, moet u een douaneactie toevoegen en vormen. See [About custom action configuration](../action/about-custom-action-configuration.md).
