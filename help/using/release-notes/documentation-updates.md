@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
-workflow-type: ht
-source-wordcount: '724'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe53855bed7d437232280a9f0e38a0d2e085c10e
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 100%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Orchestration].
 U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../release-notes/release-notes.md) raadplegen.
+
+## September 2020 {#september-2020}
+
+* De sectie van de interfacebeschrijving is bijgewerkt om op het nieuwe **Al selecteurenmenu** te wijzen. [Meer informatie](../about/user-interface.md)
+* Een opmerking toegevoegd over de nieuwe versies van de segmentreizen die niet terugkerend zijn. [Meer informatie](../alpha/alpha-segment-trigger.md)
 
 ## Augustus 2020 {#august-2020}
 
