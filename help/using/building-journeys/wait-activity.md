@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 202
 
 >[!NOTE]
 >
->U kunt een dateTimeOnly-expressie gebruiken of een functie gebruiken om om te zetten in een dateTimeOnly. Bijvoorbeeld: toDateTimeOnly(@{Event.biedOpened.activity.endTime}), waarbij het veld in de gebeurtenis de vorm 2016-08-12T09:46:06 heeft.
+>U kunt een dateTimeOnly-expressie gebruiken of een functie gebruiken om om te zetten in een dateTimeOnly. Bijvoorbeeld: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, waarbij het veld in het geval 2016-08-12T09:46:06Z is.
 >
 >De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, is het vandaag niet mogelijk van de interface om bij volledig ISO-8601 timestamp mixing time en tijdzone verschuiving zoals 2016-08-12T09:46:06.982-05 direct te richten. Zie [](../building-journeys/timezone-management.md).
 
