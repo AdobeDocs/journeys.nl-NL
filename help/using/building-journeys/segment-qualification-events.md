@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
+source-git-commit: 69427556476b5a51e4557307227433cff25f4856
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 0%
+source-wordcount: '691'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,12 @@ Laten we zeggen dat je een &quot;zilveren klant&quot;-segment hebt. Met deze act
 
 Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
-Wanneer het segment wordt gestreamd met de optie High Frequency Audiences van Adobe Experience Platform, wordt er in real-time naar de toegang en de uitgang geluisterd. Als het segment niet wordt gestreamd, wordt bij de berekening van het segment rekening gehouden met de in- en uitgangen.
+>[!IMPORTANT]
+>
+>Houd er rekening mee dat Adobe Experience Platform-segmenten één keer per dag (**batchsegmenten** ) of in realtime (**gestreamde** segmenten, met de optie Frequentie publiek van Adobe Experience Platform) worden berekend.
+>
+>Als het geselecteerde segment wordt gestreamd, zullen de individuen die tot dit segment behoren potentieel de reis in real time ingaan. Als het segment partij is, zullen de mensen die nieuw voor dit segment worden gekwalificeerd de reis potentieel ingaan wanneer de segmentberekening op Adobe Experience Platform wordt uitgevoerd.
+
 
 1. Ontvouw de **[!UICONTROL Events]** categorie en laat een **[!UICONTROL Segment qualification]** activiteit op uw canvas vallen.
 
