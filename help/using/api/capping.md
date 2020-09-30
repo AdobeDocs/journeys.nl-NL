@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
+source-git-commit: 6656c3a9b62f13d0cbffa3ac97c0a5314cb050a4
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
@@ -82,12 +82,12 @@ Met de API voor uitsnijden kunt u uw configuraties voor uitlijnen maken, configu
 |---|---|---|
 | [!DNL POST] | list/endConfigs | Krijg een lijst van de eindpunt die configuraties begrenzen |
 | [!DNL POST] | /endConfigs | Creeer een eindpunt het bedekken configuratie |
-| [!DNL POST] | /EndendConfigs/{uid}/opstellen | Implementeer een configuratie voor het afdekken van eindpunten |
-| [!DNL POST] | /EndendConfigs/{uid}/undeploy | Maak een eindpunt onbruikbaar dat configuratie begrenst |
-| [!DNL POST] | /endConfigs/{uid}/canDeploy | Controle als een eindpunt het begrenzen configuratie kan worden opgesteld of niet |
-| [!DNL PUT] | /endConfigs/{uid} | Een configuratie voor het afdekken van eindpunten bijwerken |
-| [!DNL GET] | /endConfigs/{uid} | Retrireer een eindpunt dat configuratie begrenst |
-| [!DNL DELETE] | /endConfigs/{uid} | Een configuratie voor het toewijzen van een hoekpunt verwijderen |
+| [!DNL POST] | /EndendConfigs/`{uid}`/distribueren | Implementeer een configuratie voor het afdekken van eindpunten |
+| [!DNL POST] | /EndendConfigs/`{uid}`/undeploy | Maak een eindpunt onbruikbaar dat configuratie begrenst |
+| [!DNL POST] | /EndindpuntConfigs/`{uid}`/canDeploy | Controle als een eindpunt het begrenzen configuratie kan worden opgesteld of niet |
+| [!DNL PUT] | /endConfigs/`{uid}` | Een configuratie voor het afdekken van eindpunten bijwerken |
+| [!DNL GET] | /endConfigs/`{uid}` | Retrireer een eindpunt dat configuratie begrenst |
+| [!DNL DELETE] | /endConfigs/`{uid}` | Een configuratie voor een uitlijningselement verwijderen |
 
 Wanneer een configuratie wordt gecreeerd of bijgewerkt, automatisch wordt een controle uitgevoerd om de syntaxis en de integriteit van de lading te waarborgen.
 Als sommige problemen voorkomen, keert de verrichting waarschuwing of fouten terug om u te helpen de configuratie verbeteren.
@@ -156,7 +156,7 @@ De mogelijke fouten zijn:
 * **ERR_ENDPOINTCONFIG_108**: configuratie beperken: ongeldige maximum vraagtelling (periodInMS)
 * **ERR_ENDPOINTCONFIG_111**: configuratie beperken: kan eindpunt config niet tot stand brengen: ongeldige payload
 * **ERR_ENDPOINTCONFIG_112**: configuratie beperken: kan eindpunt config niet tot stand brengen: JSON-payload verwacht
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: ongeldige servicenaam <!--<given value>-->: moet &#39;dataSource&#39; of &#39;action&#39; zijn
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: ongeldige servicenaam `<!--<given value>-->`: moet &#39;dataSource&#39; of &#39;action&#39; zijn
 
 
 De mogelijke waarschuwing is:
