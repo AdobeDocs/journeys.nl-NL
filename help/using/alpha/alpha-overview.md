@@ -11,17 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
+source-git-commit: e5644e28d66652b013d9873275d1d564ad75b97d
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 0%
+source-wordcount: '108'
+ht-degree: 28%
 
 ---
 
 
 # Overzicht van Alfa-functies
 
-Het Alpha- programma biedt eigenschappen aan die momenteel onder een beperkte reeks klanten worden getest. Hierdoor kunnen we ons product verbeteren op basis van de ontvangen feedback. Deze functies zijn niet beschikbaar voor alle Journey Orchestration-klanten.
+Het Alfa-programma biedt functies die momenteel bij een beperkt aantal klanten worden getest. Deze functies zijn niet beschikbaar voor alle Journey Orchestration-klanten.
 
 Deze sectie richt zich slechts op de Alpha- eigenschappen. Als u geen deel uitmaakt van het Alpha- programma en u meer over de andere eigenschappen van Journey Orchestration wilt weten, verwijs naar de andere secties van deze [documentatie](../../journey-orchestration-home.md).
 
