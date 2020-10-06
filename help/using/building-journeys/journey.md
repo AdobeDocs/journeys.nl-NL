@@ -1,6 +1,6 @@
 ---
-title: Informatie over het maken van reizen
-description: Leer hoe u een reis bouwt
+title: Journey’s samenstellen
+description: Als zakelijke gebruiker leert u hoe u gebeurtenis-, orkest- en actieactiviteiten kunt combineren om een reis te maken.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,18 +11,18 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '376'
+ht-degree: 13%
 
 ---
 
 
 
-# Een reis maken {#concept_gq5_sqt_52b}
+# Een journey maken {#concept_gq5_sqt_52b}
 
-Deze stap wordt uitgevoerd door de **bedrijfsgebruiker**. Hier maak je je reizen. Combineer de verschillende gebeurtenis-, organisatie- en actieactiviteiten om uw meerstapsscenario&#39;s voor meerdere kanalen te maken.
+This step is performed by the **business user**. Hier maak je je reizen. Combineer de verschillende actie-, orkestratie- en gebeurtenisactiviteiten om uw kanaaloverschrijdende scenario’s met meerdere stappen te maken.
 
 Met de interface voor reizen kunt u activiteiten van het palet gemakkelijk naar het canvas slepen. U kunt ook dubbelklikken op een activiteit om deze in het canvas toe te voegen bij de volgende beschikbare stap. Elke activiteit heeft een specifieke rol en plaats in het proces. De activiteiten worden gesequenceerd. Wanneer een activiteit wordt gebeëindigd, gaat de stroom verder en verwerkt de volgende activiteit, etc.
 
@@ -32,17 +32,17 @@ Per reis is slechts één naamruimte toegestaan. Wanneer u de eerste gebeurtenis
 
 Hier volgen de belangrijkste stappen voor het maken en publiceren van een reis.
 
-1. Klik in het bovenste menu op de **[!UICONTROL Home]** tab.
+1. Klik in het bovenste menu op het tabblad **[!UICONTROL Home]**.
 
    De lijst met reizen wordt weergegeven. Zie [](../building-journeys/using-the-journey-designer.md) voor meer informatie over de interface.
 
    ![](../assets/journey30.png)
 
-1. Klik **[!UICONTROL Create]** om een nieuwe reis te maken.
+1. Click **[!UICONTROL Create]** to create a new journey.
 
    ![](../assets/journey31.png)
 
-1. Bewerk de eigenschappen van de rit in het configuratievenster dat aan de rechterkant wordt weergegeven. Zie [](../building-journeys/changing-properties.md).
+1. Bewerk de eigenschappen van de journey in het configuratievenster dat aan de rechterkant wordt weergegeven. Zie [](../building-journeys/changing-properties.md).
 
    ![](../assets/journey32.png)
 
