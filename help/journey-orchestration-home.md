@@ -2,11 +2,11 @@
 keywords: Journeys;home;popular topics
 title: Journey Orchestration-productdocumentatie
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d5a2538859d0438d8536c1e359f981d6ac179f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
