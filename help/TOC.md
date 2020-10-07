@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -170,12 +170,12 @@ ht-degree: 97%
    + [AI-integratie](using/ai-services/ai-services-overview.md)
    + [Klant-AI gebruiken](using/ai-services/leveraging-customer-ai.md)
 + Gebruiksscenario’s{#use-cases-journeys}
-   + Een persoonlijke e-mail verzenden{#use-case-simple}
+   + Een gepersonaliseerde e-mail verzenden{#use-case-simple}
       + [Informatie over eenvoudige gebruiksscenario&#39;s](using/usecase/about-the-simple-use-case.md)
       + [De gebeurtenis configureren](using/usecase/configuring-the-event.md)
       + [De databron configureren](using/usecase/configuring-the-data-source.md)
       + [De journey samenstellen](using/usecase/simple-uc-building-the-journey.md)
-   + Building a cross-channel journey{#use-case-advanced}
+   + Een cross-channel journey maken{#use-case-advanced}
       + [Informatie over geavanceerde gebruiksscenario&#39;s](using/usecase/about-the-advanced-use-case.md)
       + [Gebeurtenissen configureren](using/usecase/configuring-the-events.md)
       + [Databronnen configureren](using/usecase/configuring-the-data-sources.md)
