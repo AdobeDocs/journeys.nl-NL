@@ -1,5 +1,5 @@
 ---
-title: Beperkingen voor aangepaste handelingen
+title: Beperkingen voor aangepaste acties
 description: Meer informatie over beperkingen van aangepaste handelingen
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,18 +8,16 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Beperkingen voor aangepaste handelingen {#concept_lh2_df1_2gb}
+# Beperkingen voor aangepaste acties {#concept_lh2_df1_2gb}
 
 Hier volgen enkele beperkingen ten aanzien van het gebruik van aangepaste handelingen:
 
