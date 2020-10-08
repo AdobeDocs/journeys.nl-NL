@@ -1,5 +1,5 @@
 ---
-title: De reis maken
+title: De journey samenstellen
 description: Leer hoe u de eenvoudige gebruiksrechtovereenkomst maakt
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,20 +8,18 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 0%
+ht-degree: 42%
 
 ---
 
 
-# De reis maken{#concept_eyw_mcy_w2b}
+# De journey samenstellen{#concept_eyw_mcy_w2b}
 
-De **bedrijfsgebruiker** kan nu de reis bouwen. Onze reis zal slechts één weg met de volgende activiteiten omvatten:
+De **bedrijfsgebruiker** kan nu de journey bouwen. Onze reis zal slechts één weg met de volgende activiteiten omvatten:
 
 * het &quot;SpaBeacon&quot; **[!UICONTROL Event]**: wanneer een persoon in de buurt van het spa - baken loopt , zal het systeem een evenement ontvangen en zal de reis voor die persoon beginnen .
 * een **[!UICONTROL Condition]** activiteit om na te gaan of de persoon een vrouw is
@@ -30,15 +28,15 @@ De **bedrijfsgebruiker** kan nu de reis bouwen. Onze reis zal slechts één weg 
 
 >[!NOTE]
 >
->De **[!UICONTROL Push]** en **[!UICONTROL Email]** activiteiten zijn alleen beschikbaar in het palet als u Adobe Campaign Standard hebt.
+>De **[!UICONTROL Push]**- en **[!UICONTROL Email]**-activiteiten zijn alleen beschikbaar in het palet als u Adobe Campaign Standard hebt.
 
-Raadpleeg [](../building-journeys/journey.md)voor meer informatie over het maken van een reis.
+Raadpleeg [](../building-journeys/journey.md) voor meer informatie over het maken van een journey.
 
-1. Klik in het bovenste menu op het **[!UICONTROL Home]** tabblad en **[!UICONTROL Create]** maak een nieuwe rit.
+1. Klik in het bovenste menu op de tabbladen **[!UICONTROL Home]** en **[!UICONTROL Create]** om een nieuwe journey te maken.
 
    ![](../assets/journey31.png)
 
-1. Bewerk de eigenschappen van de rit in het configuratievenster dat aan de rechterkant wordt weergegeven. We noemen het &#39;Spa-reis&#39; en stellen het in op een maand, van 1 tot en met 31 december.
+1. Bewerk de eigenschappen van de journey in het configuratievenster dat aan de rechterkant wordt weergegeven. We noemen het &#39;Spa-reis&#39; en stellen het in op een maand, van 1 tot en met 31 december.
 
    ![](../assets/journeyuc1_8.png)
 
@@ -46,11 +44,11 @@ Raadpleeg [](../building-journeys/journey.md)voor meer informatie over het maken
 
    ![](../assets/journeyuc1_9.png)
 
-1. Laten we nu een voorwaarde toevoegen om te controleren of de persoon een vrouw is. Sleep een voorwaardenactiviteit naar uw reis.
+1. Laten we nu een voorwaarde toevoegen om te controleren of de persoon een vrouw is. Sleep een voorwaardeactiviteit en zet deze neer in uw journey.
 
    ![](../assets/journeyuc1_10.png)
 
-1. Kies het **[!UICONTROL Data Source Condition]** type en klik in het **[!UICONTROL Expression]** veld. U kunt ook een voorwaardelabel definiëren dat wordt weergegeven op de pijl, in het canvas.
+1. Kies het type **[!UICONTROL Data Source Condition]** en klik in het veld **[!UICONTROL Expression]**. U kunt ook een voorwaardelabel definiëren die wordt weergegeven op de pijl, in het canvas.
 
    ![](../assets/journeyuc1_11.png)
 
@@ -58,11 +56,11 @@ Raadpleeg [](../building-journeys/journey.md)voor meer informatie over het maken
 
    ![](../assets/journeyuc1_12.png)
 
-1. Zet een **[!UICONTROL Email]** activiteit neer en selecteer uw transactiemalplaatje van de &quot;korting van de Buur&quot;transactie. Deze sjabloon is ontworpen met Adobe Campaign. Zie deze [pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+1. Zet een **[!UICONTROL Email]** activiteit neer en selecteer uw transactiemalplaatje van de &quot;korting van de Buur&quot;transactie. Deze sjabloon is ontworpen met Adobe Campaign. Refer to this [page](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Klik in het **[!UICONTROL Email]** veld en selecteer het e-mailadres in de gegevensbron.
+1. Click inside the **[!UICONTROL Email]** field and select the email address from the data source.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -74,11 +72,11 @@ Raadpleeg [](../building-journeys/journey.md)voor meer informatie over het maken
 
    ![](../assets/journeyuc1_17.png)
 
-1. Klik op de **[!UICONTROL Test]** knevel en test uw reis gebruikend testprofielen. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de reis en test u deze opnieuw. Raadpleeg voor meer informatie over de testmodus [](../building-journeys/testing-the-journey.md).
+1. Klik op de **[!UICONTROL Test]** knevel en test uw reis gebruikend testprofielen. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Raadpleeg [](../building-journeys/testing-the-journey.md) voor meer informatie over de testmodus.
 
    ![](../assets/journeyuc1_18bis.png)
 
-1. Wanneer de test overtuigend is, kunt u uw reis van het hoogste juiste drop-down menu publiceren.
+1. Wanneer de test is geslaagd is, kunt u uw journey vanuit het vervolgkeuzemenu rechtsboven publiceren.
 
    ![](../assets/journeyuc1_18.png)
 
