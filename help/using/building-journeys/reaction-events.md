@@ -8,18 +8,16 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2b44cd9db7732c5e272b69e2583a5f81b4580d11
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Gebeurtenissen van Reaction {#section_dhx_gss_dgb}
+# Reactiegebeurtenissen {#section_dhx_gss_dgb}
 
 De ingebouwde **[!UICONTROL Reactions]** gebeurtenis is een van de verschillende gebeurtenisactiviteiten die beschikbaar zijn in het palet. Met deze activiteit kunt u reageren op volggegevens met betrekking tot een bericht dat is verzonden met e-mail, SMS of push-activiteiten binnen dezelfde reis. Deze informatie is afkomstig van transactiemeldingen in Adobe Campaign Standard. We leggen deze informatie in real time vast op het moment dat ze met de Adobe Experience Platform wordt gedeeld. Voor pushberichten kunt u reageren op geklikte, verzonden of mislukte berichten. Voor SMS-berichten kunt u reageren op verzonden of mislukte berichten. Voor e-mailberichten kunt u reageren op geklikte, verzonden, geopende of mislukte berichten.
 
@@ -27,7 +25,7 @@ U kunt dit mechanisme ook gebruiken om een actie uit te voeren wanneer er geen r
 
 Let op: u kunt alleen reactieactiviteiten op het canvas gebruiken als er al eerder een e-mail-, push- of SMS-activiteit is.
 
-Zie [Informatie over actieactiviteiten](../building-journeys/about-action-activities.md).
+See [About action activities](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey45.png)
 
