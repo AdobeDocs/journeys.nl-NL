@@ -1,5 +1,5 @@
 ---
-title: Informatie over actieactiviteiten
+title: Actieactiviteiten
 description: Meer informatie over activiteiten
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,18 +8,16 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 4%
+ht-degree: 26%
 
 ---
 
 
-# Informatie over actieactiviteiten {#concept_hbj_hrt_52b}
+# Actieactiviteiten {#concept_hbj_hrt_52b}
 
 In het palet, links op het scherm, onder **[!UICONTROL Events]** en **[!UICONTROL Orchestration]**, vindt u de **[!UICONTROL Actions]** categorie.
 
@@ -35,4 +33,4 @@ Wanneer u een handeling op het canvas neerzet, kunt u een **[!UICONTROL Label]**
 
 ![](../assets/journey59bis.png)
 
-Wanneer een fout in een actie of een voorwaarde voorkomt, de reis van een individuele einden. De enige manier om door te gaan is het selectievakje in te schakelen **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Zie [](../building-journeys/using-the-journey-designer.md#paths).
+Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [](../building-journeys/using-the-journey-designer.md#paths).
