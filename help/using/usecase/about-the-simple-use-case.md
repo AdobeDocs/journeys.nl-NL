@@ -1,5 +1,5 @@
 ---
-title: Over het eenvoudige gebruik
+title: Informatie over eenvoudige gebruiksscenario's
 description: Meer informatie over de reis, eenvoudig gebruik
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,22 +8,20 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
 
-# Over het eenvoudige gebruik{#concept_grh_vby_w2b}
+# Informatie over eenvoudige gebruiksscenario&#39;s{#concept_grh_vby_w2b}
 
 ## Doel {#purpose}
 
-Laten we het voorbeeld nemen van een hotelmerk genaamd Marlton. In hun hotels hebben ze baken-apparaten in de buurt van alle strategische gebieden geplaatst: lobby, vloeren, restaurant, sportzaal, zwembad, enz.
+Laten we het voorbeeld nemen van een hotelmerk genaamd Marlton. In hun hotels hebben ze baken-apparaten in de buurt van alle strategische gebieden geplaatst: lobby, vloeren, restaurant, gym, pool, enz.
 
 In dit gebruiksgeval, zullen wij zien hoe te om een gepersonaliseerd bericht in real time naar een persoon te verzenden die naast een baken loopt die dichtbij de spanwijdte wordt geplaatst.
 
@@ -33,7 +31,7 @@ We willen alleen een bericht sturen als de persoon een vrouw is. Het bericht moe
 
 ## Voorwaarden {#prerequisites}
 
-Voor ons gebruik hebben we één e-mailsjabloon voor berichten voor transacties in Adobe Campaign Standard ontworpen. We gebruiken een berichtensjabloon voor een gebeurtenistransactie. Zie deze [pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Voor ons gebruik hebben we één e-mailsjabloon voor berichten voor transacties in Adobe Campaign Standard ontworpen. We gebruiken een berichtensjabloon voor een gebeurtenistransactie. Refer to this [page](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
 Adobe Campaign Standard is geconfigureerd om e-mailberichten te verzenden.
 
