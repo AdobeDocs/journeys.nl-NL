@@ -1,6 +1,6 @@
 ---
-title: Overzicht van stap delen voor reizen
-description: Overzicht van stap delen voor reizen
+title: Overzicht van het delen van journeystappen
+description: Overzicht van het delen van journeystappen
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -8,18 +8,16 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# Overzicht van stap delen voor reizen{#sharing-overview}
+# Overzicht van het delen van journeystappen{#sharing-overview}
 
 [!DNL Journey Orchestration] stuurt automatisch gegevens over de reisprestaties naar de Adobe Experience Platform zodat deze kunnen worden gecombineerd met andere gegevens voor analysedoeleinden.
 
@@ -55,10 +53,10 @@ De volgende datasets worden overgegaan:
 
 Hier worden de lijsten met XDM-velden weergegeven die aan de Adobe Experience Platform worden doorgegeven:
 
-* [tripSteps-gebeurtenissen - gemeenschappelijke velden](../building-journeys/sharing-common-fields.md)
-* [uitvoeringsvelden van handelingen voor gebeurtenissen van de tripStep](../building-journeys/sharing-execution-fields.md)
-* [gegevens ophalen van gebeurtenissen van de tripStep velden](../building-journeys/sharing-fetch-fields.md)
-* [identiteitsvelden van gebeurtenissen van de tripStep](../building-journeys/sharing-identity-fields.md)
-* [reisvelden](../building-journeys/sharing-journey-fields.md)
+* [journeySteps-gebeurtenissen - gemeenschappelijke velden](../building-journeys/sharing-common-fields.md)
+* [journeyStep-gebeurtenissen - velden voor het uitvoeren van acties](../building-journeys/sharing-execution-fields.md)
+* [journeyStep-gebeurtenissen - velden voor het ophalen van data](../building-journeys/sharing-fetch-fields.md)
+* [journeyStep-gebeurtenissen - identiteitsvelden](../building-journeys/sharing-identity-fields.md)
+* [journeyvelden](../building-journeys/sharing-journey-fields.md)
 
 Bekijk deze [zelfstudievideo](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)voor meer informatie over stapgebeurtenissen die aan Adobe Experience Platform worden gerapporteerd.
