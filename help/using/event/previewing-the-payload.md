@@ -1,5 +1,5 @@
 ---
-title: Een voorvertoning van de lading weergeven
+title: Voorvertoning van de payload weergeven
 description: Leer hoe u een voorbeeld van de lading kunt bekijken
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,19 +8,17 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '108'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
 
-# Een voorvertoning van de lading weergeven {#concept_jgf_4yk_4fb}
+# Voorvertoning van de payload weergeven {#concept_jgf_4yk_4fb}
 
 Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
 
