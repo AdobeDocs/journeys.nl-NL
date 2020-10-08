@@ -1,5 +1,5 @@
 ---
-title: Een reis beëindigen
+title: Journey beëindigen
 description: Leer hoe u een reis beëindigt
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,18 +8,16 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 72a3fd98b7911a1b8f23ccfeb55b884926f795ce
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Een reis beëindigen
+# Journey beëindigen
 
 Met de **[!UICONTROL Stop]** en **[!UICONTROL Close to new entrances]** opties kunt u **live** reizen beëindigen. Het sluiten van een reis houdt in **dat de aankomst van nieuwe klanten op de reis wordt geblokkeerd** en dat de klanten die reeds op de reis zijn aangekomen, deze tot het einde kunnen ervaren. Dit is de meest aanbevolen manier om een einde te maken aan een reis omdat deze de beste ervaring biedt voor klanten. Als we een reis stoppen, moeten mensen die al een reis hebben afgelegd, allemaal stoppen. De reis is eigenlijk uitgeschakeld.
 
