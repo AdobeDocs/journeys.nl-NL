@@ -1,5 +1,5 @@
 ---
-title: De gegevensbronnen configureren
+title: Databronnen configureren
 description: Leer hoe te om de gegevensbron voor de reis geavanceerde gebruiksgeval te vormen
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,18 +8,16 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
 
-# De gegevensbronnen configureren {#concept_vml_hdy_w2b}
+# Databronnen configureren {#concept_vml_hdy_w2b}
 
 In ons gebruiksgeval, willen wij verpersoonlijkingsgegevens voor onze berichten gebruiken. We moeten ook controleren of de persoon een loyaliteitslid is en in de afgelopen 24 uur niet is benaderd. Deze informatie wordt opgeslagen in het gegevensbestand van het Profiel van de Klant in real time. De **technische gebruiker** moet de Adobe Experience Platform-gegevensbron configureren om deze velden op te halen.
 
@@ -55,17 +53,17 @@ We moeten ook controleren of de persoon een boeking heeft in het hotelreserverin
 
    >[!CAUTION]
    >
-   >We raden u ten zeerste aan HTTPS te gebruiken om beveiligingsredenen.
+   >We raden u uit beveiligingsoverwegingen sterk aan om HTTPS te gebruiken.
 
-1. Vorm de authentificatie afhankelijk van de externe de dienstconfiguratie: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** of **[!UICONTROL API key]**. In ons voorbeeld, kiezen wij &quot;Basis&quot;voor het type en specificeren de gebruikersbenaming en het wachtwoord voor de API vraag.
+1. Configureer de verificatie volgens de configuratie van de externe service: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** of **[!UICONTROL API key]**. In ons voorbeeld, kiezen wij &quot;Basis&quot;voor het type en specificeren de gebruikersbenaming en het wachtwoord voor de API vraag.
 
    ![](../assets/journeyuc2_10.png)
 
 1. Klik **[!UICONTROL Add a New Field Group]** om de op te halen informatie en de API-parameters te definiëren. Voor ons voorbeeld is er slechts één parameter (de id), dus moeten we één veldgroep maken met de volgende informatie:
 
-   * **[!UICONTROL Method]**: Selecteer de methode POST of GET. In ons geval selecteren we de methode GET.
+   * **[!UICONTROL Method]**: selecteer de methode POST of GET. In ons geval selecteren we de methode GET.
    * **[!UICONTROL Cache duration]**: dit varieert afhankelijk van de frequentie van de API-aanroepen. In ons geval wordt het reserveringssysteem elke 10 minuten bijgewerkt.
-   * **[!UICONTROL Response Payload]**: Klik in het **[!UICONTROL Payload]** veld en plak een voorbeeld van de laadbewerking. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payload-voorbeeld zijn opgenomen. In ons voorbeeld bevat de lading alleen de reserveringsstatus:
+   * **[!UICONTROL Response Payload]**: Klik in het **[!UICONTROL Payload]** veld en plak een voorbeeld van de laadbewerking. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen. In ons voorbeeld bevat de lading alleen de reserveringsstatus:
 
    ```
    {
