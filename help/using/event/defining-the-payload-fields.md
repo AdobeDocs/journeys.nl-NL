@@ -1,5 +1,5 @@
 ---
-title: De laadvelden definiëren
+title: Payloadvelden definiëren
 description: Meer informatie over het definiëren van laadvelden
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,20 +8,18 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# De laadvelden definiëren {#concept_yrw_3qt_52b}
+# Payloadvelden definiëren {#concept_yrw_3qt_52b}
 
-De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
+De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/home.html).
 
 1. Selecteer een XDM-schema in de lijst en klik op het **[!UICONTROL Payload]** veld of op het **[!UICONTROL Edit]** pictogram.
 
