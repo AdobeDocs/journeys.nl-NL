@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign-handelingen gebruiken
+title: Adobe Campaign-acties gebruiken
 description: Meer informatie over Adobe Campaign-acties
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,18 +8,16 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Adobe Campaign-handelingen gebruiken {#using_campaign_action}
+# Adobe Campaign-acties gebruiken {#using_campaign_action}
 
 Als u Adobe Campaign Standard hebt, zijn de volgende buiten-de-box actieactiviteiten beschikbaar: **[!UICONTROL Email]**, **[!UICONTROL Push]** en **[!UICONTROL SMS]**.
 
@@ -27,7 +25,7 @@ Als u Adobe Campaign Standard hebt, zijn de volgende buiten-de-box actieactivite
 >
 >Hiervoor moet u de ingebouwde actie configureren. Zie [](../action/working-with-adobe-campaign.md).
 
-Voor elk van deze kanalen selecteert u een Adobe Campaign Standard Transaction Messaging- **sjabloon**. Het [!DNL Journey Orchestration] is geen boodschap die een oplossing biedt. Voor de ingebouwde e-mail, sms en duw kanalen, vertrouwen wij op Transactieoverseinen om bericht uit te voeren die verzenden. Het betekent dat als u een bepaald berichtmalplaatje in uw reizen wilt gebruiken, u het in Adobe Campaign Standard moet publiceren. Raadpleeg deze [pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) voor meer informatie over het gebruik van deze functie.
+Voor elk van deze kanalen selecteert u een Adobe Campaign Standard Transaction Messaging- **sjabloon**. Het [!DNL Journey Orchestration] is geen boodschap die een oplossing biedt. Voor de ingebouwde e-mail, sms en duw kanalen, vertrouwen wij op Transactieoverseinen om bericht uit te voeren die verzenden. Het betekent dat als u een bepaald berichtmalplaatje in uw reizen wilt gebruiken, u het in Adobe Campaign Standard moet publiceren. Raadpleeg deze [pagina](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) voor meer informatie over het gebruik van deze functie.
 
 >[!NOTE]
 >
@@ -51,7 +49,7 @@ Voor **[!UICONTROL Email]** en **[!UICONTROL SMS]**, zijn de parameters identiek
 
 >[!NOTE]
 >
->Voor e-mail, als u een malplaatje van de profieltransactie gebruikt, wordt het unsubscription mechanisme behandeld uit-van-de-doos door Campaign Standard. U voegt eenvoudig een **[!UICONTROL Unsubscription link]** inhoudsblok in het malplaatje toe ([leer meer](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Als u een op een gebeurtenis gebaseerde sjabloon (rtEvent) gebruikt, moet u in het bericht een koppeling toevoegen die de e-mail van de persoon in de URL-parameter doorgeeft en naar een bestemmingspagina zonder abonnement verwijst. U moet deze landingspagina maken en ervoor zorgen dat de beslissing van de persoon om het abonnement op te zeggen wordt doorgegeven aan Adobe.
+>Voor e-mail, als u een malplaatje van de profieltransactie gebruikt, wordt het unsubscription mechanisme behandeld uit-van-de-doos door Campaign Standard. U voegt eenvoudig een **[!UICONTROL Unsubscription link]** inhoudsblok in het malplaatje toe ([leer meer](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Als u een op een gebeurtenis gebaseerde sjabloon (rtEvent) gebruikt, moet u in het bericht een koppeling toevoegen die de e-mail van de persoon in de URL-parameter doorgeeft en naar een bestemmingspagina zonder abonnement verwijst. U moet deze landingspagina maken en ervoor zorgen dat de beslissing van de persoon om het abonnement op te zeggen wordt doorgegeven aan Adobe.
 
 Eerst, moet u een transactioneel overseinensjabloon kiezen. Zie [](../building-journeys/about-action-activities.md).
 
@@ -81,7 +79,7 @@ Dit zijn de velden die worden verwacht door het Adobe Campaign Standard-bericht.
 
 ## Push {#section_im3_hvf_nhb}
 
-Voordat u de pushactiviteit kunt gebruiken, moet uw mobiele app samen met Campaign Standard worden geconfigureerd om pushmeldingen te verzenden. Gebruik dit [artikel](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) om de benodigde implementatiestappen voor mobiele apparaten uit te voeren.
+Voordat u de pushactiviteit kunt gebruiken, moet uw mobiele app samen met Campaign Standard worden geconfigureerd om pushmeldingen te verzenden. Gebruik dit [artikel](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html) om de benodigde implementatiestappen voor mobiele apparaten uit te voeren.
 
 Eerst moet u een mobiele app kiezen in de vervolgkeuzelijst en een transactiebericht. Zie [](../building-journeys/about-action-activities.md).
 
