@@ -1,5 +1,5 @@
 ---
-title: De reis publiceren
+title: Journey publiceren
 description: Meer informatie over het publiceren van reizen
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,18 +8,16 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ffcb0bd7c6b94a412878bae16ac9ffd1742d34d2
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# De reis publiceren{#concept_mtc_lrt_52b}
+# Journey publiceren{#concept_mtc_lrt_52b}
 
 U kunt een reis publiceren nadat u de geldigheid ervan hebt getest.
 
