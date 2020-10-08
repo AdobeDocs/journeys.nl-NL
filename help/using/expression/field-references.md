@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -87,7 +85,7 @@ In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld Id
 
 Als u een veld selecteert uit een externe gegevensbron waarvoor een parameter moet worden aangeroepen, wordt rechts een nieuw tabblad weergegeven waarin u deze parameter kunt opgeven. Zie [](../expression/expressionadvanced.md).
 
-Als u de parameters van de gegevensbron in de hoofdexpressie wilt opnemen voor complexere gebruiksgevallen, kunt u de waarden van deze parameters definiëren met behulp van de _trefwoordparams_. Een parameter kan elke geldige expressie zijn, zelfs van een andere gegevensbron die ook een andere parameter bevat.
+For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. Een parameter kan elke geldige expressie zijn, zelfs van een andere gegevensbron die ook een andere parameter bevat.
 
 >[!NOTE]
 >
