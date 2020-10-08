@@ -8,27 +8,25 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
 
-# Een segment maken {#creating-a-segment}
+# Segment maken {#creating-a-segment}
 
 U kunt of een segment tot stand brengen gebruikend de Dienst [van de Segmentatie van](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Adobe Experience Platform of u kunt tot hen toegang hebben en direct tot stand brengen in [!DNL Journey Orchestration].
 
-1. In the top menu, click on the **[!UICONTROL Segments]** tab. De lijst met Adobe Experience Platform-segmenten wordt weergegeven. U kunt naar een specifiek segment in de lijst zoeken.
+1. Klik in het bovenste menu op het tabblad **[!UICONTROL Segments]**. De lijst met Adobe Experience Platform-segmenten wordt weergegeven. U kunt naar een specifiek segment in de lijst zoeken.
 
 ![](../assets/segment1.png)
 
-1. Klik **[!UICONTROL Add]** om een nieuw segment te maken. Het scherm van de segmentdefinitie staat u toe om alle vereiste gebieden te vormen om uw segment te bepalen. De configuratie is het zelfde als in de Dienst van de Segmentatie. Raadpleeg de gebruikershandleiding [van](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment Builder.
+1. Click **[!UICONTROL Add]** to create a new segment. Het scherm van de segmentdefinitie staat u toe om alle vereiste gebieden te vormen om uw segment te bepalen. De configuratie is het zelfde als in de Dienst van de Segmentatie. Raadpleeg de gebruikershandleiding [van](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment Builder.
 
 ![](../assets/segment2.png)
 
