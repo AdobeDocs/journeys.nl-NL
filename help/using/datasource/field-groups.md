@@ -1,5 +1,5 @@
 ---
-title: Veldgroepen
+title: Veldengroepen
 description: Meer informatie over veldgroepen
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -20,7 +18,7 @@ ht-degree: 0%
 
 
 
-# Veldgroepen {#concept_ntl_ypt_52b}
+# Veldengroepen {#concept_ntl_ypt_52b}
 
 Veldgroepen zijn sets velden die u kunt ophalen van een gegevensbron en gebruiken tijdens een reis.
 
@@ -36,7 +34,7 @@ Wanneer een gegevensbrongebied in een reis wordt gebruikt, zal het systeem alle 
 
 **[!UICONTROL Cache duration]** is ook belangrijk omdat dit u helpt de prestaties te optimaliseren. De duur van het geheime voorgeheugen betekent dat in een reis, als de gegevens van een gebiedsgroep eens worden teruggewonnen, het systeem het dan tijdelijk zal in het voorgeheugen onderbrengen. Als de zelfde gegevens later in de zelfde reis worden vereist, zal het systeem niet een ander verzoek aan de gegevensbron indienen. De configuratie van de geheim voorgeheugenduur zou voor elk gebruiksgeval moeten worden aangepast. Als u gegevens in real time zoals de status van de hotelreserve, weerinformatie of het aantal loyaliteitspunten moet terugwinnen, zult u de gebiedsgroep associëren die deze gebieden met een korte geheim voorgeheugenduur (1 seconde, bijvoorbeeld) bevat. Voor velden die minder vaak worden bijgewerkt (naam, geslacht), maakt u een tweede veldgroep met een langere cache (bijvoorbeeld 5 dagen).
 
-Het aantal ritten dat een veldgroep gebruikt, wordt in het **[!UICONTROL Used in]** veld weergegeven. U kunt op de **[!UICONTROL View journeys]** knop klikken om de lijst met reizen weer te geven met deze veldgroep.
+The number of journeys that use a field group is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of journeys using this field group.
 
 >[!NOTE]
 >
