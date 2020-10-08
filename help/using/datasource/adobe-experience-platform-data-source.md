@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Experience Platform-gegevensbron '
+title: 'Adobe Experience Platform-databron '
 description: 'Leer hoe u de Adobe Experience Platform-gegevensbron configureert '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,20 +8,18 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Adobe Experience Platform data source {#concept_zrb_nqt_52b}
+# Adobe Experience Platform-databron {#concept_zrb_nqt_52b}
 
-De Adobe Experience Platform-gegevensbron definieert de verbinding met de Real-Time Customer Profile Service. Deze gegevensbron is ingebouwd en vooraf geconfigureerd. Het kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken. Raadpleeg deze [pagina](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)voor meer informatie over de realtime service voor klantprofielen.
+De Adobe Experience Platform-gegevensbron definieert de verbinding met de Real-Time Customer Profile Service. Deze gegevensbron is ingebouwd en vooraf geconfigureerd. Het kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken. Raadpleeg deze [pagina](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)voor meer informatie over de realtime service voor klantprofielen.
 
 >[!NOTE]
 >
@@ -35,7 +33,7 @@ Hier zijn de belangrijkste stappen om gebiedsgroepen aan de ingebouwde gegevensb
 
 1. Selecteer de Adobe Experience Platform-gegevensbron voor de build-in in de lijst met gegevensbronnen.
 
-   Hiermee opent u het configuratievenster voor de gegevensbron aan de rechterkant van het scherm.
+   Hiermee opent u het configuratiedeelvenster voor de databron aan de rechterkant van het scherm.
 
    ![](../assets/journey23.png)
 
