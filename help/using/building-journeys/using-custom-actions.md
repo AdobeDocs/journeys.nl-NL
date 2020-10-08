@@ -1,5 +1,5 @@
 ---
-title: Aangepaste handelingen gebruiken
+title: Aangepaste acties gebruiken
 description: Meer informatie over activiteiten
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,18 +8,16 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Aangepaste handelingen gebruiken {#section_f2c_hbg_nhb}
+# Aangepaste acties gebruiken {#section_f2c_hbg_nhb}
 
 Als u een douaneactie gebruikt, zult u, in read-only, de **[!UICONTROL URL Configuration]** en **[!UICONTROL Authentication]** parameters zien die in het scherm van de actieconfiguratie worden bepaald (zie [](../action/about-custom-action-configuration.md)).
 
