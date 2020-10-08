@@ -1,5 +1,5 @@
 ---
-title: Een voorwaarde toevoegen
+title: Voorwaarde toevoegen
 description: Leer hoe u een voorwaarde toevoegt
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,19 +8,17 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5df2fecc56d2d2d081d952f17aadf103f2f0140a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
 
-# Een voorwaarde toevoegen {#concept_rbg_gqt_52b}
+# Voorwaarde toevoegen {#concept_rbg_gqt_52b}
 
 Met de gebeurtenisvoorwaarde kan het systeem de verwerking van gebeurtenissen filteren. Als de voorwaarde waar is, wordt de gebeurtenis verwerkt. Als de voorwaarde niet waar is, wordt de gebeurtenis genegeerd.
 
