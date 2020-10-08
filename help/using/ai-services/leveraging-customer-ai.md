@@ -8,18 +8,16 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Levering van AI van Klant {#customer-ai}
+# Klant-AI gebruiken {#customer-ai}
 
 AI van de klant maakt deel uit van de Intelligente Diensten. Het helpt voorspellen wat een klant waarschijnlijk zal doen. Zie de [documentatie](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
 
