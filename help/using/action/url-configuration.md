@@ -8,13 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -25,11 +23,11 @@ Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Con
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Voeg de **[!UICONTROL URL]** externe service toe.
+1. Add the **[!UICONTROL URL]** of the external service.
 
    >[!NOTE]
    >
-   >We raden u ten zeerste aan HTTPS te gebruiken om beveiligingsredenen. Wij staan niet het gebruik van Adobe adressen toe die niet openbaar en het gebruik van IP adressen zijn.
+   >We raden u uit beveiligingsoverwegingen sterk aan om HTTPS te gebruiken. Wij staan niet het gebruik van Adobe adressen toe die niet openbaar en het gebruik van IP adressen zijn.
 
 1. Selecteer de vraag **[!UICONTROL Method]**: het kan of **[!UICONTROL POST]** of **[!UICONTROL PUT]**.
 1. Klik in de **[!UICONTROL Headers]** sectie **[!UICONTROL Add a header field]** om een nieuw sleutel-/waardepaar te definiëren. Ze komen overeen met de HTTP-headers van de aanvraag die aan de externe service is gedaan. Als u sleutel-/waardeparen wilt verwijderen, plaatst u de cursor in het **[!UICONTROL Headers]** veld en klikt u op het **[!UICONTROL Delete]** pictogram.
