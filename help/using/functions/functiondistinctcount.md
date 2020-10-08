@@ -1,5 +1,5 @@
 ---
-title: differentCount
+title: distinctCount
 description: Meer informatie over de functie differentCount
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -8,18 +8,16 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 2%
+ht-degree: 23%
 
 ---
 
 
-# differentCount{#distinctCount}
+# distinctCount{#distinctCount}
 
 Telt het aantal verschillende waarden waarbij de null-waarden worden genegeerd.
 
