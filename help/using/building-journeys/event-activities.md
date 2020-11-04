@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 65ff1003fdfec087e4e2030dd81df8dab6229495
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '444'
 ht-degree: 1%
 
 ---
@@ -31,12 +31,29 @@ Wanneer u op de gebeurtenisactiviteit in het canvas klikt, wordt de ruit van de 
 
 ![](../assets/journey33.png)
 
-## Geavanceerd gebruik: gebeurtenissen met een wachttijd parallel{#section_vxv_h25_pgb}
+## Luisteren naar gebeurtenissen tijdens een bepaald tijdstip
 
-**Hoe kunt u alleen tijdens een bepaalde tijd naar een gebeurtenis luisteren?**
+Een gebeurtenisactiviteit die in de reis wordt geplaatst luistert voor onbepaalde tijd naar gebeurtenissen. Als u alleen tijdens een bepaalde tijd naar een gebeurtenis wilt luisteren, moet u een time-out voor de gebeurtenis configureren.
 
-Een gebeurtenisactiviteit die in de reis wordt geplaatst luistert voor onbepaalde tijd naar gebeurtenissen. Als u alleen gedurende een bepaalde tijd naar een gebeurtenis wilt luisteren, moet u een wachtactiviteit toevoegen parallel aan het gebeurtenispad. De reis zal dan aan de gebeurtenis tijdens de tijd luisteren die in de wachttijdactiviteit wordt gespecificeerd. Als een gebeurtenis tijdens die periode wordt ontvangen, zal de persoon in de gebeurtenisweg stromen. Als niet, zal de klant in de wachttijdweg stromen.
+De reis zal dan aan de gebeurtenis tijdens de tijd luisteren die in de timeout wordt gespecificeerd. Als een gebeurtenis tijdens die periode wordt ontvangen, zal de persoon in de gebeurtenisweg stromen. Als niet, zal de klant of in een onderbrekingspad stromen, of zijn reis beëindigen.
 
-U hebt bijvoorbeeld een welkomstpushbericht naar een klant gestuurd en u wilt alleen een pushbericht voor maaltijdkortingen verzenden als de klant het restaurant binnen de volgende 6 uur betreedt. Hiervoor maakt u een tweede pad (parallel aan de restaurantgebeurtenis één) met een wachtactiviteit van 6 uur. Als de restaurantgebeurtenis minder dan 6 uur na de welkomstpush wordt ontvangen, wordt de pushactiviteit voor de maaltijdkorting verzonden. Als er geen restaurantgebeurtenis binnen de volgende 6 uur wordt ontvangen, loopt de persoon door het wachttijdpad.
+Voer de volgende stappen uit om een time-out voor een gebeurtenis te configureren:
 
-![](../assets/journeyuc2_31.png)
+1. Activeer de **[!UICONTROL Enable the event timeout]** optie vanuit de eigenschappen van de gebeurtenis.
+
+1. Geef op hoeveel tijd de reis moet wachten op de gebeurtenis.
+
+1. Schakel de **[!UICONTROL Set the timeout path]** optie in als u de personen naar een time-outpad wilt sturen wanneer geen gebeurtenis binnen de opgegeven time-out wordt ontvangen. Als deze optie niet wordt ingeschakeld, eindigt de reis voor het individu zodra de time-out is bereikt.
+
+   ![](../assets/event-timeout.png)
+
+In dit voorbeeld, verzendt de reis een eerste welkome duw naar een klant. Het verzendt dan een duw van de maaltijdkorting slechts als de klant het restaurant binnen de volgende dag ingaat. Daarom hebben we de restaurant-gebeurtenis geconfigureerd met een time-out van 1 dag:
+
+* Als de restaurantgebeurtenis minder dan 1 dag uur na de welkomstpush wordt ontvangen, wordt de pushactiviteit voor de maaltijdkorting verzonden.
+* Als er de volgende dag geen restaurantgebeurtenis wordt ontvangen, loopt de persoon door het time-outpad.
+
+Merk op dat als u een onderbreking op veelvoudige gebeurtenissen wilt vormen die na een **[!UICONTROL Wait]** activiteit worden geplaatst, u onderbreking op één van deze gebeurtenissen slechts moet vormen.
+
+De time-out wordt toegepast op alle gebeurtenissen die na de **[!UICONTROL Wait]** activiteit worden geplaatst. Als er geen gebeurtenis wordt ontvangen na de opgegeven time-out, gaan de personen naar één enkel time-outpad of beëindigen ze hun reis.
+
+![](../assets/event-timeout-group.png)
