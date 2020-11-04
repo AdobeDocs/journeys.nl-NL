@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7bfe162783ef558ae86edb87ba01bb6d793246b
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -34,24 +34,24 @@ Om het even welk schema XDM dat voor [!DNL Journey Orchestration] gebeurtenissen
 
 * Het schema moet van de klasse XDM ExperienceEvent zijn.
 
-![](../assets/schema2.png)
+   ![](../assets/schema2.png)
 
 * Het schema moet de Orchestration eventID-mix bevatten. [!DNL Journey Orchestration] gebruikt dit veld om gebeurtenissen te identificeren die tijdens reizen worden gebruikt.
 
-![](../assets/schema3.png)
+   ![](../assets/schema3.png)
 
 * Declareer een identiteitsveld voor het identificeren van het onderwerp van de gebeurtenis. Als er geen identiteit is opgegeven, kan een identiteitskaart worden gebruikt. Dit wordt niet aanbevolen.
 
-![](../assets/schema4.png)
+   ![](../assets/schema4.png)
 
 * Als u deze gegevens voor raadpleging later in een Reis beschikbaar zou willen zijn, merk het schema en de dataset voor profiel.
 
-![](../assets/schema5.png)
+   ![](../assets/schema5.png)
 
-![](../assets/schema6.png)
+   ![](../assets/schema6.png)
 
 * U kunt gegevensvelden vrij gebruiken om andere contextgegevens vast te leggen die u met de gebeurtenis wilt opnemen, zoals informatie over de gebruiker, het apparaat waaruit de gebeurtenis is gegenereerd, de locatie of andere betekenisvolle omstandigheden die met de gebeurtenis verband houden.
 
-![](../assets/schema7.png)
+   ![](../assets/schema7.png)
 
-![](../assets/schema8.png)
+   ![](../assets/schema8.png)
