@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bdec7addcadabac614f703c4ad719c13d044465f
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 93%
+source-wordcount: '1733'
+ht-degree: 90%
 
 ---
 
@@ -21,6 +21,31 @@ ht-degree: 93%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)raadplegen.
+
+## October 2020 Release {#october-release}
+
+### GA-updates{#october-ga-update}
+
+<table>
+<thead>
+<tr>
+<th><strong>Time-out gebeurtenis</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu een time-out voor een gebeurtenis configureren om een reis alleen tijdens een bepaalde tijd naar een gebeurtenis te laten luisteren. U hoeft geen wachtactiviteiten meer parallel aan het gebeurtenispad toe te voegen om dit te bereiken.
+</p>
+<p>Raadpleeg de <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Overige verbeteringen{#october-other}
+
+* Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie automatisch en schakelt naar de Gesloten status. [Meer informatie](../building-journeys/journey-versions.md)
 
 ## Release september 2020 {#september-release}
 
@@ -207,10 +232,10 @@ Deze functies worden beschreven in een speciale [sectie](../alpha/alpha-overview
 <li><p>Met een nieuwe activiteit kan worden geluisterd naar het openen en sluiten van Adobe Experience Platform-segmenten waarmee mensen aan een journey beginnen of ermee doorgaan. <a href="../building-journeys/segment-qualification-events.md">Meer informatie</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>U kunt nu Adobe Experience Platform-segmenten maken en bewerken zonder de Journey Orchestration-interface te verlaten dankzij het nieuwe tabblad <strong>Segments</strong>.<a href="../segment/about-segments.md">Meer informatie</a></p>
+<li><p>U kunt nu Adobe Experience Platform-segmenten maken en bewerken zonder de Journey Orchestration-interface te verlaten dankzij het nieuwe tabblad <strong>Segments. </strong> <a href="../segment/about-segments.md">Meer informatie</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>In de eenvoudige expressie-editor worden Adobe Experience Platform-segmenten nu direct vermeld in de navigatiestructuur voor het gemakkelijk instellen van voorwaarden zoals ‘hoort deze persoon bij segment A?’.<a href="../segment/using-a-segment.md">Meer informatie</a></p>
+<li><p>In de eenvoudige expressie-editor worden Adobe Experience Platform-segmenten nu direct vermeld in de navigatiestructuur voor het gemakkelijk instellen van voorwaarden zoals ‘hoort deze persoon bij segment A?’. <a href="../segment/using-a-segment.md">Meer informatie</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>Journey Orchestration geeft nu automatisch de stappen die tijdens journey’s worden uitgevoerd, door aan het Adobe Experience Platform. Dit geldt ook voor mogelijke fouten. Deze informatie kan worden gebruikt voor rapportage en probleemoplossing door query’s uit te voeren op journeystapgebeurtenissen voor een bepaalde journey of voor alle journey’s. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
