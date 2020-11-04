@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 44b2da66d6621b18b13ff99e46af02eddcaac6b1
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,10 @@ In de onderstaande tabel staan de afmetingen die worden gebruikt in reisrapporte
 | **Handeling** | Lijst van alle handelingen (naam van de **handeling - actielabel**) die tijdens reizen worden gebruikt, bijvoorbeeld push - Check out bevestiging, Email - Rewards getrouwheid. |
 | **Gegevensbron** | Lijst van gegevensbronnen (naam **van** gegevensbron) die worden gebruikt om gegevens te verrijken in een reis, bijvoorbeeld Adobe Experience Platform, reserveringssysteem. |
 | **[!UICONTROL Event]** | Lijst van alle gebeurtenissen (naam van **gebeurtenis - label** van gebeurtenis) die tijdens reizen worden gebruikt, bijv. gebeurtenis Geometrixx - uitchecken van Geometrixx. |
+| **[!UICONTROL Event origin]** | Uitsplitsingsgebeurtenissen naar categorieën: **[!UICONTROL Internal event]** en **[!UICONTROL External event]**. For more information, refer to this [page](../building-journeys/jump.md). |
 | **Veldgroep** | Lijst van veldgroepen (**veldgroepsnaam**) die worden gebruikt om gegevens te verrijken tijdens reizen, bijvoorbeeld profielveldgroep, reserveringssysteem Geometrixx. |
 | **Reis** | Lijst van elke reis (**reisnaam**) in testmodus en live, bv. stopzetting van de auto, kennisgeving van reservering van het hotel. |
+| **[!UICONTROL Journey origin]** | Uitsplitsing **[!UICONTROL Internal event]**&quot; naar reis. |
 | **Reisversie** | Lijst van elke gepubliceerde versie van een reis (**reisnaam + versienummer**), bv. Afhalen van winkelwagentje v1, kennisgeving van hotelreservering v2. |
 | **Orchestratie** | Lijst van elke orkestactiviteit (**Voorwaarde, Eind, Wacht**) bepaald en gebruikt in reizen. |
 
@@ -61,7 +63,6 @@ In de onderstaande tabel vindt u een overzicht van de afleveringsafmetingen die 
 | **Categorie URL bijhouden** | Categorie die is toegewezen aan de URL voor bijhouden. |
 | **URL-label bijhouden** | Label dat aan de URL wordt gegeven, zoals de spiegelpagina, neemt u contact met ons op of opent u. |
 | **Variant** | Variant van het e-mailbericht in het geval van A/B-tests. |
-
 
 ## Reiscijfers {#MBE_p_p22_c4j_w2b}
 
@@ -104,7 +105,7 @@ In de onderstaande tabel vindt u een lijst met maatstaven die worden gebruikt in
 | **Hard stuiteren** | Het totale aantal permanente fouten, zoals een onjuist e-mailadres. |
 | **Harde stuitsnelheid** | Het totale aantal leveringen dat is mislukt als gevolg van permanente fouten in vergelijking met verzonden berichten. |
 | **Pagina spiegelen** | Aantal ontvangers die op de verbinding van de spiegelpagina klikte. |
-| **Paginasnelheid spiegelen** | Het totale aantal klikken op de koppeling van de spiegelpagina in verhouding tot het totale aantal geleverde berichten. |
+| **Paginasnelheid spiegelen** | Het totale aantal klikken op de koppeling van de spiegelpagina vergeleken met het totale aantal geleverde berichten. |
 | **Open** | Aantal keren dat een bericht in een levering werd geopend. |
 | **OpenRate** | Het totale aantal geopende berichten in verhouding tot het aantal geleverde berichten. |
 | **Quarantine** | Aantal berichten die in quarantaine van het adres stuitten en resulteerden. |
