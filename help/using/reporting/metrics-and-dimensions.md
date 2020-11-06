@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 44b2da66d6621b18b13ff99e46af02eddcaac6b1
+source-git-commit: 93da470ae878ec3dcf4fcb435dab86c8bf0419d4
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -38,10 +38,8 @@ In de onderstaande tabel staan de afmetingen die worden gebruikt in reisrapporte
 | **Handeling** | Lijst van alle handelingen (naam van de **handeling - actielabel**) die tijdens reizen worden gebruikt, bijvoorbeeld push - Check out bevestiging, Email - Rewards getrouwheid. |
 | **Gegevensbron** | Lijst van gegevensbronnen (naam **van** gegevensbron) die worden gebruikt om gegevens te verrijken in een reis, bijvoorbeeld Adobe Experience Platform, reserveringssysteem. |
 | **[!UICONTROL Event]** | Lijst van alle gebeurtenissen (naam van **gebeurtenis - label** van gebeurtenis) die tijdens reizen worden gebruikt, bijv. gebeurtenis Geometrixx - uitchecken van Geometrixx. |
-| **[!UICONTROL Event origin]** | Uitsplitsingsgebeurtenissen naar categorieën: **[!UICONTROL Internal event]** en **[!UICONTROL External event]**. For more information, refer to this [page](../building-journeys/jump.md). |
 | **Veldgroep** | Lijst van veldgroepen (**veldgroepsnaam**) die worden gebruikt om gegevens te verrijken tijdens reizen, bijvoorbeeld profielveldgroep, reserveringssysteem Geometrixx. |
 | **Reis** | Lijst van elke reis (**reisnaam**) in testmodus en live, bv. stopzetting van de auto, kennisgeving van reservering van het hotel. |
-| **[!UICONTROL Journey origin]** | Uitsplitsing **[!UICONTROL Internal event]**&quot; naar reis. |
 | **Reisversie** | Lijst van elke gepubliceerde versie van een reis (**reisnaam + versienummer**), bv. Afhalen van winkelwagentje v1, kennisgeving van hotelreservering v2. |
 | **Orchestratie** | Lijst van elke orkestactiviteit (**Voorwaarde, Eind, Wacht**) bepaald en gebruikt in reizen. |
 
