@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 65ff1003fdfec087e4e2030dd81df8dab6229495
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Gebeurtenisactiviteiten {#concept_rws_1rt_52b}
 
-De gebeurtenissen die door de technische gebruiker worden gevormd (zie [](../event/about-events.md)) worden allen getoond in de eerste categorie van het palet, op de linkerkant van het scherm.
+De gebeurtenissen die door de technische gebruiker worden geconfigureerd (zie [deze pagina](../event/about-events.md)) worden allemaal weergegeven in de eerste categorie van het palet, links op het scherm.
 
 ![](../assets/journey43.png)
 
