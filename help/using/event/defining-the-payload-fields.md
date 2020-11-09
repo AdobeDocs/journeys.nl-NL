@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '279'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 # Payloadvelden definiëren {#concept_yrw_3qt_52b}
 
-De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/home.html).
+De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. For more information on XDM, refer to [this page](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/home.html).
 
 1. Selecteer een XDM-schema in de lijst en klik op het **[!UICONTROL Payload]** veld of op het **[!UICONTROL Edit]** pictogram.
 
@@ -33,13 +33,13 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
    ![](../assets/journey9.png)
 
-1. Selecteer de velden die u van de gebeurtenis wilt ontvangen. Dit zijn de gebieden die de bedrijfsgebruiker in de reis zal hefboomwerking hebben. Zij moeten ook de sleutel omvatten die zal worden gebruikt om de persoon te identificeren verbonden aan de gebeurtenis (zie [](../event/defining-the-event-key.md)).
+1. Selecteer de velden die u van de gebeurtenis wilt ontvangen. Dit zijn de gebieden die de bedrijfsgebruiker in de reis zal hefboomwerking hebben. Ze moeten ook de sleutel bevatten die wordt gebruikt om de persoon te identificeren die aan de gebeurtenis is gekoppeld (zie [deze pagina](../event/defining-the-event-key.md)).
 
    ![](../assets/journey10.png)
 
    >[!NOTE]
    >
-   >Het **[!UICONTROL eventID]** [!DNL Journey Orchestration] veld wordt automatisch toegevoegd aan de lijst met geselecteerde velden, zodat de gebeurtenis kan worden geïdentificeerd. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [](../event/previewing-the-payload.md).
+   >Het **[!UICONTROL eventID]** [!DNL Journey Orchestration] veld wordt automatisch toegevoegd aan de lijst met geselecteerde velden, zodat de gebeurtenis kan worden geïdentificeerd. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [deze pagina](../event/previewing-the-payload.md).
 
 1. Klik **[!UICONTROL Save]** of druk op **[!UICONTROL Enter]**.
 
