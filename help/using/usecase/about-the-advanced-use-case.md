@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '418'
 ht-degree: 5%
 
 ---
@@ -40,12 +40,12 @@ Vervolgens controleren we twee voorwaarden:
 
 ![](../assets/journeyuc2_29.png)
 
-Voor dit gebruik moeten we twee gebeurtenissen maken (zie [](../usecase/configuring-the-events.md)):
+Voor dit gebruiksgeval moeten we twee gebeurtenissen maken (zie [deze pagina](../usecase/configuring-the-events.md)):
 
 * De lobby-gebeurtenis die naar het systeem wordt geduwd wanneer een klant het hotel binnenkomt.
 * De bakengebeurtenis van het restaurant die zal worden geduwd wanneer een klant het restaurant ingaat.
 
-We moeten een verbinding met twee gegevensbronnen configureren (zie [](../usecase/configuring-the-data-sources.md)):
+We moeten een verbinding met twee gegevensbronnen configureren (zie [deze pagina](../usecase/configuring-the-data-sources.md)):
 
 * De ingebouwde gegevensbron van Adobe Experience Platform, om de informatie voor onze twee voorwaarden (loyaliteitslidmaatschap en laatste contactdatum) evenals de informatie van de berichtverpersoonlijking terug te winnen.
 * Het hotelreserveringssysteem om de informatie over de reserveringsstatus op te halen.
