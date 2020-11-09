@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 42%
+source-wordcount: '395'
+ht-degree: 36%
 
 ---
 
@@ -30,7 +30,7 @@ De **bedrijfsgebruiker** kan nu de journey bouwen. Onze reis zal slechts één w
 >
 >De **[!UICONTROL Push]**- en **[!UICONTROL Email]**-activiteiten zijn alleen beschikbaar in het palet als u Adobe Campaign Standard hebt.
 
-Raadpleeg [](../building-journeys/journey.md) voor meer informatie over het maken van een journey.
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 1. Klik in het bovenste menu op de tabbladen **[!UICONTROL Home]** en **[!UICONTROL Create]** om een nieuwe journey te maken.
 
@@ -72,7 +72,7 @@ Raadpleeg [](../building-journeys/journey.md) voor meer informatie over het make
 
    ![](../assets/journeyuc1_17.png)
 
-1. Klik op de **[!UICONTROL Test]** knevel en test uw reis gebruikend testprofielen. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Raadpleeg [](../building-journeys/testing-the-journey.md) voor meer informatie over de testmodus.
+1. Klik op de **[!UICONTROL Test]** knevel en test uw reis gebruikend testprofielen. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
