@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 9%
+source-wordcount: '357'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 In ons scenario, moeten wij een gebeurtenis ontvangen telkens als een persoon dichtbij een baken loopt dat naast de spanwijdte wordt geplaatst. De **technische gebruiker** moet de gebeurtenis vormen het systeem aan in onze reis zal luisteren.
 
-Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-events.md).
+Raadpleeg [deze pagina](../event/about-events.md)voor meer informatie over gebeurtenisconfiguratie.
 
 1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
@@ -39,7 +39,7 @@ Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-ev
    >
    >De lijst met velden verschilt per schema. Volgens de schemadefinitie zijn sommige velden mogelijk verplicht en vooraf geselecteerd.
 
-1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Zie [](../event/selecting-the-namespace.md) voor meer informatie over naamruimten.
+1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc1_6.png)
 
@@ -53,4 +53,4 @@ Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-ev
 
    ![](../assets/journeyuc1_7.png)
 
-   Het evenement is klaar om op reis te worden gebruikt. U moet nu de mobiele toepassing vormen zodat het de verwachte nuttige lading naar het Streaming Ingestie APIs eindpunt kan verzenden. Zie [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+   Het evenement is klaar om op reis te worden gebruikt. U moet nu de mobiele toepassing vormen zodat het de verwachte nuttige lading naar het Streaming Ingestie APIs eindpunt kan verzenden. Zie [deze pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
