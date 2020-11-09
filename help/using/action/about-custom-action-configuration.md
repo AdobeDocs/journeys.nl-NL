@@ -9,18 +9,18 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 12%
+source-wordcount: '249'
+ht-degree: 15%
 
 ---
 
 
 # Informatie over het configureren van aangepaste acties {#concept_sxy_bzs_dgb}
 
-Als u een derdesysteem gebruikt om berichten te verzenden of als u API vraag [!DNL Journey Orchestration] naar een derdesysteem wilt verzenden, is dit waar u zijn verbinding vormt aan [!DNL Journey Orchestration]. De aangepaste actie die door technische gebruikers is gedefinieerd, is dan beschikbaar in het linkerpalet van uw reis, in de **[!UICONTROL Action]** categorie (zie [](../building-journeys/about-action-activities.md). Hier volgen enkele voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste handelingen: Epsilon, Facebook, Adobe.io, Firebase, enz.
-Hier worden beperkingen weergegeven: [](../action/custom-action-limitations.md).
+Als u een derdesysteem gebruikt om berichten te verzenden of als u API vraag [!DNL Journey Orchestration] naar een derdesysteem wilt verzenden, is dit waar u zijn verbinding vormt aan [!DNL Journey Orchestration]. De aangepaste actie die door technische gebruikers is gedefinieerd, is dan beschikbaar in het linkerpalet van uw reis, in de **[!UICONTROL Action]** categorie (zie [deze pagina](../building-journeys/about-action-activities.md). Hier volgen enkele voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste handelingen: Epsilon, Facebook, Adobe.io, Firebase, enz.
+Beperkingen worden weergegeven op [deze pagina](../action/custom-action-limitations.md).
 
 Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vormen:
 
@@ -36,12 +36,12 @@ Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vorm
 
 1. Voeg een beschrijving aan uw actie toe. Deze stap is optioneel.
 1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
-1. Define the different **[!UICONTROL URL Configuration]** parameters. Zie [](../action/url-configuration.md).
-1. Configureer de **[!UICONTROL Authentication]** sectie. Deze configuratie is het zelfde als voor gegevensbronnen.  Zie [](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Define the **[!UICONTROL Message parameters]**. Zie [](../action/defining-the-message-parameters.md).
+1. Define the different **[!UICONTROL URL Configuration]** parameters. Zie [deze pagina](../action/url-configuration.md).
+1. Configureer de **[!UICONTROL Authentication]** sectie. Deze configuratie is het zelfde als voor gegevensbronnen.  Zie [deze sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Definieer de **[!UICONTROL Message parameters]**. Zie [deze pagina](../action/defining-the-message-parameters.md).
 1. Klik op **[!UICONTROL Save]**.
 
-   De aangepaste handeling is nu geconfigureerd en klaar om te worden gebruikt tijdens uw reizen. Zie [](../building-journeys/about-action-activities.md).
+   De aangepaste handeling is nu geconfigureerd en klaar om te worden gebruikt tijdens uw reizen. Zie [deze pagina](../building-journeys/about-action-activities.md).
 
    >[!NOTE]
    >
