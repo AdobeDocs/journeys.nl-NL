@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: ac2ca77e2ba7c56217199dbd487f57cfe207f7d7
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 60%
+source-wordcount: '167'
+ht-degree: 73%
 
 ---
 
@@ -31,63 +31,63 @@ Hier volgt een lijst met ondersteunde functies.
 
 | Categorie | -functie |
 |-------------|-----------------------|
-| Adobe Experience Platform | [](../functions/functioninsegment.md) |
-| Samenvoeging | [](../functions/functionavg.md) |
-| Samenvoeging | [](../functions/functioncount.md) |
-| Samenvoeging | [](../functions/functioncountonlynull.md) |
-| Samenvoeging | [](../functions/functioncountwithnull.md) |
-| Samenvoeging | [](../functions/functiondistinctcount.md) |
-| Samenvoeging | [](../functions/functiondistinctcountwithnull.md) |
-| Samenvoeging | [](../functions/functionmax.md) |
-| Samenvoeging | [](../functions/functionmin.md) |
-| Samenvoeging | [](../functions/functionsum.md) |
-| Conversie | [](../functions/functiontobool.md) |
-| Conversie | [](../functions/functiontodatetime.md) |
-| Conversie | [](../functions/functiontodatetimeonly.md) |
-| Conversie | [](../functions/functiontodecimal.md) |
-| Conversie | [](../functions/functiontoduration.md) |
-| Conversie | [](../functions/functiontointeger.md) |
-| Conversie | [](../functions/functiontostring.md) |
-| Datum | [](../functions/functioncurrenttimeinmillis.md) |
-| Datum | [](../functions/functioninlastdays.md) |
-| Datum | [](../functions/functioninlasthours.md) |
-| Datum | [](../functions/functioninlastmonths.md) |
-| Datum | [](../functions/functioninlastyears.md) |
-| Datum | [](../functions/functioninnextdays.md) |
-| Datum | [](../functions/functioninnexthours.md) |
-| Datum | [](../functions/functioninnextmonths.md) |
-| Datum | [](../functions/functioninnextyears.md) |
-| Datum | [](../functions/functionnow.md) |
-| Datum | [](../functions/functionnowwithdelta.md) |
-| Datum | [](../functions/functionsethours.md) |
-| Datum | [](../functions/functionsetdays.md) |
-| Lijst | [](../functions/functiondistinct.md) |
-| Lijst | [](../functions/functiondistinctcount.md) |
-| Lijst | [](../functions/functionin.md) |
-| Lijst | [](../functions/functionlistsize.md) |
-| Lijst | [](../functions/functionserializelist.md) |
-| Lijst | [](../functions/functionsort.md) |
-| Wiskundig | [](../functions/functionrandom.md) |
-| Wiskundig | [](../functions/functionround.md) |
-| Tekenreeks | [](../functions/functionconcat.md) |
-| Tekenreeks | [](../functions/functioncontain.md) |
-| Tekenreeks | [](../functions/functioncontainwithignorecase.md) |
-| Tekenreeks | [](../functions/functionendwith.md) |
-| Tekenreeks | [](../functions/functionendwithignorecase.md) |
-| Tekenreeks | [](../functions/functionequalignorecase.md) |
-| Tekenreeks | [](../functions/functionindexof.md) |
-| Tekenreeks | [](../functions/functionisempty.md) |
-| Tekenreeks | [](../functions/functionisnotempty.md) |
-| Tekenreeks | [](../functions/functionlastindexof.md) |
-| Tekenreeks | [](../functions/functionlength.md) |
-| Tekenreeks | [](../functions/functionlower.md) |
-| Tekenreeks | [](../functions/functionmatchregexp.md) |
-| Tekenreeks | [](../functions/functionnotequalignorecase.md) |
-| Tekenreeks | [](../functions/functionreplace.md) |
-| Tekenreeks | [](../functions/functionreplaceall.md) |
-| Tekenreeks | [](../functions/functionstartwith.md) |
-| Tekenreeks | [](../functions/functionstartwithignorecase.md) |
-| Tekenreeks | [](../functions/functionsubstr.md) |
-| Tekenreeks | [](../functions/functiontrim.md) |
-| Tekenreeks | [](../functions/functionupper.md) |
-| Tekenreeks | [](../functions/functionuuid.md) |
+| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| Samenvoeging | [avg](../functions/functionavg.md) |
+| Samenvoeging | [count](../functions/functioncount.md) |
+| Samenvoeging | [countOnlyNull](../functions/functioncountonlynull.md) |
+| Samenvoeging | [countWithNull](../functions/functioncountwithnull.md) |
+| Samenvoeging | [distinctCount](../functions/functiondistinctcount.md) |
+| Samenvoeging | [distinctCountWithNull](../functions/functiondistinctcountwithnull.md) |
+| Samenvoeging | [max](../functions/functionmax.md) |
+| Samenvoeging | [min](../functions/functionmin.md) |
+| Samenvoeging | [sum](../functions/functionsum.md) |
+| Conversie | [toBool](../functions/functiontobool.md) |
+| Conversie | [toDateTime](../functions/functiontodatetime.md) |
+| Conversie | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
+| Conversie | [toDecimal](../functions/functiontodecimal.md) |
+| Conversie | [toDuration](../functions/functiontoduration.md) |
+| Conversie | [toInteger](../functions/functiontointeger.md) |
+| Conversie | [toString](../functions/functiontostring.md) |
+| Datum | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| Datum | [inLastDays](../functions/functioninlastdays.md) |
+| Datum | [inLastHours](../functions/functioninlasthours.md) |
+| Datum | [inLastMonths](../functions/functioninlastmonths.md) |
+| Datum | [inLastYears](../functions/functioninlastyears.md) |
+| Datum | [inNextDays](../functions/functioninnextdays.md) |
+| Datum | [inNextHours](../functions/functioninnexthours.md) |
+| Datum | [inNextMonths](../functions/functioninnextmonths.md) |
+| Datum | [inNextYears](../functions/functioninnextyears.md) |
+| Datum | [now](../functions/functionnow.md) |
+| Datum | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| Datum | [setHours](../functions/functionsethours.md) |
+| Datum | [setDays](../functions/functionsetdays.md) |
+| Lijst | [distinct](../functions/functiondistinct.md) |
+| Lijst | [distinctCount](../functions/functiondistinctcount.md) |
+| Lijst | [in](../functions/functionin.md) |
+| Lijst | [listSize](../functions/functionlistsize.md) |
+| Lijst | [serializeList](../functions/functionserializelist.md) |
+| Lijst | [sort](../functions/functionsort.md) |
+| Wiskundig | [random](../functions/functionrandom.md) |
+| Wiskundig | [round](../functions/functionround.md) |
+| Tekenreeks | [concat](../functions/functionconcat.md) |
+| Tekenreeks | [contain](../functions/functioncontain.md) |
+| Tekenreeks | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| Tekenreeks | [endWith](../functions/functionendwith.md) |
+| Tekenreeks | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
+| Tekenreeks | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| Tekenreeks | [indexOf](../functions/functionindexof.md) |
+| Tekenreeks | [isEmpty](../functions/functionisempty.md) |
+| Tekenreeks | [isNotEmpty](../functions/functionisnotempty.md) |
+| Tekenreeks | [lastIndexOf](../functions/functionlastindexof.md) |
+| Tekenreeks | [length](../functions/functionlength.md) |
+| Tekenreeks | [lower](../functions/functionlower.md) |
+| Tekenreeks | [matchRegExp](../functions/functionmatchregexp.md) |
+| Tekenreeks | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| Tekenreeks | [replace](../functions/functionreplace.md) |
+| Tekenreeks | [replaceAll](../functions/functionreplaceall.md) |
+| Tekenreeks | [startWith](../functions/functionstartwith.md) |
+| Tekenreeks | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
+| Tekenreeks | [substr](../functions/functionsubstr.md) |
+| Tekenreeks | [trim](../functions/functiontrim.md) |
+| Tekenreeks | [upper](../functions/functionupper.md) |
+| Tekenreeks | [uuid](../functions/functionuuid.md) |
