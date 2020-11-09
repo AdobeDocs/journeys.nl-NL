@@ -9,17 +9,17 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 95%
+source-wordcount: '322'
+ht-degree: 87%
 
 ---
 
 
 # Aan de slag{#concept_y4b_4qt_52b}
 
-In [!DNL Journey Orchestration] zijn er twee soorten gebruikers die elk hun eigen specifieke taken uitvoeren: de **technische gebruiker** en de **zakelijke gebruiker**. Gebruikerstoegang wordt beheerd via productprofielen en rechten. Raadpleeg [](../about/access-management.md) om te zien hoe u gebruikerstoegang kunt configureren.
+In [!DNL Journey Orchestration] zijn er twee soorten gebruikers die elk hun eigen specifieke taken uitvoeren: de **technische gebruiker** en de **zakelijke gebruiker**. Gebruikerstoegang wordt beheerd via productprofielen en rechten. Refer to [this page](../about/access-management.md) to learn how to configure user access.
 
 Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DNL Journey Orchestration]:
 
@@ -27,7 +27,7 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DN
 
    U moet definiëren welke informatie wordt verwacht en hoe deze moet worden verwerkt. Deze configuratie is verplicht. Deze stap wordt uitgevoerd door een **technische gebruiker**.
 
-   Raadpleeg [](../event/about-events.md) voor meer informatie.
+   Raadpleeg [deze pagina](../event/about-events.md) voor meer informatie.
 
    ![](../assets/journey7.png)
 
@@ -35,15 +35,15 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DN
 
    U moet een verbinding definiëren met een systeem voor het ophalen van extra informatie die in uw journey’s wordt gebruikt, bijvoorbeeld in uw voorwaarden. Tijdens de provisioning wordt ook een ingebouwde Adobe Experience Platform-databron geconfigureerd. Deze stap is niet vereist als u alleen data gebruikt van de gebeurtenissen in uw journey. Deze stap wordt uitgevoerd door een **technische gebruiker**.
 
-   Raadpleeg [](../datasource/about-data-sources.md) voor meer informatie.
+   Raadpleeg [deze pagina](../datasource/about-data-sources.md) voor meer informatie.
 
    ![](../assets/journey22.png)
 
 1. **Een actie configureren**
 
-   Als u een extern systeem gebruikt om uw berichten te verzenden, moet u de verbinding tussen dit systeem en [!DNL Journey Orchestration] configureren. Zie [](../action/about-custom-action-configuration.md).
+   Als u een extern systeem gebruikt om uw berichten te verzenden, moet u de verbinding tussen dit systeem en [!DNL Journey Orchestration] configureren. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
-   Als u Adobe Campaign Standard gebruikt om berichten te verzenden, moet u de ingebouwde actie configureren. Zie [](../action/working-with-adobe-campaign.md).
+   Als u Adobe Campaign Standard gebruikt om berichten te verzenden, moet u de ingebouwde actie configureren. Zie [deze pagina](../action/working-with-adobe-campaign.md).
 
    Deze stappen worden uitgevoerd door een **technische gebruiker**.
 
@@ -53,7 +53,7 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DN
 
    Combineer de verschillende actie-, orkestratie- en gebeurtenisactiviteiten om uw kanaaloverschrijdende scenario’s met meerdere stappen te maken. Deze stap wordt uitgevoerd door een **zakelijke gebruiker**.
 
-   Raadpleeg [](../building-journeys/journey.md) voor meer informatie.
+   Ga voor meer informatie naar [deze pagina](../building-journeys/journey.md).
 
    ![](../assets/journeyuc2_24.png)
 
@@ -61,7 +61,7 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DN
 
    U moet de journey valideren en activeren. Deze stap wordt uitgevoerd door een **zakelijke gebruiker**.
 
-   Ga voor meer informatie hierover naar [](../building-journeys/testing-the-journey.md) en [](../building-journeys/publishing-the-journey.md).
+   Zie voor meer informatie de pagina&#39;s [Testing the trip](../building-journeys/testing-the-journey.md) and [Publishing the trip](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journeyuc2_32bis.png)
 
@@ -69,7 +69,7 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DN
 
    Gebruik de speciale rapportagetools om de doeltreffendheid van uw journey te meten. Deze stap wordt uitgevoerd door een **zakelijke gebruiker**.
 
-   Raadpleeg [](../reporting/about-journey-reports.md) voor meer informatie.
+   Ga voor meer informatie naar [deze pagina](../reporting/about-journey-reports.md).
 
    ![](../assets/dynamic_report_journey_12.png)
 
