@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 1%
+source-wordcount: '433'
+ht-degree: 3%
 
 ---
 
@@ -63,7 +63,7 @@ Er kan een standaardwaarde aan een veldnaam worden gekoppeld. De syntaxis is als
 
 **Referentie van een veld binnen verzamelingen**
 
-Er wordt verwezen naar de elementen die in verzamelingen zijn gedefinieerd met behulp van de specifieke functies all, first en last. Zie voor meer informatie [](../expression/collection-management-functions.md).
+Er wordt verwezen naar de elementen die in verzamelingen zijn gedefinieerd met behulp van de specifieke functies all, first en last. Raadpleeg [deze sectie](../expression/collection-management-functions.md) voor meer informatie.
 
 Voorbeeld :
 
@@ -73,17 +73,17 @@ Voorbeeld :
 
 **Referentie van een veld dat is gedefinieerd in een kaart**
 
-Om een element in een kaart terug te winnen, gebruiken wij de ingangsfunctie met een bepaalde sleutel. Deze wordt bijvoorbeeld gebruikt wanneer de sleutel van een gebeurtenis wordt gedefinieerd op basis van de geselecteerde naamruimte. Zie De naamruimte selecteren. Zie voor meer informatie [](../event/selecting-the-namespace.md).
+Om een element in een kaart terug te winnen, gebruiken wij de ingangsfunctie met een bepaalde sleutel. Deze wordt bijvoorbeeld gebruikt wanneer de sleutel van een gebeurtenis wordt gedefinieerd op basis van de geselecteerde naamruimte. Zie De naamruimte selecteren. Zie [deze pagina](../event/selecting-the-namespace.md)voor meer informatie.
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &quot;Email&quot; is een verzameling, waaruit we de &quot;id&quot; in het eerste element gebruiken met &quot;first()&quot;. Zie voor meer informatie [](../expression/collection-management-functions.md).
+In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &quot;Email&quot; is een verzameling, waaruit we de &quot;id&quot; in het eerste element gebruiken met &quot;first()&quot;. Zie [deze pagina](../expression/collection-management-functions.md)voor meer informatie.
 
 **Parameterwaarden van een gegevensbron (dynamische waarden van gegevensbron)**
 
-Als u een veld selecteert uit een externe gegevensbron waarvoor een parameter moet worden aangeroepen, wordt rechts een nieuw tabblad weergegeven waarin u deze parameter kunt opgeven. Zie [](../expression/expressionadvanced.md).
+Als u een veld selecteert uit een externe gegevensbron waarvoor een parameter moet worden aangeroepen, wordt rechts een nieuw tabblad weergegeven waarin u deze parameter kunt opgeven. Zie [deze pagina](../expression/expressionadvanced.md).
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. Een parameter kan elke geldige expressie zijn, zelfs van een andere gegevensbron die ook een andere parameter bevat.
 
