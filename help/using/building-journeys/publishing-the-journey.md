@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 5%
+source-wordcount: '174'
+ht-degree: 8%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 5%
 
 U kunt een reis publiceren nadat u de geldigheid ervan hebt getest.
 
-Als u wijzigingen in een gepubliceerde reis moet aanbrengen, moet u een nieuwe versie van uw reis tot stand brengen. Zie [](../building-journeys/journey-versions.md). Als een reis alleen-lezen is, kunt u alleen de activiteitslabels en -beschrijvingen, de naam van de reis en de beschrijving van de reis wijzigen.
+Als u wijzigingen in een gepubliceerde reis moet aanbrengen, moet u een nieuwe versie van uw reis tot stand brengen. Zie [deze pagina](../building-journeys/journey-versions.md). Als een reis alleen-lezen is, kunt u alleen de activiteitslabels en -beschrijvingen, de naam van de reis en de beschrijving van de reis wijzigen.
 
 Als je een reis stopt, wordt deze definitief gestopt. Alle mensen die op de reis gaan, zullen permanent worden gestopt en de reis zal ophouden nieuwkomers toe te laten. Als u de reis opnieuw moet gebruiken, moet u het dupliceren en het publiceren.
 
-1. Controleer voordat u uw reis publiceert of deze geldig is en of er geen fout optreedt. U kunt geen reis met fouten publiceren. Zie [](../about/troubleshooting.md#section_h3q_kqk_fhb). Het wordt ook aanbevolen uw reis vóór publicatie te testen. Zie [](../building-journeys/testing-the-journey.md).
+1. Controleer voordat u uw reis publiceert of deze geldig is en of er geen fout optreedt. U kunt geen reis met fouten publiceren. Zie [deze sectie](../about/troubleshooting.md#section_h3q_kqk_fhb). Het wordt ook aanbevolen uw reis vóór publicatie te testen. Zie [deze pagina](../building-journeys/testing-the-journey.md).
 1. Als u de rit wilt publiceren, klikt u op de **[!UICONTROL Publish]** optie in het keuzemenu rechtsboven.
 
    ![](../assets/journeyuc1_18.png)
