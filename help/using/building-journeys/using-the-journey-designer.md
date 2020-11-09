@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1354'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ U kunt het dialoogvenster **[!UICONTROL Filters]** openen door te klikken op het
 
 ![](../assets/journey74.png)
 
-Alle versies van uw reizen worden in de lijst weergegeven met het versienummer. Zie [](../building-journeys/journey-versions.md).
+Alle versies van uw reizen worden in de lijst weergegeven met het versienummer. Zie [deze pagina](../building-journeys/journey-versions.md).
 
 ![](../assets/journey37.png)
 
@@ -55,7 +55,7 @@ Wanneer u het **[!UICONTROL Search]** veld gebruikt, wordt het aantal resultaten
 
 ## Het canvas {#canvas}
 
-Het **canvas** is de centrale zone in de reisontwerper. Het is in deze streek dat u uw activiteiten kunt laten vallen en hen vormen. Klik op een activiteit op het canvas om deze te configureren. Dit opent de ruit van de activiteitenconfiguratie op de rechterkant. U kunt in- en uitzoomen met de knoppen &quot;+&quot; en &quot;-&quot; in de rechterbovenhoek. Op het canvas kunt u met alle activiteiten een volgende stap toevoegen, behalve **[!UICONTROL End]** activiteiten (zie [](../building-journeys/end-activity.md)).
+Het **canvas** is de centrale zone in de reisontwerper. Het is in deze streek dat u uw activiteiten kunt laten vallen en hen vormen. Klik op een activiteit op het canvas om deze te configureren. Dit opent de ruit van de activiteitenconfiguratie op de rechterkant. U kunt in- en uitzoomen met de knoppen &quot;+&quot; en &quot;-&quot; in de rechterbovenhoek. Op het canvas kunt u met alle activiteiten een volgende stap toevoegen, behalve **[!UICONTROL End]** activiteiten (zie [deze pagina](../building-journeys/end-activity.md)).
 
 ![](../assets/journey39.png)
 
@@ -69,19 +69,19 @@ Op het canvas worden uw actie en gebeurtenisactiviteiten vertegenwoordigd door e
 
 ## De acties op de bovenste balk {#top_actions}
 
-Afhankelijk van de status van de reis kunt u verschillende handelingen op uw reis uitvoeren met de knoppen in de rechterbovenhoek: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Deze knoppen worden weergegeven wanneer er geen activiteit is geselecteerd. Sommige knoppen worden contextueel weergegeven. De knop Logbestand van de testmodus verschijnt wanneer de testmodus wordt geactiveerd (zie [](../building-journeys/testing-the-journey.md)). De rapportknop wordt weergegeven wanneer de reis live, gestopt of gesloten is.
+Afhankelijk van de status van de reis kunt u verschillende handelingen op uw reis uitvoeren met de knoppen in de rechterbovenhoek: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Deze knoppen worden weergegeven wanneer er geen activiteit is geselecteerd. Sommige knoppen worden contextueel weergegeven. De knop voor het logbestand van de testmodus wordt weergegeven wanneer de testmodus wordt geactiveerd (zie [deze pagina](../building-journeys/testing-the-journey.md)). De rapportknop wordt weergegeven wanneer de reis live, gestopt of gesloten is.
 
 ![](../assets/journey41.png)
 
 ## Het gebruik van paden in het canvas {#paths}
 
-Met verschillende activiteiten (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activiteiten) kunt u een fallback-actie definiëren in het geval van een fout of time-out. Schakel het selectievakje in het deelvenster Activiteitenconfiguratie in: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Na de activiteit wordt een ander pad toegevoegd. De time-outduur wordt gedefinieerd in de eigenschappen van het transport (zie [](../building-journeys/changing-properties.md) door een beheerder. Als het bijvoorbeeld te lang duurt om een e-mail te verzenden of als er een fout optreedt, kunt u een SMS-bericht verzenden.
+Met verschillende activiteiten (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activiteiten) kunt u een fallback-actie definiëren in het geval van een fout of time-out. Schakel het selectievakje in het deelvenster Activiteitenconfiguratie in: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Na de activiteit wordt een ander pad toegevoegd. De time-outduur wordt gedefinieerd in de eigenschappen van het transport (zie [deze pagina](../building-journeys/changing-properties.md) door een beheerder. Als het bijvoorbeeld te lang duurt om een e-mail te verzenden of als er een fout optreedt, kunt u een SMS-bericht verzenden.
 
 ![](../assets/journey42.png)
 
 Met verschillende activiteiten (gebeurtenis, handeling, wachten) kunt u verschillende paden na deze toevoegen. Plaats de cursor op de activiteit en klik op het plusteken (+). Alleen gebeurtenis- en wachtactiviteiten kunnen parallel worden ingesteld. Als meerdere gebeurtenissen parallel worden ingesteld, is het gekozen pad het eerste evenement dat plaatsvindt.
 
-Wanneer u naar een gebeurtenis luistert, raden we u aan niet oneindig op de gebeurtenis te wachten. Het is niet verplicht, maar slechts een goede praktijk. Als u slechts gedurende een bepaalde tijd naar een of meerdere gebeurtenissen wilt luisteren, plaatst u een of meerdere gebeurtenissen en een wachtbewerking parallel. Zie [](../building-journeys/event-activities.md#section_vxv_h25_pgb).
+Wanneer u naar een gebeurtenis luistert, raden we u aan niet oneindig op de gebeurtenis te wachten. Het is niet verplicht, maar slechts een goede praktijk. Als u slechts gedurende een bepaalde tijd naar een of meerdere gebeurtenissen wilt luisteren, plaatst u een of meerdere gebeurtenissen en een wachtbewerking parallel. Zie [deze sectie](../building-journeys/event-activities.md#section_vxv_h25_pgb).
 
 Plaats de cursor op het pad en klik op het **[!UICONTROL Delete arrow]** pictogram om het pad te verwijderen.
 
