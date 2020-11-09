@@ -8,18 +8,18 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
-workflow-type: ht
-source-wordcount: '1034'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+workflow-type: tm+mt
+source-wordcount: '1040'
+ht-degree: 98%
 
 ---
 
 
 # Problemen oplossen{#concept_nlv_bcv_2fb}
 
-In deze sectie leert u hoe u problemen met journey’s kunt oplossen voordat u gaat testen of publiceren. Alle hieronder vermelde controles kunnen worden uitgevoerd in de testmodus van de journey of wanneer de journey live is. De aanbeveling is om alle onderstaande controles in de testmodus uit te voeren en vervolgens tot publicatie over te gaan. Zie [](../building-journeys/testing-the-journey.md).
+In deze sectie leert u hoe u problemen met journey’s kunt oplossen voordat u gaat testen of publiceren. Alle hieronder vermelde controles kunnen worden uitgevoerd in de testmodus van de journey of wanneer de journey live is. De aanbeveling is om alle onderstaande controles in de testmodus uit te voeren en vervolgens tot publicatie over te gaan. Zie [deze pagina](../building-journeys/testing-the-journey.md).
 
 ## Controleren op fouten voordat wordt getest{#section_h3q_kqk_fhb}
 
@@ -43,7 +43,7 @@ Er kunnen twee verschillende kleuren worden weergegeven op het teken naast de sc
 
 Fouten en waarschuwingen die globaal zijn voor de journey, worden als eerste in de lijst weergegeven. Fouten en waarschuwingen met betrekking tot specifieke activiteiten worden daarna vermeld, op volgorde van activiteit of weergave in de journey van links naar rechts. Met de knop **[!UICONTROL Copy details]** wordt technische informatie over de journey gekopieerd waarmee het ondersteuningsteam problemen kan oplossen.
 
-Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [](../building-journeys/using-the-journey-designer.md#paths).
+Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Controleren of gebeurtenissen correct zijn verzonden{#section_rqz_11t_dgb}
 
@@ -51,7 +51,7 @@ Het startpunt van een journey is altijd een gebeurtenis. U kunt tests uitvoeren 
 
 U kunt controleren of de API-aanroep die u via deze tools verzendt, correct is verzonden of niet. Als een fout wordt geretourneerd, betekent dit dat er een probleem is met uw aanroep. Controleer opnieuw de payload, de koptekst (vooral de organisatie-id) en de bestemmings-URL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar [!DNL Journey Orchestration] gepusht. [!DNL Journey Orchestration] is in feite afhankelijk van streamingopname-API’s van Adobe Experience Platform. Daardoor kunt u bij problemen met gebeurtenissen verwijzen naar deze [pagina](https://docs.adobe.com/content/help/nl-NL/experience-platform/ingestion/streaming/troubleshooting.html) voor het oplossen van problemen met streamingopname-API’s.
+Gebeurtenissen worden niet rechtstreeks van de bron naar [!DNL Journey Orchestration] gepusht. [!DNL Journey Orchestration] is in feite afhankelijk van streamingopname-API’s van Adobe Experience Platform. As a result, in case of event related issues, you can refer to [this page](https://docs.adobe.com/content/help/nl-NL/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
 
 ## Controleren of mensen de journey betreden{#section_x4v_zzs_dgb}
 
@@ -65,7 +65,7 @@ Hier volgen een paar dingen die de beheerder moet controleren:
 * Hebt u de gebeurtenis opgeslagen voordat u de payload uit de payloadvoorvertoning hebt gekopieerd?
 * Bevat de gebeurtenispayload een gebeurtenis-id?
 * Hebt u de juiste URL gebruikt?
-* Hebt u de payloadstructuur van de streamingopname-API’s gevolgd en de voorvertoning van de payloadstructuur in het deelvenster voor gebeurtenisconfiguratie gebruikt? Zie [](../event/previewing-the-payload.md).
+* Hebt u de payloadstructuur van de streamingopname-API’s gevolgd en de voorvertoning van de payloadstructuur in het deelvenster voor gebeurtenisconfiguratie gebruikt? Zie [deze pagina](../event/previewing-the-payload.md).
 * Hebt u de juiste sleutel-/waardeparen in de koptekst van de gebeurtenis gebruikt?
 
    ```
