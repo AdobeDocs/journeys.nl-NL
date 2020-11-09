@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 6%
+source-wordcount: '323'
+ht-degree: 7%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->Wanneer u een gebeurtenis maakt, wordt [!DNL Journey Orchestration] automatisch een id voor deze gebeurtenis gegenereerd. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [](../event/previewing-the-payload.md).
+>Wanneer u een gebeurtenis maakt, wordt [!DNL Journey Orchestration] automatisch een id voor deze gebeurtenis gegenereerd. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [deze pagina](../event/previewing-the-payload.md).
 
 Als u gebeurtenissen wilt configureren die moeten worden verzonden naar **[!UICONTROL Streaming Ingestion APIs]** en gebruikt in [!DNL Journey Orchestration], moet u de volgende stappen uitvoeren:
 
 1. Haal de inlaatURL op van de Adobe Experience Platform API&#39;s (zie [Streaming Ingestie-API&#39;s](https://docs.adobe.com/content/help/nl-NL/experience-platform/ingestion/streaming/overview.html)).
-1. Kopieer de lading van de payload voorproef in het **[!UICONTROL Event]** menu. Zie [](../event/defining-the-payload-fields.md).
+1. Kopieer de lading van de payload voorproef in het **[!UICONTROL Event]** menu. Zie [deze pagina](../event/defining-the-payload-fields.md).
 
 Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Streaming Ingestie-API&#39;s stuurt met de door u gekopieerde payload:
 
