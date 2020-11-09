@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 8%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 In ons scenario moeten we telkens een evenement ontvangen wanneer een persoon het hotel Marlton en het restaurant binnenkomt. De **technische gebruiker** moet de twee gebeurtenissen vormen wij het systeem willen om aan in onze reis te luisteren.
 
-Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-events.md).
+Raadpleeg [deze pagina](../event/about-events.md)voor meer informatie over gebeurtenisconfiguratie.
 
 1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
@@ -43,7 +43,7 @@ Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-ev
    >
    >De lijst met velden verschilt per schema. Volgens de schemadefinitie zijn sommige velden mogelijk verplicht en vooraf geselecteerd.
 
-1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Zie [](../event/selecting-the-namespace.md) voor meer informatie over naamruimten.
+1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
@@ -57,4 +57,4 @@ Raadpleeg voor meer informatie over gebeurtenisconfiguratie [](../event/about-ev
 
    ![](../assets/journeyuc2_5.png)
 
-Maak op dezelfde manier de gebeurtenis &quot;RestaurantBeacon&quot;. Uw twee baken-gebeurtenissen worden gecreëerd en kunnen nu worden gebruikt op onze reis. U moet nu de mobiele toepassing vormen zodat het de verwachte nuttige lading naar het Streaming Ingestie APIs eindpunt kan verzenden. Zie [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+Maak op dezelfde manier de gebeurtenis &quot;RestaurantBeacon&quot;. Uw twee baken-gebeurtenissen worden gecreëerd en kunnen nu worden gebruikt op onze reis. U moet nu de mobiele toepassing vormen zodat het de verwachte nuttige lading naar het Streaming Ingestie APIs eindpunt kan verzenden. Zie [deze pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
