@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: bdec7addcadabac614f703c4ad719c13d044465f
+source-git-commit: 76a03422d7c096c2af4a1e9c95a9bc8bf5f8b214
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1731'
 ht-degree: 90%
 
 ---
@@ -23,8 +23,6 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor J
 U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)raadplegen.
 
 ## October 2020 Release {#october-release}
-
-### GA-updates{#october-ga-update}
 
 <table>
 <thead>
