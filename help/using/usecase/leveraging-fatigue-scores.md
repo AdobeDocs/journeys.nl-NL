@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '249'
 ht-degree: 9%
 
 ---
@@ -27,7 +27,7 @@ Met deze gebruiksaanwijzing kunt u de vermoeidheidsscores benutten om te voorkom
 
 ## De gebeurtenis configureren {#section_ptb_ws1_ffb}
 
-Voer de in [](../event/about-events.md)beschreven stappen uit.
+Voer de stappen uit die op [deze pagina](../event/about-events.md)worden beschreven.
 
 ## De databron configureren {#section_o3n_4yy_wfb}
 
@@ -46,7 +46,7 @@ Voer de volgende stappen uit om de gebieden van de vermoeidheidsscore in de inge
 
 ## De journey samenstellen {#section_uzm_pyy_wfb}
 
-Volg de stappen in deze sectie om de reis te maken, te valideren en te publiceren [](../building-journeys/journey.md).
+Volg de stappen in [deze pagina](../building-journeys/journey.md)om de reis te maken, te valideren en te publiceren.
 
 In ons gebruiksgeval gebruiken we het **[!UICONTROL fatigueLevel]** veld. U kunt het **[!UICONTROL fatigueScore]** veld ook gebruiken.
 
