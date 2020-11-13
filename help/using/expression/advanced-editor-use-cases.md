@@ -9,15 +9,15 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '494'
 ht-degree: 2%
 
 ---
 
 
-# De geavanceerde expressie-editor gebruiken
+# Geavanceerde expressievoorbeelden
 
 De Geavanceerde uitdrukkingsredacteur kan worden gebruikt om voorwaarden tot stand te brengen om u toe te staan om gebruikers in uw reizen te filtreren. Met deze voorwaarden kunt u zich richten op gebruikers op tijd, datum, locatie, duur of acties zoals het kopen of verlaten van winkelwagentjes, zodat ze tijdens de reis opnieuw op de doelgroep kunnen worden geplaatst.
 
@@ -54,24 +54,23 @@ Vervolgens worden alle addtocart-gebeurtenissen geselecteerd die niet zijn omgez
 
 De opgegeven tijdstempel fungeert als datumtijdwaarde en de tweede als aantal dagen.
 
-    &quot;
-    In( &quot;addToCart&quot;, #{ExperiencePlatformDataSource
-    .ExperienceEventFieldGroup
-    .ExperienceEvent
-    .all(
-    inLastDays(currentDataPackField.timestamp, 7 ))
-    .productData
-    .productInteraction})
-    
-    AndNot(In( &quot;completePurchase&quot;, #{ExperienceNot} PlatformDataSource
-    .ExperienceEventFieldGroup
-    
-    
-    
-    
-    
-    
-    .experienceEvent.all(inLastDays(currentDataPackField.timestamp, 7)).productData.productInteraction})&quot;
+```
+        In( “addToCart”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
+        And
+        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
+```
 
 Deze expressie retourneert een Booleaanse waarde.
 
@@ -107,44 +106,42 @@ Vanaf dat punt kunt u een ander pad in uw reis toevoegen voor wanneer het produc
 
 Met deze voorwaarde worden alleen de geofence-gebeurtenissen opgehaald die worden geactiveerd in &quot;Arlington&quot;:
 
-    &quot;
-    @{GeofenceEntry
-    .placeContext
-    .POIinteraction
-    .POIDetail
-    .name} == &quot;Arlington&quot;
-    &quot;
+```
+        @{GeofenceEntry
+                    .placeContext
+                    .POIinteraction
+                    .POIDetail
+                    .name} == "Arlington"
+```
 
 Uitleg: Dit is een strikte tekenreeksvergelijking (hoofdlettergevoelig), gelijk aan een query in de eenvoudige modus die wordt gebruikt `equal to` met `Is sensitive` ingeschakeld.
 
 Dezelfde query met `Is sensitive` uncheck genereert de volgende expressie in de geavanceerde modus:
 
-    &quot;
-    equalIgnoreCase(@{GeofenceEntry
-    .placeContext
-    .POIinteraction
-    .POIDetail
-    .name}, &quot;Arlington&quot;)
-    
-    &quot;
+```
+        equalIgnoreCase(@{GeofenceEntry
+                        .placeContext
+                        .POIinteraction
+                        .POIDetail
+                        .name}, "Arlington")
+```
 
 **In handelingen**
 
 De volgende uitdrukking staat u toe om identiteitskaart van CRM in een gebied van de actieverpersoonlijking te bepalen:
 
-    &quot;
+```
     substr(@{MobileAppLaunch
-    ._myorganisation
-    .identification
-    .crmid}, 1,
-    lastIndexOf(@{MobileAppLaunch
-    ._myorganisation
-    .identification
-    .crmid}
-    )
-    
-    
-    &quot;
+            ._myorganization
+            .identification
+            .crmid}, 1, 
+            lastIndexOf(@{MobileAppLaunch
+                        ._myorganization
+                        .identification
+                        .crmid}
+                         }
+                         ))
+```
 
 Uitleg: In dit voorbeeld worden accolades `substr` en `lastIndexOf` functies verwijderd die de CRM-id omsluiten die is doorgegeven met een gebeurtenis voor het starten van een mobiele app.
 
