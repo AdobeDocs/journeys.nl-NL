@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
+source-git-commit: f45069225b284fe47e2acaccb4aa5d34fe171f35
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 2%
@@ -47,6 +47,6 @@ Hier zijn beperkingen met betrekking tot het gebruik van Journey Orchestration.
 * Streaming gegevens die worden gebruikt om een reis van de klant te initiëren, moeten eerst binnen Journey Orchestration worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt.
  
 
-## Beperkingen van gegevensbronnen:
+## Beperkingen op gegevensbronnen
 
 * De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in real time op te zoeken. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
