@@ -2,11 +2,11 @@
 keywords: Journeys;home;popular topics
 title: Journey Orchestration-productdocumentatie
 topic: Premium
-translation-type: ht
-source-git-commit: 8d5a2538859d0438d8536c1e359f981d6ac179f0
-workflow-type: ht
-source-wordcount: '190'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1db145be1b4076f4a8eb7ab995eeed3dab455d50
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 72%
 
 ---
 
@@ -17,7 +17,8 @@ ht-degree: 100%
 
 ## Aan de slag
 
-* **[Wat is Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>Meer informatie over Journey Orchestration.
+* **[Wat is Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>
+Meer informatie over Journey Orchestration.
 
 * **[Uw eerste journey samenstellen](using/about/get-started.md)**<br/>Ontdek de belangrijkste stappen voor het instellen van Journey Orchestration en voor het samenstellen van uw eerste journey.
 
@@ -66,9 +67,17 @@ ht-degree: 100%
 
 ## Aanvullende bronnen
 
+* [Journey Orchestration-productpagina](https://www.adobe.com/fr/experience-platform/journey-orchestration.html)
 * [Experience Platform-documentatie](https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html)
 * [Documentatie bij real-timeklantprofiel](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)
 * [Experience Cloud XDM-velddefinitie](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/home.html)
 * [Documentatie bij identiteitsnaamruimte](https://docs.adobe.com/content/help/nl-NL/experience-platform/identity/home.html)
 * [Streamingopname-API’s](https://docs.adobe.com/content/help/nl-NL/experience-platform/ingestion/streaming/overview.html)
 * [Documentatie bij transactionele berichten in Campaign Standard](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+
+## Technische zelfstudies
+
+* [Journey Orchestration-configuratie](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html#6.-reis-orkestatie)
+* [Externe Weather-API, SMS-actie en meer](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html#module12)
+* [Een contactpersoon maken in Dynamics 365 met Journey Orchestration](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html#17.3-create-a-contact-in-microsoft-dynamics-365-using-journey-orchestration-%26-import-data-from-microsoft-dynamics)
+* [Journey Orchestration gebruiken om een e-mailfollow-up te activeren](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html#20.4-use-journey-orchestration-to-trigger-an-email-follow-up-after-interacting-with-your-chatbot)
