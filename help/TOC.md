@@ -5,9 +5,9 @@ user-guide-title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt hoe te instructies voor het uitvoeren van en het bouwen van reizen.
 index: true
 translation-type: tm+mt
-source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
+source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 97%
    + [Documentatie-updates](using/release-notes/documentation-updates.md)
 + Beginnen met [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Info [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Beperkingen](using/about/limitations.md)
    + [Aan de slag](using/about/get-started.md)
    + [Gebruikersinterface](using/about/user-interface.md)
    + [Toegangscontrole](using/about/access-management.md)
@@ -44,7 +45,6 @@ ht-degree: 97%
    + [Werken met Adobe Campaign](using/action/working-with-adobe-campaign.md)
    + Een extern systeem gebruiken {#action-third-party}
       + [Informatie over het configureren van aangepaste acties](using/action/about-custom-action-configuration.md)
-      + [Beperkingen voor aangepaste acties](using/action/custom-action-limitations.md)
       + [URL-configuratie](using/action/url-configuration.md)
       + [Berichtparameters definiëren](using/action/defining-the-message-parameters.md)
 + Platformsegmenten gebruiken {#configuring-segment}
