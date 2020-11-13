@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9999546d08d0279f013ead3a1e71bb7f9305bebc
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 98%
+source-wordcount: '1063'
+ht-degree: 93%
 
 ---
 
@@ -139,3 +139,11 @@ _Op het canvas van een journey:_
 * Gebruik de toetsencombinatie **Ctrl/Command + A** om alle activiteiten te selecteren.
 * Wanneer een of meerdere activiteiten zijn geselecteerd, drukt u op **Verwijderen** of **Backspace** om deze te verwijderen. Vervolgens kunt u in het pop-upvenster ter bevestiging op **Enter** drukken.
 * Dubbelklik op een activiteit in het linkerpalet om deze toe te voegen op de eerste beschikbare positie (van boven naar beneden).
+
+_Op een reis:_
+
+* Druk op **T** om de testmodus in of uit te schakelen.
+* Druk in de testmodus op een op gebeurtenissen gebaseerde reis op **E** om een gebeurtenis te activeren.
+* Als in de testmodus de optie **Eén profiel tegelijk** is geselecteerd voor een op een segment gebaseerde reis, drukt u op **P** om een gebeurtenis te activeren.
+* Druk in de testmodus op **L** om de logbestanden weer te geven.
+
