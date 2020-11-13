@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
+source-git-commit: eec6203f63fa6d7ea706595ea866d2b330d284a8
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 4%
@@ -46,11 +46,11 @@ Hier volgt een lijst met ondersteunde operatoren:
 <tr><th>Operator</th><th>Letterlijke uitdrukking</th><th>Voorbeeld</th></tr>
 </thead>
 <tbody>
-<tr>&gt;<td>en</td><td><p><pre>&lt;expression1&gt; en &lt;expression2&gt;</pre></p>Zowel &lt;expression1&gt; als &lt;expression2&gt; moeten booleaans zijn. Het resultaat is booleaans.</td><td><pre>3.14 &gt; 2 en 3.15 &lt; 1</pre></td></tr>
+<tr><td>en</td><td><p><pre>&lt;expression1&gt; en &lt;expression2&gt;</pre></p>Zowel &lt;expression1&gt; als &lt;expression2&gt; moeten booleaans zijn. Het resultaat is booleaans.</td><td><pre>3.14 &gt; 2 en 3.15 &lt; 1</pre></td></tr>
 <tr><td>of</td><td><p><pre>&lt;expression1&gt; of &lt;expression2&gt;</pre></p><p>Zowel &lt;expression1&gt; als &lt;expression2&gt; moeten booleaans zijn.</p><p> Het resultaat is booleaans.</p></td><td><p><pre>3.14 &gt; 2 of 3.15 &lt; 1</pre></p></td></tr>
 <tr><td>niet</td><td><p><pre>niet &lt;expression&gt;</pre></p><p>&lt;expression&gt; moet Boolean zijn.</p><p> Het resultaat is booleaans.</p></td><td><pre>niet 3,15 &lt; 1</pre></td></tr>
 </tbody>
-  </table>
+</table>
 
 ## Vergelijking
 
@@ -88,11 +88,13 @@ Hier volgt een lijst met ondersteunde operatoren:
 
 <table>
 <thead>
-<tr><th>Operator</th><th>Letterlijke uitdrukking </th><th>Voorbeeld</th></tr>
+<tr><th>Operator</th><th>Letterlijke uitdrukking</th><th>Voorbeeld</th></tr>
 </thead>
 <tbody><tr><td>is numeriek</td><td><p><pre>&lt;expression&gt; is numeriek</pre></p><p>Het type van de uitdrukking is geheel of decimaal.</p></td><td><pre>@ is numeriek</pre></td></tr>
 <tr><td>is integer</td><td><p><pre>&lt;expression&gt; is integer</pre></p><p>Het type van de expressie is geheel getal.</p></td><td><pre>@ is geheel getal</pre></td></tr>
 <tr><td>is decimaal</td><td><p><pre>&lt;expression&gt; is decimal</pre></p><p>Het type van de expressie is decimaal.</p></td><td><pre>@ is decimaal</pre></td></tr>
+</tbody>
+</table>
 
 ## Tekenreeks
 
