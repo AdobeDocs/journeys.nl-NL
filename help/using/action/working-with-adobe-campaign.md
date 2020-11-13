@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '299'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ Het transactiemelding van de Campaign Standard en zijn bijbehorende gebeurtenis 
 
 >[!NOTE]
 >
->Om het Transactionele Overseinen van Adobe Campaign Standard te vermijden, wordt het geadviseerd om een **afschilderingsregel** voor de integratie van de Campaign Standard te plaatsen.
+>Het Transactionele Overseinen van Adobe Campaign Standard heeft een schaal van 50 000 berichten per uur maximum over kanalen voor een bepaalde instantie. Om het risico van overbelasting te verminderen, adviseren wij dat u opstelling een **bekledingsregel** voor de integratie van Campaign Standard.
 >
 >Meer informatie over SLA&#39;s voor transactieberichten vindt u in de productbeschrijving [van](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html)Adobe Campaign Standard.
 
