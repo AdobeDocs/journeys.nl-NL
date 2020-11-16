@@ -2,13 +2,13 @@
 product: Journeys
 audience: end-user
 user-guide-title: Journey Orchestration-handleiding
-user-guide-description: Verstrekt hoe te instructies voor het uitvoeren van en het bouwen van reizen.
+user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 translation-type: tm+mt
 source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
