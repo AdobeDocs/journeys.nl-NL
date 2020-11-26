@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Datatypen
 description: Meer informatie over gegevenstypen in geavanceerde expressies
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: f755f92d0479e2889dd7ed6dfa5e72d52c25634f
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 3%
+source-wordcount: '614'
+ht-degree: 4%
 
 ---
 
@@ -16,99 +16,204 @@ ht-degree: 3%
 
 Technisch gesproken bevat een constante altijd een gegevenstype. In de letterlijke expressie geven we alleen de waarde op. Het gegevenstype kan worden afgeleid van de waarde (bijvoorbeeld tekenreeks, geheel getal, decimaal enz.). Voor specifieke gevallen, zoals datumtijd, gebruiken wij specifieke functies voor de vertegenwoordiging.
 
-Hieronder wordt beschreven hoe expressies van gegevenstypen worden weergegeven:
+In de onderstaande secties vindt u informatie over de verschillende expressies van gegevenstypen en hoe deze worden weergegeven.
 
-<table>
-    <thead>
-        <tr>
-        <td>Gegevenstype</td>
-        <td>Beschrijving</td>
-        <td>Letterlijke vertegenwoordiging</td>
-        <td>Voorbeeld</td>
-        </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>string</td>
-        <td><p>Algemene reeks tekens.</p><p>Het heeft geen specifieke grootte behalve impliciet die uit het milieu zoals de beschikbare hoeveelheid geheugen komt.</p><p>JSON-indeling: String</p><p>Serienummeringsindeling: UTF-8</p></td>
-        <td><p>"&lt;value&gt;"</p><p>'&lt;value&gt;'</p></td>
-        <td><p><pre>"hello world"</pre></p><p><pre>'hello world'</pre></p></td>
-    </tr>
-    <tr>
-        <td>integer</td>
-        <td><p>Gehele waarde van -2^63 tot 2^63-1.</p><p>JSON-indeling: Getal</p></td>
-        <td>&lt;geheel getal&gt;</td>
-        <td><p><pre>42</pre></p></td>
-    </tr>
-    <tr>
-        <td>decimaal</td>
-        <td><p>Decimaal getal.</p><p>Deze vertegenwoordigt een zwevende waarde:</p>
-        <p>- grootste positieve eindige waarde van type dubbel, (2-2^-52)x2^1023</p>
-        <p> - kleinste positieve normale waarde van type double, 2-1022</p>
-        <p> - kleinste positieve niet-nulwaarde van type double, 2 p-1074</p><p>JSON-indeling: Getal</p><p>Serienummeringsindeling: gebruiken '.' als decimaalteken.</p></td>
-        <td>&lt;geheel getal&gt;.&lt;geheel getal&gt;</td>
-        <td><p><pre>3.14</pre></p></td>
-    </tr>
-    <tr>
-        <td>boolean</td>
-        <td><p>Booleaanse waarde, in kleine letters geschreven: true of false</p><p>JSON-indeling: Boolean</p></td>
-        <td><p>true</p><p>false</p></td>
-        <td><p><pre>true</pre></p></td>
-    </tr>
-    <tr>
-        <td>dateTimeOnly</td>
-        <td><p>Vertegenwoordigt een datumtijd zonder een tijdzone, die als jaar-maand-dag-uur-minuut-seconde-milliseconde wordt bekeken.</p><p>Er wordt geen tijdzone opgeslagen of weergegeven.</p><p>In plaats daarvan is het een beschrijving van de datum, zoals die voor verjaardagen wordt gebruikt, gecombineerd met de lokale tijd zoals die op een muurklok wordt gezien.</p><p>Het kan geen onmiddellijk op tijdlijn zonder extra informatie zoals een compensatie of tijdzone vertegenwoordigen.</p><p>Serienummeringsindeling: ISO-8601 extended offset date-time format.</p><p>Er wordt DateTimeFormatter gebruikt.</p><p>ISO_LOCAL_DATE_TIME om de waarde te deserialiseren en serialiseren.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">Meer informatie</a>.</td>
-        <td><p>toDateTimeOnly("&lt;dateTimeOnly in ISO-8601-indeling&gt;")</p></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>dateTime</td>
-        <td><p>Datumtijdconstante die ook rekening houdt met tijdzone.</p><p>Deze vertegenwoordigt een datum-tijd met een verschuiving van UTC. Het kan als onmiddellijk in tijd met de extra informatie van de compensatie worden bekeken. </p><p>Het is een manier om een specifiek "moment" te vertegenwoordigen op een bepaalde plaats in de wereld.</p><p>JSON-indeling: Tekenreeks.</p><p> Deze moet zijn ingekapseld in een toDateTime-functie.</p><p>
-        Serienummeringsindeling: ISO-8601 extended offset date-time format.</p><p> Het gebruikt DateTimeFormatter.ISO_OFFSET_DATE_TIME om de waarde te deserialiseren en serialiseren.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">Meer informatie</a>. 
-        <p>U kunt ook een geheel getal doorgeven dat een epochwaarde doorgeeft.</p> <a href="https://www.epochconverter.com/">Meer informatie</a>.</p>
-        <p>De tijdzone kan door een compensatie of een code van de tijdzone worden gespecificeerd (voorbeeld: Europa/Parijs, Z - UTC).</p></td>
-        <td><p>toDateTime("&lt;dateTime in ISO-8601-indeling&gt;")</p>
-        <p>toDateTime(&lt;geheel-getalwaarde van een tijdperk in milliseconden&gt;)</p></td>
-        <td><p><pre>toDateTime("1977-04-22T06:00:00Z")</pre></p><p><pre>toDateTime</pre></p><p><pre>("2011-12-03T15:15:30Z")</pre></p><p><pre>toDateTime</pre></p><p><pre>("2011-12-03T15:15:30.123Z")</pre></p><p><pre>toDateTime</pre></p><p><pre>("2011-12-03T15:15:30.123+02:00")</pre></p>
-        <p><pre>toDateTime</pre></p><p><pre>("2011-12-03T15:15:30.123-00:20")</pre></p><p><pre>toDateTime(1560762190189)</pre></p></td>
-    </tr>
-    <tr>
-        <td>duur</td>
-        <td><p>Het vertegenwoordigt een tijd-gebaseerde hoeveelheid tijd, zoals "34.5 seconden".</p><p> Het modelleert een hoeveelheid of een hoeveelheid tijd in milliseconden.</p><p>De ondersteunde tijdseenheden zijn: milliseconden, seconden, minuten, uren, dagen waarbij een dag gelijk is aan 24 uur.</p><p> Jaren en maanden worden niet ondersteund omdat het geen vaste tijd is.</p><p>JSON-indeling: Tekenreeks. Het moet in een toDuration functie worden ingekapseld.</p><p>Serienummeringsindeling: Als u een tijdzone-id wilt deserialiseren, wordt de java-functie java.time gebruikt.</p><p>Duration.parse: de aanvaarde formaten zijn gebaseerd op de ISO-8601-duurnotatie PnDTnHnMn.nS met dagen die precies 24 uur worden geacht.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Meer informatie</a>.</td>
-        <td><p>toDuration("&lt;duration in ISO-8601 format&gt;")</p><p>toDuration(&lt;duration in milliseconds&gt;)</p></td>
-        <td><p><pre>toDuration("PT5S") // 5 seconden</pre></p>
-        <p><pre>toDuration(500) // </pre></p>
-        <p><pre>500ms</pre></p>
-        <p><pre>toDuration("PT20.345S") </pre></p>
-        <p><pre>— parseert als "20,345 seconden"</pre></p>
-        <p><pre>toDuration("PT15M") </pre></p>
-        <p><pre> — parseert als "15 minuten"</pre></p>
-        <p><pre>(waarbij een minuut 60 seconden is)</pre></p>
-        <p><pre>toDuration("PT10H") </pre></p>
-        <p><pre>— parseert als "10 uur"</pre></p>
-        <p><pre>(waarbij een uur 3600 seconden is)</pre></p>
-        <p><pre>toDuration("P2D") </pre></p>
-        <p><pre>— parseert als "2 dagen"</pre></p>
-        <p><pre>(waarbij een dag </pre></p>
-        <p><pre>24 uur of 86400 seconden)</pre></p>
-        <p><pre>toDuration("P2DT3H4M") </pre></p>
-        <p><pre>— parseren als</pre></p>
-        <p><pre>"2 dagen, 3 uur en 4 minuten"</pre></p>
-        <p><pre>toDuration("P-6H3M") </pre></p>
-        <p><pre>— parseren als</pre></p>
-        <p><pre>"-6 uur en +3 minuten"</pre></p>
-        <p><pre>toDuration("-P6H3M") </pre></p>
-        <p><pre>— parseren als</pre></p>
-        <p><pre>"-6 uur en -3 minuten"</pre></p>
-        <p><pre>toDuration("-P-6H+3M") </pre></p>
-        <p><pre>— parseren als</pre></p>
-        <p><pre>"+6 uur en -3 minuten"</pre></p></td>
-    </tr>
-    <tr>
-        <td>list</td>
-        <td>Door komma's gescheiden lijst met expressies waarbij vierkante haakjes als scheidingstekens worden gebruikt. Polymorfisme wordt niet ondersteund en daarom moeten alle uitdrukkingen in de lijst van hetzelfde type zijn.</td>
-        <td>[&lt;expression&gt;, &lt;expression&gt;, ... ]</td>
-        <td><p><pre>["value1","value2"]</pre></p><p><pre>[3,5]</pre></p><p><pre>[toDuration(500),toDuration(800)]</pre></p></td>
-    </tr>
-    </tbody>
-</table>
+## Tekenreeks {#string}
+
+**Beschrijving**
+
+Algemene reeks tekens. Het heeft geen specifieke grootte behalve impliciet die uit het milieu zoals de beschikbare hoeveelheid geheugen komt.
+
+JSON-indeling: String
+
+Serienummeringsindeling: UTF-8
+
+**Letterlijke representatie**
+
+```"<value>"```
+
+```'<value>'```
+
+**Voorbeeld**
+
+```"hello world"```
+
+```'hello world'```
+
+## integer {#integer}
+
+**Beschrijving**
+
+Gehele waarde van -2^63 tot 2^63-1.
+
+JSON-indeling: Getal
+
+**Letterlijke representatie**
+
+```<integer value>```
+
+**Voorbeeld**
+
+```42```
+
+## decimaal {#decimal}
+
+**Beschrijving**
+
+Decimaal getal. Deze vertegenwoordigt een zwevende waarde:
+
+* grootste positieve eindige waarde van type dubbel, (2-2^-52)x2^1023
+* kleinst positieve normale waarde van type double, 2-1022
+* kleinst positieve, niet-nul waarde van type double, 2 p-1074
+
+JSON-indeling: Getal
+
+Serienummeringsindeling: gebruiken &#39;.&#39; als decimaalteken.
+
+**Letterlijke representatie**
+
+```<integer value>.<integer value>```
+
+**Voorbeeld**
+
+```3.14```
+
+## boolean {#boolean}
+
+**Beschrijving**
+
+Booleaanse waarde, in kleine letters geschreven: true of false
+
+JSON-indeling: Boolean
+
+**Letterlijke representatie**
+
+```true```
+
+```false```
+
+**Voorbeeld**
+
+```true```
+
+## dateTimeOnly {#date-time-only}
+
+**Beschrijving**
+
+Vertegenwoordigt een datumtijd zonder een tijdzone, die als jaar-maand-dag-uur-minuut-seconde-milliseconde wordt bekeken.
+
+Er wordt geen tijdzone opgeslagen of weergegeven. In plaats daarvan is het een beschrijving van de datum, zoals die voor verjaardagen wordt gebruikt, gecombineerd met de lokale tijd zoals die op een muurklok wordt gezien.
+
+Het kan geen onmiddellijk op tijdlijn zonder extra informatie zoals een compensatie of tijdzone vertegenwoordigen.
+
+Serienummeringsindeling: ISO-8601 extended offset date-time format.
+
+Het gebruikt DateTimeFormatter ISO_LOCAL_DATE_TIME om de waarde te deserialiseren en in series te vervaardigen. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+
+**Letterlijke representatie**
+
+```toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  ```
+
+## dateTime {#date-time}
+
+**Beschrijving**
+
+Datumtijdconstante die ook rekening houdt met tijdzone. Deze vertegenwoordigt een datum-tijd met een verschuiving van UTC.
+
+Het kan als onmiddellijk in tijd met de extra informatie van de compensatie worden bekeken. Het is een manier om een specifiek &quot;moment&quot; te vertegenwoordigen op een bepaalde plaats in de wereld.
+
+JSON-indeling: Tekenreeks.
+
+Deze moet zijn ingekapseld in een toDateTime-functie.
+
+Serienummeringsindeling: ISO-8601 extended offset date-time format.
+
+Het gebruikt DateTimeFormatter ISO_OFFSET_DATE_TIME om de waarde te deserialiseren en serialiseren. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+
+U kunt ook een geheel getal doorgeven dat een epochwaarde doorgeeft. [Meer informatie](https://www.epochconverter.com)
+
+De tijdzone kan door een compensatie of een code van de tijdzone worden gespecificeerd (voorbeeld: Europa/Parijs, Z - UTC).
+
+**Letterlijke representatie**
+
+```toDateTime("<dateTime in ISO-8601 format>")```
+
+```toDateTime(<integer value of an epoch in milliseconds>)```
+
+**Voorbeeld**
+
+```toDateTime("1977-04-22T06:00:00Z")```
+
+```toDateTime("2011-12-03T15:15:30Z")```
+
+```toDateTime("2011-12-03T15:15:30.123Z")```
+
+```toDateTime("2011-12-03T15:15:30.123+02:00")```
+
+```toDateTime("2011-12-03T15:15:30.123-00:20")```
+
+```toDateTime(1560762190189)```
+
+## duur {#duration}
+
+**Beschrijving**
+
+Het vertegenwoordigt een tijd-gebaseerde hoeveelheid tijd, zoals &quot;34.5 seconden&quot;. Het modelleert een hoeveelheid of een hoeveelheid tijd in milliseconden.
+
+De ondersteunde tijdseenheden zijn: milliseconden, seconden, minuten, uren, dagen waarbij een dag gelijk is aan 24 uur. Jaren en maanden worden niet ondersteund omdat het geen vaste tijd is.
+
+JSON-indeling: Tekenreeks.
+
+Het moet in een toDuration functie worden ingekapseld.
+
+Serienummeringsindeling: Als u een tijdzone-id wilt deserialiseren, wordt de java-functie java.time gebruikt.
+
+Duration.parse: de aanvaarde formaten zijn gebaseerd op de ISO-8601-duurnotatie PnDTnHnMn.nS met dagen die precies 24 uur worden geacht. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+
+**Letterlijke representatie**
+
+```toDuration("<duration in ISO-8601 format>")```
+
+```toDuration(<duration in milliseconds>)```
+
+**Voorbeeld**
+
+```toDuration("PT5S")``` parseren als 5 seconden
+
+```toDuration(500)``` parseert als 500 ms
+
+```toDuration("PT20.345S")``` parseert als &quot;20.345 seconden&quot;
+
+```toDuration("PT15M") ``` parseert als &quot;15 minuten&quot; (waarbij een minuut 60 seconden is)
+
+```toDuration("PT10H") ``` parseert als &quot;10 uren&quot; (waarbij een uur 3600 seconden is)
+
+```toDuration("P2D") ``` parseert als &quot;2 dagen&quot; (waarbij een dag 24 uur of 86400 seconden is)
+
+```toDuration("P2DT3H4M") ```parseert als &quot;2 dagen, 3 uren en 4 minuten&quot;
+
+```toDuration("P-6H3M") ``` parseert als &quot;-6 uur en +3 minuten&quot;
+
+```toDuration("-P6H3M")``` parseert als &quot;-6 uur en -3 minuten&quot;
+
+```toDuration("-P-6H+3M") ``` parseert als &quot;+6 uur en -3 minuten&quot;
+
+## list {#list}
+
+**Beschrijving**
+
+Door komma&#39;s gescheiden lijst met expressies waarbij vierkante haakjes als scheidingstekens worden gebruikt.
+
+Polymorfisme wordt niet ondersteund en daarom moeten alle uitdrukkingen in de lijst van hetzelfde type zijn.
+
+**Letterlijke representatie**
+
+```[<expression>, <expression>, ... ]```
+
+**Voorbeeld**
+
+```["value1","value2"]```
+
+```[3,5]```
+
+```[toDuration(500),toDuration(800)]```
