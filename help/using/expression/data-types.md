@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Datatypen
 description: Meer informatie over gegevenstypen in geavanceerde expressies
 translation-type: tm+mt
-source-git-commit: f755f92d0479e2889dd7ed6dfa5e72d52c25634f
+source-git-commit: 062b4648e2eb3a4270f9c09e4478d541209e1247
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '558'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ Technisch gesproken bevat een constante altijd een gegevenstype. In de letterlij
 
 In de onderstaande secties vindt u informatie over de verschillende expressies van gegevenstypen en hoe deze worden weergegeven.
 
-## Tekenreeks {#string}
+## string {#string}
 
 **Beschrijving**
 
@@ -30,15 +30,23 @@ Serienummeringsindeling: UTF-8
 
 **Letterlijke representatie**
 
-```"<value>"```
+```
+"<value>"
+```
 
-```'<value>'```
+```
+'<value>'
+```
 
 **Voorbeeld**
 
-```"hello world"```
+```
+"hello world"
+```
 
-```'hello world'```
+```
+'hello world'
+```
 
 ## integer {#integer}
 
@@ -50,11 +58,15 @@ JSON-indeling: Getal
 
 **Letterlijke representatie**
 
-```<integer value>```
+```
+<integer value>
+```
 
 **Voorbeeld**
 
-```42```
+```
+42
+```
 
 ## decimaal {#decimal}
 
@@ -72,11 +84,15 @@ Serienummeringsindeling: gebruiken &#39;.&#39; als decimaalteken.
 
 **Letterlijke representatie**
 
-```<integer value>.<integer value>```
+```
+<integer value>.<integer value>
+```
 
 **Voorbeeld**
 
-```3.14```
+```
+3.14
+```
 
 ## boolean {#boolean}
 
@@ -88,13 +104,19 @@ JSON-indeling: Boolean
 
 **Letterlijke representatie**
 
-```true```
+```
+true
+```
 
-```false```
+```
+false
+```
 
 **Voorbeeld**
 
-```true```
+```
+true
+```
 
 ## dateTimeOnly {#date-time-only}
 
@@ -112,7 +134,9 @@ Het gebruikt DateTimeFormatter ISO_LOCAL_DATE_TIME om de waarde te deserialisere
 
 **Letterlijke representatie**
 
-```toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  ```
+```
+toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+```
 
 ## dateTime {#date-time}
 
@@ -136,23 +160,39 @@ De tijdzone kan door een compensatie of een code van de tijdzone worden gespecif
 
 **Letterlijke representatie**
 
-```toDateTime("<dateTime in ISO-8601 format>")```
+```
+toDateTime("<dateTime in ISO-8601 format>")
+```
 
-```toDateTime(<integer value of an epoch in milliseconds>)```
+```
+toDateTime(<integer value of an epoch in milliseconds>)
+```
 
 **Voorbeeld**
 
-```toDateTime("1977-04-22T06:00:00Z")```
+```
+toDateTime("1977-04-22T06:00:00Z")
+```
 
-```toDateTime("2011-12-03T15:15:30Z")```
+```
+toDateTime("2011-12-03T15:15:30Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123Z")```
+```
+toDateTime("2011-12-03T15:15:30.123Z")
+```
 
-```toDateTime("2011-12-03T15:15:30.123+02:00")```
+```
+toDateTime("2011-12-03T15:15:30.123+02:00")
+```
 
-```toDateTime("2011-12-03T15:15:30.123-00:20")```
+```
+toDateTime("2011-12-03T15:15:30.123-00:20")
+```
 
-```toDateTime(1560762190189)```
+```
+toDateTime(1560762190189)
+```
 
 ## duur {#duration}
 
@@ -172,31 +212,55 @@ Duration.parse: de aanvaarde formaten zijn gebaseerd op de ISO-8601-duurnotatie 
 
 **Letterlijke representatie**
 
-```toDuration("<duration in ISO-8601 format>")```
+```
+toDuration("<duration in ISO-8601 format>")
+```
 
-```toDuration(<duration in milliseconds>)```
+```
+toDuration(<duration in milliseconds>)
+```
 
 **Voorbeeld**
 
-```toDuration("PT5S")``` parseren als 5 seconden
+```
+toDuration("PT5S") -- parses as 5 seconds
+```
 
-```toDuration(500)``` parseert als 500 ms
+```
+toDuration(500) -- parses as 500ms
+```
 
-```toDuration("PT20.345S")``` parseert als &quot;20.345 seconden&quot;
+```
+toDuration("PT20.345S") -- parses as "20.345 seconds"
+```
 
-```toDuration("PT15M") ``` parseert als &quot;15 minuten&quot; (waarbij een minuut 60 seconden is)
+```
+toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)
+```
 
-```toDuration("PT10H") ``` parseert als &quot;10 uren&quot; (waarbij een uur 3600 seconden is)
+```
+toDuration("PT10H")  -- parses as "10 hours" (where an hour is 3600 seconds)
+```
 
-```toDuration("P2D") ``` parseert als &quot;2 dagen&quot; (waarbij een dag 24 uur of 86400 seconden is)
+```
+toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)
+```
 
-```toDuration("P2DT3H4M") ```parseert als &quot;2 dagen, 3 uren en 4 minuten&quot;
+```
+toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"
+```
 
-```toDuration("P-6H3M") ``` parseert als &quot;-6 uur en +3 minuten&quot;
+```
+toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"
+```
 
-```toDuration("-P6H3M")``` parseert als &quot;-6 uur en -3 minuten&quot;
+```
+toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
+```
 
-```toDuration("-P-6H+3M") ``` parseert als &quot;+6 uur en -3 minuten&quot;
+```
+toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
+```
 
 ## list {#list}
 
@@ -208,12 +272,20 @@ Polymorfisme wordt niet ondersteund en daarom moeten alle uitdrukkingen in de li
 
 **Letterlijke representatie**
 
-```[<expression>, <expression>, ... ]```
+```
+[<expression>, <expression>, ... ]
+```
 
 **Voorbeeld**
 
-```["value1","value2"]```
+```
+["value1","value2"]
+```
 
-```[3,5]```
+```
+[3,5]
+```
 
-```[toDuration(500),toDuration(800)]```
+```
+[toDuration(500),toDuration(800)]
+```
