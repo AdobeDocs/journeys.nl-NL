@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Operatoren
 description: Informatie over operatoren in geavanceerde expressies
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 20498e89eb9c95dd19a11e42150a0bbf67024f67
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 4%
+source-wordcount: '531'
+ht-degree: 5%
 
 ---
 
@@ -34,80 +34,348 @@ Er zijn twee soorten operatoren: unaire operatoren en binaire operatoren. Er zij
 
 Hier volgt een lijst met ondersteunde operatoren:
 
-## Logisch
+## Logisch  {#logical}
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Letterlijke uitdrukking</th><th>Voorbeeld</th></tr>
-</thead>
-<tbody>
-<tr><td>en</td><td><p><pre>&lt;expression1&gt; en &lt;expression2&gt;</pre></p>Zowel &lt;expression1&gt; als &lt;expression2&gt; moeten booleaans zijn. Het resultaat is booleaans.</td><td><pre>3.14 &gt; 2 en 3.15 &lt; 1</pre></td></tr>
-<tr><td>of</td><td><p><pre>&lt;expression1&gt; of &lt;expression2&gt;</pre></p><p>Zowel &lt;expression1&gt; als &lt;expression2&gt; moeten booleaans zijn.</p><p> Het resultaat is booleaans.</p></td><td><p><pre>3.14 &gt; 2 of 3.15 &lt; 1</pre></p></td></tr>
-<tr><td>niet</td><td><p><pre>niet &lt;expression&gt;</pre></p><p>&lt;expression&gt; moet Boolean zijn.</p><p> Het resultaat is booleaans.</p></td><td><pre>niet 3,15 &lt; 1</pre></td></tr>
-</tbody>
-</table>
+### en
 
-## Vergelijking
+**Letterlijke expressie**
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Letterlijke uitdrukking </th><th>Voorbeeld</th></tr>
-</thead>
-<tbody><tr><td>is null</td><td><p><pre>&lt;expression&gt; is null</pre></p><p>Het resultaat is booleaans.</p><p>Null betekent dat de expressie geen geëvalueerde waarde heeft.</p></td><td><pre>@{BarBeacon.location} is null</pre></td></tr>
-<tr><td>is niet null</td><td><p><pre>&lt;expression&gt; is niet null</pre></p><p>Het resultaat is booleaans.</p><p>Null betekent dat de expressie geen geëvalueerde waarde heeft.</p></td><td><pre>@ is niet null</pre></td></tr>
-<tr><td>heeft null</td><td><p><pre>&lt;expression&gt; heeft null</pre>&lt;expression&gt; moet een lijst zijn.</p><p>Het resultaat is booleaans.</p><p>Nuttig om aan te geven dat een lijst minstens één null-waarde bevat.</p></td><td><p><pre>["foo", "bar", null] heeft null</pre></p>retourneert true<p><pre>["foo", "bar", ""] heeft null</pre></p> retourneert false omdat "" niet als null wordt beschouwd.</td></tr>
-<tr><td>==</td><td><p><pre>&lt;expression1&gt; == &lt;expression2&gt;</pre></p><p>Zowel &lt;expression1&gt; als &lt;expression2&gt; moeten het zelfde gegevenstype hebben.</p><p> Het resultaat is booleaans.</p></td><td><pre>3.14 == 42</pre><br /><pre>"foo" == "bar"</pre></td></tr>
-<tr><td>!=</td><td><p><pre>&lt;expression1&gt; != &lt;expression2&gt;</pre></p><p> Zowel &lt;expression1&gt; als &lt;expression2&gt; moeten het zelfde gegevenstype hebben.</p><p> Het resultaat is booleaans.</p></td><td><pre>3.14 != 42</pre><br /><pre>"foo" != "bar"</pre></td></tr>
-<tr><td>&gt;</td><td><p><pre>&lt;expression1&gt; &gt; &lt;expression2&gt;</pre></p><p>Datetime kan met Datetime worden vergeleken.</p><p>Datetimeonly kan met Datetimeonly worden vergeleken.</p><p>Zowel geheel als decimaal kunnen met zowel geheel als decimaal worden vergeleken.</p><p>Elke andere combinatie is verboden.</p><p>Het resultaat is booleaans.</p></td><td><pre>3.14 &gt; 42</pre></td></tr>
-<tr><td>&gt;=</td><td><p><pre>&lt;expression1&gt; &gt;= &lt;expression2&gt;</pre></p><p>Datetime kan met Datetime worden vergeleken.</p><p>Datetimeonly kan met Datetimeonly worden vergeleken.</p><p>Zowel geheel als decimaal kunnen met zowel geheel als decimaal worden vergeleken.</p><p>Elke andere combinatie is verboden.</p><p>Het resultaat is booleaans.</p></td><td><pre>42 &gt;= 3.14</pre></td></tr>
-<tr><td>&lt;</td><td><p><pre>&lt;expression1&gt; &lt; &lt;expression2&gt;</pre></p><p>Datetime kan met Datetime worden vergeleken.</p><p>Datetimeonly kan met Datetimeonly worden vergeleken.</p><p>Zowel geheel als decimaal kunnen met zowel geheel als decimaal worden vergeleken.</p><p>Elke andere combinatie is verboden.</p><p>Het resultaat is booleaans.</p></td><td><pre>42 &lt; 3.14</pre></td></tr>
-<tr><td>&lt;=</td><td><p><pre>&lt;expression1&gt; &lt;= &lt;expression2&gt;</pre></p><p>Datetime kan met Datetime worden vergeleken.</p><p>Datetimeonly kan met Datetimeonly worden vergeleken.</p><p>Zowel geheel als decimaal kunnen met zowel geheel als decimaal worden vergeleken.</p><p>Elke andere combinatie is verboden.</p><p>Het resultaat is booleaans.</p></td><td><pre>42 &lt;= 3.14</pre></td></tr>
-</tbody>
-</table>
+```<expression1> and <expression2>```
 
-## Rekenkundig
+Zowel &lt;expression1> als &lt;expression2> moeten booleaans zijn. Het resultaat is booleaans.
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Letterlijke uitdrukking </th><th>Voorbeeld</th></tr>
-</thead>
-<tbody><tr><td>+</td><td><p><pre>&lt;expression1&gt; + &lt;expression2&gt;</pre></p><p>Beide expressies moeten numeriek (geheel getal of decimaal) zijn. </p><p>Het resultaat is ook numeriek.</p></td><td><p><p><pre>1 + 2</pre></p></p><br /><p>Retourneert 3</p></td></tr>
-<tr><td>-</td><td><p><pre>&lt;expression1&gt; - &lt;expression2&gt;</pre></p><p> Beide expressies moeten numeriek (geheel getal of decimaal) zijn.</p><p> Het resultaat is ook numeriek.</p></td><td><p><pre>2 - 1</pre></p>Retourneert 1</td></tr>
-<tr><td>/</td><td><p><pre>&lt;expression1&gt; / &lt;expression2&gt;</pre></p><p>Beide expressies moeten numeriek (geheel getal of decimaal) zijn. </p><p>Het resultaat is ook numeriek.</p><p>&lt;expression2&gt; mag niet gelijk zijn aan 0 (retourneert 0).</p></td><td><p><pre>4 / 2</pre></p>Retourneert 2</td></tr>
-<tr><td>*</td><td><p><pre>&lt;expression1&gt; * &lt;expression2&gt;</pre></p><p> Beide expressies moeten numeriek (geheel getal of decimaal) zijn. </p><p>Het resultaat is ook numeriek.</p></td><td><p><pre>3 * 4</pre></p>Retourneert 12</td></tr>
-<tr><td>%</td><td><p><pre>&lt;expression1&gt; % &lt;expression2&gt;</pre></p><p>Beide expressies moeten numeriek (geheel getal of decimaal) zijn.</p><p> Het resultaat is ook numeriek.</p></td><td><p><pre>3 % 2</pre></p>Retourneert 1.</td></tr>
-</tbody>
-</table>
+**Voorbeeld**
 
-## Wiskundig
+```3.14 > 2 and 3.15 < 1```
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Letterlijke uitdrukking</th><th>Voorbeeld</th></tr>
-</thead>
-<tbody><tr><td>is numeriek</td><td><p><pre>&lt;expression&gt; is numeriek</pre></p><p>Het type van de uitdrukking is geheel of decimaal.</p></td><td><pre>@ is numeriek</pre></td></tr>
-<tr><td>is integer</td><td><p><pre>&lt;expression&gt; is integer</pre></p><p>Het type van de expressie is geheel getal.</p></td><td><pre>@ is geheel getal</pre></td></tr>
-<tr><td>is decimaal</td><td><p><pre>&lt;expression&gt; is decimal</pre></p><p>Het type van de expressie is decimaal.</p></td><td><pre>@ is decimaal</pre></td></tr>
-</tbody>
-</table>
+### of
 
-## Tekenreeks
+**Letterlijke expressie**
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Letterlijke uitdrukking </th><th>Voorbeeld</th></tr>
-</thead>
-<tbody><tr><td>+</td><td><p><pre>&lt;string&gt; + &lt;expression&gt;</pre></p><p><pre>&lt;expression&gt; + &lt;string&gt;</pre></p><p>Twee expressies worden samengevoegd. </p><p>Eén expressie moet een kettingtekenreeks zijn.</p></td><td><p><pre>"de huidige tijd is " + (now())</pre></p> Retourneert "de huidige tijd is 2019-09-23T09:30:06.693Z"<p><pre>(now() + " is de huidige tijd"</pre></p>Retourneert "2019-09-23T09:30:06.693Z is de huidige tijd"<p><pre>"a" + "b" + "c" + 1234</pre></p> Retourneert "abc1234".</td></tr>
-</tbody>
-</table>
+```<expression1> or <expression2>```
 
-## Datum
+Zowel &lt;expression1> als &lt;expression2> moeten booleaans zijn. Het resultaat is booleaans.
 
-<table>
-<thead>
-<tr><th>Operator</th><th>Letterlijke uitdrukking </th><th>Voorbeeld</th></tr>
-</thead>
-<tbody>
-<tr><td>+</td><td><p><pre>&lt;expression + &lt;duration&gt;</pre></p><p>Voeg een duur aan dateTime, een dateTimeOnly of een duur toe.</p></td><td><p><pre>toDateTime("2011-12-03T15:15:30Z")</pre></p><p><pre> + toDuration("PT15M")</pre></p><p>Retourneert 2011-12-03T15:30:30Z</p><p><pre>toDateTimeOnly("2011-12-03T15:15:30")</pre></p><p><pre> + toDuration("PT15M")</pre></p>Retourneert 2011-12-03T15:30:30<p><pre>now() + toDuration("PT1H")</pre></p><p>Retourneert een uur later een dateTime (met UTC-tijdzone) vanaf de huidige tijd</p><p><pre>toDuration("PT1H") + toDuration("PT1H")</pre></p><p>Retourneert PT2H</p></td></tr>
-</tbody>
-</table>
+**Voorbeeld**
+
+```3.14 > 2 or 3.15 < 1```
+
+### niet
+
+**Letterlijke expressie**
+
+```not <expression>```
+
+&lt;expression> moet Boolean zijn. Het resultaat is booleaans.
+
+**Voorbeeld**
+
+```not 3.15 < 1```
+
+## Vergelijking {#comparison}
+
+### is null
+
+**Letterlijke expressie**
+
+```<expression> is null```
+
+Het resultaat is booleaans.
+
+Null betekent dat de expressie geen geëvalueerde waarde heeft.
+
+**Voorbeeld**
+
+```@{BarBeacon.location} is null```
+
+### is niet null
+
+**Letterlijke expressie**
+
+```<expression> is not null```
+
+Het resultaat is booleaans.
+
+Null betekent dat de expressie geen geëvalueerde waarde heeft.
+
+**Voorbeeld**
+
+```@ is not null```
+
+### heeft null
+
+**Letterlijke expressie**
+
+```<expression> has null```
+
+&lt;expression> moet een lijst zijn. Het resultaat is booleaans.
+
+Nuttig om aan te geven dat een lijst minstens één null-waarde bevat.
+
+**Voorbeeld**
+
+```["foo", "bar", null] has null``` retourneert true.
+
+```["foo", "bar", ""] has null``` retourneert false omdat &quot;&quot; niet als null wordt beschouwd.
+
+### ==
+
+**Letterlijke expressie**
+
+```<expression1> == <expression2>```
+
+Zowel &lt;expression1> als &lt;expression2> moeten het zelfde gegevenstype hebben. Het resultaat is booleaans.
+
+**Voorbeeld**
+
+```3.14 == 42```
+
+```"foo" == "bar"```
+
+### !=
+
+**Letterlijke expressie**
+
+```<expression1> != <expression2>```
+
+Zowel &lt;expression1> als &lt;expression2> moeten het zelfde gegevenstype hebben. Het resultaat is booleaans.
+
+**Voorbeeld**
+
+```3.14 != 42```
+
+```"foo" != "bar"```
+
+### >
+
+**Letterlijke expressie**
+
+```<expression1> > <expression2>```
+
+Datetime kan met Datetime worden vergeleken.
+
+Datetimeonly kan met Datetimeonly worden vergeleken.
+
+Zowel geheel als decimaal kunnen met zowel geheel als decimaal worden vergeleken.
+
+Elke andere combinatie is verboden.
+
+Het resultaat is booleaans.
+
+**Voorbeeld**
+
+```3.14 > 42```
+
+### >=
+
+**Letterlijke expressie**
+
+```<expression1> >= <expression2>```
+
+Datetime kan met Datetime worden vergeleken.
+
+Datetimeonly kan met Datetimeonly worden vergeleken.
+
+Zowel geheel als decimaal kunnen met zowel geheel als decimaal worden vergeleken.
+
+Elke andere combinatie is verboden.
+
+Het resultaat is booleaans.
+
+**Voorbeeld**
+
+```42 >= 3.14```
+
+### &lt;
+
+**Letterlijke expressie**
+
+```<expression1> < <expression2>```
+
+Datetime kan met Datetime worden vergeleken.
+
+Datetimeonly kan met Datetimeonly worden vergeleken.
+
+Zowel geheel als decimaal kunnen met zowel geheel als decimaal worden vergeleken.
+
+Elke andere combinatie is verboden.
+
+Het resultaat is booleaans.
+
+**Voorbeeld**
+
+```42 < 3.14```
+
+### &lt;=
+
+**Letterlijke expressie**
+
+```<expression1> <= <expression2>```
+
+Datetime kan met Datetime worden vergeleken.
+
+Datetimeonly kan met Datetimeonly worden vergeleken.
+
+Zowel geheel als decimaal kunnen met zowel geheel als decimaal worden vergeleken.
+
+Elke andere combinatie is verboden.
+
+Het resultaat is booleaans.
+
+**Voorbeeld**
+
+```42 <= 3.14```
+
+## Rekenkundig {#arithmetic}
+
+### +
+
+**Letterlijke expressie**
+
+```<expression1> + <expression2>```
+
+Beide expressies moeten numeriek (geheel getal of decimaal) zijn.
+
+Het resultaat is ook numeriek.
+
+**Voorbeeld**
+
+```1 + 2``` retourneert 3
+
+### -
+
+**Letterlijke expressie**
+
+```<expression1> - <expression2>```
+
+Beide expressies moeten numeriek (geheel getal of decimaal) zijn.
+
+Het resultaat is ook numeriek.
+
+**Voorbeeld**
+
+```2 - 1``` retourneert 1
+
+### /
+
+**Letterlijke expressie**
+
+```<expression1> / <expression2>```
+
+Beide expressies moeten numeriek (geheel getal of decimaal) zijn.
+
+Het resultaat is ook numeriek.
+
+&lt;expression2> mag niet gelijk zijn aan 0 (retourneert 0).
+
+**Voorbeeld**
+
+```4 / 2``` retourneert 2
+
+### *
+
+**Letterlijke expressie**
+
+```<expression1> * <expression2>```
+
+Beide expressies moeten numeriek (geheel getal of decimaal) zijn.
+
+Het resultaat is ook numeriek.
+
+**Voorbeeld**
+
+```3 * 4``` retourneert 12
+
+### %
+
+**Letterlijke expressie**
+
+```<expression1> % <expression2>```
+
+Beide expressies moeten numeriek (geheel getal of decimaal) zijn.
+
+Het resultaat is ook numeriek.
+
+**Voorbeeld**
+
+```3 % 2``` retourneert 1.
+
+## Wiskundig {#math}
+
+### is numeriek
+
+**Letterlijke expressie**
+
+```<expression> is numeric```
+
+Het type van de uitdrukking is geheel of decimaal.
+
+**Voorbeeld**
+
+```@ is numeric```
+
+### is integer
+
+**Letterlijke expressie**
+
+```<expression> is integer```
+
+Het type van de expressie is geheel getal.
+
+**Voorbeeld**
+
+```@ is integer```
+
+### is decimaal
+
+**Letterlijke expressie**
+
+```<expression> is decimal```
+
+Het type van de expressie is decimaal.
+
+**Voorbeeld**
+
+```@ is decimal```
+
+## Tekenreeks {#string}
+
+### +
+
+**Letterlijke expressie**
+
+```<string> + <expression>```
+
+```<expression> + <string>```
+
+Twee expressies worden samengevoegd.
+
+Eén expressie moet een kettingtekenreeks zijn.
+
+**Voorbeeld**
+
+```"the current time is " + (now())``` retourneert &quot;de huidige tijd is 2019-09-23T09:30:06.693Z&quot;
+
+```(now()) + " is the current time"``` retourneert &quot;2019-09-23T09:30:06.693Z is de huidige tijd&quot;
+
+```"a" + "b" + "c" + 1234``` retourneert &quot;abc1234&quot;.
+
+## Datum {#date}
+
+### +
+
+**Letterlijke expressie**
+
+```<expression + <duration>```
+
+Voeg een duur aan dateTime, een dateTimeOnly of een duur toe.
+
+**Voorbeeld**
+
+```toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M")``` retourneert 2011-12-03T15:30:30Z
+
+```toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M")``` retourneert 2011-12-03T15:30:30
+
+```now() + toDuration("PT1H")``` retourneert een uur later een dateTime (met UTC-tijdzone) vanaf de huidige tijd
+
+```toDuration("PT1H") + toDuration("PT1H")``` retourneert PT2H
