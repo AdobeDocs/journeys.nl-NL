@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Overstappen van de ene reis naar de andere
 description: Overstappen van de ene reis naar de andere
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
@@ -12,14 +12,14 @@ ht-degree: 0%
 ---
 
 
-# Overstappen van de ene reis naar de andere {#jump}
+# Van de ene reis naar de andere {#jump}
 
-Met de **actie Snelheid** kunt u individuen van de ene reis naar de andere duwen. Met deze functie kunt u:
+Met de actie **Jump** kunt u personen van de ene reis naar de andere verplaatsen. Met deze functie kunt u:
 
 * vereenvoudigen het ontwerp van zeer complexe reizen door deze in verschillende te splitsen
 * ritten bouwen op basis van gemeenschappelijke en herbruikbare reispatronen
 
-In de oorspronkelijke reis voegt u gewoon een **sprongreis** toe en selecteert u een doelreis. Wanneer het individu de sprongstap ingaat, wordt een interne gebeurtenis verzonden naar de eerste gebeurtenis van de doelreis. Als de sprongreactie succesvol is, gaat het individu verder in de reis. Het gedrag is vergelijkbaar met andere acties.
+Voeg in de oorspronkelijke reis gewoon een **Jump** toe en selecteer een doelreis. Wanneer het individu de sprongstap ingaat, wordt een interne gebeurtenis verzonden naar de eerste gebeurtenis van de doelreis. Als de sprongreactie succesvol is, gaat het individu verder in de reis. Het gedrag is vergelijkbaar met andere acties.
 
 In de doelreis, zal de eerste gebeurtenis die intern door de sprong wordt teweeggebracht de individuele stroom in de reis maken.
 
@@ -28,7 +28,7 @@ In de doelreis, zal de eerste gebeurtenis die intern door de sprong wordt teweeg
 Laten we zeggen dat je een sprong hebt toegevoegd in een reis A naar een reis B. Reis A is de **oorspronkelijke reis** en reis B, de **doelreis**.
 Hier volgen de verschillende stappen van het uitvoeringsproces:
 
-**Reis A** wordt geactiveerd na een externe gebeurtenis:
+**Reis** geactiveerd door een externe gebeurtenis:
 
 1. Reis A ontvangt een externe gebeurtenis met betrekking tot een individu.
 1. De persoon bereikt de sprongregel.
@@ -49,12 +49,12 @@ In reis B wordt het eerste evenement intern geactiveerd via de sprong van reis A
 
 * De sprong is slechts beschikbaar in reizen die een namespace gebruiken.
 * U kunt alleen naar een reis springen die dezelfde naamruimte gebruikt als de oorspronkelijke reis.
-* U kunt niet naar een reis springen die met een de kwalificatiegebeurtenis **van het** Segment begint.
-* U kunt geen sprong en een de kwalificatiegebeurtenis **van het** Segment in de zelfde reis hebben.
+* U kunt niet naar een reis springen die met een **segmentkwalificatie** gebeurtenis begint.
+* U kunt geen sprong en een **gebeurtenis van het Segment** in de zelfde reis hebben.
 * U kunt zo veel sprongen omvatten aangezien u in een reis nodig hebt. Na een sprong kunt u alle benodigde activiteiten toevoegen.
 * U kunt zo veel sprongniveaus hebben zoals nodig. Reis A springt bijvoorbeeld naar reis B, die naar reis C gaat enzovoort.
 * De doelreis kan ook zoveel pompen bevatten als nodig is.
-* Luspatronen worden niet ondersteund. Er is geen manier om twee of meer reizen aan elkaar te koppelen, wat een oneindige lus zou creëren. Het scherm van de de activiteitenconfiguratie van de **Sprong** verhindert u dit te doen.
+* Luspatronen worden niet ondersteund. Er is geen manier om twee of meer reizen aan elkaar te koppelen, wat een oneindige lus zou creëren. Het **Jump** scherm van de activiteitenconfiguratie verhindert u dit te doen.
 
 ### Execution
 
@@ -67,25 +67,25 @@ In reis B wordt het eerste evenement intern geactiveerd via de sprong van reis A
 
    ![](../assets/jump1.png)
 
-1. Voeg bij elke stap van de reis een **sprongactiviteit** toe vanuit de categorie **Actie** . Voeg een label en beschrijving toe.
+1. Voeg bij elke stap van de reis een **Jump** activiteit toe, uit de **Action** categorie. Voeg een label en beschrijving toe.
 
    ![](../assets/jump2.png)
 
-1. Klik in het veld **Doel** .
-De lijst toont alle reisversies die ontwerp, levend of in testwijze zijn. De reizen die een verschillende namespace gebruiken of die met een **de kwalificatiegebeurtenis** van het Segment beginnen zijn niet beschikbaar. Doeltrajecten die een luspatroon zouden maken, worden ook uitgefilterd.
+1. Klik in het veld **Doel**.
+De lijst toont alle reisversies die ontwerp, levend of in testwijze zijn. De reizen die een verschillende namespace gebruiken of die met een **gebeurtenis van het Segment** beginnen zijn niet beschikbaar. Doeltrajecten die een luspatroon zouden maken, worden ook uitgefilterd.
 
    ![](../assets/jump3.png)
 
    >[!NOTE]
    >
-   >U kunt op het pictogram Doelreis **** openen aan de rechterkant klikken om de doelreis in een nieuw tabblad te openen.
+   >U kunt op het pictogram **Doelreis openen** aan de rechterkant klikken om de doelreis in een nieuw lusje te openen.
 
 1. Selecteer de doelreis waarnaar u wilt springen.
 Het veld **Eerste gebeurtenis** wordt voorgevuld met de naam van de eerste gebeurtenis van de doelreis. Als uw doelreis veelvoudige gebeurtenissen omvat, wordt de sprong slechts toegestaan op de eerste gebeurtenis.
 
    ![](../assets/jump4.png)
 
-1. In de sectie Parameters **van** Handeling worden alle velden van de doelgebeurtenis weergegeven. Net als bij andere typen acties wijst u elk veld met velden uit de gebeurtenis van oorsprong of de gegevensbron toe. Deze informatie wordt tijdens runtime doorgegeven aan de doelroute.
+1. In de sectie **Handelingsparameters** worden alle velden van de doelgebeurtenis weergegeven. Net als bij andere typen acties wijst u elk veld met velden uit de gebeurtenis van oorsprong of de gegevensbron toe. Deze informatie wordt tijdens runtime doorgegeven aan de doelroute.
 1. Voeg de volgende activiteiten toe om uw oorspronkelijke reis te voltooien.
 
    ![](../assets/jump5.png)
