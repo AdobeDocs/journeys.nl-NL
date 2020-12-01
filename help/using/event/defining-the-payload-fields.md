@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Payloadvelden definiëren
 description: Meer informatie over het definiëren van laadvelden
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '282'
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
    >[!NOTE]
    >
-   >Het **[!UICONTROL eventID]** [!DNL Journey Orchestration] veld wordt automatisch toegevoegd aan de lijst met geselecteerde velden, zodat de gebeurtenis kan worden geïdentificeerd. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [deze pagina](../event/previewing-the-payload.md).
+   >Voor door het systeem gegenereerde gebeurtenissen wordt het **[!UICONTROL eventID]** veld automatisch toegevoegd aan de lijst met geselecteerde velden, zodat de gebeurtenis [!DNL Journey Orchestration] kan worden geïdentificeerd. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [deze pagina](../event/previewing-the-payload.md).
 
 1. Klik **[!UICONTROL Save]** of druk op **[!UICONTROL Enter]**.
 
