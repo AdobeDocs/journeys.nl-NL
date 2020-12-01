@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Release-opmerkingen
 description: Meer informatie over opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 90%
+source-wordcount: '2055'
+ht-degree: 77%
 
 ---
 
@@ -16,6 +16,71 @@ ht-degree: 90%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)raadplegen.
+
+## Release november 2020 {#november-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Overstappen van de ene reis naar de andere</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>We hebben een nieuwe actieactiviteit toegevoegd waarmee je individuen van de ene reis naar de andere kunt duwen. Met de sprongactiviteit kunt u:
+</p>
+<ul>
+<li>vereenvoudigen het ontwerp van zeer complexe reizen door deze in verschillende te splitsen </li>
+<li>ritten bouwen op basis van gemeenschappelijke en herbruikbare reispatronen</li>
+</ul>
+<p>Raadpleeg de <a href="../building-journeys/jump.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Eigenschappen voor reizen gebruiken in de expressieeditor</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In de geavanceerde uitdrukkingsredacteur, hebben wij een nieuwe categorie in de lijst van gebieden en functies toegevoegd. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen. Dit geeft u meer mogelijkheden bij het bouwen van uw reizen. U kunt bijvoorbeeld systemen van derden waarschuwen in het geval van fouten die in een voorwaarde of handeling worden aangetroffen.
+</p>
+<p>Deze functie is de komende dagen beschikbaar.</p>
+<p>Raadpleeg de <a href="../expression/journey-properties.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Gebeurtenissen op basis van regels (bèta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>We hebben een nieuwe methode toegevoegd om uw gebeurtenissen gemakkelijker in te stellen. Deze functie, die door een beperkte groep klanten via het Alpha-programma is getest, is nu beschikbaar in Bèta aan alle klanten. Voor deze nieuwe methode is het gebruik van een eventID niet vereist. Het evalueert als de gebeurtenis volgens een voorwaarde zou moeten worden teweeggebracht. U kunt nog steeds de bestaande methode gebruiken, die nu "door het systeem gegenereerd" wordt genoemd.
+</p>
+<p>Deze functie is de komende dagen beschikbaar.</p>
+<p>Raadpleeg de <a href="../event/about-events.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Overige verbeteringen{#october-november}
+
+Er zijn beperkingen toegevoegd bij het maken van nieuwe versies van een reis. Deze beperkingen voorkomen te drastische veranderingen in de reis om enige consistentie tussen versies te behouden. [Meer informatie](../about/limitations.md#journey-versions-limitations)
+
+De **activiteit van de Kwalificatie** van het Segment kan niet meer in een reis worden gebruikt die Campaign Standard berichtactiviteiten omvat. Deze beperking beschermt de integriteit van Adobe Campaign Standard-instanties. Het gebruik van de Kwalificatie van het Segment kan zelfs tot dagelijkse pieken van bericht leiden die Campaign Standard Transactioneel Overseinen zou overbelasten. [Meer informatie](../about/limitations.md#segment-qualification)
 
 ## October 2020 Release {#october-release}
 
@@ -135,11 +200,11 @@ Raadpleeg deze [sectie](../alpha/alpha-overview.md) om de scope van Alfa te ontd
 <p>De volgende verbeteringen zijn doorgevoerd in op regels gebaseerde gebeurtenissen:
 </p>
 <ul>
-<li><p>U kunt nu alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en naar het platform streamt, gebruiken om journey’s te starten en ervaringen voor uw klanten te automatiseren. <a href="../alpha/alpha-events.md#analytics-data">Meer informatie</a></p>
+<li><p>U kunt nu alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en naar het platform streamt, gebruiken om journey’s te starten en ervaringen voor uw klanten te automatiseren. <a href="../event/about-analytics.md">Meer informatie</a></p>
 </li>
-<li><p>Wanneer u een op regels gebaseerde gebeurtenis activeert in de testmodus, kunt u de voorwaarde van de gebeurtenis-ID nu rechtstreeks weergeven. Ook is er een tooltip toegevoegd naast elk veld dat deel uitmaakt van de regelevaluatie. <a href="../alpha/alpha-events.md#configuring-rule-based">Meer informatie</a></p>
+<li><p>Wanneer u een op regels gebaseerde gebeurtenis activeert in de testmodus, kunt u de voorwaarde van de gebeurtenis-ID nu rechtstreeks weergeven. Ook is er een tooltip toegevoegd naast elk veld dat deel uitmaakt van de regelevaluatie. <a href="../building-journeys/testing-the-journey.md#test-rule-based">Meer informatie</a></p>
 </li>
-<li><p>Het scherm voor de definitie van op regels gebaseerde gebeurtenissen is gereorganiseerd voor een betere ervaring. <a href="../alpha/alpha-events.md#test-rule-based">Meer informatie</a></p>
+<li><p>Het scherm voor de definitie van op regels gebaseerde gebeurtenissen is gereorganiseerd voor een betere ervaring. <a href="../event/about-creating.md">Meer informatie</a></p>
 </li>
 </ul>
 </td>
@@ -201,7 +266,7 @@ Deze functies worden beschreven in een speciale [sectie](../alpha/alpha-overview
 <tbody>
 <tr>
 <td>
-<p>We hebben de manier vereenvoudigd waarop u Experience-gebeurtenissen instelt. We introduceren een nieuwe methode waarvoor geen eventID nodig is. Wanneer u de gebeurtenis instelt in Journey Orchestration, kunt u nu een op regels gebaseerde gebeurtenis definiëren. <a href="../alpha/alpha-events.md">Meer informatie</a>
+<p>We hebben de manier vereenvoudigd waarop u Experience-gebeurtenissen instelt. We introduceren een nieuwe methode waarvoor geen eventID nodig is. Wanneer u de gebeurtenis instelt in Journey Orchestration, kunt u nu een op regels gebaseerde gebeurtenis definiëren. <a href="../event/about-events.md">Meer informatie</a>
 </p>
 </td>
 </tr>
@@ -277,8 +342,6 @@ Journey Orchestration is nu verkrijgbaar in APAC (Australisch datacenter). Besch
 De Journey Orchestration-interface is beschikbaar in het Japans.
 
 ## Q1-release - maart 2020 {#q1-release---march-2020}
-
-**Nieuwe functies**
 
 <table>
 <thead>
