@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Release-opmerkingen
 description: Meer informatie over opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
+source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 77%
@@ -17,7 +17,7 @@ ht-degree: 77%
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)raadplegen.
 
-## Release november 2020 {#november-release}
+## Release {#november-release} van november 2020
 
 <table>
 <thead>
@@ -80,9 +80,9 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 
 Er zijn beperkingen toegevoegd bij het maken van nieuwe versies van een reis. Deze beperkingen voorkomen te drastische veranderingen in de reis om enige consistentie tussen versies te behouden. [Meer informatie](../about/limitations.md#journey-versions-limitations)
 
-De **activiteit van de Kwalificatie** van het Segment kan niet meer in een reis worden gebruikt die Campaign Standard berichtactiviteiten omvat. Deze beperking beschermt de integriteit van Adobe Campaign Standard-instanties. Het gebruik van de Kwalificatie van het Segment kan zelfs tot dagelijkse pieken van bericht leiden die Campaign Standard Transactioneel Overseinen zou overbelasten. [Meer informatie](../about/limitations.md#segment-qualification)
+De **Segmentkwalificatie** activiteit kan niet meer worden gebruikt in een reis die Campaign Standard berichtactiviteiten omvat. Deze beperking beschermt de integriteit van Adobe Campaign Standard-instanties. Het gebruik van de Kwalificatie van het Segment kan zelfs tot dagelijkse pieken van bericht leiden die Campaign Standard Transactioneel Overseinen zou overbelasten. [Meer informatie](../about/limitations.md#segment-qualification)
 
-## October 2020 Release {#october-release}
+## Release {#october-release} oktober 2020
 
 <table>
 <thead>
@@ -105,7 +105,7 @@ De **activiteit van de Kwalificatie** van het Segment kan niet meer in een reis 
 
 * Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie automatisch en schakelt naar de Gesloten status. [Meer informatie](../building-journeys/journey-versions.md)
 
-## Release september 2020 {#september-release}
+## Release {#september-release} september 2020
 
 ### GA-updates{#september-ga-update}
 
@@ -139,7 +139,7 @@ Raadpleeg deze [sectie](../alpha/alpha-overview.md) om de scope van Alfa te ontd
 <tbody>
 <tr>
 <td>
-<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+<p>De volgende verbeteringen zijn aangebracht in de <strong>Read segment</strong> activiteit:
 </p>
 <ul>
 <li><p>Op segmenten gebaseerde reizen tonen nu, boven het canvas, een herinnering aan het planningstype van de reis. U kunt op deze herinnering klikken om tot het menu van de planningsconfiguratie toegang te hebben.</p>
@@ -147,7 +147,7 @@ Raadpleeg deze [sectie](../alpha/alpha-overview.md) om de scope van Alfa te ontd
 <li><p>De granulariteit van de logboeken van de testwijze is verbeterd om de de vooruitgangsstatus van de segmentuitvoer te tonen.</p>
 </li>
 </ul>
-<p>Voor meer informatie over de <strong>Gelezen segmentactiviteit</strong> , verwijs naar de <a href="../alpha/alpha-segment-trigger.md">gedetailleerde documentatie</a>.</p>
+<p>Raadpleeg de <a href="../alpha/alpha-segment-trigger.md">gedetailleerde documentatie</a> voor meer informatie over de <strong>Leessegment</strong> activiteit.</p>
 </td>
 </tr>
 </tbody>
