@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Voorvertoning van de payload weergeven
 description: Leer hoe u een voorbeeld van de lading kunt bekijken
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 8%
+source-wordcount: '113'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
 
 >[!NOTE]
 >
->Wanneer u een gebeurtenis maakt, slaat u de gebeurtenis op en opent u deze opnieuw voordat u de voorvertoning van de payload weergeeft. Deze stap is nodig om een gebeurtenis-id in de lading te produceren.
+>Wanneer u een gebeurtenis maakt die door het systeem wordt gegenereerd, slaat u de gebeurtenis op voordat u deze weergeeft. Deze stap is nodig om een gebeurtenis-id in de lading te produceren.
 
 1. Klik op het **[!UICONTROL View Payload]** pictogram om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht.
 
