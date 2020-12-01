@@ -4,13 +4,12 @@ solution: Journey Orchestration
 title: Journey’s samenstellen
 description: Als zakelijke gebruiker leert u hoe u gebeurtenis-, orkest- en actieactiviteiten kunt combineren om een reis te maken.
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 12%
 
 ---
-
 
 
 # Een journey maken {#concept_gq5_sqt_52b}
