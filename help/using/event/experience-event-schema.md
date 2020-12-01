@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: 'Over ExperienceEvent-schema''s voor Journey Orchestration-gebeurtenissen '
 description: 'Meer informatie over ExperienceEvent-schema''s voor Journey Orchestration Events '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Om het even welk schema XDM dat voor [!DNL Journey Orchestration] gebeurtenissen
 
    ![](../assets/schema2.png)
 
-* Het schema moet de Orchestration eventID-mix bevatten. [!DNL Journey Orchestration] gebruikt dit veld om gebeurtenissen te identificeren die tijdens reizen worden gebruikt.
+* Voor door het systeem gegenereerde gebeurtenissen moet het schema de Orchestration eventID-mix bevatten. [!DNL Journey Orchestration] gebruikt dit veld om gebeurtenissen te identificeren die tijdens reizen worden gebruikt.
 
    ![](../assets/schema3.png)
 
