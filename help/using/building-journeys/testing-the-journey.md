@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Journey testen
 description: 'Meer informatie over het testen van reizen '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1442'
 ht-degree: 3%
 
 ---
@@ -133,6 +133,16 @@ Wanneer u een ander testprofiel in het scherm van de gebeurtenisconfiguratie sel
 Wanneer u een rit tijdens de test opent, komt het weergegeven pad overeen met de laatste uitgevoerde test.
 
 De visuele stroom werkt of de gebeurtenis via de interface of extern (bijvoorbeeld met Postman) wordt geactiveerd.
+
+## Testmodus voor op regels gebaseerde reizen {#test-rule-based}
+
+De testmodus is ook beschikbaar voor reizen die een op regels gebaseerde gebeurtenis gebruiken. For more information on rule-based events, refer to [this page](../event/about-events.md).
+
+Wanneer u een gebeurtenis activeert, kunt u in het configuratiescherm **Gebeurtenis** de gebeurtenisparameters definiëren die tijdens de test moeten worden doorgegeven. U kunt de voorwaarde van de gebeurtenis-identiteitskaart bekijken door het tooltip pictogram in de hoogste juiste hoek te klikken. Er is ook knopinfo beschikbaar naast elk veld dat deel uitmaakt van de regelevaluatie.
+
+![](../assets/alpha-event8.png)
+
+Raadpleeg [deze pagina](../building-journeys/testing-the-journey.md)voor meer informatie over het gebruik van de testmodus.
 
 ## Logboeken weergeven {#viewing_logs}
 
