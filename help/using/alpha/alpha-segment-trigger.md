@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Segmentactiviteit lezen
 description: Meer informatie over de activiteit Leessegment.
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '651'
 ht-degree: 4%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 4%
 Met de activiteit Leessegment kunt u alle personen die tot een Adobe Experience Platform-segment behoren een reis laten maken. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden.
 
 Laten we zeggen dat je een Gold-klantensegment hebt op Adobe Experience Platform. Met de activiteit van het Leessegment, kunt u alle individuen van het Gouden klantensegment een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit gebruiken: voorwaarden, timers, gebeurtenissen, handelingen.
+
+>[!NOTE]
+>
+>U kunt geen sprong en een **Gelezen segmentactiviteit** in de zelfde reis hebben. U kunt niet naar een reis springen die met een gebeurtenis van het **Gelezen segment** begint.
 
 ## De activiteit configureren {#configuring-segment-trigger-activity}
 
