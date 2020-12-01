@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Reiseigenschappen
 description: Meer informatie over reiseigenschappen
 translation-type: tm+mt
-source-git-commit: b989e167c4aa5d8ef2667442231ff8857c5f0b18
+source-git-commit: 341138c31676870878099b4f4eecec200a614c69
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Hier volgen enkele voorbeelden van gebruiksgevallen:
 
 * **Verworpen profielen** in logboek opnemen: u kunt alle profielen verzenden die van een bericht door een het plafonneren regel aan een derdesysteem voor het registreren worden uitgesloten. Hiervoor stelt u een pad in in het geval van een time-out en een fout en voegt u een voorwaarde toe om te filteren op een specifiek fouttype, bijvoorbeeld: &quot;Verwijder mensen door op de regel te tikken&quot;. U kunt de verwijderde profielen vervolgens via een aangepaste handeling naar een systeem van een andere fabrikant duwen.
 
-* **Pushwaarschuwingen verzenden in geval van fouten**: u kunt een bericht naar een derdesysteem verzenden telkens als een fout op een bericht voorkomt. Hiervoor stelt u een pad in bij een fout, voegt u een voorwaarde en een aangepaste handeling toe. U kunt bijvoorbeeld een melding verzenden naar een Slack-kanaal met een beschrijving van de aangetroffen fout.
+* **Waarschuwingen verzenden bij fouten**: u kunt een bericht naar een derdesysteem verzenden telkens als een fout op een bericht voorkomt. Hiervoor stelt u een pad in bij een fout, voegt u een voorwaarde en een aangepaste handeling toe. U kunt bijvoorbeeld een melding verzenden naar een Slack-kanaal met een beschrijving van de aangetroffen fout.
 
 * **Fouten in rapportage**  verfijnen: in plaats van slechts één pad voor foutmeldingen, kunt u een voorwaarde per fouttype definiëren. Hierdoor kunt u de rapportage verfijnen en alle gegevens van fouttypen weergeven.
 
