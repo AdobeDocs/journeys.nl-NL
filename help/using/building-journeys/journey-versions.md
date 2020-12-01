@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Journeyversies
 description: Meer informatie over reisversies
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 3%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -19,6 +19,10 @@ In de reislijst, worden alle reisversies getoond met het versieaantal. Zie [deze
 ![](../assets/journeyversions1.png)
 
 Als u zich aan een levende reis moet aanpassen, moet u een nieuwe versie van uw reis tot stand brengen.
+
+>[!NOTE]
+>
+>Zie [deze pagina voor meer informatie over de beperkingen van reisversies](../about/limitations.md#journey-versions-limitations)
 
 1. Open de nieuwste versie van uw livereis, klik **[!UICONTROL Create a new version]** en bevestig deze.
 
