@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Segmentkwalificatiegebeurtenissen
 description: Meer informatie over segmentkwalificatiegebeurtenissen
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -82,6 +82,8 @@ Als het batchsegment nieuw wordt gemaakt en onmiddellijk wordt gebruikt in een r
 ### Gestroomde segmenten{#streamed-speed-segment-qualification}
 
 Wanneer het gebruiken van segmentkwalificatie voor gestroomde segmenten, is er minder risico om grote pieken van ingangen/uitgangen te krijgen toe te schrijven aan de ononderbroken evaluatie van het segment. Maar als de segmentdefinitie ertoe leidt dat een groot aantal klanten tegelijkertijd in aanmerking komt, kan er ook een piek zijn.
+
+For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### Overbelasting voorkomen{#overloads-speed-segment-qualification}
 
