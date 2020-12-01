@@ -4,19 +4,15 @@ solution: Journey Orchestration
 title: Overstappen van de ene reis naar de andere
 description: Overstappen van de ene reis naar de andere
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
 
 
 # Overstappen van de ene reis naar de andere {#jump}
-
->[!NOTE]
->
->Effectieve beschikbaarheid: 15 november 2020
 
 Met de **actie Snelheid** kunt u individuen van de ene reis naar de andere duwen. Met deze functie kunt u:
 
@@ -38,21 +34,31 @@ Hier volgen de verschillende stappen van het uitvoeringsproces:
 1. De persoon bereikt de sprongregel.
 1. Het individu wordt naar Journey B geduwd en gaat naar de volgende stappen in Reis A, na de sprong.
 
-In **reis B** kan het eerste evenement extern (als een gewone gebeurtenis) of intern worden geactiveerd via een sprong van reis A:
+In reis B wordt het eerste evenement intern geactiveerd via de sprong van reis A:
 
 1. Journey B ontving een intern evenement van Journey A.
-1. De eerste gebeurtenis van Journey B wordt gestart met de informatie afkomstig van Journey A.
 1. Het individu begint te stromen in Journey B.
+
+>[!NOTE]
+>
+>Reis B kan ook worden geactiveerd via een externe gebeurtenis.
 
 ## Belangrijke opmerkingen
 
+### Authoring
+
+* De sprong is slechts beschikbaar in reizen die een namespace gebruiken.
 * U kunt alleen naar een reis springen die dezelfde naamruimte gebruikt als de oorspronkelijke reis.
 * U kunt niet naar een reis springen die met een de kwalificatiegebeurtenis **van het** Segment begint.
-* Wanneer de sprong wordt uitgevoerd, wordt de recentste versie van de doelreis teweeggebracht.
+* U kunt geen sprong en een de kwalificatiegebeurtenis **van het** Segment in de zelfde reis hebben.
 * U kunt zo veel sprongen omvatten aangezien u in een reis nodig hebt. Na een sprong kunt u alle benodigde activiteiten toevoegen.
 * U kunt zo veel sprongniveaus hebben zoals nodig. Reis A springt bijvoorbeeld naar reis B, die naar reis C gaat enzovoort.
 * De doelreis kan ook zoveel pompen bevatten als nodig is.
 * Luspatronen worden niet ondersteund. Er is geen manier om twee of meer reizen aan elkaar te koppelen, wat een oneindige lus zou creëren. Het scherm van de de activiteitenconfiguratie van de **Sprong** verhindert u dit te doen.
+
+### Execution
+
+* Wanneer de sprong wordt uitgevoerd, wordt de recentste versie van de doelreis teweeggebracht.
 * Zoals gebruikelijk kan een uniek individu slechts eenmaal op dezelfde reis aanwezig zijn. Als het individu dat van de oorspronkelijke reis werd geduwd al op de doelreis zit, zal het individu dus niet de doelreis betreden. Er wordt geen fout gerapporteerd bij de sprong omdat dit een normaal gedrag is.
 
 ## De sprong configureren
@@ -84,9 +90,16 @@ Het veld **Eerste gebeurtenis** wordt voorgevuld met de naam van de eerste gebeu
 
    ![](../assets/jump5.png)
 
+
+   >[!NOTE]
+   >
+   >De identiteit van het individu wordt automatisch toegewezen. Deze informatie is niet zichtbaar in de interface.
+
 Uw sprong wordt gevormd. Zodra je reis live is of in testmodus, zullen individuen die de sprong bereiken, van de doelreis worden verplaatst.
 
 Wanneer een sprong in een reis wordt gevormd, wordt een pictogram van de sprongingang automatisch toegevoegd aan het begin van de doelreis. Dit helpt u identificeren dat de reis extern maar ook intern van een sprong kan worden teweeggebracht.
+
+![](../assets/jump7.png)
 
 ## Problemen oplossen
 
@@ -94,3 +107,5 @@ Bij publicatie van de reis of in testmodus treden fouten op als:
 * de beoogde reis is niet langer mogelijk
 * de doelreis is een concept, een gesloten of een stilstand
 * als de eerste gebeurtenis van de doelreis is gewijzigd en de mapping is verbroken
+
+![](../assets/jump6.png)
