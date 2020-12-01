@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Informatie over gebeurtenissen
 description: Meer informatie over gebeurtenissen
 translation-type: tm+mt
-source-git-commit: c66c09441f69e7026c60c37f87972e1e4ac9f7f8
+source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 54%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,13 +29,13 @@ Als u een gebeurtenis bewerkt die in een concept- of live journey wordt gebruikt
 
 U kunt twee typen gebeurtenissen definiëren:
 
-* **Op regels gebaseerde** gebeurtenissen: dit type gebeurtenis genereert geen eventID. Gebruikend de eenvoudige uitdrukkingsredacteur, bepaalt u eenvoudig een regel die door het systeem zal worden gebruikt om de relevante gebeurtenissen te identificeren die uw reizen zullen teweegbrengen. Deze regel kan worden gebaseerd op elk veld dat beschikbaar is in de gebeurtenislading, bijvoorbeeld de locatie van het profiel of het aantal items dat is toegevoegd aan het winkelwagentje van het profiel.
+* **Op regels** gebaseerde gebeurtenissen: dit type gebeurtenis genereert geen eventID. Gebruikend de eenvoudige uitdrukkingsredacteur, bepaalt u eenvoudig een regel die door het systeem zal worden gebruikt om de relevante gebeurtenissen te identificeren die uw reizen zullen teweegbrengen. Deze regel kan worden gebaseerd op elk veld dat beschikbaar is in de gebeurtenislading, bijvoorbeeld de locatie van het profiel of het aantal items dat is toegevoegd aan het winkelwagentje van het profiel.
 
    >[!CAUTION]
    >
-   >Een afschilderingsregel wordt bepaald voor op regel-gebaseerde gebeurtenissen. Het beperkt het aantal gekwalificeerde gebeurtenissen dat een reis kan verwerken tot 400 k per minuut. Neem contact op met het contactpunt voor het alpha-programma voor meer informatie. Naast deze plafondregel wordt een limiet van 5000 gebeurtenissen voor seconden gedefinieerd op het niveau van de reis.
+   >Een afschilderingsregel wordt bepaald voor op regel-gebaseerde gebeurtenissen. Het beperkt het aantal gekwalificeerde gebeurtenissen dat een reis kan verwerken tot 5000 per seconde voor een bepaalde Organisatie (ORG). Het komt overeen met Journey Orchestration SLA&#39;s. Zie deze [pagina](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
-* **Door het systeem gegenereerde** gebeurtenissen: deze gebeurtenissen vereisen een eventID. Dit veld eventID wordt automatisch gegenereerd wanneer de gebeurtenis wordt gemaakt. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten overgaan beschikbaar in de voorproef van de lading.
+* **System-** generateDefents: deze gebeurtenissen vereisen een eventID. Dit veld eventID wordt automatisch gegenereerd wanneer de gebeurtenis wordt gemaakt. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten overgaan beschikbaar in de voorproef van de lading.
 
-Raadpleeg deze [pagina](../event/about-creating.md)voor meer informatie over het maken van een gebeurtenis.
+Als u wilt leren hoe u een gebeurtenis maakt, raadpleegt u deze [pagina](../event/about-creating.md).
 
