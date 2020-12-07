@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Release-opmerkingen
 description: Meer informatie over opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
+source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
-source-wordcount: '2055'
-ht-degree: 77%
+source-wordcount: '2026'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 # Release-opmerkingen{#release-notes}
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
-U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)raadplegen.
+U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-updates.md) raadplegen.
 
 ## Release {#november-release} van november 2020
 
@@ -28,7 +28,7 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 <tbody>
 <tr>
 <td>
-<p>We hebben een nieuwe actieactiviteit toegevoegd waarmee je individuen van de ene reis naar de andere kunt duwen. Met de sprongactiviteit kunt u:
+<p>Met een nieuwe actie kunt u personen van de ene reis naar de andere verplaatsen. Met de <strong>Jump</strong>-activiteit kunt u:
 </p>
 <ul>
 <li>vereenvoudigen het ontwerp van zeer complexe reizen door deze in verschillende te splitsen </li>
@@ -51,7 +51,6 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 <td>
 <p>In de geavanceerde uitdrukkingsredacteur, hebben wij een nieuwe categorie in de lijst van gebieden en functies toegevoegd. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen. Dit geeft u meer mogelijkheden bij het bouwen van uw reizen. U kunt bijvoorbeeld systemen van derden waarschuwen in het geval van fouten die in een voorwaarde of handeling worden aangetroffen.
 </p>
-<p>Deze functie is de komende dagen beschikbaar.</p>
 <p>Raadpleeg de <a href="../expression/journey-properties.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -67,9 +66,8 @@ U kunt ook de [Documentatie-updates](../release-notes/documentation-updates.md)r
 <tbody>
 <tr>
 <td>
-<p>We hebben een nieuwe methode toegevoegd om uw gebeurtenissen gemakkelijker in te stellen. Deze functie, die door een beperkte groep klanten via het Alpha-programma is getest, is nu beschikbaar in Bèta aan alle klanten. Voor deze nieuwe methode is het gebruik van een eventID niet vereist. Het evalueert als de gebeurtenis volgens een voorwaarde zou moeten worden teweeggebracht. U kunt nog steeds de bestaande methode gebruiken, die nu "door het systeem gegenereerd" wordt genoemd.
+<p>Er is nu een nieuwe methode beschikbaar om gebeurtenissen gemakkelijker in te stellen, zonder een eventID te gebruiken: Op regel-gebaseerde gebeurtenissen evalueren of zou de gebeurtenis volgens een voorwaarde moeten worden teweeggebracht. U kunt nog steeds de bestaande methode gebruiken, die nu "door het systeem gegenereerd" wordt genoemd. Deze functie, die door een beperkte groep klanten via het Alpha-programma is getest, is nu beschikbaar in Bèta aan alle klanten.
 </p>
-<p>Deze functie is de komende dagen beschikbaar.</p>
 <p>Raadpleeg de <a href="../event/about-events.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
