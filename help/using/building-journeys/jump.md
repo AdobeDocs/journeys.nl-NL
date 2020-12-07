@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Overstappen van de ene reis naar de andere
 description: Overstappen van de ene reis naar de andere
 translation-type: tm+mt
-source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
+source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 # Van de ene reis naar de andere {#jump}
 
-Met de actie **Jump** kunt u personen van de ene reis naar de andere verplaatsen. Met deze functie kunt u:
+Met de actie **[!UICONTROL Jump]** kunt u personen van de ene reis naar de andere verplaatsen. Met deze functie kunt u:
 
 * vereenvoudigen het ontwerp van zeer complexe reizen door deze in verschillende te splitsen
 * ritten bouwen op basis van gemeenschappelijke en herbruikbare reispatronen
 
-Voeg in de oorspronkelijke reis gewoon een **Jump** toe en selecteer een doelreis. Wanneer het individu de sprongstap ingaat, wordt een interne gebeurtenis verzonden naar de eerste gebeurtenis van de doelreis. Als de sprongreactie succesvol is, gaat het individu verder in de reis. Het gedrag is vergelijkbaar met andere acties.
+Voeg in de oorspronkelijke reis gewoon een **[!UICONTROL Jump]** activiteit toe en selecteer een doelreis. Wanneer het individu de stap **[!UICONTROL Jump]** ingaat, wordt een interne gebeurtenis verzonden naar de eerste gebeurtenis van de doelreis. Als de actie **[!UICONTROL Jump]** succesvol is, blijft het individu in de reis voortgaan. Het gedrag is vergelijkbaar met andere acties.
 
-In de doelreis, zal de eerste gebeurtenis die intern door de sprong wordt teweeggebracht de individuele stroom in de reis maken.
+In de doelreis zal de eerste gebeurtenis die intern door de **[!UICONTROL Jump]** activiteit wordt teweeggebracht de individuele stroom in de reis maken.
 
 ## Levenscyclus
 
-Laten we zeggen dat je een sprong hebt toegevoegd in een reis A naar een reis B. Reis A is de **oorspronkelijke reis** en reis B, de **doelreis**.
+Laten we zeggen dat u een **[!UICONTROL Jump]** activiteit in een reis A aan reis B hebt toegevoegd. Reis A is de **oorspronkelijke reis** en reis B, de **doelreis**.
 Hier volgen de verschillende stappen van het uitvoeringsproces:
 
 **Reis** geactiveerd door een externe gebeurtenis:
 
 1. Reis A ontvangt een externe gebeurtenis met betrekking tot een individu.
-1. De persoon bereikt de sprongregel.
-1. Het individu wordt naar Journey B geduwd en gaat naar de volgende stappen in Reis A, na de sprong.
+1. De persoon bereikt de stap **[!UICONTROL Jump]**.
+1. Het individu wordt geduwd aan Reis B, en gaat naar de volgende stappen in Reis A, na de **[!UICONTROL Jump]** stap.
 
-In reis B wordt het eerste evenement intern geactiveerd via de sprong van reis A:
+In reis B wordt het eerste evenement intern geactiveerd via de **[!UICONTROL Jump]** activiteit van reis A:
 
 1. Journey B ontving een intern evenement van Journey A.
 1. Het individu begint te stromen in Journey B.
@@ -43,31 +43,31 @@ In reis B wordt het eerste evenement intern geactiveerd via de sprong van reis A
 >
 >Reis B kan ook worden geactiveerd via een externe gebeurtenis.
 
-## Belangrijke opmerkingen
+## Aanbevolen werkwijzen en beperkingen
 
 ### Authoring
 
-* De sprong is slechts beschikbaar in reizen die een namespace gebruiken.
+* De **[!UICONTROL Jump]** activiteit is slechts beschikbaar in reizen die een namespace gebruiken.
 * U kunt alleen naar een reis springen die dezelfde naamruimte gebruikt als de oorspronkelijke reis.
 * U kunt niet naar een reis springen die met een **segmentkwalificatie** gebeurtenis begint.
-* U kunt geen sprong en een **gebeurtenis van het Segment** in de zelfde reis hebben.
-* U kunt zo veel sprongen omvatten aangezien u in een reis nodig hebt. Na een sprong kunt u alle benodigde activiteiten toevoegen.
+* U kunt geen **[!UICONTROL Jump]** activiteit en een **gebeurtenis van de segmentkwalificatie** in de zelfde reis hebben.
+* U kunt zo veel **[!UICONTROL Jump]** activiteiten omvatten aangezien u in een reis nodig hebt. Na een **[!UICONTROL Jump]** kunt u elke gewenste activiteit toevoegen.
 * U kunt zo veel sprongniveaus hebben zoals nodig. Reis A springt bijvoorbeeld naar reis B, die naar reis C gaat enzovoort.
-* De doelreis kan ook zoveel pompen bevatten als nodig is.
-* Luspatronen worden niet ondersteund. Er is geen manier om twee of meer reizen aan elkaar te koppelen, wat een oneindige lus zou creëren. Het **Jump** scherm van de activiteitenconfiguratie verhindert u dit te doen.
+* De doelreis kan ook zoveel **[!UICONTROL Jump]** activiteiten omvatten als nodig.
+* Luspatronen worden niet ondersteund. Er is geen manier om twee of meer reizen aan elkaar te koppelen, wat een oneindige lus zou creëren. Het **[!UICONTROL Jump]** scherm van de activiteitenconfiguratie verhindert u dit te doen.
 
 ### Execution
 
-* Wanneer de sprong wordt uitgevoerd, wordt de recentste versie van de doelreis teweeggebracht.
-* Zoals gebruikelijk kan een uniek individu slechts eenmaal op dezelfde reis aanwezig zijn. Als het individu dat van de oorspronkelijke reis werd geduwd al op de doelreis zit, zal het individu dus niet de doelreis betreden. Er wordt geen fout gerapporteerd bij de sprong omdat dit een normaal gedrag is.
+* Wanneer de **[!UICONTROL Jump]** activiteit wordt uitgevoerd, wordt de recentste versie van de doelreis teweeggebracht.
+* Zoals gebruikelijk kan een uniek individu slechts eenmaal op dezelfde reis aanwezig zijn. Als het individu dat van de oorspronkelijke reis werd geduwd al op de doelreis zit, zal het individu dus niet de doelreis betreden. Er wordt geen fout gerapporteerd bij de activiteit **[!UICONTROL Jump]** omdat dit een normaal gedrag is.
 
-## De sprong configureren
+## De sprongactiviteit configureren
 
-1. Ontwerp uw oorspronkelijke reis.
+1. Ontwerp uw **oorspronkelijke reis**.
 
    ![](../assets/jump1.png)
 
-1. Voeg bij elke stap van de reis een **Jump** activiteit toe, uit de **Action** categorie. Voeg een label en beschrijving toe.
+1. Voeg bij elke stap van de rit een **[!UICONTROL Jump]** activiteit toe uit de categorie **[!UICONTROL ACTIONS]**. Voeg een label en beschrijving toe.
 
    ![](../assets/jump2.png)
 
@@ -81,7 +81,7 @@ De lijst toont alle reisversies die ontwerp, levend of in testwijze zijn. De rei
    >U kunt op het pictogram **Doelreis openen** aan de rechterkant klikken om de doelreis in een nieuw lusje te openen.
 
 1. Selecteer de doelreis waarnaar u wilt springen.
-Het veld **Eerste gebeurtenis** wordt voorgevuld met de naam van de eerste gebeurtenis van de doelreis. Als uw doelreis veelvoudige gebeurtenissen omvat, wordt de sprong slechts toegestaan op de eerste gebeurtenis.
+Het veld **Eerste gebeurtenis** wordt voorgevuld met de naam van de eerste gebeurtenis van de doelreis. Als uw doelreis veelvoudige gebeurtenissen omvat, is **[!UICONTROL Jump]** slechts toegestaan op de eerste gebeurtenis.
 
    ![](../assets/jump4.png)
 
@@ -95,9 +95,9 @@ Het veld **Eerste gebeurtenis** wordt voorgevuld met de naam van de eerste gebeu
    >
    >De identiteit van het individu wordt automatisch toegewezen. Deze informatie is niet zichtbaar in de interface.
 
-Uw sprong wordt gevormd. Zodra je reis live is of in testmodus, zullen individuen die de sprong bereiken, van de doelreis worden verplaatst.
+Uw **[!UICONTROL Jump]** activiteit wordt gevormd. Zodra uw reis of in testwijze levend is, zullen de individuen die de **[!UICONTROL Jump]** stap bereiken van aan de doelreis worden geduwd.
 
-Wanneer een sprong in een reis wordt gevormd, wordt een pictogram van de sprongingang automatisch toegevoegd aan het begin van de doelreis. Dit helpt u identificeren dat de reis extern maar ook intern van een sprong kan worden teweeggebracht.
+Wanneer een **[!UICONTROL Jump]** activiteit in een reis wordt gevormd, wordt een **[!UICONTROL Jump]** ingangspictogram automatisch toegevoegd aan het begin van de doelreis. Dit helpt u identificeren dat de reis extern maar ook intern van een **[!UICONTROL Jump]** activiteit kan worden teweeggebracht.
 
 ![](../assets/jump7.png)
 
