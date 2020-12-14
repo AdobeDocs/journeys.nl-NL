@@ -4,11 +4,11 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration-productdocumentatie
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Meer informatie over Journey Orchestration.
 
 ## Aanvullende bronnen
 
-* [Journey Orchestration-productpagina](https://www.adobe.com/fr/experience-platform/journey-orchestration.html)
+* [Journey Orchestration-productpagina](https://www.adobe.com/nl/experience-platform/journey-orchestration.html)
 * [Experience Platform-documentatie](https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html)
 * [Documentatie bij real-timeklantprofiel](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)
 * [Experience Cloud XDM-velddefinitie](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/home.html)
@@ -79,7 +79,7 @@ Meer informatie over Journey Orchestration.
 
 ## Technische zelfstudies
 
-* [Journey Orchestration-configuratie](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html#6.-reis-orkestatie)
-* [Externe Weather-API, SMS-actie en meer](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html#module12)
-* [Een contactpersoon maken in Dynamics 365 met Journey Orchestration](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html#17.3-create-a-contact-in-microsoft-dynamics-365-using-journey-orchestration-%26-import-data-from-microsoft-dynamics)
-* [Journey Orchestration gebruiken om een e-mailfollow-up te activeren](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html#20.4-use-journey-orchestration-to-trigger-an-email-follow-up-after-interacting-with-your-chatbot)
+* [Journey Orchestration-configuratie](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module6/journey-orchestration-create-account.html?lang=nl#module6-journey-orchestration)
+* [Externe weer-API, sms-actie en meer](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module12/journey-orchestration-external-weather-api-sms.html?lang=nl#module12)
+* [Een contactpersoon maken in Dynamics 365 met Journey Orchestration](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module17/ex3.html?lang=nl#module17)
+* [Journey Orchestration gebruiken om een opvolgings-e-mail te activeren](https://experienceleague.adobe.com/docs/platform-learn/comprehensive-technical-tutorial/module20/ex4.html?lang=nl#module20)
