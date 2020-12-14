@@ -5,11 +5,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 95%
 + Een gebeurtenis configureren {#events-journeys}
    + Informatie over gebeurtenissen {#about-events}
       + [Algemeen principe](using/event/about-events.md)
-      + [Gegevenscyclus](using/event/about-data-cycle.md)
+      + [Datacyclus](using/event/about-data-cycle.md)
       + [Een gebeurtenis maken](using/event/about-creating.md)
       + [Adobe Analytics gebruiken](using/event/about-analytics.md)
       + [Informatie over ExperienceEvent-schema’s](using/event/experience-event-schema.md)
@@ -79,7 +79,7 @@ ht-degree: 95%
          + [Informatie over actieactiviteiten](using/building-journeys/about-action-activities.md)
          + [Adobe Campaign-acties gebruiken](using/building-journeys/using-adobe-campaign-actions.md)
          + [Aangepaste acties gebruiken](using/building-journeys/using-custom-actions.md)
-         + [Overstappen van de ene reis naar de andere](using/building-journeys/jump.md)
+         + [Van de ene journey naar de andere gaan](using/building-journeys/jump.md)
    + [Journey testen](using/building-journeys/testing-the-journey.md)
    + [Journey publiceren](using/building-journeys/publishing-the-journey.md)
    + Journeystappen delen met Adobe Experience Platform {#sharing-journey-steps}
@@ -98,7 +98,7 @@ ht-degree: 95%
       + [Veldverwijzingen](using/expression/field-references.md)
       + [Functies voor het beheer van verzamelingen](using/expression/collection-management-functions.md)
       + [Operatoren](using/expression/operators.md)
-      + [Reiseigenschappen](using/expression/journey-properties.md)
+      + [Journeyeigenschappen](using/expression/journey-properties.md)
       + [Voorbeelden](using/expression/advanced-editor-use-cases.md)
    + Functies {#main-functions-journey}
       + [Hoofdfuncties](using/expression/functions.md)
