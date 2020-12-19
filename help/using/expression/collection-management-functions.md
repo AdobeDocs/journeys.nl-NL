@@ -60,7 +60,7 @@ Deze functies worden hieronder uitgelegd. In de volgende voorbeelden gebruiken w
 
 **De functie &quot;all(`<condition>`)&quot;**
 
-De **[!UICONTROL all]** functie laat de definitie van een filter op een bepaalde inzameling toe door een booleaanse uitdrukking te gebruiken.
+De functie **[!UICONTROL all]** laat de definitie van een filter op een bepaalde inzameling toe door een booleaanse uitdrukking te gebruiken.
 
 ```
 <listExpression>.all(<condition>)
@@ -68,7 +68,7 @@ De **[!UICONTROL all]** functie laat de definitie van een filter op een bepaalde
 
 Bijvoorbeeld, onder alle app gebruikers, kunt u degenen krijgen gebruikend IOS 13 (booleaanse uitdrukking &quot;gebruikte app == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (voorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
 
-In een activiteit van de Voorwaarde van de Gegevensbron kunt u controleren of is het resultaat van de **[!UICONTROL all]** functie ongeldig of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]**. Voor meer informatie, zie de activiteit [van de Voorwaarde van de](../building-journeys/condition-activity.md#data_source_condition)Gegevensbron.
+In een activiteit van de Voorwaarde van de Gegevensbron kunt u controleren of is het resultaat van de functie **[!UICONTROL all]** ongeldig of niet. U kunt deze **[!UICONTROL all]** functie met andere functies zoals **[!UICONTROL count]** combineren. Voor meer informatie, zie [De activiteit van de Voorwaarde van de Gegevensbron](../building-journeys/condition-activity.md#data_source_condition).
 
 **Voorbeeld 1:**
 
@@ -82,7 +82,7 @@ Het resultaat is waar.
 
 **Voorbeeld 2:**
 
-Hier gebruiken we de **[!UICONTROL count]** functie om te controleren of er pushberichttokens in de verzameling aanwezig zijn.
+Hier gebruiken wij de **[!UICONTROL count]** functie om te controleren of er dupberichttekenen in de inzameling zijn.
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -122,11 +122,11 @@ earlier timestamp) in order to only consider prior events.-->
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
-The result of the expression is **3**.
+Het resultaat van de expressie is **3**.
 
 **Voorbeeld 3:**
 
-Hier controleren we of een individu in de afgelopen 24 uur geen communicatie heeft ontvangen. Wij filtreren de inzameling van ervaringsgebeurtenissen die uit de datasource ExperiencePlatform worden teruggewonnen, gebruikend twee uitdrukkingen die op twee elementen van de inzameling worden gebaseerd. Met name wordt de tijdstempel van de gebeurtenis vergeleken met de dateTime die door de **[!UICONTROL nowWithDelta]** functie wordt geretourneerd.
+Hier controleren we of een individu in de afgelopen 24 uur geen communicatie heeft ontvangen. Wij filtreren de inzameling van ervaringsgebeurtenissen die uit de datasource ExperiencePlatform worden teruggewonnen, gebruikend twee uitdrukkingen die op twee elementen van de inzameling worden gebaseerd. Met name wordt de tijdstempel van de gebeurtenis vergeleken met de dateTime die door de functie **[!UICONTROL nowWithDelta]** wordt geretourneerd.
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -166,14 +166,14 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** is alleen beschikbaar bij het manipuleren van gebeurtenisverzamelingen en **currentDataPackField**
->bij het manipuleren van gegevensbronverzamelingen. Wanneer het verwerken van inzamelingen met **[!UICONTROL all]**, **[!UICONTROL first]** en **[!UICONTROL last]**, wij
->loop elk element van de inzameling één voor één. **[!UICONTROL currentEventField]** en **currentDataPackField**
+>**[!UICONTROL currentEventField]** is alleen beschikbaar bij het manipuleren van gebeurtenisverzamelingen en  **currentDataPackField**
+>bij het manipuleren van gegevensbronverzamelingen. Bij het verwerken van verzamelingen met **[!UICONTROL all]**, **[!UICONTROL first]** en **[!UICONTROL last]**,
+>loop elk element van de inzameling één voor één. **[!UICONTROL currentEventField]** en  **currentDataPackField**
 >komt overeen met het element dat wordt herhaald.
 
 **De functies &quot;first(`<condition>`)&quot; en &quot;last(`<condition>`)&quot;**
 
-Met de **[!UICONTROL first]** en **[!UICONTROL last]** functies kunt u ook een filter op de verzameling definiëren en tegelijkertijd het eerste/laatste element van de lijst retourneren dat aan het filter voldoet.
+De functies **[!UICONTROL first]** en **[!UICONTROL last]** laten ook de definitie van een filter op de inzameling toe terwijl het terugkeren van het eerste/laatste element van de lijst die de filter ontmoet.
 
 _`<listExpression>.first(<condition>)`_
 
@@ -217,7 +217,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **De functie &quot;at(`<index>`)&quot;**
 
-Met de **[!UICONTROL at]** functie kunt u naar een specifiek element in een verzameling verwijzen op basis van een index.
+Met de functie **[!UICONTROL at]** kunt u naar een specifiek element in een verzameling verwijzen op basis van een index.
 Index 0 is de eerste index van de verzameling.
 
 _`<listExpression>`.at(`<index>`)_
