@@ -35,7 +35,7 @@ Vervolgens controleren we twee voorwaarden:
 
 ![](../assets/journeyuc2_29.png)
 
-Voor dit gebruiksgeval moeten we twee gebeurtenissen maken (zie [deze pagina](../usecase/configuring-the-events.md)):
+Voor dit gebruiksgeval, zullen wij twee gebeurtenissen moeten tot stand brengen (zie [deze pagina](../usecase/configuring-the-events.md)):
 
 * De lobby-gebeurtenis die naar het systeem wordt geduwd wanneer een klant het hotel binnenkomt.
 * De bakengebeurtenis van het restaurant die zal worden geduwd wanneer een klant het restaurant ingaat.
@@ -47,7 +47,7 @@ We moeten een verbinding met twee gegevensbronnen configureren (zie [deze pagina
 
 ## Voorwaarden {#prerequisites}
 
-Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Refer to this [page](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Zie deze [pagina](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
 Adobe Campaign Standard is geconfigureerd voor het verzenden van e-mails en pushberichten.
 
