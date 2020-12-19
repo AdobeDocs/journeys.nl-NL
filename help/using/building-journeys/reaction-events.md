@@ -14,19 +14,19 @@ ht-degree: 1%
 
 # Reactiegebeurtenissen {#section_dhx_gss_dgb}
 
-De ingebouwde **[!UICONTROL Reactions]** gebeurtenis is een van de verschillende gebeurtenisactiviteiten die beschikbaar zijn in het palet. Met deze activiteit kunt u reageren op volggegevens met betrekking tot een bericht dat is verzonden met e-mail, SMS of push-activiteiten binnen dezelfde reis. Deze informatie is afkomstig van transactiemeldingen in Adobe Campaign Standard. We leggen deze informatie in real time vast op het moment dat ze met de Adobe Experience Platform wordt gedeeld. Voor pushberichten kunt u reageren op geklikte, verzonden of mislukte berichten. Voor SMS-berichten kunt u reageren op verzonden of mislukte berichten. Voor e-mailberichten kunt u reageren op geklikte, verzonden, geopende of mislukte berichten.
+Onder de verschillende gebeurtenisactiviteiten die beschikbaar zijn in het palet, vindt u de ingebouwde gebeurtenis **[!UICONTROL Reactions]**. Met deze activiteit kunt u reageren op volggegevens met betrekking tot een bericht dat is verzonden met e-mail, SMS of push-activiteiten binnen dezelfde reis. Deze informatie is afkomstig van transactiemeldingen in Adobe Campaign Standard. We leggen deze informatie in real time vast op het moment dat ze met de Adobe Experience Platform wordt gedeeld. Voor pushberichten kunt u reageren op geklikte, verzonden of mislukte berichten. Voor SMS-berichten kunt u reageren op verzonden of mislukte berichten. Voor e-mailberichten kunt u reageren op geklikte, verzonden, geopende of mislukte berichten.
 
 U kunt dit mechanisme ook gebruiken om een actie uit te voeren wanneer er geen reactie op uw berichten is. Hiertoe maakt u een tweede pad parallel aan de reactieactiviteit en voegt u een wachtactiviteit toe. Als er geen reactie optreedt tijdens de periode die is gedefinieerd in de wachtdienst, wordt het tweede pad gekozen. U kunt bijvoorbeeld een vervolgbericht verzenden.
 
 Let op: u kunt alleen reactieactiviteiten op het canvas gebruiken als er al eerder een e-mail-, push- of SMS-activiteit is.
 
-See [About action activities](../building-journeys/about-action-activities.md).
+Zie [Informatie over actieactiviteiten](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey45.png)
 
 Hier volgen de verschillende stappen voor het configureren van reactiegebeurtenissen:
 
-1. Voeg een reactie toe **[!UICONTROL Label]** aan de reactie. Deze stap is optioneel.
+1. Voeg een **[!UICONTROL Label]** aan de reactie toe. Deze stap is optioneel.
 1. Selecteer in de vervolgkeuzelijst de activiteit waarop u wilt reageren. U kunt alle handelingen selecteren die zich in de vorige stappen van het pad bevinden.
 1. Afhankelijk van de actie die u hebt geselecteerd (een e-mail, SMS of een pushmelding), kiest u waarop u wilt reageren.
 1. U kunt een voorwaarde definiëren als een optionele stap. Zo kunt u na een e-mailactie bijvoorbeeld besluiten om twee paden te maken, één met een reactiegebeurtenis om alleen kliks voor VIP klanten te volgen en één met een reactiegebeurtenis om door vrouwen uitgevoerde klikbewerkingen te volgen.
@@ -37,7 +37,7 @@ Hier volgen de verschillende stappen voor het configureren van reactiegebeurteni
 >
 >Reactiegebeurtenissen kunnen geen e-mail-, SMS- of pushacties bijhouden die op een andere reis plaatsvinden.
 >
->Gebeurtenissen van Reaction volgen klikt op koppelingen van het type &quot;bijgehouden&quot; (zie deze [pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Er wordt geen rekening gehouden met abonnements- en spiegelpaginakoppelingen.
+>Bij reactiegebeurtenissen wordt geklikt op koppelingen van het type &quot;bijgehouden&quot; (zie deze [pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Er wordt geen rekening gehouden met abonnements- en spiegelpaginakoppelingen.
 
 >[!IMPORTANT]
 >
