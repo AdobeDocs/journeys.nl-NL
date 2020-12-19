@@ -45,11 +45,11 @@ Dit zijn de belangrijkste stappen voor de configuratie van databronnen:
 
 1. Klik in het bovenste menu op het tabblad **[!UICONTROL Data Sources]**.
 
-   De lijst met databronnen wordt weergegeven. See [this page](../about/user-interface.md) for more information on the interface.
+   De lijst met databronnen wordt weergegeven. Zie [deze pagina](../about/user-interface.md) voor meer informatie over de interface.
 
    ![](../assets/journey18.png)
 
-1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
+1. Vervolgens kunt u veldgroepen toevoegen aan de ingebouwde gegevensbron (zie [deze pagina](../datasource/adobe-experience-platform-data-source.md)) of een nieuwe externe gegevensbron maken (zie [deze pagina](../datasource/external-data-sources.md)) en bijbehorende veldgroepen (zie [deze pagina](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 
