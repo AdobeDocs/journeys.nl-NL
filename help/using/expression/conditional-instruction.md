@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Voorwaardelijke instructie (indien, then, else) {#section_cdz_lsk_w3b}
+# Voorwaardelijke instructie (if, then, else) {#section_cdz_lsk_w3b}
 
 De voorwaardelijke instructie (als vervolgens anders) wordt ondersteund in de geavanceerde editor. Hiermee kunnen complexere expressies worden gedefinieerd. Het bestaat uit de volgende elementen:
 
@@ -32,9 +32,9 @@ else
    (<expression3>)
 ```
 
-`<expression1>` moet een **booleaanse waarde** retourneren.
+`<expression1>` moet een  **booleaanse waarde** retourneren.
 
-`<expression2>` en `<expression3>` moeten hetzelfde type of compatibele typen hebben. De ondersteunde handtekeningen en geretourneerde typen zijn:
+`<expression2>` en  `<expression3>` moeten hetzelfde type of compatibele typen hebben. De ondersteunde handtekeningen en geretourneerde typen zijn:
 
 ```
 boolean,boolean : boolean
