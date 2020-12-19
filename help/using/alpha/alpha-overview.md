@@ -16,8 +16,8 @@ ht-degree: 28%
 
 Het Alfa-programma biedt functies die momenteel bij een beperkt aantal klanten worden getest. Deze functies zijn niet beschikbaar voor alle Journey Orchestration-klanten.
 
-Deze sectie richt zich slechts op de Alpha- eigenschappen. Als u geen deel uitmaakt van het Alpha- programma en u meer over de andere eigenschappen van Journey Orchestration wilt weten, verwijs naar de andere secties van deze [documentatie](../../journey-orchestration-home.md).
+Deze sectie richt zich slechts op de Alpha- eigenschappen. Als u geen deel van het Alpha- programma bent en u meer over de andere eigenschappen van Journey Orchestration wilt weten, verwijs naar de andere secties van dit [documentatie](../../journey-orchestration-home.md).
 
-Als u geïnteresseerd bent in deelname aan dit Alpha-programma, vult [dit formulier](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4RuhNDklrkhHrsBisppjRThURDJTTUxWSTBJQU1OSTBTVjMwUDRIQURDNS4u) in en we gaan terug naar u.
+Als u geïnteresseerd bent in deelname aan dit Alfa-programma, vult u [dit formulier](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4RuhNDklrkhHrsBisppjRThURDJTTUxWSTBJQU1OSTBTVjMwUDRIQURDNS4u) in en keert u terug.
 
 
