@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ![](../assets/messageparameterssection.png)
 
-Plak in de **[!UICONTROL Message parameters]** sectie een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
+Plak in de sectie **[!UICONTROL Message parameters]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
 
 ![](../assets/customactionpayloadmessage.png)
 
