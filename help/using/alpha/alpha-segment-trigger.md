@@ -26,21 +26,21 @@ Laten we zeggen dat je een Gold-klantensegment hebt op Adobe Experience Platform
 
 >[!NOTE]
 >
->U kunt geen sprong en een **Gelezen segmentactiviteit** in de zelfde reis hebben. U kunt niet naar een reis springen die met een gebeurtenis van het **Gelezen segment** begint.
+>U kunt geen sprong en een **Gelezen segment** activiteit in de zelfde reis hebben. U kunt niet naar een reis springen die met een **Read segment** gebeurtenis begint.
 
-## De activiteit configureren {#configuring-segment-trigger-activity}
+## De activiteit {#configuring-segment-trigger-activity} configureren
 
 >[!NOTE]
 >
 >Vanwege de vertraging bij de segmentuitvoer is het niet mogelijk om een op segmenten gebaseerde reis binnen een kortere periode dan 1 uur te activeren.
 
-1. Ontvouw de **[!UICONTROL Orchestration]** categorie en laat een **[!UICONTROL Read Segment]** activiteit op uw canvas vallen.
+1. Ontvouw de **[!UICONTROL Orchestration]** categorie en laat vallen een **[!UICONTROL Read Segment]** activiteit in uw canvas.
 
    De activiteit moet als eerste stap van een reis worden geplaatst.
 
 1. Voeg een **[!UICONTROL Label]** aan de activiteit (facultatief) toe.
 
-1. Kies in het **[!UICONTROL Segment]** veld het Adobe Experience Platform-segment dat de rit moet ingaan en klik op **[!UICONTROL Save]**.
+1. Kies in het veld **[!UICONTROL Segment]** het Adobe Experience Platform-segment dat de rit moet ingaan en klik vervolgens op **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
@@ -48,41 +48,41 @@ Laten we zeggen dat je een Gold-klantensegment hebt op Adobe Experience Platform
 
    ![](../assets/segment-trigger-segment-selection.png)
 
-   Zodra het segment wordt toegevoegd, staat de **[!UICONTROL Copy]** knoop u toe om zijn naam en identiteitskaart te kopiëren:
+   Zodra het segment wordt toegevoegd, staat **[!UICONTROL Copy]** knoop u toe om zijn naam en identiteitskaart te kopiëren:
 
    `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/segment-trigger-copy.png)
 
-1. Kies in het **[!UICONTROL Namespace]** veld de naamruimte die u wilt gebruiken om de personen te identificeren. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
+1. Kies in het veld **[!UICONTROL Namespace]** de naamruimte die u wilt gebruiken om de personen te identificeren. Raadpleeg [deze sectie](../event/selecting-the-namespace.md) voor meer informatie over naamruimten.
 
    >[!NOTE]
    >
    >Personen die behoren tot een segment dat niet de geselecteerde identiteit (naamruimte) onder hun verschillende identiteiten heeft, kunnen de reis niet betreden.
 
-1. De **[!UICONTROL Read Segment]** activiteit staat u toe om de tijd te specificeren waarop het segment de reis zal ingaan. Om dit te doen, klik de **[!UICONTROL Edit journey schedule]** verbinding om tot de eigenschappen van de reis toegang te hebben, dan vorm het **[!UICONTROL Scheduler type]** gebied.
+1. Met de **[!UICONTROL Read Segment]**-activiteit kunt u opgeven op welk tijdstip het segment de reis moet betreden. Om dit te doen, klik **[!UICONTROL Edit journey schedule]** verbinding om tot de eigenschappen van de reis toegang te hebben, dan vorm **[!UICONTROL Scheduler type]** gebied.
 
    ![](../assets/segment-trigger-schedule.png)
 
-   Standaard komen segmenten de reis binnen, **[!UICONTROL As soon as possible]** dat wil zeggen 1 uur nadat de reis is gepubliceerd. Als u wilt dat het segment de reis op een specifieke datum/tijd of op een terugkomende basis ingaat, selecteer de gewenste waarde van de lijst.
+   Standaard komen segmenten **[!UICONTROL As soon as possible]** op de reis. Dit betekent 1 uur na publicatie van de reis. Als u wilt dat het segment de reis op een specifieke datum/tijd of op een terugkomende basis ingaat, selecteer de gewenste waarde van de lijst.
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Schedule]** sectie is alleen beschikbaar wanneer een **[!UICONTROL Read Segment]** activiteit op het canvas is neergezet.
+   >De sectie **[!UICONTROL Schedule]** is alleen beschikbaar wanneer een activiteit **[!UICONTROL Read Segment]** op het canvas is neergezet.
 
    ![](../assets/segment-trigger-properties.png)
 
-## Testen en publiceren van de reis {#testing-publishing}
+## De reis testen en publiceren {#testing-publishing}
 
-Met deze **[!UICONTROL Read Segment]** activiteit kunt u de reis testen op een uniform profiel of op 100 willekeurig gekozen testprofielen uit de profielen die voor het segment in aanmerking komen.
+Met de **[!UICONTROL Read Segment]**-activiteit kunt u de reis testen op een uniform profiel of op 100 willekeurig gekozen testprofielen uit de profielen die voor het segment in aanmerking komen.
 
 Hiervoor activeert u de testmodus en selecteert u de gewenste optie in het linkerdeelvenster.
 
 ![](../assets/segment-trigger-test-modes.png)
 
-U kunt de testwijze dan vormen en in werking stellen zoals gebruikelijk. Gedetailleerde stappen voor het testen van een reis worden in [dit gedeelte](../building-journeys/testing-the-journey.md)beschreven.
+U kunt de testwijze dan vormen en in werking stellen zoals gebruikelijk. Gedetailleerde stappen voor het testen van een reis worden beschreven in [deze sectie](../building-journeys/testing-the-journey.md).
 
-Als de test eenmaal is uitgevoerd, kunt u met de **[!UICONTROL Show logs]** knop de testresultaten weergeven volgens de geselecteerde testoptie:
+Wanneer de test is uitgevoerd, kunt u met de knop **[!UICONTROL Show logs]** de testresultaten weergeven volgens de geselecteerde testoptie:
 
 * **[!UICONTROL Single profile at a time]**: de teststammen bevatten dezelfde informatie als wanneer de monitaire testmodus wordt gebruikt. Raadpleeg [deze sectie](../building-journeys/testing-the-journey.md#viewing_logs) voor meer informatie
 
@@ -92,7 +92,7 @@ Als de test eenmaal is uitgevoerd, kunt u met de **[!UICONTROL Show logs]** knop
 
    ![](../assets/read-segment-log.png)
 
-Zodra de tests succesvol zijn, kunt u uw reis publiceren (zie het [Publiceren van de reis](../building-journeys/publishing-the-journey.md)). Personen die tot het segment behoren, komen de reis binnen op de datum/tijd die in de **[!UICONTROL Scheduler]** afdeling Eigenschappen van de reis is vermeld.
+Zodra de tests succesvol zijn, kunt u uw reis publiceren (zie [Publicerend de reis](../building-journeys/publishing-the-journey.md)). Personen die tot het segment behoren, komen de reis binnen op de datum/tijd die in de sectie **[!UICONTROL Scheduler]** in de eigendommen van de reis is vermeld.
 
 >[!NOTE]
 >
