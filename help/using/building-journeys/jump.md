@@ -1,18 +1,18 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Overstappen van de ene reis naar de andere
-description: Overstappen van de ene reis naar de andere
+title: Van de ene journey naar de andere gaan
+description: Van de ene journey naar de andere gaan
 translation-type: tm+mt
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Van de ene reis naar de andere {#jump}
+# Van de ene journey naar de andere gaan {#jump}
 
 Met de actie **[!UICONTROL Jump]** kunt u personen van de ene reis naar de andere verplaatsen. Met deze functie kunt u:
 
@@ -43,7 +43,7 @@ In reis B wordt het eerste evenement intern geactiveerd via de **[!UICONTROL Jum
 >
 >Reis B kan ook worden geactiveerd via een externe gebeurtenis.
 
-## Aanbevolen werkwijzen en beperkingen
+## Best practices en beperkingen
 
 ### Authoring
 
