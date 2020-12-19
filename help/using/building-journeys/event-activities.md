@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Gebeurtenisactiviteiten {#concept_rws_1rt_52b}
 
-De gebeurtenissen die door de technische gebruiker worden geconfigureerd (zie [deze pagina](../event/about-events.md)) worden allemaal weergegeven in de eerste categorie van het palet, links op het scherm.
+De gebeurtenissen die door de technische gebruiker worden gevormd (zie [deze pagina](../event/about-events.md)) worden allen getoond in de eerste categorie van het palet, op de linkerkant van het scherm.
 
 ![](../assets/journey43.png)
 
@@ -22,7 +22,7 @@ Begin altijd uw reis door een gebeurtenisactiviteit te slepen en neer te zetten.
 
 ![](../assets/journey44.png)
 
-Wanneer u op de gebeurtenisactiviteit in het canvas klikt, wordt de ruit van de activiteitenconfiguratie getoond. Wanneer u dezelfde gebeurtenis meerdere keren gebruikt, wordt standaard een verhoogd getal toegevoegd aan de naam van de gebeurtenis op het canvas. Bovendien kunt u het **[!UICONTROL Label]** veld gebruiken om een achtervoegsel toe te voegen aan de naam van de gebeurtenis die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u gebeurtenissen op het canvas wilt identificeren, vooral als u dezelfde gebeurtenis meerdere keren gebruikt. Het zal ook het zuiveren in het geval van fouten gemakkelijker maken en het zal rapporten gemakkelijker te lezen maken.
+Wanneer u op de gebeurtenisactiviteit in het canvas klikt, wordt de ruit van de activiteitenconfiguratie getoond. Wanneer u dezelfde gebeurtenis meerdere keren gebruikt, wordt standaard een verhoogd getal toegevoegd aan de naam van de gebeurtenis op het canvas. Daarnaast kunt u het veld **[!UICONTROL Label]** gebruiken om een achtervoegsel toe te voegen aan de naam van de gebeurtenis die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u gebeurtenissen op het canvas wilt identificeren, vooral als u dezelfde gebeurtenis meerdere keren gebruikt. Het zal ook het zuiveren in het geval van fouten gemakkelijker maken en het zal rapporten gemakkelijker te lezen maken.
 
 ![](../assets/journey33.png)
 
@@ -34,11 +34,11 @@ De reis zal dan aan de gebeurtenis tijdens de tijd luisteren die in de timeout w
 
 Voer de volgende stappen uit om een time-out voor een gebeurtenis te configureren:
 
-1. Activeer de **[!UICONTROL Enable the event timeout]** optie vanuit de eigenschappen van de gebeurtenis.
+1. Activeer de optie **[!UICONTROL Enable the event timeout]** uit de eigenschappen van de gebeurtenis.
 
 1. Geef op hoeveel tijd de reis moet wachten op de gebeurtenis.
 
-1. Schakel de **[!UICONTROL Set the timeout path]** optie in als u de personen naar een time-outpad wilt sturen wanneer geen gebeurtenis binnen de opgegeven time-out wordt ontvangen. Als deze optie niet wordt ingeschakeld, eindigt de reis voor het individu zodra de time-out is bereikt.
+1. Schakel de optie **[!UICONTROL Set the timeout path]** in als u de personen naar een time-outpad wilt sturen wanneer er geen gebeurtenis binnen de opgegeven time-out is ontvangen. Als deze optie niet wordt ingeschakeld, eindigt de reis voor het individu zodra de time-out is bereikt.
 
    ![](../assets/event-timeout.png)
 
@@ -49,6 +49,6 @@ In dit voorbeeld, verzendt de reis een eerste welkome duw naar een klant. Het ve
 
 Merk op dat als u een onderbreking op veelvoudige gebeurtenissen wilt vormen die na een **[!UICONTROL Wait]** activiteit worden geplaatst, u onderbreking op één van deze gebeurtenissen slechts moet vormen.
 
-De time-out wordt toegepast op alle gebeurtenissen die na de **[!UICONTROL Wait]** activiteit worden geplaatst. Als er geen gebeurtenis wordt ontvangen na de opgegeven time-out, gaan de personen naar één enkel time-outpad of beëindigen ze hun reis.
+De time-out wordt toegepast op alle gebeurtenissen die na de activiteit **[!UICONTROL Wait]** zijn geplaatst. Als er geen gebeurtenis wordt ontvangen na de opgegeven time-out, gaan de personen naar één enkel time-outpad of beëindigen ze hun reis.
 
 ![](../assets/event-timeout-group.png)
