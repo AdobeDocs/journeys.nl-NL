@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## Toegang tot [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right, then click **[!UICONTROL Journey Orchestration]**.
+Als u de interface van [!DNL Journey Orchestration] wilt openen, klikt u op het pictogram **[!UICONTROL App Selector]** rechtsboven en klikt u op **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -138,7 +138,7 @@ _Op het canvas van een journey:_
 _Op een reis:_
 
 * Druk op **T** om de testmodus in of uit te schakelen.
-* Druk in de testmodus op een op gebeurtenissen gebaseerde reis op **E** om een gebeurtenis te activeren.
+* Druk in de testmodus op **E** om een gebeurtenis te activeren.
 * Als in de testmodus de optie **Eén profiel tegelijk** is geselecteerd voor een op een segment gebaseerde reis, drukt u op **P** om een gebeurtenis te activeren.
 * Druk in de testmodus op **L** om de logbestanden weer te geven.
 
