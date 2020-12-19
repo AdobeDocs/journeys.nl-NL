@@ -27,7 +27,7 @@ Er zijn vier soorten voorwaarden beschikbaar:
 
 Wanneer u verschillende voorwaarden in een reis gebruikt, kunt u labels voor elk van deze voorwaarden definiëren om ze gemakkelijker te kunnen identificeren.
 
-Klik **[!UICONTROL Add a path]** als u meerdere voorwaarden wilt definiëren. Voor elke voorwaarde wordt een nieuw pad toegevoegd in het canvas na de activiteit.
+Klik **[!UICONTROL Add a path]** als u verscheidene voorwaarden wilt bepalen. Voor elke voorwaarde wordt een nieuw pad toegevoegd in het canvas na de activiteit.
 
 ![](../assets/journey47.png)
 
@@ -37,7 +37,7 @@ Laten we bijvoorbeeld het voorbeeld nemen van de voorwaarde &#39;De persoon is e
 
 ![](../assets/journey48.png)
 
-U kunt een ander pad maken voor soorten publiek die niet in aanmerking komen voor de gedefinieerde voorwaarden door dit te controleren **[!UICONTROL Show path for other cases than the one(s) above]**. Deze optie is niet beschikbaar in gesplitste omstandigheden. Zie [Percentage splitsing](#percentage_split).
+U kunt een ander pad maken voor soorten publiek die niet in aanmerking komen voor de gedefinieerde voorwaarden door **[!UICONTROL Show path for other cases than the one(s) above]** te controleren. Deze optie is niet beschikbaar in gesplitste omstandigheden. Zie [Percentage splitsing](#percentage_split).
 
 In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een combinatie van velden. Alle beschikbare velden worden links op het scherm weergegeven. Sleep velden naar de hoofdzone. Als u de verschillende elementen wilt combineren, koppelt u ze aan elkaar om verschillende groepen en/of groepsniveaus te maken. Vervolgens kiest u een logische operator om elementen op hetzelfde niveau te combineren:
 
@@ -46,7 +46,7 @@ In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een 
 
 ![](../assets/journey64.png)
 
-Als u de [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) gebruikt om uw segmenten te creëren, kunt u hen in uw reisvoorwaarden hefboomwerking. Zie Segmenten [gebruiken in voorwaarden](../segment/using-a-segment.md).
+Als u [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) gebruikt om uw segmenten tot stand te brengen, kunt u hen in uw reisvoorwaarden hefboomwerking. Zie [Segmenten gebruiken in condities](../segment/using-a-segment.md).
 
 
 >[!NOTE]
@@ -57,7 +57,7 @@ Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey 
 
 ## Gegevensbronvoorwaarde {#data_source_condition}
 
-Hierdoor kunt u een voorwaarde definiëren op basis van velden uit de gegevensbronnen of de gebeurtenissen die eerder in de reis zijn geplaatst. Zie [deze pagina](../expression/expressionadvanced.md)voor meer informatie over het gebruik van de expressieeditor. Met de geavanceerde expressieeditor kunt u geavanceerdere voorwaarden instellen voor het manipuleren van verzamelingen of het gebruik van gegevensbronnen waarvoor parameters moeten worden doorgegeven. Zie [deze pagina](../datasource/external-data-sources.md).
+Hierdoor kunt u een voorwaarde definiëren op basis van velden uit de gegevensbronnen of de gebeurtenissen die eerder in de reis zijn geplaatst. Om te leren hoe te om de uitdrukkingsredacteur te gebruiken, zie [deze pagina](../expression/expressionadvanced.md). Met de geavanceerde expressieeditor kunt u geavanceerdere voorwaarden instellen voor het manipuleren van verzamelingen of het gebruik van gegevensbronnen waarvoor parameters moeten worden doorgegeven. Zie [deze pagina](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
