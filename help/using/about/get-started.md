@@ -14,7 +14,7 @@ ht-degree: 87%
 
 # Aan de slag{#concept_y4b_4qt_52b}
 
-In [!DNL Journey Orchestration] zijn er twee soorten gebruikers die elk hun eigen specifieke taken uitvoeren: de **technische gebruiker** en de **zakelijke gebruiker**. Gebruikerstoegang wordt beheerd via productprofielen en rechten. Refer to [this page](../about/access-management.md) to learn how to configure user access.
+In [!DNL Journey Orchestration] zijn er twee soorten gebruikers die elk hun eigen specifieke taken uitvoeren: de **technische gebruiker** en de **zakelijke gebruiker**. Gebruikerstoegang wordt beheerd via productprofielen en rechten. Raadpleeg [deze pagina](../about/access-management.md) voor meer informatie over het configureren van gebruikerstoegang.
 
 Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DNL Journey Orchestration]:
 
@@ -56,7 +56,7 @@ Hier volgen de belangrijkste stappen voor het configureren en gebruiken van [!DN
 
    U moet de journey valideren en activeren. Deze stap wordt uitgevoerd door een **zakelijke gebruiker**.
 
-   Zie voor meer informatie de pagina&#39;s [Testing the trip](../building-journeys/testing-the-journey.md) and [Publishing the trip](../building-journeys/publishing-the-journey.md).
+   Zie de pagina&#39;s [De reis testen](../building-journeys/testing-the-journey.md) en [De reis publiceren](../building-journeys/publishing-the-journey.md) voor meer informatie.
 
    ![](../assets/journeyuc2_32bis.png)
 
