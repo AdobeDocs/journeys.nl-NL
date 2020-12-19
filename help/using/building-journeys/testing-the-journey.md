@@ -22,19 +22,19 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
 1. Controleer voordat u de reis test of deze geldig is en of er geen fout optreedt. U kunt een test van een reis met fouten niet starten. Zie [deze sectie](../about/troubleshooting.md#section_h3q_kqk_fhb). Er wordt een waarschuwingssymbool weergegeven wanneer er fouten optreden.
 
-1. U activeert de testmodus door te klikken op de **[!UICONTROL Test]** schakeloptie in de rechterbovenhoek.
+1. U activeert de testmodus door te klikken op de schakeloptie **[!UICONTROL Test]** in de rechterbovenhoek.
 
    ![](../assets/journeytest1.png)
 
-1. Gebruik de **[!UICONTROL Wait time in test]** parameter, in de bodem linkerhoek, om de tijd te bepalen dat elke wachttijdactiviteit op testwijze zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Deze parameter verschijnt slechts als u één of meerdere wachtactiviteiten in uw reis hebt gelaten vallen.
+1. Gebruik de parameter **[!UICONTROL Wait time in test]** in de linkerbenedenhoek om de tijd te bepalen dat elke wachtactiviteit op testwijze zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Deze parameter verschijnt slechts als u één of meerdere wachtactiviteiten in uw reis hebt gelaten vallen.
 
    ![](../assets/journeytest_wait.png)
 
-1. Klik **[!UICONTROL Trigger an event]** om gebeurtenissen aan de reis te vormen en te verzenden. Zorg ervoor dat u gebeurtenissen verzendt die betrekking hebben op testprofielen. Zie [Uw gebeurtenissen](#firing_events)starten.
+1. Klik **[!UICONTROL Trigger an event]** om gebeurtenissen aan de reis te vormen en te verzenden. Zorg ervoor dat u gebeurtenissen verzendt die betrekking hebben op testprofielen. Zie [Gebeurtenissen parseren](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
-1. Nadat de gebeurtenissen worden ontvangen, klik de **[!UICONTROL Show log]** knoop om het testresultaat te bekijken en hen te verifiëren. Zie De logboeken [weergeven](#viewing_logs).
+1. Nadat de gebeurtenissen worden ontvangen, klik **[!UICONTROL Show log]** knoop om het testresultaat te bekijken en hen te verifiëren. Zie [Logboeken weergeven](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
@@ -50,9 +50,9 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 * U kunt de testmodus zo vaak als nodig in- en uitschakelen.
 * U kunt uw reis niet wijzigen wanneer de testwijze wordt geactiveerd. In de testmodus kunt u de rit rechtstreeks publiceren. U hoeft de testmodus daarvoor niet te deactiveren.
 
-## Creating a test profile{#create-test-profile}
+## Een testprofiel maken{#create-test-profile}
 
-Het maken van een testprofiel gebeurt op dezelfde manier als wanneer u een profiel maakt in de Adobe Experience Platform. Het wordt uitgevoerd door API vraag. See this [page](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)
+Het maken van een testprofiel gebeurt op dezelfde manier als wanneer u een profiel maakt in de Adobe Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [pagina](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)
 
 U moet een profielschema gebruiken dat de &quot;details van de profieltest&quot;mengen bevat. De markering testProfile maakt deel uit van deze mix.
 
@@ -104,9 +104,9 @@ curl -X POST \
 }'
 ```
 
-## Gebeurtenissen starten {#firing_events}
+## Gebeurtenissen {#firing_events} laten branden
 
-De **[!UICONTROL Trigger an event]** knoop staat u toe om een gebeurtenis te vormen die een persoon de reis zal maken.
+Met de knop **[!UICONTROL Trigger an event]** kunt u een gebeurtenis configureren waardoor een persoon de reis betreedt.
 
 >[!NOTE]
 >
@@ -118,13 +118,13 @@ Als uw reis verscheidene gebeurtenissen bevat, gebruik de drop-down lijst om een
 
 ![](../assets/journeytest4.png)
 
-Met de interface kunt u eenvoudige gebeurtenisparameters doorgeven. Als u verzamelingen of andere geavanceerde objecten in de gebeurtenis wilt doorgeven, kunt u op klikken **[!UICONTROL Code View]** om de volledige code van de laadbewerking te zien en deze te wijzigen. U kunt bijvoorbeeld gebeurtenisgegevens kopiëren en plakken die door een technische gebruiker zijn voorbereid.
+Met de interface kunt u eenvoudige gebeurtenisparameters doorgeven. Als u verzamelingen of andere geavanceerde objecten in de gebeurtenis wilt doorgeven, kunt u op **[!UICONTROL Code View]** klikken om de volledige code van de lading te zien en het te wijzigen. U kunt bijvoorbeeld gebeurtenisgegevens kopiëren en plakken die door een technische gebruiker zijn voorbereid.
 
 ![](../assets/journeytest5.png)
 
 Een technische gebruiker kan deze interface ook gebruiken om gebeurtenislading samen te stellen en gebeurtenissen teweeg te brengen zonder het moeten een derdehulpmiddel gebruiken.
 
-Wanneer u op de **[!UICONTROL Send]** knop klikt, wordt de test gestart. De voortgang van het individu tijdens de reis wordt weergegeven door een visuele stroom. Het pad wordt steeds groen naarmate het individu over de reis beweegt. Als er een fout optreedt, wordt er een waarschuwingssymbool weergegeven bij de bijbehorende stap. U kunt de cursor erop plaatsen om meer informatie over de fout weer te geven en volledige details te openen (indien beschikbaar).
+Wanneer u op de knop **[!UICONTROL Send]** klikt, wordt de test gestart. De voortgang van het individu tijdens de reis wordt weergegeven door een visuele stroom. Het pad wordt steeds groen naarmate het individu over de reis beweegt. Als er een fout optreedt, wordt er een waarschuwingssymbool weergegeven bij de bijbehorende stap. U kunt de cursor erop plaatsen om meer informatie over de fout weer te geven en volledige details te openen (indien beschikbaar).
 
 ![](../assets/journeytest6.png)
 
@@ -134,19 +134,19 @@ Wanneer u een rit tijdens de test opent, komt het weergegeven pad overeen met de
 
 De visuele stroom werkt of de gebeurtenis via de interface of extern (bijvoorbeeld met Postman) wordt geactiveerd.
 
-## Testmodus voor op regels gebaseerde reizen {#test-rule-based}
+## Testmodus voor regelreizen {#test-rule-based}
 
-De testmodus is ook beschikbaar voor reizen die een op regels gebaseerde gebeurtenis gebruiken. For more information on rule-based events, refer to [this page](../event/about-events.md).
+De testmodus is ook beschikbaar voor reizen die een op regels gebaseerde gebeurtenis gebruiken. Voor meer informatie over op regel-gebaseerde gebeurtenissen, verwijs naar [deze pagina](../event/about-events.md).
 
-Wanneer u een gebeurtenis activeert, kunt u in het configuratiescherm **Gebeurtenis** de gebeurtenisparameters definiëren die tijdens de test moeten worden doorgegeven. U kunt de voorwaarde van de gebeurtenis-identiteitskaart bekijken door het tooltip pictogram in de hoogste juiste hoek te klikken. Er is ook knopinfo beschikbaar naast elk veld dat deel uitmaakt van de regelevaluatie.
+Wanneer u een gebeurtenis activeert, kunt u met het scherm **Gebeurtenisconfiguratie** de gebeurtenisparameters definiëren die tijdens de test moeten worden doorgegeven. U kunt de voorwaarde van de gebeurtenis-identiteitskaart bekijken door het tooltip pictogram in de hoogste juiste hoek te klikken. Er is ook knopinfo beschikbaar naast elk veld dat deel uitmaakt van de regelevaluatie.
 
 ![](../assets/alpha-event8.png)
 
-Raadpleeg [deze pagina](../building-journeys/testing-the-journey.md)voor meer informatie over het gebruik van de testmodus.
+Raadpleeg [deze pagina](../building-journeys/testing-the-journey.md) voor meer informatie over het gebruik van de testmodus.
 
-## Logboeken weergeven {#viewing_logs}
+## Logbestanden bekijken {#viewing_logs}
 
-Met de **[!UICONTROL Show log]** knop kunt u de testresultaten bekijken. Op deze pagina worden de huidige gegevens van de reis in JSON-indeling weergegeven. Met een knop kunt u hele knooppunten kopiëren. U moet de pagina handmatig vernieuwen om de testresultaten van de reis bij te werken.
+Met de knop **[!UICONTROL Show log]** kunt u de testresultaten bekijken. Op deze pagina worden de huidige gegevens van de reis in JSON-indeling weergegeven. Met een knop kunt u hele knooppunten kopiëren. U moet de pagina handmatig vernieuwen om de testresultaten van de reis bij te werken.
 
 ![](../assets/journeytest3.png)
 
@@ -158,9 +158,9 @@ Het aantal personen (technisch gesproken worden ze instanties genoemd) dat zich 
 
 * _Id_: de interne identiteitskaart van de persoon tijdens de reis. Dit kan voor het zuiveren doeleinden worden gebruikt.
 * _huidige_ stap: de stap waar het individu op de reis is. We raden u aan labels aan uw activiteiten toe te voegen om ze gemakkelijker te kunnen identificeren.
-* _currentstep_ > phase: de status van de reis van de betrokkene (aflopend, voltooid, fout of time-out). Zie hieronder voor meer informatie.
-* _currentstep_ > _extraInfo_: beschrijving van de fout en andere contextuele informatie.
-* _currentStep_ > _fetchErrors_: informatie over de fouten van de ophaalgegevens die tijdens deze stap voorkwamen.
+* _currentstep_ > fase: de status van de reis van de betrokkene (aflopend, voltooid, fout of time-out). Zie hieronder voor meer informatie.
+* _currentstep_ >  _extraInfo_: beschrijving van de fout en andere contextuele informatie.
+* _currentstep_ >  _fetchErrors_: informatie over de fouten van de ophaalgegevens die tijdens deze stap voorkwamen.
 * _externalKeys_: de waarde voor de sleutelformule die in de gebeurtenis wordt bepaald.
 * _enrichedData_: de gegevens die de reis heeft opgehaald als de reis gegevensbronnen gebruikt.
 * _transitionHistory_: de lijst met stappen die de persoon heeft gevolgd. Voor gebeurtenissen wordt de payload weergegeven.
