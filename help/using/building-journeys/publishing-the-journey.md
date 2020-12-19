@@ -21,7 +21,7 @@ Als u wijzigingen in een gepubliceerde reis moet aanbrengen, moet u een nieuwe v
 Als je een reis stopt, wordt deze definitief gestopt. Alle mensen die op de reis gaan, zullen permanent worden gestopt en de reis zal ophouden nieuwkomers toe te laten. Als u de reis opnieuw moet gebruiken, moet u het dupliceren en het publiceren.
 
 1. Controleer voordat u uw reis publiceert of deze geldig is en of er geen fout optreedt. U kunt geen reis met fouten publiceren. Zie [deze sectie](../about/troubleshooting.md#section_h3q_kqk_fhb). Het wordt ook aanbevolen uw reis vóór publicatie te testen. Zie [deze pagina](../building-journeys/testing-the-journey.md).
-1. Als u de rit wilt publiceren, klikt u op de **[!UICONTROL Publish]** optie in het keuzemenu rechtsboven.
+1. Als u de rit wilt publiceren, klikt u op de optie **[!UICONTROL Publish]** in de rechterbovenkeuzelijst.
 
    ![](../assets/journeyuc1_18.png)
 
