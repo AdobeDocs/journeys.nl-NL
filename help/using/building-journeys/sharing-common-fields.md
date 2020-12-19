@@ -12,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# journeysteps events common fields {#sharing-common-fields}
+# journaalgebeurtenissen gemeenschappelijke velden {#sharing-common-fields}
 
 Deze mixin wordt gedeeld door de tripStepEvent en tripStepProfileEvent.
 
-Dit zijn de gemeenschappelijke gebieden XDM die naar Adobe Experience Platform [!DNL Journey Orchestration] verzenden. Voor elke stap die op reis wordt verwerkt, worden gemeenschappelijke velden verzonden. Voor aangepaste handelingen en verbeteringen worden specifiekere velden gebruikt.
+Dit zijn de gemeenschappelijke gebieden XDM die [!DNL Journey Orchestration] naar Adobe Experience Platform verzendt. Voor elke stap die op reis wordt verwerkt, worden gemeenschappelijke velden verzonden. Voor aangepaste handelingen en verbeteringen worden specifiekere velden gebruikt.
 
 Sommige van deze velden zijn alleen beschikbaar in specifieke verwerkingspatronen (uitvoering van handelingen, ophalen van gegevens, enz.) om de omvang van gebeurtenissen te beperken.
 
@@ -75,7 +75,7 @@ Type: string
 Mogelijke waarden:
 
 * Voorwaarde
-* Handeling
+* Actie
 * De activiteit Planner
 * Timer
 
