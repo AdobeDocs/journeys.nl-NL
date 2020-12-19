@@ -34,7 +34,7 @@ Conversie
 
 >[!NOTE]
 >
->Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. For more information on data types, refer to [this page](../expression/data-types.md).
+>Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. Raadpleeg [deze pagina](../expression/data-types.md) voor meer informatie over gegevenstypen.
 
 ## Handtekeningen en geretourneerde typen
 
