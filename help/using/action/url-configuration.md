@@ -18,16 +18,16 @@ Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Con
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Add the **[!UICONTROL URL]** of the external service.
+1. Voeg de **[!UICONTROL URL]** van de externe service toe.
 
    >[!NOTE]
    >
    >We raden u uit beveiligingsoverwegingen sterk aan om HTTPS te gebruiken. Wij staan niet het gebruik van Adobe adressen toe die niet openbaar en het gebruik van IP adressen zijn.
 
-1. Selecteer de vraag **[!UICONTROL Method]**: het kan of **[!UICONTROL POST]** of **[!UICONTROL PUT]**.
-1. Klik in de **[!UICONTROL Headers]** sectie **[!UICONTROL Add a header field]** om een nieuw sleutel-/waardepaar te definiëren. Ze komen overeen met de HTTP-headers van de aanvraag die aan de externe service is gedaan. Als u sleutel-/waardeparen wilt verwijderen, plaatst u de cursor in het **[!UICONTROL Headers]** veld en klikt u op het **[!UICONTROL Delete]** pictogram.
+1. Selecteer de vraag **[!UICONTROL Method]**: kan **[!UICONTROL POST]** of **[!UICONTROL PUT]** zijn.
+1. Klik in de sectie **[!UICONTROL Headers]** op **[!UICONTROL Add a header field]** om een nieuw sleutel-/waardepaar te definiëren. Ze komen overeen met de HTTP-headers van de aanvraag die aan de externe service is gedaan. Als u sleutel-/waardeparen wilt verwijderen, plaatst u de cursor in het veld **[!UICONTROL Headers]** en klikt u op het pictogram **[!UICONTROL Delete]**.
 
-   **[!UICONTROL Content-Type]** en **[!UICONTROL Charset]** worden standaard ingesteld en kunnen niet worden verwijderd of overschreven.
+   **[!UICONTROL Content-Type]** en  **[!UICONTROL Charset]** worden standaard ingesteld en kunnen niet worden verwijderd of overschreven.
 
    >[!NOTE]
    >
