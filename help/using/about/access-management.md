@@ -139,6 +139,6 @@ In [!DNL Journey Orchestration] kunt u uw instantie partitioneren in afzonderlij
 Sandboxen worden toegewezen via productprofielen in de Admin Console. Raadpleeg deze [sectie](../about/access-management.md#create-product-profile)voor meer informatie over het toewijzen van sandboxen.
 
 [!DNL Journey Orchestration] weerspiegelt de Adobe Experience Platform-sandboxen die voor een bepaalde organisatie zijn gemaakt.
-U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe Experience Platform-instantie. Raadpleeg de [gebruikershandleiding voor sandboxen](https://docs.adobe.com/content/help/nl-NL/experience-platform/sandbox/ui/user-guide.html) voor gedetailleerde informatie.
+U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe Experience Platform-instantie. Raadpleeg de [gebruikershandleiding voor sandboxen](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) voor gedetailleerde informatie.
 
 U vindt de schakelfunctie voor sandboxen linksboven in het scherm. Als u van sandbox wilt wisselen, klikt u op de momenteel actieve sandbox in de schakelfunctie en selecteert u een andere sandbox in de vervolgkeuzelijst.
