@@ -23,7 +23,7 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 
 ## September 2020 {#september-2020}
 
-* De sectie van de interfacebeschrijving is bijgewerkt om op het nieuwe **Al selecteurenmenu** te wijzen. [Meer informatie](../about/user-interface.md)
+* De sectie van de interfacebeschrijving is bijgewerkt om op het nieuwe **Alle selecteur** menu te wijzen. [Meer informatie](../about/user-interface.md)
 * Een opmerking toegevoegd over de nieuwe versies van de segmentreizen die niet terugkerend zijn. [Meer informatie](../alpha/alpha-segment-trigger.md)
 
 ## Augustus 2020 {#august-2020}
