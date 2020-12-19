@@ -18,7 +18,7 @@ Controleert of een individu tot een bepaald segment behoort.
 
 De segmentnaam moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn.
 
-Segmenten worden gedefinieerd in de [Adobe Experience Platform](https://platform.adobe.com/segment/overview). De uitdrukkingsredacteur verstrekt een autocompleted lijst van segmenten.
+Segmenten worden gedefinieerd in [Adobe Experience Platform](https://platform.adobe.com/segment/overview). De uitdrukkingsredacteur verstrekt een autocompleted lijst van segmenten.
 
 >[!NOTE]
 >
@@ -50,4 +50,4 @@ Retourneert een Booleaanse waarde.
 
 Uitleg:
 
-De functie wordt geretourneerd **[!UICONTROL true]** als de persoon binnen de reisinstantie deel uitmaakt van het Adobe Experience Platform-segment met de naam &quot;mannen boven 50&quot;, **[!UICONTROL false]** anders.
+De functie zal **[!UICONTROL true]** terugkeren als het individu binnen de reisinstantie deel van het segment van Adobe Experience Platform genoemd &quot;mannen over 50&quot; uitmaakt, anders **[!UICONTROL false]**.
