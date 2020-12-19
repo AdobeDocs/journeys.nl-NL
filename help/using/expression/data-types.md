@@ -18,7 +18,7 @@ Technisch gesproken bevat een constante altijd een gegevenstype. In de letterlij
 
 In de onderstaande secties vindt u informatie over de verschillende expressies van gegevenstypen en hoe deze worden weergegeven.
 
-## string {#string}
+## tekenreeks {#string}
 
 **Beschrijving**
 
@@ -118,7 +118,7 @@ false
 true
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **Beschrijving**
 
@@ -262,7 +262,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## list {#list}
+## lijst {#list}
 
 **Beschrijving**
 
