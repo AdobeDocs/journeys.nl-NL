@@ -22,7 +22,7 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 <table>
 <thead>
 <tr>
-<th><strong>Overstappen van de ene reis naar de andere</strong><br/></th>
+<th><strong>Van de ene journey naar de andere gaan</strong><br/></th>
 </tr>
 </thead>
 <tbody>
