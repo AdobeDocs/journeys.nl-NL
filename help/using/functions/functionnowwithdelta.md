@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # nowWithDelta {#nowWithDelta}
 
-Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id wordt opgegeven, wordt de verschuiving van de tijdzone toegepast. For more information on data types, refer to [this page](../expression/data-types.md).
+Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id wordt opgegeven, wordt de verschuiving van de tijdzone toegepast. Raadpleeg [deze pagina](../expression/data-types.md) voor meer informatie over gegevenstypen.
 
 ## Categorie
 
@@ -30,7 +30,7 @@ Datum
 |--- |--- |
 | delta | positieve of negatieve gehele waarde |
 | datumonderdeel | jaar, maanden, dagen, uren, minuten of seconden als een tekenreeks |
-| tijdzone-id | tekenreeksrepresentatie van de tijdzonewaarde. Zie [Gegevenstypen](../expression/data-types.md)voor meer informatie. Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. |
+| tijdzone-id | tekenreeksrepresentatie van de tijdzonewaarde. Zie [Gegevenstypen](../expression/data-types.md) voor meer informatie. Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. |
 
 ## Handtekeningen en type geretourneerd
 
