@@ -34,7 +34,7 @@ Er zijn twee soorten operatoren: unaire operatoren en binaire operatoren. Er zij
 
 Hier volgt een lijst met ondersteunde operatoren:
 
-## Logisch  {#logical}
+## Logisch {#logical}
 
 ### en
 
@@ -74,7 +74,7 @@ Voorbeeld:
 not <expression>
 ```
 
-&lt;expression> moet Boolean zijn. Het resultaat is booleaans.
+&lt;expression> moet Booleaans zijn. Het resultaat is booleaans.
 
 Voorbeeld:
 
@@ -230,7 +230,7 @@ Voorbeeld:
 42 >= 3.14
 ```
 
-### &lt;
+### &lt;>
 
 
 
@@ -254,7 +254,7 @@ Voorbeeld:
 42 < 3.14
 ```
 
-### &lt;=
+### &lt;>
 
 
 
