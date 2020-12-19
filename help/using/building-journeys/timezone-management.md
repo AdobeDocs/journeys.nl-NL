@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Tijdzonebeheer {#timezone_management}
 
-U kunt een tijdzone in de [eigenschappen](../building-journeys/changing-properties.md) van uw reis bepalen.
+U kunt een tijdzone in [eigenschappen](../building-journeys/changing-properties.md) van uw reis bepalen.
 
 Als u eigenschappen wilt openen, klikt u op het potloodpictogram rechtsboven in het scherm.
 
@@ -28,7 +28,7 @@ Deze tijdzone wordt gebruikt voor elke activiteit van de reis die een tijdseleme
 
 U kunt een tijdzone selecteren of de tijdzone gebruiken die is gedefinieerd in het gebruikersprofiel.
 
-## Een vaste tijdzone definiëren {#fixed-timezone}
+## Een vaste tijdzone {#fixed-timezone} definiëren
 
 De tijdzone kan ook worden vastgesteld. Wis de vooraf gedefinieerde tijdzone en kies een tijdzone in de vervolgkeuzelijst. Als je een vaste tijdzone gebruikt, zal dat hetzelfde zijn voor iedereen die de reis binnenkomt.
 
@@ -36,7 +36,7 @@ U doet dit door in **[!UICONTROL Properties]** een tijdzone te selecteren.
 
 ![](../assets/journey73.png)
 
-## Profielen gebruiken om de tijdzone voor het transport te definiëren {#timezone-from-profiles}
+## Profielen gebruiken om de reistijdzone {#timezone-from-profiles} te definiëren
 
 Als de entry-gebeurtenis van de reis een naamruimte heeft, wat betekent dat de reis de Real-time dienst van het Profiel van de Klant van de Adobe Experience Platform kan bereiken, is de tijdzone vooraf gedefinieerd met die gespecificeerd in het profiel van de individuele die in de reis stroomt.
 
