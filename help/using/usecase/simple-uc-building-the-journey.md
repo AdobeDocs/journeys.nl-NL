@@ -16,16 +16,16 @@ ht-degree: 36%
 
 De **bedrijfsgebruiker** kan nu de journey bouwen. Onze reis zal slechts één weg met de volgende activiteiten omvatten:
 
-* het &quot;SpaBeacon&quot; **[!UICONTROL Event]**: wanneer een persoon in de buurt van het spa - baken loopt , zal het systeem een evenement ontvangen en zal de reis voor die persoon beginnen .
-* een **[!UICONTROL Condition]** activiteit om na te gaan of de persoon een vrouw is
+* de &quot;SpaBeacon&quot; **[!UICONTROL Event]**: wanneer een persoon in de buurt van het spa - baken loopt , zal het systeem een evenement ontvangen en zal de reis voor die persoon beginnen .
+* a **[!UICONTROL Condition]** activiteit om te controleren of de persoon een vrouw is
 * een **[!UICONTROL Email]** activiteit (met Adobe Campaign Standard)
-* an **[!UICONTROL End]** activity
+* een **[!UICONTROL End]** activiteit
 
 >[!NOTE]
 >
 >De **[!UICONTROL Push]**- en **[!UICONTROL Email]**-activiteiten zijn alleen beschikbaar in het palet als u Adobe Campaign Standard hebt.
 
-For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
+Raadpleeg [deze pagina](../building-journeys/journey.md) voor meer informatie over het maken van een reis.
 
 1. Klik in het bovenste menu op de tabbladen **[!UICONTROL Home]** en **[!UICONTROL Create]** om een nieuwe journey te maken.
 
@@ -47,15 +47,15 @@ For additional information on how to build a journey, refer to [this page](../bu
 
    ![](../assets/journeyuc1_11.png)
 
-1. Zoek met de eenvoudige expressie-editor naar het genderveld (_persoon > geslacht_) en zet dit naar rechts om de volgende voorwaarde te maken: &quot;geslacht is gelijk aan &quot;vrouw&quot;.
+1. Met de eenvoudige expressieeditor zoekt u het genderveld (_persoon > geslacht_) en zet u het naar rechts om de volgende voorwaarde te maken: &quot;geslacht is gelijk aan &quot;vrouw&quot;.
 
    ![](../assets/journeyuc1_12.png)
 
-1. Zet een **[!UICONTROL Email]** activiteit neer en selecteer uw transactiemalplaatje van de &quot;korting van de Buur&quot;transactie. Deze sjabloon is ontworpen met Adobe Campaign. Refer to this [page](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+1. Zet een **[!UICONTROL Email]** activiteit neer en selecteer uw transactiesjabloon van de &quot;korting van de Slag&quot;transactie overseinen. Deze sjabloon is ontworpen met Adobe Campaign. Zie deze [pagina](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Click inside the **[!UICONTROL Email]** field and select the email address from the data source.
+1. Klik in het veld **[!UICONTROL Email]** en selecteer het e-mailadres in de gegevensbron.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -67,7 +67,7 @@ For additional information on how to build a journey, refer to [this page](../bu
 
    ![](../assets/journeyuc1_17.png)
 
-1. Klik op de **[!UICONTROL Test]** knevel en test uw reis gebruikend testprofielen. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
+1. Klik op de schakeloptie **[!UICONTROL Test]** en test uw reis met testprofielen. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Raadpleeg [deze pagina](../building-journeys/testing-the-journey.md) voor meer informatie over de testmodus.
 
    ![](../assets/journeyuc1_18bis.png)
 
