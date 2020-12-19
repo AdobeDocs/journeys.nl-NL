@@ -20,19 +20,19 @@ Hier zijn beperkingen met betrekking tot het gebruik van Journey Orchestration.
 
 * Er is geen verzendvertraging. 
 * In het geval van een fout worden systematisch twee pogingen uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. 
-* Met de ingebouwde gebeurtenis **Reaction** kunt u reageren op acties die zich buiten het vak bevinden (zie deze [pagina](../building-journeys/reaction-events.md)). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
+* Met de ingebouwde **Reaction**-gebeurtenis kunt u reageren op acties die buiten de box vallen (zie deze [pagina](../building-journeys/reaction-events.md)). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
 * Er is geen sprake van een productieve integratie in Adobe Campaign Classic.
 
 ## Beperkingen van reisversies {#journey-versions-limitations}
 
-* een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een gebeurtenis van de Kwalificatie van het **Segment** beginnen.
-* een reis die met een activiteit begint van de Kwalificatie **van het** Segment in v1 moet altijd met een Kwalificatie **van het** Segment in verdere versies beginnen.
-* Het segment en de naamruimte die zijn gekozen in de **segmentkwalificatie** (eerste knooppunt), kunnen niet worden gewijzigd in nieuwe versies.
+* een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een **gebeurtenis van de Kwalificatie van het Segment** beginnen.
+* een reis die met een **Kwalificatie van het Segment** activiteit in v1 begint moet altijd met een **Kwalificatie van het Segment** in verdere versies beginnen.
+* Het segment en de naamruimte die worden gekozen in **Segmentkwalificatie** (eerste knooppunt) kunnen niet worden gewijzigd in nieuwe versies.
 * De re-entry regel moet het zelfde in alle reisversies zijn.
 
 ## Segmentkwalificatie {#segment-qualification}
 
-* De **de kwalificatieactiviteit** van het Segment kan niet samen met het Transactionele Overseinen van Adobe Campaign Standard wegens productiedruk worden gebruikt. Zie [Adobe Campaign Standard-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html). 
+* De **Segmentkwalificatie** activiteit kan niet samen met de Transactionele Overseinen van Adobe Campaign Standard wegens productiebeperkingen worden gebruikt. Zie [Adobe Campaign Standard-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Beperkingen voor aangepaste handelingen
@@ -46,7 +46,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van Journey Orchestration.
 
 ## Beperkingen Adobe Campaign-acties
 
-* Het Transactionele Overseinen van Adobe Campaign Standard heeft een schaal van 50 000 berichten per uur maximum over kanalen voor een bepaalde instantie. Zie [Adobe Campaign Standard-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html). 
+* Het Transactionele Overseinen van Adobe Campaign Standard heeft een schaal van 50 000 berichten per uur maximum over kanalen voor een bepaalde instantie. Zie [Adobe Campaign Standard-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Beperkingen voor gebeurtenissen
