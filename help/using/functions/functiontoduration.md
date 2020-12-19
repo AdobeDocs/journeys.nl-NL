@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # toDuration {#toDuration}
 
-Zet een argumentwaarde in een duur om. For more information on data types, refer to [this page](../expression/data-types.md).
+Zet een argumentwaarde in een duur om. Raadpleeg [deze pagina](../expression/data-types.md) voor meer informatie over gegevenstypen.
 
 ## Categorie
 
