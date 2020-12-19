@@ -57,7 +57,7 @@ Hier volgt een lijst met ondersteunde functies.
 | Datum | [setHours](../functions/functionsethours.md) |
 | Datum | [setDays](../functions/functionsetdays.md) |
 | Lijst | [distinct](../functions/functiondistinct.md) |
-| Lijst | [distinctCount](../functions/functiondistinctcount.md) |
+| Lijst | [differentCount](../functions/functiondistinctcount.md) |
 | Lijst | [in](../functions/functionin.md) |
 | Lijst | [listSize](../functions/functionlistsize.md) |
 | Lijst | [serializeList](../functions/functionserializelist.md) |
