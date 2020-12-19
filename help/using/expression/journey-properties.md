@@ -1,18 +1,18 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Reiseigenschappen
+title: Journeyeigenschappen
 description: Meer informatie over reiseigenschappen
 translation-type: tm+mt
 source-git-commit: 341138c31676870878099b4f4eecec200a614c69
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Reiseigenschappen {#journey-properties}
+# Journeyeigenschappen {#journey-properties}
 
 In de geavanceerde uitdrukkingsredacteur, zult u de **categorie van de Eigenschappen van de Reis**, onder de gebeurtenis en gegevensbroncategorieën vinden. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen.
 
