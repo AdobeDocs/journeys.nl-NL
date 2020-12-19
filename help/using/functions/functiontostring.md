@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # toString {#toString}
 
-Zet een argumentwaarde in een koordwaarde om, afhankelijk van zijn type. For more information on data types, refer to [this page](../expression/data-types.md).
+Zet een argumentwaarde in een koordwaarde om, afhankelijk van zijn type. Raadpleeg [deze pagina](../expression/data-types.md) voor meer informatie over gegevenstypen.
 
 ## Categorie
 
