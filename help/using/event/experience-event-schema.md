@@ -13,15 +13,15 @@ ht-degree: 0%
 
 
 
-# Over ExperienceEvent-schema&#39;s voor [!DNL Journey Orchestration] gebeurtenissen
+# Informatie over ExperienceEvent-schema&#39;s voor gebeurtenissen [!DNL Journey Orchestration]
 
 [!DNL Journey Orchestration] Gebeurtenissen zijn XDM Experience Events die via Streaming Ingestie naar de Adobe Experience Platform worden verzonden.
 
-Daarom is een belangrijke voorwaarde voor het instellen van gebeurtenissen voor [!DNL Journey Orchestration] dat u bekend bent met het Adobe Experience Platform&#39;s Experience Data Model (of XDM) en hoe u XDM Experience Event-schema&#39;s kunt samenstellen, en hoe u XDM-opgemaakte gegevens kunt streamen naar de Adobe Experience Platform.
+Als dusdanig, is een belangrijke voorwaarde voor vestiging gebeurtenissen voor [!DNL Journey Orchestration] dat u met het Model van de Gegevens van de Ervaring van Adobe Experience Platform (of XDM) vertrouwd bent en hoe te om de schema&#39;s van de Gebeurtenis van de Ervaring XDM samen te stellen, evenals hoe te om XDM-Geformatteerde gegevens aan Adobe Experience Platform te stromen.
 
-## Schemavereisten voor [!DNL Journey Orchestration] gebeurtenissen
+## Schemavereisten voor gebeurtenissen [!DNL Journey Orchestration]
 
-De eerste stap bij het opzetten van een gebeurtenis voor [!DNL Journey Orchestration] is ervoor te zorgen dat u een XDM-schema hebt dat wordt gedefinieerd om de gebeurtenis te vertegenwoordigen, en een dataset die wordt gecreeerd om instanties van de gebeurtenis op Adobe Experience Platform te registreren. Het hebben van een dataset voor uw gebeurtenissen is niet strikt noodzakelijk, maar het verzenden van de gebeurtenissen naar een specifieke dataset zal u toestaan om gebruikers&#39; gebeurtenisgeschiedenis voor toekomstige verwijzing en analyse te handhaven, zodat is het altijd een goed idee. Als u nog geen geschikt schema en dataset voor uw gebeurtenis hebt, kunnen beide taken in de Adobe Experience Platform-webinterface worden uitgevoerd.
+De eerste stap in vestiging een gebeurtenis voor [!DNL Journey Orchestration] is ervoor te zorgen dat u een schema XDM hebt dat wordt bepaald om de gebeurtenis te vertegenwoordigen, en een dataset die wordt gecreeerd om instanties van de gebeurtenis op Adobe Experience Platform te registreren. Het hebben van een dataset voor uw gebeurtenissen is niet strikt noodzakelijk, maar het verzenden van de gebeurtenissen naar een specifieke dataset zal u toestaan om gebruikers&#39; gebeurtenisgeschiedenis voor toekomstige verwijzing en analyse te handhaven, zodat is het altijd een goed idee. Als u nog geen geschikt schema en dataset voor uw gebeurtenis hebt, kunnen beide taken in de Adobe Experience Platform-webinterface worden uitgevoerd.
 
 ![](../assets/schema1.png)
 
