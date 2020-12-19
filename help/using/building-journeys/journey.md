@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # Een journey maken {#concept_gq5_sqt_52b}
 
-This step is performed by the **business user**. Hier maak je je reizen. Combineer de verschillende actie-, orkestratie- en gebeurtenisactiviteiten om uw kanaaloverschrijdende scenario’s met meerdere stappen te maken.
+Deze stap wordt uitgevoerd door **zakelijke gebruiker**. Hier maak je je reizen. Combineer de verschillende actie-, orkestratie- en gebeurtenisactiviteiten om uw kanaaloverschrijdende scenario’s met meerdere stappen te maken.
 
 Met de interface voor reizen kunt u activiteiten van het palet gemakkelijk naar het canvas slepen. U kunt ook dubbelklikken op een activiteit om deze in het canvas toe te voegen bij de volgende beschikbare stap. Elke activiteit heeft een specifieke rol en plaats in het proces. De activiteiten worden gesequenceerd. Wanneer een activiteit wordt gebeëindigd, gaat de stroom verder en verwerkt de volgende activiteit, etc.
 
@@ -30,7 +30,7 @@ Hier volgen de belangrijkste stappen voor het maken en publiceren van een reis.
 
    ![](../assets/journey30.png)
 
-1. Click **[!UICONTROL Create]** to create a new journey.
+1. Klik **[!UICONTROL Create]** om een nieuwe reis tot stand te brengen.
 
    ![](../assets/journey31.png)
 
@@ -42,15 +42,15 @@ Hier volgen de belangrijkste stappen voor het maken en publiceren van een reis.
 
    ![](../assets/journey33.png)
 
-1. Sleep en zet uw andere activiteiten neer en vorm hen. Raadpleeg de pagina&#39;s [Gebeurtenisactiviteiten](../building-journeys/event-activities.md), [Informatie over orkestactiviteiten](../building-journeys/about-orchestration-activities.md) en [Informatie over actieactiviteiten](../building-journeys/about-action-activities.md).
+1. Sleep en zet uw andere activiteiten neer en vorm hen. Zie de pagina&#39;s [Gebeurtenisactiviteiten](../building-journeys/event-activities.md), [Informatie over orkestatieactiviteiten](../building-journeys/about-orchestration-activities.md) en [Informatie over actieactiviteiten](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. Uw reis wordt automatisch bewaard. Test uw reis en publiceer deze. Zie de [reis](../building-journeys/testing-the-journey.md) testen en de reis [publiceren](../building-journeys/publishing-the-journey.md).
+1. Uw reis wordt automatisch bewaard. Test uw reis en publiceer deze. Zie [de reis testen](../building-journeys/testing-the-journey.md) en [De reis publiceren](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
-## Een reis beëindigen {#ending_a_journey}
+## Een reis {#ending_a_journey} beëindigen
 
 Er zijn twee manieren om een reis te beëindigen:
 
