@@ -21,9 +21,9 @@ Als u speciale tekens in een veld gebruikt, moet u dubbele aanhalingstekens of e
 
 * het veld begint met numerieke tekens
 * het veld begint met het &quot;-&quot; teken
-* het veld bevat iets anders dan: _a_-_z_, _A_-_Z_, _0_-___9, _,_
+* het veld bevat iets anders dan: _a_-_z_, _A_-_Z_, _0_-_9_, _, _-_
 
-Als uw veld bijvoorbeeld _3u_ is: _#{OpenWeather.weerData.rain.&#39;3h&#39;} > 0_
+Als uw veld bijvoorbeeld _3h_ is: _#{OpenWeather.windData.rain.&#39;3h&#39;} > 0_
 
 ```
 // event field
@@ -54,7 +54,7 @@ Er kan een standaardwaarde aan een veldnaam worden gekoppeld. De syntaxis is als
 
 >[!NOTE]
 >
->Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld @{LobbyBeacon.endUserIDs._experience.ease.id, defaultValue: {2} is ongeldig omdat de standaardwaarde een geheel getal is en de verwachte waarde een tekenreeks.
+>Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld @{LobbyBeacon.endUserIDs._experience.ease.id, defaultValue: :   is ongeldig omdat de standaardwaarde een geheel getal is en de verwachte waarde een tekenreeks.
 
 Voorbeelden:
 
@@ -100,19 +100,19 @@ Voorbeeld :
 
 **Referentie van een veld dat is gedefinieerd in een kaart**
 
-Om een element in een kaart terug te winnen, gebruiken wij de ingangsfunctie met een bepaalde sleutel. Deze wordt bijvoorbeeld gebruikt wanneer de sleutel van een gebeurtenis wordt gedefinieerd op basis van de geselecteerde naamruimte. Zie De naamruimte selecteren. Zie [deze pagina](../event/selecting-the-namespace.md)voor meer informatie.
+Om een element in een kaart terug te winnen, gebruiken wij de ingangsfunctie met een bepaalde sleutel. Deze wordt bijvoorbeeld gebruikt wanneer de sleutel van een gebeurtenis wordt gedefinieerd op basis van de geselecteerde naamruimte. Zie De naamruimte selecteren. Zie [deze pagina](../event/selecting-the-namespace.md) voor meer informatie.
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &quot;Email&quot; is een verzameling, waaruit we de &quot;id&quot; in het eerste element gebruiken met &quot;first()&quot;. Zie [deze pagina](../expression/collection-management-functions.md)voor meer informatie.
+In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &quot;Email&quot; is een verzameling, waaruit we de &quot;id&quot; in het eerste element gebruiken met &quot;first()&quot;. Zie [deze pagina](../expression/collection-management-functions.md) voor meer informatie.
 
 **Parameterwaarden van een gegevensbron (dynamische waarden van gegevensbron)**
 
 Als u een veld selecteert uit een externe gegevensbron waarvoor een parameter moet worden aangeroepen, wordt rechts een nieuw tabblad weergegeven waarin u deze parameter kunt opgeven. Zie [deze pagina](../expression/expressionadvanced.md).
 
-For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. Een parameter kan elke geldige expressie zijn, zelfs van een andere gegevensbron die ook een andere parameter bevat.
+Voor complexere gebruiksgevallen, als u de parameters van de gegevensbron in de belangrijkste uitdrukking wilt omvatten, kunt u hun waarden bepalen gebruikend het sleutelwoord _params_. Een parameter kan elke geldige expressie zijn, zelfs van een andere gegevensbron die ook een andere parameter bevat.
 
 >[!NOTE]
 >
