@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # now {#now}
 
-Retourneert de huidige datum in de datumtijdnotatie. For more information on data types, refer to [this page](../expression/data-types.md).
+Retourneert de huidige datum in de datumtijdnotatie. Raadpleeg [deze pagina](../expression/data-types.md) voor meer informatie over gegevenstypen.
 
 ## Categorie
 
