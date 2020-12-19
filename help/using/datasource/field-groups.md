@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Veldgroepen zijn sets velden die u kunt ophalen van een gegevensbron en gebruiken tijdens een reis.
 
-## Veldgroepen definiëren {#section_dsz_kjd_fjb}
+## Veldgroepen {#section_dsz_kjd_fjb} definiëren
 
 Voor elke gegevensbron kunt u verschillende veldgroepen definiëren, elk met een specifieke cacheduur.
 
@@ -29,7 +29,7 @@ Wanneer een gegevensbrongebied in een reis wordt gebruikt, zal het systeem alle 
 
 **[!UICONTROL Cache duration]** is ook belangrijk omdat dit u helpt de prestaties te optimaliseren. De duur van het geheime voorgeheugen betekent dat in een reis, als de gegevens van een gebiedsgroep eens worden teruggewonnen, het systeem het dan tijdelijk zal in het voorgeheugen onderbrengen. Als de zelfde gegevens later in de zelfde reis worden vereist, zal het systeem niet een ander verzoek aan de gegevensbron indienen. De configuratie van de geheim voorgeheugenduur zou voor elk gebruiksgeval moeten worden aangepast. Als u gegevens in real time zoals de status van de hotelreserve, weerinformatie of het aantal loyaliteitspunten moet terugwinnen, zult u de gebiedsgroep associëren die deze gebieden met een korte geheim voorgeheugenduur (1 seconde, bijvoorbeeld) bevat. Voor velden die minder vaak worden bijgewerkt (naam, geslacht), maakt u een tweede veldgroep met een langere cache (bijvoorbeeld 5 dagen).
 
-The number of journeys that use a field group is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of journeys using this field group.
+Het aantal ritten dat een veldgroep gebruikt, wordt weergegeven in het veld **[!UICONTROL Used in]**. U kunt op de knop **[!UICONTROL View journeys]** klikken om de lijst met reizen weer te geven met deze veldgroep.
 
 >[!NOTE]
 >
@@ -45,9 +45,9 @@ U kunt een veld toevoegen, maar u kunt dit niet verwijderen uit een veldgroep di
 
 Voer de volgende stappen uit om een veld te verwijderen uit een veldgroep die wordt gebruikt voor een of meer reizen. Laten we een voorbeeld gebruiken van een veldgroep met de naam &quot;Veldgroep A&quot;.
 
-1. Plaats de cursor in de lijst met veldgroepen op &quot;Veldgroep A&quot; en klik op het **[!UICONTROL Duplicate]** pictogram aan de rechterkant. Geef de gedupliceerde veldgroep bijvoorbeeld de naam &quot;Veldgroep B&quot;.
+1. Plaats de cursor in de lijst met veldgroepen op Veldgroep A en klik op het pictogram **[!UICONTROL Duplicate]** rechts. Geef de gedupliceerde veldgroep bijvoorbeeld de naam &quot;Veldgroep B&quot;.
 1. Verwijder in &quot;Veldgroep B&quot; de velden die u niet meer wilt gebruiken.
-1. Controleer in &quot;Veldgroep A&quot; waar deze veldgroep wordt gebruikt. Deze informatie wordt weergegeven in het **[!UICONTROL Used in]** veld.
+1. Controleer in &quot;Veldgroep A&quot; waar deze veldgroep wordt gebruikt. Deze informatie wordt weergegeven in het veld **[!UICONTROL Used in]**.
 1. Open alle reizen die gebruikmaken van &quot;Veldgroep A&quot;.
 1. Maak nieuwe versies van elk van deze reizen. Bewerk alle activiteiten met &quot;Veldgroep A&quot; en selecteer &quot;Veldgroep B&quot;.
 1. Oude versies van ritten met &quot;Veldgroep A&quot; stoppen. U zou dan geen reis moeten hebben gebruikend &quot;Groep A van het Gebied&quot;.
