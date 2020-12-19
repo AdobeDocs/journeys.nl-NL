@@ -22,7 +22,7 @@ Als u wilt wachten alvorens de volgende activiteit in de weg uit te voeren, kunt
 
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
-## Informatie over de activiteit Wachten{#about_wait}
+## Ongeveer de Wacht activiteit{#about_wait}
 
 Hier is hoe de wacht voorrang krijgt wanneer u verscheidene wacht parallel gebruikt. Als zij de zelfde tijdconfiguratie en een verschillende maar overlappende voorwaarde hebben, hierboven gepositioneerde wachttijd zal aan voorrang gegeven zijn. De eerste wachttijd is bijvoorbeeld &#39;een vrouw zijn&#39; en de tweede wachttijd is &#39;een VIP zijn&#39;. De eerste wachttijdactiviteit krijgt prioriteit
 
@@ -34,15 +34,15 @@ U kunt een voorwaarde definiëren als u de wachttijd wilt beperken tot een bepaa
 >
 >De maximale wachttijd is 30 dagen.
 >
->Op testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [deze pagina](../building-journeys/testing-the-journey.md)
+>In testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [deze pagina](../building-journeys/testing-the-journey.md)
 
-## Wachttijd duur{#duration}
+## Duur wachttijd{#duration}
 
 Selecteer de duur van de wachttijd voordat de volgende activiteit wordt uitgevoerd.
 
 ![](../assets/journey55.png)
 
-## Wachttijd voor vaste datum{#fixed_date}
+## Vaste datum wachttijd{#fixed_date}
 
 Selecteer de datum voor de uitvoering van de volgende activiteit.
 
@@ -50,11 +50,11 @@ Selecteer de datum voor de uitvoering van de volgende activiteit.
 
 ## Aangepast wachten{#custom}
 
-Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 2020 om 17.00 uur, met een geavanceerde expressie die is gebaseerd op een veld dat afkomstig is van een gebeurtenis of gegevensbron. U kunt hiermee geen aangepaste duur definiëren, bijvoorbeeld 7 dagen. De expressie in de expressie-editor moet een dateTimeOnly-indeling hebben. Zie [deze pagina](../expression/expressionadvanced.md). Zie [deze pagina](../expression/data-types.md)voor meer informatie over de indeling dateTimeOnly.
+Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 2020 om 17.00 uur, met een geavanceerde expressie die is gebaseerd op een veld dat afkomstig is van een gebeurtenis of gegevensbron. U kunt hiermee geen aangepaste duur definiëren, bijvoorbeeld 7 dagen. De expressie in de expressie-editor moet een dateTimeOnly-indeling hebben. Zie [deze pagina](../expression/expressionadvanced.md). Voor meer informatie over dateTimeOnly formaat, zie [deze pagina](../expression/data-types.md).
 
 >[!NOTE]
 >
->U kunt een dateTimeOnly-expressie gebruiken of een functie gebruiken om om te zetten in een dateTimeOnly. Bijvoorbeeld: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, waarbij het veld in het geval 2016-08-12T09:46:06Z is.
+>U kunt een dateTimeOnly-expressie gebruiken of een functie gebruiken om om te zetten in een dateTimeOnly. Bijvoorbeeld: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, waarbij het veld in de gebeurtenis de vorm 2016-08-12T09:46:06Z heeft.
 >
 >De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, is het vandaag niet mogelijk van de interface om bij volledig ISO-8601 timestamp mixing time en tijdzone verschuiving zoals 2016-08-12T09:46:06.982-05 direct te richten. Zie [deze pagina](../building-journeys/timezone-management.md).
 
