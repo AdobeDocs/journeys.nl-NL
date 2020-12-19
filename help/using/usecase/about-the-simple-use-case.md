@@ -26,7 +26,7 @@ We willen alleen een bericht sturen als de persoon een vrouw is. Het bericht moe
 
 ## Voorwaarden {#prerequisites}
 
-Voor ons gebruik hebben we één e-mailsjabloon voor berichten voor transacties in Adobe Campaign Standard ontworpen. We gebruiken een berichtensjabloon voor een gebeurtenistransactie. Refer to this [page](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Voor ons gebruik hebben we één e-mailsjabloon voor berichten voor transacties in Adobe Campaign Standard ontworpen. We gebruiken een berichtensjabloon voor een gebeurtenistransactie. Zie deze [pagina](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
 Adobe Campaign Standard is geconfigureerd om e-mailberichten te verzenden.
 
