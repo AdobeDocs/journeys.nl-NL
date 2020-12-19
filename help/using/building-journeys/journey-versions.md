@@ -22,9 +22,9 @@ Als u zich aan een levende reis moet aanpassen, moet u een nieuwe versie van uw 
 
 >[!NOTE]
 >
->Zie [deze pagina voor meer informatie over de beperkingen van reisversies](../about/limitations.md#journey-versions-limitations)
+>Zie [deze pagina](../about/limitations.md#journey-versions-limitations) voor meer informatie over beperkingen van reisversies
 
-1. Open de nieuwste versie van uw livereis, klik **[!UICONTROL Create a new version]** en bevestig deze.
+1. Open de nieuwste versie van uw livereis, klik **[!UICONTROL Create a new version]** en bevestig.
 
    ![](../assets/journeyversions2.png)
 
@@ -42,4 +42,4 @@ Reisversies kunnen afzonderlijk worden gestopt. Alle versies van reizen hebben d
 
 >[!NOTE]
 >
->Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie automatisch en schakelt naar de **Gesloten** status. Er zal geen toegang tot de reis plaatsvinden. Zelfs als u de laatste versie stopt, blijft de vorige versie gesloten.
+>Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie automatisch en schakelt naar **Gesloten** status. Er zal geen toegang tot de reis plaatsvinden. Zelfs als u de laatste versie stopt, blijft de vorige versie gesloten.
