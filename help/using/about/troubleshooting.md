@@ -46,7 +46,7 @@ Het startpunt van een journey is altijd een gebeurtenis. U kunt tests uitvoeren 
 
 U kunt controleren of de API-aanroep die u via deze tools verzendt, correct is verzonden of niet. Als een fout wordt geretourneerd, betekent dit dat er een probleem is met uw aanroep. Controleer opnieuw de payload, de koptekst (vooral de organisatie-id) en de bestemmings-URL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar [!DNL Journey Orchestration] gepusht. [!DNL Journey Orchestration] is in feite afhankelijk van streamingopname-API’s van Adobe Experience Platform. As a result, in case of event related issues, you can refer to [this page](https://docs.adobe.com/content/help/nl-NL/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
+Gebeurtenissen worden niet rechtstreeks van de bron naar [!DNL Journey Orchestration] gepusht. [!DNL Journey Orchestration] is in feite afhankelijk van streamingopname-API’s van Adobe Experience Platform. Dientengevolge, in geval van gebeurtenis verwante kwesties, kunt u [deze pagina ](https://docs.adobe.com/content/help/nl-NL/experience-platform/ingestion/streaming/troubleshooting.html) voor het oplossen van problemen van de het binnendringen van de Streaming APIs raadplegen.
 
 ## Controleren of mensen de journey betreden{#section_x4v_zzs_dgb}
 
