@@ -23,15 +23,15 @@ Acties zijn verbindingen waarmee u persoonlijke, realtime-ervaringen kunt bieden
 
 Met aangepaste acties kunt u een verbinding met een extern systeem configureren voor het verzenden van berichten of API-aanroepen. Een actie kan worden geconfigureerd met elke service van elke provider die door een REST-API met een payload in JSON-indeling kan worden aangeroepen.
 
-The actions are available in the left palette of your journey, in the **[!UICONTROL Action]** category. Zie [deze pagina](../building-journeys/about-action-activities.md).
+De acties zijn beschikbaar in het linkerpalet van uw reis, in de **[!UICONTROL Action]** categorie. Zie [deze pagina](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >
 >De configuratie van aangepaste acties wordt altijd uitgevoerd door een **technische gebruiker**.
 
-In de lijst met **Acties** kunt u op C drukken om een nieuwe journey, actie, databron of gebeurtenis te maken. For more information on shortcuts in [!DNL Journey Orchestration], see [this section](../about/user-interface.md#section_ksq_zr1_ffb).
+In de lijst met **Acties** kunt u op C drukken om een nieuwe journey, actie, databron of gebeurtenis te maken. Zie [deze sectie](../about/user-interface.md#section_ksq_zr1_ffb) voor meer informatie over sneltoetsen in [!DNL Journey Orchestration].
 
-Als u de actielijst wilt bekijken of een nieuwe actie wilt configureren, klikt u in de bovenste menu’s op **[!UICONTROL Actions]**. De lijst met acties wordt weergegeven. See [this page](../about/user-interface.md) for more information on the interface.
+Als u de actielijst wilt bekijken of een nieuwe actie wilt configureren, klikt u in de bovenste menu’s op **[!UICONTROL Actions]**. De lijst met acties wordt weergegeven. Zie [deze pagina](../about/user-interface.md) voor meer informatie over de interface.
 
 ![](../assets/custom1.png)
 
