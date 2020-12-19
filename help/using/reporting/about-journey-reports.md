@@ -26,7 +26,7 @@ Op de bovenste werkbalk kunt u bijvoorbeeld uw rapport wijzigen, opslaan of afdr
 
 ![](../assets/dynamic_report_toolbar.png)
 
-Gebruik de **[!UICONTROL Project]** tab om:
+Gebruik de tab **[!UICONTROL Project]** om:
 
 * **[!UICONTROL Open]**: Hiermee opent u een eerder gemaakt rapport of sjabloon.
 * **[!UICONTROL Save As]**: dupliceert sjablonen om deze te kunnen wijzigen.
@@ -34,13 +34,13 @@ Gebruik de **[!UICONTROL Project]** tab om:
 * **[!UICONTROL Download CSV]**: exporteert uw rapporten naar een CSV-bestand.
 * **[!UICONTROL Print]**: drukt uw rapport af.
 
-Op het **[!UICONTROL Edit]** tabblad kunt u:
+Met de tab **[!UICONTROL Edit]** kunt u:
 
 * **[!UICONTROL Undo]**: Hiermee annuleert u de laatste handeling op het dashboard.
-* **[!UICONTROL Redo]**: Hiermee annuleert u de laatste **[!UICONTROL Undo]** handeling op het dashboard.
+* **[!UICONTROL Redo]**: Hiermee annuleert u de laatste  **[!UICONTROL Undo]** handeling op het dashboard.
 * **[!UICONTROL Clear all]**: verwijdert elk deelvenster op het dashboard.
 
-In de **[!UICONTROL Insert]** tabel kunt u uw rapporten aanpassen door grafieken en tabellen toe te voegen aan het dashboard:
+Met de tabel **[!UICONTROL Insert]** kunt u uw rapporten aanpassen door grafieken en tabellen toe te voegen aan het dashboard:
 
 * **[!UICONTROL New Blank Panel]**: voegt een nieuw leeg deelvenster toe aan het dashboard.
 * **[!UICONTROL New Freeform]**: voegt een nieuwe vrije-vormlijst aan uw dashboard toe.
@@ -53,14 +53,14 @@ Met de linkertabbladen kunt u uw rapport samenstellen en de gegevens naar wens f
 
 Op deze tabbladen hebt u toegang tot de volgende items:
 
-* **[!UICONTROL Panels]**: Voeg een leeg paneel of een vrije vorm aan uw rapport toe beginnen uw gegevens te filtreren. For more on this, refer to the [Adding panels](../reporting/creating-your-journey-reports.md#adding-panels) section
-* **[!UICONTROL Visualizations]**: sleep en laat vallen een selectie van visualiseringspunten om uw rapport een grafische dimensie te geven. For more on this, refer to the [Adding visualizations](../reporting/creating-your-journey-reports.md#adding-visualizations) section.
-* **[!UICONTROL Components]**: Pas uw rapporten aan met verschillende afmetingen, metriek, segmenten en tijdsperioden. For more on this, refer to the [Adding components](../reporting/creating-your-journey-reports.md#adding-components) section.
+* **[!UICONTROL Panels]**: Voeg een leeg paneel of een vrije vorm aan uw rapport toe beginnen uw gegevens te filtreren. Raadpleeg voor meer informatie de sectie [Deelvensters toevoegen](../reporting/creating-your-journey-reports.md#adding-panels)
+* **[!UICONTROL Visualizations]**: sleep en laat vallen een selectie van visualiseringspunten om uw rapport een grafische dimensie te geven. Raadpleeg voor meer informatie de sectie [Visualisaties toevoegen](../reporting/creating-your-journey-reports.md#adding-visualizations).
+* **[!UICONTROL Components]**: Pas uw rapporten aan met verschillende afmetingen, metriek, segmenten en tijdsperioden. Raadpleeg voor meer informatie de sectie [Componenten toevoegen](../reporting/creating-your-journey-reports.md#adding-components).
 
 ## Samenvattingssjabloon reis {#ootb-template}
 
 De rapporten zijn verdeeld in twee categorieën: een out-of-the-box malplaatje en douanerapporten.
-De out-of-the-box malplaatje, **[!UICONTROL Journey summary]**, geeft u een duidelijke mening van de belangrijkste het volgen gegevens.
+De uit-van-de-doos malplaatje, **[!UICONTROL Journey summary]**, geeft u een duidelijke mening van de belangrijkste het volgen gegevens.
 
 ![](../assets/dynamic_report_journey_8.png)
 
@@ -83,7 +83,7 @@ Met de reisvisualisatie kunt u het pad van uw doelprofielen stap voor stap bekij
 
 ![](../assets/dynamic_report_journey_10.png)
 
-De **[!UICONTROL Journey summary]** tabel bevat de gegevens die beschikbaar zijn voor uw reis, zoals:
+De tabel **[!UICONTROL Journey summary]** bevat de gegevens die beschikbaar zijn voor uw reis, zoals:
 
 * **[!UICONTROL Entered]**: het totale aantal personen dat het inreisevenement van de reis heeft bereikt.
 * **[!UICONTROL Completion rate]**: het totale aantal personen dat de eindstroommebesturing van de reis heeft bereikt, in vergelijking met het totale aantal personen dat de reis heeft betreden.
@@ -91,11 +91,11 @@ De **[!UICONTROL Journey summary]** tabel bevat de gegevens die beschikbaar zijn
 * **[!UICONTROL Failed]**: het totale aantal ritten dat niet met succes is uitgevoerd.
 * **[!UICONTROL Failed rate]**: het totale aantal ritten dat niet met succes werd uitgevoerd in vergelijking met het aantal ritten.
 
-In de **[!UICONTROL Top events]** tabel staan de meest succesvolle gebeurtenissen en de **[!UICONTROL Top action]** meest succesvolle acties tijdens uw reizen.
+In de tabel **[!UICONTROL Top events]** worden de meest geslaagde gebeurtenissen weergegeven en de **[!UICONTROL Top action]**, de meest succesvolle acties tijdens uw reizen.
 
 ![](../assets/dynamic_report_journey_11.png)
 
-De **[!UICONTROL Delivery - Sending summary]** tabel bevat de gegevens die beschikbaar zijn voor de levering van uw reis, zoals:
+De tabel **[!UICONTROL Delivery - Sending summary]** bevat de gegevens die beschikbaar zijn voor de levering van uw reis, zoals:
 
 * **[!UICONTROL Processed/sent]**: totaal aantal verzonden berichten.
 * **[!UICONTROL Delivered rate]**: totaal aantal berichten dat is afgeleverd in vergelijking met verzonden berichten.
@@ -103,7 +103,7 @@ De **[!UICONTROL Delivery - Sending summary]** tabel bevat de gegevens die besch
 * **[!UICONTROL Bounce + error rate]**: totaal aantal berichten dat is teruggestuurd in vergelijking met verzonden berichten.
 * **[!UICONTROL Bounces + errors]**: totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten zijn gecumuleerd.
 
-De **[!UICONTROL Delivery - Tracking summary]** tabel bevat de gegevens die beschikbaar zijn om het succes van de ritten te controleren, zoals:
+De tabel **[!UICONTROL Delivery - Tracking summary]** bevat de gegevens die beschikbaar zijn om het succes van de ritten te controleren, zoals:
 
 * **[!UICONTROL Open Rate]**: percentage geopende berichten.
 * **[!UICONTROL Open]**: aantal keren dat een bericht in een levering werd geopend.
