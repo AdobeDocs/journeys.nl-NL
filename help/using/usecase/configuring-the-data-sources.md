@@ -14,11 +14,11 @@ ht-degree: 14%
 
 # Databronnen configureren {#concept_vml_hdy_w2b}
 
-In ons gebruiksgeval, willen wij verpersoonlijkingsgegevens voor onze berichten gebruiken. We moeten ook controleren of de persoon een loyaliteitslid is en in de afgelopen 24 uur niet is benaderd. Deze informatie wordt opgeslagen in het gegevensbestand van het Profiel van de Klant in real time. De **technische gebruiker** moet de Adobe Experience Platform-gegevensbron configureren om deze velden op te halen.
+In ons gebruiksgeval, willen wij verpersoonlijkingsgegevens voor onze berichten gebruiken. We moeten ook controleren of de persoon een loyaliteitslid is en in de afgelopen 24 uur niet is benaderd. Deze informatie wordt opgeslagen in het gegevensbestand van het Profiel van de Klant in real time. De **technische gebruiker** moet de gegevensbron van Adobe Experience Platform vormen om die gebieden terug te winnen.
 
-Raadpleeg [deze pagina](../datasource/about-data-sources.md)voor meer informatie over de configuratie van de gegevensbron.
+Voor extra informatie over gegevensbronconfiguratie, verwijs naar [deze pagina](../datasource/about-data-sources.md).
 
-1. Klik in het bovenste menu op het **[!UICONTROL Data Sources]** tabblad en selecteer de Adobe Experience Platform-gegevensbron voor de build-in.
+1. Klik in het bovenste menu op het tabblad **[!UICONTROL Data Sources]** en selecteer de Adobe Experience Platform-gegevensbron voor de build-in.
 
    ![](../assets/journey23.png)
 
@@ -28,11 +28,11 @@ Raadpleeg [deze pagina](../datasource/about-data-sources.md)voor meer informatie
    * _person > name > lastName_
    * _PersonalEmail > address_
 
-1. Klik **[!UICONTROL Add a New Field Group]**, selecteer een **[!UICONTROL Profiles]** schema en voeg het gebied van het Lid **van de** Loyalty voor onze voorwaarde toe. Het veld **Loyalty-lid** is een aangepast veld en is toegevoegd in XDM: &quot;_customer > marlton > loyaltyMember&quot;
+1. Klik **[!UICONTROL Add a New Field Group]**, selecteer een **[!UICONTROL Profiles]** schema en voeg **Loyalty lid** gebied voor onze voorwaarde toe. Het veld **Loyalty member** is een aangepast veld en is toegevoegd in XDM: &quot;_customer > marlton > loyaltyMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
-1. Klik **[!UICONTROL Add a New Field Group]**, selecteer een **[!UICONTROL ExperienceEvent]** schema en kies de gebieden nodig voor onze voorwaarde op het aantal berichten die in een bepaalde periode worden verzonden: _timestamp_ voor de datum en _directMarketing > verzendt > waarde_ voor het aantal verzonden berichten.
+1. Klik **[!UICONTROL Add a New Field Group]**, selecteer een **[!UICONTROL ExperienceEvent]** schema en kies de gebieden nodig voor onze voorwaarde op het aantal berichten die in een bepaalde periode worden verzonden: _timestamp_ voor de datum en _directMarketing > send > value_ voor het aantal verzonden berichten.
 
    ![](../assets/journeyuc2_7.png)
 
@@ -54,11 +54,11 @@ We moeten ook controleren of de persoon een boeking heeft in het hotelreserverin
 
    ![](../assets/journeyuc2_10.png)
 
-1. Klik **[!UICONTROL Add a New Field Group]** om de op te halen informatie en de API-parameters te definiëren. Voor ons voorbeeld is er slechts één parameter (de id), dus moeten we één veldgroep maken met de volgende informatie:
+1. Klik op **[!UICONTROL Add a New Field Group]** om de informatie op te halen en de API-parameters te definiëren. Voor ons voorbeeld is er slechts één parameter (de id), dus moeten we één veldgroep maken met de volgende informatie:
 
    * **[!UICONTROL Method]**: selecteer de methode POST of GET. In ons geval selecteren we de methode GET.
    * **[!UICONTROL Cache duration]**: dit varieert afhankelijk van de frequentie van de API-aanroepen. In ons geval wordt het reserveringssysteem elke 10 minuten bijgewerkt.
-   * **[!UICONTROL Response Payload]**: Klik in het **[!UICONTROL Payload]** veld en plak een voorbeeld van de laadbewerking. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen. In ons voorbeeld bevat de lading alleen de reserveringsstatus:
+   * **[!UICONTROL Response Payload]**: Klik in het  **[!UICONTROL Payload]** veld en plak een voorbeeld van de laadbewerking. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen. In ons voorbeeld bevat de lading alleen de reserveringsstatus:
 
    ```
    {
