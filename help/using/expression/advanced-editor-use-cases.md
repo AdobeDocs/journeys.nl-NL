@@ -109,9 +109,9 @@ Met deze voorwaarde worden alleen de geofence-gebeurtenissen opgehaald die worde
                     .name} == "Arlington"
 ```
 
-Uitleg: Dit is een strikte tekenreeksvergelijking (hoofdlettergevoelig), gelijk aan een query in de eenvoudige modus die wordt gebruikt `equal to` met `Is sensitive` ingeschakeld.
+Uitleg: Dit is een strikte tekenreeksvergelijking (hoofdlettergevoelig), gelijk aan een query in de eenvoudige modus die `equal to` gebruikt terwijl `Is sensitive` ingeschakeld is.
 
-Dezelfde query met `Is sensitive` uncheck genereert de volgende expressie in de geavanceerde modus:
+Dezelfde query met `Is sensitive` uitgeschakeld genereert de volgende expressie in de geavanceerde modus:
 
 ```
         equalIgnoreCase(@{GeofenceEntry
@@ -138,6 +138,6 @@ De volgende uitdrukking staat u toe om identiteitskaart van CRM in een gebied va
                          ))
 ```
 
-Uitleg: In dit voorbeeld worden accolades `substr` en `lastIndexOf` functies verwijderd die de CRM-id omsluiten die is doorgegeven met een gebeurtenis voor het starten van een mobiele app.
+Uitleg: In dit voorbeeld worden `substr`- en `lastIndexOf`-functies gebruikt om accolades te verwijderen die de CRM-id omsluiten die is doorgegeven met een startgebeurtenis voor een mobiele app.
 
-Bekijk [deze video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html)voor meer informatie over het gebruik van de geavanceerde expressieeditor.
+Voor meer op hoe te om de geavanceerde uitdrukkingsredacteur te gebruiken, bekijk [deze video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
