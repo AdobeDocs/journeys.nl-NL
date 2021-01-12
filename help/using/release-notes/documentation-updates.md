@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Documentatie-updates
 description: Meer informatie over documentatie-updates
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 94%
+source-wordcount: '789'
+ht-degree: 93%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 94%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Orchestration].
 U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../release-notes/release-notes.md) raadplegen.
+
+## Januari 2021 {#january-2021}
+
+* Toegevoegde beste praktijken wanneer het teweegbrengen van een reis tezelfdertijd als een profielverwezenlijking. [Meer informatie](../about/limitations.md#journeys-limitation-profile-creation).
 
 ## Oktober 2020 {#october-2020}
 
