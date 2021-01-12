@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Journeyeigenschappen
 description: Meer informatie over reiseigenschappen
 translation-type: tm+mt
-source-git-commit: 341138c31676870878099b4f4eecec200a614c69
+source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -46,6 +46,8 @@ Hier volgen enkele voorbeelden van gebruiksgevallen:
 |  | tripVersion | Reisversie |  |
 | Reisexemplaar | instanceUID | Reisexemplaar-id | ID van de instantie |
 |  | externalKey | Externe sleutel | Individuele identificatie die de reis veroorzaakt |
+|  | organisationId | Organisatie-id | Merkorganisatie |
+|  | sandboxName | Naam van sandbox | Naam van de sandbox |
 | Identiteit | profileId | Identificatiecode profiel | Identificatiecode van het profiel tijdens de reis |
 |  | namespace | Naamruimte voor profielidentiteit | Naamruimte van het profiel in de rit (voorbeeld: ECID) |
 | Huidig knooppunt | currentNodeId | Huidige knooppunt-id | Identifier van de huidige activiteit (knooppunt) |
