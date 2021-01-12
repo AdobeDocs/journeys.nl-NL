@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Werken met Adobe Campaign
 description: Meer informatie over Adobe Campaign-acties
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '300'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ Hier volgen de stappen om het te configureren:
    >
    >Deze test verifieert dat:
    >
-   >De host is &quot;.campagne.adobe.com&quot; of &quot;.campagne-sandbox.adobe.com&quot;,
+   >De host is &quot;.campagne.adobe.com&quot;, &quot;.campagne-sandbox.adobe.com&quot; of &quot;campagne-demo.adobe.com&quot;
    >
    >De URL begint met https.
    >
