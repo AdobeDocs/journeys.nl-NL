@@ -4,17 +4,21 @@ solution: Journey Orchestration
 title: Journeyeigenschappen
 description: Meer informatie over reiseigenschappen
 translation-type: tm+mt
-source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 1%
+source-wordcount: '586'
+ht-degree: 0%
 
 ---
 
 
-# Journeyeigenschappen {#journey-properties}
+# Kenmerken van reiseigenschappen {#journey-properties}
 
 In de geavanceerde uitdrukkingsredacteur, zult u de **categorie van de Eigenschappen van de Reis**, onder de gebeurtenis en gegevensbroncategorieën vinden. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen.
+
+>[!NOTE]
+>
+>De eigenschappen van de reis zijn ook beschikbaar in de eenvoudige uitdrukkingsredacteur. Zie deze [sectie](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 
