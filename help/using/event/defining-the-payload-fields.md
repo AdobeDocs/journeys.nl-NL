@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Payloadvelden definiëren
 description: Meer informatie over het definiëren van laadvelden
 translation-type: tm+mt
-source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '301'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
    ![](../assets/journey8.png)
 
-   Alle velden die in het schema zijn gedefinieerd, worden weergegeven. De lijst met velden verschilt per schema. U kunt naar een specifiek veld zoeken of de filters gebruiken om alle knooppunten en velden of alleen de geselecteerde velden weer te geven. Volgens de schemadefinitie zijn sommige velden mogelijk verplicht en vooraf geselecteerd. U kunt de selectie niet opheffen.
+   Alle velden die in het schema zijn gedefinieerd, worden weergegeven. De lijst met velden verschilt per schema. U kunt naar een specifiek veld zoeken of de filters gebruiken om alle knooppunten en velden of alleen de geselecteerde velden weer te geven. Volgens de schemadefinitie zijn sommige velden mogelijk verplicht en vooraf geselecteerd. U kunt de selectie niet opheffen. Alle velden die verplicht zijn voor een juiste ontvangst van de gebeurtenis door Journey Orchestration worden standaard geselecteerd.
 
    >[!NOTE]
    >
