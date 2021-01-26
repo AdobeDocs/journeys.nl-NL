@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Van de ene journey naar de andere gaan
 description: Van de ene journey naar de andere gaan
 translation-type: tm+mt
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
+source-git-commit: 9d8c3a2cf79f2b861aad61089a263a6a33a747b4
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '791'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,10 @@ Met de actie **[!UICONTROL Jump]** kunt u personen van de ene reis naar de ander
 Voeg in de oorspronkelijke reis gewoon een **[!UICONTROL Jump]** activiteit toe en selecteer een doelreis. Wanneer het individu de stap **[!UICONTROL Jump]** ingaat, wordt een interne gebeurtenis verzonden naar de eerste gebeurtenis van de doelreis. Als de actie **[!UICONTROL Jump]** succesvol is, blijft het individu in de reis voortgaan. Het gedrag is vergelijkbaar met andere acties.
 
 In de doelreis zal de eerste gebeurtenis die intern door de **[!UICONTROL Jump]** activiteit wordt teweeggebracht de individuele stroom in de reis maken.
+
+>[!NOTE]
+>
+>Raadpleeg ook de videozelfstudie [hier](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
 
 ## Levenscyclus
 
