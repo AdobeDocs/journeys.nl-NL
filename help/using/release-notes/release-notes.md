@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Release-opmerkingen
 description: Meer informatie over opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2171'
 ht-degree: 73%
 
 ---
@@ -21,7 +21,7 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 
 Wanneer u een schema selecteert in de gebeurtenisconfiguratie, worden alleen velden geselecteerd die verplicht zijn om de gebeurtenis correct door Journey Orchestration te ontvangen. [Meer informatie](../event/defining-the-payload-fields.md)
 
-De eigenschappen van de reis zijn nu beschikbaar in de eenvoudige uitdrukkingsredacteur.
+De eigenschappen van de reis zijn nu beschikbaar in de eenvoudige uitdrukkingsredacteur. [Meer informatie](../expression/journey-properties.md)
 
 Er zijn twee nieuwe kenmerken voor de reiseigenschappen toegevoegd (sandboxName en organisationId). [Meer informatie](../expression/journey-properties.md)
 
