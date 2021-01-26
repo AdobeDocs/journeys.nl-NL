@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Werken met Adobe Campaign
 description: Meer informatie over Adobe Campaign-acties
 translation-type: tm+mt
-source-git-commit: 723c30865a5039bd68a8ac2e45d4c87a760e694d
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '299'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Het transactiemelding van de Campaign Standard en zijn bijbehorende gebeurtenis 
 
 >[!NOTE]
 >
->Het Transactionele Overseinen van Adobe Campaign Standard heeft een schaal van 50 000 berichten per uur maximum over kanalen voor een bepaalde instantie. Om het risico van overbelasting te verminderen, adviseren wij dat u opstelling een **capping regel** voor de integratie van Campaign Standard.
+>Zodra de Adobe Campaign Standard-integratie is ingesteld, wordt automatisch een regel van 13 aanroepen per seconde gedefinieerd voor Adobe Campaign Standard-acties. Dit komt overeen met de officiële schaal van Transactioneel Overseinen van Adobe Campaign Standard.
 >
 >Lees meer over transactie overseinen SLAs in [Adobe Campaign Standard Productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html).
 
@@ -40,7 +40,7 @@ Hier volgen de stappen om het te configureren:
    >
    >Deze test verifieert dat:
    >
-   >De host is &quot;.campagne.adobe.com&quot;, &quot;.campagne-sandbox.adobe.com&quot; of &quot;campagne-demo.adobe.com&quot;
+   >De host is &quot;.campagne.adobe.com&quot;, &quot;.campagne-sandbox.adobe.com&quot; of &quot;.campagne-demo.adobe.com&quot;
    >
    >De URL begint met https.
    >
