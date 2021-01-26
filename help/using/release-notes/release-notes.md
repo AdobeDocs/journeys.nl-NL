@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Release-opmerkingen
 description: Meer informatie over opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
+source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 78%
+source-wordcount: '2169'
+ht-degree: 73%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 78%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-updates.md) raadplegen.
+
+## Release {#january-release} januari 2021
+
+Wanneer u een schema selecteert in de gebeurtenisconfiguratie, worden alleen velden geselecteerd die verplicht zijn om de gebeurtenis correct door Journey Orchestration te ontvangen. [Meer informatie](../event/defining-the-payload-fields.md)
+
+De eigenschappen van de reis zijn nu beschikbaar in de eenvoudige uitdrukkingsredacteur.
+
+Er zijn twee nieuwe kenmerken voor de reiseigenschappen toegevoegd (sandboxName en organisationId). [Meer informatie](../expression/journey-properties.md)
+
+Om zich aan Adobe Campaign Standard SLAs te richten, wordt een het maximum van 13 vraag per seconde nu automatisch bepaald voor de acties van Adobe Campaign Standard zodra de integratie van Adobe Campaign Standard opstelling is. [Meer informatie](../action/working-with-adobe-campaign.md)
+
+De time-outduur van de gebeurtenis wordt nu duidelijker opgegeven in het time-outpad. [Meer informatie](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+
+De [getListItem](../functions/functiongetlistitem.md) en [split](../functions/functionsplit.md) functies zijn toegevoegd aan de lijst van functies beschikbaar in de geavanceerde uitdrukkingsredacteur. Dit zal meer mogelijkheden in uw koordberekeningen gebruiksgevallen aanbieden.
 
 ## Release {#november-release} van november 2020
 
@@ -34,7 +48,7 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 <li>vereenvoudigen het ontwerp van zeer complexe reizen door deze in verschillende te splitsen </li>
 <li>ritten bouwen op basis van gemeenschappelijke en herbruikbare reispatronen</li>
 </ul>
-<p>Raadpleeg de <a href="../building-journeys/jump.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg voor meer informatie de <a href="../building-journeys/jump.md">gedetailleerde documentatie</a> en <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">zelfstudievideo</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +88,7 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 </tbody>
 </table>
 
-### Overige verbeteringen{#october-november}
+### Overige verbeteringen
 
 Er zijn beperkingen toegevoegd bij het maken van nieuwe versies van een reis. Deze beperkingen voorkomen te drastische veranderingen in de reis om enige consistentie tussen versies te behouden. [Meer informatie](../about/limitations.md#journey-versions-limitations)
 
@@ -99,7 +113,7 @@ De **Segmentkwalificatie** activiteit kan niet meer worden gebruikt in een reis 
 </tbody>
 </table>
 
-### Overige verbeteringen{#october-other}
+### Overige verbeteringen
 
 * Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie automatisch en schakelt naar de Gesloten status. [Meer informatie](../building-journeys/journey-versions.md)
 
