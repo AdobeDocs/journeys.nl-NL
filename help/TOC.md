@@ -5,11 +5,11 @@ user-guide-title: Journey Orchestration
 title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c18670b32e0e56cf5621fde965b19aa24da8045b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ ht-degree: 99%
          + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
          + [replace](using/functions/functionreplace.md)
          + [replaceAll](using/functions/functionreplaceall.md)
-         + [splitsen](using/functions/functionsplit.md)
+         + [split](using/functions/functionsplit.md)
          + [startWith](using/functions/functionstartwith.md)
          + [startWithIgnoreCase](using/functions/functionstartwithignorecase.md)
          + [substr](using/functions/functionsubstr.md)
