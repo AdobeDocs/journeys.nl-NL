@@ -6,7 +6,7 @@ title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 translation-type: tm+mt
-source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
+source-git-commit: 59fef99ac17621e81037ddbcc280e9341db729eb
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 98%
@@ -52,6 +52,7 @@ ht-degree: 98%
       + [Informatie over het configureren van aangepaste acties](using/action/about-custom-action-configuration.md)
       + [URL-configuratie](using/action/url-configuration.md)
       + [Berichtparameters definiëren](using/action/defining-the-message-parameters.md)
+   + [Integreren met Adobe Campaign Classic](using/beta/acc-action.md)
 + Platformsegmenten gebruiken {#configuring-segment}
    + [Informatie over platformsegmenten](using/segment/about-segments.md)
    + [Segment maken](using/segment/creating-a-segment.md)
@@ -195,5 +196,4 @@ ht-degree: 98%
    + [Overzicht van Alfa-functies](using/alpha/alpha-overview.md)
    + [Gebruikersinterface](using/alpha/alpha-interface.md)
    + [Segmentactiviteit lezen](using/alpha/alpha-segment-trigger.md)
-   + [Integreren met Adobe Campaign Classic](using/beta/acc-action.md)
 
