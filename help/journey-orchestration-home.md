@@ -1,14 +1,14 @@
 ---
-keywords: Journeys;home;popular topics
+keywords: Reizen;home;populaire onderwerpen
 product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration-productdocumentatie
 topic: Premium
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '263'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 98%
 
 ---
 
@@ -27,8 +27,6 @@ Meer informatie over Journey Orchestration.
 * **[Gebeurtenis configureren](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Leer hoe u gebeurtenissen kunt configureren waar uw journey’s naar zullen luisteren.
 
 * **[Nieuwe functies ontdekken](using/release-notes/release-notes.md)**<br/>Meer informatie over de nieuwste releases.
-
-* **[Alfa-functies](using/alpha/alpha-overview.md)**<br/>Ontdek de functies die momenteel beschikbaar zijn via het Alfa-programma.
 
 ## Meest bezochte pagina’s
 
