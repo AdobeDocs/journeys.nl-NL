@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Journeyontwerper gebruiken
 description: Meer informatie over het gebruik van de reisontwerper
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 566252f72ef706308249c3b6b27564f086b40760
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1388'
 ht-degree: 5%
 
 ---
@@ -42,11 +42,15 @@ Het **palet** bevindt zich aan de linkerkant van het scherm. Alle beschikbare ac
 
 ![](../assets/journey38.png)
 
-Met het pictogram **[!UICONTROL Show disabled items]** in de linkerbovenhoek kunt u niet-beschikbare elementen in het palet verbergen of weergeven, bijvoorbeeld gebeurtenissen die een andere naamruimte gebruiken dan de gebeurtenissen die tijdens de reis worden gebruikt. Niet-beschikbare items zijn standaard verborgen. Als u deze weergeeft, worden ze grijs weergegeven.
+Met het pictogram **[!UICONTROL Filter items]** in de linkerbovenhoek kunt u de volgende filters weergeven:
 
-Wanneer u het veld **[!UICONTROL Search]** gebruikt, wordt het aantal resultaten weergegeven voor elke categorie canvasactiviteit.
+* **Alleen beschikbare objecten** tonen: niet-beschikbare elementen in het palet verbergen of weergeven, bijvoorbeeld gebeurtenissen die een andere naamruimte gebruiken dan de gebeurtenissen die tijdens de reis worden gebruikt. Niet-beschikbare items zijn standaard verborgen. Als u deze weergeeft, worden ze grijs weergegeven.
+
+* **Alleen recente objecten** tonen: Met dit filter kunt u alleen de laatste vijf gebruikte gebeurtenissen en handelingen weergeven, naast de gebeurtenissen en handelingen die buiten de box vallen. Dit geldt specifiek voor elke gebruiker. Standaard worden alle items weergegeven.
 
 ![](../assets/palette-filter.png)
+
+U kunt ook het veld **[!UICONTROL Search]** gebruiken.
 
 ## Het canvas {#canvas}
 
@@ -64,7 +68,7 @@ Op het canvas worden uw actie en gebeurtenisactiviteiten vertegenwoordigd door e
 
 ## De acties op de bovenste balk {#top_actions}
 
-Afhankelijk van de status van de reis kunt u verschillende handelingen op uw reis uitvoeren met de knoppen in de rechterbovenhoek: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Deze knoppen worden weergegeven wanneer er geen activiteit is geselecteerd. Sommige knoppen worden contextueel weergegeven. De knop voor het logbestand van de testmodus wordt weergegeven wanneer de testmodus wordt geactiveerd (zie [deze pagina](../building-journeys/testing-the-journey.md)). De rapportknop wordt weergegeven wanneer de reis live, gestopt of gesloten is.
+Afhankelijk van de status van de reis kunt u verschillende handelingen op uw reis uitvoeren met de knoppen in de rechterbovenhoek: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Deze knoppen worden weergegeven als er geen activiteit is geselecteerd. Sommige knoppen worden contextueel weergegeven. De knop voor het logbestand van de testmodus wordt weergegeven wanneer de testmodus wordt geactiveerd (zie [deze pagina](../building-journeys/testing-the-journey.md)). De rapportknop wordt weergegeven wanneer de reis live, gestopt of gesloten is.
 
 ![](../assets/journey41.png)
 
