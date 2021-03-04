@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Release-opmerkingen
 description: Meer informatie over opmerkingen bij de release
 translation-type: tm+mt
-source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
+source-git-commit: 9f312c779a6229507c72d3f116b8192bb5f1df34
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 73%
+source-wordcount: '2264'
+ht-degree: 68%
 
 ---
 
@@ -17,7 +17,32 @@ ht-degree: 73%
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-updates.md) raadplegen.
 
-## Release {#january-release} januari 2021
+## Release {#february-2021-release} februari 2021
+
+<table>
+<thead>
+<tr>
+<th><strong>Profielactiviteit bijwerken</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met deze nieuwe actieactiviteit kunt u een bestaand Adobe Experience Platform-profiel bijwerken met informatie die afkomstig is van de gebeurtenis, een gegevensbron of een specifieke waarde gebruiken.</p>
+<p>Raadpleeg de <a href="../building-journeys/update-profiles.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Overige verbeteringen
+
+* Bij het configureren van een gebeurtenis worden nu standaard alleen velden geselecteerd die verplicht zijn voor de XDM-validatie. Deze velden kunnen niet worden uitgeschakeld.
+* In het reispalet is een nieuw filter toegevoegd. Hiermee kunt u alleen de laatste vijf gebruikte gebeurtenissen en handelingen weergeven, naast de gebeurtenissen en handelingen die buiten de box vallen. Dit geldt specifiek voor elke gebruiker. Standaard worden alle items weergegeven. [Meer informatie](../building-journeys/using-the-journey-designer.md#palette)
+* Bij het starten van een nieuwe rit worden elementen die niet op het canvas kunnen worden neergezet als de eerste stap, nu verborgen. Dit heeft betrekking op alle handelingen, de activiteit van de aandoening, de wachttijd en de reactie.
+* In het linkerdeel van de geavanceerde uitdrukkingsredacteur, worden de functies nu opnieuw gegroepeerd onder een **sectie Functions** aan het eind van de lijst.
+
+## Release van januari 2021 {#january-2021-release}
 
 Wanneer u een schema selecteert in de gebeurtenisconfiguratie, worden alleen velden geselecteerd die verplicht zijn om de gebeurtenis correct door Journey Orchestration te ontvangen. [Meer informatie](../event/defining-the-payload-fields.md)
 
@@ -82,7 +107,6 @@ De [getListItem](../functions/functiongetlistitem.md) en [split](../functions/fu
 <td>
 <p>Er is nu een nieuwe methode beschikbaar om gebeurtenissen gemakkelijker in te stellen, zonder een eventID te gebruiken: Op regel-gebaseerde gebeurtenissen evalueren of zou de gebeurtenis volgens een voorwaarde moeten worden teweeggebracht. U kunt nog steeds de bestaande methode gebruiken, die nu "door het systeem gegenereerd" wordt genoemd. Deze functie, die door een beperkte groep klanten via het Alpha-programma is getest, is nu beschikbaar in Bèta aan alle klanten.
 </p>
-<p>Raadpleeg de <a href="../event/about-events.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -140,8 +164,6 @@ De **Segmentkwalificatie** activiteit kan niet meer worden gebruikt in een reis 
 
 ### Alfa-updates{#september-alpha-update}
 
-Raadpleeg deze [sectie](../alpha/alpha-overview.md) om de scope van Alfa te ontdekken.
-
 <table>
 <thead>
 <tr>
@@ -159,7 +181,6 @@ Raadpleeg deze [sectie](../alpha/alpha-overview.md) om de scope van Alfa te ontd
 <li><p>De granulariteit van de logboeken van de testwijze is verbeterd om de de vooruitgangsstatus van de segmentuitvoer te tonen.</p>
 </li>
 </ul>
-<p>Raadpleeg de <a href="../alpha/alpha-segment-trigger.md">gedetailleerde documentatie</a> voor meer informatie over de <strong>Leessegment</strong> activiteit.</p>
 </td>
 </tr>
 </tbody>
@@ -172,8 +193,6 @@ Raadpleeg deze [sectie](../alpha/alpha-overview.md) om de scope van Alfa te ontd
 De payload van segmentkwalificatiegebeurtenissen bevat nu de volgende contextinformatie, die u in voorwaarden en acties kunt gebruiken: het gedrag (openen, sluiten), het tijdstempel van kwalificatie en de segment-ID. [Meer informatie](../building-journeys/segment-qualification-events.md)
 
 ### Alfa-updates{#august-alpha-update}
-
-Raadpleeg deze [sectie](../alpha/alpha-overview.md) om de scope van Alfa te ontdekken.
 
 <table>
 <thead>
@@ -194,7 +213,6 @@ Raadpleeg deze [sectie](../alpha/alpha-overview.md) om de scope van Alfa te ontd
 <li><p>U kunt de journey nu testen op een uniform profiel en de voortgang van de journey volgen met behulp van de visuele stroom.</p>
 </li>
 </ul>
-<p>Raadpleeg de <a href="../alpha/alpha-segment-trigger.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -228,8 +246,6 @@ Raadpleeg deze [sectie](../alpha/alpha-overview.md) om de scope van Alfa te ontd
 
 Het Alfa-programma biedt functies die momenteel bij een beperkt aantal klanten worden getest. Hierdoor kunnen we ons product verbeteren op basis van de ontvangen feedback. Deze functies zijn niet beschikbaar voor alle Journey Orchestration-klanten.
 
-Deze functies worden beschreven in een speciale [sectie](../alpha/alpha-overview.md).
-
 <table>
 <thead>
 <tr>
@@ -247,7 +263,6 @@ Deze functies worden beschreven in een speciale [sectie](../alpha/alpha-overview
 <li><p>Groepering van beheerdersfuncties in één dashboard.</p>
 </li>
 </ul>
-<p>Raadpleeg de <a href="../alpha/alpha-interface.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -262,7 +277,7 @@ Deze functies worden beschreven in een speciale [sectie](../alpha/alpha-overview
 <tbody>
 <tr>
 <td>
-<p>Met de segmenttriggeractiviteit kunt u alle personen die tot een Adobe Experience Platform-segment behoren, een journey laten starten. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden. <a href="../alpha/alpha-segment-trigger.md">Meer informatie</a>
+<p>Met de segmenttriggeractiviteit kunt u alle personen die tot een Adobe Experience Platform-segment behoren, een journey laten starten. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden. 
 </p>
 </td>
 </tr>
