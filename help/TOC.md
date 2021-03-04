@@ -6,9 +6,9 @@ title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 translation-type: tm+mt
-source-git-commit: 59fef99ac17621e81037ddbcc280e9341db729eb
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '403'
 ht-degree: 98%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 98%
          + [Adobe Campaign-acties gebruiken](using/building-journeys/using-adobe-campaign-actions.md)
          + [Aangepaste acties gebruiken](using/building-journeys/using-custom-actions.md)
          + [Van de ene journey naar de andere gaan](using/building-journeys/jump.md)
+         + [Profiel bijwerken](using/building-journeys/update-profiles.md)
    + [Journey testen](using/building-journeys/testing-the-journey.md)
    + [Journey publiceren](using/building-journeys/publishing-the-journey.md)
    + Journeystappen delen met Adobe Experience Platform {#sharing-journey-steps}
@@ -192,8 +193,3 @@ ht-degree: 98%
       + [De journey samenstellen](using/usecase/building-the-journey.md)
 + Werken met API’s{#working-with-apis}
    + [API’s beperken](using/api/capping.md)
-+ Alfa-functies {#alpha}
-   + [Overzicht van Alfa-functies](using/alpha/alpha-overview.md)
-   + [Gebruikersinterface](using/alpha/alpha-interface.md)
-   + [Segmentactiviteit lezen](using/alpha/alpha-segment-trigger.md)
-
