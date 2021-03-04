@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: De geavanceerde expressie-editor
 description: Geavanceerde expressies maken
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 96%
+source-wordcount: '541'
+ht-degree: 90%
 
 ---
 
@@ -56,9 +56,11 @@ In dit scherm kunt u uw expressie handmatig schrijven.
 
 Links in het scherm worden de beschikbare velden en functies weergegeven:
 
-* **[!UICONTROL Events]**: kies een van de velden die worden ontvangen van de binnenkomende gebeurtenis. De weergegeven lijst met gebeurtenisvelden is contextafhankelijk en varieert al naar gelang de gebeurtenissen die tijdens de journey worden toegevoegd.
-* **[!UICONTROL Data Sources]**: kies uit de lijst met velden die beschikbaar zijn in de veldengroepen van uw databronnen.
-* **[!UICONTROL Functions]**: kies uit de lijst met ingebouwde functies die complexe filtering mogelijk maken. Functies zijn ingedeeld in categorieën.
+* **[!UICONTROL Events]**: kies een van de velden die worden ontvangen van de binnenkomende gebeurtenis. De weergegeven lijst met gebeurtenisvelden is contextafhankelijk en varieert al naar gelang de gebeurtenissen die tijdens de journey worden toegevoegd. [Meer informatie](../event/about-events.md)
+* **[!UICONTROL Segments]**: Als u een  **[!UICONTROL Segment qualification]** gebeurtenis hebt neergezet, kiest u het segment dat u in uw expressie wilt gebruiken. [Meer informatie](../segment/using-a-segment.md)
+* **[!UICONTROL Data Sources]**: kies uit de lijst met velden die beschikbaar zijn in de veldengroepen van uw databronnen. [Meer informatie](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**: in dit deel worden de technische gebieden die verband houden met de reis voor een bepaald profiel gegroepeerd . [Meer informatie](../expression/journey-properties.md)
+* **[!UICONTROL Functions]**: kies uit de lijst met ingebouwde functies die complexe filtering mogelijk maken. Functies zijn ingedeeld in categorieën. [Meer informatie](../expression/functions.md)
 
 ![](../assets/journey65.png)
 
