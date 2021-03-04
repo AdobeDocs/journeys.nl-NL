@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Documentatie-updates
 description: Meer informatie over documentatie-updates
 translation-type: tm+mt
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '785'
 ht-degree: 93%
 
 ---
@@ -28,7 +28,7 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 ## September 2020 {#september-2020}
 
 * De sectie van de interfacebeschrijving is bijgewerkt om op het nieuwe **Alle selecteur** menu te wijzen. [Meer informatie](../about/user-interface.md)
-* Een opmerking toegevoegd over de nieuwe versies van de segmentreizen die niet terugkerend zijn. [Meer informatie](../alpha/alpha-segment-trigger.md)
+* Een opmerking toegevoegd over de nieuwe versies van de segmentreizen die niet terugkerend zijn.
 
 ## Augustus 2020 {#august-2020}
 
@@ -42,7 +42,7 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 * De sectie voor gebeurtenisactiviteiten is gereorganiseerd in specifieke subsecties voor elk type gebeurtenissen. [Meer informatie](../building-journeys/event-activities.md)
 * Er zijn best practices toegevoegd om overbelasting met segmentkwalificatie te vermijden. [Meer informatie](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Er is een notitie toegevoegd om uit te leggen hoe een journey moet worden voortgezet na een fout in een actie of een voorwaarde. [Meer informatie](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* Er is een nieuwe sectie toegevoegd over de Alfa-functies die onder een beperkte groep klanten worden getest. [Meer informatie](../alpha/alpha-overview.md)
+* Er is een nieuwe sectie toegevoegd over de Alfa-functies die onder een beperkte groep klanten worden getest.
 * Er is een nieuwe sectie toegevoegd over de integratie met Intelligent Services. [Meer informatie](../ai-services/ai-services-overview.md)
 * Er is een nieuwe sectie toegevoegd over het maken van testprofielen. [Meer informatie](../building-journeys/testing-the-journey.md#create-test-profile)
 * Er is informatie toegevoegd over het gebruik van de node **[!UICONTROL SegmentQualification]** in een journeyvoorwaarde of een actie. [Meer informatie](../building-journeys/segment-qualification-events.md)
