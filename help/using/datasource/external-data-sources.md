@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 'Externe databronnen '
 description: 'Leer hoe u externe databronnen kunt configureren '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 28604af956df18fbc89e44ace36904c5897c028e
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 99%
@@ -74,9 +74,9 @@ Voor de parameterreeks ‘long/lat’ maken we een veldengroep met de volgende i
 * **[!UICONTROL Dynamic Values]**: voer de verschillende parameters in, gescheiden door een komma, in het voorbeeld ‘long,lat’. Aangezien de parameterwaarden afhankelijk zijn van de uitvoeringscontext, worden ze tijdens de journey’s gedefinieerd. Zie [deze pagina](../expression/expressionadvanced.md).
 * **[!UICONTROL Sent Payload]**: dit veld staat niet in ons voorbeeld. Deze optie is alleen beschikbaar als u de methode POST selecteert. Plak de payload die naar het externe systeem wordt verzonden.
 
-Bij een GET-aanroep die parameter(s) vereist, voert u de parameter(s) in het veld **[!UICONTROL Parameters]** in en worden deze automatisch toegevoegd aan het eind van de aanroep. Bij een POST-aanroep doet u het volgende:
+Bij een GET-aanroep die parameter(s) vereist, voert u de parameter(s) in het veld **[!UICONTROL Dynamic Values]** in en worden deze automatisch toegevoegd aan het eind van de aanroep. Bij een POST-aanroep doet u het volgende:
 
-* geef een lijst op van de parameters die op het aanroeptijdstip moeten worden doorgegeven in het veld **[!UICONTROL Parameter]** (in het voorbeeld hieronder: ‘identifier’).
+* geef een lijst op van de parameters die op het aanroeptijdstip moeten worden doorgegeven in het veld **[!UICONTROL Dynamic Values]** (in het voorbeeld hieronder: ‘identifier’).
 * geef ze ook volgens precies dezelfde syntaxis op in de hoofdtekst van de verzonden payload. Hiervoor moet u het volgende toevoegen: ‘param’: ‘naam van de parameter’ (in het onderstaande voorbeeld: ‘identifier’). Volg de onderstaande syntaxis:
 
    ```
