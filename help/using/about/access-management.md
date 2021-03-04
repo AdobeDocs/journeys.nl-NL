@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Toegangscontrole
 description: Meer informatie over toegangscontrole
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: e55078b31b5f0e5811575d5e8993a01a90ec9c14
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 99%
 
 ---
 
@@ -45,6 +45,7 @@ In de Admin Console kunt u een van de volgende meegeleverde productprofielen aan
    * Journey’s beheren
    * Journey’s publiceren
    * Rapporten beheren
+   * Gebeurtenissen, gegevensbronnen en handelingen lezen
 
 U kunt ook zelf productprofielen maken als de meegeleverde profielen niet voldoende zijn om uw gebruikers te beheren.
 Gebruikers moeten altijd aan een productprofiel zijn gekoppeld zodat u specifieke ingebouwde toestemmingen aan hen kunt toewijzen, zoals:
