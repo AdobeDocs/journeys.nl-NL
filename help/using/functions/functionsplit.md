@@ -1,18 +1,21 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: splitsen
+title: split
 description: Meer informatie over de functie splitsen
+feature: Reizen
+role: Gegevensengineer
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 135485c097f99483c2ddb3d03e0552f9ac134b44
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 4%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
 
 
-# splitsen {#split}
+# split {#split}
 
 Splitst de eerste argumenttekenreeks op met een scheidingstekenreeks (tweede argumenttekenreeks, die een reguliere expressie kan zijn) om een lijst met tekenreeksen (tokens) te maken.
 
