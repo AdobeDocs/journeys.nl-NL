@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: setHours
 description: Meer informatie over de functie setHours
+feature: Reizen
+role: Gegevensengineer
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 5%
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 
