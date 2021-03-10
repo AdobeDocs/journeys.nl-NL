@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Cijfers en dimensies
 description: Meer informatie over de beschikbare afmetingen en meetgegevens voor Journey Orchestration
+feature: Reizen
+role: Zakelijke praktiserer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -67,7 +70,7 @@ In de onderstaande tabel vindt u een lijst met maatstaven die worden gebruikt in
 | **Voltooiingsgraad** | Het totale aantal personen dat normaal gesproken de reis beëindigde, vergeleken met het totale aantal personen dat de reis heeft betreden. |
 | **Huidig** | Het totale aantal personen dat momenteel op reis is, d.w.z. het aantal personen dat is binnengekomen min het aantal personen dat is vertrokken, de fouten en het tijdstip waarop de reis heeft plaatsgevonden. |
 | **Huidige rentevoet** | Het totale aantal personen dat momenteel op reis is, in vergelijking met het aantal personen dat de reis heeft betreden. |
-| **Ingegaan** | Het totale aantal gebeurtenissen dat zich heeft voorgedaan om een individuele ingang in de reis te beginnen. |
+| **Ingegaan** | Het totale aantal gebeurtenissen dat heeft plaatsgevonden om een individuele ingang in de reis te beginnen. |
 | **Fout** | Het totale aantal fouten dat tijdens een reis is opgetreden, maar dat de reis niet heeft verhinderd succesvol te zijn. |
 | **Fout in handeling** | Het totale aantal fouten dat is opgetreden voor handelingen. |
 | **Fout in verrijking** | Het totale aantal fouten dat voor een gegevensverrijking voorkwam toen het roepen van een gegevensbron/gebiedsgroep. |
@@ -87,8 +90,8 @@ verslagen, hun definities en formules.
 
 | Metrisch | Definitie |
 |--- |--- |
-| **Op lijst van afgewezen personen** | Aantal ontvangers die een e-mailbericht hebben gedeclareerd als spam of junk. |
-| **Lijst van afgewezen personen** | Het totale aantal berichten op lijst van afgewezen personen vergeleken met verzonden berichten. |
+| **Op lijst van gewezen personen** | Aantal ontvangers die een e-mailbericht hebben gedeclareerd als spam of junk. |
+| **Lijst van gewezen personen** | Het totale aantal berichten op lijst van gewezen personen vergeleken met verzonden berichten. |
 | **Bounces + fouten** | Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd. |
 | **Stuiteren + foutenfrequentie** | Het totale aantal berichten dat is teruggevallen in vergelijking met verzonden berichten. |
 | **Klik op** | Het aantal keren dat op een inhoud is geklikt in een levering. |
@@ -99,7 +102,7 @@ verslagen, hun definities en formules.
 | **Hard stuiteren** | Het totale aantal permanente fouten, zoals een onjuist e-mailadres. |
 | **Harde stuitsnelheid** | Het totale aantal leveringen dat is mislukt als gevolg van permanente fouten in vergelijking met verzonden berichten. |
 | **Pagina spiegelen** | Aantal ontvangers die op de verbinding van de spiegelpagina klikte. |
-| **Paginasnelheid spiegelen** | Het totale aantal klikken op de koppeling van de spiegelpagina vergeleken met het totale aantal geleverde berichten. |
+| **Paginasnelheid spiegelen** | Het totale aantal klikken op de koppeling van de spiegelpagina in verhouding tot het totale aantal geleverde berichten. |
 | **Open** | Aantal keren dat een bericht in een levering werd geopend. |
 | **OpenRate** | Het totale aantal geopende berichten in verhouding tot het aantal geleverde berichten. |
 | **Quarantine** | Aantal berichten die in quarantaine van het adres stuitten en resulteerden. |
