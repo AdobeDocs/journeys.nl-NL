@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Journey Orchestration-beperkingen
 description: Meer informatie over Journey Orchestration-beperkingen
 translation-type: tm+mt
-source-git-commit: a0b6f54e37abded690dc200bc3a901a8e0f04f79
+source-git-commit: 1433ccabaceb31c7ffac117a31531d0d380a54f8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '526'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van Journey Orchestration.
 
 ## Beperkingen voor gebeurtenissen
 
-* Voor door het systeem gegenereerde gebeurtenissen moeten streaming gegevens die worden gebruikt om een reis van de klant te initiëren, eerst worden geconfigureerd binnen Beheer reis van de klant om een unieke organisatie-id te krijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
+* Voor door het systeem gegenereerde gebeurtenissen moeten streaming gegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Orchestration worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
  
 
 ## Beperkingen op gegevensbronnen
