@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Van de ene journey naar de andere gaan
 description: Van de ene journey naar de andere gaan
 translation-type: tm+mt
-source-git-commit: 27a65d8bac83e7a9343ad68306c06a0590a607e9
+source-git-commit: 5c94f64c10d12690e27585806962bf9537636e9c
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '442'
 ht-degree: 3%
 
 ---
@@ -19,14 +19,21 @@ Met de actieactiviteit **[!UICONTROL Update profile]** kunt u een bestaand Adobe
 ## Belangrijke opmerkingen
 
 * De handeling **Update profile** kan alleen worden gebruikt tijdens reizen die beginnen met een gebeurtenis met een naamruimte.
-* In de testmodus wordt de profielupdate niet gesimuleerd. De update wordt uitgevoerd op het testprofiel.
 * Met de handeling worden alleen bestaande velden bijgewerkt. Er worden geen nieuwe profielvelden gemaakt.
 * U kunt de handeling **Update profile** niet gebruiken om ervaringsgebeurtenissen te genereren, bijvoorbeeld een aankoop.
 * Net als bij andere acties kunt u een alternatief pad definiëren in het geval van een fout of time-out. U kunt geen twee acties parallel plaatsen.
 * Het updateverzoek dat naar het Platform wordt verzonden, wordt snel verzonden, maar niet onmiddellijk/binnen een seconde. Het duurt normaal een paar seconden, maar soms nog meer zonder garantie. Als een handeling bijvoorbeeld &#39;field 1&#39; gebruikt die is bijgewerkt met een handeling Profiel bijwerken die eerder is geplaatst, mag u niet verwachten dat &#39;field 1&#39; wordt bijgewerkt in de handeling.
 * Gegevensbronnen hebben een begrip van cacheduur, op het niveau van de gebiedsgroep. Als u tijdens een rit een profielveld wilt gebruiken dat onlangs is bijgewerkt, moet u zorgvuldig een zeer korte cache-duur definiëren.
 
-## De profielupdate gebruiken.
+## De testmodus {#using-the-test-mode} gebruiken
+
+In de testmodus wordt de profielupdate niet gesimuleerd. De update wordt uitgevoerd op het testprofiel.
+
+Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. In het Platform van de Ervaring van Adobe, kunt u profielattributen via API vraag bijwerken, maar het kan niet via de interface worden uitgevoerd. De gemakkelijkste manier om dit te doen is door een **Update profiel** actiesactiviteit te gebruiken en het de booleaanse gebied van het testprofiel van vals in waar te veranderen.
+
+Raadpleeg voor meer informatie over de testmodus deze [sectie](../building-journeys/testing-the-journey.md).
+
+## De profielupdate gebruiken
 
 1. Ontwerp uw reis door met een gebeurtenis te beginnen. Zie deze [sectie](../building-journeys/journey.md).
 
