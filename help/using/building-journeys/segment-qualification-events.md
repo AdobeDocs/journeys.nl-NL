@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Segmentkwalificatiegebeurtenissen
 description: Meer informatie over segmentkwalificatiegebeurtenissen
+feature: Reizen
+role: Zakelijke praktiserer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
