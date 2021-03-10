@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Aan de slag
 description: Ontdek de belangrijkste stappen om Journey Orchestration in te stellen en uw eerste reis te bouwen.
+feature: Reizen
+role: Zakelijke praktiserer
+level: Begin
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 87%
+source-wordcount: '326'
+ht-degree: 86%
 
 ---
 
