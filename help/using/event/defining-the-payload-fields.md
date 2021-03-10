@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Payloadvelden definiëren
 description: Meer informatie over het definiëren van laadvelden
+feature: Reizen
+role: Zakelijke praktiserer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '305'
 ht-degree: 6%
 
 ---
