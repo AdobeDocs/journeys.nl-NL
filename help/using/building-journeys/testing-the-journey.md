@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Journey testen
 description: 'Meer informatie over het testen van reizen '
 translation-type: tm+mt
-source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
+source-git-commit: ceb8e3267aa9e467ccecf9b343d9f4d883a41e14
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1538'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 3%
 Voordat u uw reis kunt testen, moet u alle eventuele fouten oplossen. Zie [deze sectie](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 U kunt uw reis testen voordat deze wordt gepubliceerd, met behulp van testprofielen. Dit staat u toe om te analyseren hoe de individuen in de reis stromen en problemen vóór publicatie oplossen.
+
+Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een bestaand profiel [een nieuw testprofiel maken](../building-journeys/testing-the-journey.md#create-test-profile) of [een bestaand profiel omzetten in een testprofiel](../building-journeys/testing-the-journey.md#turning-profile-into-test).
 
 Voer de volgende stappen uit om de testmodus te gebruiken:
 
@@ -50,13 +52,19 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 * U kunt de testmodus zo vaak als nodig in- en uitschakelen.
 * U kunt uw reis niet wijzigen wanneer de testwijze wordt geactiveerd. In de testmodus kunt u de rit rechtstreeks publiceren. U hoeft de testmodus daarvoor niet te deactiveren.
 
+## Een profiel omzetten in een testprofiel{#turning-profile-into-test}
+
+U kunt een bestaand profiel omzetten in een testprofiel. In het Platform van de Ervaring van Adobe, kunt u profielattributen via API vraag bijwerken, maar het kan niet via de interface worden uitgevoerd.
+
+De gemakkelijkste manier om dit te doen is door een **Update profiel** actiesactiviteit te gebruiken en het de booleaanse gebied van het testprofiel van vals in waar te veranderen. Zie [deze sectie](../building-journeys/update-profiles.md#using-the-test-mode).
+
 ## Een testprofiel maken{#create-test-profile}
 
-Het maken van een testprofiel gebeurt op dezelfde manier als wanneer u een profiel maakt in de Adobe Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [pagina](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)
+Als u een nieuw testprofiel wilt maken, gebeurt dit volgens dezelfde procedure als wanneer u een profiel maakt in de Adobe Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [pagina](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)
 
 U moet een profielschema gebruiken dat de &quot;details van de profieltest&quot;mengen bevat. De markering testProfile maakt deel uit van deze mix.
 
-Wanneer u een profiel maakt, moet u de waarde doorgeven: testprofile = true.
+Wanneer u een profiel maakt, moet u de waarde doorgeven: testProfile = true.
 
 U kunt een bestaand profiel ook bijwerken en de markering testProfile wijzigen in &quot;true&quot;.
 
