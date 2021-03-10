@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 'Adobe Experience Platform-databron '
 description: 'Leer hoe u de Adobe Experience Platform-gegevensbron configureert '
+feature: Reizen
+role: Zakelijke praktiserer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '360'
 ht-degree: 11%
 
 ---
