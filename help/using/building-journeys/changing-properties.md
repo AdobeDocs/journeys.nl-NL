@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Eigenschappen wijzigen
 description: Meer informatie over het wijzigen van eigenschappen
+feature: Reizen
+role: Zakelijke praktiserer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -45,7 +48,7 @@ Naast de [timeout](#timeout_and_error) die in reisactiviteiten wordt gebruikt, i
 >
 >[!DNL Journey Orchestration] reageert niet rechtstreeks op verzoeken om privacy te weigeren, toegang te krijgen of te verwijderen. De wereldwijde time-out zorgt er echter voor dat individuen nooit langer dan 30 dagen op een reis blijven.
 
-Vanwege de 30 dagen durende reistijd, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat het blokkeren van de terugkeer meer dan 30 dagen zal duren. Aangezien we alle informatie over personen die 30 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 30 dagen geleden, is binnengekomen.
+Vanwege de 30 dagen durende reistijd, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat de heringstop meer dan 30 dagen werkt. Aangezien we alle informatie over personen die 30 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 30 dagen geleden, is binnengekomen.
 
 ## Tijdzone en profieltijdzone {#timezone}
 
