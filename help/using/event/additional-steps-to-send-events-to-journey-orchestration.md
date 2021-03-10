@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Aanvullende stappen om gebeurtenissen naar Journey Orchestration te verzenden
 description: Meer informatie over extra stappen om gebeurtenissen naar Journey Orchestration te verzenden
+feature: Reizen
+role: Zakelijke praktiserer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '327'
 ht-degree: 7%
 
 ---
@@ -28,7 +31,7 @@ Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Strea
 
 1. Stel een POST-API-aanroep in naar de URL van de Streaming Ingestie-API&#39;s (een zogenaamde inlaat).
 1. Gebruik de nuttige lading u van [!DNL Journey Orchestration] in het lichaam (&quot;gegevenssectie&quot;) van de API vraag aan Streaming Ingestie APIs kopieerde. Zie hieronder voor een voorbeeld
-1. Bepaal waar u alle variabelen in de lading wilt ophalen. Voorbeeld: als de gebeurtenis geacht wordt het adres over te brengen, zal de geplakte lading &quot;adres&quot;tonen: &quot;string&quot;. &quot;string&quot; moet worden vervangen door de variabele die automatisch de juiste waarde invult, de e-mail van de persoon waarnaar een bericht wordt verzonden. Let op: in de voorvertoning van de payload, in de sectie **[!UICONTROL Header]**, vullen we veel waarden automatisch die u nodig hebt om uw werk te vergemakkelijken.
+1. Bepaal waar u alle variabelen in de lading wilt ophalen. Voorbeeld: als de gebeurtenis geacht wordt het adres over te brengen, zal de geplakte lading &quot;adres&quot;tonen: &quot;string&quot;. &quot;string&quot; moet worden vervangen door de variabele die automatisch de juiste waarde invult, de e-mail van de persoon waarnaar een bericht wordt verzonden. Let op: in de voorvertoning van de lading, in de sectie **[!UICONTROL Header]**, vullen wij vele waarden automatisch die worden verwacht om uw werk te vergemakkelijken.
 1. Selecteer &#39;application/json&#39; als type body.
 1. Geef uw IMS-organisatie-id in de koptekst door met behulp van de sleutel &quot;x-gw-ims-org-id&quot;. Gebruik voor de waarde uw IMS-organisatie-id (&quot;XXX@AdobeOrg&quot;).
 
