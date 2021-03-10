@@ -4,10 +4,13 @@ solution: Journey Orchestration
 title: Beschrijving van API voor uitlijnen
 description: Meer informatie over de API voor aftiteling.
 products: journeys
+feature: Reizen
+role: Zakelijke praktiserer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1112'
 ht-degree: 1%
 
 ---
@@ -38,14 +41,14 @@ Om uw integratie te testen en voor te bereiden, is een inzameling van Postman be
 
 ### API-toegang instellen
 
-[!DNL Journey Orchestration] API-toegang wordt ingesteld via de onderstaande stappen. Elk van deze stappen wordt beschreven in de [Adobe I/O documentatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+[!DNL Journey Orchestration] API-toegang wordt ingesteld via de onderstaande stappen. Elk van deze stappen wordt gedetailleerd in [Adobe I/O documentatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
->Als u certificaten in Adobe I/O wilt beheren, moet u <b>Systeembeheerder</b> rechten hebben op de organisatie of een [ontwikkelaaraccount](https://helpx.adobe.com/enterprise/using/manage-developers.html) in de beheerconsole.
+>Als u certificaten in Adobe I/O wilt beheren, moet u <b>Systeembeheerder</b> rechten hebben op de organisatie of een [ontwikkelingsaccount](https://helpx.adobe.com/enterprise/using/manage-developers.html) in de beheerconsole.
 
 1. **Controleer of u een digitaal certificaat** hebt of maak er zo nodig een. De openbare en persoonlijke sleutels die van het certificaat worden voorzien zijn vereist in de volgende stappen.
-1. **Creeer een nieuwe integratie aan  [!DNL Journey Orchestration]** Dienst in Adobe I/O en vorm het. De toegang tot het productprofiel is vereist voor [!DNL Journey Orchestration] en Adobe Experience Platform. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).
+1. **Creeer een nieuwe integratie aan  [!DNL Journey Orchestration]** Onderhoud Adobe I/O en vorm het. De toegang tot het productprofiel is vereist voor [!DNL Journey Orchestration] en Adobe Experience Platform. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).
 1. **Maak een JSON Web Token (JWT)** van de eerder gegenereerde referenties en onderteken deze met uw persoonlijke sleutel. De JWT codeert alle identiteits- en beveiligingsgegevens die Adobe nodig heeft om uw identiteit te verifiëren en u toegang tot de API te verlenen. Deze stap wordt beschreven in deze [sectie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Uitwisseling uw JWT voor een** Tokenon van de Toegang door een verzoek van de POST of via de Interface van de Console van de Ontwikkelaar. Dit toegangstoken moet worden gebruikt in elke header van uw API-aanvragen.
 
@@ -62,11 +65,11 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
    * &lt;organization> : productie-instantie
 
-   Raadpleeg de beheerder of uw technische contactpersoon voor Adobe om de waarde van uw ORGANISATIE-id op te vragen. U kunt het in Adobe I/O ook terugwinnen wanneer het creëren van een nieuwe integratie, in de vergunningslijst (zie <a href="https://www.adobe.io/authentication.html">de documentatie van Adobe I/O</a>).
+   Raadpleeg de beheerder of uw technische contactpersoon voor Adobe om de waarde van uw ORGANISATIE-id op te vragen. U kunt het in Adobe I/O ook terugwinnen wanneer het creëren van een nieuwe integratie, in de vergunningslijst (zie <a href="https://www.adobe.io/authentication.html">Adobe I/O documentatie</a>).
 
 * **&lt;access_token>**: Uw persoonlijk toegangstoken, dat werd teruggewonnen toen het ruilen van uw JWT door een verzoek van de POST.
 
-* **&lt;api_key>**: uw persoonlijke API-sleutel. Het wordt geleverd in Adobe I/O na het creëren van een nieuwe integratie aan de Dienst [!DNL Journey Orchestration].
+* **&lt;api_key>**: uw persoonlijke API-sleutel. De service wordt geleverd in Adobe I/O na het maken van een nieuwe integratie in de service [!DNL Journey Orchestration].
 
 
 
@@ -74,7 +77,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 Met de API voor uitsnijden kunt u uw configuraties voor uitlijnen maken, configureren en controleren.
 
-| Methode | Pad | Beschrijving |
+| Method | Pad | Beschrijving |
 |---|---|---|
 | [!DNL POST] | list/endConfigs | Krijg een lijst van de eindpunt die configuraties begrenzen |
 | [!DNL POST] | /endConfigs | Creeer een eindpunt het bedekken configuratie |
@@ -167,7 +170,7 @@ In deze sectie, zult u de vijf belangrijkste gebruik-gevallen vinden die u kunt 
 
 Om u in uw het testen en configuratie te helpen, is een inzameling van Postman beschikbaar [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
-Deze Postman Collection is opstelling om de Variabele inzameling van Postman te delen die via __[Integraties van de Console van Adobe I/O ](https://console.adobe.io/integrations) wordt geproduceerd uit te proberen > Download voor Postman__, die een dossier van het Milieu van Postman met de geselecteerde integratiewaarden produceert.
+Deze Postman-verzameling is ingesteld om de Postman-variabele-verzameling te delen die is gegenereerd via de integratie van __[Adobe I/O-console](https://console.adobe.io/integrations) > Uitproberen > Download for Postman__. Hiermee wordt een Postman-milieubestand gegenereerd met de geselecteerde integratiewaarden.
 
 Nadat u het bestand hebt gedownload en geüpload naar Postman, moet u drie variabelen toevoegen: `{JO_HOST}`,`{Base_Path}` en `{SANDBOX_NAME}`.
 * `{JO_HOST}` :  [!DNL Journey Orchestration] Gateway-URL
