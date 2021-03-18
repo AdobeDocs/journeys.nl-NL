@@ -1,17 +1,17 @@
 ---
-keywords: Reizen;home;populaire onderwerpen
+keywords: Journeys;startpagina;populaire onderwerpen
 product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration-productdocumentatie
 topic: Premium
-feature: Reizen
-role: Zakelijke praktiserer
-level: Begin
-translation-type: tm+mt
+feature: Journeys
+role: Business Practitioner
+level: Beginner
+translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
