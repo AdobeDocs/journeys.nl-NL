@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informatie over gebeurtenissen
 description: Meer informatie over gebeurtenissen
-feature: Reizen
-role: Zakelijke praktiserer
+feature: Journeys
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 55%
+source-wordcount: '357'
+ht-degree: 49%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="Informatie over gebeurtenissen"
->abstract="Een gebeurtenis is gekoppeld aan een persoon en heeft betrekking op het gedrag van een persoon (bijvoorbeeld: iemand heeft een product gekocht, een winkel bezocht, een website verlaten, enz.) of op iets dat verband houdt met een persoon (bijvoorbeeld: iemand heeft 10.000 loyaliteitspunten verdiend). Dit is waar [!DNL Journey Orchestration] op let tijdens journey’s om vervolgens de beste acties te orkestreren."
+>abstract="Een gebeurtenis is gekoppeld aan een persoon en Het heeft betrekking op het gedrag van een persoon of iets dat met een persoon verband houdt. Dit is waar [!DNL Journey Orchestration] op let tijdens journey’s om vervolgens de beste acties te orkestreren."
 
 Een gebeurtenis is gekoppeld aan een persoon en heeft betrekking op het gedrag van een persoon (bijvoorbeeld: iemand heeft een product gekocht, een winkel bezocht, een website verlaten, enz.) of op iets dat verband houdt met een persoon (bijvoorbeeld: iemand heeft 10.000 loyaliteitspunten verdiend). Dit is waar [!DNL Journey Orchestration] op let tijdens journey’s om vervolgens de beste acties te orkestreren.
 
