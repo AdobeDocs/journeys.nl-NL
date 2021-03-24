@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Informatie over databronnen
 description: 'Een databron configureren '
-feature: Reizen
-role: Zakelijke praktiserer
+feature: Journeys
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 87%
+source-wordcount: '348'
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="Informatie over databronnen"
->abstract="De databronconfiguratie wordt altijd uitgevoerd door een technische gebruiker. Met de databronconfiguratie kunt u een verbinding met een systeem definiëren om extra informatie op te halen die in uw journey’s wordt gebruikt voor parameter- en personalisatiedata in acties en het definiëren van voorwaarden, tijdzones en aangepaste wachttijden."
+>abstract="De gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt."
 
 Met de databronconfiguratie kunt u een verbinding met een systeem definiëren om extra informatie op te halen die in uw journey’s wordt gebruikt voor:
 
