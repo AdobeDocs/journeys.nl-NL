@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: De gebruikersinterface
 description: Meer informatie over de gebruikersinterface
-feature: Reizen
-role: Zakelijke praktiserer
+feature: Journeys
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 93%
+source-wordcount: '1014'
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ U kunt [!DNL Journey Orchestration] ook openen via de startpagina van Experience
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Journeylijst"
->abstract="Met de journeylijst kunt u al uw journey’s tegelijk weergeven, hun status bekijken en basisacties uitvoeren. U kunt uw journey’s dupliceren, stopzetten of verwijderen. Afhankelijk van de journey zijn bepaalde acties mogelijk niet beschikbaar. U kunt bijvoorbeeld een gesloten journey niet verwijderen of opnieuw starten. U kunt deze dupliceren of een nieuwe versie maken op basis van de gesloten journey. U kunt ook de zoekbalk gebruiken om een journey te zoeken."
+>abstract="Met de journeylijst kunt u al uw journey’s tegelijk weergeven, hun status bekijken en basisacties uitvoeren."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Demovideo bekijken"
 
 Met de bovenste menu’s kunt u navigeren door de verschillende functies van [!DNL Journey Orchestration]: **[!UICONTROL Home]** (de journey’s), **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]**.
