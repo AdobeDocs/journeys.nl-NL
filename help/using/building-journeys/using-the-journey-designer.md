@@ -3,13 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journeyontwerper gebruiken
 description: Meer informatie over het gebruik van de reisontwerper
-feature: Reizen
-role: Zakelijke praktiserer
+feature: Journeys
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1416'
 ht-degree: 5%
 
 ---
@@ -66,6 +66,8 @@ Het **canvas** is de centrale zone in de reisontwerper. Het is in deze streek da
 Het **activiteitenconfiguratievenster** verschijnt wanneer u op een activiteit in het palet klikt. Vul de vereiste velden in. Klik op het pictogram **[!UICONTROL Delete]** om de activiteit te verwijderen. Klik op **[!UICONTROL Cancel]** om de wijzigingen te annuleren of **[!UICONTROL Ok]** om te bevestigen. Als u activiteiten wilt verwijderen, kunt u ook één activiteit (of meerdere activiteiten) selecteren en op de backspace-toets drukken. Als u op de escape-toets drukt, wordt het deelvenster voor activiteitenconfiguratie gesloten.
 
 Op het canvas worden uw actie en gebeurtenisactiviteiten vertegenwoordigd door een pictogram met de naam van de gebeurtenis of actie die onder wordt weergegeven. In de ruit van de activiteitenconfiguratie, kunt u het **[!UICONTROL Label]** gebied gebruiken om een achtervoegsel aan de activiteitennaam toe te voegen. Deze labels helpen u bij het contextualiseren van het gebruik van gebeurtenissen en handelingen, vooral wanneer u dezelfde gebeurtenis of handeling meerdere malen gebruikt op uw reis. U zult ook de etiketten kunnen zien u in [!DNL Journey Orchestration] het melden toevoegde. U kunt ook labels definiëren voor activiteiten in uw toestand.
+
+Standaard worden alleen-lezen velden verborgen. Om hen te tonen, klik **toon read-only gebieden** pictogram in de bovenkant verlaten van de ruit van de activiteitenconfiguratie.
 
 ![](../assets/journey59bis.png)
 
