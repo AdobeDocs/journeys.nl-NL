@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Eigenschappen wijzigen
 description: Meer informatie over het wijzigen van eigenschappen
-feature: Reizen
-role: Zakelijke praktiserer
+feature: Journeys
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 0%
+source-wordcount: '495'
+ht-degree: 1%
 
 ---
 
@@ -29,6 +29,8 @@ U kunt de naam van de reis wijzigen, een beschrijving toevoegen, terugkeer toest
 Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de optie uitschakelen voor &#39;één opname&#39;-reizen, bijvoorbeeld als u een eenmalige gift wilt aanbieden wanneer een persoon een winkel betreedt. In dat geval, wilt u niet de klant de reis kunnen opnieuw ingaan en de aanbieding opnieuw ontvangen.
 
 Wanneer een reis &quot;beëindigt&quot;, zal het de status **[!UICONTROL Closed (no entrance)]** hebben. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken.
+
+Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](#global_timeout).
 
 ## Time-out en fout in reisactiviteiten {#timeout_and_error}
 
