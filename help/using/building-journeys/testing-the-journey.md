@@ -3,13 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey testen
 description: 'Meer informatie over het testen van reizen '
-feature: Reizen
-role: Zakelijke praktiserer
+feature: Journeys
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1619'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,21 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
    ![](../assets/journeytest1.png)
 
-1. Gebruik de parameter **[!UICONTROL Wait time in test]** in de linkerbenedenhoek om de tijd te bepalen dat elke wachtactiviteit op testwijze zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Deze parameter verschijnt slechts als u één of meerdere wachtactiviteiten in uw reis hebt gelaten vallen.
+1. Gebruik de parameter **[!UICONTROL Wait time]** in de linkerbenedenhoek om de tijd te bepalen dat elke activiteit van de wachttijd en gebeurtenisonderbreking op testwijze zal duren. De standaardtijd is 10 seconden voor wachttijden en gebeurtenisonderbrekingen. Zo krijgt u de testresultaten snel. Deze parameter verschijnt slechts als u één of meerdere wachtactiviteiten in uw reis hebt gelaten vallen.
 
    ![](../assets/journeytest_wait.png)
 
-1. Klik **[!UICONTROL Trigger an event]** om gebeurtenissen aan de reis te vormen en te verzenden. Zorg ervoor dat u gebeurtenissen verzendt die betrekking hebben op testprofielen. Zie [Gebeurtenissen parseren](#firing_events).
+   >[!NOTE]
+   >
+   >Wanneer een reactiegebeurtenis in een reis wordt gebruikt, is het gebrek van de wachttijdtijd en de minimumwaarde 40 seconden. Zie [deze sectie](../building-journeys/reaction-events.md)
+
+1. Klik **[!UICONTROL Trigger an event]** om gebeurtenissen aan de reis te vormen en te verzenden.
 
    ![](../assets/journeyuctest1.png)
+
+1. Configureer de verschillende verwachte velden. Voer in het veld **Profiel-id** de waarde in van het veld dat wordt gebruikt om het testprofiel te identificeren. Het kan bijvoorbeeld het e-mailadres zijn. Zorg ervoor dat u gebeurtenissen verzendt die betrekking hebben op testprofielen. Zie [Gebeurtenissen parseren](#firing_events).
+
+   ![](../assets/journeyuctest1-bis.png)
 
 1. Nadat de gebeurtenissen worden ontvangen, klik **[!UICONTROL Show log]** knoop om het testresultaat te bekijken en hen te verifiëren. Zie [Logboeken weergeven](#viewing_logs).
 
@@ -123,7 +131,7 @@ Met de knop **[!UICONTROL Trigger an event]** kunt u een gebeurtenis configurere
 >
 >Wanneer u een gebeurtenis in testmodus activeert, wordt een echte gebeurtenis gegenereerd. Dit betekent dat ook andere reizen naar deze gebeurtenis worden beïnvloed.
 
-Als voorwaarde moet u weten welke profielen in de Adobe Experience Platform zijn gemarkeerd als testprofielen. In de testmodus zijn deze profielen alleen toegestaan tijdens de reis en moet het evenement een id bevatten. De verwachte id is afhankelijk van de gebeurtenisconfiguratie. Het kan bijvoorbeeld een ECID zijn.
+Als voorwaarde moet u weten welke profielen in de Adobe Experience Platform zijn gemarkeerd als testprofielen. In de testmodus zijn deze profielen alleen toegestaan tijdens de reis en moet het evenement een id bevatten. De verwachte id is afhankelijk van de gebeurtenisconfiguratie. Het kan bijvoorbeeld een ECID of een e-mailadres zijn. De waarde van deze sleutel moet in het **Profiel Identifier** gebied worden toegevoegd.
 
 Als uw reis verscheidene gebeurtenissen bevat, gebruik de drop-down lijst om een gebeurtenis te selecteren. Configureer vervolgens voor elke gebeurtenis de doorgegeven velden en de uitvoering van de gebeurtenis die de gebeurtenis verzendt. De interface helpt u de juiste informatie in de gebeurtenislading overgaan en ervoor zorgen het informatietype correct is. In de testmodus worden de laatste parameters die in een testsessie worden gebruikt, opgeslagen voor later gebruik.
 
