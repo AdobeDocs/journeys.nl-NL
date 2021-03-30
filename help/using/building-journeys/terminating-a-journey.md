@@ -3,13 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey beëindigen
 description: Leer hoe u een reis beëindigt
-feature: Reizen
-role: Zakelijke praktiserer
+feature: Journeys
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '359'
 ht-degree: 4%
 
 ---
@@ -22,12 +22,16 @@ Met de opties **[!UICONTROL Stop]** en **[!UICONTROL Close to new entrances]** k
 >[!NOTE]
 >
 >U kunt een gesloten of gestopt reis niet hervatten.
+>
+>Het concept van het beëindigen van de reis wordt beschreven in dit [sectie](../building-journeys/journey.md#ending_a_journey).
 
 ## Een reis sluiten
 
 U kunt een reis manueel sluiten om ervoor te zorgen dat de klanten die reeds de reis inging hun weg kunnen beëindigen maar de nieuwe gebruikers niet de reis kunnen ingaan.
 
-Een gesloten reisversie kan niet opnieuw worden gestart of verwijderd. U kunt er een nieuwe versie van maken of deze dupliceren.
+Wanneer een reis gesloten is, heeft deze de status **[!UICONTROL Closed (no entrance)]**. Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](../building-journeys/changing-properties.md#entrance).
+
+Een gesloten reisversie kan niet opnieuw worden gestart of verwijderd. U kunt er een nieuwe versie van maken of deze dupliceren. Alleen voltooide reizen kunnen worden verwijderd.
 
 U kunt een reis sluiten door **[!UICONTROL Close to new entrances]** te klikken terwijl het hangen over een reis in de lijst van reizen.
 
@@ -48,6 +52,8 @@ U kunt ook het volgende doen:
 U kunt een reis stoppen wanneer zich een noodsituatie voordoet en alle verwerking onmiddellijk op een reis moet worden beëindigd.
 
 Een voltooide reisversie kan niet opnieuw worden gestart.
+
+Als de reis wordt gestopt, heeft deze de status **[!UICONTROL Stopped]**.
 
 U kunt een reis tegenhouden (bijvoorbeeld als een markeerder beseft dat de reis het verkeerde publiek of een douaneactie verondersteld om berichten te leveren niet correct werkt...) door **[!UICONTROL Stop]** te klikken terwijl het hangen over een reis in de lijst van reizen.
 
