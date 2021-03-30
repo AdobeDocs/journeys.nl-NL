@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey’s samenstellen
 description: Als zakelijke gebruiker leert u hoe u gebeurtenis-, orkest- en actieactiviteiten kunt combineren om een reis te maken.
-feature: Reizen
-role: Zakelijke praktiserer
+feature: Journeys
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 11%
+source-wordcount: '561'
+ht-degree: 9%
 
 ---
 
@@ -57,9 +57,20 @@ Hier volgen de belangrijkste stappen voor het maken en publiceren van een reis.
 
 ## Een reis {#ending_a_journey} beëindigen
 
-Er zijn twee manieren om een reis te beëindigen:
+Een reis kan om twee redenen eindigen:
 
 * De persoon komt bij de laatste activiteit van een weg aan. Deze laatste activiteit kan een eindactiviteit of een andere activiteit zijn. Er bestaat geen verplichting om een pad met een eindactiviteit te beëindigen. Zie [deze pagina](../building-journeys/end-activity.md).
 * De persoon komt bij een voorwaardenactiviteit (of een wachttijdactiviteit met een voorwaarde) aan en past geen van de voorwaarden aan.
 
 De persoon kan dan opnieuw de reis betreden als herbinnenkomst is toegestaan. Zie [deze pagina](../building-journeys/changing-properties.md).
+
+Een reis kan om de volgende redenen worden gesloten:
+
+* De reis wordt manueel gesloten via **[!UICONTROL Close to new entrances]** knoop.
+* De einddatum van de reis is bereikt.
+
+Wanneer een reis (om een van de bovenstaande redenen) wordt gesloten, heeft deze de status **[!UICONTROL Closed (no entrance)]**. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken. Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](../building-journeys/changing-properties.md#entrance).
+
+Als u de voortgang van alle mensen op de reis moet stoppen, kunt u deze stoppen. Als de reis wordt stopgezet, wordt een time-out voor alle personen op de reis vastgesteld.
+
+Als u wilt leren hoe u een reis handmatig kunt sluiten of stoppen, raadpleegt u deze [sectie](../building-journeys/terminating-a-journey.md).
