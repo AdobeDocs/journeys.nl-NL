@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Release-opmerkingen
 description: Meer informatie over opmerkingen bij de release
-feature: Reizen
-role: Zakelijke praktiserer
-level: Begin
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 68%
+source-wordcount: '2438'
+ht-degree: 64%
 
 ---
 
@@ -19,6 +19,15 @@ ht-degree: 68%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-updates.md) raadplegen.
+
+## Release {#march-2021-release} van maart 2021
+
+### Verbeteringen
+
+* Er is een nieuwe status toegevoegd aan de reizen. Wanneer een reis beëindigt of manueel gesloten is, schakelt zijn status van **Gesloten** aan **Afgewerkte** 30 dagen nadat het werd gesloten. Op die manier kunt u inactieve reizen gemakkelijker herkennen en ervoor zorgen dat alle personen die nog aanwezig zijn, tijd hebben om de reis af te maken. [Meer informatie](../building-journeys/journey.md#ending_a_journey)
+* In de activiteitenrechterdeelvensters van conceptreizen zijn alleen-lezen velden nu standaard verborgen. Deze interfacevereenvoudiging zal u helpen uw activiteiten gemakkelijker vormen. Als u deze wilt weergeven, klikt u op het pictogram **Alleen-lezen velden tonen**, beschikbaar in de linkerbovenhoek van het deelvenster Activiteitsconfiguratie. [Meer informatie](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* In de testmodus is in het scherm **Gebeurtenisconfiguratie** de naam van het veld **Sleutel** waarmee de id van het testprofiel wordt gedefinieerd, gewijzigd in **Profiel-id** voor een betere gebruikerservaring. [Meer informatie](../building-journeys/testing-the-journey.md).
+* Voor reactiegebeurtenissen kan de time-outduur nu alleen worden ingesteld tussen 40 seconden en 30 dagen. Bij het testen van een reis die een reactiegebeurtenis gebruikt, zijn de standaard- en minimumwaarde van de testmodus **[!UICONTROL Wait time]** nu 40 seconden. [Meer informatie](../building-journeys/reaction-events.md).
 
 ## Release {#february-2021-release} februari 2021
 
