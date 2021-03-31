@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Een testprofiel maken
 description: 'Meer informatie over het maken van testprofielen '
 translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '728'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 1%
 
 ![](../assets/do-not-localize/badge.png)
 
-Testprofielen zijn vereist wanneer de testmodus op een reis wordt gebruikt. U kunt een [bestaand profiel](../building-journeys/creating-test-profiles.md#turning-profile-into-test) omzetten in een testprofiel of [een testprofiel maken](../building-journeys/creating-test-profiles.md#create-test-profiles-csv). Raadpleeg [deze sectie](../building-journeys/testing-the-journey.md) voor meer informatie over het gebruik van de testmodus.
+Testprofielen zijn vereist wanneer de testmodus op een reis wordt gebruikt. Raadpleeg [deze sectie](../building-journeys/testing-the-journey.md) voor meer informatie over het gebruik van de testmodus.
 
-Er zijn verschillende manieren om een testprofiel te maken in Adobe Experience Platform. In deze documentatie richten wij ons op twee methodes: uploaden van een [csv-bestand](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) en gebruiken van [API-aanroepen](../building-journeys/creating-test-profiles.md#create-test-profiles-api). U kunt een jsdossier in een dataset ook uploaden, verwijs naar [de documentatie van de Ingestie van Gegevens](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)
+Er zijn verschillende manieren om een testprofiel te maken in Adobe Experience Platform. In deze documentatie richten wij ons op twee methodes: uploaden van een [csv-bestand](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) en gebruiken van [API-aanroepen](../building-journeys/creating-test-profiles.md#create-test-profiles-api). U kunt een jsdossier in een dataset ook uploaden, verwijs naar [de documentatie van de Ingestie van Gegevens](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
+
+Met deze importmethoden kunt u ook profielkenmerken bijwerken. Op deze manier kunt u een bestaand profiel omzetten in een testprofiel. Gebruik gewoon een vergelijkbaar bestand- of API-aanroep en neem alleen het veld ‘testProfile’ op met de waarde ‘true’.
 
 Het maken van een testprofiel lijkt op het maken van gewone profielen in Adobe Experience Platform. Raadpleeg de documentatie [Real-time Klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) voor meer informatie.
 
@@ -68,44 +70,6 @@ Dan moet u **de dataset** creëren waarin de profielen zullen worden ingevoerd. 
 >[!NOTE]
 >
 > Raadpleeg de documentatie [Catalog Service](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started) voor meer informatie over het maken van gegevenssets.
-
-## Een profiel omzetten in een testprofiel{#turning-profile-into-test}
-
-U kunt een bestaand profiel omzetten in een testprofiel. In Adobe Experience Platform kunt u profielkenmerken op dezelfde manier bijwerken als wanneer u een profiel maakt.
-
-Een eenvoudigere manier om dit te doen is door een **Update profiel** actiesactiviteit in een reis te gebruiken en testProfile boolean gebied van vals in waar te veranderen.
-
-Uw reis zal uit een **Gelezen segment** en een **Update profiel** activiteit worden samengesteld. Eerst moet u een segment maken dat zich richt op de profielen die u wilt omzetten in testprofielen.
-
->[!NOTE]
->
-> Aangezien u het veld **testProfile** bijwerkt, moeten de gekozen profielen dit veld bevatten. Het verwante schema moet de **Proefdetails van het Profiel** mengen hebben. Zie [deze sectie](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
-
-1. In het Beheer van de Reis van de Klant, klik **Segmenten** van het linkermenu, toen **segment creëren**, in het hoogste recht.
-   ![](../assets/test-profiles-22.png)
-1. Bepaal een naam voor uw segment en bouw het segment: Selecteer de velden en de waarden die u als doel wilt instellen.
-   ![](../assets/test-profiles-23.png)
-1. Klik op **Opslaan** en controleer of de profielen correct zijn ingesteld door het segment.
-   ![](../assets/test-profiles-24.png)
-
-   >[!NOTE]
-   >
-   > Het berekenen van segmenten kan enige tijd in beslag nemen. Leer meer op segmenten in [deze sectie](../segment/about-segments.md).
-
-1. Maak nu een nieuwe reis en begin met een **Leessegment** orkestatieactiviteit.
-1. Kies het eerder gemaakte segment en de naamruimte die uw profielen gebruiken.
-   ![](../assets/test-profiles-25.png)
-1. Voeg een **Actieactiviteit van de Update profiel** toe.
-1. Selecteer het schema, het **testProfiles** gebied, de dataset en de waarde plaatsen aan &quot;waar&quot;.
-   ![](../assets/test-profiles-26.png)
-1. Voeg een **End** activiteit toe en klik **Publish**.
-   ![](../assets/test-profiles-27.png)
-1. Controleer in Adobe Experience Platform of de profielen correct zijn bijgewerkt.
-   ![](../assets/test-profiles-28.png)
-
-   >[!NOTE]
-   >
-   > Voor meer informatie over **Update profiel** activiteit, verwijs [dit sectie](../building-journeys/update-profiles.md).
 
 ## Een testprofiel maken met een CSV-bestand{#create-test-profiles-csv}
 
