@@ -5,9 +5,9 @@ title: Journey testen
 description: 'Meer informatie over het testen van reizen '
 feature: Journeys
 role: Business Practitioner
-level: Intermediair
+level: Gemiddeld
 translation-type: tm+mt
-source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
+source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
    >[!NOTE]
    >
-   >Wanneer een reactiegebeurtenis in een reis wordt gebruikt, is het gebrek van de wachttijdtijd en de minimumwaarde 40 seconden. Zie [deze sectie](../building-journeys/reaction-events.md)
+   >Wanneer een reactiegebeurtenis in een reis wordt gebruikt, is het gebrek van de wachttijdtijd en de minimumwaarde 40 seconden. Zie [deze sectie](../building-journeys/reaction-events.md).
 
 1. Klik **[!UICONTROL Trigger an event]** om gebeurtenissen aan de reis te vormen en te verzenden.
 
