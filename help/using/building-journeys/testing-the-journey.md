@@ -7,9 +7,9 @@ feature: Journeys
 role: Business Practitioner
 level: Gemiddeld
 translation-type: tm+mt
-source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1624'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ Voordat u uw reis kunt testen, moet u alle eventuele fouten oplossen. Zie [deze 
 
 U kunt uw reis testen voordat deze wordt gepubliceerd, met behulp van testprofielen. Dit staat u toe om te analyseren hoe de individuen in de reis stromen en problemen vóór publicatie oplossen.
 
-Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een bestaand profiel [een nieuw testprofiel maken](../building-journeys/testing-the-journey.md#create-test-profile) of [een bestaand profiel omzetten in een testprofiel](../building-journeys/testing-the-journey.md#turning-profile-into-test).
+Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. Zie deze [sectie](../building-journeys/creating-test-profiles.md).
 
 Voer de volgende stappen uit om de testmodus te gebruiken:
 
@@ -56,7 +56,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 ## Belangrijke opmerkingen {#important_notes}
 
 * Er is een interface beschikbaar voor het afvuren van gebeurtenissen naar de geteste reis, maar evenementen kunnen ook door systemen van derden, zoals Postman, worden verzonden.
-* Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Zie [deze sectie](../building-journeys/testing-the-journey.md#create-test-profile).
+* Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Zie deze [sectie](../building-journeys/creating-test-profiles.md).
 * De testmodus is alleen beschikbaar voor conceptochten waarbij een naamruimte wordt gebruikt. In de testmodus moet worden gecontroleerd of een persoon die de reis betreedt een testprofiel is en moet dus de Adobe Experience Platform kunnen bereiken.
 * Het maximumaantal testprofielen dat een reis tijdens een testsessie kan betreden, is 100.
 * Wanneer u de testmodus uitschakelt, worden de reizen verwijderd van alle mensen die het in het verleden hebben betreden of die er momenteel in zitten. Ook wordt de rapportage gewist.
