@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Documentatie-updates
 description: Meer informatie over documentatie-updates
-feature: Reizen
-role: Zakelijke praktiserer
-level: Begin
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 92%
+source-wordcount: '806'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 92%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Orchestration].
 U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../release-notes/release-notes.md) raadplegen.
+
+## Maart 2021 {#march-2021}
+
+* We hebben de volledige procedure voor het maken van testprofielen in Adobe Experience Platform uitgebreid. [Meer informatie](../building-journeys/creating-test-profiles.md).
 
 ## Januari 2021 {#january-2021}
 
@@ -47,7 +51,7 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 * Er is een notitie toegevoegd om uit te leggen hoe een journey moet worden voortgezet na een fout in een actie of een voorwaarde. [Meer informatie](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Er is een nieuwe sectie toegevoegd over de Alfa-functies die onder een beperkte groep klanten worden getest.
 * Er is een nieuwe sectie toegevoegd over de integratie met Intelligent Services. [Meer informatie](../ai-services/ai-services-overview.md)
-* Er is een nieuwe sectie toegevoegd over het maken van testprofielen. [Meer informatie](../building-journeys/testing-the-journey.md#create-test-profile)
+* Er is een nieuwe sectie toegevoegd over het maken van testprofielen. [Meer informatie](../building-journeys/testing-the-journey.md)
 * Er is informatie toegevoegd over het gebruik van de node **[!UICONTROL SegmentQualification]** in een journeyvoorwaarde of een actie. [Meer informatie](../building-journeys/segment-qualification-events.md)
 * Er is een opmerking toegevoegd over transactionele berichten en de publicatie van gebeurtenissen in Campaign. Zie [Werken met Adobe Campaign](../action/working-with-adobe-campaign.md) en [Adobe Campaign-acties gebruiken](../building-journeys/using-adobe-campaign-actions.md).
 * Er is informatie toegevoegd over de controles die worden uitgevoerd wanneer de URL van de Campaign Standard-instantie wordt getest. [Meer informatie](../action/working-with-adobe-campaign.md)
