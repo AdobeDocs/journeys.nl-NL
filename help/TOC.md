@@ -6,10 +6,10 @@ title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 feature: Journeys
-translation-type: ht
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: ht
-source-wordcount: '404'
+translation-type: tm+mt
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+workflow-type: tm+mt
+source-wordcount: '406'
 ht-degree: 100%
 
 ---
@@ -66,6 +66,7 @@ ht-degree: 100%
       + [Journeyversies](using/building-journeys/journey-versions.md)
       + [Journey beëindigen](using/building-journeys/terminating-a-journey.md)
       + [Tijdzonebeheer](using/building-journeys/timezone-management.md)
+      + [Test profiles](using/building-journeys/creating-test-profiles.md)
    + Activiteiten {#about-journey-building}
       + Gebeurtenisactiviteiten {#events-activities}
          + [Gebeurtenisactiviteiten](using/building-journeys/event-activities.md)
