@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Een testprofiel maken
 description: 'Meer informatie over het maken van testprofielen '
 translation-type: tm+mt
-source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
+source-git-commit: ccfe8d4d3eb8bf59d6dfd14eeb9f02578a09776f
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 1%
+source-wordcount: '677'
+ht-degree: 2%
 
 ---
 
@@ -28,25 +28,25 @@ Om profielen te kunnen tot stand brengen, moet u eerst een schema en een dataset
 
 Eerst, moet u **een schema** creëren. Voer de volgende stappen uit:
 
-1. Klik in Adobe Experience Platform op **Schemas** in het linkermenu.
+1. Klik in Adobe Experience Platform op **[!UICONTROL Schemas]** in het linkermenu.
    ![](../assets/test-profiles-0.png)
-1. Klik **Create schema**, in het hoogste recht, dan selecteer een schematype, bijvoorbeeld **XDM Individual Profile**.
+1. Klik **[!UICONTROL Create schema]**, in het hoogste recht, dan selecteer een schematype, bijvoorbeeld **[!UICONTROL XDM Individual Profile]**.
    ![](../assets/test-profiles-1.png)
 1. Kies een naam voor het schema.
-1. Klik in de sectie **Mixins** op **Add**.
+1. Klik in de sectie **[!UICONTROL Mixins]** op **[!UICONTROL Add]**.
    ![](../assets/test-profiles-1-bis.png)
-1. Selecteer de juiste combinaties. Voeg de **Profieltestdetails** toe. Klik **Add mixin**.
+1. Selecteer de juiste combinaties. Voeg de **[!UICONTROL Profile test details]** mix toe. Klik op **[!UICONTROL Add mixin]**.
    ![](../assets/test-profiles-1-ter.png)
 De lijst van mengen wordt getoond op het scherm van het schemaoverzicht.
 
    ![](../assets/test-profiles-2.png)
 1. Klik in de lijst met velden op het veld dat u als primaire identiteit wilt definiëren.
    ![](../assets/test-profiles-3.png)
-1. Schakel in het rechterdeelvenster **Veldeigenschappen** de opties **Identiteit** en **Primaire identiteit** in en selecteer een naamruimte. Als u wilt dat de primaire identiteit een e-mailadres is, kiest u de naamruimte **E-mail**. Klik **Toepassen**.
+1. Controleer in het rechterdeelvenster **[!UICONTROL Field properties]** de opties **[!UICONTROL Identity]** en **[!UICONTROL Primary Identity]** en selecteer een naamruimte. Als u wilt dat de primaire identiteit een e-mailadres is, kiest u de naamruimte **[!UICONTROL Email]**. Klik op **[!UICONTROL Apply]**.
    ![](../assets/test-profiles-4.png)
-1. Selecteer het schema en schakel de optie **Profiel** in de **Schemaeigenschappen** in.
+1. Selecteer het schema en schakel de optie **[!UICONTROL Profile]** in **[!UICONTROL Schema properties]** in.
    ![](../assets/test-profiles-5.png)
-1. Klik **Opslaan**.
+1. Klik op **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -54,15 +54,15 @@ De lijst van mengen wordt getoond op het scherm van het schemaoverzicht.
 
 Dan moet u **de dataset** creëren waarin de profielen zullen worden ingevoerd. Voer de volgende stappen uit:
 
-1. Klik in Adobe Experience Platform op **Datasets** in het linkermenu en klik vervolgens op **Gegevensset maken**.
+1. Klik in Adobe Experience Platform op **[!UICONTROL Datasets]** in het linkermenu en klik vervolgens op **[!UICONTROL Create dataset]**.
    ![](../assets/test-profiles-6.png)
-1. Kies **Gegevensset maken van schema**.
+1. Kies **[!UICONTROL Create dataset from schema]**.
    ![](../assets/test-profiles-7.png)
-1. Selecteer het eerder gemaakte schema en klik op **Next**.
+1. Selecteer het eerder gemaakte schema en klik op **[!UICONTROL Next]**.
    ![](../assets/test-profiles-8.png)
-1. Kies een naam en klik op **Voltooien**.
+1. Kies een naam en klik op **[!UICONTROL Finish]**.
    ![](../assets/test-profiles-9.png)
-1. Schakel de optie **Profiel** in.
+1. Schakel de optie **[!UICONTROL Profile]** in.
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
@@ -79,17 +79,17 @@ In Adobe Experience Platform kunt u profielen maken door een CSV-bestand met de 
 1. Voeg één regel per profiel toe en vul de waarden voor elk veld in.
    ![](../assets/test-profiles-12.png)
 1. Sla het werkblad op als een CSV-bestand. Controleer of komma&#39;s als scheidingstekens worden gebruikt.
-1. Klik in Adobe Experience Platform op **Workflows** in het linkermenu.
+1. Klik in Adobe Experience Platform op **[!UICONTROL Workflows]** in het linkermenu.
    ![](../assets/test-profiles-14.png)
-1. Kies **CSV toewijzen aan XDM-schema** en klik vervolgens op **Starten**.
+1. Kies **[!UICONTROL Map CSV to XDM schema]** en klik vervolgens op **[!UICONTROL Launch]**.
    ![](../assets/test-profiles-16.png)
-1. Selecteer de dataset u de profielen in wilt invoeren. Klik **Volgende**.
+1. Selecteer de dataset u de profielen in wilt invoeren. Klik op **[!UICONTROL Next]**.
    ![](../assets/test-profiles-17.png)
-1. Klik **Kies bestanden** en selecteer het CSV-bestand. Wanneer het bestand is geüpload, klikt u op **Volgende**.
+1. Klik op **[!UICONTROL Choose files]** en selecteer het CSV-bestand. Wanneer het bestand is geüpload, klikt u op **[!UICONTROL Next]**.
    ![](../assets/test-profiles-18.png)
-1. Wijs de bronCSV gebieden aan de schemagebieden toe, dan klik **Afwerking**.
+1. Wijs de bronCSV gebieden aan de schemagebieden toe, dan klik **[!UICONTROL Finish]**.
    ![](../assets/test-profiles-19.png)
-1. Het importeren van de gegevens begint. De status wordt verplaatst van **Verwerking** naar **Succes**. Klik **Voorvertoning gegevensset**, rechtsboven.
+1. Het importeren van de gegevens begint. De status wordt verplaatst van **[!UICONTROL Processing]** naar **[!UICONTROL Success]**. Klik **[!UICONTROL Preview data set]**, in het hoogste recht.
    ![](../assets/test-profiles-20.png)
 1. Controleer of de testprofielen correct zijn toegevoegd.
    ![](../assets/test-profiles-21.png)
