@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Toegangscontrole
 description: Meer informatie over toegangscontrole
-feature: Reizen
-role: Zakelijke praktiserer
-level: Intermediair
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
+exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 2f824417d3e5357f0c015c40233296239ab8db5c
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '861'
 ht-degree: 98%
 
 ---
-
 
 # Toegangscontrole{#concept_rfj_wpt_52b}
 
@@ -42,7 +42,7 @@ In de Admin Console kunt u een van de volgende meegeleverde productprofielen aan
 
    >[!NOTE]
    >
-   >Het **[!UICONTROL Administrators]** is het enige productprofiel waarmee transactionele berichten (of berichtsjablonen) in Adobe Campaign Standard kunnen worden gemaakt, bewerkt en gepubliceerd. Dit productprofiel is nodig als u Adobe Campaign Standard gebruikt om in uw journey’s berichten te verzenden.
+   >Het **[!UICONTROL Administrators]** is het enige productprofiel waarmee transactionele berichten (of berichtsjablonen) in Adobe Campaign Standard kunnen worden gemaakt, bewerkt en gepubliceerd. Dit productprofiel is nodig als u Adobe Campaign Standard gebruikt om in uw journey’s berichten te verzenden. De naam van de toepassing mag niet worden gewijzigd in de beheerconsole.
 
 * **[!UICONTROL Standard User]**: gebruiker met basistoegang zoals journeybeheer. Dit productprofiel bevat de volgende toestemmingen:
    * Journey’s beheren
