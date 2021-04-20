@@ -5,7 +5,7 @@ title: Eigenschappen wijzigen
 description: Meer informatie over het wijzigen van eigenschappen
 feature: Journeys
 role: Business Practitioner
-level: Intermediair
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: tm+mt

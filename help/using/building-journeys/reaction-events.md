@@ -5,7 +5,7 @@ title: Gebeurtenissen van Reacties
 description: Meer informatie over reacties
 feature: Journeys
 role: Business Practitioner
-level: Intermediair
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt

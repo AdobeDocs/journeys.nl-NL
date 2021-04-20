@@ -5,7 +5,7 @@ title: Journey testen
 description: 'Meer informatie over het testen van reizen '
 feature: Journeys
 role: Business Practitioner
-level: Gemiddeld
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt

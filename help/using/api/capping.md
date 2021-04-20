@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Beschrijving van API voor uitlijnen
 description: Meer informatie over de API voor aftiteling.
 products: journeys
-feature: Reizen
-role: Zakelijke praktiserer
-level: Intermediair
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

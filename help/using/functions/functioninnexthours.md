@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inNextHours
 description: Meer informatie over de functie in NextHours
-feature: Reizen
-role: Gegevensengineer
-level: Ervaren
+feature: Journeys
+role: Data Engineer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

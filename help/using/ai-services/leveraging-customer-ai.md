@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Gebruik van AI-scores van klanten
 description: Gebruik van AI-scores van klanten
-feature: Reizen
-role: Zakelijke praktiserer
-level: Intermediair
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

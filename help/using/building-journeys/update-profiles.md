@@ -5,7 +5,7 @@ title: Van de ene journey naar de andere gaan
 description: Van de ene journey naar de andere gaan
 feature: Journeys
 role: Business Practitioner
-level: Gemiddeld
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt

@@ -5,7 +5,7 @@ title: Journey beëindigen
 description: Leer hoe u een reis beëindigt
 feature: Journeys
 role: Business Practitioner
-level: Intermediair
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt

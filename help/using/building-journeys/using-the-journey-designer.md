@@ -5,7 +5,7 @@ title: Journeyontwerper gebruiken
 description: Meer informatie over het gebruik van de reisontwerper
 feature: Journeys
 role: Business Practitioner
-level: Intermediair
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt

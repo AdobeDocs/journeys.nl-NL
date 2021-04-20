@@ -5,7 +5,7 @@ title: Informatie over gebeurtenissen
 description: Meer informatie over gebeurtenissen
 feature: Journeys
 role: Business Practitioner
-level: Intermediair
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt

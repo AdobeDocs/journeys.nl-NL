@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Werken met Adobe Campaign
 description: Meer informatie over Adobe Campaign-acties
-feature: Reizen
-role: Zakelijke praktiserer
-level: Intermediair
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt

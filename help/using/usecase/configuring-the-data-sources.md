@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Databronnen configureren
 description: Leer hoe te om de gegevensbron voor de reis geavanceerde gebruiksgeval te vormen
-feature: Reizen
-role: Zakelijke praktiserer
-level: Intermediair
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

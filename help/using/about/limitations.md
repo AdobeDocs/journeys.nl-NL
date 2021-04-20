@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Journey Orchestration-beperkingen
 description: Meer informatie over Journey Orchestration-beperkingen
-feature: Reizen
-role: Zakelijke praktiserer
-level: Begin
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
