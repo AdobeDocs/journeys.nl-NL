@@ -6,19 +6,25 @@ description: Meer informatie over opmerkingen bij de release
 feature: Journeys
 role: Business Practitioner
 level: Beginner
+exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
+source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
 workflow-type: tm+mt
-source-wordcount: '2438'
-ht-degree: 64%
+source-wordcount: '2479'
+ht-degree: 63%
 
 ---
-
 
 # Release-opmerkingen{#release-notes}
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-updates.md) raadplegen.
+
+## Release {#april-2021-release} van april 2021
+
+### Verbeteringen
+
+* In het **scherm van de gebeurtenisconfiguratie** van de testwijze, wordt een dropdown nu getoond voor gebieden die een opsomming verwachten. Selecteer gewoon een van de beschikbare waarden. Hierdoor worden fouten voorkomen bij het activeren van de gebeurtenis als een onjuiste waarde is gedefinieerd.
 
 ## Release {#march-2021-release} van maart 2021
 
