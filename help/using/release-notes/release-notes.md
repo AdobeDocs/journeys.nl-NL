@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
+source-git-commit: 9138bfb4c9f916a7e8df6183fb903c31ef582623
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2481'
 ht-degree: 63%
 
 ---
@@ -24,7 +24,7 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 
 ### Verbeteringen
 
-* In het **scherm van de gebeurtenisconfiguratie** van de testwijze, wordt een dropdown nu getoond voor gebieden die een opsomming verwachten. Selecteer gewoon een van de beschikbare waarden. Hierdoor worden fouten voorkomen bij het activeren van de gebeurtenis als een onjuiste waarde is gedefinieerd.
+* In het **scherm van de gebeurtenisconfiguratie** van de testwijze, wordt een dropdown nu getoond voor gebieden die een opsomming verwachten. Selecteer gewoon een van de beschikbare waarden. Hierdoor worden fouten voorkomen bij het activeren van de gebeurtenis als een onjuiste waarde is gedefinieerd.[Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Release {#march-2021-release} van maart 2021
 
