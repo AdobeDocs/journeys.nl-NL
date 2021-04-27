@@ -6,14 +6,14 @@ description: 'Meer informatie over het testen van reizen '
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
+exl-id: be413905-0631-4229-a954-80a92651206d
 translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: cb90f764ae6ccc0dab9728899dafd266db89a4e7
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 3%
+source-wordcount: '1638'
+ht-degree: 2%
 
 ---
-
 
 # Journey testen{#testing_the_journey}
 
@@ -133,6 +133,10 @@ Met de knop **[!UICONTROL Trigger an event]** kunt u een gebeurtenis configurere
 
 Als voorwaarde moet u weten welke profielen in de Adobe Experience Platform zijn gemarkeerd als testprofielen. In de testmodus zijn deze profielen alleen toegestaan tijdens de reis en moet het evenement een id bevatten. De verwachte id is afhankelijk van de gebeurtenisconfiguratie. Het kan bijvoorbeeld een ECID of een e-mailadres zijn. De waarde van deze sleutel moet in het **Profiel Identifier** gebied worden toegevoegd.
 
+>[!NOTE]
+>
+>Een vervolgkeuzelijst wordt weergegeven voor velden die een opsomming verwachten. Selecteer gewoon een van de beschikbare waarden.
+
 Als uw reis verscheidene gebeurtenissen bevat, gebruik de drop-down lijst om een gebeurtenis te selecteren. Configureer vervolgens voor elke gebeurtenis de doorgegeven velden en de uitvoering van de gebeurtenis die de gebeurtenis verzendt. De interface helpt u de juiste informatie in de gebeurtenislading overgaan en ervoor zorgen het informatietype correct is. In de testmodus worden de laatste parameters die in een testsessie worden gebruikt, opgeslagen voor later gebruik.
 
 ![](../assets/journeytest4.png)
@@ -205,4 +209,3 @@ Er is een scenario wanneer er meerdere gebeurtenissen worden verzonden van meerd
 De automatische verwezenlijking en de naam van deze datasets worden uitgevoerd als een bestemmingsdataset niet inbegrepen in de ervaringsgebeurtenis is. Daarom zien we vandaag de &#39;Automatisch gemaakte dataset voor de voyager&#39;.
 
 De naamgeving van onze bron is de drijvende kracht achter het automatisch maken. Als we meerdere gebeurtenissen hebben, moeten we de Journey Orchestration Test Event - NAME OF SCHEMA samenvoegen. Dit zal automatisch aan &quot;automatisch geproduceerde dataset voor de Gebeurtenis van de Test van de Journey Orchestration - NAAM VAN SCHEMA&quot;draaien.
-
