@@ -6,14 +6,13 @@ description: Meer informatie over gebeurtenisactiviteiten
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
+source-git-commit: db7567f7f3333ad69015d07991158ce5b8f01af5
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '447'
 ht-degree: 1%
 
 ---
-
 
 # Gebeurtenisactiviteiten {#concept_rws_1rt_52b}
 
@@ -47,11 +46,11 @@ Voer de volgende stappen uit om een time-out voor een gebeurtenis te configurere
 
 In dit voorbeeld, verzendt de reis een eerste welkome duw naar een klant. Het verzendt dan een duw van de maaltijdkorting slechts als de klant het restaurant binnen de volgende dag ingaat. Daarom hebben we de restaurant-gebeurtenis geconfigureerd met een time-out van 1 dag:
 
-* Als de restaurantgebeurtenis minder dan 1 dag uur na de welkomstpush wordt ontvangen, wordt de pushactiviteit voor de maaltijdkorting verzonden.
+* Als de restaurantgebeurtenis minder dan 1 dag na de welkomstpush wordt ontvangen, wordt de pushactiviteit voor de maaltijdkorting verzonden.
 * Als er de volgende dag geen restaurantgebeurtenis wordt ontvangen, loopt de persoon door het time-outpad.
 
-Merk op dat als u een onderbreking op veelvoudige gebeurtenissen wilt vormen die na een **[!UICONTROL Wait]** activiteit worden geplaatst, u onderbreking op één van deze gebeurtenissen slechts moet vormen.
+Merk op dat als u een onderbreking op veelvoudige gebeurtenissen wilt vormen die na een **[!UICONTROL Wait]** activiteit worden geplaatst, u de onderbreking op één van deze gebeurtenissen slechts moet vormen.
 
-De time-out wordt toegepast op alle gebeurtenissen die na de activiteit **[!UICONTROL Wait]** zijn geplaatst. Als er geen gebeurtenis wordt ontvangen na de opgegeven time-out, gaan de personen naar één enkel time-outpad of beëindigen ze hun reis.
+De time-out wordt toegepast op alle gebeurtenissen die na de activiteit **[!UICONTROL Wait]** worden geplaatst. Als er geen gebeurtenis is ontvangen vóór de opgegeven time-out, gaan de personen naar één enkel time-outpad of beëindigen ze hun reis.
 
 ![](../assets/event-timeout-group.png)
