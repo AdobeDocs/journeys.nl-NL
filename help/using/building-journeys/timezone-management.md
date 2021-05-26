@@ -6,15 +6,13 @@ description: Meer informatie over tijdzonebeheer
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
+source-git-commit: a19493178652a7fc91b7b778c5cb47eda72cd877
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '262'
 ht-degree: 2%
 
 ---
-
-
 
 # Tijdzonebeheer {#timezone_management}
 
@@ -37,7 +35,7 @@ De tijdzone kan ook worden vastgesteld. Wis de vooraf gedefinieerde tijdzone en 
 
 U doet dit door in **[!UICONTROL Properties]** een tijdzone te selecteren.
 
-![](../assets/journey73.png)
+![](../assets/journey72.png)
 
 ## Profielen gebruiken om de reistijdzone {#timezone-from-profiles} te definiëren
 
@@ -49,7 +47,7 @@ Als het profiel van het individu geen tijdzone bevat, wordt de opgehaalde tijdzo
 
 Om dit te doen, in **[!UICONTROL Properties]**, controleer **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
-![](../assets/journey72.png)
+![](../assets/journey73.png)
 
 ## Tijdzones gebruiken in expressies {#timezone-in-expressions}
 
