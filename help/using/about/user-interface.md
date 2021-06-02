@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: De gebruikersinterface
 description: Meer informatie over de gebruikersinterface
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 92%
+source-wordcount: '1011'
+ht-degree: 93%
 
 ---
-
 
 # Gebruikersinterface{#concept_rcq_lqt_52b}
 
@@ -144,4 +142,3 @@ _Op een reis:_
 * Druk in de testmodus op **E** om een gebeurtenis te activeren.
 * Als in de testmodus de optie **Eén profiel tegelijk** is geselecteerd voor een op een segment gebaseerde reis, drukt u op **P** om een gebeurtenis te activeren.
 * Druk in de testmodus op **L** om de logbestanden weer te geven.
-
