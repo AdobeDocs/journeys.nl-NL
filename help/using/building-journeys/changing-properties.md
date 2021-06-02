@@ -1,20 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Eigenschappen wijzigen
 description: Meer informatie over het wijzigen van eigenschappen
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
+exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '492'
 ht-degree: 1%
 
 ---
-
-
 
 # Eigenschappen wijzigen {#concept_prq_wqt_52b}
 
@@ -24,7 +21,7 @@ U kunt de naam van de reis wijzigen, een beschrijving toevoegen, terugkeer toest
 
 ![](../assets/journey32.png)
 
-## Enter{#entrance}
+## Entrance{#entrance}
 
 Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de optie uitschakelen voor &#39;één opname&#39;-reizen, bijvoorbeeld als u een eenmalige gift wilt aanbieden wanneer een persoon een winkel betreedt. In dat geval, wilt u niet de klant de reis kunnen opnieuw ingaan en de aanbieding opnieuw ontvangen.
 
@@ -42,7 +39,7 @@ Wij adviseren dat u een zeer korte **[!UICONTROL Timeout and error]** waarde bep
 
 [!DNL Journey Orchestration] gebruikt ook een algemene time-out. Zie [volgende sectie](#global_timeout).
 
-## Globale time-out {#global_timeout}
+## Globale time-out voor transport {#global_timeout}
 
 Naast de [timeout](#timeout_and_error) die in reisactiviteiten wordt gebruikt, is er ook een globale reisonderbreking die niet in de interface wordt getoond en niet kan worden veranderd. Deze onderbreking zal de vooruitgang van individuen in de reis 30 dagen na hun binnengaan stoppen. Dit betekent dat de reis van een individu niet langer mag duren dan 30 dagen. Na de periode van 30 dagen worden de gegevens van het individu verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en als fouten in de rapportage worden ze in aanmerking genomen.
 
