@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Adobe Campaign-acties gebruiken
 description: Meer informatie over Adobe Campaign-acties
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '900'
 ht-degree: 5%
 
 ---
-
 
 # Adobe Campaign-acties gebruiken {#using_campaign_action}
 
@@ -41,7 +39,7 @@ Als u een sjabloon selecteert, worden alle velden die in de berichtlading worden
 
 ![](../assets/journey60.png)
 
-## E-mail en SMS {#section_asc_51g_nhb}
+## E-mail en sms {#section_asc_51g_nhb}
 
 Voor **[!UICONTROL Email]** en **[!UICONTROL SMS]** zijn de parameters identiek.
 
@@ -75,7 +73,7 @@ Dit zijn de velden die worden verwacht door het Adobe Campaign Standard-bericht.
 
 ![](../assets/journey62.png)
 
-## {#section_im3_hvf_nhb}
+## Push {#section_im3_hvf_nhb}
 
 Voordat u de pushactiviteit kunt gebruiken, moet uw mobiele app samen met Campaign Standard worden geconfigureerd om pushmeldingen te verzenden. Gebruik dit [artikel](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html) om de noodzakelijke implementatiestappen voor mobiel te nemen.
 
