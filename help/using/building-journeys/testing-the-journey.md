@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Journey testen
 description: 'Meer informatie over het testen van reizen '
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-translation-type: tm+mt
-source-git-commit: cb90f764ae6ccc0dab9728899dafd266db89a4e7
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '1638'
 ht-degree: 2%
@@ -123,7 +121,7 @@ curl -X POST \
 }'
 ```
 
-## Gebeurtenissen {#firing_events} laten branden
+## Gebeurtenissen starten {#firing_events}
 
 Met de knop **[!UICONTROL Trigger an event]** kunt u een gebeurtenis configureren waardoor een persoon de reis betreedt.
 
@@ -167,7 +165,7 @@ Wanneer u een gebeurtenis activeert, kunt u met het scherm **Gebeurtenisconfigur
 
 Raadpleeg [deze pagina](../building-journeys/testing-the-journey.md) voor meer informatie over het gebruik van de testmodus.
 
-## Logbestanden bekijken {#viewing_logs}
+## Logboeken weergeven {#viewing_logs}
 
 Met de knop **[!UICONTROL Show log]** kunt u de testresultaten bekijken. Op deze pagina worden de huidige gegevens van de reis in JSON-indeling weergegeven. Met een knop kunt u hele knooppunten kopiëren. U moet de pagina handmatig vernieuwen om de testresultaten van de reis bij te werken.
 
