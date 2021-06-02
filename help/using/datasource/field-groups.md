@@ -1,26 +1,23 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Veldengroepen
 description: Meer informatie over veldgroepen
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
-
-
 
 # Veldengroepen {#concept_ntl_ypt_52b}
 
 Veldgroepen zijn sets velden die u kunt ophalen van een gegevensbron en gebruiken tijdens een reis.
 
-## Veldgroepen {#section_dsz_kjd_fjb} definiëren
+## Veldgroepen definiëren {#section_dsz_kjd_fjb}
 
 Voor elke gegevensbron kunt u verschillende veldgroepen definiëren, elk met een specifieke cacheduur.
 
