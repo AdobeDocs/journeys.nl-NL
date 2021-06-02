@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Problemen oplossen
 description: Meer informatie over probleemoplossing
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 97%
+source-wordcount: '1041'
+ht-degree: 98%
 
 ---
-
 
 # Problemen oplossen{#concept_nlv_bcv_2fb}
 
@@ -88,4 +86,3 @@ Als personen de juiste stroom in de journey volgen, maar geen berichten ontvange
 * Is het bericht goed verzonden door transactionele berichten? In de verzendingslogboeken van transactionele berichten kunt u de status van alle uitvoeringen zien. U kunt zien of deze groen of rood is, en wat het probleem was. Een zakelijke gebruiker kan dit scherm openen en de logboeken naar een beheerder verzenden voor nader onderzoek.
 
 Als een bericht via een aangepaste actie is verzonden, kan tijdens de journeytest alleen worden gecontroleerd of de aanroep van het systeem van de aangepaste actie tot een fout leidt of niet. Als de aanroep naar het externe systeem dat aan de aangepaste actie is gekoppeld, niet tot een fout leidt, maar ook niet tot het verzenden van een bericht, moet er enig onderzoek worden gedaan aan de kant van het externe systeem.
-
