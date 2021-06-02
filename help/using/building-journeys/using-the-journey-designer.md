@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Journeyontwerper gebruiken
 description: Meer informatie over het gebruik van de reisontwerper
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
+exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1413'
 ht-degree: 5%
 
 ---
-
 
 # Journeyontwerper gebruiken {#concept_m1g_5qt_52b}
 
@@ -61,7 +59,7 @@ Het **canvas** is de centrale zone in de reisontwerper. Het is in deze streek da
 
 ![](../assets/journey39.png)
 
-## Het deelvenster voor activiteitenconfiguratie {#configuration_pane}
+## Het deelvenster Activiteitenconfiguratie {#configuration_pane}
 
 Het **activiteitenconfiguratievenster** verschijnt wanneer u op een activiteit in het palet klikt. Vul de vereiste velden in. Klik op het pictogram **[!UICONTROL Delete]** om de activiteit te verwijderen. Klik op **[!UICONTROL Cancel]** om de wijzigingen te annuleren of **[!UICONTROL Ok]** om te bevestigen. Als u activiteiten wilt verwijderen, kunt u ook één activiteit (of meerdere activiteiten) selecteren en op de backspace-toets drukken. Als u op de escape-toets drukt, wordt het deelvenster voor activiteitenconfiguratie gesloten.
 
@@ -77,7 +75,7 @@ Afhankelijk van de status van de reis kunt u verschillende handelingen op uw rei
 
 ![](../assets/journey41.png)
 
-## Het gebruik van paden op het canvas {#paths}
+## Het gebruik van paden in het canvas {#paths}
 
 Met verschillende activiteiten (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activiteiten) kunt u een fallback-actie definiëren in het geval van een fout of time-out. Schakel het selectievakje in het deelvenster Activiteitenconfiguratie in: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Na de activiteit wordt een ander pad toegevoegd. De time-outduur wordt gedefinieerd in de eigenschappen van het transport (zie [deze pagina](../building-journeys/changing-properties.md) door een beheerder. Als het bijvoorbeeld te lang duurt om een e-mail te verzenden of als er een fout optreedt, kunt u een SMS-bericht verzenden.
 
@@ -118,4 +116,3 @@ Als u slechts één activiteit wilt kopiëren, kunt u op het klikken en het **pi
    ![](../assets/copy-paste2.png)
 1. Druk tijdens elke reis op **Ctrl/Command + V** om de activiteiten te plakken zonder deze aan een bestaand knooppunt te koppelen. Geplakte activiteiten worden in dezelfde volgorde geplaatst. Na het plakken blijven de activiteiten geselecteerd zodat u ze gemakkelijk kunt verplaatsen. U kunt de cursor ook op een lege plaatsaanduiding plaatsen en op **Ctrl/Command + V** drukken. Geplakte activiteiten worden gekoppeld aan het knooppunt.
    ![](../assets/copy-paste3.png)
-
