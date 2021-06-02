@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: sum
 description: Meer informatie over de functiesom
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 04289d72-aade-4725-b1f5-47cf55e3a40b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 9%
+source-wordcount: '52'
+ht-degree: 11%
 
 ---
 
-
-# sum {#sum}
+# som {#sum}
 
 Retourneert de som van de waarden van een set expressies. Null-waarden worden genegeerd.
 
