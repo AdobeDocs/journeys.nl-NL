@@ -1,6 +1,5 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Over Campaign Classic-integratie
 description: Meer informatie over Campaign Classic-integratie
 hide: true
@@ -8,14 +7,13 @@ hidefromtoc: true
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 0%
+source-wordcount: '441'
+ht-degree: 2%
 
 ---
-
 
 # Integreren met Adobe Campaign Classic {#integrating-with-adobe-campaign-classic}
 
@@ -80,4 +78,3 @@ Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de
 1. In **Actieparameters**, worden alle gebieden verwacht in de berichtlading getoond. U moet elk van deze gebieden met het gebied in kaart brengen u, of van de gebeurtenis of van de gegevensbron wilt gebruiken. Dit is vergelijkbaar met aangepaste handelingen. Zie deze [sectie](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)
-
