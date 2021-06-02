@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: De journey samenstellen
 description: 'Leren hoe u de geavanceerde gebruiksscenariojourney maakt '
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 91%
+source-wordcount: '848'
+ht-degree: 92%
 
 ---
-
 
 # De journey samenstellen {#concept_owm_kdy_w2b}
 
