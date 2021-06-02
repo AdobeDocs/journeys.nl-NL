@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Datatypen
 description: Meer informatie over gegevenstypen in geavanceerde expressies
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 4%
+source-wordcount: '559'
+ht-degree: 5%
 
 ---
-
 
 # Datatypen {#concept_gp3_rj5_dgb}
 
@@ -21,7 +19,7 @@ Technisch gesproken bevat een constante altijd een gegevenstype. In de letterlij
 
 In de onderstaande secties vindt u informatie over de verschillende expressies van gegevenstypen en hoe deze worden weergegeven.
 
-## tekenreeks {#string}
+## string {#string}
 
 **Beschrijving**
 
@@ -265,7 +263,7 @@ toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"
 toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 ```
 
-## lijst {#list}
+## list {#list}
 
 **Beschrijving**
 
