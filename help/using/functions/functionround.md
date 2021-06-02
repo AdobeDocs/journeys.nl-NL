@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: round
 description: Meer informatie over de functieronde
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 16fe7c3a-8300-49d6-a3d6-a037fa1461f3
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 9%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
-
-# round {#round}
+# rond {#round}
 
 Retourneert de dichtstbijzijnde gehele-getalwaarde voor het argument met bindingen die worden afgerond naar positief oneindig.
 
