@@ -1,28 +1,26 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 user-guide-title: Journey Orchestration
 title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 feature: Journeys
-translation-type: ht
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: ht
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Orchestration]-handleiding {#using}
+# [!DNL Journey Orchestration]-handleiding  {#using}
 
 + [Productdocumentatie](journey-orchestration-home.md)
 + Nieuwe functies {#release-notes}
    + [Release-opmerkingen](using/release-notes/release-notes.md)
    + [Documentatie-updates](using/release-notes/documentation-updates.md)
 + Beginnen met [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Info [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [ [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Beperkingen](using/about/limitations.md)
    + [Aan de slag](using/about/get-started.md)
    + [Gebruikersinterface](using/about/user-interface.md)
@@ -47,7 +45,7 @@ ht-degree: 100%
    + [Adobe Experience Platform-databron](using/datasource/adobe-experience-platform-data-source.md)
    + [Externe databronnen](using/datasource/external-data-sources.md)
 + Een actie configureren {#action-journeys}
-   + [Informatie over acties](using/action/action.md)
+   + [Acties](using/action/action.md)
    + [Werken met Adobe Campaign](using/action/working-with-adobe-campaign.md)
    + Een extern systeem gebruiken {#action-third-party}
       + [Informatie over het configureren van aangepaste acties](using/action/about-custom-action-configuration.md)
@@ -60,7 +58,7 @@ ht-degree: 100%
    + [Segmenten gebruiken in voorwaarden](using/segment/using-a-segment.md)
 + Een journey samenstellen{#building-journeys}
    + Journey’s samenstellen {#about-journey-building}
-      + [Journey maken](using/building-journeys/journey.md)
+      + [Een journey maken](using/building-journeys/journey.md)
       + [Journeyontwerper gebruiken](using/building-journeys/using-the-journey-designer.md)
       + [Eigenschappen wijzigen](using/building-journeys/changing-properties.md)
       + [Journeyversies](using/building-journeys/journey-versions.md)
@@ -79,7 +77,7 @@ ht-degree: 100%
          + [Eindactiviteit](using/building-journeys/end-activity.md)
          + [Wachtactiviteit](using/building-journeys/wait-activity.md)
       + Actieactiviteiten {#action-activities}
-         + [Informatie over actieactiviteiten](using/building-journeys/about-action-activities.md)
+         + [Actieactiviteiten](using/building-journeys/about-action-activities.md)
          + [Adobe Campaign-acties gebruiken](using/building-journeys/using-adobe-campaign-actions.md)
          + [Aangepaste acties gebruiken](using/building-journeys/using-custom-actions.md)
          + [Van de ene journey naar de andere gaan](using/building-journeys/jump.md)
