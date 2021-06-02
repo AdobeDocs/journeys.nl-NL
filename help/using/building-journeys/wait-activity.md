@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Wachtactiviteit
 description: Meer informatie over wachtactiviteiten
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-translation-type: tm+mt
-source-git-commit: 532e8db3fde8ec86714d0b45a1b2a6c9c54367fb
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 4%
@@ -25,7 +23,7 @@ Als u wilt wachten alvorens de volgende activiteit in de weg uit te voeren, kunt
 
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
-## Ongeveer de Wacht activiteit{#about_wait}
+## Informatie over de activiteit Wachten{#about_wait}
 
 Hier is hoe de wacht voorrang krijgt wanneer u verscheidene wacht parallel gebruikt. Als zij de zelfde tijdconfiguratie en een verschillende maar overlappende voorwaarde hebben, hierboven gepositioneerde wachttijd zal aan voorrang gegeven zijn. De eerste wachttijd is bijvoorbeeld &#39;een vrouw zijn&#39; en de tweede wachttijd is &#39;een VIP zijn&#39;. De eerste wachttijdactiviteit krijgt prioriteit
 
@@ -39,13 +37,13 @@ U kunt een voorwaarde definiëren als u de wachttijd wilt beperken tot een bepaa
 >
 >In testwijze, staat de **[!UICONTROL Wait time in test]** parameter u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [deze pagina](../building-journeys/testing-the-journey.md)
 
-## Duur wachttijd{#duration}
+## Wachttijd duur{#duration}
 
 Selecteer de duur van de wachttijd voordat de volgende activiteit wordt uitgevoerd.
 
 ![](../assets/journey55.png)
 
-## Vaste datum wachttijd{#fixed_date}
+## Wachttijd voor vaste datum{#fixed_date}
 
 Selecteer de datum voor de uitvoering van de volgende activiteit.
 
