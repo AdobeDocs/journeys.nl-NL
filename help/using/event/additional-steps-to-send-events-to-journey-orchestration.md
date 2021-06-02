@@ -1,22 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Aanvullende stappen om gebeurtenissen naar Journey Orchestration te verzenden
 description: Meer informatie over extra stappen om gebeurtenissen naar Journey Orchestration te verzenden
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '324'
 ht-degree: 7%
 
 ---
 
-
-
-# Aanvullende stappen om gebeurtenissen naar [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b} te verzenden
+# Aanvullende stappen om gebeurtenissen naar [!DNL Journey Orchestration] te verzenden {#concept_xrz_n1q_y2b}
 
 >[!NOTE]
 >
