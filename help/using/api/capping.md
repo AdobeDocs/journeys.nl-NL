@@ -1,20 +1,18 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Beschrijving van API voor uitlijnen
 description: Meer informatie over de API voor aftiteling.
 products: journeys
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1109'
 ht-degree: 1%
 
 ---
-
 
 # Werken met API voor uitlijnen
 
@@ -77,7 +75,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 Met de API voor uitsnijden kunt u uw configuraties voor uitlijnen maken, configureren en controleren.
 
-| Method | Pad | Beschrijving |
+| Methode | Pad | Beschrijving |
 |---|---|---|
 | [!DNL POST] | list/endConfigs | Krijg een lijst van de eindpunt die configuraties begrenzen |
 | [!DNL POST] | /endConfigs | Creeer een eindpunt het bedekken configuratie |
@@ -214,4 +212,3 @@ Gebruiksscenario n°5: **Werk een reeds geïmplementeerde configuratie voor plaf
 1. desimplementatie
 1. canimplementeren
 1. inzetten
-
