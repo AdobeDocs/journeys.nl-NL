@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Cijfers en dimensies
 description: Meer informatie over de beschikbare afmetingen en meetgegevens voor Journey Orchestration
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 0%
+source-wordcount: '1036'
+ht-degree: 1%
 
 ---
-
 
 # Cijfers en dimensies {#concept_rfj_wpt_52b}
 
@@ -60,7 +58,7 @@ In de onderstaande tabel vindt u een overzicht van de afleveringsafmetingen die 
 | **URL-label bijhouden** | Label dat aan de URL wordt gegeven, zoals de spiegelpagina, neemt u contact met ons op of opent u. |
 | **Variant** | Variant van het e-mailbericht in het geval van A/B-tests. |
 
-## Dagcijfers {#MBE_p_p22_c4j_w2b}
+## Reiscijfers {#MBE_p_p22_c4j_w2b}
 
 In de onderstaande tabel vindt u een lijst met maatstaven die worden gebruikt in reisrapporten, de definities en de formules van deze statistieken.
 
