@@ -1,21 +1,19 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: contain
 description: Meer informatie over de functie bevat
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: b38619ec-94b2-450f-916e-f2dccbdbf4c5
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 12%
+source-wordcount: '37'
+ht-degree: 16%
 
 ---
 
-
-# contain {#contain}
+# bevatten {#contain}
 
 Controleert of de tweede argumenttekenreeks zich in de eerste argumenttekenreeks bevindt.
 
