@@ -1,23 +1,21 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Algemeen
 description: Meer informatie over algemene geavanceerde expressies
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 2%
+source-wordcount: '215'
+ht-degree: 3%
 
 ---
 
-
 # Algemeen {#concept_rcy_qj5_dgb}
 
-## Haakjes en expressieprioriteit{#section_edf_fks_bgb}
+## Haakjes en prioriteit van expressie{#section_edf_fks_bgb}
 
 U kunt ronde haakjes gebruiken om een complexe expressie leesbaarder te maken. _(&lt;expression>)_ is het equivalent van  _&lt;expression>_. Het haakje kan ook worden gebruikt om de evaluatievolgorde en de associatie te bepalen.
 
