@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Journey’s samenstellen
 description: Als zakelijke gebruiker leert u hoe u gebeurtenis-, orkest- en actieactiviteiten kunt combineren om een reis te maken.
 feature: Journeys
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
+exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 9%
 
 ---
-
 
 # Een journey maken {#concept_gq5_sqt_52b}
 
@@ -55,7 +53,7 @@ Hier volgen de belangrijkste stappen voor het maken en publiceren van een reis.
 
    ![](../assets/journey36.png)
 
-## Een reis {#ending_a_journey} beëindigen
+## Een reis beëindigen {#ending_a_journey}
 
 Een reis kan om twee redenen eindigen:
 
