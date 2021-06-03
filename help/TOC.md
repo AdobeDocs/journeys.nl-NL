@@ -5,10 +5,10 @@ title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 feature: Journeys
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 94%
 
 ---
 
@@ -46,12 +46,12 @@ ht-degree: 100%
    + [Externe databronnen](using/datasource/external-data-sources.md)
 + Een actie configureren {#action-journeys}
    + [Acties](using/action/action.md)
-   + [Werken met Adobe Campaign](using/action/working-with-adobe-campaign.md)
+   + [Werken met Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
+   + [Werken met Adobe Campaign Classic](using/action/acc-action.md)
    + Een extern systeem gebruiken {#action-third-party}
       + [Informatie over het configureren van aangepaste acties](using/action/about-custom-action-configuration.md)
       + [URL-configuratie](using/action/url-configuration.md)
       + [Berichtparameters definiëren](using/action/defining-the-message-parameters.md)
-   + [Integreren met Adobe Campaign Classic](using/beta/acc-action.md)
 + Platformsegmenten gebruiken {#configuring-segment}
    + [Informatie over platformsegmenten](using/segment/about-segments.md)
    + [Segment maken](using/segment/creating-a-segment.md)
@@ -78,7 +78,8 @@ ht-degree: 100%
          + [Wachtactiviteit](using/building-journeys/wait-activity.md)
       + Actieactiviteiten {#action-activities}
          + [Actieactiviteiten](using/building-journeys/about-action-activities.md)
-         + [Adobe Campaign-acties gebruiken](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Adobe Campaign Standard gebruiken](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Adobe Campaign Classic gebruiken](using/building-journeys/using-adobe-campaign-classic.md)
          + [Aangepaste acties gebruiken](using/building-journeys/using-custom-actions.md)
          + [Van de ene journey naar de andere gaan](using/building-journeys/jump.md)
          + [Profiel bijwerken](using/building-journeys/update-profiles.md)
@@ -191,5 +192,6 @@ ht-degree: 100%
       + [Gebeurtenissen configureren](using/usecase/configuring-the-events.md)
       + [Databronnen configureren](using/usecase/configuring-the-data-sources.md)
       + [De journey samenstellen](using/usecase/building-the-journey.md)
+   + [Een bericht verzenden met Campaign Classic](using/usecase/campaign-classic-use-case.md)
 + Werken met API’s{#working-with-apis}
    + [API’s beperken](using/api/capping.md)
