@@ -1,20 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Veldverwijzingen
 description: Meer informatie over veldverwijzingen in geavanceerde expressies
 feature: Journeys
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 3%
+source-wordcount: '435'
+ht-degree: 4%
 
 ---
-
-
 
 # Veldverwijzingen {#concept_fkj_ll5_dgb}
 
@@ -57,7 +54,7 @@ Er kan een standaardwaarde aan een veldnaam worden gekoppeld. De syntaxis is als
 
 >[!NOTE]
 >
->Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld @{LobbyBeacon.endUserIDs._experience.ease.id, defaultValue: :   is ongeldig omdat de standaardwaarde een geheel getal is en de verwachte waarde een tekenreeks.
+>Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
 
 Voorbeelden:
 
