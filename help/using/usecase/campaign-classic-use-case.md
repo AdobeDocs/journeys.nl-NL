@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Hefboomwerking van vermoeidheidsscores
 description: Leer hoe u vermoeidheidsscores tijdens reizen kunt gebruiken
-source-git-commit: bc17cd3c0aee2652e55e3cf0623f87c4187a165e
+source-git-commit: 83a2410151a8a388d1db845502f434e97d89bdcc
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 In dit geval worden alle stappen beschreven die nodig zijn om een e-mail te verzenden met Adobe Campaign Classic-integratie.
 
-We maken eerst een transactionele e-mailsjabloon in Campaign Classic. Dan, in Journey Orchestration, maken we de actie en ontwerpen we de reis.
+We maken eerst een transactionele e-mailsjabloon in Campaign Classic. Dan, in Journey Orchestration, zullen wij de gebeurtenis, actie en ontwerp de reis creëren.
 
 Raadpleeg de volgende pagina&#39;s voor meer informatie over de Campaign Classic-integratie:
 
@@ -28,7 +28,7 @@ Voor deze integratie moet uw Campaign Classic-exemplaar worden ingericht. De eig
 
 1. Meld u aan bij het besturingselement Campaign Classic.
 
-1. Selecteer onder **Beheer** > **Platform** > **Opsommingen** de **Opsomming gebeurtenistype** (eventType). Maak een nieuw gebeurtenistype (&quot;reis-gebeurtenis&quot;, in ons voorbeeld). U moet de interne naam van het gebeurtenistype gebruiken wanneer u het JSON-bestand schrijft.
+1. Selecteer onder **Beheer** > **Platform** > **Opsommingen** de **Opsomming gebeurtenistype** (eventType). Maak een nieuw gebeurtenistype (&quot;reis-gebeurtenis&quot;, in ons voorbeeld). U moet de interne naam van het gebeurtenistype gebruiken wanneer u het JSON-bestand later schrijft.
 
    ![](../assets/accintegration-uc-1.png)
 
@@ -59,14 +59,14 @@ Voor deze integratie moet uw Campaign Classic-exemplaar worden ingericht. De eig
 }
 ```
 
-    * Voor het kanaal moet u &quot;email&quot; typen.
-    * Voor eventType gebruikt u de interne naam van het gebeurtenistype dat u eerder hebt gemaakt.
-    * Het e-mailadres is een variabele, dus u kunt elk label typen.
-    * Onder ctx zijn de personalisatievelden ook variabelen.
+* Voor het kanaal moet u &quot;email&quot; typen.
+* Voor eventType gebruikt u de interne naam van het gebeurtenistype dat u eerder hebt gemaakt.
+* Het e-mailadres is een variabele, dus u kunt elk label typen.
+* Onder ctx, zijn de verpersoonlijkingsgebieden ook variabelen.
 
 **Journey Orchestration**
 
-1. Eerst moet u een gebeurtenis maken. Zorg ervoor dat u het &quot;purchaseOrderNumber&quot; opgeeft.
+1. Eerst moet u een gebeurtenis maken. Zorg ervoor dat u het veld &quot;purchaseOrderNumber&quot; opneemt.
 
    ![](../assets/accintegration-uc-5.png)
 
@@ -78,7 +78,7 @@ Voor deze integratie moet uw Campaign Classic-exemplaar worden ingericht. De eig
 
    ![](../assets/accintegration-uc-7.png)
 
-1. Voor het e-mailadres en twee verpersoonlijkingsgebieden, verander **Constant** in **Variabele**.
+1. Voor het e-mailadres en de twee verpersoonlijkingsgebieden, verander **Constant** in **Variabele**.
 
    ![](../assets/accintegration-uc-8.png)
 
@@ -92,6 +92,6 @@ Voor deze integratie moet uw Campaign Classic-exemplaar worden ingericht. De eig
 
 1. Voeg een **End** activiteit toe en test uw reis.
 
-   ![](../assets/accintegration-uc-10.png)
+   ![](../assets/accintegration-uc-11.png)
 
 1. U kunt nu uw reis publiceren.
