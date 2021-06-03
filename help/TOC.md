@@ -5,10 +5,10 @@ title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 feature: Journeys
-source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
+source-git-commit: 33e7f08cfe7eb39b761991fdcfbabe99af02e3f0
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 94%
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 94%
    + [Gebruikersinterface](using/about/user-interface.md)
    + [Toegangscontrole](using/about/access-management.md)
    + [Problemen oplossen](using/about/troubleshooting.md)
+   + [Integratie met externe systemen](using/about/external-systems.md)
 + Een gebeurtenis configureren {#events-journeys}
    + Informatie over gebeurtenissen {#about-events}
       + [Algemeen principe](using/event/about-events.md)
