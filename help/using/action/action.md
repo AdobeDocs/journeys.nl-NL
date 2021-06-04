@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: eff510d0e41e07560db8d56a8ca64da546e8fca6
+source-git-commit: b108294acf8e1c4be00ca981e7ba15a23973f8ac
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 85%
 
 ---
@@ -36,9 +36,9 @@ Als u de actielijst wilt bekijken of een nieuwe actie wilt configureren, klikt u
 
 ![](../assets/custom1.png)
 
-Als u Adobe Campaign Standard hebt, moet u de ingebouwde actie configureren om e-mails, pushberichten en sms-berichten te verzenden met de functies voor transactionele berichten van Adobe Campaign Standard. Zie [deze pagina](../action/working-with-adobe-campaign.md#using_adobe_campaign_standard).
+Als u Adobe Campaign Standard hebt, moet u de ingebouwde actie configureren om e-mails, pushberichten en sms-berichten te verzenden met de functies voor transactionele berichten van Adobe Campaign Standard. Zie [deze pagina](../action/working-with-adobe-campaign.md).
 
-Als u Adobe Campaign v7 of v8 hebt, is een integratie op verzoek beschikbaar. Zie [deze pagina](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8).
+Als u Adobe Campaign Classic hebt, is integratie op verzoek beschikbaar. Zie [deze pagina](../action/acc-action.md).
 
 Als u berichten verzendt via een extern systeem zoals Epsilon, Facebook, Adobe.io, Firebase, enzovoort, moet u een aangepaste actie toevoegen en configureren. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
