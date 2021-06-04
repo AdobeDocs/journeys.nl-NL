@@ -5,10 +5,10 @@ title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 feature: Journeys
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 93%
+source-wordcount: '424'
+ht-degree: 92%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 93%
 + Een actie configureren {#action-journeys}
    + [Acties](using/action/action.md)
    + [Werken met Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
-   + [Werken met Adobe Campaign Classic](using/action/acc-action.md)
+   + [Werken met Adobe Campaign v7/v8](using/action/acc-action.md)
    + Een extern systeem gebruiken {#action-third-party}
       + [Informatie over het configureren van aangepaste acties](using/action/about-custom-action-configuration.md)
       + [URL-configuratie](using/action/url-configuration.md)
@@ -80,7 +80,7 @@ ht-degree: 93%
       + Actieactiviteiten {#action-activities}
          + [Actieactiviteiten](using/building-journeys/about-action-activities.md)
          + [Adobe Campaign Standard gebruiken](using/building-journeys/using-adobe-campaign-actions.md)
-         + [Adobe Campaign Classic gebruiken](using/building-journeys/using-adobe-campaign-classic.md)
+         + [Adobe Campaign v7/v8 gebruiken](using/building-journeys/using-adobe-campaign-classic.md)
          + [Aangepaste acties gebruiken](using/building-journeys/using-custom-actions.md)
          + [Van de ene journey naar de andere gaan](using/building-journeys/jump.md)
          + [Profiel bijwerken](using/building-journeys/update-profiles.md)
@@ -193,6 +193,6 @@ ht-degree: 93%
       + [Gebeurtenissen configureren](using/usecase/configuring-the-events.md)
       + [Databronnen configureren](using/usecase/configuring-the-data-sources.md)
       + [De journey samenstellen](using/usecase/building-the-journey.md)
-   + [Een bericht verzenden met Campaign Classic](using/usecase/campaign-classic-use-case.md)
+   + [Een bericht verzenden met Campagne v7/v8](using/usecase/campaign-classic-use-case.md)
 + Werken met API’s{#working-with-apis}
    + [API’s beperken](using/api/capping.md)
