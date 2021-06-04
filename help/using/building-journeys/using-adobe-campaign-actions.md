@@ -6,16 +6,14 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: 04aa7d95c2f12fe03497efe74f2ab8bd1a270b5b
+source-git-commit: b108294acf8e1c4be00ca981e7ba15a23973f8ac
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 4%
+source-wordcount: '900'
+ht-degree: 5%
 
 ---
 
 # Adobe Campaign-acties gebruiken {#using_campaign_action}
-
-## Adobe Campaign Standard gebruiken {#using_campaign_standard_action}
 
 Als u Adobe Campaign Standard hebt, zijn de volgende buiten-de-box actieactiviteiten beschikbaar: **[!UICONTROL Email]**, **[!UICONTROL Push]** en **[!UICONTROL SMS]**.
 
@@ -41,7 +39,7 @@ Als u een sjabloon selecteert, worden alle velden die in de berichtlading worden
 
 ![](../assets/journey60.png)
 
-### E-mail en sms {#section_asc_51g_nhb}
+## E-mail en sms {#section_asc_51g_nhb}
 
 Voor **[!UICONTROL Email]** en **[!UICONTROL SMS]** zijn de parameters identiek.
 
@@ -75,7 +73,7 @@ Dit zijn de velden die worden verwacht door het Adobe Campaign Standard-bericht.
 
 ![](../assets/journey62.png)
 
-### Push {#section_im3_hvf_nhb}
+## Push {#section_im3_hvf_nhb}
 
 Voordat u de pushactiviteit kunt gebruiken, moet uw mobiele app samen met Campaign Standard worden geconfigureerd om pushmeldingen te verzenden. Gebruik dit [artikel](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html) om de noodzakelijke implementatiestappen voor mobiel te nemen.
 
@@ -106,20 +104,3 @@ U moet ook **[!UICONTROL Registration Token]** bepalen. De uitdrukking hangt van
 >U kunt geen inzameling in verpersoonlijkingsgegevens overgaan. Als de transactioneel duw inzamelingen verwacht, zal het niet werken. Merk ook op dat de verpersoonlijkingsgegevens een verwacht formaat hebben (voorbeeld: tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren.
 
 Dit zijn de velden die worden verwacht door de transactiesjabloon die wordt gebruikt in je Adobe Campaign Standard-bericht. Deze velden kunnen worden gebruikt om uw bericht aan te passen, voorwaardelijke opmaak toe te passen of een specifieke berichtvariant te kiezen.
-
-## Adobe Campaign v7/v8 gebruiken {#using_campaign_v7_v8_action}
-
-Deze integratie is beschikbaar voor Adobe Campaign Classic v7 vanaf versie 21.1 en Adobe Campaign v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
-
-De verbinding tussen de instanties van de Journey Orchestration en van de Campagne is opstelling door Adobe bij leveringstijd. Contact opnemen met Adobe.
-
-Om dit te werken, moet u een specifieke actie vormen. Zie deze [sectie](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8).
-
-In deze [sectie](../usecase/campaign-v7-v8-use-case.md) wordt een gebruiksgeval van begin tot eind weergegeven.
-
-1. Ontwerp uw reis, te beginnen met een gebeurtenis. Zie deze [sectie](../building-journeys/journey.md).
-1. Selecteer in de sectie **Handeling** van het palet een Campagne-actie en voeg deze toe aan uw reis.
-1. In **Actieparameters**, worden alle gebieden verwacht in de berichtlading getoond. U moet elk van deze gebieden met het gebied in kaart brengen u, of van de gebeurtenis of van de gegevensbron wilt gebruiken. Dit is vergelijkbaar met aangepaste handelingen. Zie deze [sectie](../building-journeys/using-custom-actions.md).
-
-![](../assets/accintegration2.png)
-
