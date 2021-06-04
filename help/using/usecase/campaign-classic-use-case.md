@@ -1,32 +1,32 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Hefboomwerking van vermoeidheidsscores
-description: Leer hoe u vermoeidheidsscores tijdens reizen kunt gebruiken
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+title: Een bericht verzenden met Campagne v7/v8
+description: Een bericht verzenden met Campagne v7/v8
+source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 1%
 
 ---
 
 
-# Een bericht verzenden met Campaign Classic {#campaign-classic-use-case}
+# Een bericht verzenden met Campagne v7/v8 {#campaign-classic-use-case}
 
-In dit geval worden alle stappen beschreven die nodig zijn om een e-mail te verzenden met Adobe Campaign Classic-integratie.
+In dit geval worden alle stappen beschreven die nodig zijn om een e-mail te verzenden via de integratie met Adobe Campaign Classic v7 en Adobe Campaign v8.
 
-We maken eerst een transactionele e-mailsjabloon in Campaign Classic. Dan, in Journey Orchestration, zullen wij de gebeurtenis, actie en ontwerp de reis creëren.
+We maken eerst een transactionele e-mailsjabloon in Campagne. Dan, in Journey Orchestration, zullen wij de gebeurtenis, actie en ontwerp de reis creëren.
 
-Raadpleeg de volgende pagina&#39;s voor meer informatie over de Campaign Classic-integratie:
+Raadpleeg de volgende pagina&#39;s voor meer informatie over de integratie van campagnes:
 
-* [Een Campaign Classic-actie maken](../action/acc-action.md)
+* [Campagne maken](../action/acc-action.md)
 * [De actie gebruiken op een reis](../building-journeys/using-adobe-campaign-classic.md).
 
-**Adobe Campaign Classic**
+**Adobe Campaign**
 
-Voor deze integratie moet uw Campaign Classic-exemplaar worden ingericht. De eigenschap van het Overseinen van de Transactie moet worden gevormd.
+Voor deze integratie moet uw Campagne-instantie zijn ingericht. De eigenschap van het Overseinen van de Transactie moet worden gevormd.
 
-1. Meld u aan bij het besturingselement Campaign Classic.
+1. Meld u aan bij de besturingsinstantie Campagne.
 
 1. Selecteer onder **Beheer** > **Platform** > **Opsommingen** de **Opsomming gebeurtenistype** (eventType). Maak een nieuw gebeurtenistype (&quot;reis-gebeurtenis&quot;, in ons voorbeeld). U moet de interne naam van het gebeurtenistype gebruiken wanneer u het JSON-bestand later schrijft.
 
@@ -38,7 +38,7 @@ Voor deze integratie moet uw Campaign Classic-exemplaar worden ingericht. De eig
 
    ![](../assets/accintegration-uc-2.png)
 
-1. Ontwerp uw sjabloon. In dit voorbeeld gebruiken we personalisatie op de voornaam en het ordernummer van het profiel. De voornaam staat in de Adobe Experience Platform-gegevensbron en het ordernummer is een veld van onze Journey Orchestration-gebeurtenis. Gebruik de juiste veldnamen in Campaign Classic.
+1. Ontwerp uw sjabloon. In dit voorbeeld gebruiken we personalisatie op de voornaam en het ordernummer van het profiel. De voornaam staat in de Adobe Experience Platform-gegevensbron en het ordernummer is een veld van onze Journey Orchestration-gebeurtenis. Gebruik de juiste veldnamen in Campagne.
 
    ![](../assets/accintegration-uc-3.png)
 
@@ -70,7 +70,7 @@ Voor deze integratie moet uw Campaign Classic-exemplaar worden ingericht. De eig
 
    ![](../assets/accintegration-uc-5.png)
 
-1. Vervolgens moet u in Journey Orchestration een actie maken die overeenkomt met uw Campaign Classic-sjabloon. Selecteer **Adobe Campaign Classic** in de vervolgkeuzelijst **Handelingstype**.
+1. Vervolgens moet u in Journey Orchestration een actie maken die overeenkomt met uw campagnemalplaatje. Selecteer **Adobe Campaign Classic** in de vervolgkeuzelijst **Handelingstype**.
 
    ![](../assets/accintegration-uc-6.png)
 
