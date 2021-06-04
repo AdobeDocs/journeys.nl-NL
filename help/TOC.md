@@ -5,10 +5,10 @@ title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 feature: Journeys
-source-git-commit: 33e7f08cfe7eb39b761991fdcfbabe99af02e3f0
+source-git-commit: eff510d0e41e07560db8d56a8ca64da546e8fca6
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 93%
+source-wordcount: '411'
+ht-degree: 97%
 
 ---
 
@@ -47,8 +47,7 @@ ht-degree: 93%
    + [Externe databronnen](using/datasource/external-data-sources.md)
 + Een actie configureren {#action-journeys}
    + [Acties](using/action/action.md)
-   + [Werken met Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
-   + [Werken met Adobe Campaign Classic](using/action/acc-action.md)
+   + [Werken met Adobe Campaign](using/action/working-with-adobe-campaig.md)
    + Een extern systeem gebruiken {#action-third-party}
       + [Informatie over het configureren van aangepaste acties](using/action/about-custom-action-configuration.md)
       + [URL-configuratie](using/action/url-configuration.md)
@@ -79,8 +78,7 @@ ht-degree: 93%
          + [Wachtactiviteit](using/building-journeys/wait-activity.md)
       + Actieactiviteiten {#action-activities}
          + [Actieactiviteiten](using/building-journeys/about-action-activities.md)
-         + [Adobe Campaign Standard gebruiken](using/building-journeys/using-adobe-campaign-actions.md)
-         + [Adobe Campaign Classic gebruiken](using/building-journeys/using-adobe-campaign-classic.md)
+         + [Adobe Campaign-acties gebruiken](using/building-journeys/using-adobe-campaign-actions.md)
          + [Aangepaste acties gebruiken](using/building-journeys/using-custom-actions.md)
          + [Van de ene journey naar de andere gaan](using/building-journeys/jump.md)
          + [Profiel bijwerken](using/building-journeys/update-profiles.md)
@@ -193,6 +191,6 @@ ht-degree: 93%
       + [Gebeurtenissen configureren](using/usecase/configuring-the-events.md)
       + [Databronnen configureren](using/usecase/configuring-the-data-sources.md)
       + [De journey samenstellen](using/usecase/building-the-journey.md)
-   + [Een bericht verzenden met Campaign Classic](using/usecase/campaign-classic-use-case.md)
+   + [Een bericht verzenden met Campaign Classic](using/usecase/campaign-v7-v8-use-case.md)
 + Werken met API’s{#working-with-apis}
    + [API’s beperken](using/api/capping.md)
