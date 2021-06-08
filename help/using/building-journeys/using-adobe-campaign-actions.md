@@ -6,14 +6,14 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+source-git-commit: 2565f6be500440455aa60724272790537a28ce2d
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 5%
 
 ---
 
-# Adobe Campaign-acties gebruiken {#using_campaign_action}
+# Adobe Campaign Standard gebruiken {#using_campaign_action}
 
 Als u Adobe Campaign Standard hebt, zijn de volgende buiten-de-box actieactiviteiten beschikbaar: **[!UICONTROL Email]**, **[!UICONTROL Push]** en **[!UICONTROL SMS]**.
 
