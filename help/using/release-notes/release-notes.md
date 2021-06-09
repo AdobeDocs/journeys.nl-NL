@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
+source-git-commit: 002b67f4e09635b58c00fad9dbc2c16b872a5fb3
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2540'
 ht-degree: 61%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 61%
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-updates.md) raadplegen.
 
-## Release {#may-2021-release} mei 2021
+## Release {#may-2021-release} van juni 2021
 
 <table>
 <thead>
@@ -29,8 +29,8 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 <tbody>
 <tr>
 <td>
-<p>De integratie met Adobe Campaign Classic is nu GA. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Classic Transaction Messaging.</p>
-<p>De verbinding tussen de instanties van de Journey Orchestration en van de Campaign Classic is opstelling door Adobe bij leveringstijd.</p>
+<p>De integratie met Adobe Campaign Classic is nu GA. Hiermee kunt u e-mails, pushmeldingen en SMS verzenden met de mogelijkheden van Adobe Campaign v7 of v8 Transactieberichten.</p>
+<p>De verbinding tussen de instanties van de Journey Orchestration en van de Campagne is opstelling door Adobe bij leveringstijd.</p>
 <p>Raadpleeg de <a href="../action/acc-action.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
