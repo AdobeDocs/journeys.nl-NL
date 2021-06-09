@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '417'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ We moeten een verbinding met twee gegevensbronnen configureren (zie [deze pagina
 
 ## Voorwaarden {#prerequisites}
 
-Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Zie deze [pagina]().
+Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Zie deze [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
 
 Adobe Campaign Standard is geconfigureerd voor het verzenden van e-mails en pushberichten.
 
