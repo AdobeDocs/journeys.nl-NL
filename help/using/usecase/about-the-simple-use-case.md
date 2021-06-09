@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 7%
+source-wordcount: '174'
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ We willen alleen een bericht sturen als de persoon een vrouw is. Het bericht moe
 
 ## Voorwaarden {#prerequisites}
 
-Voor ons gebruik hebben we één e-mailsjabloon voor berichten voor transacties in Adobe Campaign Standard ontworpen. We gebruiken een berichtensjabloon voor een gebeurtenistransactie. Zie deze [pagina]().
+Voor ons gebruik hebben we één e-mailsjabloon voor berichten voor transacties in Adobe Campaign Standard ontworpen. We gebruiken een berichtensjabloon voor een gebeurtenistransactie. Zie deze [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
 
 Adobe Campaign Standard is geconfigureerd om e-mailberichten te verzenden.
 
