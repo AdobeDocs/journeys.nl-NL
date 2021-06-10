@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1251eafcfe7487c3df01b412f17706f5ed6c6836
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 4%
 Plak in de sectie **[!UICONTROL Message parameters]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
 
 ![](../assets/customactionpayloadmessage.png)
+
+>[!NOTE]
+>
+>Veldnamen in de payload mogen geen &quot;.&quot; bevatten teken.
 
 U kunt het parametertype definiëren (bijvoorbeeld: tekenreeks, geheel getal, enz.).
 
