@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 29aa6b6e16f8e6d051065f8157f4e25e8b1c05e1
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,11 @@ Met de actieactiviteit **[!UICONTROL Update profile]** kunt u een bestaand Adobe
 
    ![](../assets/profileupdate2.png)
 
-1. Selecteer een gegevensset in de lijst. De selectie van de dataset zal bepalen waar de nieuwe waarde van het profielgebied zal worden opgeslagen.
+1. Selecteer een gegevensset in de lijst.
+
+   >[!NOTE]
+   >
+   >Met de handeling **Profiel bijwerken** worden de profielgegevens in realtime bijgewerkt, maar worden de gegevenssets niet bijgewerkt. De datasetselectie is nodig aangezien het profiel een verslag met betrekking tot een dataset is.
 
 1. Klik op het veld **Waarde** om de waarde te definiëren die u wilt gebruiken:
 
