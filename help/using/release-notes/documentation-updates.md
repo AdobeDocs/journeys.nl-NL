@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 
 ## Januari 2021 {#january-2021}
 
-* Toegevoegde beste praktijken wanneer het teweegbrengen van een reis tezelfdertijd als een profielverwezenlijking. [Meer informatie](../about/limitations.md#journeys-limitation-profile-creation).
+* Toegevoegde beste praktijken bij het activeren van een journey op het moment dat een profiel wordt gemaakt. [Meer informatie](../about/limitations.md#journeys-limitation-profile-creation).
 
 ## Oktober 2020 {#october-2020}
 
@@ -32,8 +32,8 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 
 ## September 2020 {#september-2020}
 
-* De sectie van de interfacebeschrijving is bijgewerkt om op het nieuwe **Alle selecteur** menu te wijzen. [Meer informatie](../about/user-interface.md)
-* Een opmerking toegevoegd over de nieuwe versies van de segmentreizen die niet terugkerend zijn.
+* De sectie van de interfacebeschrijving is bijgewerkt met het nieuwe **keuze**-menu. [Meer informatie](../about/user-interface.md)
+* Er is een opmerking toegevoegd over de nieuwe versies van de segmentjourneys die niet terugkerend zijn.
 
 ## Augustus 2020 {#august-2020}
 
