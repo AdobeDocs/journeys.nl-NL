@@ -6,7 +6,7 @@ user-guide-description: Verstrekt stapsgewijze instructies voor het implementere
 index: true
 feature: Journeys
 source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
 
@@ -187,7 +187,7 @@ ht-degree: 100%
       + [Eenvoudige gebruiksscenario&#39;s](using/usecase/about-the-simple-use-case.md)
       + [De gebeurtenis configureren](using/usecase/configuring-the-event.md)
       + [De databron configureren](using/usecase/configuring-the-data-source.md)
-      + [De journey samenstellen](using/usecase/simple-uc-building-the-journey.md)
+      + [Journey samenstellen](using/usecase/simple-uc-building-the-journey.md)
    + Een cross-channel journey maken{#use-case-advanced}
       + [Geavanceerde gebruiksscenario&#39;s](using/usecase/about-the-advanced-use-case.md)
       + [Gebeurtenissen configureren](using/usecase/configuring-the-events.md)
