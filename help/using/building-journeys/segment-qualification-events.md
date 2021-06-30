@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,9 @@ Zie [Condition activity](../building-journeys/condition-activity.md#about_condit
 
 ![](../assets/segment8.png)
 
-## Aanbevolen procedures {#best-practices-segments}
+Een nieuwe reis die een gebeurtenis van de segmentkwalificatie omvat is operationeel tien minuten nadat u het hebt gepubliceerd. Dit tijdinterval beantwoordt aan het geheime voorgeheugen verfrist interval van de specifieke dienst. Daarom moet u tien minuten wachten voordat u deze reis gebruikt.
+
+## Best practices {#best-practices-segments}
 
 Met de activiteit **[!UICONTROL Segment Qualification]** kunnen personen die gekwalificeerd of gediskwalificeerd zijn voor een Adobe Experience Platform-segment direct toegang krijgen tot reizen.
 
@@ -90,7 +92,7 @@ Wanneer het gebruiken van segmentkwalificatie voor gestroomde segmenten, is er m
 
 Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api) voor meer informatie over streamingsegmentatie
 
-### Hoe te vermijden overbelasting{#overloads-speed-segment-qualification}
+### Overbelasting voorkomen{#overloads-speed-segment-qualification}
 
 Hier volgen een paar voorbeelden van beste praktijken die zullen helpen om overladende systemen te vermijden leveraged in reizen (gegevensbronnen, douaneacties, acties van Adobe Campaign Standard).
 
