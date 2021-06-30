@@ -6,18 +6,18 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 81%
+source-wordcount: '343'
+ht-degree: 79%
 
 ---
 
-# Informatie over databronnen {#concept_s1s_dqt_52b}
+# Databronnen {#concept_s1s_dqt_52b}
 
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
->title="Informatie over databronnen"
+>title="Databronnen"
 >abstract="De gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt."
 
 Met de databronconfiguratie kunt u een verbinding met een systeem definiëren om extra informatie op te halen die in uw journey’s wordt gebruikt voor:
@@ -36,7 +36,7 @@ Er zijn twee soorten databronnen:
 
 Voor elke databron definieert u de informatie die u wilt ophalen met behulp van veldengroepen. Veldengroepen zijn reeksen velden die uit een databron kunnen worden opgehaald. Zie [deze pagina](../datasource/field-groups.md).
 
-Voor meer informatie over het configureren van een Adobe Experience Platform-databron en een externe databron en hoe u gegevens in een journey kunt vinden en gebruiken, bekijkt u deze [zelfstudievideo](https://docs.adobe.com/content/help/nl-NL/journey-orchestration-learn/tutorials/configure-data-sources.html).
+Voor meer informatie over het configureren van een Adobe Experience Platform-databron en een externe databron en hoe u gegevens in een journey kunt vinden en gebruiken, bekijkt u deze [zelfstudievideo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
 Dit zijn de belangrijkste stappen voor de configuratie van databronnen:
 
