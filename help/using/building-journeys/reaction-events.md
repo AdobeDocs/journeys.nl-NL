@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '411'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Hier volgen de verschillende stappen voor het configureren van reactiegebeurteni
 >
 >Reactiegebeurtenissen kunnen geen e-mail-, SMS- of pushacties bijhouden die op een andere reis plaatsvinden.
 >
->Bij reactiegebeurtenissen wordt geklikt op koppelingen van het type &quot;bijgehouden&quot; (zie deze [pagina](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Er wordt geen rekening gehouden met abonnements- en spiegelpaginakoppelingen.
+>Bij reactiegebeurtenissen wordt geklikt op koppelingen van het type &quot;bijgehouden&quot; (zie deze [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Er wordt geen rekening gehouden met abonnements- en spiegelpaginakoppelingen.
 
 >[!IMPORTANT]
 >
