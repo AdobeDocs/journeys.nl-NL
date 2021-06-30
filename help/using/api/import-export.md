@@ -3,10 +3,10 @@ product: adobe campaign
 title: Export API-beschrijving importeren
 description: Meer informatie over de import-API voor exporteren.
 products: journeys
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 2%
+source-wordcount: '1123'
+ht-degree: 1%
 
 ---
 
@@ -30,16 +30,16 @@ Om uw integratie te testen en voor te bereiden, is een inzameling van Postman be
 
 We raden u aan deze stappen te volgen om uw reizen te exporteren en te importeren in verschillende omgevingen:
 
-1. Maak en parameter een reis in uw beginomgeving. [Meer informatie hier](https://docs.adobe.com/content/help/nl-NL/journeys/using/building-journeys/about-journey-building/journey.html)
-1. Controleer of de reisversie geen fout bevat. [Meer informatie hier](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/testing-the-journey.html)
+1. Maak en parameter een reis in uw beginomgeving. [Meer informatie hier](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. Controleer of de reisversie geen fout bevat. [Meer informatie hier](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
 1. Roep **/list/trip** API aan om de reis UID en UID van uw recentste reisversie terug te winnen. Indien nodig, kunt u **/trip/`{uid}`/last** roepen om UID van uw recentste reisversie te vinden.
 1. Roep de **export** API met uw parameters van het beginmilieu (orgID en sandboxName) aan.
 1. Open de geretourneerde lading en controleer vervolgens de volgende items:
    * Als uw geëxporteerde reis **specifieke referenties** bevat, moet u deze referenties vervangen door de referenties die overeenkomen met de nieuwe omgeving.
-   * Als uw geëxporteerde reis **gebeurtenissen** bevat die naar een **XDM-schema** wijzen, moet u de referentie van de schema-id handmatig bijwerken met de schema-id van de nieuwe omgeving in het xdmEntiteitsknooppunt als de waarden van de id&#39;s verschillend zijn. Deze update moet voor elke gebeurtenis worden uitgevoerd. [Meer informatie hier](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
+   * Als uw geëxporteerde reis **gebeurtenissen** bevat die naar een **XDM-schema** wijzen, moet u de referentie van de schema-id handmatig bijwerken met de schema-id van de nieuwe omgeving in het xdmEntiteitsknooppunt als de waarden van de id&#39;s verschillend zijn. Deze update moet voor elke gebeurtenis worden uitgevoerd. [Meer informatie hier](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * Als uw reis e-mail, sms of duw acties bevat, kunt u de malplaatjenaam of de naam moeten bijwerken mobileApp als de naam in het doelmilieu van verschillend is dan die in uw beginmilieu.
 1. Roep de **Import**-API met de parameters van de doelomgeving (orgID en sandboxName) aan. Let erop dat u de import-API zo vaak kunt aanroepen als u wilt. De UUID en de naam van elk voorwerp in de reis worden geproduceerd telkens als u de invoer API roept.
-1. Nadat u de Reis hebt geïmporteerd, kunt u deze publiceren in de Journey Orchestration-toepassing. Meer informatie [hier](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
+1. Nadat u de Reis hebt geïmporteerd, kunt u deze publiceren in de Journey Orchestration-toepassing. Meer informatie [hier](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## Verificatie
