@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '778'
 ht-degree: 10%
 
 ---
@@ -47,7 +47,7 @@ In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een 
 
 ![](../assets/journey64.png)
 
-Als u [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) gebruikt om uw segmenten tot stand te brengen, kunt u hen in uw reisvoorwaarden hefboomwerking. Zie [Segmenten gebruiken in condities](../segment/using-a-segment.md).
+Als u [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) gebruikt om uw segmenten tot stand te brengen, kunt u hen in uw reisvoorwaarden hefboomwerking. Zie [Segmenten gebruiken in condities](../segment/using-a-segment.md).
 
 
 >[!NOTE]
@@ -75,6 +75,8 @@ Hierdoor kunt u verschillende handelingen uitvoeren op basis van het uur van de 
 ## Percentage splitsing {#percentage_split}
 
 Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Definieer het aantal splitsingen en de verdeling voor elk pad. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen in deze activiteit van de reis zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig Java mechanisme (zie deze [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+
+In de testmodus wordt bij het bereiken van een splitsing altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest. Zie [deze pagina](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
