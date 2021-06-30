@@ -7,14 +7,14 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 5d2e82c10dd22b5b4bac15a78a2f6f592aedd371
+source-git-commit: 5346c3a25900b1e167ea5b199e1873adab39d07d
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
 
-# Integreren met externe systemen {#external-systems}
+# Integratie met externe systemen {#external-systems}
 
 Deze pagina bevat de verschillende instructies die Journey Orchestration biedt bij de integratie van een extern systeem en de beste werkwijzen: hoe u de beveiliging van uw externe systeem kunt optimaliseren met behulp van de API voor aftopping, hoe u de time-out van de reis kunt configureren en hoe nieuwe pogingen werken.
 
@@ -32,7 +32,11 @@ Wanneer Journey Orchestration een aanroep van een externe API uitvoert, worden d
 
 ## Afbeelding{#capping}
 
-De ingebouwde API voor uitlijnen biedt een stroomopwaartse technische hulplijn die u helpt uw externe systeem te beschermen. U moet eerst de capaciteit van de externe API evalueren. Bijvoorbeeld, als Journey Orchestration 1000 vraag per seconde verzendt en uw systeem slechts 100 vraag per seconde kan steunen, moet u een het begrenzen regel bepalen zodat uw systeem niet verzadigt.
+De ingebouwde API voor uitlijnen biedt een stroomopwaartse technische hulplijn die u helpt uw externe systeem te beschermen.
+
+Voor externe gegevensbronnen, wordt het maximumaantal vraag per seconde geplaatst aan 15. Als het aantal vraag 15 per seconde overschrijdt, worden de resterende vraag verworpen. U kunt deze limiet verhogen voor externe privégegevensbronnen. Contacteer Adobe aan whitelist het eindpunt. Dit is niet mogelijk voor openbare externe gegevensbronnen.
+
+Voor aangepaste handelingen moet u de capaciteit van de externe API evalueren. Bijvoorbeeld, als Journey Optimizer 1000 vraag per seconde verzendt en uw systeem slechts 100 vraag per seconde kan steunen, moet u een het begrenzen regel bepalen zodat uw systeem niet verzadigt.
 
 De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL). Bij runtime, verifieert Journey Orchestration of er een het begrenzen regel wordt bepaald en past het bepaalde tarief tijdens de vraag aan dat eindpunt toe. Als het aantal vraag het bepaalde tarief overschrijdt, worden de resterende vraag verworpen en als fouten in het melden geteld.
 
