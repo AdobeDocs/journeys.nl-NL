@@ -7,14 +7,14 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 89%
 
 ---
 
-# Help Center {#journeys-documentation}
+# Helpcentrum {#journeys-documentation}
 
 ![](using/assets/do-not-localize/bannerjourney.png)
 
@@ -70,10 +70,10 @@ Meer informatie over Journey Orchestration.
 
 * [Journey Orchestration-productpagina](https://www.adobe.com/nl/experience-platform/journey-orchestration.html)
 * [Experience Platform-documentatie](https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html)
-* [Documentatie bij real-timeklantprofiel](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)
-* [Experience Cloud XDM-velddefinitie](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/home.html)
-* [Documentatie bij identiteitsnaamruimte](https://docs.adobe.com/content/help/nl-NL/experience-platform/identity/home.html)
-* [Streamingopname-API’s](https://docs.adobe.com/content/help/nl-NL/experience-platform/ingestion/streaming/overview.html)
+* [Documentatie bij real-timeklantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Experience Cloud XDM-velddefinitie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
+* [Documentatie bij identiteitsnaamruimte](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)
+* [Streamingopname-API’s](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)
 * [Documentatie bij transactionele berichten in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl)
 
 ## Technische zelfstudies
