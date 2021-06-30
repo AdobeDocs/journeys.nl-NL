@@ -3,10 +3,10 @@ product: adobe campaign
 title: Een testprofiel maken
 description: Meer informatie over het maken van testprofielen
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 2%
+source-wordcount: '675'
+ht-degree: 1%
 
 ---
 
@@ -99,7 +99,7 @@ Uw testprofielen worden toegevoegd en kunnen nu worden gebruikt bij het testen v
 
 ## Testprofielen maken met behulp van API-aanroepen{#create-test-profiles-api}
 
-U kunt testprofielen ook maken via API-aanroepen. Zie deze [pagina](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html).
+U kunt testprofielen ook maken via API-aanroepen. Zie deze [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
 U moet een profielschema gebruiken dat de &quot;de testdetails van het Profiel&quot;mengen bevat. De markering testProfile maakt deel uit van deze mix.
 
