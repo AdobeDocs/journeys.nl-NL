@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 53%
+source-wordcount: '554'
+ht-degree: 63%
 
 ---
 
@@ -33,9 +33,9 @@ Dit zijn de belangrijkste stappen voor het configureren van een nieuwe gebeurten
 
    ![](../assets/journey6bis.png)
 
-   * **Op regels** gebaseerde gebeurtenissen: dit type gebeurtenis genereert geen eventID. In het **Voorwaarde identiteitskaart van de Gebeurtenis** gebied, bepaalt u eenvoudig een regel die door het systeem zal worden gebruikt om de relevante gebeurtenissen te identificeren die uw reizen zullen teweegbrengen. Deze regel kan worden gebaseerd op elk veld dat beschikbaar is in de gebeurtenislading, bijvoorbeeld de locatie van het profiel of het aantal items dat is toegevoegd aan het winkelwagentje van het profiel.
+   * **Op regels gebaseerde** gebeurtenissen: dit type gebeurtenis genereert geen eventID. In het **Voorwaarde identiteitskaart van de Gebeurtenis** gebied, bepaalt u eenvoudig een regel die door het systeem zal worden gebruikt om de relevante gebeurtenissen te identificeren die uw reizen zullen teweegbrengen. Deze regel kan zijn gebaseerd op elk veld dat beschikbaar is in de gebeurtenispayload, bijvoorbeeld de locatie van het profiel of het aantal items dat is toegevoegd aan de winkelwagen van het profiel.
 
-   * **System-** generateDefents: voor dit type is een eventID vereist. Dit veld eventID wordt automatisch gegenereerd wanneer de gebeurtenis wordt gemaakt en toegevoegd aan de voorvertoning van de laadbewerking. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten overgaan beschikbaar in de voorproef van de lading. Zie [deze sectie](../event/previewing-the-payload.md).
+   * **System-** generateDefents: voor dit type is een eventID vereist. Dit veld eventID wordt automatisch gegenereerd wanneer de gebeurtenis wordt gemaakt en toegevoegd aan de voorvertoning van de laadbewerking. Het systeem dat de gebeurtenis pusht, moet geen ID genereren, het moet overgaan naar degene die in de voorvertoning van de payload beschikbaar is. Zie [deze sectie](../event/previewing-the-payload.md).
    >[!NOTE]
    >
    >Lees meer over gebeurtenistypen in [deze sectie](../event/about-events.md).
@@ -49,6 +49,10 @@ Dit zijn de belangrijkste stappen voor het configureren van een nieuwe gebeurten
    ![](../assets/alpha-event6.png)
 
    In ons voorbeeld schreven we een voorwaarde op basis van de stad van het profiel. Dit betekent dat wanneer het systeem een gebeurtenis ontvangt die deze voorwaarde (**[!UICONTROL City]** gebied en **[!UICONTROL Paris]** waarde) aanpast, het het aan Journey Orchestration zal overgaan.
+
+   >[!NOTE]
+   >
+   >De geavanceerde uitdrukkingsredacteur is niet beschikbaar wanneer het bepalen van **[!UICONTROL Event ID condition]**.
 
 1. Voeg een naamruimte toe. Deze stap is optioneel, maar wordt aangeraden, omdat u door het toevoegen van een naamruimte gegevens kunt gebruiken die zijn opgeslagen in de real-timeklantprofielservice. U definieert zo het type sleutel van de gebeurtenis. Zie [deze pagina](../event/selecting-the-namespace.md).
 1. Sleutel definiëren: kies een veld in uw payloadvelden of definieer een formule om de persoon te identificeren die aan de gebeurtenis is gekoppeld. Deze sleutel wordt automatisch ingesteld (maar kan nog steeds worden bewerkt) als u een naamruimte selecteert. [!DNL Journey Orchestration] kiest namelijk de sleutel die moet overeenkomen met de naamruimte (als u bijvoorbeeld een naamruimte voor e-mail selecteert, wordt de e-mailsleutel geselecteerd). Zie [deze pagina](../event/defining-the-event-key.md).
