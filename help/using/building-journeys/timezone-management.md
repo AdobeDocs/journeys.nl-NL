@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '278'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,11 @@ Deze tijdzone wordt gebruikt voor elke activiteit van de reis die een tijdseleme
 
 U kunt een tijdzone selecteren of de tijdzone gebruiken die is gedefinieerd in het gebruikersprofiel.
 
-## Een vaste tijdzone {#fixed-timezone} definiëren
+>[!NOTE]
+>
+>De profieltijdzone werkt met het **timeZone** gebied dat in **Preference Details** gebiedsgroep bestaat.
+
+## Een vaste tijdzone definiëren {#fixed-timezone}
 
 De tijdzone kan ook worden vastgesteld. Wis de vooraf gedefinieerde tijdzone en kies een tijdzone in de vervolgkeuzelijst. Als je een vaste tijdzone gebruikt, zal dat hetzelfde zijn voor iedereen die de reis binnenkomt.
 
@@ -36,7 +40,7 @@ U doet dit door in **[!UICONTROL Properties]** een tijdzone te selecteren.
 
 ![](../assets/journey72.png)
 
-## Profielen gebruiken om de reistijdzone {#timezone-from-profiles} te definiëren
+## Profielen gebruiken om de tijdzone voor het transport te definiëren {#timezone-from-profiles}
 
 Als de entry-gebeurtenis van de reis een naamruimte heeft, wat betekent dat de reis de Real-time dienst van het Profiel van de Klant van de Adobe Experience Platform kan bereiken, is de tijdzone vooraf gedefinieerd met die gespecificeerd in het profiel van de individuele die in de reis stroomt.
 
