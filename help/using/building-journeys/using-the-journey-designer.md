@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1423'
 ht-degree: 5%
 
 ---
@@ -65,7 +65,7 @@ Het **activiteitenconfiguratievenster** verschijnt wanneer u op een activiteit i
 
 Op het canvas worden uw actie en gebeurtenisactiviteiten vertegenwoordigd door een pictogram met de naam van de gebeurtenis of actie die onder wordt weergegeven. In de ruit van de activiteitenconfiguratie, kunt u het **[!UICONTROL Label]** gebied gebruiken om een achtervoegsel aan de activiteitennaam toe te voegen. Deze labels helpen u bij het contextualiseren van het gebruik van gebeurtenissen en handelingen, vooral wanneer u dezelfde gebeurtenis of handeling meerdere malen gebruikt op uw reis. U zult ook de etiketten kunnen zien u in [!DNL Journey Orchestration] het melden toevoegde. U kunt ook labels definiëren voor activiteiten in uw toestand.
 
-Standaard worden alleen-lezen velden verborgen. Om hen te tonen, klik **toon read-only gebieden** pictogram in de bovenkant verlaten van de ruit van de activiteitenconfiguratie.
+Standaard worden alleen-lezen velden verborgen. Als u alleen-lezen velden wilt weergeven, klikt u op het pictogram **Alleen-lezen velden** linksboven in het deelvenster Activiteitsconfiguratie. Deze instelling geldt voor alle activiteiten op alle reizen.
 
 ![](../assets/journey59bis.png)
 
@@ -93,7 +93,7 @@ Wanneer twee activiteiten op het canvas worden losgekoppeld, wordt een waarschuw
 
 ![](../assets/canvas-disconnected.png)
 
-## Activiteiten {#copy-paste} kopiëren en plakken
+## Kopiëren en plakken {#copy-paste}
 
 U kunt een of meer activiteiten van een reis kopiëren en deze in dezelfde of een andere reis plakken. Dit staat u toe om tijd te besparen als u talrijke activiteiten wilt hergebruiken die reeds in een vorige reis zijn gevormd.
 
