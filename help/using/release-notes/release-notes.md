@@ -6,19 +6,19 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 002b67f4e09635b58c00fad9dbc2c16b872a5fb3
+source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 61%
+source-wordcount: '2627'
+ht-degree: 60%
 
 ---
 
-# Release-opmerkingen{#release-notes}
+# Aanvullende informatie {#release-notes}
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-updates.md) raadplegen.
 
-## Release {#may-2021-release} van juni 2021
+## Release juni 2021 {#june-2021-release}
 
 <table>
 <thead>
@@ -30,20 +30,27 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 <tr>
 <td>
 <p>De integratie met Adobe Campaign Classic is nu GA. Hiermee kunt u e-mails, pushmeldingen en SMS verzenden met de mogelijkheden van Adobe Campaign v7 of v8 Transactieberichten.</p>
-<p>De verbinding tussen de instanties van de Journey Orchestration en van de Campagne is opstelling door Adobe bij leveringstijd.</p>
+<p>De verbinding tussen de instanties van Journey Orchestration en Campaign wordt door Adobe ingesteld tijdens de inrichting.</p>
 <p>Raadpleeg de <a href="../action/acc-action.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## Release {#april-2021-release} van april 2021
+### Verbeteringen
+
+* Voor externe gegevensbronnen, wordt een het maximum van 15 vraag per seconde nu automatisch bepaald. [Meer informatie](../about/external-systems.md#capping)
+* In de eenvoudige en geavanceerde uitdrukkingsredacteur, steunen wij nu het XDM datumformaat.
+* In het scherm van de reislijst, is een nieuw filter toegevoegd. U kunt nu filteren op het type transport: **[!UICONTROL Unitary event]** of **[!UICONTROL Segment qualification]**. [Meer informatie](../about/user-interface.md#section_lgm_hpz_pgb)
+* Voor live reizen worden in het scherm met de reiseigenschappen nu de publicatiedatum en de naam van de gebruiker weergegeven die de reis heeft gepubliceerd. Deze informatie is ook beschikbaar wanneer u de technische details van de reis kopieert. [Meer informatie](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+
+## Release april 2021 {#april-2021-release}
 
 ### Verbeteringen
 
 * In het **scherm van de gebeurtenisconfiguratie** van de testwijze, wordt een dropdown nu getoond voor gebieden die een opsomming verwachten. Selecteer gewoon een van de beschikbare waarden. Hierdoor worden fouten voorkomen bij het activeren van de gebeurtenis als een onjuiste waarde is gedefinieerd. [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
 
-## Release {#march-2021-release} van maart 2021
+## Release maart 2021 {#march-2021-release}
 
 ### Verbeteringen
 
@@ -52,7 +59,7 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 * In de testmodus is in het scherm **Gebeurtenisconfiguratie** de naam van het veld **Sleutel** waarmee de id van het testprofiel wordt gedefinieerd, gewijzigd in **Profiel-id** voor een betere gebruikerservaring. [Meer informatie](../building-journeys/testing-the-journey.md).
 * Voor reactiegebeurtenissen kan de time-outduur nu alleen worden ingesteld tussen 40 seconden en 30 dagen. Bij het testen van een reis die een reactiegebeurtenis gebruikt, zijn de standaard- en minimumwaarde van de testmodus **[!UICONTROL Wait time]** nu 40 seconden. [Meer informatie](../building-journeys/reaction-events.md).
 
-## Release {#february-2021-release} februari 2021
+## Release februari 2021 {#february-2021-release}
 
 <table>
 <thead>
@@ -91,7 +98,7 @@ De time-outduur van de gebeurtenis wordt nu duidelijker opgegeven in het time-ou
 
 De [getListItem](../functions/functiongetlistitem.md) en [split](../functions/functionsplit.md) functies zijn toegevoegd aan de lijst van functies beschikbaar in de geavanceerde uitdrukkingsredacteur. Dit zal meer mogelijkheden in uw koordberekeningen gebruiksgevallen aanbieden.
 
-## Release {#november-release} van november 2020
+## Release november 2020 {#november-release}
 
 <table>
 <thead>
@@ -153,7 +160,7 @@ Er zijn beperkingen toegevoegd bij het maken van nieuwe versies van een reis. De
 
 De **Segmentkwalificatie** activiteit kan niet meer worden gebruikt in een reis die Campaign Standard berichtactiviteiten omvat. Deze beperking beschermt de integriteit van Adobe Campaign Standard-instanties. Het gebruik van de Kwalificatie van het Segment kan zelfs tot dagelijkse pieken van bericht leiden die Campaign Standard Transactioneel Overseinen zou overbelasten. [Meer informatie](../about/limitations.md#segment-qualification)
 
-## Release {#october-release} oktober 2020
+## Release oktober 2020 {#october-release}
 
 <table>
 <thead>
@@ -176,7 +183,7 @@ De **Segmentkwalificatie** activiteit kan niet meer worden gebruikt in een reis 
 
 * Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie automatisch en schakelt naar de Gesloten status. [Meer informatie](../building-journeys/journey-versions.md)
 
-## Release {#september-release} september 2020
+## Release september 2020 {#september-release}
 
 ### GA-updates{#september-ga-update}
 
@@ -513,5 +520,5 @@ Met Journey Orchestration is real-timeorkestratie mogelijk aan de hand van conte
 
 Aanvullende bronnen:
 
-* [Tutorials](https://docs.adobe.com/content/help/nl-NL/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
+* [Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Community](https://www.adobe.com/go/journeyorchestrationcommunity)
