@@ -2,9 +2,9 @@
 product: adobe campaign
 title: Hefboomwerking van vermoeidheidsscores
 description: Leer hoe u vermoeidheidsscores tijdens reizen kunt gebruiken
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '248'
 ht-degree: 9%
 
 ---
@@ -16,7 +16,7 @@ Met deze gebruiksaanwijzing kunt u de vermoeidheidsscores benutten om te voorkom
 
 >[!NOTE]
 >
->De functie voor voorspellende vermoeidheidsscore is alleen beschikbaar voor klanten die de [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html) gebruiken.
+>De functie voor voorspellende vermoeidheidsscore is alleen beschikbaar voor klanten die de [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html) gebruiken.
 
 ## De gebeurtenis configureren {#section_ptb_ws1_ffb}
 
@@ -37,7 +37,7 @@ Voer de volgende stappen uit om de gebieden van de vermoeidheidsscore in de inge
 
 1. Klik op **[!UICONTROL Save]**.
 
-## De journey samenstellen {#section_uzm_pyy_wfb}
+## Journey samenstellen {#section_uzm_pyy_wfb}
 
 Als u de reis wilt maken, valideren en publiceren, voert u de stappen uit die worden beschreven in [deze pagina](../building-journeys/journey.md).
 
