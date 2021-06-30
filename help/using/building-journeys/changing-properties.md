@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 58891c1bddd8fb9b0ae247d54be5cf1d7c40b9a8
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '544'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 1%
 Klik op het potloodpictogram in de rechterbovenhoek om de eigenschappen van de rit te openen.
 
 U kunt de naam van de reis wijzigen, een beschrijving toevoegen, terugkeer toestaan, begin- en einddatum kiezen en een **[!UICONTROL Timeout and error]** duur definiëren als u beheerder bent.
+
+Voor live reizen worden in dit scherm de publicatiedatum en de naam weergegeven van de gebruiker die de reis heeft gepubliceerd.
+
+Met de **Technische details kopiëren** kunt u technische informatie kopiëren over de reis die het ondersteuningsteam kan gebruiken om problemen op te lossen. De volgende informatie wordt gekopieerd: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
 ![](../assets/journey32.png)
 
