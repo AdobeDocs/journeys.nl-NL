@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e09b49372f217a2e77504046ddf11e04a4c2b364
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 93%
+source-wordcount: '1015'
+ht-degree: 89%
 
 ---
 
@@ -55,7 +55,7 @@ U kunt het dialoogvenster **[!UICONTROL Filters]** openen door te klikken op het
 
 Gebruik in de lijsten **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]** de **[!UICONTROL Creation filters]** om te filteren op de datum waarop en de gebruiker door wie een element is gemaakt. U kunt bijvoorbeeld besluiten alleen gebeurtenissen weer te geven die u in de afgelopen 30 dagen hebt gemaakt.
 
-In de journeylijst (onder **[!UICONTROL Home]**) kunt u, naast **[!UICONTROL Creation filters]**, ook de weergegeven journey’s filteren op basis van hun status en versie (**[!UICONTROL Status and version filters]**). U kunt er ook voor kiezen om alleen de journey’s weer te geven die een bepaalde gebeurtenis, veldengroep of actie (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**) gebruiken. Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of gebruiker selecteren. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live journey’s weer te geven die gisteren zijn gepubliceerd. Zie [deze pagina](../building-journeys/using-the-journey-designer.md).
+In de reislijst (onder **[!UICONTROL Home]**), naast **[!UICONTROL Creation filters]**, kunt u de getoonde reizen ook filtreren volgens hun status, type en versie (**[!UICONTROL Status and version filters]**). Het type kan zijn: **[!UICONTROL Unitary event]** of **[!UICONTROL Segment qualification]**. U kunt er ook voor kiezen om alleen de journey’s weer te geven die een bepaalde gebeurtenis, veldengroep of actie (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**) gebruiken. Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of gebruiker selecteren. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live journey’s weer te geven die gisteren zijn gepubliceerd. Zie [deze pagina](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ In de verschillende lijsten kunt u standaardacties op elk element uitvoeren. U k
 
 Bij het definiëren van een [gebeurtenispayload](../event/defining-the-payload-fields.md), een [veldengroep-payload](../datasource/field-groups.md) en het selecteren van velden in de [expressie-editor](../expression/expressionadvanced.md) wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt opgehaald uit de schemadefinitie in het Gegevenservaringmodel.
 
-Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met eVars en generieke velden. U kunt beschrijvende namen configureren via een API-aanroep. Zie de [ontwikkelaarshandleiding voor schemaregistratie](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/api/getting-started.html) voor meer informatie.
+Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met eVars en generieke velden. U kunt beschrijvende namen configureren via een API-aanroep. Zie de [ontwikkelaarshandleiding voor schemaregistratie](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) voor meer informatie.
 
 ![](../assets/xdm-from-descriptors.png)
 
