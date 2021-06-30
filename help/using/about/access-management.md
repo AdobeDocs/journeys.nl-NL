@@ -6,16 +6,16 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 98%
+source-wordcount: '855'
+ht-degree: 95%
 
 ---
 
-# Toegangscontrole{#concept_rfj_wpt_52b}
+# Toegangsbeheer{#concept_rfj_wpt_52b}
 
-## Informatie over toegangscontrole {#about-access-management}
+## Informatie over toegangsbeheer {#about-access-management}
 
 Met [!DNL Journey Orchestration] kunt u een reeks toestemmingen aan uw gebruikers toewijzen om te definiëren tot welk deel van de interface ze toegang hebben.
 
@@ -24,7 +24,7 @@ Ze kunnen worden beheerd door beheerders met toegang tot de Admin Console. Raadp
 Voor toegang tot [!DNL Journey Orchestration]moet een gebruiker:
 
 * deel van een [!DNL Journey Orchestration]-**[!UICONTROL product profile]** zijn dat is gekoppeld aan [!DNL Journey Orchestration]-toestemmingen.
-* deel van een [!DNL Adobe Experience Platform]-**[!UICONTROL product profile]** zijn. Er is geen verplichte toestemming. De gebruiker heeft de **[!UICONTROL profile management]**-toestemming nodig om platformsegmenten te maken en te bewerken vanuit de [!DNL Journey Orchestration]-interface. Raadpleeg [deze pagina](https://docs.adobe.com/content/help/nl-NL/experience-platform/access-control/home.html#adobe-admin-console) voor meer informatie.
+* deel van een [!DNL Adobe Experience Platform]-**[!UICONTROL product profile]** zijn. Er is geen verplichte toestemming. De gebruiker heeft de **[!UICONTROL profile management]**-toestemming nodig om platformsegmenten te maken en te bewerken vanuit de [!DNL Journey Orchestration]-interface. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console) voor meer informatie.
 
 In de Admin Console kunt u een van de volgende meegeleverde productprofielen aan uw gebruikers toewijzen:
 
@@ -67,7 +67,7 @@ Hieronder ziet u de compatibiliteit tussen toestemmingen en de verschillende fun
 
 Met [!DNL Journey Orchestration] kunt u zelf productprofielen maken en een reeks toestemmingen en sandboxen aan uw gebruikers toewijzen. Met productprofielen kunt u toegang tot bepaalde functies of objecten in de interface toestaan of weigeren.
 
-Raadpleeg de [Adobe Experience Platform-documentatie](https://docs.adobe.com/content/help/nl-NL/experience-platform/sandbox/ui/user-guide.html) voor informatie over het maken en beheren van sandboxen.
+Raadpleeg de [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) voor informatie over het maken en beheren van sandboxen.
 
 Een productprofiel maken en een reeks toestemmingen en sandboxen toewijzen:
 
@@ -141,6 +141,6 @@ In [!DNL Journey Orchestration] kunt u uw instantie partitioneren in afzonderlij
 Sandboxen worden toegewezen via productprofielen in de Admin Console. Raadpleeg deze [sectie](../about/access-management.md#create-product-profile)voor meer informatie over het toewijzen van sandboxen.
 
 [!DNL Journey Orchestration] weerspiegelt de Adobe Experience Platform-sandboxen die voor een bepaalde organisatie zijn gemaakt.
-U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe Experience Platform-instantie. Raadpleeg de [gebruikershandleiding voor sandboxen](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) voor gedetailleerde informatie.
+U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe Experience Platform-instantie. Raadpleeg de [gebruikershandleiding voor sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) voor gedetailleerde informatie.
 
 U vindt de schakelfunctie voor sandboxen linksboven in het scherm. Als u van sandbox wilt wisselen, klikt u op de momenteel actieve sandbox in de schakelfunctie en selecteert u een andere sandbox in de vervolgkeuzelijst.
