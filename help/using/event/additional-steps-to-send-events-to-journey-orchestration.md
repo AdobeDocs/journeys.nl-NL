@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 7%
+source-wordcount: '320'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 Als u gebeurtenissen wilt configureren die naar **[!UICONTROL Streaming Ingestion APIs]** moeten worden verzonden en die in [!DNL Journey Orchestration] moeten worden gebruikt, moet u de volgende stappen uitvoeren:
 
-1. Haal de inlaatURL op van de Adobe Experience Platform API&#39;s (zie [Streaming Ingestie-API&#39;s](https://docs.adobe.com/content/help/nl-NL/experience-platform/ingestion/streaming/overview.html)).
+1. Haal de inlaatURL op van de Adobe Experience Platform API&#39;s (zie [Streaming Ingestie-API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)).
 1. Kopieer de lading van de nuttige ladingsvoorproef in **[!UICONTROL Event]** menu. Zie [deze pagina](../event/defining-the-payload-fields.md).
 
 Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Streaming Ingestie-API&#39;s stuurt met de door u gekopieerde payload:
@@ -91,4 +91,4 @@ Hier volgt een voorbeeld van een gebeurtenis Streaming ingestie-API&#39;s:
 
 Als u de locatie waar het &quot;data&quot;-deel moet worden geplakt gemakkelijker wilt kunnen identificeren, kunt u een JSON-visualisatieprogramma gebruiken, zoals [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-Raadpleeg deze [pagina](https://docs.adobe.com/content/help/nl-NL/experience-platform/ingestion/streaming/troubleshooting.html) voor informatie over het oplossen van problemen met de Streaming-API&#39;s.
+Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) voor informatie over het oplossen van problemen met de Streaming-API&#39;s.
