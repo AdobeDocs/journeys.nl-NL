@@ -6,10 +6,10 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 85%
+source-wordcount: '312'
+ht-degree: 83%
 
 ---
 
@@ -42,4 +42,4 @@ Als u Adobe Campaign v7 of v8 hebt, is een integratie op verzoek beschikbaar. Zi
 
 Als u berichten verzendt via een extern systeem zoals Epsilon, Facebook, Adobe.io, Firebase, enzovoort, moet u een aangepaste actie toevoegen en configureren. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
-Kijk voor meer informatie over het configureren van een actie voor [!DNL Journey Orchestration] en het gebruik ervan in een journey naar deze [videotutorial](https://docs.adobe.com/content/help/nl-NL/journey-orchestration-learn/tutorials/configure-actions.html).
+Kijk voor meer informatie over het configureren van een actie voor [!DNL Journey Orchestration] en het gebruik ervan in een journey naar deze [videotutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-actions.html).
