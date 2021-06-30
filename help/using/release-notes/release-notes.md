@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
+source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
 workflow-type: tm+mt
-source-wordcount: '2627'
+source-wordcount: '2625'
 ht-degree: 60%
 
 ---
@@ -40,7 +40,7 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 ### Verbeteringen
 
 * Voor externe gegevensbronnen, wordt een het maximum van 15 vraag per seconde nu automatisch bepaald. [Meer informatie](../about/external-systems.md#capping)
-* In de eenvoudige en geavanceerde uitdrukkingsredacteur, steunen wij nu het XDM datumformaat.
+* De eenvoudige en geavanceerde expressieeditors ondersteunen nu de XDM-datumindeling.
 * In het scherm van de reislijst, is een nieuw filter toegevoegd. U kunt nu filteren op het type transport: **[!UICONTROL Unitary event]** of **[!UICONTROL Segment qualification]**. [Meer informatie](../about/user-interface.md#section_lgm_hpz_pgb)
 * Voor live reizen worden in het scherm met de reiseigenschappen nu de publicatiedatum en de naam van de gebruiker weergegeven die de reis heeft gepubliceerd. Deze informatie is ook beschikbaar wanneer u de technische details van de reis kopieert. [Meer informatie](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
