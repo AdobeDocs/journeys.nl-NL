@@ -6,9 +6,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1665'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 * Wanneer u de testmodus uitschakelt, worden de reizen verwijderd van alle mensen die het in het verleden hebben betreden of die er momenteel in zitten. Ook wordt de rapportage gewist.
 * U kunt de testmodus zo vaak als nodig in- en uitschakelen.
 * U kunt uw reis niet wijzigen wanneer de testwijze wordt geactiveerd. In de testmodus kunt u de rit rechtstreeks publiceren. U hoeft de testmodus daarvoor niet te deactiveren.
+* Bij het bereiken van een splitsing wordt altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest.
 
 ## Een profiel omzetten in een testprofiel{#turning-profile-into-test}
 
@@ -69,7 +70,7 @@ De gemakkelijkste manier om dit te doen is door een **Update profiel** actiesact
 
 ## Een testprofiel maken{#create-test-profile}
 
-Als u een nieuw testprofiel wilt maken, gebeurt dit volgens dezelfde procedure als wanneer u een profiel maakt in de Adobe Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [pagina](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)
+Als u een nieuw testprofiel wilt maken, gebeurt dit volgens dezelfde procedure als wanneer u een profiel maakt in de Adobe Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 
 U moet een profielschema gebruiken dat de &quot;details van de profieltest&quot;mengen bevat. De markering testProfile maakt deel uit van deze mix.
 
@@ -155,7 +156,7 @@ Wanneer u een rit tijdens de test opent, komt het weergegeven pad overeen met de
 
 De visuele stroom werkt of de gebeurtenis via de interface of extern (bijvoorbeeld met Postman) wordt geactiveerd.
 
-## Testmodus voor regelreizen {#test-rule-based}
+## Testmodus voor op regels gebaseerde reizen {#test-rule-based}
 
 De testmodus is ook beschikbaar voor reizen die een op regels gebaseerde gebeurtenis gebruiken. Voor meer informatie over op regel-gebaseerde gebeurtenissen, verwijs naar [deze pagina](../event/about-events.md).
 
