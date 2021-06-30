@@ -6,14 +6,14 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 9%
 
 ---
 
-# Een journey maken {#concept_gq5_sqt_52b}
+# Journey maken {#concept_gq5_sqt_52b}
 
 Deze stap wordt uitgevoerd door **zakelijke gebruiker**. Hier maak je je reizen. Combineer de verschillende actie-, orkestratie- en gebeurtenisactiviteiten om uw kanaaloverschrijdende scenario’s met meerdere stappen te maken.
 
@@ -67,7 +67,7 @@ Een reis kan om de volgende redenen worden gesloten:
 * De reis wordt manueel gesloten via **[!UICONTROL Close to new entrances]** knoop.
 * De einddatum van de reis is bereikt.
 
-Wanneer een reis (om een van de bovenstaande redenen) wordt gesloten, heeft deze de status **[!UICONTROL Closed (no entrance)]**. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken. Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](../building-journeys/changing-properties.md#entrance).
+Wanneer een reis (om een van de bovenstaande redenen) wordt gesloten, heeft deze de status **[!UICONTROL Closed]**. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken. Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](../building-journeys/changing-properties.md#entrance).
 
 Als u de voortgang van alle mensen op de reis moet stoppen, kunt u deze stoppen. Als de reis wordt stopgezet, wordt een time-out voor alle personen op de reis vastgesteld.
 
