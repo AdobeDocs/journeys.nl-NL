@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '493'
 ht-degree: 2%
 
 ---
@@ -141,4 +141,4 @@ De volgende uitdrukking staat u toe om identiteitskaart van CRM in een gebied va
 
 Uitleg: In dit voorbeeld worden `substr`- en `lastIndexOf`-functies gebruikt om accolades te verwijderen die de CRM-id omsluiten die is doorgegeven met een startgebeurtenis voor een mobiele app.
 
-Voor meer op hoe te om de geavanceerde uitdrukkingsredacteur te gebruiken, bekijk [deze video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Voor meer op hoe te om de geavanceerde uitdrukkingsredacteur te gebruiken, bekijk [deze video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
