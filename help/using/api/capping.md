@@ -7,9 +7,9 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Tijdens een gegevensbronconfiguratie, zult u een verbinding aan een systeem bepalen om extra informatie terug te winnen die in uw reizen, of voor een actiedefinitie zal worden gebruikt, zult u verbinding van een derdesysteem vormen om berichten of API vraag te verzenden. Telkens wanneer een API vraag door Journey wordt uitgevoerd, wordt het maximum dat API wordt gevraagd, komt de vraag door de API motor. Als er een bepaalde grens is, wordt de vraag verworpen en het externe systeem zal niet worden overbelast.
 
-Meer over actie of datasource configuratie leren, zie [Ongeveer acties](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html) of [Ongeveer gegevensbronnen](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)
+Meer over actie of datasource configuratie leren, zie [Ongeveer acties](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) of [Ongeveer gegevensbronnen](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 
 ## Bronnen
@@ -173,7 +173,7 @@ Deze Postman-verzameling is ingesteld om de Postman-variabele-verzameling te del
 Nadat u het bestand hebt gedownload en geüpload naar Postman, moet u drie variabelen toevoegen: `{JO_HOST}`,`{Base_Path}` en `{SANDBOX_NAME}`.
 * `{JO_HOST}` :  [!DNL Journey Orchestration] Gateway-URL
 * `{BASE_PATH}` : ingangspunt voor de API. De waarde is &#39;/authoring&#39;
-* `{SANDBOX_NAME}` : de header  **x-sandbox-name**  (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de sandboxnaam waar de API-bewerkingen worden uitgevoerd. Zie het [overzicht van sandboxen](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) voor meer informatie.
+* `{SANDBOX_NAME}` : de header  **x-sandbox-name**  (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de sandboxnaam waar de API-bewerkingen worden uitgevoerd. Zie het [overzicht van sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) voor meer informatie.
 
 In de volgende sectie vindt u de lijst met gerangschikte aanroepen van de Rest-API om de use-case uit te voeren.
 
