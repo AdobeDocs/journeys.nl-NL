@@ -6,7 +6,7 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 2%
@@ -64,7 +64,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
 ## Een profiel omzetten in een testprofiel{#turning-profile-into-test}
 
-U kunt een bestaand profiel omzetten in een testprofiel. In het Platform van de Ervaring van Adobe, kunt u profielattributen via API vraag bijwerken, maar het kan niet via de interface worden uitgevoerd.
+U kunt een bestaand profiel omzetten in een testprofiel. In Adobe Experience Platform kunt u profielkenmerken bijwerken via API-aanroepen, maar deze kunnen niet via de interface worden uitgevoerd.
 
 De gemakkelijkste manier om dit te doen is door een **Update profiel** actiesactiviteit te gebruiken en het de booleaanse gebied van het testprofiel van vals in waar te veranderen. Zie [deze sectie](../building-journeys/update-profiles.md#using-the-test-mode).
 
