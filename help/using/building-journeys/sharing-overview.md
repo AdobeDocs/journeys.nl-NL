@@ -6,7 +6,7 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Deze functie wordt standaard geactiveerd bij alle gebeurtenissen voor stappen tijdens de reis. Voor trapsgewijze gebeurtenissen van het transportprofiel wordt de activering op verzoek uitgevoerd. De schema&#39;s en datasets die tijdens de levering voor deze eigenschap worden gecreeerd moeten niet worden veranderd.
+>Deze functie wordt standaard geactiveerd bij alle gebeurtenissen voor stappen tijdens de reis. Voor trapsgewijze gebeurtenissen voor het reisprofiel wordt de activering op verzoek uitgevoerd. De schema&#39;s en datasets die tijdens de levering voor deze eigenschap worden gecreeerd moeten niet worden veranderd.
 
 U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Met deze functie kunt u [!DNL Journey Orchestration]-gegevens combineren met gegevens over gebeurtenissen in de downstream, zoals hoeveel conversies er hebben plaatsgevonden, hoeveel betrokkenheid er op de website heeft plaatsgevonden of hoeveel transacties er in de winkel hebben plaatsgevonden. De reisinformatie kan worden gecombineerd met gegevens over de Adobe Experience Platform, hetzij uit andere digitale eigenschappen, hetzij uit offline eigenschappen, om een uitgebreider beeld van de prestaties te krijgen.
 
