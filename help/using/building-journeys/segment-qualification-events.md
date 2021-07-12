@@ -6,7 +6,7 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 1%
@@ -50,13 +50,13 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
    ![](../assets/segment-copy.png)
 
-1. Kies in het veld **[!UICONTROL Behaviour]** of u wilt luisteren naar segmentingangen, afsluit of beide.
+1. Kies in het veld **[!UICONTROL Behaviour]** of u wilt luisteren naar segmentingangen, uitgangen of beide.
 
    >[!NOTE]
    >
    >Merk op dat **[!UICONTROL Enter]** en **[!UICONTROL Exit]** beantwoorden aan de **Realized** en **Exited** de status van de segmentparticipatie van Adobe Experience Platform. Raadpleeg de [documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results) voor meer informatie over het evalueren van een segment.
 
-1. Selecteer een naamruimte. Dit is alleen nodig als het evenement als de eerste stap van de reis wordt geplaatst.
+1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst.
 
    ![](../assets/segment7.png)
 
