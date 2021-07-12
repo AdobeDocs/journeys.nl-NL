@@ -6,7 +6,7 @@ feature: Journeys
 role: Business Practitioner
 level: Intermediate
 exl-id: 06d26078-b9b8-4dc4-918d-0f2426d00f54
-source-git-commit: 58891c1bddd8fb9b0ae247d54be5cf1d7c40b9a8
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Wanneer een reis &quot;beëindigt&quot;, zal het de status **[!UICONTROL Closed 
 
 Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](#global_timeout).
 
-## Time-out en fout in reisactiviteiten {#timeout_and_error}
+## Tijdslimiet en fout bij reisactiviteiten {#timeout_and_error}
 
 Wanneer u een actie of voorwaardenactiviteit bewerkt, kunt u een alternatief pad definiëren in het geval van een fout of time-out. Als de verwerking van de activiteit die een derdesysteem ondervraagt de onderbrekingsduur overschrijdt die in de eigenschappen van de reis (**[!UICONTROL Timeout and  error]** gebied) wordt bepaald, zal de tweede weg worden gekozen om een potentiële reserveactie uit te voeren.
 
@@ -45,7 +45,7 @@ Wij adviseren dat u een zeer korte **[!UICONTROL Timeout and error]** waarde bep
 
 ## Globale time-out voor transport {#global_timeout}
 
-Naast de [timeout](#timeout_and_error) die in reisactiviteiten wordt gebruikt, is er ook een globale reisonderbreking die niet in de interface wordt getoond en niet kan worden veranderd. Deze onderbreking zal de vooruitgang van individuen in de reis 30 dagen na hun binnengaan stoppen. Dit betekent dat de reis van een individu niet langer mag duren dan 30 dagen. Na de periode van 30 dagen worden de gegevens van het individu verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en als fouten in de rapportage worden ze in aanmerking genomen.
+Naast de [timeout](#timeout_and_error) die wordt gebruikt in reisactiviteiten, is er ook een globale reisonderbreking die niet in de interface wordt getoond en niet kan worden veranderd. Deze onderbreking zal de vooruitgang van individuen in de reis 30 dagen na hun binnengaan stoppen. Dit betekent dat de reis van een individu niet langer mag duren dan 30 dagen. Na de periode van 30 dagen worden de gegevens van het individu verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en als fouten in de rapportage worden ze in aanmerking genomen.
 
 >[!NOTE]
 >
