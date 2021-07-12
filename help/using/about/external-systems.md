@@ -7,9 +7,9 @@ feature: Journeys
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 5346c3a25900b1e167ea5b199e1873adab39d07d
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1012'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Laten we een voorbeeld nemen voor een time-out van 5 seconden.
 * De eerste vraag duurt langer 5 seconden: de oproep wordt geannuleerd en er wordt niet opnieuw geprobeerd. Het wordt geteld als een time-outfout in de rapportage.
 * De eerste vraag ontbreekt na 2 seconden (het externe systeem keert een fout terug): 3 seconden over voor nieuwe pogingen, als er afsluitende sleuven beschikbaar zijn.
    * Als één van de drie pogingen succesvol vóór het eind van 5 seconden is, wordt de vraag uitgevoerd, en er is geen fout.
-   * Als het einde van de time-outduur tijdens de nieuwe pogingen wordt bereikt, wordt de aanroep geannuleerd en geteld als een time-outfout in de rapportage.
+   * Als het einde van de time-outduur tijdens de pogingen wordt bereikt, wordt de aanroep geannuleerd en geteld als een time-outfout in de rapportage.
 
 ## Veelgestelde vragen{#faq}
 
@@ -74,7 +74,7 @@ Laten we een voorbeeld nemen voor een time-out van 5 seconden.
 
 Standaard is er geen uitlijningsregel. De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL), gebruikend Capping API. Zie [deze sectie](../about/external-systems.md#capping) en [deze pagina](../api/capping.md).
 
-**Hoeveel pogingen worden uitgevoerd? Kan ik het aantal pogingen veranderen of een minimale wachttijd tussen pogingen bepalen?**
+**Hoeveel pogingen worden uitgevoerd? Kan ik het aantal pogingen veranderen of een minimumwachttijd tussen pogingen bepalen?**
 
 Voor een bepaalde vraag, kan een maximum van drie pogingen na de eerste vraag worden uitgevoerd, tot het eind van onderbrekingsduur wordt bereikt. Het aantal pogingen en de tijd tussen elke keer opnieuw proberen kunnen niet worden gewijzigd. Zie [deze sectie](../about/external-systems.md#timeout).
 
