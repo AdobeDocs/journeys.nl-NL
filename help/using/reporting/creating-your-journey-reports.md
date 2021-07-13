@@ -3,10 +3,10 @@ product: adobe campaign
 title: Journeyrapporten maken
 description: Leer hoe u reisrapporten kunt maken
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 2%
@@ -57,7 +57,7 @@ U kunt als volgt de reisrapporten openen en het succes van uw leveringen volgen:
 
 ## Deelvensters toevoegen{#adding-panels}
 
-### Een leeg venster toevoegen {#adding-a-blank-panel}
+### Een leeg deelvenster toevoegen {#adding-a-blank-panel}
 
 Om uw rapport te beginnen, kunt u een reeks panelen aan een uit-van-de-doos of douanerapport toevoegen. Elk deelvenster bevat verschillende gegevenssets en bestaat uit vrije-vormtabellen en visualisaties.
 
@@ -73,7 +73,7 @@ In dit deelvenster kunt u uw rapporten naar wens samenstellen. U kunt zoveel dee
 
 U kunt nu een vrije-vormlijst aan uw paneel toevoegen beginnen richtend gegevens.
 
-### Een vrije-vormlijst {#adding-a-freeform-table} toevoegen
+### Een vrije-vormtabel toevoegen {#adding-a-freeform-table}
 
 Met tabellen met vrije vorm kunt u een tabel maken om uw gegevens te analyseren aan de hand van de verschillende waarden en afmetingen die beschikbaar zijn in de tabel **[!UICONTROL Component]**.
 
