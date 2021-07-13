@@ -4,13 +4,13 @@ solution: Journey Orchestration
 title: Handelingen voor Adobe Campaign v7/v8 gebruiken
 description: Meer informatie over Adobe Campaign v7/v8-acties
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: b2439788ef547b401dea64faf46d4398b9a1a0c7
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Integratie is beschikbaar als u Adobe Campaign v7 of v8 hebt. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
 
-De verbinding tussen de instanties van de Journey Orchestration en van de Campagne is opstelling door Adobe bij leveringstijd. Contact opnemen met Adobe.
+De verbinding tussen de instanties van Journey Orchestration en Campaign wordt door Adobe ingesteld tijdens de inrichting. Contact opnemen met Adobe.
 
 Om dit te werken, moet u een specifieke actie vormen. Zie deze [sectie](../action/acc-action.md).
 
