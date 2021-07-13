@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: De journey samenstellen
+title: Journey samenstellen
 description: Leer hoe u de eenvoudige gebruiksrechtovereenkomst maakt
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 34%
+ht-degree: 36%
 
 ---
 
-# De journey samenstellen{#concept_eyw_mcy_w2b}
+# Journey samenstellen{#concept_eyw_mcy_w2b}
 
 De **bedrijfsgebruiker** kan nu de journey bouwen. Onze reis zal slechts één weg met de volgende activiteiten omvatten:
 
@@ -52,7 +52,7 @@ Raadpleeg [deze pagina](../building-journeys/journey.md) voor meer informatie ov
 
    ![](../assets/journeyuc1_12.png)
 
-1. Zet een **[!UICONTROL Email]** activiteit neer en selecteer uw transactiesjabloon van de &quot;korting van de Slag&quot;transactie overseinen. Deze sjabloon is ontworpen met Adobe Campaign. Zie deze [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
+1. Zet een **[!UICONTROL Email]** activiteit neer en selecteer uw transactiesjabloon van de &quot;korting van de Slag&quot;transactie overseinen. Deze sjabloon is ontworpen met Adobe Campaign. Zie deze [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl).
 
    ![](../assets/journeyuc1_13.png)
 
