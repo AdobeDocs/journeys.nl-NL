@@ -3,10 +3,10 @@ product: adobe campaign
 title: De gebeurtenis configureren
 description: Leer hoe u de gebeurtenis configureert voor het eenvoudige gebruiksgeval van de reis
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
