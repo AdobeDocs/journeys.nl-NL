@@ -5,10 +5,10 @@ title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 feature: Journeys
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
+source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '422'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 + [Productdocumentatie](journey-orchestration-home.md)
 + Nieuwe functies {#release-notes}
-   + [Aanvullende informatie](using/release-notes/release-notes.md)
+   + [Release-opmerkingen](using/release-notes/release-notes.md)
    + [Documentatie-updates](using/release-notes/documentation-updates.md)
 + Beginnen met [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Over [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
@@ -53,8 +53,8 @@ ht-degree: 100%
       + [Aangepaste acties configureren](using/action/about-custom-action-configuration.md)
       + [URL-configuratie](using/action/url-configuration.md)
       + [Berichtparameters definiëren](using/action/defining-the-message-parameters.md)
-+ Platformsegmenten gebruiken {#configuring-segment}
-   + [Platformsegmenten](using/segment/about-segments.md)
++ Segmenten {#configuring-segment} gebruiken
+   + [Segmenten](using/segment/about-segments.md)
    + [Segment maken](using/segment/creating-a-segment.md)
    + [Segmenten gebruiken in voorwaarden](using/segment/using-a-segment.md)
 + Een journey samenstellen{#building-journeys}
@@ -178,7 +178,7 @@ ht-degree: 100%
 + Rapporten samenstellen{#journey-reports}
    + [Journeyrapporten](using/reporting/about-journey-reports.md)
    + [Journeyrapporten maken](using/reporting/creating-your-journey-reports.md)
-   + [Cijfers en dimensies](using/reporting/metrics-and-dimensions.md)
+   + [Overzicht van cijfers en dimensies](using/reporting/metrics-and-dimensions.md)
 + Integratie met Intelligent Services{#use-case-advanced}
    + [AI-integratie](using/ai-services/ai-services-overview.md)
    + [Klant-AI gebruiken](using/ai-services/leveraging-customer-ai.md)
