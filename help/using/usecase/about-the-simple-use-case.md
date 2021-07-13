@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Informatie over eenvoudige gebruiksscenario's
+title: Eenvoudige gebruiksscenario's
 description: Meer informatie over de reis, eenvoudig gebruik
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
-# Informatie over eenvoudige gebruiksscenario&#39;s{#concept_grh_vby_w2b}
+# Eenvoudige gebruiksscenario&#39;s{#concept_grh_vby_w2b}
 
 ## Doel {#purpose}
 
@@ -27,7 +27,7 @@ We willen alleen een bericht sturen als de persoon een vrouw is. Het bericht moe
 
 ## Voorwaarden {#prerequisites}
 
-Voor ons gebruik hebben we één e-mailsjabloon voor berichten voor transacties in Adobe Campaign Standard ontworpen. We gebruiken een berichtensjabloon voor een gebeurtenistransactie. Zie deze [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
+Voor ons gebruik hebben we één e-mailsjabloon voor berichten voor transacties in Adobe Campaign Standard ontworpen. We gebruiken een berichtensjabloon voor een gebeurtenistransactie. Zie deze [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl).
 
 Adobe Campaign Standard is geconfigureerd om e-mailberichten te verzenden.
 
