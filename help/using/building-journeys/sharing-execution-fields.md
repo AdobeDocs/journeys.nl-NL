@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: journeyStep-gebeurtenissen - velden voor het uitvoeren van acties
-description: journeyStep-gebeurtenissen - velden voor het uitvoeren van acties
+title: Velden voor het uitvoeren van acties van journeyStep-gebeurtenissen
+description: Velden voor het uitvoeren van acties van journeyStep-gebeurtenissen
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# journeyStep-gebeurtenissen - velden voor het uitvoeren van acties {#sharing-execution-fields}
+# Velden voor het uitvoeren van acties van journeyStep-gebeurtenissen {#sharing-execution-fields}
 
 Deze mixin wordt gedeeld door de tripStepEvent en tripStepProfileEvent.
 
@@ -59,7 +59,7 @@ Waarden:
 * http
 * begrenzen
 * timeout
-* fout
+* error
 
 ## actionExecutionErrorCode
 
