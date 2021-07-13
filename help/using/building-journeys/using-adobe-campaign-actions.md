@@ -3,13 +3,13 @@ product: adobe campaign
 title: Adobe Campaign-acties gebruiken
 description: Meer informatie over Adobe Campaign-acties
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Als u Adobe Campaign Standard hebt, zijn de volgende buiten-de-box actieactivite
 >
 >Hiervoor moet u de ingebouwde actie configureren. Zie [deze pagina](../action/working-with-adobe-campaign.md).
 
-Voor elk van deze kanalen selecteert u een Adobe Campaign Standard Transaction Messaging **template**. [!DNL Journey Orchestration] is geen boodschap die oplossing verzendt. Voor de ingebouwde e-mail, sms en duw kanalen, vertrouwen wij op Transactieoverseinen om bericht uit te voeren die verzenden. Het betekent dat als u een bepaald berichtmalplaatje in uw reizen wilt gebruiken, u het in Adobe Campaign Standard moet publiceren. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html) voor meer informatie over het gebruik van deze functie.
+Voor elk van deze kanalen selecteert u een Adobe Campaign Standard Transaction Messaging **template**. [!DNL Journey Orchestration] is geen boodschap die oplossing verzendt. Voor de ingebouwde e-mail, sms en duw kanalen, vertrouwen wij op Transactieoverseinen om bericht uit te voeren die verzenden. Het betekent dat als u een bepaald berichtmalplaatje in uw reizen wilt gebruiken, u het in Adobe Campaign Standard moet publiceren. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl) voor meer informatie over het gebruik van deze functie.
 
 >[!NOTE]
 >
