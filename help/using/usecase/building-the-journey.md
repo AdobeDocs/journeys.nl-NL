@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: De journey samenstellen
+title: Journey samenstellen
 description: 'Leren hoe u de geavanceerde gebruiksscenariojourney maakt '
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 92%
 
 ---
 
-# De journey samenstellen {#concept_owm_kdy_w2b}
+# Journey samenstellen {#concept_owm_kdy_w2b}
 
 De **bedrijfsgebruiker** kan nu de journey bouwen. Onze journey bevat de volgende activiteiten:
 
