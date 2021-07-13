@@ -3,10 +3,10 @@ product: adobe campaign
 title: Journeyrapporten
 description: Leer hoe u uw reisrapporten kunt maken
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 1%
