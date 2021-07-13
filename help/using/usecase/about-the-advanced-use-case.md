@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Informatie over geavanceerde gebruiksscenario's
+title: Geavanceerde gebruiksscenario's
 description: 'Meer informatie over de reis: geavanceerde gebruiksscenario'
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Informatie over geavanceerde gebruiksscenario&#39;s{#concept_vzy_ncy_w2b}
+# Geavanceerde gebruiksscenario&#39;s{#concept_vzy_ncy_w2b}
 
 ## Doel {#purpose}
 
@@ -48,7 +48,7 @@ We moeten een verbinding met twee gegevensbronnen configureren (zie [deze pagina
 
 ## Voorwaarden {#prerequisites}
 
-Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Zie deze [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
+Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Zie deze [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl).
 
 Adobe Campaign Standard is geconfigureerd voor het verzenden van e-mails en pushberichten.
 
