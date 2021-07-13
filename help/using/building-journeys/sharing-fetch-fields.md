@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: journeyStep-gebeurtenissen - velden voor het ophalen van data
-description: journeyStep-gebeurtenissen - velden voor het ophalen van data
+title: Velden voor het ophalen van gegevens van journeyStep-gebeurtenissen
+description: Velden voor het ophalen van gegevens van journeyStep-gebeurtenissen
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 4%
 
 ---
 
-# journeyStep-gebeurtenissen - velden voor het ophalen van data {#sharing-fetch-fields}
+# Velden voor het ophalen van gegevens van journeyStep-gebeurtenissen {#sharing-fetch-fields}
 
 Deze mixin wordt gedeeld door de tripStepEvent en tripStepProfileEvent.
 
@@ -45,7 +45,7 @@ Waarden:
 * http
 * begrenzen
 * timedout
-* fout
+* error
 
 ## fetchErrorCode
 
