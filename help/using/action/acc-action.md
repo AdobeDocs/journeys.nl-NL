@@ -3,13 +3,13 @@ product: adobe campaign
 title: Over de integratie van Campagne v7/v8
 description: Meer informatie over de integratie van Campagne v7/v8
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Deze integratie is beschikbaar voor Adobe Campaign Classic v7 vanaf versie 21.1 en Adobe Campaign v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
 
-De verbinding tussen de instanties van de Journey Orchestration en van de Campagne is opstelling door Adobe bij leveringstijd.
+De verbinding tussen de instanties van Journey Orchestration en Campaign wordt door Adobe ingesteld tijdens de inrichting.
 
 In deze [sectie](../usecase/campaign-classic-use-case.md) wordt een gebruiksgeval van begin tot eind weergegeven.
 
