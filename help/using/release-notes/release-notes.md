@@ -3,17 +3,17 @@ product: adobe campaign
 title: Release-opmerkingen
 description: Meer informatie over opmerkingen bij de release
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '2625'
 ht-degree: 60%
 
 ---
 
-# Aanvullende informatie {#release-notes}
+# Release-opmerkingen {#release-notes}
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-updates.md) raadplegen.
@@ -44,13 +44,13 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 * In het scherm van de reislijst, is een nieuw filter toegevoegd. U kunt nu filteren op het type transport: **[!UICONTROL Unitary event]** of **[!UICONTROL Segment qualification]**. [Meer informatie](../about/user-interface.md#section_lgm_hpz_pgb)
 * Voor live reizen worden in het scherm met de reiseigenschappen nu de publicatiedatum en de naam van de gebruiker weergegeven die de reis heeft gepubliceerd. Deze informatie is ook beschikbaar wanneer u de technische details van de reis kopieert. [Meer informatie](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
-## Release april 2021 {#april-2021-release}
+## Release van april 2021 {#april-2021-release}
 
 ### Verbeteringen
 
 * In het **scherm van de gebeurtenisconfiguratie** van de testwijze, wordt een dropdown nu getoond voor gebieden die een opsomming verwachten. Selecteer gewoon een van de beschikbare waarden. Hierdoor worden fouten voorkomen bij het activeren van de gebeurtenis als een onjuiste waarde is gedefinieerd. [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
 
-## Release maart 2021 {#march-2021-release}
+## Release van maart 2021 {#march-2021-release}
 
 ### Verbeteringen
 
@@ -59,7 +59,7 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 * In de testmodus is in het scherm **Gebeurtenisconfiguratie** de naam van het veld **Sleutel** waarmee de id van het testprofiel wordt gedefinieerd, gewijzigd in **Profiel-id** voor een betere gebruikerservaring. [Meer informatie](../building-journeys/testing-the-journey.md).
 * Voor reactiegebeurtenissen kan de time-outduur nu alleen worden ingesteld tussen 40 seconden en 30 dagen. Bij het testen van een reis die een reactiegebeurtenis gebruikt, zijn de standaard- en minimumwaarde van de testmodus **[!UICONTROL Wait time]** nu 40 seconden. [Meer informatie](../building-journeys/reaction-events.md).
 
-## Release februari 2021 {#february-2021-release}
+## Release van februari 2021 {#february-2021-release}
 
 <table>
 <thead>
@@ -500,7 +500,7 @@ De Journey Orchestration-interface is beschikbaar in het Japans.
 
 * Naast de VS is Journey Orchestration nu ook verkrijgbaar in **EMEA**. De applicatie en documentatie zijn in het Frans en Duits beschikbaar.
 
-* Experience League is nu geïntegreerd in het product. Dit vereenvoudigt de toegang tot verwante content en helpt u Experience Cloud optimaal te benutten. Onderaan het tabblad Help hebt u rechtstreeks toegang tot de Journey Orchestration-documentatie. U kunt bovendien op Help > Feedback klikken om problemen te melden of uw ideeën te delen met Adobe.
+* Experience League is nu geïntegreerd in het product. Dit vereenvoudigt de toegang tot verwante content en helpt u Experience Cloud optimaal te benutten. Onderaan het tabblad Help hebt u rechtstreeks toegang tot de Journey Orchestration-documentatie. Klik daarnaast op Help > Feedback om problemen te melden of uw ideeën te delen met Adobe.
 
 * De sneltoets **C**, waarmee u een nieuw item kunt maken, is nu beschikbaar in alle lijstschermen: journey’s, databronnen, acties en gebeurtenissen. [Meer informatie](../about/user-interface.md#section_ksq_zr1_ffb)
 
