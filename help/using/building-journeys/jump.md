@@ -3,10 +3,10 @@ product: adobe campaign
 title: Van de ene journey naar de andere gaan
 description: Van de ene journey naar de andere gaan
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 3%
@@ -61,7 +61,7 @@ In reis B wordt het eerste evenement intern geactiveerd via de **[!UICONTROL Jum
 * De doelreis kan ook zoveel **[!UICONTROL Jump]** activiteiten omvatten als nodig.
 * Luspatronen worden niet ondersteund. Er is geen manier om twee of meer reizen aan elkaar te koppelen, wat een oneindige lus zou creëren. Het **[!UICONTROL Jump]** scherm van de activiteitenconfiguratie verhindert u dit te doen.
 
-### Execution
+### Uitvoering
 
 * Wanneer de **[!UICONTROL Jump]** activiteit wordt uitgevoerd, wordt de recentste versie van de doelreis teweeggebracht.
 * Zoals gebruikelijk kan een uniek individu slechts eenmaal op dezelfde reis aanwezig zijn. Als het individu dat van de oorspronkelijke reis werd geduwd al op de doelreis zit, zal het individu dus niet de doelreis betreden. Er wordt geen fout gerapporteerd bij de activiteit **[!UICONTROL Jump]** omdat dit een normaal gedrag is.
