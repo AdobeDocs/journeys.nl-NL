@@ -1,12 +1,12 @@
 ---
 product: adobe campaign
-title: Toegangscontrole
+title: Toegangsbeheer
 description: Meer informatie over toegangscontrole
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 95%
