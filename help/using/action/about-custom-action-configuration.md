@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Informatie over het configureren van aangepaste acties
+title: Aangepaste acties configureren
 description: Leer hoe u een aangepaste handeling configureert
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 15%
 
 ---
 
-# Informatie over het configureren van aangepaste acties {#concept_sxy_bzs_dgb}
+# Aangepaste acties configureren {#concept_sxy_bzs_dgb}
 
 Als u een derdesysteem gebruikt om berichten te verzenden of als u [!DNL Journey Orchestration] API vraag naar een derdesysteem wilt verzenden, is dit waar u zijn verbinding aan [!DNL Journey Orchestration] vormt. De aangepaste actie die door technische gebruikers is gedefinieerd, is dan beschikbaar in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** (zie [deze pagina](../building-journeys/about-action-activities.md). Hier volgen enkele voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste handelingen: Epsilon, Facebook, Adobe.io, Firebase, enz.
 Beperkingen worden vermeld in [deze pagina](../about/limitations.md).
