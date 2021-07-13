@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Cijfers en dimensies
+title: Overzicht van cijfers en dimensies
 description: Meer informatie over de beschikbare afmetingen en meetgegevens voor Journey Orchestration
 feature: Journeys
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 1%
 
 ---
 
-# Cijfers en dimensies {#concept_rfj_wpt_52b}
+# Overzicht van cijfers en dimensies {#concept_rfj_wpt_52b}
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Raadpleeg [deze pagina](../assets/do-not-localize/dynamic_report_compatibility_j
 
 In de onderstaande tabel staan de afmetingen die worden gebruikt in reisrapporten, de definities en de formules van de reisverslagen.
 
-| Dimension | Definitie |
+| Dimensies | Definitie |
 |--- |--- |
 | **Actie** | Lijst met alle handelingen (**naam van de handeling - actielabel**) die worden gebruikt tijdens reizen, bijvoorbeeld push - Check out confirm, Email - Rewards fidelity. |
 | **Gegevensbron** | Lijst met gegevensbronnen (**naam gegevensbron**) die worden gebruikt om gegevens te verrijken in een reis, bijvoorbeeld Adobe Experience Platform, reserveringssysteem. |
@@ -94,7 +94,7 @@ verslagen, hun definities en formules.
 | **Stuiteren + foutenfrequentie** | Het totale aantal berichten dat is teruggevallen in vergelijking met verzonden berichten. |
 | **Klik op** | Het aantal keren dat op een inhoud is geklikt in een levering. |
 | **Klikken tot snelheid** | Het totale aantal klikken in een levering in verhouding tot het aantal geleverde berichten. |
-| **Geleverd** | Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten. |
+| **Afgeleverd** | Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten. |
 | **Afgeleverde rente** | Het totale aantal berichten dat is afgeleverd in vergelijking met verzonden berichten. |
 | **Fout** | Het totale aantal fouten dat tijdens een reis is opgetreden, maar dat de reis niet heeft verhinderd succesvol te zijn. |
 | **Hard stuiteren** | Het totale aantal permanente fouten, zoals een onjuist e-mailadres. |
