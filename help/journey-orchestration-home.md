@@ -10,7 +10,7 @@ exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -70,10 +70,10 @@ Meer informatie over Journey Orchestration.
 
 * [Journey Orchestration-productpagina](https://www.adobe.com/nl/experience-platform/journey-orchestration.html)
 * [Experience Platform-documentatie](https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html)
-* [Documentatie bij real-timeklantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
-* [Experience Cloud XDM-velddefinitie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
-* [Documentatie bij identiteitsnaamruimte](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html)
-* [Streamingopname-API’s](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)
+* [Documentatie bij real-timeklantprofiel](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl)
+* [Experience Cloud XDM-velddefinitie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl)
+* [Documentatie bij identiteitsnaamruimte](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl)
+* [Streamingopname-API’s](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl)
 * [Documentatie bij transactionele berichten in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl)
 
 ## Technische zelfstudies
