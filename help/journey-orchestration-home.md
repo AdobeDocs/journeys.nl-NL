@@ -23,11 +23,14 @@ ht-degree: 100%
 * **[Wat is Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>
 Meer informatie over Journey Orchestration.
 
-* **[Uw eerste journey samenstellen](using/about/get-started.md)**<br/>Ontdek de belangrijkste stappen voor het instellen van Journey Orchestration en voor het samenstellen van uw eerste journey.
+* **[Uw eerste journey samenstellen](using/about/get-started.md)**<br/>
+Ontdek de belangrijkste stappen voor het instellen van Journey Orchestration en voor het samenstellen van uw eerste journey.
 
-* **[Gebeurtenis configureren](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>Leer hoe u gebeurtenissen kunt configureren waar uw journey’s naar zullen luisteren.
+* **[Gebeurtenis configureren](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>
+Leer hoe u gebeurtenissen kunt configureren waar uw journey’s naar zullen luisteren.
 
-* **[Nieuwe functies ontdekken](using/release-notes/release-notes.md)**<br/>Meer informatie over de nieuwste releases.
+* **[Nieuwe functies ontdekken](using/release-notes/release-notes.md)**<br/>
+Meer informatie over de nieuwste releases.
 
 ## Meest bezochte pagina’s
 
