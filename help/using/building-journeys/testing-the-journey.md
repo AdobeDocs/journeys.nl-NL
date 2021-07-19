@@ -70,7 +70,7 @@ De gemakkelijkste manier om dit te doen is door een **Update profiel** actiesact
 
 ## Een testprofiel maken{#create-test-profile}
 
-Als u een nieuw testprofiel wilt maken, gebeurt dit volgens dezelfde procedure als wanneer u een profiel maakt in de Adobe Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+Als u een nieuw testprofiel wilt maken, gebeurt dit volgens dezelfde procedure als wanneer u een profiel maakt in de Adobe Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [pagina](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl)
 
 U moet een profielschema gebruiken dat de &quot;details van de profieltest&quot;mengen bevat. De markering testProfile maakt deel uit van deze mix.
 
