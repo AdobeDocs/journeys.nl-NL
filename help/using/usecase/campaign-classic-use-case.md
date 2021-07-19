@@ -1,17 +1,17 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Een bericht verzenden met Campagne v7/v8
-description: Een bericht verzenden met Campagne v7/v8
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
+title: Een bericht verzenden met Campaign v7/v8
+description: Een bericht verzenden met Campaign v7/v8
+exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
+source-git-commit: 3e78e429bbdfc95bfef74e0f2e2b92f8ff17cfdb
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-
-# Een bericht verzenden met Campagne v7/v8 {#campaign-classic-use-case}
+# Een bericht verzenden met Campaign v7/v8 {#campaign-classic-use-case}
 
 In dit geval worden alle stappen beschreven die nodig zijn om een e-mail te verzenden via de integratie met Adobe Campaign Classic v7 en Adobe Campaign v8.
 
