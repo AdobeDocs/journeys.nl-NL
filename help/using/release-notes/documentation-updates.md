@@ -9,7 +9,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 
 * Er is informatie toegevoegd over het sorteren en kiezen van de kolommen die in de lijst met segmenten moeten worden weergegeven. [Meer informatie](../building-journeys/segment-qualification-events.md)
 * Er is informatie toegevoegd over de manier waarop de naam en ID van een segment moeten worden gekopieerd nadat het segment is geselecteerd. [Meer informatie](../building-journeys/segment-qualification-events.md)
-* Het voorkomen van Experience Platform is geharmoniseerd op de verschillende pagina&#39;s.
+* De exemplaren van Experience Platform zijn op de verschillende pagina’s geharmoniseerd.
 
 ## Juli 2020 {#july-2020}
 
 * Er is een koppeling toegevoegd naar een nieuwe zelfstudievideo over stapgebeurtenisrapportage aan Adobe Experience Platform. [Meer informatie](../building-journeys/sharing-overview.md)
 * De sectie voor gebeurtenisactiviteiten is gereorganiseerd in specifieke subsecties voor elk type gebeurtenissen. [Meer informatie](../building-journeys/event-activities.md)
-* Toegevoegde beste praktijken om overbelasting met segmentkwalificatie te vermijden. [Meer informatie](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* Er zijn best practices toegevoegd om overbelasting met segmentkwalificatie te vermijden. [Meer informatie](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Er is een notitie toegevoegd om uit te leggen hoe een journey moet worden voortgezet na een fout in een actie of een voorwaarde. [Meer informatie](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Er is een nieuwe sectie toegevoegd over de Alfa-functies die onder een beperkte groep klanten worden getest.
 * Er is een nieuwe sectie toegevoegd over de integratie met Intelligent Services. [Meer informatie](../ai-services/ai-services-overview.md)
@@ -67,13 +67,13 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 ## April 2020 {#april-2020}
 
 * Er is een nieuwe sectie toegevoegd over de definitie van het ervaringsgebeurtenisschema om gebruikers te helpen bij de configuratie van hun eerste gebeurtenis. [Meer informatie](../event/experience-event-schema.md)
-* De homepage voor [!DNL Journey Orchestration] documentatie is bijgewerkt met extra nuttige verbindingen. [Meer informatie](../../journey-orchestration-home.md)
+* De startpagina voor [!DNL Journey Orchestration]-documentatie is bijgewerkt met aanvullende, handige koppelingen. [Meer informatie](../../journey-orchestration-home.md)
 
 ## Maart 2020 {#march-2020}
 
 * Er zijn parameterbeschrijvingen toegevoegd voor _actionExecutionErrors_ en _fetchErrors_ in de sectie voor testlogboeken. [Meer informatie](../building-journeys/testing-the-journey.md#viewing_logs)
 * De beperkingen voor aangepaste acties die tijdens een journey worden gebruikt, zijn bijgewerkt. U kunt ook het veld **[!UICONTROL URL]** en de parameters **[!UICONTROL Authentication]** wijzigen. [Meer informatie](../action/about-custom-action-configuration.md)
-* Er zijn nieuwe contextafhankelijke Help-items toegevoegd. Het deelvenster voor aangepaste payloadverificatie (bij acties en databronnen) bevat nu een Help-pictogram dat naar deze [sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb) verwijst.
+* Er zijn nieuwe contextuele help-items toegevoegd. Het deelvenster voor aangepaste payloadverificatie (bij acties en databronnen) bevat nu een Help-pictogram dat naar deze [sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb) verwijst.
 * Gesloten journey’s kunnen nu worden gestopt. [Meer informatie](../building-journeys/using-the-journey-designer.md)
 * De sectie met de interfacebeschrijving heeft een nieuwe lay-out. [Meer informatie](../about/user-interface.md)
 * Het activeren van meerdere gebeurtenissen is toegevoegd aan de sectie over de testmodus [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
@@ -91,11 +91,11 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 
 ## Januari 2020 {#january-2020}
 
-* Er zijn beperkingen toegevoegd voor het ophalen van [ervaringsgebeurtenissen](../datasource/adobe-experience-platform-data-source.md) en [segmenten](../functions/functioninsegment.md).
+* Er zijn ophaalbeperkingen toegevoegd voor [ervaringsgebeurtenissen](../datasource/adobe-experience-platform-data-source.md) en [segmenten](../functions/functioninsegment.md).
 
 <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
-## december 2019 {#december-2019}
+## December 2019 {#december-2019}
 
 * Alle screenshots zijn bijgewerkt met interfacewijzigingen.
 * De sectie over de testmodus is bijgewerkt. [Meer informatie](../building-journeys/testing-the-journey.md)
