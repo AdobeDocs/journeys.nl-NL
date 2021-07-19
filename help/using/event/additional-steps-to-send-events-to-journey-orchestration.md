@@ -9,7 +9,7 @@ exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Als u gebeurtenissen wilt configureren die naar **[!UICONTROL Streaming Ingestion APIs]** moeten worden verzonden en die in [!DNL Journey Orchestration] moeten worden gebruikt, moet u de volgende stappen uitvoeren:
 
-1. Haal de inlaatURL op van de Adobe Experience Platform API&#39;s (zie [Streaming Ingestie-API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)).
+1. Haal de inlaatURL op van de Adobe Experience Platform API&#39;s (zie [Streaming Ingestie-API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl)).
 1. Kopieer de lading van de nuttige ladingsvoorproef in **[!UICONTROL Event]** menu. Zie [deze pagina](../event/defining-the-payload-fields.md).
 
 Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Streaming Ingestie-API&#39;s stuurt met de door u gekopieerde payload:
