@@ -9,7 +9,7 @@ exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -63,8 +63,8 @@ Hier volgt een lijst met ondersteunde functies.
 | Lijst | [listSize](../functions/functionlistsize.md) |
 | Lijst | [serializeList](../functions/functionserializelist.md) |
 | Lijst | [sort](../functions/functionsort.md) |
-| Wiskundig | [random](../functions/functionrandom.md) |
-| Wiskundig | [round](../functions/functionround.md) |
+| Wiskunde | [random](../functions/functionrandom.md) |
+| Wiskunde | [round](../functions/functionround.md) |
 | Tekenreeks | [concat](../functions/functionconcat.md) |
 | Tekenreeks | [contain](../functions/functioncontain.md) |
 | Tekenreeks | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
