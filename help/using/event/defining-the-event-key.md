@@ -9,7 +9,7 @@ exl-id: 79bcf562-f971-42f1-a607-94a2510c4a07
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 De sleutel is het veld of de combinatie van velden maakt deel uit van de ladingsgegevens van de gebeurtenis. Hierdoor kan het systeem de persoon identificeren die aan de gebeurtenis is gekoppeld. De sleutel kan bijvoorbeeld de Experience Cloud-id, een CRM-id of een e-mailadres zijn.
 
-Als u gegevens wilt gebruiken die zijn opgeslagen in de realtime database van het klantprofiel, moet u, als de sleutel van de gebeurtenis, informatie selecteren die u hebt gedefinieerd als de identiteit van een profiel in de [Real-time service voor klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Als u gegevens wilt gebruiken die zijn opgeslagen in de realtime database van het klantprofiel, moet u, als de sleutel van de gebeurtenis, informatie selecteren die u hebt gedefinieerd als de identiteit van een profiel in de [Real-time service voor klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl).
 
 Hierdoor kan het systeem de afstemming tussen de gebeurtenis en het profiel van het individu uitvoeren. Als u een schema met een primaire identiteit selecteert, worden de velden **[!UICONTROL Key]** en **[!UICONTROL Namespace]** vooraf ingevuld. Als er geen identiteit wordt bepaald, selecteren wij _identityMap > id_ als primaire sleutel. Vervolgens moet u een naamruimte selecteren en wordt de sleutel vooraf ingevuld (onder het veld **[!UICONTROL Namespace]**) met _identityMap > id_.
 
