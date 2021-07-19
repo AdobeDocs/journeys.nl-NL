@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ---
 
-# Kenmerken van reiseigenschappen {#journey-properties}
+# Eigenschappen voor reizen {#journey-properties}
 
 In de geavanceerde uitdrukkingsredacteur, zult u de **categorie van de Eigenschappen van de Reis**, onder de gebeurtenis en gegevensbroncategorieën vinden. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen.
 
