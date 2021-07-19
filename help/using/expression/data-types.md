@@ -119,7 +119,7 @@ false
 true
 ```
 
-## dateTimeOnly {#date-time-only}
+## dateTimeOnly {#date-time-only}
 
 **Beschrijving**
 
