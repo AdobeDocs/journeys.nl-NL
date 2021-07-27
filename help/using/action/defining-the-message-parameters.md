@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 4%
+source-wordcount: '226'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Plak in de sectie **[!UICONTROL Message parameters]** een voorbeeld van de JSON-
 
 >[!NOTE]
 >
->Veldnamen in de payload mogen geen &quot;.&quot; bevatten teken.
+>Veldnamen in de payload mogen geen &quot;.&quot; bevatten teken. Ze kunnen niet beginnen met het teken ‘$’.
 
 U kunt het parametertype definiëren (bijvoorbeeld: tekenreeks, geheel getal, enz.).
 
