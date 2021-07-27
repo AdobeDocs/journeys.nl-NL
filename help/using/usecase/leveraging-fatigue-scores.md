@@ -2,9 +2,9 @@
 product: adobe campaign
 title: Hefboomwerking van vermoeidheidsscores
 description: Leer hoe u vermoeidheidsscores tijdens reizen kunt gebruiken
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '249'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,8 @@ Voer de stappen uit die worden beschreven in [deze pagina](../event/about-events
 
 Voer de volgende stappen uit om de gebieden van de vermoeidheidsscore in de ingebouwde gegevensbron te selecteren:
 
-1. Klik in het bovenste menu op het tabblad **[!UICONTROL Data Sources]** en selecteer de Adobe Experience Platform-gegevensbron voor de build-in.
+1. Selecteer **[!UICONTROL Admin]** in het menuvenster. Klik in de sectie **[!UICONTROL Data sources]** op **[!UICONTROL Manage]**.
+1. Selecteer de ingebouwde Adobe Experience Platform-gegevensbron.
 
    ![](../assets/journey23.png)
 
