@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '351'
 ht-degree: 11%
 
 ---
@@ -39,7 +39,6 @@ Hier zijn de belangrijkste stappen om gebiedsgroepen aan de ingebouwde gegevensb
 
 1. Selecteer een schema van **[!UICONTROL Schema]** drop-down. In dit veld worden de schema&#39;s voor profiel- en ervaringsgebeurtenissen weergegeven die beschikbaar zijn in de Adobe Experience Platform. Schema&#39;s maken wordt niet uitgevoerd in [!DNL Journey Orchestration]. Deze wordt uitgevoerd in de Adobe Experience Platform.
 1. Selecteer de velden die u wilt gebruiken.
-1. Definieer de duur van de cache.
 1. Klik op **[!UICONTROL Save]**.
 
 Wanneer u de cursor op de naam van een veldgroep plaatst, ziet u rechts twee pictogrammen. Hiermee kunt u de veldgroep verwijderen en dupliceren. Het pictogram **[!UICONTROL Delete]** is alleen beschikbaar als de veldgroep niet wordt gebruikt in een live of conceptreis (informatie in het veld **[!UICONTROL Used in]**).
