@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 99%
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ De aanroep bestaat uit een hoofd-URL (_https://api.adobeweather.org/weather_), t
 
 Hier volgen de belangrijkste stappen voor het maken en configureren van een nieuwe externe databron:
 
-1. Klik in de lijst van databronnen op **[!UICONTROL Add]** om een nieuwe externe databron te maken.
+1. Klik in de lijst met gegevensbronnen op **[!UICONTROL Create data source]** om een nieuwe externe gegevensbron te maken.
 
    ![](../assets/journey25.png)
 
@@ -69,7 +69,6 @@ Voor de parameterreeks ‘long/lat’ maken we een veldengroep met de volgende i
 
 * **[!UICONTROL Used in]**: geeft het aantal journey’s weer dat een veldengroep gebruikt. U kunt klikken op het pictogram **[!UICONTROL View journeys]** om de lijst weer te geven met journey’s die deze veldengroep gebruiken.
 * **[!UICONTROL Method]**: selecteer de methode POST of GET. In ons geval selecteren we de methode GET.
-* **[!UICONTROL Cache duration]**: in ons geval willen we dat het weer gedurende tien minuten in de cache wordt opgeslagen.
 * **[!UICONTROL Response Payload]**: klik in het veld **[!UICONTROL Payload]** en plak een voorbeeld van de payload die door de aanroep is geretourneerd. Voor ons voorbeeld hebben we een payload gebruikt van een API-weerwebsite. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen. U kunt klikken op **[!UICONTROL Paste a new payload]** als u de huidige payload wilt wijzigen.
 * **[!UICONTROL Dynamic Values]**: voer de verschillende parameters in, gescheiden door een komma, in het voorbeeld ‘long,lat’. Aangezien de parameterwaarden afhankelijk zijn van de uitvoeringscontext, worden ze tijdens de journey’s gedefinieerd. Zie [deze pagina](../expression/expressionadvanced.md).
 * **[!UICONTROL Sent Payload]**: dit veld staat niet in ons voorbeeld. Deze optie is alleen beschikbaar als u de methode POST selecteert. Plak de payload die naar het externe systeem wordt verzonden.
