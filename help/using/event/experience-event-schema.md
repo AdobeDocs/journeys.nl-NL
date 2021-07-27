@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -50,3 +50,64 @@ Om het even welk schema XDM dat voor [!DNL Journey Orchestration] gebeurtenissen
    ![](../assets/schema7.png)
 
    ![](../assets/schema8.png)
+
+## Schema-relaties benutten{#leverage_schema_relationships}
+
+Adobe Experience Platform staat u toe om verhoudingen tussen schema&#39;s te bepalen om één dataset als raadplegingslijst voor een andere te gebruiken.
+
+Laten we zeggen dat uw model met merkgegevens een schema heeft voor het vastleggen van aankopen. U hebt ook een schema voor de productcatalogus. U kunt de product-id vastleggen in het aankoopschema en een relatie gebruiken om de volledige productdetails uit de productcatalogus op te zoeken. Hierdoor kunt u een segment maken voor alle klanten die bijvoorbeeld een laptop hebben gekocht, zonder dat u expliciet alle laptop-id&#39;s hoeft op te geven of elke productdetails in transactiesystemen hoeft vast te leggen.
+
+Als u een relatie wilt definiëren, moet u een speciaal veld in het bronschema hebben, in dit geval het veld product-id in het aankoopschema. Dit gebied moet het gebied van productID in het bestemmingsschema van verwijzingen voorzien. De bron en bestemmingstabellen moeten voor profielen worden toegelaten en het bestemmingsschema moet dat gemeenschappelijke gebied hebben dat als zijn primaire identiteit wordt bepaald.
+
+Hier volgt het productcatalogusschema dat is ingeschakeld voor profiel met de product-id die is gedefinieerd als de primaire identiteit.
+
+![](../assets/schema9.png)
+
+Hier volgt het aankoopschema met de relatie die is gedefinieerd in het veld product-id.
+
+![](../assets/schema10.png)
+
+>[!NOTE]
+>
+>Leer meer over schemaverhoudingen in [Experience Platform documentatie](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+
+In Journey Orchestration kunt u vervolgens alle velden uit de gekoppelde tabellen benutten:
+
+* bij het configureren van een eenheidsgebeurtenis [Meer informatie](../event/experience-event-schema.md#unitary_event_configuration)
+* [Lees meer](../event/experience-event-schema.md#journey_conditions_using_event_context) wanneer u voorwaarden gebruikt tijdens een reis
+* in de verpersoonlijking van de douaneactie [Lees meer](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### Configuratie van eenheidsgebeurtenissen{#unitary_event_configuration}
+
+De gekoppelde schemavelden zijn beschikbaar in de configuratie voor monitaire gebeurtenissen:
+
+* wanneer het doorbladeren door de gebieden van het gebeurtenisschema in het scherm van de gebeurtenisconfiguratie.
+* wanneer het bepalen van een voorwaarde voor systeem-geproduceerde gebeurtenissen.
+
+![](../assets/schema11.png)
+
+De gekoppelde velden zijn niet beschikbaar:
+
+* in de sleutelformule voor gebeurtenissen
+* in event id condition (op regel gebaseerde gebeurtenissen)
+
+Meer informatie over het configureren van een eenheidsgebeurtenis vindt u in deze [pagina](../event/about-creating.md).
+
+### Reisomstandigheden met gebeurteniscontext{#journey_conditions_using_event_context}
+
+U kunt gegevens van een raadplegingslijst gebruiken verbonden met een gebeurtenis die in een reis voor voorwaardenbouw (uitdrukkingsredacteur) wordt gebruikt.
+
+Voeg een voorwaarde toe in een reis, geef de uitdrukking uit en ontvouw de gebeurtenisknoop in de uitdrukkingsredacteur.
+
+![](../assets/schema12.png)
+
+Om te leren hoe te om reisvoorwaarden te bepalen, verwijs naar dit [pagina](../building-journeys/condition-activity.md).
+
+### Aanpassing van handelingen met context van reisgebeurtenissen{#custom_action_personalization_with_journey_event_context}
+
+De verbonden gebieden zijn beschikbaar wanneer het vormen van de actieparameters van een activiteit van de reisactie.
+
+![](../assets/schema13.png)
+
+Als u wilt leren hoe u aangepaste handelingen kunt gebruiken, raadpleegt u deze [pagina](../building-journeys/using-custom-actions.md).
+
