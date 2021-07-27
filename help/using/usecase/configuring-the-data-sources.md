@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 14%
+source-wordcount: '441'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,8 @@ In ons gebruiksgeval, willen wij verpersoonlijkingsgegevens voor onze berichten 
 
 Voor extra informatie over gegevensbronconfiguratie, verwijs naar [deze pagina](../datasource/about-data-sources.md).
 
-1. Klik in het bovenste menu op het tabblad **[!UICONTROL Data Sources]** en selecteer de Adobe Experience Platform-gegevensbron voor de build-in.
+1. Selecteer **[!UICONTROL Admin]** in het menuvenster. Klik in de sectie **[!UICONTROL Data sources]** op **[!UICONTROL Manage]**.
+1. Selecteer de ingebouwde Adobe Experience Platform-gegevensbron.
 
    ![](../assets/journey23.png)
 
@@ -58,7 +59,6 @@ We moeten ook controleren of de persoon een boeking heeft in het hotelreserverin
 1. Klik op **[!UICONTROL Add a New Field Group]** om de informatie op te halen en de API-parameters te definiëren. Voor ons voorbeeld is er slechts één parameter (de id), dus moeten we één veldgroep maken met de volgende informatie:
 
    * **[!UICONTROL Method]**: selecteer de methode POST of GET. In ons geval selecteren we de methode GET.
-   * **[!UICONTROL Cache duration]**: dit varieert afhankelijk van de frequentie van de API-aanroepen. In ons geval wordt het reserveringssysteem elke 10 minuten bijgewerkt.
    * **[!UICONTROL Response Payload]**: Klik in het  **[!UICONTROL Payload]** veld en plak een voorbeeld van de laadbewerking. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen. In ons voorbeeld bevat de lading alleen de reserveringsstatus:
 
    ```
