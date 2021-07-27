@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
 workflow-type: tm+mt
-source-wordcount: '2625'
-ht-degree: 60%
+source-wordcount: '2701'
+ht-degree: 59%
 
 ---
 
@@ -17,6 +17,29 @@ ht-degree: 60%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-updates.md) raadplegen.
+
+## Release juli 2021 {#july-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Schema-relaties benutten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platform staat u toe om verhoudingen tussen schema's te bepalen om één dataset als raadplegingslijst voor een andere te gebruiken. Journey Orchestration kan nu hefboomwerking gegevens die uit een verbonden schema komen.</p>
+<p>Deze gebieden zijn beschikbaar in unitaire gebeurtenisconfiguratie, reisvoorwaarden en douane actieprijsverpersoonlijking.
+<p>Raadpleeg de <a href="../event/experience-event-schema.md#leverage_schema_relationships">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen
+
+* Het veld **Cacheduur** is verwijderd uit het configuratievenster van de gegevensbron. [Meer informatie](../datasource/about-data-sources.md)
 
 ## Release juni 2021 {#june-2021-release}
 
