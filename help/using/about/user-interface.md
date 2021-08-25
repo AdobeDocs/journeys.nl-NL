@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 89%
+source-wordcount: '989'
+ht-degree: 61%
 
 ---
 
@@ -87,58 +87,135 @@ Als een beschrijvende naam beschikbaar is, wordt het veld weergegeven als `<frie
 >
 >De beschrijvende namen worden niet opgehaald wanneer u velden selecteert uit een samenvoeging van schema’s.
 
-## De verschillende sneltoetsen gebruiken{#section_ksq_zr1_ffb}
+## Toegankelijkheid{#accessibility}
 
-Hier volgt een overzicht van de verschillende sneltoetsen die beschikbaar zijn in de interface van [!DNL Journey Orchestration].
+De toegankelijkheidsfuncties in Adobe Journey Optimizer worden geleverd door Adobe Experience Platform:
 
-_In de lijst van journey’s, acties, databronnen of gebeurtenissen:_
+* Toegankelijkheid toetsenbord
+* Kleurcontrast
+* Validatie van vereiste velden
 
-* Druk op **c** om een nieuwe journey, actie, databron of gebeurtenis te maken.
+[Meer](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html) informatie over {target=&quot;_blank&quot;} vindt u in de documentatie van Adobe Experience Platform.
 
-_Bij het configureren van een activiteit in een journey:_
+U kunt de volgende algemene sneltoetsen gebruiken in Adobe Journey Optimizer:
 
-Het canvas wordt automatisch opgeslagen. U kunt linksboven op het canvas de opslagstatus zien.
+| Actie | Sneltoets |
+| --- | --- |
+| Tussen gebruikersinterface-elementen, -secties en -menugroepen verplaatsen | Tab |
+| Ga achterwaarts tussen gebruikersinterface-elementen, -secties en -menuproepen | Shift + Tab |
+| Binnen secties verplaatsen om focus in te stellen op afzonderlijke elementen | Pijl |
+| Een element dat de focus heeft selecteren of wissen | Enter of Spatiebalk |
+| Een selectie annuleren, een deelvenster samenvouwen of een dialoogvenster sluiten | Esc |
 
-* Druk op **Escape** om het configuratievenster te sluiten en de aangebrachte wijzigingen te negeren. Dit is het equivalent van de knop **[!UICONTROL Cancel]**.
-* Druk op **Enter** of klik buiten het deelvenster om het configuratievenster te sluiten. Wijzigingen worden opgeslagen. Dit is het equivalent van de knop **[!UICONTROL Ok]**.
-* Als u op **Verwijderen** of **Backspace** klikt, kunt u drukken op **Enter** om de verwijdering te bevestigen.
+[Meer](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html) informatie over {target=&quot;_blank&quot;} vindt u in de documentatie van Adobe Experience Platform.
 
-_In pop-ups:_
+U kunt deze sneltoetsen gebruiken in specifieke delen van Journey Optimizer:
 
-* Druk op **Escape** om de pop-up te sluiten (equivalent van de knop **[!UICONTROL Cancel]**).
-* Druk op **Enter** om op te slaan of te bevestigen (equivalent van de knop **[!UICONTROL Ok]** of **[!UICONTROL Save]**).
+<table>
+  <thead>
+    <tr>
+      <th>Interface-element</th>
+      <th>Actie</th>
+      <th>Sneltoets</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Lijst met reizen, handelingen, gegevensbronnen of gebeurtenissen</td>
+    <td>Een reis, handeling, gegevensbron of gebeurtenis maken</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Reis canvas in conceptstatus</td>
+    <td>Voeg een activiteit van het linkerpalet bij de eerste beschikbare positie toe, van boven tot onder</td>
+    <td>Dubbelklik op de activiteit</td>
+  </tr>
+  <tr>
+    <td>Alle activiteiten selecteren</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+  <tr>
+    <td>Geselecteerde activiteiten verwijderen</td>
+    <td>Verwijder of Backspace en ga vervolgens in om de verwijdering te bevestigen</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
 
-_In het configuratiedeelvenster van de gebeurtenis, databron of actie:_
+Configuratievenster van deze elementen:
 
-* Druk op **Escape** om het configuratievenster te sluiten zonder het op te slaan.
-* Druk op **Enter** om wijzigingen op te slaan en het configuratievenster te sluiten.
-* Druk op **Tab** om van het ene te configureren veld naar het andere te gaan.
+<ul>
+  <li>Activiteit in een reis</li>
+  <li>Gebeurtenis</li>
+  <li>Gegevensbron</li>
+  <li>Actie</li>
+</ul>
 
-_In de editor voor eenvoudige expressies_
+</td>
+    <td>Ga naar het volgende veld dat moet worden geconfigureerd</td>
+    <td>Tab</td>
+  </tr>
+  <tr>
+    <td>Wijzigingen opslaan en het configuratievenster sluiten</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Wijzigingen negeren en het configuratievenster sluiten</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Reizen in testmodus</td>
+    <td>De testmodus in- of uitschakelen</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Een gebeurtenis activeren tijdens een op een gebeurtenis gebaseerde reis</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
 
-* Dubbelklik op een veld aan de linkerkant om een query toe te voegen (equivalent van slepen en neerzetten).
+Een gebeurtenis activeren tijdens een op segmenten gebaseerde reis waarvoor de optie **[!UICONTROL Single profile at a time]** is ingeschakeld
 
-_Wanneer u door XDM-velden bladert:_
-
-* Als u een node inschakelt, worden alle velden van de node geselecteerd.
-
-_In alle tekstgebieden:_
-
-* Selecteer de tekst met de toetsencombinatie **Ctrl/Command + A**. In de payloadvoorvertoning wordt de payload geselecteerd.
-
-_In een scherm met een zoekbalk:_
-
-* Selecteer de zoekbalk met de toetsencombinatie **Ctrl/Command + F**.
-
-_Op het canvas van een journey:_
-
-* Gebruik de toetsencombinatie **Ctrl/Command + A** om alle activiteiten te selecteren.
-* Wanneer een of meerdere activiteiten zijn geselecteerd, drukt u op **Verwijderen** of **Backspace** om deze te verwijderen. Vervolgens kunt u in het pop-upvenster ter bevestiging op **Enter** drukken.
-* Dubbelklik op een activiteit in het linkerpalet om deze toe te voegen op de eerste beschikbare positie (van boven naar beneden).
-
-_Op een reis:_
-
-* Druk op **T** om de testmodus in of uit te schakelen.
-* Druk in de testmodus op **E** om een gebeurtenis te activeren.
-* Als in de testmodus de optie **Eén profiel tegelijk** is geselecteerd voor een op een segment gebaseerde reis, drukt u op **P** om een gebeurtenis te activeren.
-* Druk in de testmodus op **L** om de logbestanden weer te geven.
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>De testlogboeken weergeven</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>Tekstveld</td>
+    <td>Alle tekst in het geselecteerde veld selecteren</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Pop-upvenster</td>
+    <td>Wijzigingen opslaan of de handeling bevestigen</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Sluit het venster</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>Eenvoudige expressie-editor</td>
+    <td>Een veld selecteren en toevoegen</td>
+    <td>Dubbelklikken op een veld</td>
+  </tr>
+  <tr>
+    <td>Bladeren door XDM-velden</td>
+    <td>Alle velden van een knooppunt selecteren</td>
+    <td>Het bovenliggende knooppunt selecteren</td>
+  </tr>
+  <tr>
+    <td>Payloadvoorbeeld</td>
+    <td>Selecteer de lading</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+</table>
