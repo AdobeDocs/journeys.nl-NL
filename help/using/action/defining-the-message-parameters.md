@@ -1,23 +1,23 @@
 ---
 product: adobe campaign
-title: Berichtparameters definiëren
-description: Leer hoe te om de berichtparameters te bepalen
+title: De actieparameters definiëren
+description: Leer hoe u de actieparameters definieert
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 3%
+source-wordcount: '225'
+ht-degree: 0%
 
 ---
 
-# Berichtparameters definiëren {#concept_wy4_bf1_2gb}
+# De actieparameters definiëren {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-Plak in de sectie **[!UICONTROL Message parameters]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
+Plak in de sectie **[!UICONTROL Action parameters]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
 
 ![](../assets/customactionpayloadmessage.png)
 
