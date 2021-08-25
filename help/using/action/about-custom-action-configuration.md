@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '249'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vorm
 1. Het aantal ritten dat deze handeling gebruikt, wordt weergegeven in het veld **[!UICONTROL Used in]**. U kunt op de knop **[!UICONTROL View journeys]** klikken om de lijst met ritten weer te geven die deze handeling gebruiken.
 1. Definieer de verschillende **[!UICONTROL URL Configuration]** parameters. Zie [deze pagina](../action/url-configuration.md).
 1. Configureer de sectie **[!UICONTROL Authentication]**. Deze configuratie is het zelfde als voor gegevensbronnen.  Zie [deze sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Definieer de **[!UICONTROL Message parameters]**. Zie [deze pagina](../action/defining-the-message-parameters.md).
+1. Definieer de **[!UICONTROL Action parameters]**. Zie [deze pagina](../action/defining-the-message-parameters.md).
 1. Klik op **[!UICONTROL Save]**.
 
    De aangepaste handeling is nu geconfigureerd en klaar om te worden gebruikt tijdens uw reizen. Zie [deze pagina](../building-journeys/about-action-activities.md).
