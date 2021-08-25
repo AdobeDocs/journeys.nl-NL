@@ -7,9 +7,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1014'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Wanneer Journey Orchestration een aanroep van een externe API uitvoert, worden d
 
 De ingebouwde API voor uitlijnen biedt een stroomopwaartse technische hulplijn die u helpt uw externe systeem te beschermen.
 
-Voor externe gegevensbronnen, wordt het maximumaantal vraag per seconde geplaatst aan 15. Als het aantal vraag 15 per seconde overschrijdt, worden de resterende vraag verworpen. U kunt deze limiet verhogen voor externe privégegevensbronnen. Contacteer Adobe aan whitelist het eindpunt. Dit is niet mogelijk voor openbare externe gegevensbronnen.
+Voor externe gegevensbronnen, wordt het maximumaantal vraag per seconde geplaatst aan 15. Als het aantal vraag 15 per seconde overschrijdt, worden de resterende vraag verworpen. U kunt deze limiet verhogen voor externe privégegevensbronnen. Adobe van het contact om het eindpunt in de lijst van gewenste personen te omvatten. Dit is niet mogelijk voor openbare externe gegevensbronnen.
 
 Voor aangepaste handelingen moet u de capaciteit van de externe API evalueren. Bijvoorbeeld, als Journey Optimizer 1000 vraag per seconde verzendt en uw systeem slechts 100 vraag per seconde kan steunen, moet u een het begrenzen regel bepalen zodat uw systeem niet verzadigt.
 
