@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 96%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 100%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Orchestration].
 U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../release-notes/release-notes.md) raadplegen.
+
+## Augustus 2021
+
+* De configuratieprocedure voor aangepaste handelingen met dynamische URL-paden en dynamische koppen is bijgewerkt. [Meer informatie](../action/url-configuration.md)
+* Een sectie over toegankelijkheidsfuncties toegevoegd. [Meer informatie](../about/user-interface.md#accessibility)
+* Toegevoegd een sectie over de methodes van de segmentevaluatie. [Meer informatie](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
 ## Maart 2021 {#march-2021}
 
@@ -99,7 +105,7 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 
 * Alle screenshots zijn bijgewerkt met interfacewijzigingen.
 * De sectie over de testmodus is bijgewerkt. [Meer informatie](../building-journeys/testing-the-journey.md)
-<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * Gestandaardiseerde journey’s kunnen nu worden verwijderd. Gerelateerde documentatiepagina’s zijn bijgewerkt.
 * Er worden nu twee kleuren weergegeven wanneer tijdens een journey problemen worden gedetecteerd. Rood voor fouten en oranje voor waarschuwingen. [Meer informatie](../about/troubleshooting.md)
 * De sectie over de geavanceerde expressie-editor is bijgewerkt. [Meer informatie](../expression/expressionadvanced.md).
