@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,18 @@ Hier zijn de mogelijkheden [!DNL Journey Orchestration] u met segmenten aanbiede
 * Maak rechtstreeks segmenten in [!DNL Journey Orchestration] op dezelfde manier als u ze maakt met de Segmentatieservice. Zie [Een segment maken](../segment/creating-a-segment.md).
 * Gebruik de eenvoudige of geavanceerde expressie-editor om segmenten in de reisomstandigheden te benutten. Zie [Segmenten gebruiken in condities](../segment/using-a-segment.md).
 * Voeg een gebeurtenis **[!UICONTROL Segment qualification]** toe aan uw reis om naar de ingangen en de uitgang van profielen in de segmenten van Adobe Experience Platform te luisteren. Zie [Gebeurtenisactiviteiten](../building-journeys/segment-qualification-events.md).
+
+## Evaluatiemethode in Journey Orchestration {#evaluation-method-in-journey-orchestration}
+
+In Journey Orchestration wordt het publiek gegenereerd op basis van segmentdefinities aan de hand van een van de volgende evaluatiemethoden:
+
+* Streaming segmentatie: de publiekslijst voor het segment wordt in real-time bijgewerkt terwijl nieuwe gegevens in het systeem stromen.
+* De segmentatie van de partij - de publiekslijst voor het segment wordt bijgewerkt op een uurbasis, die op gegevens wordt gebaseerd die in het afgelopen uur zijn aangekomen.
+
+De bepaling tussen partijsegmentatie en het stromen segmentatie wordt gemaakt door het systeem voor elke segmentdefinitie, die op de ingewikkeldheid en de kosten wordt gebaseerd om de segmentregel te evalueren.
+
+U kunt de evaluatiemethode voor elk segment in **[!UICONTROL Evaluation method]** kolom van de segmentlijst bekijken.
+
+Nadat u een segment hebt gedefinieerd, worden profielen toegevoegd aan het publiek wanneer deze in aanmerking komen.
+
+Het ondersteunen van het publiek op basis van eerdere gegevens kan 24 uur in beslag nemen. Nadat het publiek is teruggevuld, wordt het publiek voortdurend bijgewerkt en is altijd klaar om zich te richten.
