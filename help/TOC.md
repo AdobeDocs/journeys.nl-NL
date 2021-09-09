@@ -6,9 +6,9 @@ user-guide-description: Verstrekt stapsgewijze instructies voor het implementere
 index: true
 feature: Journeys
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 + [Productdocumentatie](journey-orchestration-home.md)
 + Nieuwe functies {#release-notes}
-   + [Release-opmerkingen](using/release-notes/release-notes.md)
+   + [Aanvullende informatie](using/release-notes/release-notes.md)
    + [Documentatie-updates](using/release-notes/documentation-updates.md)
 + Beginnen met [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Over [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
@@ -52,8 +52,8 @@ ht-degree: 98%
    + Een systeem van derden gebruiken {#action-third-party}
       + [Aangepaste acties configureren](using/action/about-custom-action-configuration.md)
       + [URL-configuratie](using/action/url-configuration.md)
-      + [De actieparameters definiëren](using/action/defining-the-message-parameters.md)
-+ Segmenten {#configuring-segment} gebruiken
+      + [Actieparameters definiëren](using/action/defining-the-message-parameters.md)
++ Segmenten gebruiken {#configuring-segment}
    + [Segmenten](using/segment/about-segments.md)
    + [Segment maken](using/segment/creating-a-segment.md)
    + [Segmenten gebruiken in voorwaarden](using/segment/using-a-segment.md)
@@ -162,7 +162,7 @@ ht-degree: 98%
          + [isEmpty](using/functions/functionisempty.md)
          + [isNotEmpty](using/functions/functionisnotempty.md)
          + [lastIndexOf](using/functions/functionlastindexof.md)
-         + [length](using/functions/functionlength.md)
+         + [lengte](using/functions/functionlength.md)
          + [lower](using/functions/functionlower.md)
          + [matchRegExp](using/functions/functionmatchregexp.md)
          + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
@@ -178,7 +178,7 @@ ht-degree: 98%
 + Rapporten samenstellen{#journey-reports}
    + [Journeyrapporten](using/reporting/about-journey-reports.md)
    + [Journeyrapporten maken](using/reporting/creating-your-journey-reports.md)
-   + [Overzicht van cijfers en dimensies](using/reporting/metrics-and-dimensions.md)
+   + [Statistieken en afmetingen](using/reporting/metrics-and-dimensions.md)
 + Integratie met Intelligent Services{#use-case-advanced}
    + [AI-integratie](using/ai-services/ai-services-overview.md)
    + [Klant-AI gebruiken](using/ai-services/leveraging-customer-ai.md)
