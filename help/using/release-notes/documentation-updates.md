@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 ## Augustus 2021
 
 * De configuratieprocedure voor aangepaste handelingen met dynamische URL-paden en dynamische koppen is bijgewerkt. [Meer informatie](../action/url-configuration.md)
-* Een sectie over toegankelijkheidsfuncties toegevoegd. [Meer informatie](../about/user-interface.md#accessibility)
-* Toegevoegd een sectie over de methodes van de segmentevaluatie. [Meer informatie](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
+* Er is een sectie over toegankelijkheidsfuncties toegevoegd. [Meer informatie](../about/user-interface.md#accessibility)
+* Er is een sectie over de methodes van de segmentevaluatie toegevoegd. [Meer informatie](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
 ## Maart 2021 {#march-2021}
 
