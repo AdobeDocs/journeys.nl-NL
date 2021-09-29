@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 74%
+source-wordcount: '175'
+ht-degree: 73%
 
 ---
 
@@ -38,6 +38,7 @@ Hier volgt een lijst met ondersteunde functies.
 | Samenvoeging | [min](../functions/functionmin.md) |
 | Samenvoeging | [sum](../functions/functionsum.md) |
 | Conversie | [toBool](../functions/functiontobool.md) |
+| Conversie | [toDateOnly](../functions/functiontodateonly.md) |
 | Conversie | [toDateTime](../functions/functiontodatetime.md) |
 | Conversie | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
 | Conversie | [toDecimal](../functions/functiontodecimal.md) |
@@ -58,8 +59,11 @@ Hier volgt een lijst met ondersteunde functies.
 | Datum | [setHours](../functions/functionsethours.md) |
 | Datum | [setDays](../functions/functionsetdays.md) |
 | Lijst | [distinct](../functions/functiondistinct.md) |
-| Lijst | [differentCount](../functions/functiondistinctcount.md) |
+| Lijst | [distinctWithNull](../functions/functiondistinctwithnull.md) |
+| Lijst | [filter](../functions/functionfilter.md) |
+| Lijst | [getListItem](../functions/functiongetlistitem.md) |
 | Lijst | [in](../functions/functionin.md) |
+| Lijst | [doorsnijden](../functions/functionintersect.md) |
 | Lijst | [listSize](../functions/functionlistsize.md) |
 | Lijst | [serializeList](../functions/functionserializelist.md) |
 | Lijst | [sort](../functions/functionsort.md) |
@@ -75,7 +79,7 @@ Hier volgt een lijst met ondersteunde functies.
 | Tekenreeks | [isEmpty](../functions/functionisempty.md) |
 | Tekenreeks | [isNotEmpty](../functions/functionisnotempty.md) |
 | Tekenreeks | [lastIndexOf](../functions/functionlastindexof.md) |
-| Tekenreeks | [length](../functions/functionlength.md) |
+| Tekenreeks | [lengte](../functions/functionlength.md) |
 | Tekenreeks | [lower](../functions/functionlower.md) |
 | Tekenreeks | [matchRegExp](../functions/functionmatchregexp.md) |
 | Tekenreeks | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |

@@ -1,22 +1,49 @@
 ---
 product: adobe campaign
-title: Release-opmerkingen
+title: Aanvullende informatie
 description: Meer informatie over opmerkingen bij de release
 feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 58%
+source-wordcount: '2965'
+ht-degree: 54%
 
 ---
 
-# Release-opmerkingen {#release-notes}
+# Aanvullende informatie {#release-notes}
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-updates.md) raadplegen.
+
+## Release september 2021 {#september-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Gegevenslijsten dynamisch doorgeven met behulp van aangepaste handelingen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu verzamelingen of een lijst met gegevens in de aangepaste handelingsparameters doorgeven die tijdens runtime dynamisch worden gevuld. Er worden twee soorten verzamelingen ondersteund: eenvoudige verzamelingen en objectverzamelingen. Eerder gemaakte aangepaste handelingen blijven werken. </p>
+<p>Raadpleeg de <a href="../usecase/collections.md">gedetailleerde documentatie</a> voor meer informatie over verzamelingen. </p>
+<p>Het filter en de kruisfuncties zijn toegevoegd aan de lijst met functies die beschikbaar zijn in de geavanceerde expressie-editor. Dit biedt meer mogelijkheden voor het filteren en vergelijken van verzamelingen.</p>
+<p>Raadpleeg de documentatie over de <a href="../functions/functionfilter.md">filter</a> en <a href="../functions/functionintersect.md">intersect</a> functies.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen
+
+* Systeem produceerde schema&#39;s en datasets die tijdens levering voor stapgebeurtenissen zijn gecreeerd zijn nu op read-only wijze, beschermend tegen om het even welke onbedoelde wijzigingen in kritieke schema&#39;s. [Meer informatie](../building-journeys/sharing-overview.md)
+* Geef de activiteit **wait** een duidelijk label met een label dat op het canvas wordt weergegeven. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](../building-journeys/using-the-journey-designer.md)
+* Vind uw gebeurtenissen en acties sneller door elementen in **Gebeurtenissen** en **Actie** categorieën te filtreren gebruikend onderzoek. Orchestratie-activiteiten worden niet meer gefilterd. [Meer informatie](../building-journeys/using-the-journey-designer.md)
+* Wanneer u een gebeurtenis-id-voorwaarde definieert in een op regels gebaseerde, operator &quot;contains&quot; is nu beschikbaar voor tekenreekstypen velden. [Meer informatie](../event/about-creating.md)
 
 ## Release van augustus 2021 {#august-2021-release}
 
@@ -27,7 +54,7 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 * **Dynamische headers**  - U kunt nu dynamische gegevens doorgeven in HTTP-headerparameters. Deze parameters kunnen door de integratiesystemen worden gebruikt die de vraag van HTTP van de reisactie, bijvoorbeeld timestamp of het volgen identiteitskaart ontvangen. [Meer informatie](../action/url-configuration.md)
 * **Dynamische URL-paden**  - U kunt nu dynamische URL-paden instellen voor aangepaste handelingen. [Meer informatie](../action/url-configuration.md)
 
-## Release juli 2021 {#july-2021-release}
+## Juli 2021 Release {#july-2021-release}
 
 <table>
 <thead>
@@ -40,7 +67,7 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 <td>
 <p>Adobe Experience Platform staat u toe om verhoudingen tussen schema's te bepalen om één dataset als raadplegingslijst voor een andere te gebruiken. Journey Orchestration kan nu hefboomwerking gegevens die uit een verbonden schema komen.</p>
 <p>Deze gebieden zijn beschikbaar in unitaire gebeurtenisconfiguratie, reisvoorwaarden en douane actieprijsverpersoonlijking.
-<p>Raadpleeg voor meer informatie de <a href="../event/experience-event-schema.md#leverage_schema_relationships">gedetailleerde documentatie</a>.</p>
+<p>Raadpleeg de <a href="../event/experience-event-schema.md#leverage_schema_relationships">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -63,7 +90,7 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 <td>
 <p>De integratie met Adobe Campaign Classic is nu GA. Hiermee kunt u e-mails, pushmeldingen en SMS verzenden met de mogelijkheden van Adobe Campaign v7 of v8 Transactieberichten.</p>
 <p>De verbinding tussen de instanties van Journey Orchestration en Campaign wordt door Adobe ingesteld tijdens de inrichting.</p>
-<p>Raadpleeg voor meer informatie de <a href="../action/acc-action.md">gedetailleerde documentatie</a>.</p>
+<p>Raadpleeg de <a href="../action/acc-action.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -230,7 +257,7 @@ De **Segmentkwalificatie** activiteit kan niet meer worden gebruikt in een reis 
 <td>
 <p>Wanneer u voorwaarden toevoegt aan uw reis, kunt u nu een etiket bepalen. Als u tijdens een reis verschillende omstandigheden gebruikt, kunt u deze gemakkelijker identificeren.
 </p>
-<p>Raadpleeg voor meer informatie de <a href="../building-journeys/condition-activity.md#about_condition">gedetailleerde documentatie</a>.</p>
+<p>Raadpleeg de <a href="../building-journeys/condition-activity.md#about_condition">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -505,7 +532,7 @@ De Journey Orchestration-interface is beschikbaar in het Japans.
 <p>In de journeyontwerper kunt u nu controleren of u de meest recente versie van de journey gebruikt. Deze informatie wordt weergegeven naast het versienummer.</p>
 <p>Op het journey<strong>canvas</strong> wordt nu een waarschuwingsbericht weergegeven als twee activiteiten worden losgekoppeld.</p>
 <img src="../assets/rn-canvas.png"/>
-<p>Raadpleeg voor meer informatie de <a href="../building-journeys/using-the-journey-designer.md">gedetailleerde documentatie</a>.</p>
+<p>Raadpleeg de <a href="../building-journeys/using-the-journey-designer.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>

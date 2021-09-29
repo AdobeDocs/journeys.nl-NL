@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '636'
 ht-degree: 5%
 
 ---
@@ -119,15 +119,47 @@ false
 true
 ```
 
+## dateOnly {#date-only}
+
+**Beschrijving**
+
+Vertegenwoordigt een datum slechts zonder een tijdzone, die als jaar-maand-dag wordt bekeken.
+
+Het is een beschrijving van de datum, zoals die voor verjaardagen wordt gebruikt.
+
+JSON-indeling: Tekenreeks.
+
+Indeling is: YYYY-MM-DD (ISO-8601), bijvoorbeeld: &quot;2021-03-11&quot;.
+
+Deze kan worden ingekapseld in een toDateOnly-functie.
+
+Het gebruikt DateTimeFormatter ISO_LOCAL_DATE_TIME om de waarde te deserialiseren en in series te vervaardigen. [Meer informatie](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+
+**Letterlijke representatie**
+
+```
+date("<dateOnly in ISO-8601 format>")  
+```
+
+**Voorbeeld**
+
+```
+date("2021-02-19")
+```
+
 ## dateTimeOnly {#date-time-only}
 
 **Beschrijving**
 
 Vertegenwoordigt een datumtijd zonder een tijdzone, die als jaar-maand-dag-uur-minuut-seconde-milliseconde wordt bekeken.
 
+JSON-indeling: Tekenreeks.
+
 Er wordt geen tijdzone opgeslagen of weergegeven. In plaats daarvan is het een beschrijving van de datum, zoals die voor verjaardagen wordt gebruikt, gecombineerd met de lokale tijd zoals die op een muurklok wordt gezien.
 
 Het kan geen onmiddellijk op tijdlijn zonder extra informatie zoals een compensatie of tijdzone vertegenwoordigen.
+
+Het kan in een toDateTimeOnly functie worden ingekapseld.
 
 Serienummeringsindeling: ISO-8601 extended offset date-time format.
 
@@ -136,7 +168,14 @@ Het gebruikt DateTimeFormatter ISO_LOCAL_DATE_TIME om de waarde te deserialisere
 **Letterlijke representatie**
 
 ```
-toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+date("<dateTimeOnly in ISO-8601 format>")  
+```
+
+**Voorbeelden**
+
+```
+date("2021-02-19T00.00.000")
+date("2021-02-19T00.00")
 ```
 
 ## dateTime {#date-time}
@@ -149,7 +188,7 @@ Het kan als onmiddellijk in tijd met de extra informatie van de compensatie word
 
 JSON-indeling: Tekenreeks.
 
-Deze moet zijn ingekapseld in een toDateTime-functie.
+Het kan in een toDateTime functie worden ingekapseld.
 
 Serienummeringsindeling: ISO-8601 extended offset date-time format.
 
@@ -166,10 +205,18 @@ toDateTime("<dateTime in ISO-8601 format>")
 ```
 
 ```
+date("<dateTime in ISO-8601 format>")
+```
+
+```
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
-**Voorbeeld**
+**Voorbeelden**
+
+```
+date("2021-02-19T00.00.000Z")
+```
 
 ```
 toDateTime("1977-04-22T06:00:00Z")

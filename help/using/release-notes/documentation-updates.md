@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 100%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Orchestration].
 U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../release-notes/release-notes.md) raadplegen.
+
+## September 2021
+
+* De volgende functiepagina&#39;s zijn bijgewerkt: [sethours](../functions/functionsethours.md), [getListItem](../functions/functiongetlistitem.md), [inSegment](../functions/functioninsegment.md)
+
+* De volgende functies zijn toegevoegd: [filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
+
+* Het datumtype dateOnly is toegevoegd in de documentatie van de uitdrukkingsredacteur. [Meer informatie](../expression/data-types.md)
+
+* Meer informatie over de cache-duur van de aangepaste handeling. [Meer informatie](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* Toegevoegde informatie over standaardpoorten voor aangepaste handelingen. [Meer informatie](../action/url-configuration.md)
+
+* Toegevoegde algemeen gebruikte voorbeelden om de Gebeurtenissen van de Stap van de Reis in het meer van Gegevens te vragen. [Meer informatie](../building-journeys/query-examples.md)
 
 ## Augustus 2021
 

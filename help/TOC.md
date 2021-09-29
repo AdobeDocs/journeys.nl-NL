@@ -5,10 +5,10 @@ title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 feature: Journeys
-source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 97%
 
 ---
 
@@ -93,6 +93,7 @@ ht-degree: 100%
       + [Velden voor het ophalen van gegevens van journeyStep-gebeurtenissen](using/building-journeys/sharing-fetch-fields.md)
       + [Identiteitsvelden van journeyStep-gebeurtenissen](using/building-journeys/sharing-identity-fields.md)
       + [journeyvelden](using/building-journeys/sharing-journey-fields.md)
+      + [Voorbeelden van query&#39;s](using/building-journeys/query-examples.md)
 + De geavanceerde expressie-editor gebruiken {#building-advanced-conditions-journeys}
    + [De geavanceerde expressie-editor](using/expression/expressionadvanced.md)
    + Syntaxis {#syntax}
@@ -120,6 +121,7 @@ ht-degree: 100%
          + [sum](using/functions/functionsum.md)
       + Conversie {#conversion}
          + [toBool](using/functions/functiontobool.md)
+         + [toDateOnly](using/functions/functiontodateonly.md)
          + [toDateTime](using/functions/functiontodatetime.md)
          + [toDateTimeOnly](using/functions/functiontodatetimeonly.md)
          + [toDecimal](using/functions/functiontodecimal.md)
@@ -143,8 +145,10 @@ ht-degree: 100%
       + Lijst {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
+         + [filter](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
+         + [doorsnijden](using/functions/functionintersect.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -194,5 +198,6 @@ ht-degree: 100%
       + [Databronnen configureren](using/usecase/configuring-the-data-sources.md)
       + [Journey samenstellen](using/usecase/building-the-journey.md)
    + [Een bericht verzenden met Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
+   + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/usecase/collections.md)
 + Werken met API’s{#working-with-apis}
    + [API’s beperken](using/api/capping.md)
