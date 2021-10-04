@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen
 description: Een bericht verzenden met Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 8225167c686112f737d2b6ca22237324a6189b09
+source-git-commit: ded8f65e7210c252f59ec26150daaa964c7a6a77
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 4%
@@ -148,7 +148,7 @@ Je kunt zien dat &#39;products&#39; een array van twee objecten is. U moet ten m
 
    ![](../assets/uc-collection-4.png)
 
-Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld gebruiken we de functies [filter](../functions/functionfilter.md) en [intersect](../functions/functiontintersect.md):
+Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld gebruiken we de functies [filter](../functions/functionfilter.md) en [intersect](../functions/functionintersect.md):
 
 ![](../assets/uc-collection-5.png)
 
