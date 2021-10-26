@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 
 * De volgende functies zijn toegevoegd: [filter](../functions/functionfilter.md), [intersect](../functions/functionintersect.md), [toDateOnly](../functions/functiontodateonly.md)
 
-* Het datumtype dateOnly is toegevoegd in de documentatie van de uitdrukkingsredacteur. [Meer informatie](../expression/data-types.md)
+* Het datumtype dateOnly is toegevoegd in de documentatie van de expressie-editor. [Meer informatie](../expression/data-types.md)
 
-* Meer informatie over de cache-duur van de aangepaste handeling. [Meer informatie](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Er zijn details toegevoegd over de duur van de cache voor aangepaste acties. [Meer informatie](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 
-* Toegevoegde informatie over standaardpoorten voor aangepaste handelingen. [Meer informatie](../action/url-configuration.md)
+* Informatie toegevoegd over standaardpoorten voor aangepaste acties. [Meer informatie](../action/url-configuration.md)
 
-* Toegevoegde algemeen gebruikte voorbeelden om de Gebeurtenissen van de Stap van de Reis in het meer van Gegevens te vragen. [Meer informatie](../building-journeys/query-examples.md)
+* Veelgebruikte voorbeelden toegevoegd voor het opvragen van Journey Step Events in Data Lake. [Meer informatie](../building-journeys/query-examples.md)
 
 ## Augustus 2021
 
