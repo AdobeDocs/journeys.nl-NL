@@ -6,9 +6,9 @@ user-guide-description: Verstrekt stapsgewijze instructies voor het implementere
 index: true
 feature: Journeys
 source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -148,7 +148,7 @@ ht-degree: 97%
          + [filter](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [in](using/functions/functionin.md)
-         + [doorsnijden](using/functions/functionintersect.md)
+         + [intersect](using/functions/functionintersect.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -198,6 +198,6 @@ ht-degree: 97%
       + [Databronnen configureren](using/usecase/configuring-the-data-sources.md)
       + [Journey samenstellen](using/usecase/building-the-journey.md)
    + [Een bericht verzenden met Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
-   + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/usecase/collections.md)
+   + [Verzamelingen dynamisch doorgeven met behulp van aangepaste acties](using/usecase/collections.md)
 + Werken met API’s{#working-with-apis}
    + [API’s beperken](using/api/capping.md)
