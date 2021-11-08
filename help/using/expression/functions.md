@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 73%
@@ -63,7 +63,7 @@ Hier volgt een lijst met ondersteunde functies.
 | Lijst | [filter](../functions/functionfilter.md) |
 | Lijst | [getListItem](../functions/functiongetlistitem.md) |
 | Lijst | [in](../functions/functionin.md) |
-| Lijst | [doorsnijden](../functions/functionintersect.md) |
+| Lijst | [intersect](../functions/functionintersect.md) |
 | Lijst | [listSize](../functions/functionlistsize.md) |
 | Lijst | [serializeList](../functions/functionserializelist.md) |
 | Lijst | [sort](../functions/functionsort.md) |
@@ -71,10 +71,10 @@ Hier volgt een lijst met ondersteunde functies.
 | Wiskunde | [round](../functions/functionround.md) |
 | Tekenreeks | [concat](../functions/functionconcat.md) |
 | Tekenreeks | [contain](../functions/functioncontain.md) |
-| Tekenreeks | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| Tekenreeks | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
 | Tekenreeks | [endWith](../functions/functionendwith.md) |
 | Tekenreeks | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| Tekenreeks | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| Tekenreeks | [equalIgnoreCase](../functions/functionequalignorecase.md) |
 | Tekenreeks | [indexOf](../functions/functionindexof.md) |
 | Tekenreeks | [isEmpty](../functions/functionisempty.md) |
 | Tekenreeks | [isNotEmpty](../functions/functionisnotempty.md) |
@@ -82,7 +82,7 @@ Hier volgt een lijst met ondersteunde functies.
 | Tekenreeks | [lengte](../functions/functionlength.md) |
 | Tekenreeks | [lower](../functions/functionlower.md) |
 | Tekenreeks | [matchRegExp](../functions/functionmatchregexp.md) |
-| Tekenreeks | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| Tekenreeks | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | Tekenreeks | [replace](../functions/functionreplace.md) |
 | Tekenreeks | [replaceAll](../functions/functionreplaceall.md) |
 | Tekenreeks | [startWith](../functions/functionstartwith.md) |

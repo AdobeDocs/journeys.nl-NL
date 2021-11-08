@@ -5,10 +5,10 @@ title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 feature: Journeys
-source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 96%
 
 ---
 
@@ -88,11 +88,14 @@ ht-degree: 100%
    + [Journey publiceren](using/building-journeys/publishing-the-journey.md)
    + Journeystappen delen met Adobe Experience Platform {#sharing-journey-steps}
       + [Overzicht van het delen van journeystappen](using/building-journeys/sharing-overview.md)
-      + [Gemeenschappelijke velden van journeySteps-gebeurtenissen](using/building-journeys/sharing-common-fields.md)
-      + [Velden voor het uitvoeren van acties van journeyStep-gebeurtenissen](using/building-journeys/sharing-execution-fields.md)
-      + [Velden voor het ophalen van gegevens van journeyStep-gebeurtenissen](using/building-journeys/sharing-fetch-fields.md)
-      + [Identiteitsvelden van journeyStep-gebeurtenissen](using/building-journeys/sharing-identity-fields.md)
-      + [journeyvelden](using/building-journeys/sharing-journey-fields.md)
+      + [Lijst met gebeurtenisvelden](using/building-journeys/sharing-field-list.md)
+      + Gebeurtenisvelden voor oudere stappen {#legacy-step-event-fields}
+         + [Oudere velden](using/building-journeys/sharing-legacy-fields.md)
+         + [Gemeenschappelijke velden van journeySteps-gebeurtenissen](using/building-journeys/sharing-common-fields.md)
+         + [Velden voor het uitvoeren van acties van journeyStep-gebeurtenissen](using/building-journeys/sharing-execution-fields.md)
+         + [Velden voor het ophalen van gegevens van journeyStep-gebeurtenissen](using/building-journeys/sharing-fetch-fields.md)
+         + [Identiteitsvelden van journeyStep-gebeurtenissen](using/building-journeys/sharing-identity-fields.md)
+         + [journeyvelden](using/building-journeys/sharing-journey-fields.md)
       + [Voorbeelden van query&#39;s](using/building-journeys/query-examples.md)
 + De geavanceerde expressie-editor gebruiken {#building-advanced-conditions-journeys}
    + [De geavanceerde expressie-editor](using/expression/expressionadvanced.md)
@@ -158,10 +161,10 @@ ht-degree: 100%
       + Tekenreeks {#string}
          + [concat](using/functions/functionconcat.md)
          + [contain](using/functions/functioncontain.md)
-         + [containWithIgnoreCase](using/functions/functioncontainwithignorecase.md)
+         + [containIgnoreCase](using/functions/functioncontainwithignorecase.md)
          + [endWith](using/functions/functionendwith.md)
          + [endWithIgnorecase](using/functions/functionendwithignorecase.md)
-         + [equalWithIgnoreCase](using/functions/functionequalignorecase.md)
+         + [equalIgnoreCase](using/functions/functionequalignorecase.md)
          + [indexOf](using/functions/functionindexof.md)
          + [isEmpty](using/functions/functionisempty.md)
          + [isNotEmpty](using/functions/functionisnotempty.md)
@@ -169,7 +172,7 @@ ht-degree: 100%
          + [lengte](using/functions/functionlength.md)
          + [lower](using/functions/functionlower.md)
          + [matchRegExp](using/functions/functionmatchregexp.md)
-         + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
+         + [notequalIgnoreCase](using/functions/functionnotequalignorecase.md)
          + [replace](using/functions/functionreplace.md)
          + [replaceAll](using/functions/functionreplaceall.md)
          + [split](using/functions/functionsplit.md)

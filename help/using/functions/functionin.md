@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 15%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 Controleert of de waarde van het eerste argument in de lijst voorkomt. De controle wordt uitgevoerd door Gelijk op elke argumentwaarde. De waarde wordt true geretourneerd als de argumentwaarde wordt gevonden, anders false.
 
-Het type van `<expression>` moet met punten van de lijst aanpassen. Typen items in de lijst moeten, ter herinnering, met elkaar overeenkomen.
+Het type van `<expression>` moet overeenkomen met items in de lijst. Typen items in de lijst moeten, ter herinnering, met elkaar overeenkomen.
 
 ## Categorie
 
@@ -45,6 +45,7 @@ Lijst
 | Lijst | listDuration |
 | Lijst | listDateTime |
 | Lijst | listDateTimeOnly |
+| Lijst | listDateOnly |
 
 ## Handtekening en type geretourneerd
 
@@ -59,6 +60,8 @@ Lijst
 `in(<dateTimeOnly>,<listDateTimeOnly>)`
 
 `in(<dateTime>,<listDateTime>)`
+
+`in(<dateOnly>,<listDateOnly>)`
 
 `in(<duration>,<listDuration>)`
 

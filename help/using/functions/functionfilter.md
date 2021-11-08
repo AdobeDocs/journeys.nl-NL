@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: filter
-description: Meer informatie over de functiefister
+description: Meer informatie over het functiefilter
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: 729ee71e063ae73c7c10f20bb3a410c43cb75faf
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -57,7 +57,7 @@ Retourneert een listObject.
 
 Hier volgt een voorbeeld van een payload die wordt doorgegeven in een binnenkomende gebeurtenis &quot;myevent&quot;:
 
-```
+```json
 "productListItems": [{
    "id": "product1",
    "name": "the product 1",
@@ -75,10 +75,10 @@ Hier volgt een voorbeeld van een payload die wordt doorgegeven in een binnenkome
 
 U kunt de volgende expressie gebruiken:
 
-```
+```json
 filter(
  @{myevent.productListItems},
- id", 
+ "id", 
  ["product2", "product3", "product4"]
 )
 ```

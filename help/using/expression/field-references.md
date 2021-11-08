@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e4a003656058ac7ae6706e22fd5162c9e875629a
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 4%
+source-wordcount: '524'
+ht-degree: 3%
 
 ---
 
@@ -23,9 +23,9 @@ Als u speciale tekens in een veld gebruikt, moet u dubbele aanhalingstekens of e
 * het veld begint met het &quot;-&quot; teken
 * het veld bevat iets anders dan: _a_-_z_, _A_-_Z_, _0_-_9_, _, _-_
 
-Als uw veld bijvoorbeeld _3h_ is: _#{OpenWeather.windData.rain.&#39;3h&#39;} > 0_
+Als uw veld bijvoorbeeld _3h_: _#{OpenWeather.weerData.rain.&#39;3h&#39;} > 0_
 
-```
+```json
 // event field
 @{<event name>.<XDM path to the field>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id}
@@ -39,11 +39,11 @@ In de expressie wordt naar gebeurtenisvelden verwezen met &quot;@&quot; en wordt
 
 Een syntaxiskleur wordt gebruikt om (groene) gebeurtenisvelden visueel te onderscheiden van (blauwe) veldgroepen.
 
-**Standaardwaarden voor veldverwijzingen**
+## Standaardwaarden voor veldverwijzingen
 
-Er kan een standaardwaarde aan een veldnaam worden gekoppeld. De syntaxis is als volgt:
+Een standaardwaarde kan aan een gebiedsnaam worden geassocieerd. De syntaxis is als volgt:
 
-```
+```json
 // event field
 @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
@@ -54,11 +54,11 @@ Er kan een standaardwaarde aan een veldnaam worden gekoppeld. De syntaxis is als
 
 >[!NOTE]
 >
->Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
+>Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld @{LobbyBeacon.endUserIDs._experience.ease.id, defaultValue: 2} is ongeldig omdat de standaardwaarde een geheel getal is en de verwachte waarde een tekenreeks.
 
 Voorbeelden:
 
-```
+```json
 // for an event 'OrderEvent' having the following payload:
 {
     "orderId": "12345"
@@ -88,31 +88,55 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-**Referentie van een veld binnen verzamelingen**
+## Verwijzing naar een veld in verzamelingen
 
-Er wordt verwezen naar de elementen die in verzamelingen zijn gedefinieerd met behulp van de specifieke functies all, first en last. Raadpleeg [deze sectie](../expression/collection-management-functions.md) voor meer informatie.
+Er wordt verwezen naar de elementen die zijn gedefinieerd in verzamelingen met behulp van de specifieke functies `all`, `first` en `last`. Raadpleeg [deze sectie](../expression/collection-management-functions.md) voor meer informatie.
 
 Voorbeeld :
 
-```
+```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**Referentie van een veld dat is gedefinieerd in een kaart**
+## Verwijzing naar een veld dat is gedefinieerd in een kaart
 
-Om een element in een kaart terug te winnen, gebruiken wij de ingangsfunctie met een bepaalde sleutel. Deze wordt bijvoorbeeld gebruikt wanneer de sleutel van een gebeurtenis wordt gedefinieerd op basis van de geselecteerde naamruimte. Zie De naamruimte selecteren. Zie [deze pagina](../event/selecting-the-namespace.md) voor meer informatie.
+### `entry` -functie
 
-```
+Om een element in een kaart terug te winnen, gebruiken wij de ingangsfunctie met een bepaalde sleutel. Deze wordt bijvoorbeeld gebruikt wanneer de sleutel van een gebeurtenis wordt gedefinieerd op basis van de geselecteerde naamruimte. Zie De naamruimte selecteren. Zie voor meer informatie [deze pagina](../event/selecting-the-namespace.md).
+
+```json
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &quot;Email&quot; is een verzameling, waaruit we de &quot;id&quot; in het eerste element gebruiken met &quot;first()&quot;. Zie [deze pagina](../expression/collection-management-functions.md) voor meer informatie.
+In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &quot;Email&quot; is een verzameling, waaruit we de &quot;id&quot; in het eerste element gebruiken met &quot;first()&quot;. Zie voor meer informatie [deze pagina](../expression/collection-management-functions.md).
 
-**Parameterwaarden van een gegevensbron (dynamische waarden van gegevensbron)**
+### `firstEntryKey` -functie
+
+Als u de eerste entry-sleutel van een kaart wilt ophalen, gebruikt u de optie `firstEntryKey` functie.
+
+In dit voorbeeld wordt getoond hoe u het eerste e-mailadres van de abonnees van een specifieke lijst ophaalt:
+
+```json
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
+```
+
+In dit voorbeeld krijgt de abonnementenlijst de naam `daily-email`. E-mailadressen worden gedefinieerd als sleutels in het dialoogvenster `subscribers` kaart, die aan de kaart van de abonnementenlijst wordt verbonden.
+
+### `keys` -functie
+
+Om aan alle sleutels van een kaart terug te winnen, gebruik `keys` functie.
+
+In dit voorbeeld wordt getoond hoe u voor een specifiek profiel alle e-mailadressen kunt ophalen die zijn gekoppeld aan de abonnees van een specifieke lijst:
+
+```json
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-mail').subscribers.keys()
+```
+
+## Parameterwaarden van een gegevensbron (dynamische waarden van gegevensbron)
 
 Als u een veld selecteert uit een externe gegevensbron waarvoor een parameter moet worden aangeroepen, wordt rechts een nieuw tabblad weergegeven waarin u deze parameter kunt opgeven. Zie [deze pagina](../expression/expressionadvanced.md).
 
-Voor complexere gebruiksgevallen, als u de parameters van de gegevensbron in de belangrijkste uitdrukking wilt omvatten, kunt u hun waarden bepalen gebruikend het sleutelwoord _params_. Een parameter kan elke geldige expressie zijn, zelfs van een andere gegevensbron die ook een andere parameter bevat.
+Als u de parameters van de gegevensbron wilt opnemen in de hoofdexpressie, kunt u voor complexere gebruiksgevallen de waarden definiëren met behulp van het trefwoord _param_. Een parameter kan elke geldige expressie zijn, zelfs van een andere gegevensbron die ook een andere parameter bevat.
 
 >[!NOTE]
 >
@@ -120,7 +144,7 @@ Voor complexere gebruiksgevallen, als u de parameters van de gegevensbron in de 
 
 Gebruik de volgende syntaxis:
 
-```
+```json
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
@@ -129,7 +153,7 @@ Gebruik de volgende syntaxis:
 
 Voorbeeld:
 
-```
+```json
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
 #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
 ```

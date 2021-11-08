@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 14%
+source-wordcount: '111'
+ht-degree: 13%
 
 ---
 
@@ -36,6 +36,7 @@ Lijst
 | Lijst | listDuration |
 | Lijst | listDateTime |
 | Lijst | listDateTimeOnly |
+| Lijst | listDateOnly |
 | Boolean | Boolean |
 
 ## Handtekening en type geretourneerd
@@ -59,6 +60,10 @@ Keert een lijst van datetimes zonder tijdzone terug te overwegen.
 `sort(<listDateTime>,<boolean>)`
 
 Retourneert een lijst met datetimes.
+
+`sort(<listDateOnly>,<boolean>)`
+
+Retourneert een lijst met datums.
 
 `sort(<listBoolean>,<boolean>)`
 

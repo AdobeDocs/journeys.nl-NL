@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 4%
 
 ---
@@ -29,26 +29,26 @@ Allereerst willen we een bericht sturen zodra iemand een Marlton-hotel binnenkom
 
 Vervolgens controleren we twee voorwaarden:
 
-* Als deze persoon geen loyaliteitslid is, sturen we hem een e-mail om zich aan te sluiten bij het aanbod voor loyaliteitslidmaatschap.
+* Als deze persoon geen loyaliteitslid is, sturen wij hen een e-mail om zich bij het loyaliteitslidmaatschapsaanbod aan te sluiten.
 * Als deze persoon al een loyaliteitslid is, controleren we of hij een reservering voor een kamer heeft:
-   * Als hij dat niet doet, sturen we hem een pushmelding met kamertarieven.
-   * Als hij dat doet, sturen we hem een welkome pushmelding. Als hij binnen de komende 6 uur het restaurant binnenkomt, sturen we hem een pushmelding met een korting op een maaltijd.
+   * Als hij dat niet doet, sturen we ze een pushmelding met kamertarieven.
+   * Als hij dat doet, sturen we ze een welkome pushmelding. Als hij binnen de komende 6 uur het restaurant binnenkomt, sturen we ze een pushmelding met een korting op een maaltijd.
 
 ![](../assets/journeyuc2_29.png)
 
-Voor dit gebruiksgeval, zullen wij twee gebeurtenissen moeten tot stand brengen (zie [deze pagina](../usecase/configuring-the-events.md)):
+Voor dit gebruik moeten we twee gebeurtenissen maken (zie [deze pagina](../usecase/configuring-the-events.md)):
 
 * De lobby-gebeurtenis die naar het systeem wordt geduwd wanneer een klant het hotel binnenkomt.
 * De bakengebeurtenis van het restaurant die zal worden geduwd wanneer een klant het restaurant ingaat.
 
-We moeten een verbinding met twee gegevensbronnen configureren (zie [deze pagina](../usecase/configuring-the-data-sources.md)):
+Wij zullen een verbinding aan twee gegevensbronnen moeten vormen (zie [deze pagina](../usecase/configuring-the-data-sources.md)):
 
 * De ingebouwde gegevensbron van Adobe Experience Platform, om de informatie voor onze twee voorwaarden (loyaliteitslidmaatschap en laatste contactdatum) evenals de informatie van de berichtverpersoonlijking terug te winnen.
 * Het hotelreserveringssysteem om de informatie over de reserveringsstatus op te halen.
 
 ## Voorwaarden {#prerequisites}
 
-Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Zie deze [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl).
+Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Zie dit [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl).
 
 Adobe Campaign Standard is geconfigureerd voor het verzenden van e-mails en pushberichten.
 

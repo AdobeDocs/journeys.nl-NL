@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: e0bf1a6f9c160b72da28feaca1ca52665f365630
+source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ De uitdrukkingstaal introduceert ook een reeks functies aan vraaginzamelingen.
 
 Deze functies worden hieronder uitgelegd. In de volgende voorbeelden gebruiken we de gebeurtenislading die een verzameling bevat:
 
-```
+```json
                 { 
    "_experience":{ 
       "campaign":{ 
@@ -61,21 +61,21 @@ Deze functies worden hieronder uitgelegd. In de volgende voorbeelden gebruiken w
 
 **De functie &quot;all(`<condition>`)&quot;**
 
-De functie **[!UICONTROL all]** laat de definitie van een filter op een bepaalde inzameling toe door een booleaanse uitdrukking te gebruiken.
+De **[!UICONTROL all]** functie laat de definitie van een filter op een bepaalde inzameling toe door een booleaanse uitdrukking te gebruiken.
 
-```
+```json
 <listExpression>.all(<condition>)
 ```
 
-Bijvoorbeeld, onder alle app gebruikers, kunt u degenen krijgen gebruikend IOS 13 (booleaanse uitdrukking &quot;gebruikte app == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (voorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
+Zo kunt u onder alle gebruikers van de app de toepassingen ophalen met IOS 13 (Booleaanse expressie &quot;app used == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (voorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
 
-In een activiteit van de Voorwaarde van de Gegevensbron kunt u controleren of is het resultaat van de functie **[!UICONTROL all]** ongeldig of niet. U kunt deze **[!UICONTROL all]** functie met andere functies zoals **[!UICONTROL count]** combineren. Voor meer informatie, zie [De activiteit van de Voorwaarde van de Gegevensbron](../building-journeys/condition-activity.md#data_source_condition).
+In een activiteit van de Voorwaarde van de Gegevensbron kunt u controleren of het resultaat van **[!UICONTROL all]** functie is null of niet. U kunt dit ook combineren **[!UICONTROL all]** functies met andere functies, zoals **[!UICONTROL count]**. Zie voor meer informatie [Voorwaarde van gegevensbron, activiteit](../building-journeys/condition-activity.md#data_source_condition).
 
 **Voorbeeld 1:**
 
-We willen controleren of een gebruiker een specifieke versie van een toepassing heeft geïnstalleerd. Hiervoor krijgen we alle pushberichttokens die zijn gekoppeld aan mobiele toepassingen waarvoor de versie 1.0 is. Dan, voeren wij een voorwaarde met de **[!UICONTROL count]** functie uit om te controleren dat de teruggekeerde lijst van tekenen minstens één element bevat.
+We willen controleren of een gebruiker een specifieke versie van een toepassing heeft geïnstalleerd. Hiervoor krijgen we alle pushberichttokens die zijn gekoppeld aan mobiele toepassingen waarvoor de versie 1.0 is. Vervolgens voeren we een voorwaarde uit met de **[!UICONTROL count]** functie om te controleren of de geretourneerde lijst met tokens ten minste één element bevat.
 
-```
+```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
 ```
 
@@ -83,9 +83,9 @@ Het resultaat is waar.
 
 **Voorbeeld 2:**
 
-Hier gebruiken wij de **[!UICONTROL count]** functie om te controleren of er dupberichttekenen in de inzameling zijn.
+Hier gebruiken we de **[!UICONTROL count]** functie om te controleren of er pushberichttokens in de verzameling zijn.
 
-```
+```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
 ```
 
@@ -93,7 +93,7 @@ Het resultaat zal waar zijn.
 
 <!--Alternatively, you can check if there is no token in the collection:
 
-   ```
+   ```json
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
    ```
 
@@ -116,10 +116,10 @@ earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->Wanneer de filtervoorwaarde in de functie **all()** leeg is, retourneert het filter alle elementen in de lijst. **Als u echter het aantal elementen van een verzameling wilt tellen, is de functie all niet vereist.**
+>Wanneer de filtervoorwaarde in de **all()** Als de functie leeg is, retourneert het filter alle elementen in de lijst. **Als u echter het aantal elementen van een verzameling wilt tellen, is de functie all niet vereist.**
 
 
-```
+```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
@@ -127,9 +127,9 @@ Het resultaat van de expressie is **3**.
 
 **Voorbeeld 3:**
 
-Hier controleren we of een individu in de afgelopen 24 uur geen communicatie heeft ontvangen. Wij filtreren de inzameling van ervaringsgebeurtenissen die uit de datasource ExperiencePlatform worden teruggewonnen, gebruikend twee uitdrukkingen die op twee elementen van de inzameling worden gebaseerd. Met name wordt de tijdstempel van de gebeurtenis vergeleken met de dateTime die door de functie **[!UICONTROL nowWithDelta]** wordt geretourneerd.
+Hier controleren we of een individu in de afgelopen 24 uur geen communicatie heeft ontvangen. Wij filtreren de inzameling van ervaringsgebeurtenissen die uit de datasource ExperiencePlatform worden teruggewonnen, gebruikend twee uitdrukkingen die op twee elementen van de inzameling worden gebaseerd. Met name wordt de tijdstempel van de gebeurtenis vergeleken met de dateTime die door de **[!UICONTROL nowWithDelta]** functie.
 
-```
+```json
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
    currentDataPackField.directMarketing.sends.value > 0 and
    currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
@@ -139,9 +139,9 @@ Het resultaat is waar als er geen ervaringsgebeurtenis is die aan beide voorwaar
 
 **Voorbeeld 4:**
 
-Hier willen we controleren of een persoon in de afgelopen 7 dagen minstens één keer een toepassing heeft gestart, bijvoorbeeld om een pushmelding te activeren waarin hij wordt uitgenodigd een zelfstudie te starten.
+Hier willen we controleren of een persoon in de afgelopen 7 dagen minstens één keer een toepassing heeft gestart, bijvoorbeeld om een pushmelding te activeren waarin hij of zij wordt uitgenodigd een zelfstudie te starten.
 
-```
+```json
 count(
  #{ExperiencePlatform.AnalyticsData.experienceevent.all(
  nowWithDelta(-7,"days") <= currentDataPackField.timestamp
@@ -167,14 +167,14 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** is alleen beschikbaar bij het manipuleren van gebeurtenisverzamelingen en  **currentDataPackField**
->bij het manipuleren van gegevensbronverzamelingen. Bij het verwerken van verzamelingen met **[!UICONTROL all]**, **[!UICONTROL first]** en **[!UICONTROL last]**,
->loop elk element van de inzameling één voor één. **[!UICONTROL currentEventField]** en  **currentDataPackField**
+>**[!UICONTROL currentEventField]** is alleen beschikbaar bij het manipuleren van gebeurtenisverzamelingen en **currentDataPackField**
+>bij het manipuleren van gegevensbronverzamelingen. Bij het verwerken van verzamelingen met **[!UICONTROL all]**, **[!UICONTROL first]** en **[!UICONTROL last]**, wij
+>loop elk element van de inzameling één voor één. **[!UICONTROL currentEventField]** en **currentDataPackField**
 >komt overeen met het element dat wordt herhaald.
 
 **De functies &quot;first(`<condition>`)&quot; en &quot;last(`<condition>`)&quot;**
 
-De functies **[!UICONTROL first]** en **[!UICONTROL last]** laten ook de definitie van een filter op de inzameling toe terwijl het terugkeren van het eerste/laatste element van de lijst die de filter ontmoet.
+De **[!UICONTROL first]** en **[!UICONTROL last]** Met functies kunt u ook een filter op de verzameling definiëren en tegelijkertijd het eerste/laatste element van de lijst retourneren dat aan het filter voldoet.
 
 _`<listExpression>.first(<condition>)`_
 
@@ -184,7 +184,7 @@ _`<listExpression>.last(<condition>)`_
 
 Deze expressie retourneert het eerste pushmeldingtoken dat is gekoppeld aan mobiele toepassingen waarvoor de versie 1.0 is.
 
-```
+```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
 ```
 
@@ -194,7 +194,7 @@ Het resultaat is &quot;token_1&quot;.
 
 Deze expressie retourneert het laatste pushmeldingtoken dat is gekoppeld aan mobiele toepassingen waarvoor de versie 1.0 is.
 
-```
+```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
 ```
 
@@ -203,6 +203,7 @@ Het resultaat is &quot;token_2&quot;.
 >[!NOTE]
 >
 >De ervaringsgebeurtenissen worden uit de Adobe Experience Platform opgehaald als een verzameling in omgekeerde chronologische volgorde, vandaar:
+>
 >* **[!UICONTROL first]** functie retourneert de meest recente gebeurtenis
 >* **[!UICONTROL last]** functie retourneert de oudste functie.
 
@@ -211,14 +212,14 @@ Het resultaat is &quot;token_2&quot;.
 
 We controleren of de eerste (meest recente) Adobe Analytics-gebeurtenis met een waarde groter dan nul voor DMA-id een waarde heeft die gelijk is aan 602.
 
-```
+```json
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
 currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 ```
 
 **De functie &quot;at(`<index>`)&quot;**
 
-Met de functie **[!UICONTROL at]** kunt u naar een specifiek element in een verzameling verwijzen op basis van een index.
+De **[!UICONTROL at]** kunt u verwijzen naar een specifiek element in een verzameling op basis van een index.
 Index 0 is de eerste index van de verzameling.
 
 _`<listExpression>`.at(`<index>`)_
@@ -227,7 +228,7 @@ _`<listExpression>`.at(`<index>`)_
 
 Deze expressie retourneert de tweede token voor pushmeldingen van de lijst.
 
-```
+```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
@@ -235,12 +236,12 @@ Het resultaat is &quot;token_2&quot;.
 
 **Andere voorbeelden**
 
-```
+```json
 #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent. all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
 _aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
 ```
 
-```
+```json
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```

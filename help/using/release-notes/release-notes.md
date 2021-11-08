@@ -6,17 +6,41 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
+source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
-source-wordcount: '2965'
-ht-degree: 54%
+source-wordcount: '3069'
+ht-degree: 53%
 
 ---
 
 # Aanvullende informatie {#release-notes}
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
-U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-updates.md) raadplegen.
+U kunt ook de nieuwste [Documentatieupdates](../release-notes/documentation-updates.md).
+
+## Release oktober 2021 {#october-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### Verbeteringen
+
+* **Expression-editor** - Als energiegebruiker kunt u nu functies gebruiken om met kaarten te werken. [Meer informatie](../expression/field-references.md)
+* **Toegankelijkheid** - Er zijn verbeteringen aangebracht in de toegankelijkheid. Journey Orchestration voldoet nu volledig aan toegankelijkheidsvereisten.
+* **Verzamelingen** - Arrays met objecten die subobjecten bevatten, worden nu ondersteund. [Meer informatie](../usecase/collections.md)
+* **Toezicht** - De stapgebeurtenissen voor de live ritten en de testmodus zijn verbeterd. [Nieuwe velden](../building-journeys/sharing-field-list.md#serviceevents) zijn toegevoegd met betrekking tot exporttaken voor profielen. Voor een betere gebruikerservaring, zijn de gebieden van de step gebeurtenis nu georganiseerd in verschillende categorieën in het schema van de Gebeurtenis van de Stap van de Reis voor Journey Orchestration. Alle gebeurtenisvelden van vorige stappen zijn nog steeds beschikbaar in het dialoogvenster [stepEvents](../building-journeys/sharing-legacy-fields.md) categorie.
 
 ## Release september 2021 {#september-2021-release}
 
@@ -30,9 +54,9 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 <tr>
 <td>
 <p>U kunt nu verzamelingen of een lijst met gegevens in de aangepaste handelingsparameters doorgeven die tijdens runtime dynamisch worden gevuld. Er worden twee soorten verzamelingen ondersteund: eenvoudige verzamelingen en objectverzamelingen. Eerder gemaakte aangepaste handelingen blijven werken. </p>
-<p>Raadpleeg de <a href="../usecase/collections.md">gedetailleerde documentatie</a> voor meer informatie over verzamelingen. </p>
+<p>Raadpleeg voor meer informatie over verzamelingen de <a href="../usecase/collections.md">gedetailleerde documentatie</a>. </p>
 <p>Het filter en de kruisfuncties zijn toegevoegd aan de lijst met functies die beschikbaar zijn in de geavanceerde expressie-editor. Dit biedt meer mogelijkheden voor het filteren en vergelijken van verzamelingen.</p>
-<p>Raadpleeg de documentatie over de <a href="../functions/functionfilter.md">filter</a> en <a href="../functions/functionintersect.md">intersect</a> functies.</p>
+<p>Raadpleeg de documentatie bij de <a href="../functions/functionfilter.md">filter</a> en <a href="../functions/functionintersect.md">doorsnijden</a> functies.</p>
 </td>
 </tr>
 </tbody>
@@ -41,8 +65,8 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 ### Verbeteringen
 
 * Systeem produceerde schema&#39;s en datasets die tijdens levering voor stapgebeurtenissen zijn gecreeerd zijn nu op read-only wijze, beschermend tegen om het even welke onbedoelde wijzigingen in kritieke schema&#39;s. [Meer informatie](../building-journeys/sharing-overview.md)
-* Geef de activiteit **wait** een duidelijk label met een label dat op het canvas wordt weergegeven. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](../building-journeys/using-the-journey-designer.md)
-* Vind uw gebeurtenissen en acties sneller door elementen in **Gebeurtenissen** en **Actie** categorieën te filtreren gebruikend onderzoek. Orchestratie-activiteiten worden niet meer gefilterd. [Meer informatie](../building-journeys/using-the-journey-designer.md)
+* De **Wachten** activiteit met een label dat op het canvas wordt weergegeven. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](../building-journeys/using-the-journey-designer.md)
+* Vind uw gebeurtenissen en acties sneller door elementen in te filteren **Gebeurtenissen** en **Handeling** rubrieken die zoekactie gebruiken. Orchestratie-activiteiten worden niet meer gefilterd. [Meer informatie](../building-journeys/using-the-journey-designer.md)
 * Wanneer u een gebeurtenis-id-voorwaarde definieert in een op regels gebaseerde, operator &quot;contains&quot; is nu beschikbaar voor tekenreekstypen velden. [Meer informatie](../event/about-creating.md)
 
 ## Release van augustus 2021 {#august-2021-release}
@@ -51,10 +75,10 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 
 **Journeys**
 
-* **Dynamische headers**  - U kunt nu dynamische gegevens doorgeven in HTTP-headerparameters. Deze parameters kunnen door de integratiesystemen worden gebruikt die de vraag van HTTP van de reisactie, bijvoorbeeld timestamp of het volgen identiteitskaart ontvangen. [Meer informatie](../action/url-configuration.md)
-* **Dynamische URL-paden**  - U kunt nu dynamische URL-paden instellen voor aangepaste handelingen. [Meer informatie](../action/url-configuration.md)
+* **Dynamische koppen** - U kunt nu dynamische gegevens doorgeven in HTTP-headerparameters. Deze parameters kunnen door de integratiesystemen worden gebruikt die de vraag van HTTP van de reisactie, bijvoorbeeld timestamp of het volgen identiteitskaart ontvangen. [Meer informatie](../action/url-configuration.md)
+* **Dynamische URL-paden** - U kunt nu dynamische URL-paden instellen voor aangepaste handelingen. [Meer informatie](../action/url-configuration.md)
 
-## Juli 2021 Release {#july-2021-release}
+## Release van juli 2021 {#july-2021-release}
 
 <table>
 <thead>
@@ -75,7 +99,7 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 
 ### Verbeteringen
 
-* Het veld **Cacheduur** is verwijderd uit het configuratievenster van de gegevensbron. [Meer informatie](../datasource/about-data-sources.md)
+* De **Cacheduur** Het veld is verwijderd uit het configuratievenster van de gegevensbron. [Meer informatie](../datasource/about-data-sources.md)
 
 ## Release van juni 2021 {#june-2021-release}
 
@@ -107,16 +131,16 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 
 ### Verbeteringen
 
-* In het **scherm van de gebeurtenisconfiguratie** van de testwijze, wordt een dropdown nu getoond voor gebieden die een opsomming verwachten. Selecteer gewoon een van de beschikbare waarden. Hierdoor worden fouten voorkomen bij het activeren van de gebeurtenis als een onjuiste waarde is gedefinieerd. [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
+* In de **Gebeurtenisconfiguratie** in het scherm van de testmodus wordt nu een vervolgkeuzelijst weergegeven voor velden die een opsomming verwachten. Selecteer gewoon een van de beschikbare waarden. Hierdoor worden fouten voorkomen bij het activeren van de gebeurtenis als een onjuiste waarde is gedefinieerd. [Meer informatie](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Release van maart 2021 {#march-2021-release}
 
 ### Verbeteringen
 
-* Er is een nieuwe status toegevoegd aan de reizen. Wanneer een reis beëindigt of manueel gesloten is, schakelt zijn status van **Gesloten** aan **Afgewerkte** 30 dagen nadat het werd gesloten. Op die manier kunt u inactieve reizen gemakkelijker herkennen en ervoor zorgen dat alle personen die nog aanwezig zijn, tijd hebben om de reis af te maken. [Meer informatie](../building-journeys/journey.md#ending_a_journey)
-* In de activiteitenrechterdeelvensters van conceptreizen zijn alleen-lezen velden nu standaard verborgen. Deze interfacevereenvoudiging zal u helpen uw activiteiten gemakkelijker vormen. Als u deze wilt weergeven, klikt u op het pictogram **Alleen-lezen velden tonen**, beschikbaar in de linkerbovenhoek van het deelvenster Activiteitsconfiguratie. [Meer informatie](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* In de testmodus is in het scherm **Gebeurtenisconfiguratie** de naam van het veld **Sleutel** waarmee de id van het testprofiel wordt gedefinieerd, gewijzigd in **Profiel-id** voor een betere gebruikerservaring. [Meer informatie](../building-journeys/testing-the-journey.md).
-* Voor reactiegebeurtenissen kan de time-outduur nu alleen worden ingesteld tussen 40 seconden en 30 dagen. Bij het testen van een reis die een reactiegebeurtenis gebruikt, zijn de standaard- en minimumwaarde van de testmodus **[!UICONTROL Wait time]** nu 40 seconden. [Meer informatie](../building-journeys/reaction-events.md).
+* Er is een nieuwe status toegevoegd aan de reizen. Wanneer een reis beëindigt of manueel gesloten is, schakelt zijn status van **Gesloten** tot **Voltooid** 30 dagen nadat het gesloten was. Op die manier kunt u inactieve reizen gemakkelijker herkennen en ervoor zorgen dat alle personen die nog aanwezig zijn, tijd hebben om de reis af te maken. [Meer informatie](../building-journeys/journey.md#ending_a_journey)
+* In de activiteitenrechterdeelvensters van conceptreizen zijn alleen-lezen velden nu standaard verborgen. Deze interfacevereenvoudiging zal u helpen uw activiteiten gemakkelijker vormen. Klik op de knop **Alleen-lezen velden tonen** pictogram, beschikbaar in de linkerbovenhoek van het deelvenster Activiteitenconfiguratie. [Meer informatie](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* In de testmodus: **Gebeurtenisconfiguratie** scherm, de **Sleutel** veld dat wordt gebruikt om de id van het testprofiel te definiëren, is hernoemd **Profiel-id** voor een betere gebruikerservaring. [Meer informatie](../building-journeys/testing-the-journey.md).
+* Voor reactiegebeurtenissen kan de time-outduur nu alleen worden ingesteld tussen 40 seconden en 30 dagen. Bij het testen van een traject waarbij een reactiegebeurtenis wordt gebruikt, de testmodus **[!UICONTROL Wait time]** de standaardwaarde en de minimumwaarde zijn nu 40 seconden. [Meer informatie](../building-journeys/reaction-events.md).
 
 ## Release van februari 2021 {#february-2021-release}
 
@@ -141,7 +165,7 @@ U kunt ook de nieuwste [Documentatie-updates](../release-notes/documentation-upd
 * Bij het configureren van een gebeurtenis worden nu standaard alleen velden geselecteerd die verplicht zijn voor de XDM-validatie. Deze velden kunnen niet worden uitgeschakeld.
 * In het reispalet is een nieuw filter toegevoegd. Hiermee kunt u alleen de laatste vijf gebruikte gebeurtenissen en handelingen weergeven, naast de gebeurtenissen en handelingen die buiten de box vallen. Dit geldt specifiek voor elke gebruiker. Standaard worden alle items weergegeven. [Meer informatie](../building-journeys/using-the-journey-designer.md#palette)
 * Bij het starten van een nieuwe rit worden elementen die niet op het canvas kunnen worden neergezet als de eerste stap, nu verborgen. Dit heeft betrekking op alle handelingen, de activiteit van de aandoening, de wachttijd en de reactie.
-* In het linkerdeel van de geavanceerde uitdrukkingsredacteur, worden de functies nu opnieuw gegroepeerd onder een **sectie Functions** aan het eind van de lijst.
+* In het linkergedeelte van de geavanceerde expressie-editor worden functies nu opnieuw gegroepeerd onder een **Functies** aan het einde van de lijst.
 
 ## Release van januari 2021 {#january-2021-release}
 
@@ -155,7 +179,7 @@ Om zich aan Adobe Campaign Standard SLAs te richten, wordt een het maximum van 1
 
 De time-outduur van de gebeurtenis wordt nu duidelijker opgegeven in het time-outpad. [Meer informatie](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-De [getListItem](../functions/functiongetlistitem.md) en [split](../functions/functionsplit.md) functies zijn toegevoegd aan de lijst van functies beschikbaar in de geavanceerde uitdrukkingsredacteur. Dit zal meer mogelijkheden in uw koordberekeningen gebruiksgevallen aanbieden.
+De [getListItem](../functions/functiongetlistitem.md) en [splitsen](../functions/functionsplit.md) Er zijn functies toegevoegd aan de lijst met functies die beschikbaar zijn in de geavanceerde expressie-editor. Dit zal meer mogelijkheden in uw koordberekeningen gebruiksgevallen aanbieden.
 
 ## Release november 2020 {#november-release}
 
@@ -168,7 +192,7 @@ De [getListItem](../functions/functiongetlistitem.md) en [split](../functions/fu
 <tbody>
 <tr>
 <td>
-<p>Met een nieuwe actie kunt u personen van de ene reis naar de andere verplaatsen. Met de <strong>Jump</strong>-activiteit kunt u:
+<p>Met een nieuwe actie kunt u personen van de ene reis naar de andere verplaatsen. De <strong>Springen</strong> activiteit staat u toe:
 </p>
 <ul>
 <li>vereenvoudigen het ontwerp van zeer complexe reizen door deze in verschillende te splitsen </li>
@@ -274,7 +298,7 @@ De **Segmentkwalificatie** activiteit kan niet meer worden gebruikt in een reis 
 <tbody>
 <tr>
 <td>
-<p>De volgende verbeteringen zijn aangebracht in de <strong>Read segment</strong> activiteit:
+<p>De volgende verbeteringen zijn aangebracht in de <strong>Segment lezen</strong> activiteit:
 </p>
 <ul>
 <li><p>Op segmenten gebaseerde reizen tonen nu, boven het canvas, een herinnering aan het planningstype van de reis. U kunt op deze herinnering klikken om tot het menu van de planningsconfiguratie toegang te hebben.</p>

@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen
 description: Een bericht verzenden met Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: ded8f65e7210c252f59ec26150daaa964c7a6a77
+source-git-commit: 358fddd8e5c2ca80532ff2b74dc9627ffdc8837e
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '424'
 ht-degree: 4%
 
 ---
@@ -52,23 +52,6 @@ U kunt een verzameling doorgeven in aangepaste handelingsparameters die bij uitv
    ```
 
 ## Beperkingen {#limitations}
-
-* Arrays van objecten die subobjecten bevatten, worden niet ondersteund. Bijvoorbeeld:
-
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "details": {
-        "color":"blue"
-        },
-        "price":20.0
-     }
-    ]
-   }
-   ```
 
 * Geneste arrays van objecten binnen een objectarray worden momenteel niet ondersteund. Bijvoorbeeld:
 
@@ -118,7 +101,7 @@ Je kunt zien dat &#39;products&#39; een array van twee objecten is. U moet ten m
 
 1. Maak een aangepaste handeling. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
-1. Plak in de sectie **[!UICONTROL Action parameters]** het JSON-voorbeeld. De weergegeven structuur is statisch: bij het plakken van de lading, worden alle gebieden gedefinieerd als constanten.
+1. In de **[!UICONTROL Action parameters]** plakken, plakt u het JSON-voorbeeld. De weergegeven structuur is statisch: bij het plakken van de lading, worden alle gebieden gedefinieerd als constanten.
 
    ![](../assets/uc-collection-1.png)
 
@@ -140,7 +123,7 @@ Je kunt zien dat &#39;products&#39; een array van twee objecten is. U moet ten m
 
 1. Maak uw reis en voeg de aangepaste actie toe die u hebt gemaakt. Zie [deze pagina](../building-journeys/using-custom-actions.md).
 
-1. Definieer in de sectie **[!UICONTROL Action parameters]** de arrayparameter (&quot;products&quot; in ons voorbeeld) met de geavanceerde expressie-editor.
+1. In de **[!UICONTROL Action parameters]** definieert u de arrayparameter (&quot;products&quot; in ons voorbeeld) met de geavanceerde expressie-editor.
 
    ![](../assets/uc-collection-3.png)
 
@@ -148,7 +131,7 @@ Je kunt zien dat &#39;products&#39; een array van twee objecten is. U moet ten m
 
    ![](../assets/uc-collection-4.png)
 
-Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld gebruiken we de functies [filter](../functions/functionfilter.md) en [intersect](../functions/functionintersect.md):
+Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld gebruiken wij [filter](../functions/functionfilter.md) en [doorsnijden](../functions/functionintersect.md) functies:
 
 ![](../assets/uc-collection-5.png)
 

@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -50,22 +50,22 @@ Vervolgens worden alle addtocart-gebeurtenissen geselecteerd die niet zijn omgez
 
 De opgegeven tijdstempel fungeert als datumtijdwaarde en de tweede als aantal dagen.
 
-```
-        In( “addToCart”, #{ExperiencePlatformDataSource
+```json
+        in( "addToCart", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
                         .productInteraction})
-        And
-        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+        and
+        not(in( "completePurchase", #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
-                        .productInteraction})
+                        .productInteraction}))
 ```
 
 Deze expressie retourneert een Booleaanse waarde.
@@ -76,20 +76,20 @@ Deze expressie retourneert een Booleaanse waarde.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-* Rechts, worden de noodzakelijke waarden gespecificeerd, hier, moeten wij de plaats van de opslag terugwinnen, die van de plaats van de gebeurtenis &quot;ArriveLumaStudio&quot;in kaart wordt gebracht:
+* Bij het recht, worden de noodzakelijke waarden gespecificeerd, hier, moeten wij de plaats van de opslag terugwinnen, die van de plaats van de gebeurtenis &quot;ArriveLumaStudio&quot;in kaart wordt gebracht:
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
 * En specificeer SKU, gebruikend de functie `first` om de meest recente &quot;addToCart&quot;interactie terug te winnen:
 
-   ```
+   ```json
        #{ExperiencePlatformDataSource
                        .ExperienceEventFieldGroup
                        .experienceevent
                        .first(
                        currentDataPackField
                        .productData
-                       .productInteraction == “addToCart”
+                       .productInteraction == "addToCart"
                        )
                        .SKU}
    ```
@@ -102,7 +102,7 @@ Vanaf dat punt kunt u een ander pad in uw reis toevoegen voor wanneer het produc
 
 Met deze voorwaarde worden alleen de geofence-gebeurtenissen opgehaald die worden geactiveerd in &quot;Arlington&quot;:
 
-```
+```json
         @{GeofenceEntry
                     .placeContext
                     .POIinteraction
@@ -110,11 +110,11 @@ Met deze voorwaarde worden alleen de geofence-gebeurtenissen opgehaald die worde
                     .name} == "Arlington"
 ```
 
-Uitleg: Dit is een strikte tekenreeksvergelijking (hoofdlettergevoelig), gelijk aan een query in de eenvoudige modus die `equal to` gebruikt terwijl `Is sensitive` ingeschakeld is.
+Uitleg: Dit is een strikte tekenreeksvergelijking (hoofdlettergevoelig), gelijk aan een query in de eenvoudige modus die gebruikmaakt van `equal to` with `Is sensitive` ingeschakeld.
 
-Dezelfde query met `Is sensitive` uitgeschakeld genereert de volgende expressie in de geavanceerde modus:
+Dezelfde query met `Is sensitive` unselected zal de volgende uitdrukking op geavanceerde wijze produceren:
 
-```
+```json
         equalIgnoreCase(@{GeofenceEntry
                         .placeContext
                         .POIinteraction
@@ -126,7 +126,7 @@ Dezelfde query met `Is sensitive` uitgeschakeld genereert de volgende expressie 
 
 De volgende uitdrukking staat u toe om identiteitskaart van CRM in een gebied van de actieverpersoonlijking te bepalen:
 
-```
+```json
     substr(@{MobileAppLaunch
             ._myorganization
             .identification
@@ -135,10 +135,9 @@ De volgende uitdrukking staat u toe om identiteitskaart van CRM in een gebied va
                         ._myorganization
                         .identification
                         .crmid}
-                         }
                          ))
 ```
 
-Uitleg: In dit voorbeeld worden `substr`- en `lastIndexOf`-functies gebruikt om accolades te verwijderen die de CRM-id omsluiten die is doorgegeven met een startgebeurtenis voor een mobiele app.
+Uitleg: Dit voorbeeld gebruikt `substr` en `lastIndexOf` functies om accolades te verwijderen die de CRM-id omsluiten die is doorgegeven met een mobiele startgebeurtenis.
 
-Voor meer op hoe te om de geavanceerde uitdrukkingsredacteur te gebruiken, bekijk [deze video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Voor meer informatie over het gebruik van de geavanceerde expressieeditor bekijkt u [deze video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
