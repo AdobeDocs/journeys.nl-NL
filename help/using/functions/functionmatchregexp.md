@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 751fdcde-0af5-4f98-8cea-aae3ebefdb04
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 8%
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
@@ -40,10 +40,6 @@ Retourneert een Booleaanse waarde.
 
 ## Voorbeeld
 
-`matchRegExp("Hello World", "Hello\s+World")`
+`matchRegExp("username@adobe.com", "*adobe")`
 
 Retourneert true.
-
-Uitleg:
-
-Hier controleert u of de tekenreeks voldoet aan de reguliere expressie (Java-syntaxis): begint met &quot;Hello&quot;, dan elk type tekenreeks en eindigt met &quot;World&quot;.

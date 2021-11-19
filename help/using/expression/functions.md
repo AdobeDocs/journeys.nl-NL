@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '177'
 ht-degree: 73%
 
 ---
@@ -58,6 +58,7 @@ Hier volgt een lijst met ondersteunde functies.
 | Datum | [nowWithDelta](../functions/functionnowwithdelta.md) |
 | Datum | [setHours](../functions/functionsethours.md) |
 | Datum | [setDays](../functions/functionsetdays.md) |
+| Datum | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | Lijst | [distinct](../functions/functiondistinct.md) |
 | Lijst | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | Lijst | [filter](../functions/functionfilter.md) |

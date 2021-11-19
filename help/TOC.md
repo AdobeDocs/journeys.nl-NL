@@ -5,9 +5,9 @@ title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 feature: Journeys
-source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
+source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '438'
 ht-degree: 96%
 
 ---
@@ -97,8 +97,8 @@ ht-degree: 96%
          + [Identiteitsvelden van journeyStep-gebeurtenissen](using/building-journeys/sharing-identity-fields.md)
          + [journeyvelden](using/building-journeys/sharing-journey-fields.md)
       + [Voorbeelden van query&#39;s](using/building-journeys/query-examples.md)
-+ De geavanceerde expressie-editor gebruiken {#building-advanced-conditions-journeys}
-   + [De geavanceerde expressie-editor](using/expression/expressionadvanced.md)
++ Expressies maken {#building-advanced-conditions-journeys}
+   + [Overzicht](using/expression/expressionadvanced.md)
    + Syntaxis {#syntax}
       + [Algemeen](using/expression/generalities.md)
       + [Voorwaardelijke instructie](using/expression/conditional-instruction.md)
@@ -145,6 +145,7 @@ ht-degree: 96%
          + [nowWithDelta](using/functions/functionnowwithdelta.md)
          + [setHours](using/functions/functionsethours.md)
          + [setDays](using/functions/functionsetdays.md)
+         + [updateTimeZone](using/functions/functionupdatetimezone.md)
       + Lijst {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
