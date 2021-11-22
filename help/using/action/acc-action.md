@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 4b321b63-c624-4c2a-ae92-f9a2a95688d4
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '442'
 ht-degree: 5%
 
 ---
@@ -19,9 +19,9 @@ Deze integratie is beschikbaar voor Adobe Campaign Classic v7 vanaf versie 21.1 
 
 De verbinding tussen de instanties van Journey Orchestration en Campaign wordt door Adobe ingesteld tijdens de inrichting.
 
-In deze [sectie](../usecase/campaign-classic-use-case.md) wordt een gebruiksgeval van begin tot eind weergegeven.
+In dit hoofdstuk wordt een gebruiksgeval van begin tot eind weergegeven [sectie](../usecase/campaign-classic-use-case.md).
 
-Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de reisontwerper. Zie deze [sectie](../building-journeys/using-adobe-campaign-classic.md).
+Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de reisontwerper. Zie dit [sectie](../building-journeys/using-adobe-campaign-classic.md).
 
 ## Belangrijke opmerkingen
 
@@ -37,7 +37,7 @@ Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de
 
 ## Vereisten
 
-In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Raadpleeg de [Adobe Campaign-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
+In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Zie de [Adobe Campaign-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
 
 U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U zult dan deze nuttige lading wanneer het vormen van de actie in Journey Orchestration (zie hieronder) kleven
 
@@ -62,12 +62,12 @@ Hier volgt een voorbeeld:
 
 In Journey Orchestration, moet u één actie per transactiebericht vormen. Voer de volgende stappen uit:
 
-1. Maak een nieuwe handeling. Zie deze [sectie](../action/action.md).
+1. Maak een nieuwe handeling. Zie dit [sectie](../action/action.md).
 1. Voer een naam en beschrijving in.
-1. Selecteer **Adobe Campaign Classic** in het veld **Actietype**.
-1. Klik in het veld **Payload** en plak een voorbeeld van de JSON-lading die overeenkomt met het campagnebericht. Neem contact op met Adobe om deze lading op te halen.
+1. In de **Type handeling** veld, selecteren **Adobe Campaign Classic**.
+1. Klik in het dialoogvenster **Payload** veld en plak een voorbeeld van de JSON-payload die overeenkomt met het campagnebericht. Neem contact op met Adobe om deze lading op te halen.
 1. Pas de verschillende velden aan op statisch of variabel, afhankelijk van de vraag of u ze wilt toewijzen op het canvas Reis. Bepaalde gebieden, zoals kanaalparameters voor e-mailadres en verpersoonlijkingsgebieden (ctx), wilt u waarschijnlijk bepaald als variabelen voor afbeelding in de context van de reis.
-1. Klik **Opslaan**.
+1. Klikken **Opslaan**.
 
 ![](../assets/accintegration1.png)
 

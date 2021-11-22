@@ -8,18 +8,18 @@ level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 15%
 
 ---
 
 # Databronnen configureren {#concept_vml_hdy_w2b}
 
-In ons gebruiksgeval, willen wij verpersoonlijkingsgegevens voor onze berichten gebruiken. We moeten ook controleren of de persoon een loyaliteitslid is en in de afgelopen 24 uur niet is benaderd. Deze informatie wordt opgeslagen in het gegevensbestand van het Profiel van de Klant in real time. De **technische gebruiker** moet de gegevensbron van Adobe Experience Platform vormen om die gebieden terug te winnen.
+In ons gebruiksgeval, willen wij verpersoonlijkingsgegevens voor onze berichten gebruiken. We moeten ook controleren of de persoon een loyaliteitslid is en in de afgelopen 24 uur niet is benaderd. Deze informatie wordt opgeslagen in het gegevensbestand van het Profiel van de Klant in real time. De **technisch gebruiker** moet de Adobe Experience Platform-gegevensbron configureren om deze velden op te halen.
 
 Voor extra informatie over gegevensbronconfiguratie, verwijs naar [deze pagina](../datasource/about-data-sources.md).
 
-1. Selecteer **[!UICONTROL Admin]** in het menuvenster. Klik in de sectie **[!UICONTROL Data sources]** op **[!UICONTROL Manage]**.
+1. Selecteer in het menuvenster de optie **[!UICONTROL Admin]**. In de **[!UICONTROL Data sources]** sectie, klikt u op **[!UICONTROL Manage]**.
 1. Selecteer de ingebouwde Adobe Experience Platform-gegevensbron.
 
    ![](../assets/journey23.png)
@@ -30,19 +30,19 @@ Voor extra informatie over gegevensbronconfiguratie, verwijs naar [deze pagina](
    * _person > name > lastName_
    * _PersonalEmail > address_
 
-1. Klik **[!UICONTROL Add a New Field Group]**, selecteer een **[!UICONTROL Profiles]** schema en voeg **Loyalty lid** gebied voor onze voorwaarde toe. Het veld **Loyalty member** is een aangepast veld en is toegevoegd in XDM: &quot;_customer > marlton > loyaltyMember&quot;
+1. Klikken **[!UICONTROL Add a New Field Group]** selecteert u een **[!UICONTROL Profiles]** en voeg het schema toe **Loyalty** veld voor onze conditie. De **Loyalty** field is a custom field and was added in XDM: &quot;_customer > marlton > loyaltyMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
-1. Klik **[!UICONTROL Add a New Field Group]**, selecteer een **[!UICONTROL ExperienceEvent]** schema en kies de gebieden nodig voor onze voorwaarde op het aantal berichten die in een bepaalde periode worden verzonden: _timestamp_ voor de datum en _directMarketing > send > value_ voor het aantal verzonden berichten.
+1. Klikken **[!UICONTROL Add a New Field Group]** selecteert u een **[!UICONTROL ExperienceEvent]** schema en kies de gebieden nodig voor onze voorwaarde op het aantal berichten die in een bepaalde periode worden verzonden: _tijdstempel_ voor de datum en _directMarketing > send > value_ voor het aantal verzonden berichten.
 
    ![](../assets/journeyuc2_7.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
-We moeten ook controleren of de persoon een boeking heeft in het hotelreserveringssysteem. De **technische gebruiker** moet een tweede gegevensbron vormen om dit gebied terug te winnen.
+We moeten ook controleren of de persoon een boeking heeft in het hotelreserveringssysteem. De **technisch gebruiker** moet een tweede gegevensbron configureren om dit veld op te halen.
 
-1. In de lijst van gegevensbronnen, klik **[!UICONTROL Add]** om een nieuwe externe gegevensbron toe te voegen om de verbinding aan uw systeem van de hotelreserve te bepalen.
+1. Klik in de lijst met gegevensbronnen op **[!UICONTROL Add]** om een nieuwe externe gegevensbron toe te voegen om de verbinding aan uw systeem van de hotelreserve te bepalen.
 
    ![](../assets/journeyuc2_9.png)
 
@@ -56,10 +56,10 @@ We moeten ook controleren of de persoon een boeking heeft in het hotelreserverin
 
    ![](../assets/journeyuc2_10.png)
 
-1. Klik op **[!UICONTROL Add a New Field Group]** om de informatie op te halen en de API-parameters te definiëren. Voor ons voorbeeld is er slechts één parameter (de id), dus moeten we één veldgroep maken met de volgende informatie:
+1. Klikken **[!UICONTROL Add a New Field Group]** om de op te halen informatie en de API-parameters te definiëren. Voor ons voorbeeld is er slechts één parameter (de id), dus moeten we één veldgroep maken met de volgende informatie:
 
    * **[!UICONTROL Method]**: selecteer de methode POST of GET. In ons geval selecteren we de methode GET.
-   * **[!UICONTROL Response Payload]**: Klik in het  **[!UICONTROL Payload]** veld en plak een voorbeeld van de laadbewerking. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen. In ons voorbeeld bevat de lading alleen de reserveringsstatus:
+   * **[!UICONTROL Response Payload]**: klik binnen **[!UICONTROL Payload]** veld en plak een voorbeeld van de laadbewerking. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen. In ons voorbeeld bevat de lading alleen de reserveringsstatus:
 
    ```
    {

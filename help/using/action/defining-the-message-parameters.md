@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: De actieparameters definiëren
+title: Actieparameters definiëren
 description: Leer hoe u de actieparameters definieert
 feature: Journeys
 role: User
@@ -9,15 +9,15 @@ exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# De actieparameters definiëren {#concept_wy4_bf1_2gb}
+# Actieparameters definiëren {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-Plak in de sectie **[!UICONTROL Action parameters]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
+In de **[!UICONTROL Action parameters]** plakken, plakt u een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
 
 ![](../assets/customactionpayloadmessage.png)
 

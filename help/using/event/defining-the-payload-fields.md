@@ -8,16 +8,16 @@ level: Intermediate
 exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 6%
+source-wordcount: '299'
+ht-degree: 5%
 
 ---
 
 # Payloadvelden definiëren {#concept_yrw_3qt_52b}
 
-De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) voor meer informatie over XDM.
+De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
 
-1. Selecteer een XDM-schema in de lijst en klik op het veld **[!UICONTROL Payload]** of op het pictogram **[!UICONTROL Edit]**.
+1. Selecteer een XDM-schema in de lijst en klik op de knop **[!UICONTROL Payload]** of op **[!UICONTROL Edit]** pictogram.
 
    ![](../assets/journey8.png)
 
@@ -25,22 +25,22 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
    >[!NOTE]
    >
-   >Controleer of u de mix &quot;orkest&quot; aan het XDM-schema hebt toegevoegd. Dit zal ervoor zorgen dat uw schema alle vereiste informatie bevat om met [!DNL Journey Orchestration] te werken.
+   >Controleer of u de mix &quot;orkest&quot; aan het XDM-schema hebt toegevoegd. Dit zal ervoor zorgen dat uw schema alle vereiste informatie bevat om met te werken [!DNL Journey Orchestration].
 
    ![](../assets/journey9.png)
 
-1. Selecteer de velden die u van de gebeurtenis wilt ontvangen. Dit zijn de gebieden die de bedrijfsgebruiker in de reis zal hefboomwerking hebben. Zij moeten ook de sleutel omvatten die zal worden gebruikt om de persoon te identificeren verbonden aan de gebeurtenis (zie [deze pagina](../event/defining-the-event-key.md)).
+1. Selecteer de velden die u van de gebeurtenis wilt ontvangen. Dit zijn de gebieden die de bedrijfsgebruiker in de reis zal hefboomwerking hebben. Ze moeten ook de sleutel bevatten die wordt gebruikt om de persoon te identificeren die aan de gebeurtenis is gekoppeld (zie [deze pagina](../event/defining-the-event-key.md)).
 
    ![](../assets/journey10.png)
 
    >[!NOTE]
    >
-   >Voor door het systeem gegenereerde gebeurtenissen wordt het veld **[!UICONTROL eventID]** automatisch toegevoegd aan de lijst met geselecteerde velden, zodat [!DNL Journey Orchestration] de gebeurtenis kan identificeren. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [deze pagina](../event/previewing-the-payload.md).
+   >Voor door het systeem gegenereerde gebeurtenissen wordt de **[!UICONTROL eventID]** wordt automatisch toegevoegd aan de lijst met geselecteerde velden, zodat [!DNL Journey Orchestration] kan de gebeurtenis identificeren. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [deze pagina](../event/previewing-the-payload.md).
 
-1. Wanneer u klaar bent met het selecteren van de benodigde velden, klikt u op **[!UICONTROL Save]** of drukt u op **[!UICONTROL Enter]**.
+1. Als u de gewenste velden hebt geselecteerd, klikt u op **[!UICONTROL Save]** of drukken **[!UICONTROL Enter]**.
 
    ![](../assets/journey11.png)
 
-   Het aantal geselecteerde velden wordt weergegeven in het veld **[!UICONTROL Payload]**.
+   Het aantal geselecteerde velden wordt weergegeven in het dialoogvenster **[!UICONTROL Payload]** veld.
 
    ![](../assets/journey12.png)

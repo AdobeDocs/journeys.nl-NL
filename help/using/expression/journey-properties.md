@@ -8,18 +8,18 @@ level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---
 
 # Eigenschappen voor reizen {#journey-properties}
 
-In de geavanceerde uitdrukkingsredacteur, zult u de **categorie van de Eigenschappen van de Reis**, onder de gebeurtenis en gegevensbroncategorieën vinden. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen.
+In de geavanceerde uitdrukkingsredacteur, zult u vinden **Reiseigenschappen** categorie, onder de categorieën gebeurtenis en gegevensbron. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen.
 
 >[!NOTE]
 >
->De eigenschappen van de reis zijn ook beschikbaar in de eenvoudige uitdrukkingsredacteur. Zie deze [sectie](../building-journeys/condition-activity.md#about_condition)
+>De eigenschappen van de reis zijn ook beschikbaar in de eenvoudige uitdrukkingsredacteur. Zie dit [sectie](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 
@@ -34,11 +34,11 @@ U kunt deze velden gebruiken om expressies te maken. Tijdens de uitvoering van d
 
 Hier volgen enkele voorbeelden van gebruiksgevallen:
 
-* **Verworpen profielen** in logboek opnemen: u kunt alle profielen verzenden die van een bericht door een het plafonneren regel aan een derdesysteem voor het registreren worden uitgesloten. Hiervoor stelt u een pad in in het geval van een time-out en een fout en voegt u een voorwaarde toe om te filteren op een specifiek fouttype, bijvoorbeeld: &quot;Verwijder mensen door op de regel te tikken&quot;. U kunt de verwijderde profielen vervolgens via een aangepaste handeling naar een systeem van een andere fabrikant duwen.
+* **Verworpen profielen vastleggen**: u kunt alle profielen verzenden die van een bericht door een het plafonneren regel aan een derdesysteem voor het registreren worden uitgesloten. Hiervoor stelt u een pad in in het geval van een time-out en een fout en voegt u een voorwaarde toe om te filteren op een specifiek fouttype, bijvoorbeeld: &quot;Verwijder mensen door op de regel te tikken&quot;. U kunt de verwijderde profielen vervolgens via een aangepaste handeling naar een systeem van een andere fabrikant duwen.
 
 * **Waarschuwingen verzenden bij fouten**: u kunt een bericht naar een derdesysteem verzenden telkens als een fout op een bericht voorkomt. Hiervoor stelt u een pad in bij een fout, voegt u een voorwaarde en een aangepaste handeling toe. U kunt bijvoorbeeld een melding verzenden naar een Slack-kanaal met een beschrijving van de aangetroffen fout.
 
-* **Fouten in rapportage**  verfijnen: in plaats van slechts één pad voor foutmeldingen, kunt u een voorwaarde per fouttype definiëren. Hierdoor kunt u de rapportage verfijnen en alle gegevens van fouttypen weergeven.
+* **Fouten in rapportage verfijnen** : in plaats van slechts één pad voor foutmeldingen, kunt u een voorwaarde per fouttype definiëren. Hierdoor kunt u de rapportage verfijnen en alle gegevens van fouttypen weergeven.
 
 ## Lijst met velden {#journey-properties-fields}
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
 source-git-commit: 0c55ece133639ec001b58f73afcbc69787b98c0e
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 14%
+source-wordcount: '55'
+ht-degree: 12%
 
 ---
 
@@ -46,7 +46,7 @@ Retourneer een datetime zonder rekening te houden met tijdzone.
 
 `toDateTimeOnly ("2016-08-18")`
 
-retourneert een dateTime die staat voor 2016-08-18T00:00:00.000
+retourneert een dateTime die staat voor 2016-08-18T00:00:00,000
 
 `toDateTimeOnly(now())`
 

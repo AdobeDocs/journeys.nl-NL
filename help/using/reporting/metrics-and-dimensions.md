@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Overzicht van cijfers en dimensies
+title: Statistieken en afmetingen
 description: Meer informatie over de beschikbare afmetingen en meetgegevens voor Journey Orchestration
 feature: Journeys
 role: User
@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1035'
 ht-degree: 1%
 
 ---
 
-# Overzicht van cijfers en dimensies {#concept_rfj_wpt_52b}
+# Statistieken en afmetingen {#concept_rfj_wpt_52b}
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Hier vindt u de lijst met alle componenten die beschikbaar zijn in dynamische ra
 
 In de onderstaande tabel staan de afmetingen die worden gebruikt in reisrapporten en de definities daarvan.
 
-Raadpleeg [deze pagina](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf) voor meer informatie over compatibiliteit tussen afmetingen en metriek.
+Raadpleeg voor meer informatie over compatibiliteit tussen dimensies en metriek [deze pagina](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
 
 ## Reisafmetingen {#MBE_table_wk4_bnj_w2b}
 
@@ -31,13 +31,13 @@ In de onderstaande tabel staan de afmetingen die worden gebruikt in reisrapporte
 
 | Dimensies | Definitie |
 |--- |--- |
-| **Actie** | Lijst met alle handelingen (**naam van de handeling - actielabel**) die worden gebruikt tijdens reizen, bijvoorbeeld push - Check out confirm, Email - Rewards fidelity. |
-| **Gegevensbron** | Lijst met gegevensbronnen (**naam gegevensbron**) die worden gebruikt om gegevens te verrijken in een reis, bijvoorbeeld Adobe Experience Platform, reserveringssysteem. |
-| **[!UICONTROL Event]** | Lijst van elke gebeurtenis (**naam van de gebeurtenis - gebeurtenislabel**) die wordt gebruikt tijdens reizen, bijvoorbeeld Geometrixx-gebeurtenis - uitchecken van Geometrixx. |
-| **Veldgroep** | Lijst van veldgroepen (**veldgroepsnaam**) die worden gebruikt om gegevens te verrijken tijdens reizen, bijvoorbeeld profielveldgroep, reserveringssysteem Geometrixx. |
-| **Reis** | Lijst van elke reis (**naam van de reis**) in testmodus en live, bv. stopzetting van de auto, kennisgeving van reservering van het hotel. |
-| **Reisversie** | Lijst van elke gepubliceerde versie van een reis (**reisnaam + versienummer**), bv. Afschaffing van winkelwagentje v1, kennisgeving van reservering voor hotel v2. |
-| **Orchestratie** | Lijst van elke orkestactiviteit (**Voorwaarde, Eind, Wacht**) bepaald en gebruikt in reizen. |
+| **Actie** | Lijst met alle acties (**actienaam - actielabel**) gebruikt bij reizen, bijvoorbeeld push - Check out bevestiging, email - Rewards fidelity. |
+| **Gegevensbron** | Lijst met gegevensbronnen (**naam gegevensbron**) gebruikt om gegevens te verrijken op een reis, bijvoorbeeld in Adobe Experience Platform, reserveringssysteem. |
+| **[!UICONTROL Event]** | Lijst met alle gebeurtenissen (**naam van gebeurtenis - label van gebeurtenis**) gebruikt bij reizen, bijvoorbeeld Geometrixx event - Geometrixx check out. |
+| **Veldgroep** | Lijst van veldgroepen (**veldgroepsnaam**) gebruikt om gegevens op reizen te verrijken, bijvoorbeeld profielveldgroep, Geometrixx-reserveringssysteem. |
+| **Reis** | Lijst van elke reis (**reisnaam**) in testmodus en live, bv. stopzetting van winkelwagentjes, kennisgeving van hotelreservering. |
+| **Reisversie** | Lijst van alle gepubliceerde reisversies (**reisnaam + versienummer**), bijvoorbeeld stopzetting van winkelwagentje v1, kennisgeving van reservering voor hotel v2. |
+| **Orchestratie** | Lijst van elke orkestactiviteit (**Voorwaarde, Einde, Wacht**) gedefinieerd en gebruikt voor reizen. |
 
 ## Afmetingen van levering {#delivery-dimensions}
 
@@ -68,7 +68,7 @@ In de onderstaande tabel vindt u een lijst met maatstaven die worden gebruikt in
 | **Voltooiingsgraad** | Het totale aantal personen dat normaal gesproken de reis beëindigde, vergeleken met het totale aantal personen dat de reis heeft betreden. |
 | **Huidig** | Het totale aantal personen dat momenteel op reis is, d.w.z. het aantal personen dat is binnengekomen min het aantal personen dat is vertrokken, de fouten en het tijdstip waarop de reis heeft plaatsgevonden. |
 | **Huidige rentevoet** | Het totale aantal personen dat momenteel op reis is, in vergelijking met het aantal personen dat de reis heeft betreden. |
-| **Ingegaan** | Het totale aantal gebeurtenissen dat heeft plaatsgevonden om een individuele ingang in de reis te beginnen. |
+| **Ingegaan** | Het totale aantal gebeurtenissen dat zich heeft voorgedaan om een individuele ingang in de reis te beginnen. |
 | **Fout** | Het totale aantal fouten dat tijdens een reis is opgetreden, maar dat de reis niet heeft verhinderd succesvol te zijn. |
 | **Fout in handeling** | Het totale aantal fouten dat is opgetreden voor handelingen. |
 | **Fout in verrijking** | Het totale aantal fouten dat voor een gegevensverrijking voorkwam toen het roepen van een gegevensbron/gebiedsgroep. |
@@ -83,8 +83,7 @@ In de onderstaande tabel vindt u een lijst met maatstaven die worden gebruikt in
 
 ## Leveringscijfers {#delivery-metrics}
 
-In de onderstaande tabel vindt u een lijst met maatstaven die tijdens de reis worden gebruikt
-verslagen, hun definities en formules.
+In de onderstaande tabel vindt u een lijst met maatstaven die worden gebruikt in reisrapporten, de definities en de formules van deze statistieken.
 
 | Metrisch | Definitie |
 |--- |--- |

@@ -23,7 +23,7 @@ Controleert of een individu tot een bepaald segment behoort.
 
 De segmentnaam moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn.
 
-Segmenten worden gedefinieerd in [Adobe Experience Platform](https://platform.adobe.com/segment/overview). De uitdrukkingsredacteur verstrekt een autocompleted lijst van segmenten.
+Segmenten worden gedefinieerd in het dialoogvenster [Adobe Experience Platform](https://platform.adobe.com/segment/overview). De uitdrukkingsredacteur verstrekt een autocompleted lijst van segmenten.
 
 Segmenten kunnen drie statussen hebben:
 
@@ -31,7 +31,7 @@ Segmenten kunnen drie statussen hebben:
 * gerealiseerd: entiteit gaat het segment in.
 * verlaten: entiteit verlaat het segment.
 
-Alleen personen met de **Realized** en **Existing**-segmentparticipatiestatus worden beschouwd als leden van het segment. Raadpleeg de [documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results) voor meer informatie over het evalueren van een segment.
+Alleen personen met de **Gerealiseerd** en **Bestaande** de deelnamestatistieken van segmenten worden beschouwd als leden van het segment . Raadpleeg voor meer informatie over het evalueren van een segment de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` betekent dat u een segmentLidmaatschap met de ingegaan/bestaande status hebt.
 
@@ -63,4 +63,4 @@ Retourneert een Booleaanse waarde.
 
 Uitleg:
 
-De functie zal **[!UICONTROL true]** terugkeren als het individu binnen de reisinstantie deel van het segment van Adobe Experience Platform genoemd &quot;mannen over 50&quot; uitmaakt, anders **[!UICONTROL false]**.
+De functie wordt geretourneerd **[!UICONTROL true]** als de persoon binnen de reisinstantie deel uitmaakt van het Adobe Experience Platform-segment &quot;mannen boven de 50&quot;, **[!UICONTROL false]** anders.

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 8%
+source-wordcount: '93'
+ht-degree: 7%
 
 ---
 
@@ -36,7 +36,7 @@ Conversie
 
 >[!NOTE]
 >
->Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. Raadpleeg [deze pagina](../expression/data-types.md) voor meer informatie over gegevenstypen.
+>Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. Raadpleeg voor meer informatie over gegevenstypen [deze pagina](../expression/data-types.md).
 
 ## Handtekeningen en geretourneerde typen
 
@@ -73,15 +73,15 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-Retourneert 2016-08-18T23:17:59.123Z
+Retourneert 2016-08-18T23:17:59,123Z
 
 `toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
-Retourneert 2016-08-18T23:17:59.123Z
+Retourneert 2016-08-18T23:17:59,123Z
 
 `toDateTime(1560762190189)`
 
-Retourneert 2019-06-17T09:03:10.189Z
+Retourneert 2019-06-17T09:03:10,189Z
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

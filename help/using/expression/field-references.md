@@ -54,7 +54,7 @@ Een standaardwaarde kan aan een gebiedsnaam worden geassocieerd. De syntaxis is 
 
 >[!NOTE]
 >
->Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld @{LobbyBeacon.endUserIDs._experience.ease.id, defaultValue: 2} is ongeldig omdat de standaardwaarde een geheel getal is en de verwachte waarde een tekenreeks.
+>Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
 
 Voorbeelden:
 

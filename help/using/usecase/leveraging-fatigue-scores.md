@@ -16,23 +16,23 @@ Met deze gebruiksaanwijzing kunt u de vermoeidheidsscores benutten om te voorkom
 
 >[!NOTE]
 >
->De functie voor voorspellende vermoeidheidsscore is alleen beschikbaar voor klanten die de [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html) gebruiken.
+>De functie voor voorspellende vermoeidheidsscore is alleen beschikbaar voor klanten die de functie [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
 
 ## De gebeurtenis configureren {#section_ptb_ws1_ffb}
 
-Voer de stappen uit die worden beschreven in [deze pagina](../event/about-events.md).
+Voer de in [deze pagina](../event/about-events.md).
 
 ## De databron configureren {#section_o3n_4yy_wfb}
 
 Voer de volgende stappen uit om de gebieden van de vermoeidheidsscore in de ingebouwde gegevensbron te selecteren:
 
-1. Selecteer **[!UICONTROL Admin]** in het menuvenster. Klik in de sectie **[!UICONTROL Data sources]** op **[!UICONTROL Manage]**.
+1. Selecteer in het menuvenster de optie **[!UICONTROL Admin]**. In de **[!UICONTROL Data sources]** sectie, klikt u op **[!UICONTROL Manage]**.
 1. Selecteer de ingebouwde Adobe Experience Platform-gegevensbron.
 
    ![](../assets/journey23.png)
 
 1. Controleer of de velden die nodig zijn voor het gebruik van hoofdletters en kleine letters zijn geselecteerd.
-1. Klik op **[!UICONTROL Add a New Field Group]**, selecteer het **[!UICONTROL Profiles]**-model en voeg de velden **[!UICONTROL fatigueLevel]** en **[!UICONTROL fatigueScore]** toe (onder _tripAI > emailScore > moeheid_).
+1. Klikken **[!UICONTROL Add a New Field Group]**, selecteert u de **[!UICONTROL Profiles]** model en voeg de **[!UICONTROL fatigueLevel]** en **[!UICONTROL fatigueScore]** velden (onder _tripAI > emailScore > vermoeidheid_).
 
    ![](../assets/journeyuc3_1.png)
 
@@ -40,9 +40,9 @@ Voer de volgende stappen uit om de gebieden van de vermoeidheidsscore in de inge
 
 ## Journey samenstellen {#section_uzm_pyy_wfb}
 
-Als u de reis wilt maken, valideren en publiceren, voert u de stappen uit die worden beschreven in [deze pagina](../building-journeys/journey.md).
+Volg de in [deze pagina](../building-journeys/journey.md).
 
-In ons gebruiksgeval gebruiken we het veld **[!UICONTROL fatigueLevel]**. U kunt ook het veld **[!UICONTROL fatigueScore]** gebruiken.
+In ons gebruiksgeval gebruiken we de **[!UICONTROL fatigueLevel]** veld. U kunt ook de opdracht **[!UICONTROL fatigueScore]** veld.
 
 Voer de volgende stappen uit om het vermoeidheidsniveau tijdens uw reis te benutten:
 
@@ -54,7 +54,7 @@ Voer de volgende stappen uit om het vermoeidheidsniveau tijdens uw reis te benut
 
    ![](../assets/journeyuc3_2.png)
 
-1. Zoek met de eenvoudige expressie-editor naar het veld **[!UICONTROL fatigueLevel]** (_ExperiencePlatformDataSource > JourneyAIScores > Profile > tripAI > emailScore > vermoeidheid_), zet het naar rechts en maak de volgende voorwaarde: &quot;fatigueLevel is gelijk aan &quot;Low&quot;. Klik op **[!UICONTROL Ok]**.
+1. Gebruikend de eenvoudige uitdrukkingsredacteur, zoek naar **[!UICONTROL fatigueLevel]** field (_ExperiencePlatformDataSource > JourneyAIScores > Profile > tripAI > emailScore > vermoeidheid_), zet het neer aan het recht en creeer de volgende voorwaarde: &quot;fatigueLevel is gelijk aan &quot;Low&quot;. Klik op **[!UICONTROL Ok]**.
 
    ![](../assets/journeyuc3_3.png)
 

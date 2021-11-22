@@ -23,7 +23,7 @@ ht-degree: 61%
 
 ## Toegang tot [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Als u de interface van [!DNL Journey Orchestration] wilt openen, klikt u op het pictogram **[!UICONTROL App Selector]** rechtsboven en klikt u op **[!UICONTROL Journey Orchestration]**.
+Om toegang te krijgen tot [!DNL Journey Orchestration]s interface, klik **[!UICONTROL App Selector]** in de rechterbovenhoek, en klik vervolgens op **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -55,7 +55,7 @@ U kunt het dialoogvenster **[!UICONTROL Filters]** openen door te klikken op het
 
 Gebruik in de lijsten **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]** de **[!UICONTROL Creation filters]** om te filteren op de datum waarop en de gebruiker door wie een element is gemaakt. U kunt bijvoorbeeld besluiten alleen gebeurtenissen weer te geven die u in de afgelopen 30 dagen hebt gemaakt.
 
-In de reislijst (onder **[!UICONTROL Home]**), naast **[!UICONTROL Creation filters]**, kunt u de getoonde reizen ook filtreren volgens hun status, type en versie (**[!UICONTROL Status and version filters]**). Het type kan zijn: **[!UICONTROL Unitary event]** of **[!UICONTROL Segment qualification]**. U kunt er ook voor kiezen om alleen de journey’s weer te geven die een bepaalde gebeurtenis, veldengroep of actie (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**) gebruiken. Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of gebruiker selecteren. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live journey’s weer te geven die gisteren zijn gepubliceerd. Zie [deze pagina](../building-journeys/using-the-journey-designer.md).
+In de reislijst (onder **[!UICONTROL Home]**, naast de **[!UICONTROL Creation filters]** kunt u de weergegeven reizen ook filteren op basis van hun status, type en versie (**[!UICONTROL Status and version filters]**). Het type kan zijn: **[!UICONTROL Unitary event]** of **[!UICONTROL Segment qualification]**. U kunt er ook voor kiezen om alleen de journey’s weer te geven die een bepaalde gebeurtenis, veldengroep of actie (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**) gebruiken. Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of gebruiker selecteren. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live journey’s weer te geven die gisteren zijn gepubliceerd. Zie [deze pagina](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -95,19 +95,19 @@ De toegankelijkheidsfuncties in Adobe Journey Optimizer worden geleverd door Ado
 * Kleurcontrast
 * Validatie van vereiste velden
 
-[Meer](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html) informatie over {target=&quot;_blank&quot;} vindt u in de documentatie van Adobe Experience Platform.
+[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} in Adobe Experience Platform-documentatie.
 
 U kunt de volgende algemene sneltoetsen gebruiken in Adobe Journey Optimizer:
 
 | Actie | Sneltoets |
 | --- | --- |
-| Tussen gebruikersinterface-elementen, -secties en -menugroepen verplaatsen | Tab |
+| Tussen gebruikersinterface-elementen, -secties en -menugroepen verplaatsen | Tabtoets |
 | Ga achterwaarts tussen gebruikersinterface-elementen, -secties en -menuproepen | Shift + Tab |
 | Binnen secties verplaatsen om focus in te stellen op afzonderlijke elementen | Pijl |
-| Een element dat de focus heeft selecteren of wissen | Enter of Spatiebalk |
+| Een element dat de focus heeft selecteren of wissen | Enter of spatiebalk |
 | Een selectie annuleren, een deelvenster samenvouwen of een dialoogvenster sluiten | Esc |
 
-[Meer](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html) informatie over {target=&quot;_blank&quot;} vindt u in de documentatie van Adobe Experience Platform.
+[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} in Adobe Experience Platform-documentatie.
 
 U kunt deze sneltoetsen gebruiken in specifieke delen van Journey Optimizer:
 
@@ -151,7 +151,7 @@ Configuratievenster van deze elementen:
 
 </td>
     <td>Ga naar het volgende veld dat moet worden geconfigureerd</td>
-    <td>Tab</td>
+    <td>Tabtoets</td>
   </tr>
   <tr>
     <td>Wijzigingen opslaan en het configuratievenster sluiten</td>
@@ -173,7 +173,7 @@ Configuratievenster van deze elementen:
   <tr>
     <td>
 
-Een gebeurtenis activeren tijdens een op segmenten gebaseerde reis waarvoor de optie **[!UICONTROL Single profile at a time]** is ingeschakeld
+Een gebeurtenis activeren in een op segmenten gebaseerde reis waarvoor de **[!UICONTROL Single profile at a time]** optie is ingeschakeld
 
 </td>
     <td>P</td>

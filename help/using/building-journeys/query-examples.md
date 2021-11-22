@@ -8,7 +8,7 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: e758d4430bb28c109633c96e330b56ad08a61c02
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -94,7 +94,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Het resultaat moet groter zijn dan 0. Deze vraag vertelt ons slechts of de berichtactie met succes op de reiskant werd uitgevoerd.
 
-**Methode 2:** als de naam van uw bericht in de reis uniek is.
+**Methode 2:** als de naam van uw bericht uniek is in de reis.
 
 _Gegevens Meer query_
 

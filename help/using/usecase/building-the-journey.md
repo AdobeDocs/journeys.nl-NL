@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '847'
 ht-degree: 92%
 
 ---
@@ -27,7 +27,7 @@ De **bedrijfsgebruiker** kan nu de journey bouwen. Onze journey bevat de volgend
 >
 >De **[!UICONTROL Push]**- en **[!UICONTROL Email]**-activiteiten zijn alleen beschikbaar in het palet als u Adobe Campaign Standard hebt.
 
-Raadpleeg [deze pagina](../building-journeys/journey.md) voor meer informatie over het maken van een reis.
+Voor meer informatie over hoe u een reis kunt maken, raadpleegt u [deze pagina](../building-journeys/journey.md).
 
 ## Eerste stappen{#section_ntb_ws1_ffb}
 
@@ -77,7 +77,7 @@ Raadpleeg [deze pagina](../building-journeys/journey.md) voor meer informatie ov
    >
    >In het tweede deel van de expressie is ‘Profiel’ optioneel.
 
-1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Zie [deze pagina](../event/selecting-the-namespace.md) voor meer informatie over naamruimten.
+1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Voor meer informatie over naamruimten raadpleegt u [deze pagina](../event/selecting-the-namespace.md).
 
 In ons gebruiksscenario willen we alleen reageren op deze twee voorwaarden, dus we schakelen het selectievakje **[!UICONTROL Show path for other cases than the one(s) above]** niet in.
 
@@ -102,7 +102,7 @@ Na uw voorwaarde worden twee paden gemaakt:
 
    ![](../assets/journeyuc2_18.png)
 
-1. Wanneer u een gebied van een externe gegevensbron selecteert, toont het juiste deel van het scherm de lijst van parameters die werden bepaald toen het vormen van de externe gegevensbron (zie [deze pagina](../usecase/configuring-the-data-sources.md)). Klik op de parameternaam en definieer de waarde van de sleutel van het reserveringssysteem, de Experience Cloud-ID, in ons voorbeeld:
+1. Wanneer u een gebied van een externe gegevensbron selecteert, toont het juiste deel van het scherm de lijst van parameters die toen het vormen van de externe gegevensbron werden bepaald (zie [deze pagina](../usecase/configuring-the-data-sources.md)). Klik op de parameternaam en definieer de waarde van de sleutel van het reserveringssysteem, de Experience Cloud-ID, in ons voorbeeld:
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -168,7 +168,7 @@ Na uw voorwaarde worden twee paden gemaakt:
 
 1. Voeg een **[!UICONTROL End]**-activiteit toe.
 
-Klik op de **[!UICONTROL Test]**-schakeloptie en test uw journey. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Raadpleeg [deze pagina](../building-journeys/testing-the-journey.md) voor meer informatie over de testmodus.
+Klik op de **[!UICONTROL Test]**-schakeloptie en test uw journey. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Raadpleeg voor meer informatie over de testmodus [deze pagina](../building-journeys/testing-the-journey.md).
 
 ![](../assets/journeyuc2_32bis.png)
 

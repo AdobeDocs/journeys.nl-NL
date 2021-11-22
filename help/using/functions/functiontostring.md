@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '114'
 ht-degree: 6%
 
 ---
 
 # toString {#toString}
 
-Zet een argumentwaarde in een koordwaarde om, afhankelijk van zijn type. Raadpleeg [deze pagina](../expression/data-types.md) voor meer informatie over gegevenstypen.
+Zet een argumentwaarde in een koordwaarde om, afhankelijk van zijn type. Raadpleeg voor meer informatie over gegevenstypen [deze pagina](../expression/data-types.md).
 
 ## Categorie
 

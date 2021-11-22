@@ -15,11 +15,11 @@ ht-degree: 4%
 
 # URL-configuratie {#concept_gbg_1f1_2gb}
 
-Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Configuration]** parameters bepalen:
+Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTROL URL Configuration]** parameters:
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Geef in het veld **[!UICONTROL URL]** de URL van de externe service op:
+1. In de **[!UICONTROL URL]** -veld, geeft u de URL van de externe service op:
 
    * Als de URL statisch is, voert u de URL in dit veld in.
 
@@ -34,22 +34,22 @@ Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Con
    >
    >Alleen de standaardpoorten zijn toegestaan bij het definiëren van een aangepaste handeling: 80 voor http en 443 voor https.
 
-1. Selecteer de vraag **[!UICONTROL Method]**: kan **[!UICONTROL POST]** of **[!UICONTROL PUT]** zijn.
-1. Definieer in de sectie **[!UICONTROL Headers]** de HTTP-headers van het aanvraagbericht dat naar de externe service moet worden verzonden:
-   1. Als u een headerveld wilt toevoegen, klikt u op **[!UICONTROL Add a header field]**.
+1. Selecteer de vraag **[!UICONTROL Method]**: het kan **[!UICONTROL POST]** of **[!UICONTROL PUT]**.
+1. In de **[!UICONTROL Headers]** in, definieert u de HTTP-headers van het aanvraagbericht dat naar de externe service moet worden verzonden:
+   1. Als u een koptekstveld wilt toevoegen, klikt u op **[!UICONTROL Add a header field]**.
    1. Voer de sleutel van het headerveld in.
    1. Als u een dynamische waarde voor het sleutelwaardepaar wilt instellen, selecteert u **[!UICONTROL Variable]**. Anders selecteert u **[!UICONTROL Constant]**.
 
       Voor een tijdstempel kunt u bijvoorbeeld een dynamische waarde instellen.
 
-   1. Als u **[!UICONTROL Constant]** hebt geselecteerd, voert u de constante waarde in.
+   1. Als u **[!UICONTROL Constant]** Voer vervolgens de constante waarde in.
 
-      Als u **[!UICONTROL Variable]** hebt geselecteerd, dan zult u deze variabele wanneer het toevoegen van de douaneactie aan een reis specificeren. [Meer informatie](../building-journeys/using-custom-actions.md).
+      Als u **[!UICONTROL Variable]**, dan zult u deze variabele specificeren wanneer het toevoegen van de douaneactie aan een reis. [Meer informatie](../building-journeys/using-custom-actions.md).
 
       ![](../assets/journeyurlconfiguration2.png)
 
-   1. Als u een koptekstveld wilt verwijderen, wijst u naar het koptekstveld en klikt u op het pictogram **[!UICONTROL Delete]**.
-   De koptekstvelden **[!UICONTROL Content-Type]** en **[!UICONTROL Charset]** zijn standaard ingesteld. U kunt deze velden niet wijzigen of verwijderen.
+   1. Als u een koptekstveld wilt verwijderen, wijst u naar het koptekstveld en klikt u op de knop **[!UICONTROL Delete]** pictogram.
+   De **[!UICONTROL Content-Type]** en **[!UICONTROL Charset]** koptekstvelden worden standaard ingesteld. U kunt deze velden niet wijzigen of verwijderen.
 
    Nadat u de douaneactie aan een reis hebt toegevoegd, kunt u nog kopbalgebieden aan het toevoegen als de reis in ontwerpstatus is. Als u niet wilt dat de reis door configuratieveranderingen wordt beïnvloed, dupliceer de douaneactie en voeg de kopbalgebieden aan de nieuwe douaneactie toe.
 

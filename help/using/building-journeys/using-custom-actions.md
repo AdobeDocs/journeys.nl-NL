@@ -25,7 +25,7 @@ De ruit van de activiteitenconfiguratie toont de URL configuratieparameters en d
 
 ### Dynamisch pad
 
-Als de URL een dynamisch pad bevat, geeft u het pad op in het veld **[!UICONTROL Path]**.
+Als de URL een dynamisch pad bevat, geeft u het pad op in het dialoogvenster **[!UICONTROL Path]** veld.
 
 >[!NOTE]
 >
@@ -42,18 +42,18 @@ In deze tabel ziet u een voorbeeld van configuratie:
 
 De samengevoegde URL heeft de volgende vorm:
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign ID=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
 ![](../assets/journey-custom-action-url.png)
 
 ### Kopteksten
 
-De sectie **[!UICONTROL URL Configuration]** toont de dynamische kopbalgebieden, maar niet de constante kopbalgebieden. Dynamische headervelden zijn HTTP-headervelden waarvan de waarde is geconfigureerd als een variabele. [Meer informatie](../action/about-custom-action-configuration.md).
+De **[!UICONTROL URL Configuration]** in deze sectie worden de dynamische koptekstvelden weergegeven, maar niet de constante koptekstvelden. Dynamische headervelden zijn HTTP-headervelden waarvan de waarde is geconfigureerd als een variabele. [Meer informatie](../action/about-custom-action-configuration.md).
 
 Geef zo nodig de waarde van dynamische koptekstvelden op:
 
 1. Selecteer de aangepaste handeling tijdens de rit.
-1. Klik in het configuratievenster op het potloodpictogram naast het koptekstveld in de sectie **[!UICONTROL URL Configuration]**.
+1. Klik in het configuratievenster op het potloodpictogram naast het koptekstveld in het dialoogvenster **[!UICONTROL URL Configuration]** sectie.
 
    ![](../assets/journey-dynamicheaderfield.png)
 
@@ -61,7 +61,7 @@ Geef zo nodig de waarde van dynamische koptekstvelden op:
 
 ## Handelingsparameters
 
-In **[!UICONTROL Action parameters]** sectie, zult u de berichtparameters zien die als _&quot;Variabele&quot;_ worden bepaald. Voor deze parameters kunt u definiëren waar deze informatie moet worden opgehaald (voorbeeld: gebeurtenissen, gegevensbronnen), geeft u waarden handmatig door of gebruikt u de geavanceerde expressie-editor voor gevallen van geavanceerd gebruik. Gevallen van geavanceerd gebruik kunnen gegevensmanipulatie en ander functiegebruik zijn. [Meer informatie](../expression/expressionadvanced.md).
+In de **[!UICONTROL Action parameters]** sectie, zult u de berichtparameters zien die als worden bepaald _&quot;Variabele&quot;_. Voor deze parameters kunt u definiëren waar deze informatie moet worden opgehaald (voorbeeld: gebeurtenissen, gegevensbronnen), geeft u waarden handmatig door of gebruikt u de geavanceerde expressie-editor voor gevallen van geavanceerd gebruik. Gevallen van geavanceerd gebruik kunnen gegevensmanipulatie en ander functiegebruik zijn. [Meer informatie](../expression/expressionadvanced.md).
 
 **Verwante onderwerpen**
 

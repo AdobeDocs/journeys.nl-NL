@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '302'
 ht-degree: 4%
 
 ---
@@ -25,17 +25,17 @@ Het transactiemelding van de Campaign Standard en zijn bijbehorende gebeurtenis 
 >
 >Zodra de Adobe Campaign Standard-integratie is ingesteld, wordt automatisch een regel van 13 aanroepen per seconde gedefinieerd voor Adobe Campaign Standard-acties. Dit komt overeen met de officiële schaal van Transactioneel Overseinen van Adobe Campaign Standard.
 >
->Lees meer over transactie overseinen SLAs in [Adobe Campaign Standard Productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html).
+>Lees meer over transactie overseinen SLAs in [Adobe Campaign Standard-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html).
 
 Hier volgen de stappen om het te configureren:
 
-1. Klik in de lijst **[!UICONTROL Actions]** op de ingebouwde handeling **[!UICONTROL AdobeCampaignStandard]**. Het deelvenster Handelingsconfiguratie wordt aan de rechterkant van het scherm geopend.
+1. Van de **[!UICONTROL Actions]** klikt u op de ingebouwde **[!UICONTROL AdobeCampaignStandard]** handeling. Het deelvenster Handelingsconfiguratie wordt aan de rechterkant van het scherm geopend.
 
    ![](../assets/actioncampaign.png)
 
-1. Kopieer de Adobe Campaign Standard-instantie-URL en plak deze in het veld **[!UICONTROL URL]**.
+1. Kopieer de Adobe Campaign Standard-instantie-URL en plak deze in het dialoogvenster **[!UICONTROL URL]** veld.
 
-1. Klik op **[!UICONTROL Test the instance URL]** om de geldigheid van de instantie te testen.
+1. Klik op de knop **[!UICONTROL Test the instance URL]** om de geldigheid van de instantie te testen.
 
    >[!NOTE]
    >
@@ -47,8 +47,8 @@ Hier volgen de stappen om het te configureren:
    >
    >De ORG die aan deze Adobe Campaign Standard-instantie is gekoppeld, is gelijk aan de Journey Orchestration ORG.
 
-Bij het ontwerpen van uw reis zijn drie acties beschikbaar in de categorie **[!UICONTROL Action]**: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (zie [Adobe Campaign-handelingen gebruiken](../building-journeys/using-adobe-campaign-actions.md)). **Met** gebeurtenis Reacties kunt u ook reageren op klikken op berichten, openen, enzovoort. (zie [Reactiegebeurtenissen](../building-journeys/reaction-events.md)).
+Wanneer u uw reis ontwerpt, zijn er drie acties beschikbaar in de **[!UICONTROL Action]** categorie: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (zie [Adobe Campaign-handelingen gebruiken](../building-journeys/using-adobe-campaign-actions.md)). **Reacties, gebeurtenis** Hiermee kunt u ook reageren op klikken op berichten, openen, enzovoort. (zie [Gebeurtenissen van Reacties](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 
-Als u een derdesysteem gebruikt om berichten te verzenden, moet u een douaneactie toevoegen en vormen. Zie [Informatie over aangepaste actieconfiguratie](../action/about-custom-action-configuration.md).
+Als u een derdesysteem gebruikt om berichten te verzenden, moet u een douaneactie toevoegen en vormen. Zie [Aangepaste actieconfiguratie](../action/about-custom-action-configuration.md).

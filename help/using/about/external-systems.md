@@ -36,7 +36,7 @@ De ingebouwde API voor uitlijnen biedt een stroomopwaartse technische hulplijn d
 
 Voor externe gegevensbronnen, wordt het maximumaantal vraag per seconde geplaatst aan 15. Als het aantal vraag 15 per seconde overschrijdt, worden de resterende vraag verworpen. U kunt deze limiet verhogen voor externe privégegevensbronnen. Adobe van het contact om het eindpunt in de lijst van gewenste personen te omvatten. Dit is niet mogelijk voor openbare externe gegevensbronnen.
 
-Voor aangepaste handelingen moet u de capaciteit van de externe API evalueren. Bijvoorbeeld, als Journey Optimizer 1000 vraag per seconde verzendt en uw systeem slechts 100 vraag per seconde kan steunen, moet u een het begrenzen regel bepalen zodat uw systeem niet verzadigt.
+Voor aangepaste handelingen moet u de capaciteit van de externe API evalueren. Bijvoorbeeld, als Journey Optimizer 1000 vraag per seconde verzendt en uw systeem slechts 100 vraag per seconde kan steunen, moet u een afschilderingsregel bepalen zodat uw systeem niet verzadigt.
 
 De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL). Bij runtime, verifieert Journey Orchestration of er een het begrenzen regel wordt bepaald en past het bepaalde tarief tijdens de vraag aan dat eindpunt toe. Als het aantal vraag het bepaalde tarief overschrijdt, worden de resterende vraag verworpen en als fouten in het melden geteld.
 
@@ -44,7 +44,7 @@ Een uitlijningsregel is specifiek voor één eindpunt, maar is globaal voor alle
 
 Bijvoorbeeld, laten wij zeggen dat u een het begrenzen regel van 100 vraag per seconde voor uw extern systeem hebt bepaald. Uw systeem wordt opgeroepen door een aangepaste actie tijdens 10 verschillende reizen. Als één reis 200 vraag per seconde ontvangt, zal het de 100 beschikbare groeven gebruiken en de 100 resterende groeven verwerpen. Aangezien het maximumtarief is overschreden, zullen de overige 9 reizen geen slots meer hebben. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
 
-Voor meer informatie over de afdekkende API en hoe te om het afschilderen regels te vormen, verwijs naar [deze pagina](../api/capping.md).
+Voor meer informatie over de API voor aftiteling en over het configureren van aftapregels raadpleegt u [deze pagina](../api/capping.md).
 
 ## Time-out en opnieuw proberen{#timeout}
 
@@ -70,7 +70,7 @@ Laten we een voorbeeld nemen voor een time-out van 5 seconden.
 
 ## Veelgestelde vragen{#faq}
 
-**Hoe kan ik een het in kaart brengen regel vormen? Is er een standaard het afschilderen regel?**
+**Hoe kan ik een het in kaart brengen regel vormen? Is er een standaard het in kaart brengen regel?**
 
 Standaard is er geen uitlijningsregel. De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL), gebruikend Capping API. Zie [deze sectie](../about/external-systems.md#capping) en [deze pagina](../api/capping.md).
 

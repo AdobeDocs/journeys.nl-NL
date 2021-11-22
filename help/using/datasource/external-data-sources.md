@@ -53,7 +53,7 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
 
    ![](../assets/journey27.png)
 
-1. Configureer de verificatie volgens de configuratie van de externe service: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** of **[!UICONTROL API key]**. Zie [deze sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb) voor meer informatie over de aangepaste verificatiemodus. In ons voorbeeld kiezen we:
+1. Configureer de verificatie volgens de configuratie van de externe service: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** of **[!UICONTROL API key]**. Voor meer informatie over de wijze van de douaneauthentificatie, zie [deze sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb). In ons voorbeeld kiezen we:
 
 
    * **[!UICONTROL Type]**: ‘API-sleutel’

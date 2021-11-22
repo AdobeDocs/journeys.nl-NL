@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 83%
+source-wordcount: '311'
+ht-degree: 82%
 
 ---
 
@@ -24,13 +24,13 @@ Acties zijn verbindingen waarmee u persoonlijke, realtime-ervaringen kunt bieden
 
 Met aangepaste acties kunt u een verbinding met een extern systeem configureren voor het verzenden van berichten of API-aanroepen. Een actie kan worden geconfigureerd met elke service van elke provider die door een REST-API met een payload in JSON-indeling kan worden aangeroepen.
 
-De acties zijn beschikbaar in het linkerpalet van uw reis, in de **[!UICONTROL Action]** categorie. Zie [deze pagina](../building-journeys/about-action-activities.md).
+De acties zijn beschikbaar in het linkerpalet van uw reis, in **[!UICONTROL Action]** categorie. Zie [deze pagina](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >
 >De configuratie van aangepaste acties wordt altijd uitgevoerd door een **technische gebruiker**.
 
-In de lijst met **Acties** kunt u op C drukken om een nieuwe journey, actie, databron of gebeurtenis te maken. Zie [deze sectie](../about/user-interface.md#section_ksq_zr1_ffb) voor meer informatie over sneltoetsen in [!DNL Journey Orchestration].
+In de lijst met **Acties** kunt u op C drukken om een nieuwe journey, actie, databron of gebeurtenis te maken. Voor meer informatie over sneltoetsen in [!DNL Journey Orchestration], zie [deze sectie](../about/user-interface.md#section_ksq_zr1_ffb).
 
 Als u de actielijst wilt bekijken of een nieuwe actie wilt configureren, klikt u in de bovenste menu’s op **[!UICONTROL Actions]**. De lijst met acties wordt weergegeven. Zie [deze pagina](../about/user-interface.md) voor meer informatie over de interface.
 

@@ -8,35 +8,35 @@ level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 5%
+source-wordcount: '336'
+ht-degree: 4%
 
 ---
 
 # Profiel bijwerken {#update-profile}
 
-Met de actieactiviteit **[!UICONTROL Update profile]** kunt u een bestaand Adobe Experience Platform-profiel bijwerken met informatie die afkomstig is van de gebeurtenis, een gegevensbron of het gebruik van een specifieke waarde.
+De **[!UICONTROL Update profile]** Met actieactiviteit kunt u een bestaand Adobe Experience Platform-profiel bijwerken met informatie die afkomstig is van de gebeurtenis, een gegevensbron of een specifieke waarde gebruiken.
 
 ## Belangrijke opmerkingen
 
-* De handeling **Update profile** kan alleen worden gebruikt tijdens reizen die beginnen met een gebeurtenis met een naamruimte.
+* De **Profiel bijwerken** Actie kan alleen worden gebruikt tijdens reizen die beginnen met een gebeurtenis met een naamruimte.
 * Met de handeling worden alleen bestaande velden bijgewerkt. Er worden geen nieuwe profielvelden gemaakt.
-* U kunt de handeling **Update profile** niet gebruiken om ervaringsgebeurtenissen te genereren, bijvoorbeeld een aankoop.
+* U kunt de **Profiel bijwerken** actie om ervaringsgebeurtenissen te genereren, bijvoorbeeld een aankoop.
 * Net als bij andere acties kunt u een alternatief pad definiëren in het geval van een fout of time-out. U kunt geen twee acties parallel plaatsen.
 * Het updateverzoek dat naar het Platform wordt verzonden, wordt snel verzonden, maar niet onmiddellijk/binnen een seconde. Het duurt normaal een paar seconden, maar soms nog meer zonder garantie. Als een handeling bijvoorbeeld &#39;field 1&#39; gebruikt die is bijgewerkt met een handeling Profiel bijwerken die eerder is geplaatst, mag u niet verwachten dat &#39;field 1&#39; wordt bijgewerkt in de handeling.
 * In de testmodus wordt de profielupdate niet gesimuleerd. De update wordt uitgevoerd op het testprofiel.
 
 ## De profielupdate gebruiken
 
-1. Ontwerp uw reis door met een gebeurtenis te beginnen. Zie deze [sectie](../building-journeys/journey.md).
+1. Ontwerp uw reis door met een gebeurtenis te beginnen. Zie dit [sectie](../building-journeys/journey.md).
 
-1. Plaats in de sectie **Actie** van het palet de **Actie bijwerken** op het canvas.
+1. In de **Handeling** van het palet, zet de **Profiel bijwerken** op het canvas.
 
    ![](../assets/profileupdate0.png)
 
 1. Selecteer een schema in de lijst.
 
-1. Klik op **Fields** om het gebied te selecteren u wilt bijwerken. Er kan slechts één veld worden geselecteerd.
+1. Klikken op **Velden** om het veld te selecteren dat u wilt bijwerken. Er kan slechts één veld worden geselecteerd.
 
    ![](../assets/profileupdate2.png)
 
@@ -44,9 +44,9 @@ Met de actieactiviteit **[!UICONTROL Update profile]** kunt u een bestaand Adobe
 
    >[!NOTE]
    >
-   >Met de handeling **Profiel bijwerken** worden de profielgegevens in realtime bijgewerkt, maar worden de gegevenssets niet bijgewerkt. De datasetselectie is nodig aangezien het profiel een verslag met betrekking tot een dataset is.
+   >De **Profiel bijwerken** De actie werkt de profielgegevens in realtime bij, maar werkt datasets niet bij. De datasetselectie is nodig aangezien het profiel een verslag met betrekking tot een dataset is.
 
-1. Klik op het veld **Waarde** om de waarde te definiëren die u wilt gebruiken:
+1. Klik op de knop **Waarde** veld voor het definiëren van de waarde die u wilt gebruiken:
 
    * Met de eenvoudige expressieeditor kunt u een veld uit een gegevensbron of uit de binnenkomende gebeurtenis selecteren.
 
@@ -56,6 +56,6 @@ Met de actieactiviteit **[!UICONTROL Update profile]** kunt u een bestaand Adobe
 
       ![](../assets/profileupdate3.png)
 
-Het **Update profiel** wordt nu gevormd.
+De **Profiel bijwerken** is nu geconfigureerd.
 
 ![](../assets/profileupdate1.png)

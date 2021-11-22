@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 9%
 
 ---
 
 # Journey maken {#concept_gq5_sqt_52b}
 
-Deze stap wordt uitgevoerd door **zakelijke gebruiker**. Hier maak je je reizen. Combineer de verschillende actie-, orkestratie- en gebeurtenisactiviteiten om uw kanaaloverschrijdende scenario’s met meerdere stappen te maken.
+Deze stap wordt uitgevoerd door de **zakelijke gebruiker**. Hier maak je je reizen. Combineer de verschillende actie-, orkestratie- en gebeurtenisactiviteiten om uw kanaaloverschrijdende scenario’s met meerdere stappen te maken.
 
 Met de interface voor reizen kunt u activiteiten van het palet gemakkelijk naar het canvas slepen. U kunt ook dubbelklikken op een activiteit om deze in het canvas toe te voegen bij de volgende beschikbare stap. Elke activiteit heeft een specifieke rol en plaats in het proces. De activiteiten worden gesequenceerd. Wanneer een activiteit wordt gebeëindigd, gaat de stroom verder en verwerkt de volgende activiteit, etc.
 
@@ -29,11 +29,11 @@ Hier volgen de belangrijkste stappen voor het maken en publiceren van een reis.
 
 1. Klik in het bovenste menu op het tabblad **[!UICONTROL Home]**.
 
-   De lijst met reizen wordt weergegeven. Raadpleeg [deze pagina](../building-journeys/using-the-journey-designer.md) voor meer informatie over de interface.
+   De lijst met reizen wordt weergegeven. Zie [deze pagina](../building-journeys/using-the-journey-designer.md) voor meer informatie over de interface.
 
    ![](../assets/journey30.png)
 
-1. Klik **[!UICONTROL Create]** om een nieuwe reis tot stand te brengen.
+1. Klikken **[!UICONTROL Create]** om een nieuwe reis te maken.
 
    ![](../assets/journey31.png)
 
@@ -45,7 +45,7 @@ Hier volgen de belangrijkste stappen voor het maken en publiceren van een reis.
 
    ![](../assets/journey33.png)
 
-1. Sleep en zet uw andere activiteiten neer en vorm hen. Zie de pagina&#39;s [Gebeurtenisactiviteiten](../building-journeys/event-activities.md), [Informatie over orkestatieactiviteiten](../building-journeys/about-orchestration-activities.md) en [Informatie over actieactiviteiten](../building-journeys/about-action-activities.md).
+1. Sleep en zet uw andere activiteiten neer en vorm hen. Zie de pagina&#39;s [Gebeurtenisactiviteiten](../building-journeys/event-activities.md), [Informatie over orkestwerkzaamheden](../building-journeys/about-orchestration-activities.md) en [Informatie over actieactiviteiten](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
@@ -64,10 +64,10 @@ De persoon kan dan opnieuw de reis betreden als herbinnenkomst is toegestaan. Zi
 
 Een reis kan om de volgende redenen worden gesloten:
 
-* De reis wordt manueel gesloten via **[!UICONTROL Close to new entrances]** knoop.
+* De reis wordt handmatig gesloten via de **[!UICONTROL Close to new entrances]** knop.
 * De einddatum van de reis is bereikt.
 
-Wanneer een reis (om een van de bovenstaande redenen) wordt gesloten, heeft deze de status **[!UICONTROL Closed]**. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken. Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](../building-journeys/changing-properties.md#entrance).
+Wanneer een reis wordt gesloten (om een van de bovenstaande redenen), heeft deze de status **[!UICONTROL Closed]**. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken. Na de standaard wereldwijde time-out van 30 dagen wordt de reis overgeschakeld op de **Voltooid** status. Zie dit [sectie](../building-journeys/changing-properties.md#entrance).
 
 Als u de voortgang van alle mensen op de reis moet stoppen, kunt u deze stoppen. Als de reis wordt stopgezet, wordt een time-out voor alle personen op de reis vastgesteld.
 

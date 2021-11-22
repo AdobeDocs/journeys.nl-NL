@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 3%
+source-wordcount: '214'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ## Haakjes en prioriteit van expressie{#section_edf_fks_bgb}
 
-U kunt ronde haakjes gebruiken om een complexe expressie leesbaarder te maken. _(&lt;expression>)_ is het equivalent van  _&lt;expression>_. Het haakje kan ook worden gebruikt om de evaluatievolgorde en de associatie te bepalen.
+U kunt ronde haakjes gebruiken om een complexe expressie leesbaarder te maken. _(&lt;expression>)_ is het equivalent van _&lt;expression>_. Het haakje kan ook worden gebruikt om de evaluatievolgorde en de associatie te bepalen.
 
 De expressies worden van links naar rechts geëvalueerd. De associatie bij rekenkundige operatoren moet worden toegepast: vermenigvuldigingen en splitsingen hebben voorrang op toevoegingen en aftrekken. Om een bepaalde volgorde op te leggen, moet een haakje worden toegevoegd om de bewerkingen te begrenzen. Bijvoorbeeld:
 
@@ -32,8 +32,8 @@ De expressies worden van links naar rechts geëvalueerd. De associatie bij reken
 
 Hier volgen de verschillende regels voor hoofdlettergevoeligheid:
 
-* Alle operatoren (en, enz.) moet in kleine letters worden geschreven. _`<expression1>`en`<expression2>`_ zijn bijvoorbeeld een geldige expressie, terwijl de expressie _`<expression1>`AND`<expression2>`_ dat niet is.
-* Alle functienamen zijn hoofdlettergevoelig. _inSegment()_ is bijvoorbeeld geldig, terwijl de functie _INSEGMENT()_ dat niet is.
+* Alle operatoren (en, enz.) moet in kleine letters worden geschreven. Bijvoorbeeld: _`<expression1>`en`<expression2>`_ is een geldige expressie terwijl de expressie _`<expression1>`EN`<expression2>`_ is niet.
+* Alle functienamen zijn hoofdlettergevoelig. Bijvoorbeeld: _inSegment()_ is geldig terwijl de functie _INSEGMENT()_ is niet.
 * Veldverwijzingen en constante waarden zijn hoofdlettergevoelig: zij zijn geen ingebouwde elementen van de taal (in tegenstelling tot exploitanten en functies), zij worden ontworpen door de eindgebruiker.
 
 ## Type geretourneerde expressie{#section_gyc_435_53b}

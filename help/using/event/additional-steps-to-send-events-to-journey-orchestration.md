@@ -8,27 +8,27 @@ level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '319'
 ht-degree: 4%
 
 ---
 
-# Aanvullende stappen om gebeurtenissen naar [!DNL Journey Orchestration] te verzenden {#concept_xrz_n1q_y2b}
+# Aanvullende stappen om gebeurtenissen te verzenden naar [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 
 >[!NOTE]
 >
->[!DNL Journey Orchestration] genereert bij het maken van een gebeurtenis automatisch een id voor deze gebeurtenis. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [deze pagina](../event/previewing-the-payload.md).
+>Wanneer u een gebeurtenis maakt, [!DNL Journey Orchestration] genereert automatisch een id voor deze gebeurtenis. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten gebruiken beschikbaar in de voorproef van de lading. Zie [deze pagina](../event/previewing-the-payload.md).
 
-Als u gebeurtenissen wilt configureren die naar **[!UICONTROL Streaming Ingestion APIs]** moeten worden verzonden en die in [!DNL Journey Orchestration] moeten worden gebruikt, moet u de volgende stappen uitvoeren:
+Om gebeurtenissen te vormen die moeten worden verzonden naar **[!UICONTROL Streaming Ingestion APIs]** en te gebruiken in [!DNL Journey Orchestration], moet u deze stappen volgen:
 
-1. Haal de inlaatURL op van de Adobe Experience Platform API&#39;s (zie [Streaming Ingestie-API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl)).
-1. Kopieer de lading van de nuttige ladingsvoorproef in **[!UICONTROL Event]** menu. Zie [deze pagina](../event/defining-the-payload-fields.md).
+1. De inlaatURL ophalen van de Adobe Experience Platform API&#39;s (zie [Streaming-API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl)).
+1. Kopieer de lading van de payload voorproef in **[!UICONTROL Event]** -menu. Zie [deze pagina](../event/defining-the-payload-fields.md).
 
 Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Streaming Ingestie-API&#39;s stuurt met de door u gekopieerde payload:
 
 1. Stel een POST-API-aanroep in naar de URL van de Streaming Ingestie-API&#39;s (een zogenaamde inlaat).
-1. Gebruik de nuttige lading u van [!DNL Journey Orchestration] in het lichaam (&quot;gegevenssectie&quot;) van de API vraag aan Streaming Ingestie APIs kopieerde. Zie hieronder voor een voorbeeld
-1. Bepaal waar u alle variabelen in de lading wilt ophalen. Voorbeeld: als de gebeurtenis geacht wordt het adres over te brengen, zal de geplakte lading &quot;adres&quot;tonen: &quot;string&quot;. &quot;string&quot; moet worden vervangen door de variabele die automatisch de juiste waarde invult, de e-mail van de persoon waarnaar een bericht wordt verzonden. Let op: in de voorvertoning van de lading, in de sectie **[!UICONTROL Header]**, vullen wij vele waarden automatisch die worden verwacht om uw werk te vergemakkelijken.
+1. De lading gebruiken die u hebt gekopieerd [!DNL Journey Orchestration] in de hoofdtekst (&quot;gegevenssectie&quot;) van de API-aanroep naar Streaming Ingestie-API&#39;s. Zie hieronder voor een voorbeeld
+1. Bepaal waar u alle variabelen in de lading wilt ophalen. Voorbeeld: als de gebeurtenis geacht wordt het adres over te brengen, zal de geplakte lading &quot;adres&quot;tonen: &quot;string&quot;. &quot;string&quot; moet worden vervangen door de variabele die automatisch de juiste waarde invult, de e-mail van de persoon waarnaar een bericht wordt verzonden. Let op: in de voorvertoning van de lading, in de **[!UICONTROL Header]** in deze sectie worden veel waarden automatisch ingevuld die u nodig hebt om uw werk te vergemakkelijken.
 1. Selecteer &#39;application/json&#39; als type body.
 1. Geef uw IMS-organisatie-id in de koptekst door met behulp van de sleutel &quot;x-gw-ims-org-id&quot;. Gebruik voor de waarde uw IMS-organisatie-id (&quot;XXX@AdobeOrg&quot;).
 
@@ -89,6 +89,6 @@ Hier volgt een voorbeeld van een gebeurtenis Streaming ingestie-API&#39;s:
 }
 ```
 
-Als u de locatie waar het &quot;data&quot;-deel moet worden geplakt gemakkelijker wilt kunnen identificeren, kunt u een JSON-visualisatieprogramma gebruiken, zoals [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
+U kunt een JSON-visualisatiefunctie gebruiken, zoals [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) voor informatie over het oplossen van problemen met de Streaming-API&#39;s.
+Raadpleeg deze voor informatie over het oplossen van problemen met de API&#39;s voor streaming-insluiting [page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
