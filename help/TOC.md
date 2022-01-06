@@ -6,9 +6,9 @@ user-guide-description: Verstrekt stapsgewijze instructies voor het implementere
 index: true
 feature: Journeys
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 96%
    + [Journey publiceren](using/building-journeys/publishing-the-journey.md)
    + Journeystappen delen met Adobe Experience Platform {#sharing-journey-steps}
       + [Overzicht van het delen van journeystappen](using/building-journeys/sharing-overview.md)
-      + [Lijst met gebeurtenisvelden](using/building-journeys/sharing-field-list.md)
+      + [Lijst met gebeurtenisvelden voor stappen](using/building-journeys/sharing-field-list.md)
       + Gebeurtenisvelden voor oudere stappen {#legacy-step-event-fields}
          + [Oudere velden](using/building-journeys/sharing-legacy-fields.md)
          + [Gemeenschappelijke velden van journeySteps-gebeurtenissen](using/building-journeys/sharing-common-fields.md)
@@ -97,7 +97,7 @@ ht-degree: 96%
          + [Identiteitsvelden van journeyStep-gebeurtenissen](using/building-journeys/sharing-identity-fields.md)
          + [journeyvelden](using/building-journeys/sharing-journey-fields.md)
       + [Voorbeelden van query&#39;s](using/building-journeys/query-examples.md)
-+ Expressies maken {#building-advanced-conditions-journeys}
++ Expressies samenstellen {#building-advanced-conditions-journeys}
    + [Overzicht](using/expression/expressionadvanced.md)
    + Syntaxis {#syntax}
       + [Algemeen](using/expression/generalities.md)
