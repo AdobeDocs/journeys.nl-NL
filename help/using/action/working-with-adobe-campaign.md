@@ -6,7 +6,7 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 545352efdcda80cb9940010c4587a20f53326085
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 4%
@@ -23,7 +23,7 @@ Het transactiemelding van de Campaign Standard en zijn bijbehorende gebeurtenis 
 
 >[!NOTE]
 >
->Zodra de Adobe Campaign Standard-integratie is ingesteld, wordt automatisch een regel van 13 aanroepen per seconde gedefinieerd voor Adobe Campaign Standard-acties. Dit komt overeen met de officiële schaal van Transactioneel Overseinen van Adobe Campaign Standard.
+>Zodra de Adobe Campaign Standard-integratie is ingesteld, wordt automatisch een afluisterregel van 4000 oproepen per 5 minuten gedefinieerd voor Adobe Campaign Standard-acties. Dit komt overeen met de officiële schaal van Transactioneel Overseinen van Adobe Campaign Standard.
 >
 >Lees meer over transactie overseinen SLAs in [Adobe Campaign Standard-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html).
 

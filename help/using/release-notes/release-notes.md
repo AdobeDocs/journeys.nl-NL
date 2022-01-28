@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
+source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 53%
+source-wordcount: '3130'
+ht-degree: 52%
 
 ---
 
@@ -18,22 +18,14 @@ ht-degree: 53%
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de nieuwste [Documentatieupdates](../release-notes/documentation-updates.md).
 
-## Release oktober 2021 {#october-2021-release}
+## Release van januari 2022 {#january-2022-release}
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+### Verbeteringen
+
+* Gebeurtenissen in de stap Journey Orchestration kunnen nu worden gekoppeld aan andere gegevenssets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). De **profileID** in het ingebouwde schema voor de gebeurtenis van de Stap van de Reis, wordt nu gedefinieerd als identiteitsgebied. [Meer informatie](../building-journeys/sharing-overview.md#integration-cja)
+* De begrenzingsregel voor Adobe Campaign Standard-acties is gewijzigd in 4000 oproepen/5 minuten. [Meer informatie](../action/working-with-adobe-campaign.md)
+
+## Release oktober 2021 {#october-2021-release}
 
 ### Verbeteringen
 

@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: b557e94076bc7ce5c212246ddf313248ca10dd60
+source-git-commit: 034473b318eddf93e4ed27d9cbe9e18dab1d96cb
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 2%
+source-wordcount: '551'
+ht-degree: 3%
 
 ---
 
@@ -53,7 +53,15 @@ De volgende datasets worden overgegaan:
 
 Hier worden de lijsten met XDM-velden weergegeven die aan de Adobe Experience Platform worden doorgegeven:
 
-* [Lijst met gebeurtenisvelden](../building-journeys/sharing-field-list.md)
+* [Lijst met gebeurtenisvelden voor stappen](../building-journeys/sharing-field-list.md)
 * [Gebeurtenisvelden voor oudere stappen](../building-journeys/sharing-legacy-fields.md)
 
 Kijk hier voor meer informatie over step-gebeurtenissen die aan Adobe Experience Platform worden gerapporteerd [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
+
+## Integratie met de Analitycs van de Reis van de Klant{#integration-cja}
+
+Journey Orchestration step-gebeurtenissen kunnen worden gekoppeld aan andere datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). Hier volgt de algemene workflow:
+
+* Customer Journey Analytics neemt de dataset van de &quot;Gebeurtenis van de Stap van de Reis&quot;op.
+* De **profileID** veld in het bijbehorende &quot;Dagboekstapschema voor Journey Orchestration&quot; wordt gedefinieerd als een identiteitsveld. In Customer Journey Analytics, kunt u deze dataset aan een andere dataset dan verbinden die de zelfde waarde zoals persoon gebaseerde herkenningsteken heeft.
+* Als u deze dataset in Customer Journey Analytics, voor dwars-kanaalreisanalyse wilt gebruiken, verwijs naar dit [documentatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
