@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
+source-git-commit: 0d1355f036b22df6b484ed2a0ea9a8b121e947e0
 workflow-type: tm+mt
-source-wordcount: '3130'
-ht-degree: 52%
+source-wordcount: '3164'
+ht-degree: 51%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 52%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de nieuwste [Documentatieupdates](../release-notes/documentation-updates.md).
+
+## Release van februari 2022 {#february-2022-release}
+
+### Verbeteringen
+
+* Om prestaties te optimaliseren en verouderd middelgebruik te verhinderen, zullen alle reizen in testwijze die niet voor een week zijn teweeggebracht nu op de status van het Ontwerp terugschakelen. [Meer informatie](../building-journeys/testing-the-journey.md#important_notes)
 
 ## Release van januari 2022 {#january-2022-release}
 

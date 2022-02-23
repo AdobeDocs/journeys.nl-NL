@@ -5,9 +5,9 @@ title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 feature: Journeys
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: ht
-source-wordcount: '438'
+source-git-commit: 95d9ce8ffd213e46320a4c131ffae8442cfb23bf
+workflow-type: tm+mt
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 100%
    + [Payloadvelden definiëren](using/event/defining-the-payload-fields.md)
    + [Naamruimte selecteren](using/event/selecting-the-namespace.md)
    + [Gebeurtenistoets definiëren](using/event/defining-the-event-key.md)
-   + [Voorwaarde toevoegen](using/event/adding-a-condition.md)
    + [Voorvertoning van de payload weergeven](using/event/previewing-the-payload.md)
 + Databron configureren {#data-source-journeys}
    + [Databronnen](using/datasource/about-data-sources.md)

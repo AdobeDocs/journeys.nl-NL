@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 9%
+source-wordcount: '105'
+ht-degree: 6%
 
 ---
 
@@ -32,7 +32,7 @@ Tekenreeks
 | Parameter | Type |
 |-----------|--------------|
 | basis | string |
-| target | string |
+| target | tekenreeks (RegExp) |
 | vervanging | string |
 
 ## Handtekening en type geretourneerd
@@ -41,8 +41,10 @@ Tekenreeks
 
 Retourneert een tekenreeks.
 
-## Voorbeeld
+## Voorbeeld{#example}
 
 `replaceAll("Hello World", "l", "x")`
 
 Retourneert &quot;Hexxo Worxd&quot;.
+
+Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Raadpleeg het voorbeeld in [deze pagina](../functions/functionreplace.md#example_2).

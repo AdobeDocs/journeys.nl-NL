@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: c7730ecac062719e5e5adfd465d1cedb59b3eaf1
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '102'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,6 @@ Conversie
 | dateTime | converteert de datum in UTC-datumnotatie |
 | dateTimeOnly | converteert de datum in UTC-datumnotatie |
 | duur | converteren naar het overeenkomstige aantal milliseconden als een tekenreeks |
-| tijdzone | converteren naar de representatie van de tijdzone-id (JODA id) |
 | integer | converteert naar tekenreeksrepresentatie van de waarde (1 wordt &quot;1&quot;) |
 | decimaal | converteert naar tekenreeksrepresentatie van de waarde (1,5 wordt &quot;1,5&quot;) |
 | boolean | Zet de booleaanse waarde om als &#39;true&#39; (waar), &#39;false&#39; (onwaar) |
@@ -44,8 +43,6 @@ Conversie
 `toString(<dateTime>)`
 
 `toString(<duration>)`
-
-`toString(<timeZone>)`
 
 `toString(<boolean>)`
 

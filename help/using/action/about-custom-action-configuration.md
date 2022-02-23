@@ -6,17 +6,20 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
+source-git-commit: 7ad2419854b4fcecae7fbb20bdd6a6f2fbc04988
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 15%
+source-wordcount: '301'
+ht-degree: 12%
 
 ---
 
 # Aangepaste acties configureren {#concept_sxy_bzs_dgb}
 
 Als u een derdesysteem gebruikt om berichten te verzenden of als u wilt [!DNL Journey Orchestration] om API vraag naar een derdesysteem te verzenden, is dit waar u zijn verbinding vormt om [!DNL Journey Orchestration]. De aangepaste actie die door technische gebruikers is gedefinieerd, is dan beschikbaar in het linkerpalet van uw reis, in het dialoogvenster **[!UICONTROL Action]** categorie (zie [deze pagina](../building-journeys/about-action-activities.md). Hier volgen enkele voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste handelingen: Epsilon, Facebook, Adobe.io, Firebase, enz.
+
 Beperkingen worden vermeld in [deze pagina](../about/limitations.md).
+
+In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Wat de beperkingen betreft, kunt u verwijzen naar [deze pagina](../usecase/collections.md#limitations). Let ook op dat de parameters een verwacht formaat hebben (voorbeeld: tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren. Zie dit [use case](../usecase/collections.md).
 
 Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vormen:
 
