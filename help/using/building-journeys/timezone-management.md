@@ -15,16 +15,16 @@ ht-degree: 2%
 
 # Tijdzonebeheer {#timezone_management}
 
-U kunt een tijdzone definiëren in het dialoogvenster [eigenschappen](../building-journeys/changing-properties.md) van je reis.
+You can define a time zone in the [properties](../building-journeys/changing-properties.md) of your journey.
 
 Als u eigenschappen wilt openen, klikt u op het potloodpictogram rechtsboven in het scherm.
 
-Deze tijdzone wordt gebruikt voor elke activiteit van de reis die een tijdselement bevat, zoals:
+This time zone will be used for every activity of the journey containing a time element such as:
 
 * [Tijdvoorwaarde](../building-journeys/condition-activity.md#time_condition)
-* [Datumvoorwaarde](../building-journeys/condition-activity.md#date_condition)
+* [Date condition](../building-journeys/condition-activity.md#date_condition)
 * [Aangepast wachten](../building-journeys/wait-activity.md#custom)
-* [Wachttijd voor vaste datum](../building-journeys/wait-activity.md#fixed_date)
+* [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 
 U kunt een tijdzone selecteren of de tijdzone gebruiken die is gedefinieerd in het gebruikersprofiel.
 
@@ -34,7 +34,7 @@ U kunt een tijdzone selecteren of de tijdzone gebruiken die is gedefinieerd in h
 
 ## Een vaste tijdzone definiëren {#fixed-timezone}
 
-De tijdzone kan ook worden vastgesteld. Wis de vooraf gedefinieerde tijdzone en kies een tijdzone in de vervolgkeuzelijst. Als je een vaste tijdzone gebruikt, zal dat hetzelfde zijn voor iedereen die de reis binnenkomt.
+De tijdzone kan ook worden vastgesteld. Wis de vooraf gedefinieerde tijdzone en kies een tijdzone in de vervolgkeuzelijst. If you use a fixed time zone, it will be the same for all individuals entering the journey.
 
 Daartoe, in **[!UICONTROL Properties]** selecteert u een tijdzone.
 
@@ -44,7 +44,7 @@ Daartoe, in **[!UICONTROL Properties]** selecteert u een tijdzone.
 
 Als de entry-gebeurtenis van de reis een naamruimte heeft, wat betekent dat de reis de Real-time dienst van het Profiel van de Klant van de Adobe Experience Platform kan bereiken, is de tijdzone vooraf gedefinieerd met die gespecificeerd in het profiel van de individuele die in de reis stroomt.
 
-Als een tijdzone wordt gedefinieerd in het Adobe Experience Platform-profiel, kan deze tijdens de reis worden opgehaald.
+If a time zone is defined in the Adobe Experience Platform profile, it can be retrieved in the journey.
 
 Als het profiel van het individu geen tijdzone bevat, wordt de opgehaalde tijdzone gedefinieerd in het tijdzoneveld.
 

@@ -15,14 +15,14 @@ ht-degree: 12%
 
 # avg {#avg}
 
-Geeft als resultaat de gemiddelde waarde tussen een reeks expressies, opgegeven als een lijst of twee expressies. Null-waarden worden genegeerd.
+Geeft als resultaat de gemiddelde waarde tussen een reeks expressies, opgegeven als een lijst of twee expressies. Null values are ignored.
 
 
 ## Categorie
 
 Samenvoeging
 
-## Functiesyntaxis
+## Function syntax
 
 `avg(<parameter>)`
 
@@ -61,4 +61,4 @@ Retourneert 7.0.
 
 `avg(10.2, 3)`
 
-Retourneert 6.6.
+Returns 6.6.

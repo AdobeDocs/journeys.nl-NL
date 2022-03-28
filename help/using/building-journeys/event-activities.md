@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Gebeurtenisactiviteiten
-description: Meer informatie over gebeurtenisactiviteiten
+description: Learn about events activities
 feature: Journeys
 role: User
 level: Intermediate
@@ -19,11 +19,11 @@ De gebeurtenissen die door de technische gebruiker worden gevormd (zie [deze pag
 
 ![](../assets/journey43.png)
 
-Begin altijd uw reis door een gebeurtenisactiviteit te slepen en neer te zetten. U kunt er ook op dubbelklikken.
+Always start your journey by drag and dropping an event activity. U kunt er ook op dubbelklikken.
 
 ![](../assets/journey44.png)
 
-Wanneer u op de gebeurtenisactiviteit in het canvas klikt, wordt de ruit van de activiteitenconfiguratie getoond. Wanneer u dezelfde gebeurtenis meerdere keren gebruikt, wordt standaard een verhoogd getal toegevoegd aan de naam van de gebeurtenis op het canvas. Daarnaast kunt u de opdracht **[!UICONTROL Label]** veld om een achtervoegsel toe te voegen aan de naam van de gebeurtenis die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u gebeurtenissen op het canvas wilt identificeren, vooral als u dezelfde gebeurtenis meerdere keren gebruikt. Het zal ook het zuiveren in het geval van fouten gemakkelijker maken en het zal rapporten gemakkelijker te lezen maken.
+Wanneer u op de gebeurtenisactiviteit in het canvas klikt, wordt de ruit van de activiteitenconfiguratie getoond. Wanneer u dezelfde gebeurtenis meerdere keren gebruikt, wordt standaard een verhoogd getal toegevoegd aan de naam van de gebeurtenis op het canvas. Daarnaast kunt u de opdracht **[!UICONTROL Label]** veld om een achtervoegsel toe te voegen aan de naam van de gebeurtenis die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u gebeurtenissen op het canvas wilt identificeren, vooral als u dezelfde gebeurtenis meerdere keren gebruikt. It will also make debugging easier in case of errors and it will make reports easier to read.
 
 ![](../assets/journey33.png)
 
@@ -31,7 +31,7 @@ Wanneer u op de gebeurtenisactiviteit in het canvas klikt, wordt de ruit van de 
 
 Een gebeurtenisactiviteit die in de reis wordt geplaatst luistert voor onbepaalde tijd naar gebeurtenissen. Als u alleen tijdens een bepaalde tijd naar een gebeurtenis wilt luisteren, moet u een time-out voor de gebeurtenis configureren.
 
-De reis zal dan aan de gebeurtenis tijdens de tijd luisteren die in de timeout wordt gespecificeerd. Als een gebeurtenis tijdens die periode wordt ontvangen, zal de persoon in de gebeurtenisweg stromen. Als niet, zal de klant of in een onderbrekingspad stromen, of hun reis beëindigen.
+De reis zal dan aan de gebeurtenis tijdens de tijd luisteren die in de timeout wordt gespecificeerd. If an event is received during that period, the person will flow in the event path. Als niet, zal de klant of in een onderbrekingspad stromen, of hun reis beëindigen.
 
 Voer de volgende stappen uit om een time-out voor een gebeurtenis te configureren:
 
@@ -39,13 +39,13 @@ Voer de volgende stappen uit om een time-out voor een gebeurtenis te configurere
 
 1. Geef op hoeveel tijd de reis moet wachten op de gebeurtenis.
 
-1. Als u de personen naar een time-outpad wilt sturen wanneer er geen gebeurtenis is ontvangen binnen de opgegeven time-out, schakelt u de optie **[!UICONTROL Set the timeout path]** optie. Als deze optie niet wordt ingeschakeld, eindigt de reis voor het individu zodra de time-out is bereikt.
+1. If you want to send the individuals into a timeout path when no event is received within the specified timeout, enable the **[!UICONTROL Set the timeout path]** option. If this option is not enabled, the journey will end for the individual once the timeout is reached.
 
    ![](../assets/event-timeout.png)
 
 In dit voorbeeld, verzendt de reis een eerste welkome duw naar een klant. Het verzendt dan een duw van de maaltijdkorting slechts als de klant het restaurant binnen de volgende dag ingaat. Daarom hebben we de restaurant-gebeurtenis geconfigureerd met een time-out van 1 dag:
 
-* Als de restaurantgebeurtenis minder dan 1 dag na de welkomstpush wordt ontvangen, wordt de pushactiviteit voor de maaltijdkorting verzonden.
+* If the restaurant event is received less than 1 day after the welcome push, the meal discount push activity is sent.
 * Als er de volgende dag geen restaurantgebeurtenis wordt ontvangen, loopt de persoon door het time-outpad.
 
 Merk op dat als u een onderbreking op veelvoudige gebeurtenissen wilt vormen die na a worden geplaatst **[!UICONTROL Wait]** activiteit, moet u de onderbreking op één van deze gebeurtenissen slechts vormen.

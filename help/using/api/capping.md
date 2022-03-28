@@ -34,7 +34,7 @@ Meer over actie of datasource configuratie leren, zie [Handelingen](https://expe
 
 Deze API gebruiken met uw [!DNL Journey Orchestration] -instantie, moet u de AdobeI/O-console gebruiken. U kunt beginnen door dit te volgen [Aan de slag met Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) en gebruikt u vervolgens de secties op deze pagina.
 
-Om uw integratie te testen en voor te bereiden, is een verzameling Postman beschikbaar [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Om uw integratie te testen en voor te bereiden, is een Postman-collectie beschikbaar [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 ## Verificatie
 
@@ -167,9 +167,9 @@ De mogelijke waarschuwing is:
 
 In deze sectie zult u de vijf belangrijkste gebruik-gevallen vinden die u kunt uitvoeren om uw het capteren configuratie binnen te beheren [!DNL Journey Orchestration].
 
-Om u in uw het testen en configuratie te helpen, is een inzameling Postman beschikbaar [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Om u in uw test en configuratie te helpen, is een inzameling van Postman beschikbaar [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
-Deze Postmanverzameling is ingesteld om de collectie Postman-variabele te delen die is gegenereerd via __[Integraties van Adobe I/O Console](https://console.adobe.io/integrations) > Uitproberen > Downloaden voor Postman__, waarmee een Postman Environment-bestand met de geselecteerde integratiewaarden wordt gegenereerd.
+Deze Postman-verzameling is ingesteld om de Postman Variable-collectie te delen die is gegenereerd via __[Integraties van Adobe I/O Console](https://console.adobe.io/integrations) > Uitproberen > Downloaden voor Postman__, waarmee een Postman Environment-bestand met de geselecteerde integratiewaarden wordt gegenereerd.
 
 Nadat u het bestand hebt gedownload en geüpload naar Postman, moet u drie variabelen toevoegen: `{JO_HOST}`,`{Base_Path}` en `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] Gateway-URL
