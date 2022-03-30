@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 0d1355f036b22df6b484ed2a0ea9a8b121e947e0
+source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
 workflow-type: tm+mt
-source-wordcount: '3164'
+source-wordcount: '3226'
 ht-degree: 51%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 51%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de nieuwste [Documentatieupdates](../release-notes/documentation-updates.md).
+
+## Release van maart 2022 {#feb-2022-release}
+
+### Verbeteringen
+
+**Journeys**
+
+* Als u wilt voorkomen dat het schema van het uniforme profiel onnodige velden bevat, is het schema voor de gebeurtenis Reisstap niet meer standaard ingeschakeld voor profielen. Indien nodig, kunt u het activeren. [Meer informatie](../building-journeys/sharing-overview.md)
+* Journey Optimizer stuurt nu nieuwe stapgebeurtenissen met betrekking tot exporttaken naar Adobe Experience Platform. Voorbeelden van query&#39;s zijn toegevoegd aan documentatie. [Meer informatie](../building-journeys/query-examples.md)
 
 ## Release van februari 2022 {#february-2022-release}
 
@@ -71,7 +80,7 @@ U kunt ook de nieuwste [Documentatieupdates](../release-notes/documentation-upda
 
 ### Verbeteringen
 
-**Journeys**
+**Reizen**
 
 * **Dynamische koppen** - U kunt nu dynamische gegevens doorgeven in HTTP-headerparameters. Deze parameters kunnen door de integratiesystemen worden gebruikt die de vraag van HTTP van de reisactie, bijvoorbeeld timestamp of het volgen identiteitskaart ontvangen. [Meer informatie](../action/url-configuration.md)
 * **Dynamische URL-paden** - U kunt nu dynamische URL-paden instellen voor aangepaste handelingen. [Meer informatie](../action/url-configuration.md)
