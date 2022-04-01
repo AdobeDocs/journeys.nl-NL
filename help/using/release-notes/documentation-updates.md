@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: a5f84d291a5fcb3a0899e9eaabfaf7a7aa12471d
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 96%
+source-wordcount: '951'
+ht-degree: 95%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 96%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Orchestration].
 U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../release-notes/release-notes.md) raadplegen.
+
+## Maart 2022 {#march-2022}
+
+* Een voorbeeld toegevoegd over het toevoegen van een expressie als standaardwaarde in de expressieeditor. [Meer informatie](../expression/field-references.md#default-value)
 
 ## Februari 2022 {#feb-2022}
 
