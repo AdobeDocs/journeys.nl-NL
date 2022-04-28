@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 
 ## Maart 2022 {#march-2022}
 
-* Een voorbeeld toegevoegd over het toevoegen van een expressie als standaardwaarde in de expressieeditor. [Meer informatie](../expression/field-references.md#default-value)
+* Er is een voorbeeld toegevoegd over het toevoegen van een expressie als standaardwaarde in de expressie-editor. [Meer informatie](../expression/field-references.md#default-value)
 
 ## Februari 2022 {#feb-2022}
 
-* De [vervangen](../functions/functionreplace.md#example_2) en [replaceAll](../functions/functionreplaceall.md#example) De pagina&#39;s van de functiedocumentatie zijn bijgewerkt met extra informatie en voorbeelden betreffende de doelparameter.
-* Beste werkwijzen zijn toegevoegd aan de [Operatoren](../expression/operators.md#important-notes) pagina.
+* De functiedocumentatiepagina&#39;s [replace](../functions/functionreplace.md#example_2) en [replaceAll](../functions/functionreplaceall.md#example) zijn bijgewerkt met aanvullende informatie en voorbeelden met betrekking tot de doelparameter.
+* Er zijn best practices toegevoegd aan de pagina [Operators](../expression/operators.md#important-notes).
 
 ## September 2021
 
