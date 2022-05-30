@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '3226'
-ht-degree: 51%
+source-wordcount: '3274'
+ht-degree: 50%
 
 ---
 
@@ -18,11 +18,15 @@ ht-degree: 51%
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
 U kunt ook de nieuwste [Documentatieupdates](../release-notes/documentation-updates.md).
 
-## Release van maart 2022 {#feb-2022-release}
+## Release van mei 2022 {#may-2022-release}
 
 ### Verbeteringen
 
-**Journeys**
+* **Expression-editor** - de [limiet](../functions/functionlimit.md) Er is een functie toegevoegd waarmee u het aantal items in een lijst kunt beperken. De [sorteren](../functions/functionsort.md) Met deze functie kunt u nu een lijstobject sorteren. De ondersteuning van listObject is ook toegevoegd aan de [ontkenning](../functions/functiondistinct.md) en [differentWithNull](../functions/functiondistinctwithnull.md) functies.
+
+## Release van maart 2022 {#feb-2022-release}
+
+### Verbeteringen
 
 * Als u wilt voorkomen dat het schema van het uniforme profiel onnodige velden bevat, is het schema voor de gebeurtenis Reisstap niet meer standaard ingeschakeld voor profielen. Indien nodig, kunt u het activeren. [Meer informatie](../building-journeys/sharing-overview.md)
 * Journey Optimizer stuurt nu nieuwe stapgebeurtenissen met betrekking tot exporttaken naar Adobe Experience Platform. Voorbeelden van query&#39;s zijn toegevoegd aan documentatie. [Meer informatie](../building-journeys/query-examples.md)
@@ -80,7 +84,7 @@ U kunt ook de nieuwste [Documentatieupdates](../release-notes/documentation-upda
 
 ### Verbeteringen
 
-**Reizen**
+**Journeys**
 
 * **Dynamische koppen** - U kunt nu dynamische gegevens doorgeven in HTTP-headerparameters. Deze parameters kunnen door de integratiesystemen worden gebruikt die de vraag van HTTP van de reisactie, bijvoorbeeld timestamp of het volgen identiteitskaart ontvangen. [Meer informatie](../action/url-configuration.md)
 * **Dynamische URL-paden** - U kunt nu dynamische URL-paden instellen voor aangepaste handelingen. [Meer informatie](../action/url-configuration.md)
