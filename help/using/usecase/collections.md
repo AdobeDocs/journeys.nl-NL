@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen
 description: Een bericht verzenden met Campaign v7/v8
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 97d19cf9cb91c82587e5c94e43580f808d15e813
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,6 +66,7 @@ U kunt een verzameling doorgeven in aangepaste handelingsparameters die bij uitv
     ]
    }
    ```
+
 * Als u verzamelingen wilt testen in de testmodus, moet u de modus Codeweergave gebruiken. De modus Codeweergave wordt momenteel niet ondersteund voor bedrijfsgebeurtenissen. U kunt alleen een verzameling met één element verzenden.
 
 ## Algemene procedure {#general-procedure}
