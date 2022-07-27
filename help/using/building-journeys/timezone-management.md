@@ -6,7 +6,7 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 2%
@@ -15,16 +15,15 @@ ht-degree: 2%
 
 # Tijdzonebeheer {#timezone_management}
 
-You can define a time zone in the [properties](../building-journeys/changing-properties.md) of your journey.
+U kunt een tijdzone definiëren in het dialoogvenster [eigenschappen](../building-journeys/changing-properties.md) van je reis.
 
 Als u eigenschappen wilt openen, klikt u op het potloodpictogram rechtsboven in het scherm.
 
-This time zone will be used for every activity of the journey containing a time element such as:
+Deze tijdzone wordt gebruikt voor elke activiteit van de reis die een tijdselement bevat, zoals:
 
 * [Tijdvoorwaarde](../building-journeys/condition-activity.md#time_condition)
-* [Date condition](../building-journeys/condition-activity.md#date_condition)
+* [Datumvoorwaarde](../building-journeys/condition-activity.md#date_condition)
 * [Aangepast wachten](../building-journeys/wait-activity.md#custom)
-* [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 
 U kunt een tijdzone selecteren of de tijdzone gebruiken die is gedefinieerd in het gebruikersprofiel.
 
@@ -34,7 +33,7 @@ U kunt een tijdzone selecteren of de tijdzone gebruiken die is gedefinieerd in h
 
 ## Een vaste tijdzone definiëren {#fixed-timezone}
 
-De tijdzone kan ook worden vastgesteld. Wis de vooraf gedefinieerde tijdzone en kies een tijdzone in de vervolgkeuzelijst. If you use a fixed time zone, it will be the same for all individuals entering the journey.
+De tijdzone kan ook worden vastgesteld. Wis de vooraf gedefinieerde tijdzone en kies een tijdzone in de vervolgkeuzelijst. Als je een vaste tijdzone gebruikt, zal dat hetzelfde zijn voor iedereen die de reis binnenkomt.
 
 Daartoe, in **[!UICONTROL Properties]** selecteert u een tijdzone.
 
@@ -42,13 +41,9 @@ Daartoe, in **[!UICONTROL Properties]** selecteert u een tijdzone.
 
 ## Profielen gebruiken om de tijdzone voor het transport te definiëren {#timezone-from-profiles}
 
-Als de entry-gebeurtenis van de reis een naamruimte heeft, wat betekent dat de reis de Real-time dienst van het Profiel van de Klant van de Adobe Experience Platform kan bereiken, is de tijdzone vooraf gedefinieerd met die gespecificeerd in het profiel van de individuele die in de reis stroomt.
+Als de entry-gebeurtenis van de reis een naamruimte heeft, wat betekent dat de reis de Real-time service van het Profiel van de Klant van Adobe Experience Platform kan bereiken, kunt u de tijdzone willen gebruiken die op het profielniveau wordt bepaald. Daartoe, in **Eigenschappen**, controle **Tijdzone profiel gebruiken in wachtwoorden en omstandigheden**. Deze optie is niet standaard ingeschakeld.
 
-If a time zone is defined in the Adobe Experience Platform profile, it can be retrieved in the journey.
-
-Als het profiel van het individu geen tijdzone bevat, wordt de opgehaalde tijdzone gedefinieerd in het tijdzoneveld.
-
-Daartoe, in **[!UICONTROL Properties]**, controle **[!UICONTROL Use Profile timezone in timers and conditions]**.
+Als een tijdzone voor een profiel is gedefinieerd, zal het door de reis worden teruggewonnen en gebruikt. Als dit niet het geval is, wordt de tijdzone gebruikt die is gedefinieerd in het tijdzone-veld.
 
 ![](../assets/journey73.png)
 

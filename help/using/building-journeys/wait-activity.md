@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '355'
 ht-degree: 5%
 
 ---
@@ -18,9 +18,7 @@ ht-degree: 5%
 Als u wilt wachten voordat u de volgende activiteit in het pad uitvoert, kunt u een **[!UICONTROL Wait]** activiteit. Hiermee kunt u bepalen wanneer de volgende activiteit wordt uitgevoerd. Er zijn drie opties beschikbaar:
 
 * [Duur](#duration)
-* [Vaste datum](#fixed_date)
 * [Aangepast](#custom)
-
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Informatie over de activiteit Wachten{#about_wait}
@@ -40,12 +38,6 @@ Houd er ook rekening mee dat als twee verschillende wachttijden parallel lopen, 
 Selecteer de duur van de wachttijd voordat de volgende activiteit wordt uitgevoerd.
 
 ![](../assets/journey55.png)
-
-## Wachttijd voor vaste datum{#fixed_date}
-
-Selecteer de datum voor de uitvoering van de volgende activiteit.
-
-![](../assets/journey56.png)
 
 ## Aangepast wachten{#custom}
 

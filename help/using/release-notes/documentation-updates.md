@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 99%
+source-wordcount: '992'
+ht-degree: 96%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 99%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Orchestration].
 U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../release-notes/release-notes.md) raadplegen.
+
+## Juli 2022 {#july-2022}
+
+* In de reiseigenschappen **Tijdzone profiel** Deze optie is nu standaard uitgeschakeld. [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)
+* In de **Wachten** de **Vaste datum** is niet meer beschikbaar. [Meer informatie](../building-journeys/wait-activity.md)
 
 ## Juni 2022 {#june-2022}
 
