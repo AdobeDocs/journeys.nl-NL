@@ -5,7 +5,7 @@ title: Journey Orchestration-handleiding
 user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
 index: true
 feature: Journeys
-source-git-commit: 19760b779c2b105286d502b3bf4edda5bec79194
+source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 98%
@@ -19,7 +19,7 @@ ht-degree: 98%
 + Nieuwe functies {#release-notes}
    + [Aanvullende informatie](using/release-notes/release-notes.md)
    + [Documentatie-updates](using/release-notes/documentation-updates.md)
-   + [Migratie naar Journey Optimizer](using/release-notes/migration-to-ajo.md)
+   + [Upgrade naar Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
 + Beginnen met [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Over [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Beperkingen](using/about/limitations.md)
