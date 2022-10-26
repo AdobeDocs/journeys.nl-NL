@@ -3,7 +3,7 @@ title: Upgrade naar Adobe Journey Optimizer
 description: Meer informatie over upgraden naar Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
+source-git-commit: e7d1b6401f03603a56d963672da1b402d0fe5e80
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 2%
@@ -65,11 +65,11 @@ Profiteer van andere huidige **Adobe Journey Optimizer-functies** en er komen ni
 
 ## Veelgestelde vragen
 
-## Moet ik iets plannen om van Journey Orchestration naar Adobe Journey Optimizer te verhuizen?
+### Moet ik iets plannen om van Journey Orchestration naar Adobe Journey Optimizer te verhuizen?
 
 Nee, er is geen migratie, geen werk nodig van u, geen downtime en geen extra investering. U hoeft alleen uw overeenkomst met Adobe bij te werken en wij doen de rest. Neem contact op met uw accountvertegenwoordiger voor instructies over het initiëren van dit proces.
 
-## Zal ik iets verliezen na de verandering?
+### Zal ik iets verliezen na de verandering?
 
 Nee, u behoudt al uw bestaande Journey Orchestration- en Adobe Experience Platform-objecten: schema&#39;s, datasets, reizen, gebeurtenissen, gegevensbronnen, acties. Er zal niets verloren gaan, alle rechtstreekse reizen zullen zonder onderbreking blijven werken.
 
