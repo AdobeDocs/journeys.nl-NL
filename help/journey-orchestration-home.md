@@ -2,19 +2,19 @@
 keywords: Journeys;startpagina;populaire onderwerpen
 product: adobe campaign
 title: Journey Orchestration-productdocumentatie
-description: Volg onze Gids van de Journey Orchestration van de Adobe voor eenvoudige hoe te instructies op het uitvoeren van en het bouwen van reizen.
+description: Volg onze Adobe Journey Orchestration-handleiding voor eenvoudige instructies voor het implementeren en bouwen van journeys.
 feature: Journeys
 role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: b0bf5c12adc6e9c538f2264f79b7c43656424f05
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
-# Journey Orchestration-hulplijn {#journeys-documentation}
+# Journey Orchestration-handleiding {#journeys-documentation}
 
 ![](using/assets/do-not-localize/bannerjourney.png)
 
