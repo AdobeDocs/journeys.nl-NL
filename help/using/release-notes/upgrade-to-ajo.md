@@ -3,13 +3,13 @@ title: Upgrade naar Adobe Journey Optimizer
 description: Meer informatie over upgraden naar Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8591ed266f5a360dbc7bea8dd8a6d7a089aa346f
+exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
+source-git-commit: 3e9ff02cecfe85ea38cce4b0d241156f6209202f
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '753'
 ht-degree: 2%
 
 ---
-
 
 # Upgrade uw Journey Orchestration-omgeving naar Adobe Journey Optimizer{#ugrade-ajo}
 
@@ -55,7 +55,7 @@ Profiteer van andere huidige **Adobe Journey Optimizer-functies** en er komen ni
 
 ## Hoe kan ik mijn Journey Orchestration-omgeving upgraden?
 
-1. Neem contact op met uw accountteam om uw overeenkomst zonder kosten bij te werken met Adobe.
+1. Vraag uw accountteam om uw overeenkomst met Adobe bij te werken.
 
 1. Wacht op ons team van de Techniek om de verandering te voltooien.
 
@@ -88,7 +88,7 @@ Nee, u behoudt al uw bestaande Journey Orchestration- en Adobe Experience Platfo
 
 ![](../assets/migration-ajo-9.png)
 
-Ja, dat is normaal. U zult de toegang tot Journey Orchestration één maand na de verbetering houden. Hierdoor hebt u genoeg tijd om al uw gebruikersmachtigingen bij te werken en meer vertrouwd te raken met Adobe Journey Optimizer. Na een maand wordt de toegang verwijderd.
+Ja, dat is normaal. U ziet het item Journey Orchestration nog een paar dagen na de upgrade. Gebruik de Journey Optimizer.
 
 ### Wat gebeurt er als ik vandaag Journey Orchestration met Adobe Campaign Standard gebruik?
 
