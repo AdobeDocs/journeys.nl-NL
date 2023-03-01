@@ -2,13 +2,13 @@
 product: adobe campaign
 user-guide-title: Journey Orchestration
 title: Journey Orchestration-handleiding
-user-guide-description: Verstrekt stapsgewijze instructies voor het implementeren en samenstellen van journeys.
+user-guide-description: Biedt instructies voor het implementeren en creëren van journeys.
 index: true
 feature: Journeys
 source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
-workflow-type: ht
-source-wordcount: '440'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

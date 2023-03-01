@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: Aan de slag
-description: Ontdek de belangrijkste stappen voor het instellen van Journey Orchestration en voor het samenstellen van uw eerste journey.
+description: Ontdek de belangrijkste stappen om Journey Orchestration in te stellen en uw eerste journey te maken.
 feature: Journeys
 role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
