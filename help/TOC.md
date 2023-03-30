@@ -5,15 +5,15 @@ title: Journey Orchestration-handleiding
 user-guide-description: Biedt instructies voor het implementeren en creëren van journeys.
 index: true
 feature: Journeys
-source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
+source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '447'
+ht-degree: 97%
 
 ---
 
 
-# [!DNL Journey Orchestration] Gids  {#using}
+# [!DNL Journey Orchestration] Handleiding {#using}
 
 + [Productdocumentatie](journey-orchestration-home.md)
 + Nieuwe functies {#release-notes}
@@ -205,4 +205,6 @@ ht-degree: 0%
    + [Een bericht verzenden met Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
    + [Verzamelingen dynamisch doorgeven met behulp van aangepaste acties](using/usecase/collections.md)
 + Werken met API’s{#working-with-apis}
-   + [API’s beperken](using/api/capping.md)
+   + [Aan de slag met reis-API&#39;s](using/api/journeys-apis.md)
+   + [API voor uitlijnen](using/api/capping.md)
+   + [Throttling API](using/api/throttling.md)
