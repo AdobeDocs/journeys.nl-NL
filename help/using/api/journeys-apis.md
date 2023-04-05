@@ -6,9 +6,9 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
+source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Wanneer het vormen van een gegevensbron of een actie, vestigt u een verbinding a
 
 Reis-API&#39;s ondersteunen maximaal 5000 gebeurtenissen per seconde, maar sommige externe systemen of API&#39;s hebben mogelijk geen equivalente doorvoer. Om overbelasting van deze systemen te voorkomen, kunt u de **Afbeelding** en **Throttling** API&#39;s om het aantal verzonden gebeurtenissen per seconde te beperken.
 
-Telkens wanneer een API-aanroep door reizen wordt uitgevoerd, loopt deze door de API-engine. Als de limiet die in de API is ingesteld, wordt de aanroep afgewezen als u de API voor uitsnijden gebruikt, of zo snel mogelijk in de volgorde waarin deze is ontvangen als u de API voor rotatie gebruikt in de wachtrij en verwerkt.
+Telkens wanneer een API-aanroep door reizen wordt uitgevoerd, loopt deze door de API-engine. Als de limiet die is ingesteld in de API wordt bereikt, wordt de aanroep afgewezen als u de API voor uitsnijden gebruikt, of in de wachtrij van maximaal 6 uur en zo snel mogelijk verwerkt in de volgorde waarin deze is ontvangen als u de API voor rotatie gebruikt.
 
 Stel bijvoorbeeld dat u voor uw externe systeem een regel hebt gedefinieerd voor het bijsnijden of vertragen van 100 aanroepen per seconde. Uw systeem wordt opgeroepen door een aangepaste actie tijdens 10 verschillende reizen. Als één reis 200 vraag per seconde ontvangt, zal het de 100 beschikbare groeven gebruiken en zal verwerpen of de 100 resterende groeven in de rij plaatsen. Aangezien het maximumtarief is overschreden, zullen de overige 9 reizen geen slots meer hebben. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
 

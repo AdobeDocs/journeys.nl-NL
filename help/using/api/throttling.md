@@ -6,9 +6,9 @@ products: journeys
 feature: Journeys
 role: User
 level: Intermediate
-source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
+source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '788'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ De Throttling API helpt u om uw throttling configuraties tot stand te brengen, t
 >Er is momenteel slechts één configuratie toegestaan per organisatie. Er moet een configuratie worden gedefinieerd in een productiesandbox (opgegeven via de naam x-sandbox in de koppen).
 >
 >Een configuratie wordt toegepast op organisatieniveau.
+>
+>Wanneer de limiet die is ingesteld in de API is bereikt, worden nog meer gebeurtenissen in de wachtrij geplaatst voor maximaal 6 uur. Deze waarde kan niet worden gewijzigd.
 
 ## Beschrijving van de Throttende API {#description}
 
