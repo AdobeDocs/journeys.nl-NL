@@ -1,67 +1,67 @@
 ---
 product: adobe campaign
-title: Aan de slag met reis-API's
-description: Meer informatie over reis-API's
+title: Aan de slag met journey-API's
+description: Meer informatie over journey-API's
 products: journeys
 feature: Journeys
 role: User
 level: Intermediate
 source-git-commit: fa493cf1e856378e4d79a6932c30cebf5e11e028
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Aan de slag met reis-API&#39;s
+# Aan de slag met journey-API&#39;s
 
-## Informatie over API&#39;s voor uitlijnen en draaien
+## Informatie over afkappings- en beperkings-API&#39;s
 
-Wanneer het vormen van een gegevensbron of een actie, vestigt u een verbinding aan een systeem om of extra informatie terug te winnen om in uw reizen te gebruiken of berichten of API vraag te verzenden.
+Wanneer u een databron of een actie configureert, maakt u een verbinding met een systeem om extra informatie op te halen voor gebruik in uw journeys of om berichten of API-oproepen te versturen.
 
-Reis-API&#39;s ondersteunen maximaal 5000 gebeurtenissen per seconde, maar sommige externe systemen of API&#39;s hebben mogelijk geen equivalente doorvoer. Om overbelasting van deze systemen te voorkomen, kunt u de **Afbeelding** en **Throttling** API&#39;s om het aantal verzonden gebeurtenissen per seconde te beperken.
+Journey-API&#39;s ondersteunen tot 5000 gebeurtenissen per seconde, maar sommige externe systemen of API&#39;s hebben mogelijk geen equivalente verwerkingscapaciteit. Om overbelasting van deze systemen te voorkomen kunt u API&#39;s voor **Afkappen** en **Beperken** gebruiken om het aantal per seconde verzonden gebeurtenissen te beperken.
 
-Telkens wanneer een API-aanroep door reizen wordt uitgevoerd, loopt deze door de API-engine. Als de limiet die is ingesteld in de API wordt bereikt, wordt de aanroep afgewezen als u de API voor uitsnijden gebruikt, of in de wachtrij van maximaal 6 uur en zo snel mogelijk verwerkt in de volgorde waarin deze is ontvangen als u de API voor rotatie gebruikt.
+Telkens wanneer een API-oproep wordt uitgevoerd door journeys, passeert deze de API-engine. Als de in de API ingestelde limiet is bereikt, wordt de oproep geweigerd als u de afkappings-API gebruikt, of tot 6 uur in een wachtrij geplaatst en zo snel mogelijk verwerkt in de volgorde van ontvangst als u de beperkings-API gebruikt.
 
-Stel bijvoorbeeld dat u voor uw externe systeem een regel hebt gedefinieerd voor het bijsnijden of vertragen van 100 aanroepen per seconde. Uw systeem wordt opgeroepen door een aangepaste actie tijdens 10 verschillende reizen. Als één reis 200 vraag per seconde ontvangt, zal het de 100 beschikbare groeven gebruiken en zal verwerpen of de 100 resterende groeven in de rij plaatsen. Aangezien het maximumtarief is overschreden, zullen de overige 9 reizen geen slots meer hebben. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
+Stel bijvoorbeeld dat u voor uw externe systeem een regel voor afkappen of beperken hebt gedefinieerd van 100 oproepen per seconde. Uw systeem wordt opgeroepen door een aangepaste actie in 10 verschillende journeys. Indien één journey 200 oproepen per seconde ontvangt, gebruikt deze de 100 beschikbare slots en de 100 resterende slots verwijderen of in een wachtrij plaatsen. Aangezien het maximumaantal is overschreden, hebben de andere 9 journeys geen slot meer. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
 
 >[!IMPORTANT]
 >
->**Afdekregels** worden geconfigureerd op sandboxniveau voor een specifiek eindpunt (de URL wordt aangeroepen), maar globaal voor alle reizen van die sandbox.
+>**Afkappingsregels** worden op sandboxniveau geconfigureerd voor een specifiek eindpunt (de opgeroepen URL), maar globaal voor alle journeys van deze sandbox.
 >
->**Throtatieregels** alleen geconfigureerd zijn op productiestanddozen, voor een specifiek eindpunt maar globaal voor alle reizen over alle sandboxen. U kunt slechts één throttling configuratie per organisatie hebben.
+>**Beperkingsregels** worden voor productiesandboxen alleen geconfigureerd voor een specifiek eindpunt, maar globaal voor alle journeys in alle sandboxes. U kunt slechts één beperkingsconfiguratie per organisatie hebben.
 
-Raadpleeg de volgende secties voor meer informatie over het werken met deze API&#39;s:
+Voor meer informatie over werken met deze API&#39;s raadpleegt u deze secties:
 
-* [API voor uitlijnen](capping.md)
-* [Throttling API](throttling.md)
+* [Afkappings-API](capping.md)
+* [API voor beperken](throttling.md)
 
-Beide API&#39;s worden ook beschreven in een Swagger-bestand dat beschikbaar is [hier](https://adobedocs.github.io/JourneyAPI/docs/).
+Beide API&#39;s worden ook beschreven in een Swagger-bestand dat [hier](https://adobedocs.github.io/JourneyAPI/docs/) beschikbaar is.
 
-## Gegevensbronnen en aangepaste handelingscapaciteit {#capacity}
+## Capaciteit gegevensbronnen en aangepaste acties {#capacity}
 
-Voor **externe gegevensbronnen**, is het maximumaantal oproepen per seconde beperkt tot 15. Als deze limiet wordt overschreden, worden eventuele aanvullende aanroepen genegeerd of in een wachtrij geplaatst, afhankelijk van de gebruikte API. Het is mogelijk om deze grens voor privé externe gegevensbronnen te verhogen door Adobe te contacteren om het eindpunt in de lijst van gewenste personen op te nemen, maar dit is geen optie voor openbare externe gegevensbronnen. * [Leer hoe te om gegevensbronnen te vormen](../datasource/about-data-sources.md).
+Voor **externe gegevensbronnen** is het maximum aantal oproepen per seconde beperkt tot 15. Als deze limiet wordt overschreden, worden alle verdere oproepen ofwel afgewezen ofwel in de wachtrij geplaatst, afhankelijk van de gebruikte API. Het is mogelijk om deze limiet te verhogen voor externe privédatabronnen door contact op te nemen met Adobe om het eindpunt op te nemen in de lijst van gewenste personen, maar dit is geen optie voor externe openbare databronnen. * [Leer hoe u databronnen kunt configureren](../datasource/about-data-sources.md).
 
 >[!NOTE]
 >
->Als een gegevensbron een douaneauthentificatie met een verschillend eindpunt dan gebruikt voor de gegevensbron gebruikt, moet u Adobe contacteren om dat eindpunt in de lijst van gewenste personen ook te omvatten.
+>Als een databron een aangepaste authenticatie gebruikt met een ander eindpunt dan het eindpunt dat voor de databron wordt gebruikt, moet u contact opnemen met Adobe om ook dat eindpunt in de lijst van gewenste personen op te nemen.
 
-Voor **aangepaste handelingen**, moet u de capaciteit van uw externe API evalueren. Bijvoorbeeld, als Journey Optimizer 1000 vraag per seconde verzendt en uw systeem slechts 100 vraag per seconde kan steunen, moet u een het in kaart brengen of het gooien configuratie bepalen zodat uw systeem niet verzadigt. [Leer hoe u handelingen configureert](../action/action.md)
+Voor **aangepaste acties** moet u de capaciteit van uw externe API evalueren. Als Journey Optimizer bijvoorbeeld 1000 oproepen per seconde verstuurt en uw systeem slechts 100 oproepen per seconde kan ondersteunen, moet u een afkappings- of beperkingsconfiguratie definiëren zodat uw systeem niet verzadigd raakt. [Ontdek hoe u acties kunt configureren](../action/action.md)
 
 ## API-toegang instellen {#api}
 
-Deze API&#39;s gebruiken met uw [!DNL Journey Orchestration] -instantie, moet u de AdobeI/O-console gebruiken. [!DNL Journey Orchestration] API-toegang wordt ingesteld via de onderstaande stappen. Elk van deze stappen wordt beschreven in [Adobe I/O-documentatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+Om deze API&#39;s met uw [!DNL Journey Orchestration]-versie te gebruiken moet u de AdobeI/O-console gebruiken. [!DNL Journey Orchestration] API-toegang wordt ingesteld via de onderstaande stappen. Elk van deze stappen is gedetailleerd beschreven in de [Adobe I/O-documentatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
->Als u certificaten wilt beheren in Adobe I/O, moet u ervoor zorgen dat u beschikt over <b>Systeembeheerder</b> rechten van de organisatie of [ontwikkelaarsaccount](https://helpx.adobe.com/enterprise/using/manage-developers.html) in de beheerconsole.
+>Om certificaten te beheren in Adobe I/O hebt u <b>systeembeheerders</b>rechten nodig voor de organisatie of een [ontwikkelaarsaccount](https://helpx.adobe.com/nl/enterprise/using/manage-developers.html) in de Admin-console.
 
-1. **Controleer of u een digitaal certificaat hebt** of maak indien nodig een sjabloon. De openbare en persoonlijke sleutels die van het certificaat worden voorzien zijn vereist in de volgende stappen.
-1. **Een nieuwe integratie maken voor [!DNL Journey Orchestration] Service** in Adobe I/O en configureren. Toegang tot het productprofiel is vereist voor [!DNL Journey Orchestration] en Adobe Experience Platform. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).
-1. **Een JSON-webtoken (JWT) maken** uit de eerder gegenereerde referenties en deze ondertekenen met uw persoonlijke sleutel. De JWT codeert alle identiteits- en beveiligingsgegevens die Adobe nodig heeft om uw identiteit te verifiëren en u toegang tot de API te verlenen. Deze stap wordt in deze [sectie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. **Uitwisseling uw JWT voor een Token van de Toegang** via een POST-aanvraag of via de Developer Console Interface. Dit toegangstoken moet worden gebruikt in elke header van uw API-aanvragen.
+1. **Controleer of u een digitaal certificaat hebt**, of maak er zo nodig een. De bij het certificaat geleverde openbare en privésleutels zijn nodig bij de volgende stappen.
+1. **Maak een nieuwe integratie met [!DNL Journey Orchestration] Service** in Adobe I/O en configureer deze. De toegang tot het productprofiel is nodig voor [!DNL Journey Orchestration] en Adobe Experience Platform. Uw referenties worden dan gegenereerd (API-sleutel, klantgeheim...).
+1. **Maak een JSON-webtoken (JWT)** van de eerder gegenereerde referenties en onderteken deze met uw privésleutel. De JWT codeert alle identiteits- en beveiligingsinformatie die Adobe nodig heeft om uw identiteit te verifiëren en u toegang te verlenen tot de API. Deze stap wordt in detail beschreven in deze [sectie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
+1. **Uw JWT uitwisselen voor een toegangstoken** via een POST-verzoek of via de Developer Console Interface. Deze toegangstoken moet worden gebruikt in elke header van uw API-verzoeken.
 
-Om een veilige service-to-service Adobe I/O API-sessie tot stand te brengen, moet elke aanvraag naar een Adobe-service de onderstaande informatie bevatten in de machtigingheader.
+Om een veilige Adobe I/O API-sessie tussen services tot stand te brengen moet elk verzoek aan een Adobe-service de onderstaande informatie bevatten in de autorisatieheader.
 
 ```
 curl -X GET https://journey.adobe.io/authoring/XXX \
@@ -70,8 +70,8 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;organization>**: Dit is uw persoonlijke ORGANISATIE-id. Eén ORGANISATIE-id wordt door Adobe opgegeven voor elk van uw varianten. Raadpleeg de beheerder of uw technische contactpersoon voor Adobe om de waarde van uw ORGANISATIE-id op te vragen. U kunt het in Adobe I/O ook terugwinnen wanneer het creëren van een nieuwe integratie, in de vergunningslijst (zie <a href="https://www.adobe.io/authentication.html">Adobe I/O-documentatie</a>).
+* **&lt;ORGANIZATION>**: dit is uw persoonlijke ORGANISATIE-ID. Adobe verstrekt één ORGANISATIE-ID voor elk van uw instanties. Voor het verkrijgen van uw ORGANISATIE-ID-waarde raadpleegt u uw beheerder of uw technische contactpersoon bij Adobe. U kunt hem ook ophalen in Adobe I/O wanneer u een nieuwe integratie maakt, in de licentielijst (zie de <a href="https://www.adobe.io/authentication.html">Adobe I/O-documentatie</a>).
 
-* **&lt;access_token>**: Uw persoonlijk toegangstoken, dat werd teruggewonnen toen het ruilen van uw JWT door een verzoek van de POST.
+* **&lt;ACCESS_TOKEN>**: uw persoonlijke toegangstoken, dat is opgehaald bij het uitwisselen van uw JWT via een POST-verzoek.
 
-* **&lt;api_key>**: uw persoonlijke API-sleutel. Het wordt aangeboden in Adobe I/O nadat een nieuwe integratie is gecreëerd in [!DNL Journey Orchestration] Service.
+* **&lt;API_KEY>**: uw persoonlijke API-sleutel. Deze wordt geleverd in Adobe I/O na het maken van een nieuwe integratie met [!DNL Journey Orchestration] Service.
