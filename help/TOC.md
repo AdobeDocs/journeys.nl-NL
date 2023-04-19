@@ -2,13 +2,13 @@
 product: adobe campaign
 user-guide-title: Journey Orchestration
 title: Journey Orchestration-handleiding
-user-guide-description: Biedt instructies voor het implementeren en creëren van journeys.
+user-guide-description: Biedt instructies voor het implementeren en maken van journeys.
 index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -205,6 +205,6 @@ ht-degree: 97%
    + [Een bericht verzenden met Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
    + [Verzamelingen dynamisch doorgeven met behulp van aangepaste acties](using/usecase/collections.md)
 + Werken met API’s{#working-with-apis}
-   + [Aan de slag met reis-API&#39;s](using/api/journeys-apis.md)
-   + [API voor uitlijnen](using/api/capping.md)
-   + [Throttling API](using/api/throttling.md)
+   + [Aan de slag met journey-API&#39;s](using/api/journeys-apis.md)
+   + [Afkappings-API](using/api/capping.md)
+   + [API voor beperken](using/api/throttling.md)
