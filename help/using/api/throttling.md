@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: Werken met de Throttling-API
-description: Meer informatie over de Throttling API
+title: Werken met de beperkings-API
+description: Meer informatie over de beperkings-API
 products: journeys
 feature: Journeys
 role: User
@@ -10,38 +10,38 @@ exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 25d8dcd027f3f433759ce97f9a3a1dad85ba1427
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 1%
+ht-degree: 96%
 
 ---
 
-# Werken met de Throttling-API
+# Werken met de beperkings-API
 
 De Throttling API helpt u om uw throttling configuraties tot stand te brengen, te vormen en te controleren om het aantal gebeurtenissen te beperken die per seconde worden verzonden.
 
 >[!IMPORTANT]
 >
->Er is momenteel slechts één configuratie toegestaan per organisatie. Er moet een configuratie worden gedefinieerd in een productiesandbox (opgegeven via de naam x-sandbox in de koppen).
+>Momenteel is slechts één configuratie per organisatie toegestaan. Een configuratie moet worden gedefinieerd voor een productiesandbox (gegeven via x-sandbox-name in de headers).
 >
 >Een configuratie wordt toegepast op organisatieniveau.
 >
->Wanneer de limiet die is ingesteld in de API is bereikt, worden nog meer gebeurtenissen in de wachtrij geplaatst voor maximaal 6 uur. Deze waarde kan niet worden gewijzigd.
+>Wanneer de in de API ingestelde limiet is bereikt, worden verdere gebeurtenissen maximaal 6 uur in de wachtrij geplaatst. Deze waarde kan niet worden gewijzigd.
 
-## Beschrijving van de Throttende API {#description}
+## Beschrijving van beperkings-API {#description}
 
 | Methode | Pad | Beschrijving |
 |---|---|---|
-| [!DNL POST] | list/throttlingConfigs | Krijg een lijst van de throttling configuraties |
-| [!DNL POST] | /throttlingConfigs | Een configuratie voor vertragen maken |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/implementatie | Implementeer een configuratie voor het vertragen |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/uninstall | Implementatie van een vertragingsconfiguratie ongedaan maken |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Controleren of een throttling-configuratie kan worden geïmplementeerd |
-| [!DNL PUT] | /throttlingConfigs/`{uid}` | Een throttingconfiguratie bijwerken |
-| [!DNL GET] | /throttlingConfigs/`{uid}` | Een configuratie voor vertragen ophalen |
-| [!DNL DELETE] | /throttlingConfigs/`{uid}` | Een configuratie met vertraagde verwerking verwijderen |
+| [!DNL POST] | list/throttlingConfigs | Ontvang een lijst van de beperkingsconfiguraties |
+| [!DNL POST] | /throttlingConfigs | Een beperkingsconfiguratie maken |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | Beperkingsconfiguratie implementeren |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | Implementatie van een beperkingsconfiguratie ongedaan maken |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Controleren of een beperkingsconfiguratie kan worden geïmplementeerd of niet |
+| [!DNL PUT] | /throttlingConfigs/`{uid}` | Een beperkingsconfiguratie bijwerken |
+| [!DNL GET] | /throttlingConfigs/`{uid}` | Een beperkingsconfiguratie ophalen |
+| [!DNL DELETE] | /throttlingConfigs/`{uid}` | Een beperkingsconfiguratie verwijderen |
 
-## Throtting-configuratie {#configuration}
+## Beperkingsconfiguratie {#configuration}
 
-Hier is de structuur van een throttling configuratie. **name** en **beschrijving** kenmerken zijn optioneel.
+Dit is de structuur van een beperkingsconfiguratie. De attributen **name** en **description** zijn optioneel.
 
 ```
 {
@@ -67,7 +67,7 @@ Voorbeeld:
 
 ## Fouten
 
-Wanneer het creëren van of het bijwerken van een configuratie, bevestigt het proces de bepaalde configuratie en keert de bevestigingsstatus terug die door zijn Unieke identiteitskaart wordt geïdentificeerd, of:
+Bij het maken of bijwerken van een configuratie valideert het proces de gegeven configuratie en retourneert de validatiestatus die wordt geïdentificeerd door de unieke ID, ofwel:
 
 ```
 "ok" or "error"
@@ -75,34 +75,34 @@ Wanneer het creëren van of het bijwerken van een configuratie, bevestigt het pr
 
 >[!IMPORTANT]
 >
->De kenmerken **maxThroughput**, **urlPattern** en **methoden** zijn verplicht.
+>De attributen **maxThroughput**, **urlPattern** en **methods** zijn verplicht.
 >
->**maxThroughput** waarde moet tussen 200 en 5000 liggen.
+>**maxThroughput**-waarde moet tussen 200 en 5000 liggen.
 
-Wanneer het creëren van, het schrappen van of het opstellen van throttling configuratie, kunnen de volgende fouten voorkomen:
+Bij het maken, verwijderen of implementeren van een beperkingsconfiguratie kunnen de volgende fouten optreden:
 
-* **ERR_THROTTLING_CONFIG_100**: throttling config: `<mandatory attribute>` vereist
-* **ERR_THROTTLING_CONFIG_101**: throttling config: maxThroughput is vereist en moet groter zijn dan of gelijk zijn aan 200 en kleiner dan of gelijk aan 5000
-* **ERR_THROTTLING_CONFIG_104**: throttling config: onjuist geformuleerd url-patroon
-* **ERR_THROTTLING_CONFIG_105**: throttling config: jokertekens niet toegestaan in het hostgedeelte van het url-patroon
-* **ERR_THROTTLING_CONFIG_106**: throttling config: ongeldige payload
-* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**, &quot;Kan geen opgesteld throttling config schrappen. Implementatie ongedaan maken voordat deze wordt verwijderd&quot;
-* **THROTTLING_CONFIG_DELETE_ERROR: 1457**, &quot;Kan vertraging config niet verwijderen: onverwachte fout&quot;
-* **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**, &quot;Kan geen throttling config opstellen: onverwachte fout&quot;
-* **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**, &quot;Kan throttling config niet ongedaan maken: onverwachte fout&quot;
-* **THROTTLING_CONFIG_GET_ERROR: 1460**, &quot;Kan vertragingsconfig niet krijgen: onverwachte fout&quot;
-* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**, &quot;Kan vertraging config niet bijwerken: runtimeversie is niet actief.&quot;
-* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**, &quot;Kan vertraging config niet bijwerken: onverwachte fout&quot;
-* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**, &quot;Bewerking niet toegestaan op throttling config: niet-prod sandbox&quot;
-* **THROTTLING_CONFIG_CREATE_ERROR: 1464**, &quot;Kan geen throttling config tot stand brengen: onverwachte fout&quot;
-* **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**, &quot;Kan geen throttling config tot stand brengen: slechts één config toegestaan per org&quot;
-* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 1466**, &quot;Kan geen throttling config opstellen: reeds geïmplementeerd&quot;
-* **THROTTLING_CONFIG_NOT_FOUND_ERROR: 1467**, &quot;throttling config not found&quot;
-* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 1468**, &quot;Kan throttling config niet ongedaan maken: nog niet geïmplementeerd&quot;
+* **ERR_THROTTLING_CONFIG_100**: beperkingsconfig: `<mandatory attribute>` vereist
+* **ERR_THROTTLING_CONFIG_101**: beperkingsconfig: maxThroughput is vereist en moet groter zijn dan of gelijk aan 200 en kleiner dan of gelijk aan 5000
+* **ERR_THROTTLING_CONFIG_104**: beperkingsconfig: niet-welgevormd URL-patroon
+* **ERR_THROTTLING_CONFIG_105**: beperkingsconfig: jokers zijn niet toegestaan in het hostgedeelte van het URL-patroon
+* **ERR_THROTTLING_CONFIG_106**: beperkingsconfig: ongeldige payload
+* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**, &quot;Kan een geïmplementeerde beperkingsconfiguratie niet verwijderen. Implementatie ongedaan maken voordat deze wordt verwijderd&quot;
+* **THROTTLING_CONFIG_DELETE_ERROR: 1457**, &quot;Kan beperkingsconfiguratie niet verwijderen: onverwachte fout&quot;
+* **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**, &quot;Kan beperkingsconfiguratie niet implementeren: onverwachte fout &quot;
+* **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**, &quot;Kan beperkingsconfig niet ongedaan maken: onverwachte fout&quot;
+* **THROTTLING_CONFIG_GET_ERROR: 1460**, &quot;Kan geen beperkingsconfiguratie krijgen: onverwachte fout&quot;
+* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**, &quot;Kan beperkingsconfiguratie niet bijwerken: runtime versie is niet actief&quot;
+* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**, &quot;Kan beperkingsconfiguratie niet bijwerken: onverwachte fout&quot;
+* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**, &quot;Operatie niet toegestaan op beperkingsconfig: non prod sandbox&quot;
+* **THROTTLING_CONFIG_CREATE_ERROR: 1464**, &quot;Kan geen beperkingsconfiguratie maken: onverwachte fout&quot;
+* **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**, &quot;Kan geen beperkingsconfiguratie maken: slechts één configuratie toegestaan per org&quot;
+* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 1466**, &quot;Kan beperkingsconfiguratie niet implementeren: reeds geïmplementeerd&quot;
+* **THROTTLING_CONFIG_NOT_FOUND_ERROR: 1467**, &quot;beperkingsconfig niet gevonden&quot;
+* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 1468**, &quot;Kan beperkingsconfiguratie niet verwijderen: nog niet geïmplementeerd&quot;
 
 **Voorbeelden van fouten**
 
-Bij het maken van een config in een niet-prod-sandbox:
+Als u probeert een configuratie te maken op een non-prod sandbox:
 
 ```
 {
@@ -112,7 +112,7 @@ Bij het maken van een config in een niet-prod-sandbox:
 }
 ```
 
-Indien het opgegeven vakje niet bestaat:
+Als deze sandbox niet bestaat:
 
 ```
 {
@@ -122,7 +122,7 @@ Indien het opgegeven vakje niet bestaat:
 }
 ```
 
-Wanneer het proberen om een andere config te creëren:
+Wanneer u probeert een andere configuratie te maken:
 
 ```
 {
@@ -134,62 +134,62 @@ Wanneer het proberen om een andere config te creëren:
 
 ## Gebruiksscenario&#39;s {#uc}
 
-Om u in uw test en configuratie te helpen, is een inzameling van Postman beschikbaar [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json).
+Voor hulp bij het testen en configureren is [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json) een Postman-verzameling beschikbaar.
 
-Deze Postman-verzameling is ingesteld om de Postman Variable-collectie te delen die is gegenereerd via __[Integraties van Adobe I/O Console](https://console.adobe.io/integrations) > Uitproberen > Downloaden voor Postman__, waarmee een Postman Environment-bestand met de geselecteerde integratiewaarden wordt gegenereerd.
+Deze Postman-verzameling is opgezet om de Postman Variabele verzameling te delen die is gegenereerd via __[Adobe I/O Console-integraties](https://console.adobe.io/integrations) > Uitproberen > Downloaden voor Postman__, wat een Postman-omgevingsbestand genereert met de geselecteerde integratiewaarden.
 
-Nadat u het bestand hebt gedownload en geüpload naar Postman, moet u drie variabelen toevoegen: `{JO_HOST}`,`{BASE_PATH}` en `{SANDBOX_NAME}`.
-* `{JO_HOST}` : [!DNL Journey Orchestration] Gateway-URL
-* `{BASE_PATH}` : ingangspunt voor de API. De waarde is &#39;/authoring&#39;
-* `{SANDBOX_NAME}` : de koptekst **x-sandbox-name** (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de naam van de sandbox waarin de API-bewerkingen worden uitgevoerd. Zie de [sandboxen, overzicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) voor meer informatie .
+Eenmaal gedownload en geüpload naar Postman moet u drie variabelen toevoegen: `{JO_HOST}`,`{BASE_PATH}` en `{SANDBOX_NAME}`.
+* `{JO_HOST}`: [!DNL Journey Orchestration] Gateway-URL
+* `{BASE_PATH}`: ingangspunt voor de API. De waarde is &#39;/authoring&#39;
+* `{SANDBOX_NAME}`: de header **x-sandbox-name** (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de sandboxnaam waar de API-operaties zullen plaatsvinden. Zie het [sandboxoverzicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl) voor meer informatie.
 
-In de volgende sectie vindt u de lijst met gerangschikte aanroepen van de Rest-API om de use-case uit te voeren.
+In het volgende gedeelte vindt u de geordende lijst van Rest-API-aanroepen om het gebruiksscenario uit te voeren.
 
-Gebruiksscenario n°1: **Het creëren en de plaatsing van een nieuwe throttling configuratie**
+Gebruiksscenario nr. 1: **Nieuwe beperkingsconfiguratie maken en implementeren**
 
 1. list
-1. maken
-1. canimplementeren
-1. inzetten
+1. create
+1. candeploy
+1. deploy
 
-Gebruiksscenario n°2: **Update en stel een throttling configuratie op nog niet opgesteld**
+Gebruiksscenario nr. 2: **Een beperkingsconfiguratie bijwerken en implementeren die nog niet is geïmplementeerd**
 
 1. list
 1. get
 1. update
-1. canimplementeren
-1. inzetten
+1. candeploy
+1. deploy
 
-Gebruiksscenario n°3: **Implementeer en verwijder een geïmplementeerde throttingconfiguratie**
+Gebruiksscenario nr. 3: **Een geïmplementeerde beperkingsconfiguratie deïmplementeren en verwijderen**
 
 1. list
-1. desimplementatie
+1. undeploy
 1. delete
 
-Gebruiksscenario n°4: **Een geïmplementeerde vertragingsconfiguratie verwijderen**
+Gebruiksscenario nr. 4: **Een geïmplementeerde beperkingsconfiguratie verwijderen**
 
-In slechts één API vraag, kunt u de configuratie met het gebruik van de forceDelete parameter ongedaan maken en schrappen.
+In slechts één API-oproep kunt u de configuratie deïmplementeren en verwijderen met behulp van de parameter forceDelete.
 
 1. list
-1. delete, met forceDelete-parameter
+1. delete, met parameter forceDelete
 
-Gebruiksscenario n°5: **Een reeds geïmplementeerde configuratie voor vertragen bijwerken**
+Gebruiksscenario nr. 5: **Een geïmplementeerde beperkingsconfiguratie bijwerken**
 
 >[!NOTE]
 >
->Het is niet vereist om de configuratie ongedaan te maken alvorens bij te werken
+>Het is niet nodig om de configuratie te deïmplementeren alvorens bij te werken
 
 1. list
 1. get
 1. update
 
-## Levenscyclus van configuratie op runtimeniveau {#config}
+## Configuratie levenscyclus op runtimeniveau {#config}
 
-Wanneer een configuratie wordt gedecodeerd, wordt het duidelijk als inactief op runtime niveau en hangende gebeurtenissen worden verwerkt tijdens 24 uur. Deze wordt vervolgens verwijderd in de runtimeservice.
+Wanneer een configuratie ge-deïmplementeerd is, wordt deze gemarkeerd als inactief op runtimeniveau en worden lopende gebeurtenissen gedurende 24 uur verwerkt. Deze wordt dan verwijderd in de runtimeservice.
 
-Nadat een configuratie is gedesgroepeerd, is het mogelijk om de configuratie bij te werken en opnieuw op te stellen. Hierdoor wordt een nieuwe runtimeconfiguratie gemaakt die in overweging zal worden genomen bij de uitvoering van de volgende acties.
+Nadat een configuratie is ge-deïmplementeerd, kunt u de configuratie bijwerken en opnieuw implementeren. Daardoor wordt een nieuwe runtimeconfiguratie gemaakt die in aanmerking wordt genomen bij de toekomstige uitvoering van acties.
 
-Bij het bijwerken van een configuratie die al is geïmplementeerd, wordt onmiddellijk rekening gehouden met de nieuwe waarden. De onderliggende systeembronnen worden automatisch aangepast. Dit is optimaal in vergelijking met undeploy dan herstelt de configuratie.
+Bij het bijwerken van een geïmplementeerde configuratie wordt onmiddellijk rekening gehouden met de nieuwe waarden. De onderliggende systeembronnen worden automatisch aangepast. Dit is optimaal in vergelijking met het deïmplementeren en dan opnieuw implementeren van de configuratie.
 
 ## Voorbeelden van reacties {#responses}
 
@@ -230,7 +230,7 @@ Bij het bijwerken van een configuratie die al is geïmplementeerd, wordt onmidde
 }
 ```
 
-**Bijwerken - PUT**
+**Update - PUT**
 
 ```
 {
