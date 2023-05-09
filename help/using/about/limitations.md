@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 18c94897b5cea0d92a83f36845fdda64220b668f
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '572'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 2%
 # Beperkingen {#limitations}
 
 Hier zijn beperkingen met betrekking tot het gebruik van Journey Orchestration.
+
+## Algemene reisgeleiders {#journeys-guardrails-journeys}
+
+* Het aantal activiteiten op een reis is beperkt tot 50. Het aantal activiteiten wordt weergegeven in de linkerbovensectie van het reiscanvas.
+* Het aantal **Levende reizen** in één organisatie geldt een limiet van 100 per sandbox. Wanneer deze limiet is bereikt, kunt u geen nieuwe rit meer publiceren.
 
 ## Algemene actiedrempels
 
@@ -46,7 +51,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van Journey Orchestration.
 
 ## Beperkingen Adobe Campaign-acties
 
-* Het Transactionele Overseinen van Adobe Campaign Standard heeft een schaal van 50 000 berichten per uur maximum over kanalen voor een bepaalde instantie. Zie [Adobe Campaign Standard-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
+* Het Transactionele Overseinen van Adobe Campaign Standard heeft een schaal van 50 000 berichten per uur maximum over kanalen voor een bepaalde instantie. Zie [Adobe Campaign Standard-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Beperkingen voor gebeurtenissen
