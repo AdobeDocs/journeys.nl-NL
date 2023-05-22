@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '985'
 ht-degree: 61%
 
 ---
@@ -95,7 +95,7 @@ De toegankelijkheidsfuncties in Adobe Journey Optimizer worden geleverd door Ado
 * Kleurcontrast
 * Validatie van vereiste velden
 
-[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} in Adobe Experience Platform-documentatie.
+[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"} in Adobe Experience Platform documentatie.
 
 U kunt de volgende algemene sneltoetsen gebruiken in Adobe Journey Optimizer:
 
@@ -107,7 +107,7 @@ U kunt de volgende algemene sneltoetsen gebruiken in Adobe Journey Optimizer:
 | Een element dat de focus heeft selecteren of wissen | Enter of spatiebalk |
 | Een selectie annuleren, een deelvenster samenvouwen of een dialoogvenster sluiten | Esc |
 
-[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} in Adobe Experience Platform-documentatie.
+[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"} in Adobe Experience Platform documentatie.
 
 U kunt deze sneltoetsen gebruiken in specifieke delen van Journey Optimizer:
 

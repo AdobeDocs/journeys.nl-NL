@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 'Externe databronnen '
-description: 'Leer hoe u externe databronnen kunt configureren '
+title: Externe databronnen
+description: Leer hoe u externe databronnen kunt configureren
 feature: Journeys
 role: User
 level: Intermediate

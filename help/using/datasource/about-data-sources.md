@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Informatie over databronnen
-description: 'Een databron configureren '
+description: Een databron configureren
 feature: Journeys
 role: User
 level: Intermediate
