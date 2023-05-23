@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
-source-git-commit: e4a003656058ac7ae6706e22fd5162c9e875629a
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '557'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ In de expressie wordt naar gebeurtenisvelden verwezen met &quot;@&quot; en wordt
 
 Een syntaxiskleur wordt gebruikt om (groene) gebeurtenisvelden visueel te onderscheiden van (blauwe) veldgroepen.
 
-## Standaardwaarden voor veldverwijzingen
+## Standaardwaarden voor veldverwijzingen {#default-value}
 
 Een standaardwaarde kan aan een gebiedsnaam worden geassocieerd. De syntaxis is als volgt:
 
@@ -54,7 +54,7 @@ Een standaardwaarde kan aan een gebiedsnaam worden geassocieerd. De syntaxis is 
 
 >[!NOTE]
 >
->Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
+>Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld @{LobbyBeacon.endUserIDs._experience.emailId.id, defaultValue : 2} wordt ongeldig omdat de standaardwaarde een geheel getal is, terwijl de verwachte waarde een tekenreeks moet zijn.
 
 Voorbeelden:
 
@@ -86,6 +86,13 @@ expression examples:
 - #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
 - #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
 - #{ACP.Profile.person.age}                      -> null
+```
+
+U kunt elke gewenste expressie toevoegen als standaardwaarde. De enige beperking is dat de expressie het verwachte gegevenstype moet retourneren. Wanneer u een functie gebruikt, moet u de functie inkapselen met ().
+
+```
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
+== date("2022-02-10T00:00:00Z")
 ```
 
 ## Verwijzing naar een veld in verzamelingen
