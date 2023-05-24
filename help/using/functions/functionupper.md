@@ -13,7 +13,7 @@ ht-degree: 17%
 
 ---
 
-# bovenste {#upper}
+# upper {#upper}
 
 Retourneert een hoofdletterversie van de parameter.
 

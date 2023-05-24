@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 'Adobe Experience Platform-databron '
-description: 'Leer hoe u de Adobe Experience Platform-gegevensbron configureert '
+title: Adobe Experience Platform-databron
+description: Leer hoe u de Adobe Experience Platform-gegevensbron configureert
 feature: Journeys
 role: User
 level: Intermediate

@@ -13,7 +13,7 @@ ht-degree: 11%
 
 ---
 
-# som {#sum}
+# sum {#sum}
 
 Retourneert de som van de waarden van een set expressies. Null-waarden worden genegeerd.
 

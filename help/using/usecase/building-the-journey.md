@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: De reis maken - Geavanceerd
-description: 'Leren hoe u de geavanceerde gebruiksscenariojourney maakt '
+description: Leren hoe u de geavanceerde gebruiksscenariojourney maakt
 feature: Journeys
 role: User
 level: Intermediate

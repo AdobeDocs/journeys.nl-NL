@@ -13,7 +13,7 @@ ht-degree: 15%
 
 ---
 
-# inLastYear {#inLastYears}
+# inLastYears {#inLastYears}
 
 Retourneert true als een bepaalde datum of dateTime zich tussen nu en nu bevindt - delta-jaren.
 

@@ -31,4 +31,4 @@ Voor ons gebruik hebben we één e-mailsjabloon voor berichten voor transacties 
 
 Adobe Campaign Standard is geconfigureerd om e-mailberichten te verzenden.
 
-De gebeurtenissen worden verzonden van de mobiele telefoon van de klanten wanneer zij dichtbij een baken worden ontdekt. U moet een mobiele toepassing ontwerpen om gebeurtenissen van de mobiele telefoon van de klant naar de Mobile SDK te verzenden.
+De gebeurtenissen worden verzonden van de mobiele telefoon van de klanten wanneer zij dichtbij een baken worden ontdekt. U moet een mobiele toepassing ontwerpen om gebeurtenissen van de mobiele telefoon van de klant naar de mobiele SDK te verzenden.

@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ---
 
-# differentWithNull {#distinctWithNull}
+# distinctWithNull {#distinctWithNull}
 
 Geeft als resultaat de verschillende waarden of objecten van een bepaalde lijst. Als de lijst ten minste één null-item heeft, wordt een null-waarde weergegeven in de geretourneerde lijst.
 

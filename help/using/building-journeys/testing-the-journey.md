@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Journey testen
-description: 'Meer informatie over het testen van reizen '
+description: Meer informatie over het testen van reizen
 feature: Journeys
 role: User
 level: Intermediate

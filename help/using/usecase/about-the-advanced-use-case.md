@@ -54,6 +54,6 @@ Adobe Campaign Standard is geconfigureerd voor het verzenden van e-mails en push
 
 De Experience Cloud-id wordt gebruikt als sleutel om de klant in het reserveringssysteem voor hotels te identificeren.
 
-De gebeurtenissen worden verzonden van de mobiele telefoon van de klanten wanneer zij dichtbij een baken ontdekten. U moet een mobiele toepassing ontwerpen om gebeurtenissen van de mobiele telefoon van de klant naar de Mobile SDK te verzenden.
+De gebeurtenissen worden verzonden van de mobiele telefoon van de klanten wanneer zij dichtbij een baken ontdekten. U moet een mobiele toepassing ontwerpen om gebeurtenissen van de mobiele telefoon van de klant naar de mobiele SDK te verzenden.
 
 Het veld Loyalty-lid is een aangepast veld en is toegevoegd in XDM voor onze specifieke organisatie-id.

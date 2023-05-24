@@ -13,7 +13,7 @@ ht-degree: 16%
 
 ---
 
-# lager {#lower}
+# lower {#lower}
 
 Retourneert een versie in kleine letters van de parameter.
 

@@ -10,7 +10,7 @@ exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 1f91bae24dfcb291dd354e4bff9eab85afdaf5a1
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 1%
+ht-degree: 32%
 
 ---
 
@@ -106,49 +106,49 @@ De mogelijke waarschuwing is:
 
 In deze sectie zult u de vijf belangrijkste gebruik-gevallen vinden die u kunt uitvoeren om uw het capteren configuratie binnen te beheren [!DNL Journey Orchestration].
 
-Om u in uw test en configuratie te helpen, is een inzameling van Postman beschikbaar [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Voor hulp bij het testen en configureren is [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json) een Postman-verzameling beschikbaar.
 
-Deze Postman-verzameling is ingesteld om de Postman Variable-collectie te delen die is gegenereerd via __[Integraties van Adobe I/O Console](https://console.adobe.io/integrations) > Uitproberen > Downloaden voor Postman__, waarmee een Postman Environment-bestand met de geselecteerde integratiewaarden wordt gegenereerd.
+Deze Postman-verzameling is opgezet om de Postman Variabele verzameling te delen die is gegenereerd via __[Adobe I/O Console-integraties](https://console.adobe.io/integrations) > Uitproberen > Downloaden voor Postman__, wat een Postman-omgevingsbestand genereert met de geselecteerde integratiewaarden.
 
-Nadat u het bestand hebt gedownload en geüpload naar Postman, moet u drie variabelen toevoegen: `{JO_HOST}`,`{BASE_PATH}` en `{SANDBOX_NAME}`.
-* `{JO_HOST}` : [!DNL Journey Orchestration] Gateway-URL
-* `{BASE_PATH}` : ingangspunt voor de API. De waarde is &#39;/authoring&#39;
-* `{SANDBOX_NAME}` : de koptekst **x-sandbox-name** (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de naam van de sandbox waarin de API-bewerkingen worden uitgevoerd. Zie de [sandboxen, overzicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) voor meer informatie .
+Eenmaal gedownload en geüpload naar Postman moet u drie variabelen toevoegen: `{JO_HOST}`,`{BASE_PATH}` en `{SANDBOX_NAME}`.
+* `{JO_HOST}`: [!DNL Journey Orchestration] Gateway-URL
+* `{BASE_PATH}`: ingangspunt voor de API. De waarde is &#39;/authoring&#39;
+* `{SANDBOX_NAME}`: de header **x-sandbox-name** (bijvoorbeeld &#39;prod&#39;) die overeenkomt met de sandboxnaam waar de API-operaties zullen plaatsvinden. Zie het [sandboxoverzicht](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl) voor meer informatie.
 
-In de volgende sectie vindt u de lijst met gerangschikte aanroepen van de Rest-API om de use-case uit te voeren.
+In het volgende gedeelte vindt u de geordende lijst van Rest-API-aanroepen om het gebruiksscenario uit te voeren.
 
 Gebruiksscenario n°1: **Het creëren en de plaatsing van een nieuwe het maximum configuratie**
 
 1. list
-1. maken
-1. canimplementeren
-1. inzetten
+1. create
+1. candeploy
+1. deploy
 
 Gebruiksscenario n°2: **Een configuratie voor uitlijnen bijwerken en implementeren die nog niet is geïmplementeerd**
 
 1. list
 1. get
 1. update
-1. canimplementeren
-1. inzetten
+1. candeploy
+1. deploy
 
 Gebruiksscenario n°3: **Implementeer en verwijder een geïmplementeerde configuratie voor plafonnering**
 
 1. list
-1. desimplementatie
+1. undeploy
 1. delete
 
 Gebruiksscenario n°4: **Verwijder een configuratie voor geïmplementeerde uiteinden.**
 
-In slechts één API vraag, kunt u de configuratie met het gebruik van de forceDelete parameter ongedaan maken en schrappen.
+In slechts één API-oproep kunt u de configuratie deïmplementeren en verwijderen met behulp van de parameter forceDelete.
 1. list
-1. delete, met forceDelete-parameter
+1. delete, met parameter forceDelete
 
 Gebruiksscenario n°5: **Een reeds geïmplementeerde configuratie voor plafonnering bijwerken**
 
 1. list
 1. get
 1. update
-1. desimplementatie
-1. canimplementeren
-1. inzetten
+1. undeploy
+1. candeploy
+1. deploy

@@ -13,7 +13,7 @@ ht-degree: 11%
 
 ---
 
-# splitsen {#split}
+# split {#split}
 
 Splitst de eerste argumenttekenreeks op met een scheidingstekenreeks (tweede argumenttekenreeks, die een reguliere expressie kan zijn) om een lijst met tekenreeksen (tokens) te maken.
 

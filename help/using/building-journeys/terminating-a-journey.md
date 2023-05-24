@@ -9,7 +9,7 @@ exl-id: 2d1b9d6b-0a53-436c-b251-ce77cb931aaa
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -43,7 +43,7 @@ U kunt ook het volgende doen:
    ![](../assets/finish_drop_down_list.png)
 
 1. Klik op **[!UICONTROL Close to new entrances]**. Er wordt een dialoogvenster weergegeven.
-1. Klikken **[!UICONTROL Close to new entrances]** ter bevestiging.
+1. Klik op **[!UICONTROL Close to new entrances]** om te bevestigen.
 
 ## Een reis stoppen
 
@@ -65,4 +65,4 @@ U kunt ook het volgende doen:
 ![](../assets/finish_drop_down_list.png)
 
 1. Klik op **[!UICONTROL Stop]**. Er wordt een dialoogvenster weergegeven.
-1. Klikken **[!UICONTROL Stop]** ter bevestiging.
+1. Klik op **[!UICONTROL Stop]** om te bevestigen.

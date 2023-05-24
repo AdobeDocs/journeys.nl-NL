@@ -13,7 +13,7 @@ ht-degree: 12%
 
 ---
 
-# willekeurig {#random}
+# random {#random}
 
 Hiermee genereert u een willekeurig getal tussen 0 en 1.
 

@@ -13,7 +13,7 @@ ht-degree: 6%
 
 ---
 
-# sorteren {#sort}
+# sort {#sort}
 
 Hiermee sorteert u een lijst met waarden of objecten in natuurlijke volgorde.
 

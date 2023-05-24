@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: indexOf
-description: Learn about the function indexOf
+description: Meer informatie over de functie indexOf
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -21,7 +21,7 @@ Controleert of de eerste argumenttekenreeks eindigt met een specifieke tekenreek
 
 Tekenreeks
 
-## Function syntax
+## Functiesyntaxis
 
 `indexOf(<parameters>)`
 
@@ -30,7 +30,7 @@ Tekenreeks
 | Parameter | Type |
 |-----------|------------------|
 | string | Tekenreeks |
-| specified value | Tekenreeks |
+| opgegeven waarde | Tekenreeks |
 
 ## Handtekening en type geretourneerd
 
@@ -44,6 +44,6 @@ Retourneert een geheel getal.
 
 Retourneert 2.
 
-Explanation:
+Uitleg:
 
-In &quot;Hello&quot;, the first occurrence of “l” is at position 2.
+In &quot;Hello&quot; staat de eerste instantie van &quot;l&quot; op positie 2.

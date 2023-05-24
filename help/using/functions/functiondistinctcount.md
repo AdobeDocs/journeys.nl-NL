@@ -13,7 +13,7 @@ ht-degree: 30%
 
 ---
 
-# differentCount{#distinctCount}
+# distinctCount{#distinctCount}
 
 Telt het aantal verschillende waarden waarbij de null-waarden worden genegeerd.
 

@@ -49,7 +49,7 @@ In de onderstaande tabel vindt u een overzicht van de afleveringsafmetingen die 
 | **Leveringsnaam** | Label en id van de levering. |
 | **Apparaat** | Apparaat van waaruit de e-mail/SMS/push-melding is geopend/weergegeven/waarop is geklikt. |
 | **Berichttype** | Kanaal dat voor de levering wordt gebruikt, zoals e-mail, SMS, pushmelding of In-App. |
-| **Mobile App-naam** | Naam van de mobiele toepassing |
+| **Naam van mobiele toepassing** | Naam van de mobiele toepassing |
 | **Platform** | Platform van het apparaat waarvan het bericht werd geopend/bekeken/aangeklikt. |
 | **[!UICONTROL Push platform]** | Platform van het apparaat waarvan de pushmelding is geopend, zoals iOS of Android. |
 | **Ontvangerdomein** | Domein dat wordt gebruikt om de e-mail te openen. |

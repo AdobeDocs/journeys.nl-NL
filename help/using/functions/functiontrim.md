@@ -13,7 +13,7 @@ ht-degree: 19%
 
 ---
 
-# bijsnijden {#trim}
+# trim {#trim}
 
 Hiermee verwijdert u de begin- en eindspaties.
 

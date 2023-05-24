@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ---
 
-# vervangen {#replace}
+# replace {#replace}
 
 Vervangt de eerste instantie die overeenkomt met de doeltekenreeks door de vervangende tekenreeks in de basistekenreeks.
 

@@ -19,7 +19,7 @@ Als u wilt wachten voordat u de volgende activiteit in het pad uitvoert, kunt u 
 
 * [Duur](#duration)
 * [Aangepast](#custom)
-<!--* [Email send time optimization](#email_send_time_optimization)-->
+   <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Informatie over de activiteit Wachten{#about_wait}
 

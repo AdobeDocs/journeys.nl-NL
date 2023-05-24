@@ -13,7 +13,7 @@ ht-degree: 15%
 
 ---
 
-# inNextYear {#inNextYears}
+# inNextYears {#inNextYears}
 
 Retourneert true als een bepaalde datum of dateTime zich tussen nu en nu + delta jaar bevindt.
 

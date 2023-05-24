@@ -614,5 +614,5 @@ Met Journey Orchestration is real-timeorkestratie mogelijk aan de hand van conte
 
 Aanvullende bronnen:
 
-* [Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [Lesbestanden](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Community](https://www.adobe.com/go/journeyorchestrationcommunity)

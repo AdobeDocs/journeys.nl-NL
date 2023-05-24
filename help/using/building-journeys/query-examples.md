@@ -497,7 +497,7 @@ We kunnen ook problemen ontdekken zoals:
 * exportbanen die kunnen worden vastgezet (als voor een bepaalde reisversie geen enkele gebeurtenis over de beëindiging van exporttaken heeft)
 * problemen met workers als we een gebeurtenis voor het beëindigen van exporttaken hebben ontvangen, maar geen eindversie voor verwerking door worker één
 
-BELANGRIJK: als er geen gebeurtenis is die door deze vraag is teruggekeerd, kan het aan één van de volgende redenen zijn:
+BELANGRIJK: Als er geen gebeurtenis is die door deze vraag is teruggekeerd, kan het aan één van de volgende redenen zijn:
 
 * de reisversie heeft het schema niet bereikt
 * als de reisversie de uitvoerbaan zou hebben veroorzaakt door het orkest aan te roepen , ging er iets mis op de upstram flow : kwestie op reis plaatsing, bedrijfsgebeurtenis of kwestie met planner.

@@ -13,7 +13,7 @@ ht-degree: 16%
 
 ---
 
-# bevatten {#contain}
+# contain {#contain}
 
 Controleert of de tweede argumenttekenreeks zich in de eerste argumenttekenreeks bevindt.
 

@@ -45,7 +45,7 @@ Voor meer informatie over gebeurtenisconfiguratie raadpleegt u [deze pagina](../
 
 1. Klik op **[!UICONTROL Save]**.
 
-1. Klik op de knop **[!UICONTROL View Payload]** pictogram om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht en deze te delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis. Deze nuttige lading zal in de postback van de het beleidsconsole van de Diensten van Mobile moeten worden gevormd.
+1. Klik op de knop **[!UICONTROL View Payload]** pictogram om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht en deze te delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis. Deze nuttige lading zal in postback van de Mobiele het beleidsconsole van de Diensten moeten worden gevormd.
 
    ![](../assets/journeyuc1_7.png)
 

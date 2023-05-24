@@ -13,7 +13,7 @@ ht-degree: 28%
 
 ---
 
-# aantal {#count}
+# count {#count}
 
 Telt de elementen van de lijst die geen rekening houden met de ongeldige waarden.
 

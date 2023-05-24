@@ -13,7 +13,7 @@ ht-degree: 11%
 
 ---
 
-# doorsnijden{#intersect}
+# intersect{#intersect}
 
 Retourneert de gemeenschappelijke waarden in de twee invoerlijsten. Als een van de twee lijsten null is, wordt een lege lijst geretourneerd.
 

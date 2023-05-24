@@ -13,7 +13,7 @@ ht-degree: 12%
 
 ---
 
-# rond {#round}
+# round {#round}
 
 Retourneert de dichtstbijzijnde gehele-getalwaarde voor het argument met bindingen die worden afgerond naar positief oneindig.
 

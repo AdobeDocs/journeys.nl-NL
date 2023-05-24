@@ -10,7 +10,7 @@ exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -36,13 +36,13 @@ De ingebouwde API voor uitlijnen biedt een stroomopwaartse technische hulplijn d
 
 Voor externe gegevensbronnen, wordt het maximumaantal vraag per seconde geplaatst aan 15. Als het aantal vraag 15 per seconde overschrijdt, worden de resterende vraag verworpen. U kunt deze limiet verhogen voor externe privégegevensbronnen. Adobe van het contact om het eindpunt in de lijst van gewenste personen te omvatten. Dit is niet mogelijk voor openbare externe gegevensbronnen.
 
-Voor aangepaste handelingen moet u de capaciteit van de externe API evalueren. Bijvoorbeeld, als Journey Optimizer 1000 vraag per seconde verzendt en uw systeem slechts 100 vraag per seconde kan steunen, moet u een afschilderingsregel bepalen zodat uw systeem niet verzadigt.
+Voor aangepaste acties moet u de capaciteit van uw externe API evalueren. Bijvoorbeeld, als Journey Optimizer 1000 vraag per seconde verzendt en uw systeem slechts 100 vraag per seconde kan steunen, moet u een afschilderingsregel bepalen zodat uw systeem niet verzadigt.
 
 De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL). Bij runtime, verifieert Journey Orchestration of er een het begrenzen regel wordt bepaald en past het bepaalde tarief tijdens de vraag aan dat eindpunt toe. Als het aantal vraag het bepaalde tarief overschrijdt, worden de resterende vraag verworpen en als fouten in het melden geteld.
 
 Een uitlijningsregel is specifiek voor één eindpunt, maar is globaal voor alle reizen van een sandbox. Dit houdt in dat de begrenzingsgroeven tussen alle reizen van een zandbak worden gedeeld.
 
-Bijvoorbeeld, laten wij zeggen dat u een het begrenzen regel van 100 vraag per seconde voor uw extern systeem hebt bepaald. Uw systeem wordt opgeroepen door een aangepaste actie tijdens 10 verschillende reizen. Als één reis 200 vraag per seconde ontvangt, zal het de 100 beschikbare groeven gebruiken en de 100 resterende groeven verwerpen. Aangezien het maximumtarief is overschreden, zullen de overige 9 reizen geen slots meer hebben. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
+Bijvoorbeeld, laten wij zeggen dat u een het begrenzen regel van 100 vraag per seconde voor uw extern systeem hebt bepaald. Uw systeem wordt opgeroepen door een aangepaste actie in 10 verschillende journeys. Als één reis 200 vraag per seconde ontvangt, zal het de 100 beschikbare groeven gebruiken en de 100 resterende groeven verwerpen. Aangezien het maximumaantal is overschreden, hebben de andere 9 journeys geen slot meer. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
 
 Voor meer informatie over de API voor aftiteling en over het configureren van aftapregels raadpleegt u [deze pagina](../api/capping.md).
 
