@@ -6,17 +6,92 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
 workflow-type: tm+mt
-source-wordcount: '3274'
-ht-degree: 50%
+source-wordcount: '4188'
+ht-degree: 39%
 
 ---
 
 # Aanvullende informatie {#release-notes}
 
-Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration.
-U kunt ook de nieuwste [Documentatieupdates](../release-notes/documentation-updates.md).
+Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration. Raadpleeg het volgende voor de functies van Experience Platforms [releaseopmerkingen](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html).
+
+>[!NOTE]
+>
+>Voor de functies die in 2022 en 2023 zijn uitgebracht, verwijzen de koppelingen rechtstreeks naar de documentatie van Adobe Journey Optimizer.
+
+## Release van april 2023 {#apr-rn-2023}
+
+### Verbeteringen {#april-2023-improvements}
+
+**Journeys**
+
+* De indeling van het configuratievenster, dat wordt weergegeven in handelingen, gegevensbronnen, gebeurtenissen en reizen, is verbeterd.
+* U kunt nu statische of dynamische queryparameters definiëren in uw aangepaste handelingen. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html#url-configuration).
+* Nieuwe instructies voor het beheer van de groei van de ervaringen die door de Reizen worden opgedaan:
+   * We raden u aan om het aantal knooppunten tot 50 of minder te beperken om uw reizen uitvoerbaar, gemakkelijk te lezen, QA te houden en problemen op te lossen. Het aantal activiteiten wordt weergegeven in de linkerbovensectie van het reiscanvas. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
+   * Tijdens het ontwikkelen en starten van reizen zullen we u op de hoogte stellen wanneer u de mijlpaal nadert van 100 rechtstreekse reizen tegelijk. Als uw plannen meer dan 100 reizen per keer vereisen, gelieve een kaartje voor steun te creëren na het zien van de kennisgeving en wij zullen u helpen. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
+
+## Release van maart 2023 {#mar-2023}
+
+### Verbeteringen {#mar-2023-improvements}
+
+* De nieuwe **Throttling API** Hiermee kunt u een limiet instellen voor het aantal gebeurtenissen dat per seconde wordt verzonden, zodat overweldigende verkeersspikes op uw externe systemen of API worden voorkomen. Wanneer de ingestelde limiet is bereikt, worden alle volgende API-aanroepen zo snel mogelijk in de wachtrij geplaatst en verwerkt in de volgorde waarin ze zijn ontvangen. Houd er rekening mee dat deze functie slechts ondersteuning biedt voor één configuratie met vertraagde verwerking van al uw sandboxen. [Meer informatie](../api/throttling.md)
+* Het canvas Journey is verbeterd voor een eenvoudigere en verbeterde gebruikerservaring. Aan het einde van elk pad op het canvas zijn de lege plaatsaanduidingen verwijderd. U kunt nu gewoon uw activiteiten toevoegen door deze aan het einde van een pad te slepen.
+* In het reiscanvas, het etiket van **Einde** tag wordt niet meer automatisch ingesteld met de naam van de vorige activiteit. Gebruikers kunnen desgewenst handmatig een aangepast label toevoegen.
+* De standaardonderbreking en foutenduur in reiseigenschappen zijn veranderd van 5 aan 30 seconden. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html#timeout).
+* Er is een hulplijn toegevoegd aan de testmodus om alleen te luisteren naar gebeurtenissen die via de interface worden verzonden. Gebeurtenissen die via een extern gereedschap worden verzonden, worden niet in aanmerking genomen. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html).
+
+## Release van februari 2023 {#feb-2023}
+
+### Verbeteringen {#feb-2023-improvements}
+
+* De **Wachttijd bij terugkeer** het veld is toegevoegd aan de eigenschappen van de reis . In dit veld kunt u de tijd definiëren die u moet wachten voordat een profiel de reis weer in één keer kan betreden (te beginnen met een gebeurtenis of een segmentkwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#entrance).
+* Er zijn verbeteringen aangebracht voor **begin- en einddatum van de reis**. Als u geen begindatum hebt opgegeven, wordt deze nu automatisch toegevoegd op het moment van publicatie. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#dates).
+
+## Release van januari 2023 {#jan-2023-release}
+
+### Verbeteringen {#jan-2023-improvements}
+
+* Bij het toevoegen van een **Segmentkwalificatie** in een reis, wordt namespace nu vooraf gevuld, door gebrek, met het laatst gebruikte namespace. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html#about-segment-qualification).
+* Op het reiscanvas is er een nieuwe knop beschikbaar op de werkbalk waarmee u een schermafbeelding van uw reis kunt downloaden.
+
+## Release september 2022{#sept-2022-release}
+
+### Nieuwe functies{#sept-2022-features}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Beheer en privacy van gegevens</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met zijn beheerskader voor de Etikettering en de Handhaving van het Gebruik van Gegevens (DULE), kan Journey Orchestration nu het beleid van het bestuur van Adobe Experience Platform gebruiken om gevoelige gebieden te verhinderen om naar derdesystemen door douaneacties worden uitgevoerd. Als het systeem een beperkt veld identificeert in de parameters voor aangepaste handelingen, wordt een fout weergegeven waardoor u de reis niet kunt publiceren.</p>
+<p>Het gebruik van de Etikettering en de Handhaving van het Gebruik van Gegevens (DULE) is momenteel beperkt tot geselecteerde klanten, en zal aan alle milieu's in een toekomstige versie worden opgesteld.</p>
+<p>Raadpleeg de Journey Optimizer voor meer informatie <a href="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/action-privacy.html">documentatie</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen{#sept-2022-improvements}
+
+* Er is een nieuwe guardrail toegevoegd aan de unitaire reizen (te beginnen met een evenement of een segmentkwalificatie) om te voorkomen dat ritten meerdere keren ten onrechte voor dezelfde gebeurtenis worden gestart. De terugkeer van het profiel wordt nu tijdelijk geblokkeerd door gebrek voor 5 minuten. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#events-g).
+
+### Andere wijzigingen{#sept-2022-other}
+
+* Om de prestaties te verbeteren, kunnen de groepen van het de gebeurtenisgebied van de Ervaring niet meer worden gebruikt in reizen die met een de kwalificatieactiviteit van het Segment beginnen. Deze wijziging geldt alleen voor nieuwe reizen. De bestaande zullen het huidige gedrag houden. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#expression-editor).
+
+### Verbeteringen
+
+* **Een reis beëindigen** - Op het canvas **Einde** activiteit is verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html).
+
+* De **Tijdzone van profiel** Deze optie is nu standaard uitgeschakeld in reiseigenschappen. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html#timezone-from-profiles).
 
 ## Release van mei 2022 {#may-2022-release}
 
