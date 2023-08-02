@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: 18c94897b5cea0d92a83f36845fdda64220b668f
+source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '567'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,6 @@ Hier zijn beperkingen met betrekking tot het gebruik van Journey Orchestration.
 
 ## Algemene actiedrempels
 
-* Er is geen verzendvertraging. 
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. 
 * De ingebouwde **Reactie** -gebeurtenis kunt u reageren op acties die buiten de box vallen (zie deze [page](../building-journeys/reaction-events.md)). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
 
@@ -39,7 +38,6 @@ Hier zijn beperkingen met betrekking tot het gebruik van Journey Orchestration.
 
 * De **Segmentkwalificatie** activiteit kan niet samen met Transactioneel Overseinen van Adobe Campaign Standard wegens productiedruk worden gebruikt. Zie [Adobe Campaign Standard-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html). 
  
-
 ## Beperkingen voor aangepaste handelingen
 
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters. 
@@ -48,17 +46,14 @@ Hier zijn beperkingen met betrekking tot het gebruik van Journey Orchestration.
 * IP-adressen zijn niet toegestaan. 
 * Interne Adobe-adressen (.adobe.) zijn niet toegestaan.
  
-
 ## Beperkingen Adobe Campaign-acties
 
 * Het Transactionele Overseinen van Adobe Campaign Standard heeft een schaal van 50 000 berichten per uur maximum over kanalen voor een bepaalde instantie. Zie [Adobe Campaign Standard-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html). 
  
-
 ## Beperkingen voor gebeurtenissen
 
 * Voor door het systeem gegenereerde gebeurtenissen moeten streaming gegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Orchestration worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
  
-
 ## Beperkingen op gegevensbronnen
 
 * De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in real time op te zoeken. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
