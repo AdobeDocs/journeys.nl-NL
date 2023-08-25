@@ -3,10 +3,10 @@ product: adobe campaign
 title: Export API-beschrijving importeren
 description: Meer informatie over de import-API voor exporteren.
 products: journeys
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 29%
+source-wordcount: '1119'
+ht-degree: 19%
 
 ---
 
@@ -19,14 +19,14 @@ Met deze functie kunt u uw reizen in meerdere exemplaren of voor meerdere workfl
 
 ## Bronnen
 
-De API voor exporteren en importeren van Journey Orchestration wordt beschreven in een wagerbestand dat beschikbaar is [hier](https://adobedocs.github.io/JourneyAPI/docs/).
+De API voor het exporteren en importeren van Journeys Orchestration wordt beschreven in een wagerbestand [hier](https://adobedocs.github.io/JourneyAPI/docs/).
 
 Als u deze API met uw Journey Orchestration-instantie wilt gebruiken, moet u de AdobeI/O-console gebruiken. U kunt beginnen door dit te volgen [Aan de slag met Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) en gebruikt u vervolgens de secties op deze pagina.
 
-Om uw integratie te testen en voor te bereiden, is een Postman-collectie beschikbaar [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
+Voor het testen en voorbereiden van uw integratie is een Postman-collectie beschikbaar [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
 
 
-## Exporteren en importeren, stroom
+## Exporteren en importeren
 
 We raden u aan deze stappen te volgen om uw reizen te exporteren en te importeren in verschillende omgevingen:
 
@@ -36,17 +36,17 @@ We raden u aan deze stappen te volgen om uw reizen te exporteren en te importere
 1. Roep de **export** API met de parameters van uw beginomgeving (orgID en sandboxName).
 1. Open de geretourneerde lading en controleer vervolgens de volgende items:
    * Als uw geëxporteerde transport **specifieke referenties**, moet u deze geloofsbrieven met die vervangen die aan het nieuwe milieu beantwoorden.
-   * Als uw geëxporteerde transport **gebeurtenissen** dat **XDM-schema**, moet u de verwijzing van schemaidentiteitskaart met schemaidentiteitskaart van het nieuwe milieu in de xdmEntiteitsknoop manueel bijwerken als IDs waarden verschillend zijn. Deze update moet voor elke gebeurtenis worden uitgevoerd. [Meer informatie hier](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
+   * Als uw geëxporteerde transport **gebeurtenissen** dat een **XDM-schema**, moet u de verwijzing van schemaidentiteitskaart met schemaidentiteitskaart van het nieuwe milieu in de xdmEntiteitsknoop manueel bijwerken als IDs waarden verschillend zijn. Deze update moet voor elke gebeurtenis worden uitgevoerd. [Meer informatie hier](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * Als uw reis e-mail, sms of duw acties bevat, kunt u de malplaatjenaam of de naam moeten bijwerken mobileApp als de naam in het doelmilieu van verschillend is dan die in uw beginmilieu.
 1. Roep de **Importeren** API met de parameters van uw doelomgeving (orgID en sandboxName). Let erop dat u de import-API zo vaak kunt aanroepen als u wilt. De UUID en de naam van elk voorwerp in de reis worden geproduceerd telkens als u de invoer API roept.
-1. Nadat u de Reis hebt geïmporteerd, kunt u deze publiceren in de Journey Orchestration-toepassing. Meer informatie [hier](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
+1. Nadat u de Reis hebt geïmporteerd, kunt u deze publiceren in de toepassing Journey Orchestration. Meer informatie [hier](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
-## Verificatie
+## Authentificatie
 
 ### API-toegang instellen
 
-Journey Orchestration API-toegang wordt ingesteld via de onderstaande stappen. Elk van deze stappen is gedetailleerd beschreven in de [Adobe I/O-documentatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+API-toegang voor Journeys Orchestration wordt ingesteld via de onderstaande stappen. Elk van deze stappen is gedetailleerd beschreven in de [Adobe I/O-documentatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
@@ -54,8 +54,16 @@ Journey Orchestration API-toegang wordt ingesteld via de onderstaande stappen. E
 
 1. **Controleer of u een digitaal certificaat hebt**, of maak er zo nodig een. De bij het certificaat geleverde openbare en privésleutels zijn nodig bij de volgende stappen.
 1. **Maak een nieuwe integratie met [!DNL Journey Orchestration] Service** in Adobe I/O en configureer deze. Toegang tot het productprofiel is vereist voor Journey Orchestration en Adobe Experience Platform. Uw referenties worden dan gegenereerd (API-sleutel, klantgeheim...).
-1. **Maak een JSON-webtoken (JWT)** van de eerder gegenereerde referenties en onderteken deze met uw privésleutel. De JWT codeert alle identiteits- en beveiligingsinformatie die Adobe nodig heeft om uw identiteit te verifiëren en u toegang te verlenen tot de API. Deze stap wordt in detail beschreven in deze [sectie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. **Uw JWT uitwisselen voor een toegangstoken** via een POST-verzoek of via de Developer Console Interface. Deze toegangstoken moet worden gebruikt in elke header van uw API-verzoeken.
+
+>[!CAUTION]
+>
+>De JWT-methode voor het genereren van toegangstokens is afgekeurd. Alle nieuwe integraties moeten worden gecreëerd met de [OAuth Server-aan-Server authentificatiemethode](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). De Adobe adviseert ook dat u uw bestaande integraties aan de methode OAuth migreert.
+>
+>Lees de volgende belangrijke documentatie:
+>[Migratiehandleiding voor uw toepassingen van JWT naar OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
+>[Implementatiehandleiding voor nieuwe en oude toepassingen met OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[Voordelen om de server-aan-server van OAuth methode van geloofsbrieven te gebruiken](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+
 
 Om een veilige Adobe I/O API-sessie tussen services tot stand te brengen moet elk verzoek aan een Adobe-service de onderstaande informatie bevatten in de autorisatieheader.
 
@@ -68,10 +76,11 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ORGANIZATION>**: dit is uw persoonlijke ORGANISATIE-ID. Adobe verstrekt één ORGANISATIE-ID voor elk van uw instanties :
 
-   * &lt;organization> : productie-instantie
-   Voor het verkrijgen van uw ORGANISATIE-ID-waarde raadpleegt u uw beheerder of uw technische contactpersoon bij Adobe. U kunt hem ook ophalen in Adobe I/O wanneer u een nieuwe integratie maakt, in de licentielijst (zie de [Adobe I/O-documentatie](https://www.adobe.io/authentication.html)).
+   * &lt;organization> : de productie-instantie
 
-* **&lt;ACCESS_TOKEN>**: uw persoonlijke toegangstoken, dat is opgehaald bij het uitwisselen van uw JWT via een POST-verzoek.
+  Voor het verkrijgen van uw ORGANISATIE-ID-waarde raadpleegt u uw beheerder of uw technische contactpersoon bij Adobe. U kunt hem ook ophalen in Adobe I/O wanneer u een nieuwe integratie maakt, in de licentielijst (zie de [Adobe I/O-documentatie](https://www.adobe.io/authentication.html)).
+
+* **&lt;access_token>**: Uw persoonlijke toegangstoken
 
 * **&lt;API_KEY>**: uw persoonlijke API-sleutel. Deze wordt geleverd in Adobe I/O na het maken van een nieuwe integratie met [!DNL Journey Orchestration] Service.
 
@@ -79,7 +88,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 ## Beschrijving van API voor exporteren
 
-Met deze API kunt u een reisversie exporteren die wordt geïdentificeerd door de bijbehorende UID en alle gerelateerde objecten (transport, gebeurtenissen, gegevensbronnen, veldgroepen, aangepaste handelingen) door de uid.
+Met deze API kunt u een reisversie exporteren die wordt geïdentificeerd door de bijbehorende UID en alle gerelateerde objecten (transport, gebeurtenissen, gegevensbronnen, veldgroepen, aangepaste acties) door de uid.
 De resulterende lading kan worden gebruikt om de reisversie in een andere milieu (zandbak of instantie) in te voeren.
 
 | Methode | Pad | Beschrijving |
@@ -87,7 +96,7 @@ De resulterende lading kan worden gebruikt om de reisversie in een andere milieu
 | `[POST]` | /tripVersions/import | De inhoud van een reisversie importeren die het resultaat is van de export van een reisversie |
 | `[GET]` | /tripVersions/`{uid}`/export | Een reisversie exporteren |
 | `[GET]` | /trajecten/`{uid}`/last | De nieuwste reisversie voor een reis |
-| `[POST]` | /lijst/reizen | Hier worden de metagegevens van de reizen en de reisversies vermeld |
+| `[POST]` | /lijst/reizen | Hier worden de metagegevens van de ritten en de reisversies vermeld |
 
 
 ### Exportkenmerken en -geleiders
@@ -113,8 +122,8 @@ Na de de uitvoervraag, moet u de nieuwe geloofsbrieven (die aan het doelmilieu b
 
 De mogelijke fouten zijn:
 
-* At **exporttijd**, indien de reisversie niet geldig is: fout 500
+* At **exporttijd**, als de reisversie ongeldig is: fout 500
 
 * At **importtijd**, als de lading na wijzigingen niet geldig is of als de geloofsbrieven niet duidelijk in de lading worden bepaald: fout 400
 
-* Als na de importstap de XDM-schema-id voor uw gebeurtenissen niet geldig is in de doelomgeving, wordt een fout weergegeven in de Journey Orchestration-toepassing. In dat geval kan de reis niet worden gepubliceerd.
+* Als na de importstap de XDM-schema-id voor uw gebeurtenissen niet geldig is in de doelomgeving, wordt een fout weergegeven in de toepassing Journey Orchestration. In dat geval kan de reis niet worden gepubliceerd.
