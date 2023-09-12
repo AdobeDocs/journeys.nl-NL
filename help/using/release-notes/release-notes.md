@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d759aab70b2a6f6d4897bdd3498a9499dff2899f
+source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
 workflow-type: tm+mt
-source-wordcount: '4188'
+source-wordcount: '4232'
 ht-degree: 39%
 
 ---
@@ -21,17 +21,21 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor J
 >
 >Voor de functies die in 2022 en 2023 zijn uitgebracht, verwijzen de koppelingen rechtstreeks naar de documentatie van Adobe Journey Optimizer.
 
+## Release van augustus 2023 {#aug-rn-2023}
+
+### Verbeteringen {#aug-2023-improvements}
+
+* U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd. Deze functie is momenteel beschikbaar als een persoonlijke bètaversie. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html).
+
 ## Release van april 2023 {#apr-rn-2023}
 
 ### Verbeteringen {#april-2023-improvements}
-
-**Journeys**
 
 * De indeling van het configuratievenster, dat wordt weergegeven in handelingen, gegevensbronnen, gebeurtenissen en reizen, is verbeterd.
 * U kunt nu statische of dynamische queryparameters definiëren in uw aangepaste handelingen. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html#url-configuration).
 * Nieuwe instructies voor het beheer van de groei van de ervaringen die door de Reizen worden opgedaan:
    * We raden u aan om het aantal knooppunten tot 50 of minder te beperken om uw reizen uitvoerbaar, gemakkelijk te lezen, QA te houden en problemen op te lossen. Het aantal activiteiten wordt weergegeven in de linkerbovensectie van het reiscanvas. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
-   * Tijdens het ontwikkelen en starten van reizen zullen we u op de hoogte stellen wanneer u de mijlpaal nadert van 100 rechtstreekse reizen tegelijk. Als uw plannen meer dan 100 reizen per keer vereisen, gelieve een kaartje voor steun te creëren na het zien van de kennisgeving en wij zullen u helpen. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
+   * Tijdens het ontwikkelen en starten van reizen zullen we u op de hoogte stellen wanneer u de mijlpaal nadert van 100 rechtstreekse reizen in één keer. Als uw plannen meer dan 100 reizen per keer vereisen, gelieve een kaartje voor steun te creëren na het zien van de kennisgeving en wij zullen u helpen. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html#journeys-guardrails-journeys)
 
 ## Release van maart 2023 {#mar-2023}
 
@@ -39,7 +43,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor J
 
 * De nieuwe **Throttling API** Hiermee kunt u een limiet instellen voor het aantal gebeurtenissen dat per seconde wordt verzonden, zodat overweldigende verkeersspikes op uw externe systemen of API worden voorkomen. Wanneer de ingestelde limiet is bereikt, worden alle volgende API-aanroepen zo snel mogelijk in de wachtrij geplaatst en verwerkt in de volgorde waarin ze zijn ontvangen. Houd er rekening mee dat deze functie slechts ondersteuning biedt voor één configuratie met vertraagde verwerking van al uw sandboxen. [Meer informatie](../api/throttling.md)
 * Het canvas Journey is verbeterd voor een eenvoudigere en verbeterde gebruikerservaring. Aan het einde van elk pad op het canvas zijn de lege plaatsaanduidingen verwijderd. U kunt nu gewoon uw activiteiten toevoegen door deze aan het einde van een pad te slepen.
-* In het reiscanvas, het etiket van **Einde** tag wordt niet meer automatisch ingesteld met de naam van de vorige activiteit. Gebruikers kunnen desgewenst handmatig een aangepast label toevoegen.
+* In het reiscanvas, het etiket van **Einde** -tag wordt niet meer automatisch ingesteld met de naam van de vorige activiteit. Gebruikers kunnen desgewenst handmatig een aangepast label toevoegen.
 * De standaardonderbreking en foutenduur in reiseigenschappen zijn veranderd van 5 aan 30 seconden. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html#timeout).
 * Er is een hulplijn toegevoegd aan de testmodus om alleen te luisteren naar gebeurtenissen die via de interface worden verzonden. Gebeurtenissen die via een extern gereedschap worden verzonden, worden niet in aanmerking genomen. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html).
 
@@ -48,13 +52,13 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor J
 ### Verbeteringen {#feb-2023-improvements}
 
 * De **Wachttijd bij terugkeer** het veld is toegevoegd aan de eigenschappen van de reis . In dit veld kunt u de tijd definiëren die u moet wachten voordat een profiel de reis weer in één keer kan betreden (te beginnen met een gebeurtenis of een segmentkwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#entrance).
-* Er zijn verbeteringen aangebracht voor **begin- en einddatum van de reis**. Als u geen begindatum hebt opgegeven, wordt deze nu automatisch toegevoegd op het moment van publicatie. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#dates).
+* Er zijn verbeteringen doorgevoerd voor **begin- en einddatum van de reis**. Als u geen begindatum hebt opgegeven, wordt deze nu automatisch toegevoegd op het moment van publicatie. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#dates).
 
 ## Release van januari 2023 {#jan-2023-release}
 
 ### Verbeteringen {#jan-2023-improvements}
 
-* Bij het toevoegen van een **Segmentkwalificatie** in een reis, wordt namespace nu vooraf gevuld, door gebrek, met het laatst gebruikte namespace. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html#about-segment-qualification).
+* Wanneer u een **Segmentkwalificatie** in een reis, wordt namespace nu vooraf gevuld, door gebrek, met het laatst gebruikte namespace. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html#about-segment-qualification).
 * Op het reiscanvas is er een nieuwe knop beschikbaar op de werkbalk waarmee u een schermafbeelding van uw reis kunt downloaden.
 
 ## Release september 2022{#sept-2022-release}
@@ -89,7 +93,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor J
 
 ### Verbeteringen
 
-* **Een reis beëindigen** - Op het canvas **Einde** activiteit is verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html).
+* **Een reis beëindigen** - In het reiscanvas **Einde** activiteit is verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Raadpleeg de Journey Optimizer [documentatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html).
 
 * De **Tijdzone van profiel** Deze optie is nu standaard uitgeschakeld in reiseigenschappen. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html#timezone-from-profiles).
 
@@ -97,7 +101,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor J
 
 ### Verbeteringen
 
-* **Expression-editor** - de [limiet](../functions/functionlimit.md) Er is een functie toegevoegd waarmee u het aantal items in een lijst kunt beperken. De [sorteren](../functions/functionsort.md) Met deze functie kunt u nu een lijstobject sorteren. De ondersteuning van listObject is ook toegevoegd aan de [ontkenning](../functions/functiondistinct.md) en [differentWithNull](../functions/functiondistinctwithnull.md) functies.
+* **Expression-editor** - de [limiet](../functions/functionlimit.md) Er is een functie toegevoegd waarmee u het aantal items in een lijst kunt beperken. De [sorteren](../functions/functionsort.md) Met deze functie kunt u nu een lijstobject sorteren. De ondersteuning van listObject is ook toegevoegd aan de [onenigheid](../functions/functiondistinct.md) en [differentWithNull](../functions/functiondistinctwithnull.md) functies.
 
 ## Release van maart 2022 {#feb-2022-release}
 
@@ -116,7 +120,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor J
 
 ### Verbeteringen
 
-* Gebeurtenissen in de stap Journey Orchestration kunnen nu worden gekoppeld aan andere gegevenssets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). De **profileID** in het ingebouwde schema voor de gebeurtenis van de Stap van de Reis, wordt nu gedefinieerd als identiteitsgebied. [Meer informatie](../building-journeys/sharing-overview.md#integration-cja)
+* De de stapgebeurtenissen van het Journey Orchestration kunnen nu met andere datasets in worden verbonden [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). De **profileID** in het ingebouwde schema voor de gebeurtenis van de Stap van de Reis, wordt nu gedefinieerd als identiteitsgebied. [Meer informatie](../building-journeys/sharing-overview.md#integration-cja)
 * De begrenzingsregel voor Adobe Campaign Standard-acties is gewijzigd in 4000 oproepen/5 minuten. [Meer informatie](../action/working-with-adobe-campaign.md)
 
 ## Release oktober 2021 {#october-2021-release}
@@ -255,9 +259,9 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor J
 
 ## Release van januari 2021 {#january-2021-release}
 
-Wanneer u een schema selecteert in de gebeurtenisconfiguratie, worden alleen velden geselecteerd die verplicht zijn om de gebeurtenis correct door Journey Orchestration te ontvangen. [Meer informatie](../event/defining-the-payload-fields.md)
+Wanneer u een schema selecteert in de gebeurtenisconfiguratie, worden alleen velden geselecteerd die verplicht zijn om de gebeurtenis correct door het Journey Orchestration te ontvangen. [Meer informatie](../event/defining-the-payload-fields.md)
 
-De eigenschappen van de reis zijn nu beschikbaar in de eenvoudige uitdrukkingsredacteur. [Meer informatie](../expression/journey-properties.md)
+Eigenschappen voor reizen zijn nu beschikbaar in de eenvoudige expressie-editor. [Meer informatie](../expression/journey-properties.md)
 
 Er zijn twee nieuwe kenmerken voor de reiseigenschappen toegevoegd (sandboxName en organisationId). [Meer informatie](../expression/journey-properties.md)
 
@@ -316,7 +320,7 @@ De [getListItem](../functions/functiongetlistitem.md) en [splitsen](../functions
 <tbody>
 <tr>
 <td>
-<p>Er is nu een nieuwe methode beschikbaar om gebeurtenissen gemakkelijker in te stellen, zonder een eventID te gebruiken: Op regel-gebaseerde gebeurtenissen evalueren of zou de gebeurtenis volgens een voorwaarde moeten worden teweeggebracht. U kunt nog steeds de bestaande methode gebruiken, die nu "door het systeem gegenereerd" wordt genoemd. Deze functie, die door een beperkte groep klanten via het Alpha-programma is getest, is nu beschikbaar in Bèta aan alle klanten.
+<p>Een nieuwe methode is nu beschikbaar om uw gebeurtenissen gemakkelijker in te stellen, zonder een eventID te gebruiken: op regel gebaseerde gebeurtenissen evalueren of de gebeurtenis volgens een voorwaarde moet worden geactiveerd. U kunt nog steeds de bestaande methode gebruiken, die nu "door het systeem gegenereerd" wordt genoemd. Deze functie, die door een beperkte groep klanten via het Alpha-programma is getest, is nu beschikbaar in Bèta aan alle klanten.
 </p>
 </td>
 </tr>
