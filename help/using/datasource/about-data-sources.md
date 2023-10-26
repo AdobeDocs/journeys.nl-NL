@@ -44,7 +44,7 @@ Dit zijn de belangrijkste stappen voor de configuratie van databronnen:
 >
 >De databronconfiguratie wordt altijd uitgevoerd door een **technische gebruiker**.
 
-1. Selecteer in het menuvenster de optie **[!UICONTROL Admin]**. In de **[!UICONTROL Data sources]** sectie, klikt u op **[!UICONTROL Manage]**.
+1. Selecteer in het menuvenster **[!UICONTROL Admin]**. In de **[!UICONTROL Data sources]** sectie, klikken **[!UICONTROL Manage]**.
 
    De lijst met databronnen wordt weergegeven. Zie [deze pagina](../about/user-interface.md) voor meer informatie over de interface.
 

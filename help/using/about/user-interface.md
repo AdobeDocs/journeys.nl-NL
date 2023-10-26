@@ -23,7 +23,7 @@ ht-degree: 61%
 
 ## Toegang tot [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Om toegang te krijgen tot [!DNL Journey Orchestration]s interface, klik **[!UICONTROL App Selector]** in de rechterbovenhoek, en klik vervolgens op **[!UICONTROL Journey Orchestration]**.
+Als u toegang wilt krijgen tot [!DNL Journey Orchestration]s interface, klik **[!UICONTROL App Selector]** in de rechterbovenhoek, en klik vervolgens op **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 

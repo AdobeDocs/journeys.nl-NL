@@ -78,9 +78,9 @@ Bij een GET-aanroep die parameter(s) vereist, voert u de parameter(s) in het vel
 * geef een lijst op van de parameters die op het aanroeptijdstip moeten worden doorgegeven in het veld **[!UICONTROL Dynamic Values]** (in het voorbeeld hieronder: ‘identifier’).
 * geef ze ook volgens precies dezelfde syntaxis op in de hoofdtekst van de verzonden payload. Hiervoor moet u het volgende toevoegen: ‘param’: ‘naam van de parameter’ (in het onderstaande voorbeeld: ‘identifier’). Volg de onderstaande syntaxis:
 
-   ```
-   {"id":{"param":"identifier"}}
-   ```
+  ```
+  {"id":{"param":"identifier"}}
+  ```
 
 ![](../assets/journey29.png)
 
