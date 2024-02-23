@@ -6,20 +6,37 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
+source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
 workflow-type: tm+mt
-source-wordcount: '4232'
-ht-degree: 39%
+source-wordcount: '4352'
+ht-degree: 36%
 
 ---
 
 # Aanvullende informatie {#release-notes}
 
-Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration. Raadpleeg het volgende voor de functies van Experience Platforms [releaseopmerkingen](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html).
+Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor het Journey Orchestration. Raadpleeg het volgende voor de functies van Experience Platforms [releaseopmerkingen](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html).
 
 >[!NOTE]
 >
 >Voor de functies die in 2022 en 2023 zijn uitgebracht, verwijzen de koppelingen rechtstreeks naar de documentatie van Adobe Journey Optimizer.
+
+## Release van februari 2024 {#feb-rn-2024}
+
+### Verbeteringen {#feb-2024-improvements}
+
+* **Uw reizen filteren** - U kunt nu **aangepaste datums om de reizen te filteren** voorraad, naast de bestaande vooraf gedefinieerde datumfilters. Op deze manier kunt u de lijst verfijnen door ritten weer te geven die op een bepaalde datum zijn gemaakt of gepubliceerd, binnen een bepaalde maand, gedurende een heel jaar of binnen een opgegeven tijdbereik. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **Aangepaste acties** - U kunt nu het dialoogvenster **inhoudstype** header. Deze nieuwe **inhoudstype** verwijst naar JSON-inhoud. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html#url-configuration)
+* **Configuratie** - Het attribuut identityMap in stepEvents is nu voorgevuld. De primaire identiteit wordt gedefinieerd als &quot;primary = true&quot;. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **Gebruikersinterface** - De bovenste balk, in reisschermen, is gereorganiseerd voor een betere ervaring. Onder de verschillende updates ziet u dat het potlood-pictogram waarmee u de reiseigenschappen kunt openen nu links van de bovenste balk naast de naam van de rit wordt weergegeven. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+
+## Release van januari 2024 {#jan-rn-2024}
+
+### Verbeteringen {#jan-2024-improvements}
+
+* **Duur van reactiegebeurtenissen** - De maximale duur die u kunt definiëren in het dialoogvenster **Gebeurtenissen van Reaction** is nu 29 dagen in plaats van 30. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
+* **Veldgroepen** - Deze release verhelpt een probleem dat ervoor zorgde dat veldgroepen in bepaalde gevallen niet konden worden opgeslagen.
+* Steun voor `<listObject>` is gewijzigd in meerdere functies.
 
 ## Release van augustus 2023 {#aug-rn-2023}
 
@@ -163,7 +180,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor J
 
 ### Verbeteringen
 
-**Journeys**
+**Reizen**
 
 * **Dynamische koppen** - U kunt nu dynamische gegevens doorgeven in HTTP-headerparameters. Deze parameters kunnen door de integratiesystemen worden gebruikt die de vraag van HTTP van de reisactie, bijvoorbeeld timestamp of het volgen identiteitskaart ontvangen. [Meer informatie](../action/url-configuration.md)
 * **Dynamische URL-paden** - U kunt nu dynamische URL-paden instellen voor aangepaste handelingen. [Meer informatie](../action/url-configuration.md)
@@ -203,7 +220,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor J
 <tr>
 <td>
 <p>De integratie met Adobe Campaign Classic is nu GA. Hiermee kunt u e-mails, pushmeldingen en SMS verzenden met de mogelijkheden van Adobe Campaign v7 of v8 Transactieberichten.</p>
-<p>De verbinding tussen de instanties van Journey Orchestration en Campaign wordt door Adobe ingesteld tijdens de inrichting.</p>
+<p>De verbinding tussen de instanties van het Journey Orchestration en van de Campagne is opstelling door Adobe bij leveringstijd.</p>
 <p>Raadpleeg de <a href="../action/acc-action.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -314,13 +331,13 @@ De [getListItem](../functions/functiongetlistitem.md) en [splitsen](../functions
 <table>
 <thead>
 <tr>
-<th><strong>Gebeurtenissen op basis van regels (bèta)</strong><br/></th>
+<th><strong>Op regels gebaseerde gebeurtenissen (bèta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Een nieuwe methode is nu beschikbaar om uw gebeurtenissen gemakkelijker in te stellen, zonder een eventID te gebruiken: op regel gebaseerde gebeurtenissen evalueren of de gebeurtenis volgens een voorwaarde moet worden geactiveerd. U kunt nog steeds de bestaande methode gebruiken, die nu "door het systeem gegenereerd" wordt genoemd. Deze functie, die door een beperkte groep klanten via het Alpha-programma is getest, is nu beschikbaar in Bèta aan alle klanten.
+<p>Een nieuwe methode is nu beschikbaar om uw gebeurtenissen gemakkelijker in te stellen, zonder een eventID te gebruiken: op regel gebaseerde gebeurtenissen evalueren of de gebeurtenis volgens een voorwaarde moet worden geactiveerd. U kunt nog steeds de bestaande methode gebruiken, die nu "door het systeem gegenereerd" wordt genoemd. Deze functie, die door een beperkt aantal klanten is getest via het programma Alpha, is nu beschikbaar in bèta voor alle klanten.
 </p>
 </td>
 </tr>
@@ -377,7 +394,7 @@ De **Segmentkwalificatie** activiteit kan niet meer worden gebruikt in een reis 
 </tbody>
 </table>
 
-### Alfa-updates{#september-alpha-update}
+### Alpha-updates{#september-alpha-update}
 
 <table>
 <thead>
@@ -407,7 +424,7 @@ De **Segmentkwalificatie** activiteit kan niet meer worden gebruikt in een reis 
 
 De payload van segmentkwalificatiegebeurtenissen bevat nu de volgende contextinformatie, die u in voorwaarden en acties kunt gebruiken: het gedrag (openen, sluiten), het tijdstempel van kwalificatie en de segment-ID. [Meer informatie](../building-journeys/segment-qualification-events.md)
 
-### Alfa-updates{#august-alpha-update}
+### Alpha-updates{#august-alpha-update}
 
 <table>
 <thead>
@@ -457,7 +474,7 @@ De payload van segmentkwalificatiegebeurtenissen bevat nu de volgende contextinf
 </tbody>
 </table>
 
-## Alfa-release - juli 2020 {#alpha-release---july-2020}
+## Release van de Alpha - juli 2020 {#alpha-release---july-2020}
 
 Het Alfa-programma biedt functies die momenteel bij een beperkt aantal klanten worden getest. Hierdoor kunnen we ons product verbeteren op basis van de ontvangen feedback. Deze functies zijn niet beschikbaar voor alle Journey Orchestration-klanten.
 
@@ -492,7 +509,7 @@ Het Alfa-programma biedt functies die momenteel bij een beperkt aantal klanten w
 <tbody>
 <tr>
 <td>
-<p>Met de segmenttriggeractiviteit kunt u alle personen die tot een Adobe Experience Platform-segment behoren, een journey laten starten. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden. 
+<p>Met de segmenttriggeractiviteit kunt u alle personen die tot een Adobe Experience Platform-segment behoren, een journey laten starten. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden. 
 </p>
 </td>
 </tr>
@@ -516,7 +533,7 @@ Het Alfa-programma biedt functies die momenteel bij een beperkt aantal klanten w
 </table>
 
 
-## Q2-release - juni 2020 {#q2-release---june-2020}
+## Release Q2 - juni 2020 {#q2-release---june-2020}
 
 <table>
 <thead>
@@ -532,10 +549,10 @@ Het Alfa-programma biedt functies die momenteel bij een beperkt aantal klanten w
 <li><p>Met een nieuwe activiteit kan worden geluisterd naar het openen en sluiten van Adobe Experience Platform-segmenten waarmee mensen aan een journey beginnen of ermee doorgaan. <a href="../building-journeys/segment-qualification-events.md">Meer informatie</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>U kunt nu Adobe Experience Platform-segmenten maken en bewerken zonder de Journey Orchestration-interface te verlaten dankzij het nieuwe tabblad <strong>Segments. </strong> <a href="../segment/about-segments.md">Meer informatie</a></p>
+<li><p>Adobe Experience Platform-segmenten kunnen nu worden gemaakt en bewerkt zonder de interface van het Journey Orchestration te verlaten, dankzij een nieuwe <strong>Segmenten</strong> tab. <a href="../segment/about-segments.md">Meer informatie</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>In de eenvoudige expressie-editor worden Adobe Experience Platform-segmenten nu direct vermeld in de navigatiestructuur voor het gemakkelijk instellen van voorwaarden zoals ‘hoort deze persoon bij segment A?’. <a href="../segment/using-a-segment.md">Meer informatie</a></p>
+<li><p>In de eenvoudige uitdrukkingsredacteur, zijn de segmenten van Adobe Experience Platform nu direct vermeld in de navigatieboom om gemakkelijke opstelling van voorwaarden zoals "toe te staan behoort deze persoon tot segment A?". <a href="../segment/using-a-segment.md">Meer informatie</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>Journey Orchestration geeft nu automatisch de stappen die tijdens journey’s worden uitgevoerd, door aan het Adobe Experience Platform. Dit geldt ook voor mogelijke fouten. Deze informatie kan worden gebruikt voor rapportage en probleemoplossing door query’s uit te voeren op journeystapgebeurtenissen voor een bepaalde journey of voor alle journey’s. <a href="../building-journeys/sharing-overview.md">Meer informatie</a></p>
@@ -583,7 +600,7 @@ Journey Orchestration is nu verkrijgbaar in APAC (Australisch datacenter). Besch
 
 De Journey Orchestration-interface is beschikbaar in het Japans.
 
-## Q1-release - maart 2020 {#q1-release---march-2020}
+## Release Q1 - maart 2020 {#q1-release---march-2020}
 
 <table>
 <thead>
@@ -673,7 +690,7 @@ De Journey Orchestration-interface is beschikbaar in het Japans.
 
 * Naast de VS is Journey Orchestration nu ook verkrijgbaar in **EMEA**. De applicatie en documentatie zijn in het Frans en Duits beschikbaar.
 
-* Experience League is nu geïntegreerd in het product. Dit vereenvoudigt de toegang tot verwante content en helpt u Experience Cloud optimaal te benutten. Onderaan het tabblad Help hebt u rechtstreeks toegang tot de Journey Orchestration-documentatie. Klik daarnaast op Help > Feedback om problemen te melden of uw ideeën te delen met Adobe.
+* Experience League is nu geïntegreerd in het product. Dit vereenvoudigt de toegang tot verwante content en helpt u Experience Cloud optimaal te benutten. Onderaan het tabblad Help hebt u rechtstreeks toegang tot de Journey Orchestration-documentatie. U kunt bovendien op Help > Feedback klikken om problemen te melden of uw ideeën te delen met Adobe.
 
 * De sneltoets **C**, waarmee u een nieuw item kunt maken, is nu beschikbaar in alle lijstschermen: journey’s, databronnen, acties en gebeurtenissen. [Meer informatie](../about/user-interface.md#section_ksq_zr1_ffb)
 
@@ -693,5 +710,5 @@ Met Journey Orchestration is real-timeorkestratie mogelijk aan de hand van conte
 
 Aanvullende bronnen:
 
-* [Lesbestanden](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Community](https://www.adobe.com/go/journeyorchestrationcommunity)
