@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
+source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
 workflow-type: tm+mt
-source-wordcount: '4352'
+source-wordcount: '4418'
 ht-degree: 36%
 
 ---
@@ -20,6 +20,18 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor h
 >[!NOTE]
 >
 >Voor de functies die in 2022 en 2023 zijn uitgebracht, verwijzen de koppelingen rechtstreeks naar de documentatie van Adobe Journey Optimizer.
+
+## Release van maart 2024 {#mar-rn-2024}
+
+### Verbeteringen {#mar-2024-improvements}
+
+Er zijn nieuwe tussenliggende statussen toegevoegd aan de levenscyclus van de reisontwerpfase:
+
+* **Publiceren** tussen de **Concept** en de **Live** status
+* **Stoppen** tussen de **Live** en de **Gestopt** status
+* **Testmodus activeren** of **Deactivering van de testmodus** statussen tussen de **Concept** en de **Concept (test)** status
+
+Wanneer een reis in een tussenstadium is, is het read-only. [Meer informatie](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
 
 ## Release van februari 2024 {#feb-rn-2024}
 
