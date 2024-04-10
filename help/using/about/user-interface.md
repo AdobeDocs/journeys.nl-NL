@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 61%
+source-wordcount: '959'
+ht-degree: 59%
 
 ---
 
@@ -36,7 +36,7 @@ U kunt [!DNL Journey Orchestration] ook openen via de startpagina van Experience
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Journeylijst"
->abstract="Met de journeylijst kunt u al uw journey’s tegelijk weergeven, hun status bekijken en basisacties uitvoeren."
+>abstract="Met de reislijst kunt u al uw reizen tegelijk bekijken, hun status bekijken en basishandelingen uitvoeren."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Demovideo bekijken"
 
 Met de bovenste menu’s kunt u navigeren door de verschillende functies van [!DNL Journey Orchestration]: **[!UICONTROL Home]** (de journey’s), **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]**.
