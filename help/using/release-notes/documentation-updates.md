@@ -5,10 +5,12 @@ description: Meer informatie over documentatie-updates
 feature: Journeys
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
+source-git-commit: af224593ca69f79c3e4458f26f77b92197ad73a2
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1010'
 ht-degree: 96%
 
 ---
@@ -20,12 +22,12 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 
 ## Juli 2022 {#july-2022}
 
-* In de reiseigenschappen **Tijdzone profiel** Deze optie is nu standaard uitgeschakeld. [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)
-* In de **Wachten** de **Vaste datum** is niet meer beschikbaar. [Meer informatie](../building-journeys/wait-activity.md)
+* In de reiseigenschappen, wordt de **optie van de Tijdzone van het 0} Profiel {nu onbruikbaar gemaakt door gebrek.** [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)
+* In **wacht** activiteit, is de **Vaste datum** optie niet meer beschikbaar. [Meer informatie](../building-journeys/wait-activity.md)
 
 ## Juni 2022 {#june-2022}
 
-* Er zijn nieuwe query-voorbeelden toegevoegd aan deze [page](../building-journeys/query-examples.md)
+* De nieuwe vraagvoorbeelden zijn toegevoegd aan deze [ pagina ](../building-journeys/query-examples.md)
 
 ## Maart 2022 {#march-2022}
 
@@ -130,13 +132,13 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 ## Januari 2020 {#january-2020}
 
 * Er zijn ophaalbeperkingen toegevoegd voor [ervaringsgebeurtenissen](../datasource/adobe-experience-platform-data-source.md) en [segmenten](../functions/functioninsegment.md).
-   <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
+  <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## December 2019 {#december-2019}
 
 * Alle screenshots zijn bijgewerkt met interfacewijzigingen.
 * De sectie over de testmodus is bijgewerkt. [Meer informatie](../building-journeys/testing-the-journey.md)
-   <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * Gestandaardiseerde journey’s kunnen nu worden verwijderd. Gerelateerde documentatiepagina’s zijn bijgewerkt.
 * Er worden nu twee kleuren weergegeven wanneer tijdens een journey problemen worden gedetecteerd. Rood voor fouten en oranje voor waarschuwingen. [Meer informatie](../about/troubleshooting.md)
 * De sectie over de geavanceerde expressie-editor is bijgewerkt. [Meer informatie](../expression/expressionadvanced.md).
