@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: Toegangsbeheer
-description: Meer informatie over toegangscontrole
+description: Meer informatie over toegangsbeheer.
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: cf9bc6db0627eb0dba57e30652bba5ac8783cb55
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 95%
+source-wordcount: '828'
+ht-degree: 87%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 95%
 
 Met [!DNL Journey Orchestration] kunt u een reeks toestemmingen aan uw gebruikers toewijzen om te definiëren tot welk deel van de interface ze toegang hebben.
 
-Ze kunnen worden beheerd door beheerders met toegang tot de Admin Console. Raadpleeg deze [documentatie](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html) voor meer informatie over de Admin Console.
+Ze kunnen worden beheerd door beheerders die toegang hebben tot de Admin Console. Voor meer informatie over Admin Console, verwijs naar de [ gids van de Onderneming en van teamadmin ](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html).
 
 Voor toegang tot [!DNL Journey Orchestration]moet een gebruiker:
 
 * deel van een [!DNL Journey Orchestration]-**[!UICONTROL product profile]** zijn dat is gekoppeld aan [!DNL Journey Orchestration]-toestemmingen.
 * deel van een [!DNL Adobe Experience Platform]-**[!UICONTROL product profile]** zijn. Er is geen verplichte toestemming. De gebruiker heeft de **[!UICONTROL profile management]**-toestemming nodig om platformsegmenten te maken en te bewerken vanuit de [!DNL Journey Orchestration]-interface. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console) voor meer informatie.
 
-In de Admin Console kunt u een van de volgende meegeleverde productprofielen aan uw gebruikers toewijzen:
+In Admin Console kunt u een van de volgende out-of-the-box productprofielen aan uw gebruikers toewijzen:
 
 * **[!UICONTROL Limited Access User]**: gebruiker met alleen-lezen toegang tot journey’s en rapporten. Dit productprofiel bevat de volgende toestemmingen:
    * Journey’s lezen
@@ -38,9 +38,9 @@ In de Admin Console kunt u een van de volgende meegeleverde productprofielen aan
    * Gebeurtenissen, databronnen en acties beheren
    * Rapporten beheren
 
-   >[!NOTE]
-   >
-   >Het **[!UICONTROL Administrators]** is het enige productprofiel waarmee transactionele berichten (of berichtsjablonen) in Adobe Campaign Standard kunnen worden gemaakt, bewerkt en gepubliceerd. Dit productprofiel is nodig als u Adobe Campaign Standard gebruikt om in uw journey’s berichten te verzenden. De naam van de toepassing mag niet worden gewijzigd in de beheerconsole.
+  >[!NOTE]
+  >
+  >Het **[!UICONTROL Administrators]** is het enige productprofiel waarmee transactionele berichten (of berichtsjablonen) in Adobe Campaign Standard kunnen worden gemaakt, bewerkt en gepubliceerd. Dit productprofiel is nodig als u Adobe Campaign Standard gebruikt om berichten tijdens uw reizen te verzenden. De naam mag niet worden gewijzigd in Admin Console.
 
 * **[!UICONTROL Standard User]**: gebruiker met basistoegang zoals journeybeheer. Dit productprofiel bevat de volgende toestemmingen:
    * Journey’s beheren
@@ -71,7 +71,7 @@ Raadpleeg de [Adobe Experience Platform-documentatie](https://experienceleague.a
 
 Een productprofiel maken en een reeks toestemmingen en sandboxen toewijzen:
 
-1. Selecteer **[!UICONTROL Journey Orchestration]** in de Admin Console. Klik op het tabblad **[!UICONTROL Product profile]** op **[!UICONTROL New Profile]**.
+1. Selecteer **[!UICONTROL Journey Orchestration]** in Admin Console. Klik op het tabblad **[!UICONTROL Product profile]** op **[!UICONTROL New Profile]**.
 
    ![](../assets/do-not-localize/user_management_5.png)
 
@@ -138,7 +138,7 @@ De gebruiker ontvangt vervolgens een e-mail met een doorverwijzing naar uw [!DNL
 ## Sandboxen gebruiken {#sandboxes}
 
 In [!DNL Journey Orchestration] kunt u uw instantie partitioneren in afzonderlijke virtuele omgevingen, sandboxen genoemd.
-Sandboxen worden toegewezen via productprofielen in de Admin Console. Raadpleeg deze [sectie](../about/access-management.md#create-product-profile)voor meer informatie over het toewijzen van sandboxen.
+Sandboxen worden toegewezen via productprofielen in Admin Console. Raadpleeg deze [sectie](../about/access-management.md#create-product-profile)voor meer informatie over het toewijzen van sandboxen.
 
 [!DNL Journey Orchestration] weerspiegelt de Adobe Experience Platform-sandboxen die voor een bepaalde organisatie zijn gemaakt.
 U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe Experience Platform-instantie. Raadpleeg de [gebruikershandleiding voor sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) voor gedetailleerde informatie.
