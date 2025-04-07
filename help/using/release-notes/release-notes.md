@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 53e4d6af0e3d5fa2f3870802dc67c6200fec3ce8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '4462'
+source-wordcount: '4452'
 ht-degree: 35%
 
 ---
@@ -322,7 +322,7 @@ De [ getListItem ](../functions/functiongetlistitem.md) en [ gespleten ](../func
 <li>vereenvoudigen het ontwerp van zeer complexe reizen door deze in verschillende te splitsen </li>
 <li>ritten bouwen op basis van gemeenschappelijke en herbruikbare reispatronen</li>
 </ul>
-<p>Voor meer informatie, verwijs naar de <a href="../building-journeys/jump.md"> gedetailleerde documentatie </a> en <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html"> tutorial video </a>.</p>
+<p>Raadpleeg de <a href="../building-journeys/jump.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -724,8 +724,3 @@ Stel real-timegebruiksscenario’s voor orkestratie samen aan de hand van contex
 Met Journey Orchestration is real-timeorkestratie mogelijk aan de hand van contextuele data van gebeurtenissen, informatie van het Adobe Experience Platform of data van externe API-services. De applicatie bepaalt in stromen van meerdere stappen die journey’s worden genoemd, de volgende beste acties specifiek voor een bepaalde consument op basis van profiel en gedragingen. Dit omvat zowel de optimale timing als het type actie, zoals het verzenden van een pushbericht aan de consument via de Adobe Campaign Standard-mogelijkheden voor transactionele berichten (Adobe Campaign Standard vereist) of de melding van een extern systeem. Deze beslissingen worden genomen op basis van regels en Sensei-scores.
 
 [Meer informatie](../action/working-with-adobe-campaign.md) over Journey Orchestration.
-
-Aanvullende bronnen:
-
-* [Tutorials](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
-* [Community](https://www.adobe.com/go/journeyorchestrationcommunity)

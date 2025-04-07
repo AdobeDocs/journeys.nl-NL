@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 82%
+source-wordcount: '282'
+ht-degree: 83%
 
 ---
 
@@ -24,15 +24,15 @@ Acties zijn verbindingen waarmee u persoonlijke, realtime-ervaringen kunt bieden
 
 Met aangepaste acties kunt u een verbinding met een extern systeem configureren voor het verzenden van berichten of API-aanroepen. Een actie kan worden geconfigureerd met elke service van elke provider die door een REST-API met een payload in JSON-indeling kan worden aangeroepen.
 
-De acties zijn beschikbaar in het linkerpalet van uw reis, in **[!UICONTROL Action]** categorie. Zie [deze pagina](../building-journeys/about-action-activities.md).
+De acties zijn beschikbaar in het linkerpalet van uw reis, in de **[!UICONTROL Action]** categorie. Zie [deze pagina](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >
 >De configuratie van aangepaste acties wordt altijd uitgevoerd door een **technische gebruiker**.
 
-In de lijst met **Acties** kunt u op C drukken om een nieuwe journey, actie, databron of gebeurtenis te maken. Voor meer informatie over sneltoetsen in [!DNL Journey Orchestration], zie [deze sectie](../about/user-interface.md#section_ksq_zr1_ffb).
+In de lijst met **Acties** kunt u op C drukken om een nieuwe journey, actie, databron of gebeurtenis te maken. Voor meer informatie over kortere weg in [!DNL Journey Orchestration], zie [ deze sectie ](../about/user-interface.md#section_ksq_zr1_ffb).
 
-Als u de actielijst wilt bekijken of een nieuwe actie wilt configureren, klikt u in de bovenste menu’s op **[!UICONTROL Actions]**. De lijst met acties wordt weergegeven. Zie [deze pagina](../about/user-interface.md) voor meer informatie over de interface.
+Als u de actielijst wilt bekijken of een nieuwe actie wilt configureren, klikt u in de bovenste menu’s op **[!UICONTROL Actions]**. De lijst met acties wordt weergegeven. Zie [ deze pagina ](../about/user-interface.md) voor meer informatie over de interface.
 
 ![](../assets/custom1.png)
 
@@ -42,4 +42,3 @@ Als u Adobe Campaign v7 of v8 hebt, is een integratie op verzoek beschikbaar. Zi
 
 Als u berichten verzendt via een extern systeem zoals Epsilon, Facebook, Adobe.io, Firebase, enzovoort, moet u een aangepaste actie toevoegen en configureren. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
-Kijk voor meer informatie over het configureren van een actie voor [!DNL Journey Orchestration] en het gebruik ervan in een journey naar deze [videotutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-actions.html).

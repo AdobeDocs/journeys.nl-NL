@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 76%
+source-wordcount: '305'
+ht-degree: 73%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 76%
 
 Met de databronconfiguratie kunt u een verbinding met een systeem definiëren om extra informatie op te halen die in uw journey’s wordt gebruikt voor:
 
-* [het definiëren van voorwaarden](../building-journeys/condition-activity.md)
+* [conditiedefinitie](../building-journeys/condition-activity.md)
 * parameter- en personalisatiedata in [acties](../action/action.md)
-* [het definiëren van aangepaste wachttijden](../building-journeys/wait-activity.md#custom)
-* [het definiëren van tijdzones](../building-journeys/timezone-management.md)
+* [aangepaste wachtdefinitie](../building-journeys/wait-activity.md#custom)
+* [tijdzonedefinitie](../building-journeys/timezone-management.md)
 
 Deze configuratie is niet vereist als uw journey’s alleen lokale data uit een gebeurtenispayload gebruiken. Als uw journey bijvoorbeeld bestaat uit een gebeurtenis gevolgd door een e-mailactiviteit die uitsluitend data van de gebeurtenis gebruikt, is het niet nodig om een databron te configureren.
 
@@ -36,21 +36,19 @@ Er zijn twee soorten databronnen:
 
 Voor elke databron definieert u de informatie die u wilt ophalen met behulp van veldengroepen. Veldengroepen zijn reeksen velden die uit een databron kunnen worden opgehaald. Zie [deze pagina](../datasource/field-groups.md).
 
-Voor meer informatie over het configureren van een Adobe Experience Platform-databron en een externe databron en hoe u gegevens in een journey kunt vinden en gebruiken, bekijkt u deze [zelfstudievideo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
-
 Dit zijn de belangrijkste stappen voor de configuratie van databronnen:
 
 >[!NOTE]
 >
 >De databronconfiguratie wordt altijd uitgevoerd door een **technische gebruiker**.
 
-1. Selecteer in het menuvenster **[!UICONTROL Admin]**. In de **[!UICONTROL Data sources]** sectie, klikken **[!UICONTROL Manage]**.
+1. Selecteer **[!UICONTROL Admin]** in het menuvenster. Klik in de sectie **[!UICONTROL Data sources]** op **[!UICONTROL Manage]** .
 
-   De lijst met databronnen wordt weergegeven. Zie [deze pagina](../about/user-interface.md) voor meer informatie over de interface.
+   De lijst met databronnen wordt weergegeven. Zie [ deze pagina ](../about/user-interface.md) voor meer informatie over de interface.
 
    ![](../assets/journey18.png)
 
-1. Vervolgens kunt u veldgroepen toevoegen aan de ingebouwde gegevensbron (zie [deze pagina](../datasource/adobe-experience-platform-data-source.md)) of een nieuwe externe gegevensbron maken (zie [deze pagina](../datasource/external-data-sources.md)) en bijbehorende veldgroepen (zie [deze pagina](../datasource/field-groups.md)).
+1. Dan kunt u of gebiedsgroepen aan de ingebouwde gegevensbron (zie [ deze pagina ](../datasource/adobe-experience-platform-data-source.md)) toevoegen of een nieuwe externe gegevensbron (zie [ deze pagina ](../datasource/external-data-sources.md)) en bijbehorende gebiedsgroepen (zie [ deze pagina ](../datasource/field-groups.md)) tot stand brengen.
 
    ![](../assets/journey23.png)
 
