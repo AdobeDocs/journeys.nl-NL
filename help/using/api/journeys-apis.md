@@ -7,14 +7,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 87d5cf223d9adec27eabcb55f2e09aa6d40b23a6
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 87%
+source-wordcount: '836'
+ht-degree: 83%
 
 ---
 
 # Aan de slag met journey-API&#39;s
+
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
 
 ## Informatie over afkappings- en beperkings-API&#39;s
 
@@ -62,12 +71,12 @@ Om deze API&#39;s met uw [!DNL Journey Orchestration]-versie te gebruiken moet u
 
 >[!CAUTION]
 >
->De JWT-methode voor het genereren van toegangstokens is afgekeurd. Alle nieuwe integraties moeten worden gecreëerd met de [OAuth Server-aan-Server authentificatiemethode](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). De Adobe adviseert ook dat u uw bestaande integraties aan de methode OAuth migreert.
+>De JWT-methode voor het genereren van toegangstokens is afgekeurd. Alle nieuwe integraties moeten worden gecreeerd gebruikend de [ Server-aan-Server authentificatiemethode ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). Adobe raadt u ook aan uw bestaande integratie te migreren naar de OAuth-methode.
 >
 >Lees de volgende belangrijke documentatie:
->[Migratiehandleiding voor uw toepassingen van JWT naar OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
->[Implementatiehandleiding voor nieuwe en oude toepassingen met OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
->[Voordelen om de server-aan-server van OAuth methode van geloofsbrieven te gebruiken](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
+>[De gids van de migratie voor uw toepassingen van JWT aan OAuth ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
+>[De gids van de implementatie voor nieuwe en oude toepassingen met OAuth ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[Voordelen om de Server-aan-Server methode van OAuth te gebruiken geloofsbrieven ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 Om een veilige Adobe I/O API-sessie tussen services tot stand te brengen moet elk verzoek aan een Adobe-service de onderstaande informatie bevatten in de autorisatieheader.
 
@@ -80,6 +89,6 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ORGANIZATION>**: dit is uw persoonlijke ORGANISATIE-ID. Adobe verstrekt één ORGANISATIE-ID voor elk van uw instanties. Voor het verkrijgen van uw ORGANISATIE-ID-waarde raadpleegt u uw beheerder of uw technische contactpersoon bij Adobe. U kunt hem ook ophalen in Adobe I/O wanneer u een nieuwe integratie maakt, in de licentielijst (zie de [Adobe I/O-documentatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)).
 
-* **&lt;access_token>**: Uw persoonlijke toegangstoken
+* **&lt;ACCESS_TOKEN>**: Uw persoonlijk toegangstoken
 
 * **&lt;API_KEY>**: uw persoonlijke API-sleutel. Deze wordt geleverd in Adobe I/O na het maken van een nieuwe integratie met [!DNL Journey Orchestration] Service.

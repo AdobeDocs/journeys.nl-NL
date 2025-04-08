@@ -7,15 +7,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 29%
+source-wordcount: '599'
+ht-degree: 27%
 
 ---
 
 
 # Werken met de API voor uitsnijden {#work}
+
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
 
 Met de API voor uitsnijden kunt u uw configuraties voor uitlijnen maken, configureren en controleren.
 
@@ -25,8 +34,8 @@ Met de API voor uitsnijden kunt u uw configuraties voor uitlijnen maken, configu
 |---|---|---|
 | [!DNL POST] | list/endConfigs | Krijg een lijst van de eindpunt die configuraties begrenzen |
 | [!DNL POST] | /endConfigs | Creeer een eindpunt het bedekken configuratie |
-| [!DNL POST] | /endConfigs/`{uid}`/implementatie | Implementeer een configuratie voor het afdekken van eindpunten |
-| [!DNL POST] | /endConfigs/`{uid}`/uninstall | Maak een eindpunt onbruikbaar dat configuratie begrenst |
+| [!DNL POST] | /endConfigs/`{uid}`/opstellen | Implementeer een configuratie voor het afdekken van eindpunten |
+| [!DNL POST] | /endConfigs/`{uid}`/undeploy | Maak een eindpunt onbruikbaar dat configuratie begrenst |
 | [!DNL POST] | /endConfigs/`{uid}`/canDeploy | Controle als een eindpunt het begrenzen configuratie kan worden opgesteld of niet |
 | [!DNL PUT] | /endConfigs/`{uid}` | Een configuratie voor het afdekken van eindpunten bijwerken |
 | [!DNL GET] | /endConfigs/`{uid}` | Retrireer een eindpunt dat configuratie begrenst |
@@ -58,7 +67,7 @@ Hier is de basisstructuur van een eindpuntconfiguratie:
 
 >[!IMPORTANT]
 >
->De **maxHttpConnections** parameter is optioneel. Zo kunt u het aantal verbindingen beperken dat Journey Optimizer opent voor het externe systeem.
+>De **maxHttpConnections** parameter is facultatief. Zo kunt u het aantal verbindingen beperken dat Journey Optimizer opent voor het externe systeem.
 >
 >De maximale waarde die kan worden ingesteld, is 400. Als niets wordt gespecificeerd, dan kan het systeem tot veelvoudige duizenden verbindingen afhankelijk van het dynamische schrapen van het systeem openen.
 
@@ -85,7 +94,7 @@ Hier is de basisstructuur van een eindpuntconfiguratie:
 
 ## Waarschuwing en fouten
 
-Wanneer een **canDeploy** De methode wordt geroepen, bevestigt het proces de configuratie en keert de bevestigingsstatus terug die door zijn Unieke identiteitskaart wordt geïdentificeerd, of:
+Wanneer a **canDeploy** methode wordt geroepen, bevestigt het proces de configuratie en keert de bevestigingsstatus terug die door zijn Unieke identiteitskaart wordt geïdentificeerd, of:
 
 ```
 "ok" or "error"
@@ -93,24 +102,24 @@ Wanneer een **canDeploy** De methode wordt geroepen, bevestigt het proces de con
 
 De mogelijke fouten zijn:
 
-* **ERR_ENDPOINTCONFIG_100**: configuratie beperken: ontbrekende of ongeldige URL
-* **ERR_ENDPOINTCONFIG_101**: config.capping: onjuist gevormde URL
-* **ERR_ENDPOINTCONFIG_102**: config.capping: onjuist gevormde url: wildchar in url niet toegestaan in host:port
-* **ERR_ENDPOINTCONFIG_103**: config.capping: ontbrekende HTTP-methoden
-* **ERR_ENDPOINTCONFIG_104**: het maximum config: geen bepaalde vraagclassificatie
-* **ERR_ENDPOINTCONFIG_107**: het in kaart brengen config: ongeldige maximumvraagtelling (maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**: het in kaart brengen config: ongeldige maximum vraagtelling (periodInMS)
-* **ERR_ENDPOINTCONFIG_111**: het begrenzen config: kan geen eindpunt config tot stand brengen: ongeldige lading
-* **ERR_ENDPOINTCONFIG_112**: het begrenzen config: kan geen eindpunt config tot stand brengen: het verwachten van een JSON nuttige lading
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: ongeldige servicenaam `<!--<given value>-->`: moet &#39;dataSource&#39; of &#39;action&#39; zijn
+* **ERR_ENDPOINTCONFIG_100**: het in kaart brengen van config: ontbrekende of ongeldige URL
+* **ERR_ENDPOINTCONFIG_101**: het in kaart brengen van config: misvormde url
+* **ERR_ENDPOINTCONFIG_102**: het in kaart brengen config: misvormde url: vervangingsklank in url niet toegestaan in gastheer:haven
+* **ERR_ENDPOINTCONFIG_103**: het in kaart brengen van config: ontbrekende methodes van HTTP
+* **ERR_ENDPOINTCONFIG_104**: het in kaart brengen van config: geen bepaalde vraagclassificatie
+* **ERR_ENDPOINTCONFIG_107**: het in kaart brengen van config: ongeldige maximum vraagtelling (maxCallsCount)
+* **ERR_ENDPOINTCONFIG_108**: het maximum config: ongeldige maximum vraagtelling (periodInMS)
+* **ERR_ENDPOINTCONFIG_111**: het in kaart brengen van config: kan geen eindpunt config tot stand brengen: ongeldige lading
+* **ERR_ENDPOINTCONFIG_112**: het begrenzen config: kan geen eindpunt config tot stand brengen: het verwachten van een nuttige lading JSON
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: ongeldige de dienstnaam `<!--<given value>-->`: moet &quot;dataSource&quot;of &quot;actie&quot;zijn
 
 De mogelijke waarschuwing is:
 
-**ERR_ENDPOINTCONFIG_106**: config.max. HTTP-verbindingen niet gedefinieerd: standaard geen beperking
+**ERR_ENDPOINTCONFIG_106**: het in kaart brengen van config: maximum de verbindingen van HTTP niet bepaald: geen beperking door gebrek
 
 ## Gebruiksscenario&#39;s
 
-In deze sectie zult u de vijf belangrijkste gebruik-gevallen vinden die u kunt uitvoeren om uw het capteren configuratie binnen te beheren [!DNL Journey Orchestration].
+In deze sectie vindt u de vijf hoofdgevallen voor het gebruik die u kunt uitvoeren om uw configuratie voor plafonds te beheren in [!DNL Journey Orchestration] .
 
 Voor hulp bij het testen en configureren is [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json) een Postman-verzameling beschikbaar.
 
@@ -123,14 +132,14 @@ Eenmaal gedownload en geüpload naar Postman moet u drie variabelen toevoegen: `
 
 In het volgende gedeelte vindt u de geordende lijst van Rest-API-aanroepen om het gebruiksscenario uit te voeren.
 
-Gebruiksscenario n°1: **Het creëren en de plaatsing van een nieuwe het maximum configuratie**
+Gebruik-Geval n°1: **creatie en plaatsing van een nieuwe het capteren configuratie**
 
 1. list
 1. create
 1. candeploy
 1. deploy
 
-Gebruiksscenario n°2: **Een configuratie voor uitlijnen bijwerken en implementeren die nog niet is geïmplementeerd**
+Gebruik-Geval n°2: **Update en stel een het maximum configuratie op die nog niet wordt opgesteld**
 
 1. list
 1. get
@@ -138,19 +147,19 @@ Gebruiksscenario n°2: **Een configuratie voor uitlijnen bijwerken en implemente
 1. candeploy
 1. deploy
 
-Gebruiksscenario n°3: **Implementeer en verwijder een geïmplementeerde configuratie voor plafonnering**
+Gebruik-Geval n°3: **stelt en schrapt een opgestelde het begrenzen configuratie** onbruikbaar
 
 1. list
 1. undeploy
 1. delete
 
-Gebruiksscenario n°4: **Verwijder een configuratie voor geïmplementeerde uiteinden.**
+Gebruik-Geval n°4: **schrap een opgestelde het capteren configuratie.**
 
 In slechts één API-oproep kunt u de configuratie deïmplementeren en verwijderen met behulp van de parameter forceDelete.
 1. list
 1. delete, met parameter forceDelete
 
-Gebruiksscenario n°5: **Een reeds geïmplementeerde configuratie voor plafonnering bijwerken**
+Gebruik-Geval n°5: **werk een het maximum configuratie reeds in werking gesteld** bij
 
 1. list
 1. get

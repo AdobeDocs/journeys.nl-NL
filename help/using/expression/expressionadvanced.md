@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 85%
+source-wordcount: '595'
+ht-degree: 71%
 
 ---
 
 # De geavanceerde expressie-editor {#concept_uyj_trt_52b}
+
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
 
 Gebruik de geavanceerde uitdrukkingsredacteur om geavanceerde uitdrukkingen in diverse schermen van de interface te bouwen. U kunt bijvoorbeeld expressies maken bij het configureren en gebruiken van reizen en bij het definiëren van een gegevensbronvoorwaarde.
 De editor is ook altijd beschikbaar wanneer u actieparameters moet definiëren waarvoor specifieke datamanipulaties nodig zijn. U kunt data gebruiken die afkomstig zijn van gebeurtenissen of aanvullende informatie die is opgehaald uit de databron. In een journey is de weergegeven lijst met gebeurtenisvelden contextafhankelijk en deze varieert op basis van de gebeurtenissen die tijdens de journey worden toegevoegd.
@@ -44,7 +53,7 @@ U kunt de geavanceerde expressie-editor op verschillende manieren openen:
 
 * Wanneer u een databronvoorwaarde maakt, kunt u de geavanceerde editor openen door te klikken op **[!UICONTROL Advanced mode]**.
 
-   ![](../assets/journeyuc2_33.png)
+  ![](../assets/journeyuc2_33.png)
 
 * Wanneer u een aangepaste timer maakt, wordt de geavanceerde editor direct weergegeven.
 * Wanneer u een actieparameter toewijst, klikt u op **[!UICONTROL Advanced mode]**.
@@ -57,10 +66,10 @@ In dit scherm kunt u uw expressie handmatig schrijven.
 
 Links in het scherm worden de beschikbare velden en functies weergegeven:
 
-* **[!UICONTROL Events]**: kies een van de velden die worden ontvangen van de binnenkomende gebeurtenis. De weergegeven lijst met gebeurtenisvelden is contextafhankelijk en varieert al naar gelang de gebeurtenissen die tijdens de journey worden toegevoegd. [Meer informatie](../event/about-events.md)
-* **[!UICONTROL Segments]**: als u een **[!UICONTROL Segment qualification]** kiest u het segment dat u in uw expressie wilt gebruiken. [Meer informatie](../segment/using-a-segment.md)
-* **[!UICONTROL Data Sources]**: kies uit de lijst met velden die beschikbaar zijn in de veldengroepen van uw databronnen. [Meer informatie](../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**: in dit deel worden de technische gebieden die verband houden met de reis voor een bepaald profiel gegroepeerd . [Meer informatie](../expression/journey-properties.md)
+* **[!UICONTROL Events]**: kies een van de velden die worden ontvangen van de binnenkomende gebeurtenis. De weergegeven lijst met gebeurtenisvelden is contextueel en varieert afhankelijk van de gebeurtenis(sen) die tijdens de reis zijn toegevoegd. [Meer informatie](../event/about-events.md)
+* **[!UICONTROL Segments]**: als u een **[!UICONTROL Segment qualification]** -gebeurtenis hebt neergezet, kiest u het segment dat u in de expressie wilt gebruiken. [Meer informatie](../segment/using-a-segment.md)
+* **[!UICONTROL Data Sources]**: kies een optie in de lijst met velden die beschikbaar zijn in de veldgroepen van uw gegevensbronnen. [Meer informatie](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**: in deze sectie worden de technische velden voor een bepaald profiel gegroepeerd die betrekking hebben op de reis. [Meer informatie](../expression/journey-properties.md)
 * **[!UICONTROL Functions]**: kies uit de lijst met ingebouwde functies die complexe filtering mogelijk maken. Functies zijn ingedeeld in categorieën. [Meer informatie](../expression/functions.md)
 
 ![](../assets/journey65.png)
@@ -75,7 +84,7 @@ Een mechanisme voor de syntaxisvalidatie controleert de integriteit van uw code.
 
 **Parameters vereist tijdens het samenstellen van voorwaarden met de geavanceerde expressie-editor**
 
-Als u een veld selecteert uit een externe gegevensbron waarvoor een parameter moet worden aangeroepen (zie [deze pagina](../datasource/external-data-sources.md). In een databron met betrekking tot weersomstandigheden is ‘city’ bijvoorbeeld een veelgebruikte parameter. Dit betekent dat u moet selecteren waar u deze parameter ‘city’ wilt ophalen. Functies kunnen ook op parameters worden toegepast om opmaakwijzigingen of samenvoegingen uit te voeren.
+Als u een gebied van een externe gegevensbron selecteert die een te roepen parameter vereisen (zie [ deze pagina ](../datasource/external-data-sources.md). In een databron met betrekking tot weersomstandigheden is ‘city’ bijvoorbeeld een veelgebruikte parameter. Dit betekent dat u moet selecteren waar u deze parameter ‘city’ wilt ophalen. Functies kunnen ook op parameters worden toegepast om opmaakwijzigingen of samenvoegingen uit te voeren.
 
 ![](../assets/journeyuc2_19.png)
 

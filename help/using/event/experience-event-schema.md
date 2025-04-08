@@ -6,50 +6,60 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
-source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
 
-# Over ExperienceEvent-schema&#39;s voor [!DNL Journey Orchestration] Gebeurtenissen
+# Over ExperienceEvent-schema&#39;s voor [!DNL Journey Orchestration] -gebeurtenissen
 
-[!DNL Journey Orchestration] Gebeurtenissen zijn XDM Experience Events die via Streaming Ingestie naar de Adobe Experience Platform worden verzonden.
 
-Een belangrijke voorwaarde voor het instellen van gebeurtenissen voor [!DNL Journey Orchestration] is dat u bekend bent met het gegevensmodel van de Ervaring van Adobe Experience Platform (of XDM) en hoe te om de schema&#39;s van de Gebeurtenis van de Ervaring XDM samen te stellen, evenals hoe te om XDM-Geformatteerde gegevens aan Adobe Experience Platform te stromen.
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
 
-## Schemavereisten voor [!DNL Journey Orchestration] Gebeurtenissen
 
-De eerste stap bij het instellen van een gebeurtenis voor [!DNL Journey Orchestration] moet ervoor zorgen dat u een schema XDM hebt dat wordt bepaald om de gebeurtenis te vertegenwoordigen, en een dataset die wordt gecreeerd om instanties van de gebeurtenis op Adobe Experience Platform te registreren. Het hebben van een dataset voor uw gebeurtenissen is niet strikt noodzakelijk, maar het verzenden van de gebeurtenissen naar een specifieke dataset zal u toestaan om gebruikers&#39; gebeurtenisgeschiedenis voor toekomstige verwijzing en analyse te handhaven, zodat is het altijd een goed idee. Als u nog geen geschikt schema en dataset voor uw gebeurtenis hebt, kunnen beide taken in de Adobe Experience Platform-webinterface worden uitgevoerd.
+
+[!DNL Journey Orchestration] -gebeurtenissen zijn XDM Experience Events die via Streaming Ingestie naar de Adobe Experience Platform worden verzonden.
+
+Daarom is een belangrijke voorwaarde voor het instellen van gebeurtenissen voor [!DNL Journey Orchestration] dat u bekend bent met het Adobe Experience Platform Experience Data Model (of XDM) en hoe u XDM Experience Event-schema&#39;s kunt samenstellen, en hoe u XDM-gegevens kunt streamen naar de Adobe Experience Platform.
+
+## Schemavereisten voor [!DNL Journey Orchestration] gebeurtenissen
+
+De eerste stap bij het instellen van een gebeurtenis voor [!DNL Journey Orchestration] is ervoor te zorgen dat u een XDM-schema hebt gedefinieerd om de gebeurtenis te vertegenwoordigen, en een dataset die is gemaakt om instanties van de gebeurtenis op de Adobe Experience Platform op te nemen. Het hebben van een dataset voor uw gebeurtenissen is niet strikt noodzakelijk, maar het verzenden van de gebeurtenissen naar een specifieke dataset zal u toestaan om de de gebeurtenisgeschiedenis van gebruikers voor toekomstige verwijzing en analyse te handhaven, zodat is het altijd een goed idee. Als u nog geen geschikt schema en dataset voor uw gebeurtenis hebt, kunnen beide taken in de Adobe Experience Platform-webinterface worden uitgevoerd.
 
 ![](../assets/schema1.png)
 
-Om het even welk XDM schema dat voor zal worden gebruikt [!DNL Journey Orchestration] evenementen moeten aan de volgende eisen voldoen :
+Elk XDM-schema dat voor [!DNL Journey Orchestration] -gebeurtenissen wordt gebruikt, moet aan de volgende vereisten voldoen:
 
 * Het schema moet van de klasse XDM ExperienceEvent zijn.
 
-   ![](../assets/schema2.png)
+  ![](../assets/schema2.png)
 
 * Voor door het systeem gegenereerde gebeurtenissen moet het schema de Orchestration eventID-mix bevatten. [!DNL Journey Orchestration] gebruikt dit veld om gebeurtenissen te identificeren die tijdens reizen worden gebruikt.
 
-   ![](../assets/schema3.png)
+  ![](../assets/schema3.png)
 
 * Declareer een identiteitsveld voor het identificeren van het onderwerp van de gebeurtenis. Als er geen identiteit is opgegeven, kan een identiteitskaart worden gebruikt. Dit wordt niet aanbevolen.
 
-   ![](../assets/schema4.png)
+  ![](../assets/schema4.png)
 
 * Als u deze gegevens voor raadpleging later in een Reis beschikbaar zou willen zijn, merk het schema en de dataset voor profiel.
 
-   ![](../assets/schema5.png)
+  ![](../assets/schema5.png)
 
-   ![](../assets/schema6.png)
+  ![](../assets/schema6.png)
 
 * U kunt gegevensvelden vrij gebruiken om andere contextgegevens vast te leggen die u met de gebeurtenis wilt opnemen, zoals informatie over de gebruiker, het apparaat waaruit de gebeurtenis is gegenereerd, de locatie of andere betekenisvolle omstandigheden die met de gebeurtenis verband houden.
 
-   ![](../assets/schema7.png)
+  ![](../assets/schema7.png)
 
-   ![](../assets/schema8.png)
+  ![](../assets/schema8.png)
 
 ## Schema-relaties benutten{#leverage_schema_relationships}
 
@@ -69,13 +79,13 @@ Hier volgt het aankoopschema met de relatie die is gedefinieerd in het veld prod
 
 >[!NOTE]
 >
->Meer informatie over schema-relaties in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>Leer meer op schemaverhoudingen in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
 In Journey Orchestration kunt u vervolgens alle velden uit de gekoppelde tabellen benutten:
 
-* bij het configureren van een eenheidsgebeurtenis, [Meer informatie](../event/experience-event-schema.md#unitary_event_configuration)
-* bij het gebruik van omstandigheden tijdens een reis, [Meer informatie](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* op maat van aangepaste handelingen, [Meer informatie](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* wanneer het vormen van een eenheidsgebeurtenis, [ las meer ](../event/experience-event-schema.md#unitary_event_configuration)
+* wanneer het gebruiken van voorwaarden in een reis, [ las meer ](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* in de verpersoonlijking van de douaneactie, [ las meer ](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### Configuratie van eenheidsgebeurtenissen{#unitary_event_configuration}
 
@@ -91,7 +101,7 @@ De gekoppelde velden zijn niet beschikbaar:
 * in de sleutelformule voor gebeurtenissen
 * in event id condition (op regel gebaseerde gebeurtenissen)
 
-Als u wilt weten hoe u een eenheidsgebeurtenis configureert, raadpleegt u deze [page](../event/about-creating.md).
+Leren hoe te om een eenheidsgebeurtenis te vormen, verwijs naar deze [ pagina ](../event/about-creating.md).
 
 ### Reisomstandigheden met gebeurteniscontext{#journey_conditions_using_event_context}
 
@@ -101,7 +111,7 @@ Voeg een voorwaarde toe in een reis, geef de uitdrukking uit en ontvouw de gebeu
 
 ![](../assets/schema12.png)
 
-Als u wilt leren hoe u de reisvoorwaarden definieert, raadpleegt u deze [page](../building-journeys/condition-activity.md).
+Leren hoe te om reisvoorwaarden te bepalen, verwijs naar deze [ pagina ](../building-journeys/condition-activity.md).
 
 ### Aanpassing van handelingen met context van reisgebeurtenissen{#custom_action_personalization_with_journey_event_context}
 
@@ -109,5 +119,5 @@ De verbonden gebieden zijn beschikbaar wanneer het vormen van de actieparameters
 
 ![](../assets/schema13.png)
 
-Raadpleeg deze voor meer informatie over het gebruik van aangepaste handelingen [page](../building-journeys/using-custom-actions.md).
+Leren hoe te om douaneacties te gebruiken, verwijs naar deze [ pagina ](../building-journeys/using-custom-actions.md).
 

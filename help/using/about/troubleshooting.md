@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 97%
+source-wordcount: '1075'
+ht-degree: 81%
 
 ---
 
 # Problemen oplossen{#concept_nlv_bcv_2fb}
+
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
+
 
 In deze sectie leert u hoe u problemen met journey’s kunt oplossen voordat u gaat testen of publiceren. Alle hieronder vermelde controles kunnen worden uitgevoerd in de testmodus van de journey of wanneer de journey live is. De aanbeveling is om alle onderstaande controles in de testmodus uit te voeren en vervolgens tot publicatie over te gaan. Zie [deze pagina](../building-journeys/testing-the-journey.md).
 
@@ -29,7 +39,7 @@ Als op het canvas bijvoorbeeld twee activiteiten zijn losgekoppeld, wordt een wa
 
 ![](../assets/canvas-disconnected.png)
 
-Naast de schakeloptie **[!UICONTROL Test]** en de knop **[!UICONTROL Publish]** kan een waarschuwingsteken worden weergegeven. Dit waarschuwingsteken duidt op fouten die door het systeem zijn gedetecteerd en voorkomt activering van de testmodus of publicatie van de journey. Meestal zijn fouten die door het systeem worden gedetecteerd, gekoppeld aan fouten die zichtbaar zijn in de activiteiten, maar soms zijn ze gekoppeld aan andere problemen. In dit geval kunt u de fout weergeven en proberen het probleem te identificeren aan de hand van de foutbeschrijving. Als u het probleem niet kunt identificeren, kunt u de details kopiëren en naar de beheerder of ondersteuning verzenden. Fouten die tests blokkeren en fouten die publicatie blokkeren, lijken op elkaar.
+Naast de schakeloptie **[!UICONTROL Test]** en de knop **[!UICONTROL Publish]** kan een waarschuwingsteken worden weergegeven. Dit waarschuwingsteken duidt op fouten die door het systeem zijn gedetecteerd en voorkomt activering van de testmodus of publicatie van de journey. Meestal zijn fouten die door het systeem worden gedetecteerd, gekoppeld aan fouten die zichtbaar zijn in de activiteiten, maar soms zijn ze gekoppeld aan andere problemen. In dit geval kunt u de fout weergeven en proberen het probleem te identificeren aan de hand van de foutbeschrijving. Als u de kwestie niet kunt identificeren, kunt u de details kopiëren en hen verzenden naar de beheerder of aan steun. Fouten die tests blokkeren en fouten die publicatie blokkeren, lijken op elkaar.
 
 Het systeem detecteert twee soorten problemen: fouten en waarschuwingen. Fouten blokkeren publicatie en testactivering. Waarschuwingen geven mogelijke problemen aan die testactivering of publicatie niet blokkeren. U ziet een beschrijving van het probleem en een probleemlog-id van het type ERR_XXX_XXX. Dit helpt de technische ondersteuning om het probleem te identificeren.
 
@@ -47,9 +57,9 @@ Het startpunt van een journey is altijd een gebeurtenis. U kunt tests uitvoeren 
 
 U kunt controleren of de API-aanroep die u via deze tools verzendt, correct is verzonden of niet. Als een fout wordt geretourneerd, betekent dit dat er een probleem is met uw aanroep. Controleer opnieuw de payload, de koptekst (vooral de organisatie-id) en de bestemmings-URL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar [!DNL Journey Orchestration] gepusht. [!DNL Journey Orchestration] is in feite afhankelijk van streamingopname-API’s van Adobe Experience Platform. Als u problemen hebt met gebeurtenissen, kunt u dus verwijzen naar [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) voor het oplossen van problemen met opname-API&#39;s voor streaming.
+Gebeurtenissen worden niet rechtstreeks van de bron naar [!DNL Journey Orchestration] gepusht. [!DNL Journey Orchestration] is namelijk afhankelijk van Adobe Experience Platform-API&#39;s voor streaming-opname. Dientengevolge, in het geval van gebeurtenis verwante kwesties, kunt u naar [ verwijzen deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) voor het Streamen van opname APIs het oplossen van problemen.
 
-## Controleren of mensen de journey betreden{#section_x4v_zzs_dgb}
+## Controleren of mensen de reis betreden{#section_x4v_zzs_dgb}
 
 Met [!DNL Journey Orchestration]-rapportage wordt de toegang van mensen tot een journey in real time gemeten.
 
@@ -64,12 +74,12 @@ Hier volgen een paar dingen die de beheerder moet controleren:
 * Hebt u de payloadstructuur van de streamingopname-API’s gevolgd en de voorvertoning van de payloadstructuur in het deelvenster voor gebeurtenisconfiguratie gebruikt? Zie [deze pagina](../event/previewing-the-payload.md).
 * Hebt u de juiste sleutel-/waardeparen in de koptekst van de gebeurtenis gebruikt?
 
-   ```
-   X-gw-ims-org-id - your ORGID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your ORGID
+  Content-type - application/json
+  ```
 
-## Controleren hoe mensen door de journey navigeren{#section_l5y_yzs_dgb}
+## Controleren hoe mensen door de reis navigeren{#section_l5y_yzs_dgb}
 
 [!DNL Journey Orchestration]-rapportage meet de voortgang van individuen binnen een journey. Het is gemakkelijk te bepalen waar en waarom een persoon is gestopt.
 
@@ -78,11 +88,11 @@ Controleer bijvoorbeeld het volgende:
 * Komt het door een voorwaarde die de persoon uitsluit? De voorwaarde is bijvoorbeeld ‘geslacht = man’ en de persoon is een vrouw. Deze controle kan door een zakelijke gebruiker worden uitgevoerd als de voorwaarde niet te complex is.
 * Komt het doordat een aanroep aan een databron niet wordt beantwoord? Wanneer de journey in de testmodus verkeert, is deze informatie in testmoduslogboeken te zien. Wanneer de journey live is, kan een beheerder directe aanroepen aan de databron testen en het ontvangen antwoord controleren. Een beheerder kan de journey ook dupliceren en testen.
 
-## Controleren of berichten goed zijn verzonden{#section_qb1_yzs_dgb}
+## Controleren of berichten zijn verzonden{#section_qb1_yzs_dgb}
 
 Als personen de juiste stroom in de journey volgen, maar geen berichten ontvangen die ze wel zouden moeten ontvangen, kunt u het volgende controleren:
 
 * Heeft transactionele berichten correct rekening gehouden met de aanvraag om het bericht te verzenden? Een zakelijke gebruiker heeft toegang tot het transactionele bericht dat moet zijn verzonden, en controleert of de tijd van de meest recente uitvoering overeenkomt met de uitvoeringstijd van uw journey. Deze gebruiker kan tevens de meest recente API-aanroepen/gebeurtenissen controleren die door transactionele berichten zijn ontvangen.
 * Is het bericht goed verzonden door transactionele berichten? In de verzendingslogboeken van transactionele berichten kunt u de status van alle uitvoeringen zien. U kunt zien of deze groen of rood is, en wat het probleem was. Een zakelijke gebruiker kan dit scherm openen en de logboeken naar een beheerder verzenden voor nader onderzoek.
 
-Als een bericht via een aangepaste actie is verzonden, kan tijdens de journeytest alleen worden gecontroleerd of de aanroep van het systeem van de aangepaste actie tot een fout leidt of niet. Als de aanroep naar het externe systeem dat aan de aangepaste actie is gekoppeld, niet tot een fout leidt, maar ook niet tot het verzenden van een bericht, moet er enig onderzoek worden gedaan aan de kant van het externe systeem.
+In het geval van een bericht dat via een douaneactie wordt verzonden, is het enige wat tijdens reistest kan worden gecontroleerd het feit dat de vraag van het systeem van de douaneactie tot een fout of niet leidt. Als de oproep aan het externe systeem dat aan de douaneactie is gekoppeld niet tot een fout leidt maar niet tot het verzenden van een bericht leidt, zouden sommige onderzoeken aan de kant van het externe systeem moeten worden gedaan.

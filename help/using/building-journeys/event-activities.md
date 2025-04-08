@@ -6,16 +6,25 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
-source-git-commit: fca24f7dd0f9170fa209474f270a4c0fb4080c03
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
 
 # Gebeurtenisactiviteiten {#concept_rws_1rt_52b}
 
-De gebeurtenissen die door de technische gebruiker worden gevormd (zie [deze pagina](../event/about-events.md)) worden allemaal weergegeven in de eerste categorie van het palet, links op het scherm.
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
+
+De gebeurtenissen die door de technische gebruiker worden gevormd (zie [ deze pagina ](../event/about-events.md)) allen worden getoond in de eerste categorie van het palet, op de linkerkant van het scherm.
 
 ![](../assets/journey43.png)
 
@@ -23,7 +32,7 @@ Begin altijd uw reis door een gebeurtenisactiviteit te slepen en neer te zetten.
 
 ![](../assets/journey44.png)
 
-Wanneer u op de gebeurtenisactiviteit in het canvas klikt, wordt de ruit van de activiteitenconfiguratie getoond. Wanneer u dezelfde gebeurtenis meerdere keren gebruikt, wordt standaard een verhoogd getal toegevoegd aan de naam van de gebeurtenis op het canvas. Daarnaast kunt u de opdracht **[!UICONTROL Label]** veld om een achtervoegsel toe te voegen aan de naam van de gebeurtenis die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u gebeurtenissen op het canvas wilt identificeren, vooral als u dezelfde gebeurtenis meerdere keren gebruikt. Het zal ook het zuiveren in het geval van fouten gemakkelijker maken en het zal rapporten gemakkelijker te lezen maken.
+Wanneer u op de gebeurtenisactiviteit in het canvas klikt, wordt de ruit van de activiteitenconfiguratie getoond. Wanneer u dezelfde gebeurtenis meerdere keren gebruikt, wordt standaard een verhoogd getal toegevoegd aan de naam van de gebeurtenis op het canvas. Daarnaast kunt u het veld **[!UICONTROL Label]** gebruiken om een achtervoegsel toe te voegen aan de naam van de gebeurtenis die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u gebeurtenissen op het canvas wilt identificeren, vooral als u dezelfde gebeurtenis meerdere keren gebruikt. Het zal ook het zuiveren in het geval van fouten gemakkelijker maken en het zal rapporten gemakkelijker te lezen maken.
 
 ![](../assets/journey33.png)
 
@@ -35,11 +44,11 @@ De reis zal dan aan de gebeurtenis tijdens de tijd luisteren die in de timeout w
 
 Voer de volgende stappen uit om een time-out voor een gebeurtenis te configureren:
 
-1. Activeer **[!UICONTROL Enable the event timeout]** van de eigenschappen van de gebeurtenis.
+1. Activeer de optie **[!UICONTROL Enable the event timeout]** vanuit de eigenschappen van de gebeurtenis.
 
 1. Geef op hoeveel tijd de reis moet wachten op de gebeurtenis.
 
-1. Als u de personen naar een time-outpad wilt sturen wanneer er geen gebeurtenis is ontvangen binnen de opgegeven time-out, schakelt u de optie **[!UICONTROL Set the timeout path]** -optie. Als deze optie niet wordt ingeschakeld, wordt de reis voor de persoon voortgezet zodra de time-out is bereikt.
+1. Schakel de optie **[!UICONTROL Set the timeout path]** in als u de personen naar een time-outpad wilt sturen wanneer er binnen de opgegeven time-out geen gebeurtenis is ontvangen. Als deze optie niet wordt ingeschakeld, wordt de reis voor de persoon voortgezet zodra de time-out is bereikt.
 
    ![](../assets/event-timeout.png)
 
@@ -48,8 +57,8 @@ In dit voorbeeld, verzendt de reis een eerste welkome duw naar een klant. Het ve
 * Als de restaurantgebeurtenis minder dan 1 dag na de welkomstpush wordt ontvangen, wordt de pushactiviteit voor de maaltijdkorting verzonden.
 * Als er de volgende dag geen restaurantgebeurtenis wordt ontvangen, loopt de persoon door het time-outpad.
 
-Merk op dat als u een onderbreking op veelvoudige gebeurtenissen wilt vormen die na een **[!UICONTROL Wait]** activiteit, moet u de onderbreking op één van deze gebeurtenissen slechts vormen.
+Als u een time-out wilt configureren voor meerdere gebeurtenissen die zich na een **[!UICONTROL Wait]** -activiteit bevinden, moet u de time-out alleen configureren voor een van deze gebeurtenissen.
 
-De time-out wordt toegepast op alle gebeurtenissen na de gebeurtenis **[!UICONTROL Wait]** activiteit. Als geen gebeurtenis vóór de gespecificeerde onderbreking wordt ontvangen, zullen de individuen in één enkel onderbreking weg stromen of zullen die reis door de tak voortzetten die de activiteit verlaten waar die onderbrekingsmontages zijn bepaald.
+De time-out wordt toegepast op alle gebeurtenissen na de **[!UICONTROL Wait]** -activiteit. Als geen gebeurtenis vóór de gespecificeerde onderbreking wordt ontvangen, zullen de individuen in één enkel onderbreking weg stromen of zullen die reis door de tak voortzetten die de activiteit verlaten waar die onderbrekingsmontages zijn bepaald.
 
 ![](../assets/event-timeout-group.png)

@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 3856e323569054fac9e73f2a6af2b86518f62ab9
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 93%
+source-wordcount: '1350'
+ht-degree: 87%
 
 ---
 
 # Externe databronnen {#concept_t2s_kqt_52b}
+
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
 
 Met externe databronnen kunt u een verbinding maken met externe systemen, bijvoorbeeld als u een hotelboekingssysteem gebruikt om te controleren of de persoon een kamer heeft besproken. In tegenstelling tot de ingebouwde databron van het Adobe Experience Platform kunt u zoveel externe databronnen maken als u wilt.
 
@@ -53,7 +62,7 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
 
    ![](../assets/journey27.png)
 
-1. Configureer de verificatie volgens de configuratie van de externe service: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** of **[!UICONTROL API key]**. Voor meer informatie over de wijze van de douaneauthentificatie, zie [deze sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb). In ons voorbeeld kiezen we:
+1. Configureer de verificatie volgens de configuratie van de externe service: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** of **[!UICONTROL API key]**. Voor meer informatie over de wijze van de douaneauthentificatie, zie [ deze sectie ](../datasource/external-data-sources.md#section_wjp_nl5_nhb). In ons voorbeeld kiezen we:
 
 
    * **[!UICONTROL Type]**: ‘API-sleutel’
@@ -75,8 +84,8 @@ Voor de parameterreeks ‘long/lat’ maken we een veldengroep met de volgende i
 
 Bij een GET-aanroep die parameter(s) vereist, voert u de parameter(s) in het veld **[!UICONTROL Dynamic Values]** in en worden deze automatisch toegevoegd aan het eind van de aanroep. Bij een POST-aanroep doet u het volgende:
 
-* geef een lijst op van de parameters die op het aanroeptijdstip moeten worden doorgegeven in het veld **[!UICONTROL Dynamic Values]** (in het voorbeeld hieronder: ‘identifier’).
-* geef ze ook volgens precies dezelfde syntaxis op in de hoofdtekst van de verzonden payload. Hiervoor moet u het volgende toevoegen: ‘param’: ‘naam van de parameter’ (in het onderstaande voorbeeld: ‘identifier’). Volg de onderstaande syntaxis:
+* geeft een lijst weer van de parameters die tijdens de aanroep moeten worden doorgegeven in het veld **[!UICONTROL Dynamic Values]** (in het onderstaande voorbeeld: &quot;identifier&quot;).
+* geef ze ook volgens precies dezelfde syntaxis op in de hoofdtekst van de verzonden payload. Hiervoor moet u het volgende toevoegen: &quot;param&quot;: &quot;name of your parameter&quot; (in het onderstaande voorbeeld: &quot;identifier&quot;). Volg de onderstaande syntaxis:
 
   ```
   {"id":{"param":"identifier"}}

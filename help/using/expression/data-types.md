@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 5%
+source-wordcount: '656'
+ht-degree: 3%
 
 ---
 
 # Datatypen {#concept_gp3_rj5_dgb}
+
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
 
 Technisch gesproken bevat een constante altijd een gegevenstype. In de letterlijke expressie geven we alleen de waarde op. Het gegevenstype kan worden afgeleid van de waarde (bijvoorbeeld tekenreeks, geheel getal, decimaal enz.). Voor specifieke gevallen, zoals datumtijd, gebruiken wij specifieke functies voor de vertegenwoordiging.
 
@@ -29,7 +38,7 @@ JSON-indeling: String
 
 Serienummeringsindeling: UTF-8
 
-**Letterlijke representatie**
+**Letterlijke vertegenwoordiging**
 
 ```json
 "<value>"
@@ -55,9 +64,9 @@ Serienummeringsindeling: UTF-8
 
 Gehele waarde van -2^63 tot 2^63-1.
 
-JSON-indeling: Getal
+JSON-indeling: Number
 
-**Letterlijke representatie**
+**Letterlijke vertegenwoordiging**
 
 ```json
 <integer value>
@@ -79,11 +88,11 @@ Decimaal getal. Deze vertegenwoordigt een zwevende waarde:
 * kleinst positieve normale waarde van type double, 2-1022
 * kleinst positieve, niet-nul waarde van type double, 2 p-1074
 
-JSON-indeling: Getal
+JSON-indeling: Number
 
-Serienummeringsindeling: gebruiken &#39;.&#39; als decimaalteken.
+Serienummeringsindeling: gebruiken van &#39;.&#39; als decimaalteken.
 
-**Letterlijke representatie**
+**Letterlijke vertegenwoordiging**
 
 ```json
 <integer value>.<integer value>
@@ -103,7 +112,7 @@ Booleaanse waarde, in kleine letters geschreven: true of false
 
 JSON-indeling: Boolean
 
-**Letterlijke representatie**
+**Letterlijke vertegenwoordiging**
 
 ```json
 true
@@ -127,15 +136,15 @@ Vertegenwoordigt een datum slechts zonder een tijdzone, die als jaar-maand-dag w
 
 Het is een beschrijving van de datum, zoals die voor verjaardagen wordt gebruikt.
 
-JSON-indeling: Tekenreeks.
+JSON-indeling: String.
 
-Indeling is: YYYY-MM-DD (ISO-8601), bijvoorbeeld: &quot;2021-03-11&quot;.
+Formaat is: JJJ-MM-DD (ISO-8601), bijvoorbeeld: &quot;2021-03-11&quot;.
 
 Deze kan worden ingekapseld in een toDateOnly-functie.
 
 Het gebruikt DateTimeFormatter ISO_LOCAL_DATE_TIME om de waarde te deserialiseren en in series te vervaardigen. [Meer informatie](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
-**Letterlijke representatie**
+**Letterlijke vertegenwoordiging**
 
 ```json
 date("<dateOnly in ISO-8601 format>")  
@@ -153,11 +162,11 @@ date("2021-02-19")
 
 Vertegenwoordigt een datumtijd zonder een tijdzone, die als jaar-maand-dag-uur-minuut-seconde-milliseconde wordt bekeken.
 
-JSON-indeling: Tekenreeks.
+JSON-indeling: String.
 
 Er wordt geen tijdzone opgeslagen of weergegeven. In plaats daarvan is het een beschrijving van de datum, zoals die voor verjaardagen wordt gebruikt, gecombineerd met de lokale tijd zoals die op een muurklok wordt gezien.
 
-Het kan geen onmiddellijk op tijdlijn zonder extra informatie zoals een compensatie of tijdzone vertegenwoordigen.
+Het kan geen onmiddellijk op de tijd-lijn zonder extra informatie zoals een compensatie of tijdzone vertegenwoordigen.
 
 Het kan in een toDateTimeOnly functie worden ingekapseld.
 
@@ -165,7 +174,7 @@ Serienummeringsindeling: ISO-8601 extended offset date-time format.
 
 Het gebruikt DateTimeFormatter ISO_LOCAL_DATE_TIME om de waarde te deserialiseren en in series te vervaardigen. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
 
-**Letterlijke representatie**
+**Letterlijke vertegenwoordiging**
 
 ```json
 date("<dateTimeOnly in ISO-8601 format>")  
@@ -186,7 +195,7 @@ Datumtijdconstante die ook rekening houdt met tijdzone. Deze vertegenwoordigt ee
 
 Het kan als onmiddellijk in tijd met de extra informatie van de compensatie worden bekeken. Het is een manier om een specifiek &quot;moment&quot; te vertegenwoordigen op een bepaalde plaats in de wereld.
 
-JSON-indeling: Tekenreeks.
+JSON-indeling: String.
 
 Het kan in een toDateTime functie worden ingekapseld.
 
@@ -196,9 +205,9 @@ Het gebruikt DateTimeFormatter ISO_OFFSET_DATE_TIME om de waarde te deserialiser
 
 U kunt ook een geheel getal doorgeven dat een epochwaarde doorgeeft. [Meer informatie](https://www.epochconverter.com)
 
-De tijdzone kan door een compensatie of een code van de tijdzone worden gespecificeerd (voorbeeld: Europa/Parijs, Z - UTC).
+De tijdzone kan door een compensatie of een tijdzonecode worden gespecificeerd (voorbeeld: Europa/Parijs, Z - betekenend UTC).
 
-**Letterlijke representatie**
+**Letterlijke vertegenwoordiging**
 
 ```json
 toDateTime("<dateTime in ISO-8601 format>")
@@ -250,15 +259,15 @@ Het vertegenwoordigt een tijd-gebaseerde hoeveelheid tijd, zoals &quot;34.5 seco
 
 De ondersteunde tijdseenheden zijn: milliseconden, seconden, minuten, uren, dagen waarbij een dag gelijk is aan 24 uur. Jaren en maanden worden niet ondersteund omdat het geen vaste tijd is.
 
-JSON-indeling: Tekenreeks.
+JSON-indeling: String.
 
 Het moet in een toDuration functie worden ingekapseld.
 
-Serienummeringsindeling: Als u een tijdzone-id wilt deserialiseren, wordt de java-functie java.time gebruikt.
+Serienummeringsindeling: als u een tijdzone-id wilt deserialiseren, wordt de java-functie java.time gebruikt.
 
-Duration.parse: de aanvaarde formaten zijn gebaseerd op de ISO-8601-duurnotatie PnDTnHnMn.nS met dagen die precies 24 uur worden geacht. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse: de toegestane notaties zijn gebaseerd op de ISO-8601-duurnotatie PnDTnHnMn.nS met dagen die worden beschouwd als precies 24 uur. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
-**Letterlijke representatie**
+**Letterlijke vertegenwoordiging**
 
 ```json
 toDuration("<duration in ISO-8601 format>")
@@ -318,7 +327,7 @@ Door komma&#39;s gescheiden lijst met expressies waarbij vierkante haakjes als s
 
 Polymorfisme wordt niet ondersteund en daarom moeten alle uitdrukkingen in de lijst van hetzelfde type zijn.
 
-**Letterlijke representatie**
+**Letterlijke vertegenwoordiging**
 
 ```json
 [<expression>, <expression>, ... ]

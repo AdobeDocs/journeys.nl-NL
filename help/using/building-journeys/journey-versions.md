@@ -6,16 +6,25 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 554d1f60-5d46-4e75-afcb-8209b127c4cd
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 2%
+source-wordcount: '288'
+ht-degree: 1%
 
 ---
 
 # Journeyversies{#concept_ldc_k55_zgb}
 
-In de reislijst, worden alle reisversies getoond met het versieaantal. Zie [deze pagina](../building-journeys/using-the-journey-designer.md). Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat de toepassing wordt geopend boven aan de lijst. Vervolgens kunt u de gewenste sortering definiëren en wordt deze door de toepassing als gebruikervoorkeur behouden. De versie van de reis wordt ook weergegeven boven aan de interface van de reiseditie, boven het canvas.
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
+
+In de reislijst, worden alle reisversies getoond met het versieaantal. Zie [ deze pagina ](../building-journeys/using-the-journey-designer.md). Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat de toepassing wordt geopend boven aan de lijst. Vervolgens kunt u de gewenste sortering definiëren en wordt deze door de toepassing als gebruikervoorkeur behouden. De versie van de reis wordt ook weergegeven boven aan de interface van de reiseditie, boven het canvas.
 
 ![](../assets/journeyversions1.png)
 
@@ -23,9 +32,9 @@ Als u zich aan een levende reis moet aanpassen, moet u een nieuwe versie van uw 
 
 >[!NOTE]
 >
->Voor meer informatie over beperkingen van reisversies raadpleegt u [deze pagina](../about/limitations.md#journey-versions-limitations)
+>Meer op de beperkingen van de reisversies leren, zie [ deze pagina ](../about/limitations.md#journey-versions-limitations)
 
-1. Open de nieuwste versie van uw livereis en klik op **[!UICONTROL Create a new version]** en bevestigen.
+1. Open de meest recente versie van uw livereis, klik op **[!UICONTROL Create a new version]** en bevestig deze.
 
    ![](../assets/journeyversions2.png)
 
@@ -33,7 +42,7 @@ Als u zich aan een levende reis moet aanpassen, moet u een nieuwe versie van uw 
    >
    >U kunt alleen een nieuwe versie maken van de meest recente versie van een reis.
 
-1. Breng de gewenste wijzigingen aan en klik op **[!UICONTROL Publish]** en bevestigen.
+1. Breng uw wijzigingen aan, klik op **[!UICONTROL Publish]** en bevestig de selectie.
 
    ![](../assets/journeyversions3.png)
 
@@ -43,4 +52,4 @@ Reisversies kunnen afzonderlijk worden gestopt. Alle versies van reizen hebben d
 
 >[!NOTE]
 >
->Wanneer u een nieuwe versie van een reis publiceert, automatisch beëindigt de vorige versie en schakelt naar **Gesloten** status. Er zal geen toegang tot de reis plaatsvinden. Zelfs als u de laatste versie stopt, blijft de vorige versie gesloten.
+>Wanneer u een nieuwe versie van een reis publiceert, beëindigt de vorige versie automatisch en schakelt aan de **Gesloten** status. Er zal geen toegang tot de reis plaatsvinden. Zelfs als u de laatste versie stopt, blijft de vorige versie gesloten.

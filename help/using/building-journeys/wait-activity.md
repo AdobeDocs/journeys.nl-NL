@@ -6,20 +6,30 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 5%
+source-wordcount: '412'
+ht-degree: 3%
 
 ---
 
 # Wachtactiviteit{#section_rlm_nft_dgb}
 
-Als u wilt wachten voordat u de volgende activiteit in het pad uitvoert, kunt u een **[!UICONTROL Wait]** activiteit. Hiermee kunt u bepalen wanneer de volgende activiteit wordt uitgevoerd. Er zijn drie opties beschikbaar:
 
-* [Duur](#duration)
-* [Aangepast](#custom)
-   <!--* [Email send time optimization](#email_send_time_optimization)-->
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
+
+
+Als u wilt wachten voordat u de volgende activiteit in het pad uitvoert, kunt u een **[!UICONTROL Wait]** activiteit gebruiken. Hiermee kunt u bepalen wanneer de volgende activiteit wordt uitgevoerd. Er zijn drie opties beschikbaar:
+
+* [ Duur ](#duration)
+* [ Douane ](#custom)
+  <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Informatie over de activiteit Wachten{#about_wait}
 
@@ -31,9 +41,9 @@ Houd er ook rekening mee dat als twee verschillende wachttijden parallel lopen, 
 >
 >De maximale wachttijd is 30 dagen.
 >
->In de testmodus **[!UICONTROL Wait time in test]** parameter staat u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [deze pagina](../building-journeys/testing-the-journey.md)
+>In de testmodus kunt u met de parameter **[!UICONTROL Wait time in test]** de tijd definiëren waarop elke wachtactiviteit wordt uitgevoerd. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [ deze pagina ](../building-journeys/testing-the-journey.md)
 
-## Wachttijd duur{#duration}
+## Wachten op duur{#duration}
 
 Selecteer de duur van de wachttijd voordat de volgende activiteit wordt uitgevoerd.
 
@@ -41,13 +51,13 @@ Selecteer de duur van de wachttijd voordat de volgende activiteit wordt uitgevoe
 
 ## Aangepast wachten{#custom}
 
-Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 2020 om 17.00 uur, met een geavanceerde expressie die is gebaseerd op een veld dat afkomstig is van een gebeurtenis of gegevensbron. U kunt hiermee geen aangepaste duur definiëren, bijvoorbeeld 7 dagen. De expressie in de expressie-editor moet een dateTimeOnly-indeling hebben. Zie [deze pagina](../expression/expressionadvanced.md). Voor meer informatie over de DateTimeOnly-indeling raadpleegt u [deze pagina](../expression/data-types.md).
+Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 2020 om 17.00 uur, met een geavanceerde expressie die is gebaseerd op een veld dat afkomstig is van een gebeurtenis of gegevensbron. U kunt hiermee geen aangepaste duur definiëren, bijvoorbeeld 7 dagen. De expressie in de expressie-editor moet een dateTimeOnly-indeling hebben. Zie [ deze pagina ](../expression/expressionadvanced.md). Voor meer informatie over dateTimeOnly formaat, zie [ deze pagina ](../expression/data-types.md).
 
 >[!NOTE]
 >
->U kunt een dateTimeOnly-expressie gebruiken of een functie gebruiken om om te zetten in een dateTimeOnly. Bijvoorbeeld: toDateTimeOnly(@{Event.biedOpened.activity.endTime}), waarbij het veld in de gebeurtenis de vorm 2016-08-12T09 heeft:46:06Z.
+>U kunt een dateTimeOnly-expressie gebruiken of een functie gebruiken om om te zetten in een dateTimeOnly. Bijvoorbeeld: toDateTimeOnly (@{Event.offerOpened.activity.endTime}), het gebied in de gebeurtenis die van vorm 2016-08-12T09 :46: 06Z is.
 >
->De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, is het vandaag van de interface niet mogelijk om bij volledig ISO-8601 timestamp het mengen tijd en tijdzonecompensatie zoals 2016-08-12T09 direct te richten:46:06.982-05. Zie [deze pagina](../building-journeys/timezone-management.md).
+>De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, is het niet mogelijk vandaag van de interface om bij volledige tijdstempel te richten ISO-8601 die tijd en tijdzone zoals 2016-08-12T09 :46: 06.982-05 mengen. Zie [deze pagina](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
@@ -57,7 +67,7 @@ Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 202
 >
 >The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
-This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
+This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you'll be notified that the default time applies.
 
 >[!NOTE]
 >

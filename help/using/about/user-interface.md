@@ -6,24 +6,27 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 59%
+source-wordcount: '944'
+ht-degree: 51%
 
 ---
 
 # Gebruikersinterface{#concept_rcq_lqt_52b}
 
->[!NOTE]
->
->We raden u aan Chrome als uw internetbrowser te gebruiken om het beste uit [!DNL Journey Orchestration] te halen. De interface wordt weergegeven in de taal die is gedefinieerd in IMS. Als uw IMS-taal niet door [!DNL Journey Orchestration] wordt ondersteund, wordt de interface weergegeven in het Engels.
->
->Deze documentatie wordt regelmatig aangepast aan recente wijzigingen in het product. Sommige screenshots kunnen echter iets afwijken van de interface van het product.
 
-## Toegang tot [!DNL Journey Orchestration]{#accessing_journey_orchestration}
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
 
-Als u toegang wilt krijgen tot [!DNL Journey Orchestration]s interface, klik **[!UICONTROL App Selector]** in de rechterbovenhoek, en klik vervolgens op **[!UICONTROL Journey Orchestration]**.
+
+## Toegang tot het [!DNL Journey Orchestration]{#accessing_journey_orchestration}
+
+Als u de interface van [!DNL Journey Orchestration] wilt openen, klikt u op het pictogram **[!UICONTROL App Selector]** rechtsboven en vervolgens op **[!UICONTROL Journey Orchestration]** .
 
 ![](../assets/journey1.png)
 
@@ -55,7 +58,7 @@ U kunt het dialoogvenster **[!UICONTROL Filters]** openen door te klikken op het
 
 Gebruik in de lijsten **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]** de **[!UICONTROL Creation filters]** om te filteren op de datum waarop en de gebruiker door wie een element is gemaakt. U kunt bijvoorbeeld besluiten alleen gebeurtenissen weer te geven die u in de afgelopen 30 dagen hebt gemaakt.
 
-In de reislijst (onder **[!UICONTROL Home]**, naast de **[!UICONTROL Creation filters]** kunt u de weergegeven reizen ook filteren op basis van hun status, type en versie (**[!UICONTROL Status and version filters]**). Het type kan zijn: **[!UICONTROL Unitary event]** of **[!UICONTROL Segment qualification]**. U kunt er ook voor kiezen om alleen de journey’s weer te geven die een bepaalde gebeurtenis, veldengroep of actie (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**) gebruiken. Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of gebruiker selecteren. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live journey’s weer te geven die gisteren zijn gepubliceerd. Zie [deze pagina](../building-journeys/using-the-journey-designer.md).
+In de reislijst (onder **[!UICONTROL Home]**) kunt u, naast **[!UICONTROL Creation filters]**, ook de weergegeven reizen filteren op basis van hun status, type en versie (**[!UICONTROL Status and version filters]**). Het type kan zijn: **[!UICONTROL Unitary event]** of **[!UICONTROL Segment qualification]** . U kunt er ook voor kiezen om alleen de journey’s weer te geven die een bepaalde gebeurtenis, veldengroep of actie (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**) gebruiken. Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of gebruiker selecteren. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live journey’s weer te geven die gisteren zijn gepubliceerd. Zie [deze pagina](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -77,7 +80,7 @@ In de verschillende lijsten kunt u standaardacties op elk element uitvoeren. U k
 
 Bij het definiëren van een [gebeurtenispayload](../event/defining-the-payload-fields.md), een [veldengroep-payload](../datasource/field-groups.md) en het selecteren van velden in de [expressie-editor](../expression/expressionadvanced.md) wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt opgehaald uit de schemadefinitie in het Gegevenservaringmodel.
 
-Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met eVars en generieke velden. U kunt beschrijvende namen configureren via een API-aanroep. Zie de [ontwikkelaarshandleiding voor schemaregistratie](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) voor meer informatie.
+Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en generieke velden. U kunt beschrijvingen van vriendschappelijke namen configureren via een API-aanroep. Zie de [ontwikkelaarshandleiding voor schemaregistratie](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) voor meer informatie.
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -95,7 +98,7 @@ De toegankelijkheidsfuncties in Adobe Journey Optimizer worden geleverd door Ado
 * Kleurcontrast
 * Validatie van vereiste velden
 
-[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"} in Adobe Experience Platform documentatie.
+[ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"} in de documentatie van Adobe Experience Platform.
 
 U kunt de volgende algemene sneltoetsen gebruiken in Adobe Journey Optimizer:
 
@@ -107,7 +110,7 @@ U kunt de volgende algemene sneltoetsen gebruiken in Adobe Journey Optimizer:
 | Een element dat de focus heeft selecteren of wissen | Enter of spatiebalk |
 | Een selectie annuleren, een deelvenster samenvouwen of een dialoogvenster sluiten | Esc |
 
-[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"} in Adobe Experience Platform documentatie.
+[ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"} in de documentatie van Adobe Experience Platform.
 
 U kunt deze sneltoetsen gebruiken in specifieke delen van Journey Optimizer:
 
@@ -131,7 +134,7 @@ U kunt deze sneltoetsen gebruiken in specifieke delen van Journey Optimizer:
   </tr>
   <tr>
     <td>Alle activiteiten selecteren</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>CTRL + A (Vensters) <br/> Bevel + A (Mac)</td>
   </tr>
   <tr>
     <td>Geselecteerde activiteiten verwijderen</td>
@@ -173,7 +176,7 @@ Configuratievenster van deze elementen:
   <tr>
     <td>
 
-Een gebeurtenis activeren in een op segmenten gebaseerde reis waarvoor de **[!UICONTROL Single profile at a time]** optie is ingeschakeld
+Een gebeurtenis activeren in een op segmenten gebaseerde rit waarvoor de optie **[!UICONTROL Single profile at a time]** is ingeschakeld
 
 </td>
     <td>P</td>
@@ -192,7 +195,7 @@ Een gebeurtenis activeren in een op segmenten gebaseerde reis waarvoor de **[!UI
   <tr>
     <td>Tekstveld</td>
     <td>Alle tekst in het geselecteerde veld selecteren</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>CTRL + A (Vensters) <br/> Bevel + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Pop-upvenster</td>
@@ -216,6 +219,6 @@ Een gebeurtenis activeren in een op segmenten gebaseerde reis waarvoor de **[!UI
   <tr>
     <td>Payloadvoorbeeld</td>
     <td>Selecteer de lading</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>CTRL + A (Vensters) <br/> Bevel + A (Mac)</td>
   </tr>
 </table>

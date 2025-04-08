@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 2%
+source-wordcount: '535'
+ht-degree: 1%
 
 ---
 
 # Geavanceerde expressievoorbeelden
+
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
 
 De Geavanceerde uitdrukkingsredacteur kan worden gebruikt om voorwaarden tot stand te brengen om u toe te staan om gebruikers in uw reizen te filtreren. Met deze voorwaarden kunt u zich richten op gebruikers op tijd, datum, locatie, duur of acties zoals het kopen of verlaten van winkelwagentjes, zodat ze tijdens de reis opnieuw op de doelgroep kunnen worden geplaatst.
 
@@ -32,15 +41,15 @@ De ervaringsgebeurtenissen worden uit de Adobe Experience Platform opgehaald als
 
 Bijvoorbeeld, laten wij zeggen u klanten met een kartontroeping in de laatste 7 dagen wilt richten om een bericht te verzenden wanneer de klant dichtbij een opslag, met een aanbieding op punten komt die zij gewild hebben die in opslag zijn.
 
-**U moet de volgende voorwaarden bouwen:**
+**u moet de volgende voorwaarden bouwen:**
 
 Ten eerste doelklanten die in de online winkel hebben gebladerd maar de bestelling de laatste 7 dagen niet hebben voltooid.
 
 <!--**This expression looks for a specified value in a string value:**
 
-`In (“addToCart”, #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`-->
 
-**Deze expressie zoekt naar alle gebeurtenissen voor deze gebruiker die in de laatste 7 dagen zijn opgegeven:**
+**Deze uitdrukking zoekt alle gebeurtenissen voor deze gebruiker die in de laatste 7 dagen wordt gespecificeerd:**
 
 Vervolgens worden alle addtocart-gebeurtenissen geselecteerd die niet zijn omgezet in een completePurchase.
 
@@ -70,7 +79,7 @@ De opgegeven tijdstempel fungeert als datumtijdwaarde en de tweede als aantal da
 
 Deze expressie retourneert een Booleaanse waarde.
 
-**Laten we nu een expressie maken die controleert of het product in voorraad is**
+**nu bouwen een uitdrukking die controleert dat het product in voorraad** is
 
 * In Inventory, zoekt deze uitdrukking naar kwantitatief gebied van een product en specificeert dat het groter zou moeten zijn dan 0.
 
@@ -80,25 +89,25 @@ Deze expressie retourneert een Booleaanse waarde.
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* En specificeer SKU, gebruikend de functie `first` om de meest recente &quot;addToCart&quot;interactie terug te winnen:
+* En geef SKU op door de functie `first` te gebruiken om de meest recente interactie &quot;addToCart&quot; op te halen:
 
-   ```json
-       #{ExperiencePlatformDataSource
-                       .ExperienceEventFieldGroup
-                       .experienceevent
-                       .first(
-                       currentDataPackField
-                       .productData
-                       .productInteraction == "addToCart"
-                       )
-                       .SKU}
-   ```
+  ```json
+      #{ExperiencePlatformDataSource
+                      .ExperienceEventFieldGroup
+                      .experienceevent
+                      .first(
+                      currentDataPackField
+                      .productData
+                      .productInteraction == "addToCart"
+                      )
+                      .SKU}
+  ```
 
 Vanaf dat punt kunt u een ander pad in uw reis toevoegen voor wanneer het product niet in voorraad is en meldingen verzenden met een serviceaanbieding. Vorm dienovereenkomstig berichten en gebruik verpersoonlijkingsgegevens om het berichtdoel te verbeteren.
 
 ## Voorbeelden van tekenreeksbewerkingen met de geavanceerde expressie-editor
 
-**In omstandigheden**
+**In voorwaarden**
 
 Met deze voorwaarde worden alleen de geofence-gebeurtenissen opgehaald die worden geactiveerd in &quot;Arlington&quot;:
 
@@ -110,9 +119,9 @@ Met deze voorwaarde worden alleen de geofence-gebeurtenissen opgehaald die worde
                     .name} == "Arlington"
 ```
 
-Uitleg: Dit is een strikte tekenreeksvergelijking (hoofdlettergevoelig), gelijk aan een query in de eenvoudige modus die gebruikmaakt van `equal to` with `Is sensitive` ingeschakeld.
+Uitleg: dit is een strikte tekenreeksvergelijking (hoofdlettergevoelig), gelijk aan een query in de eenvoudige modus die `equal to` gebruikt met `Is sensitive` checked.
 
-Dezelfde query met `Is sensitive` unselected zal de volgende uitdrukking op geavanceerde wijze produceren:
+Dezelfde query met `Is sensitive` uncheck genereert de volgende expressie in de geavanceerde modus:
 
 ```json
         equalIgnoreCase(@{GeofenceEntry
@@ -122,7 +131,7 @@ Dezelfde query met `Is sensitive` unselected zal de volgende uitdrukking op geav
                         .name}, "Arlington")
 ```
 
-**In handelingen**
+**in acties**
 
 De volgende uitdrukking staat u toe om identiteitskaart van CRM in een gebied van de actieverpersoonlijking te bepalen:
 
@@ -143,6 +152,6 @@ substr(
 )
 ```
 
-Uitleg: Dit voorbeeld gebruikt `substr` en `lastIndexOf` functies om accolades te verwijderen die de CRM-id omsluiten die is doorgegeven met een mobiele startgebeurtenis.
+Uitleg: in dit voorbeeld worden `substr` - en `lastIndexOf` -functies gebruikt om accolades te verwijderen die de CRM-id omsluiten die is doorgegeven met een mobiele startgebeurtenis van de app.
 
-Voor meer informatie over het gebruik van de geavanceerde expressieeditor bekijkt u [deze video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Voor meer op hoe te om de geavanceerde uitdrukkingsredacteur te gebruiken, let op [ deze video ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).

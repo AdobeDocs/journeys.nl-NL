@@ -6,16 +6,25 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: a0b6ab595bc16a75aa5a56a858900418e2381ab9
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 7%
+source-wordcount: '504'
+ht-degree: 5%
 
 ---
 
 # Operatoren {#concept_wd5_pj5_dgb}
 
-Er zijn twee soorten operatoren: unaire operatoren en binaire operatoren. Er zijn linkerhand unaire operatoren en rechterhand unaire operatoren.
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
+
+Er zijn twee soorten exploitanten: unaire exploitanten en binaire exploitanten. Er zijn linkerhand unaire operatoren en rechterhand unaire operatoren.
 
 ```json
     // left-hand unary operators
@@ -34,7 +43,7 @@ Er zijn twee soorten operatoren: unaire operatoren en binaire operatoren. Er zij
 
 ## Belangrijke opmerkingen{#important-notes}
 
-* Bij gebruik van een vermenigvuldiging (`*`), moeten beide bewerkingsvelden hetzelfde type hebben, geheel getal of decimaal. Voorbeeld :
+* Wanneer het gebruiken van een vermenigvuldiging (`*`), moeten beide verrichtingsgebieden het zelfde type, of geheel of decimaal hebben. Voorbeeld:
    * het volgende voorbeeld is correct: `3.0 * 4.0`
    * `3 * 4.0` leidt tot een fout
 
@@ -46,7 +55,7 @@ Er zijn twee soorten operatoren: unaire operatoren en binaire operatoren. Er zij
 <expression1> and <expression2>
 ```
 
-Beide &lt;expression1> en &lt;expression2> moet Booleaans zijn. Het resultaat is booleaans.
+Zowel &lt;expression1> als &lt;expression2> moeten booleaans zijn. Het resultaat is booleaans.
 
 Voorbeeld:
 
@@ -62,7 +71,7 @@ Voorbeeld:
 <expression1> or <expression2>
 ```
 
-Beide &lt;expression1> en &lt;expression2> moet Booleaans zijn. Het resultaat is booleaans.
+Zowel &lt;expression1> als &lt;expression2> moeten booleaans zijn. Het resultaat is booleaans.
 
 Voorbeeld:
 
@@ -78,7 +87,7 @@ Voorbeeld:
 not <expression>
 ```
 
-&lt;expression> moet Booleaans zijn. Het resultaat is booleaans.
+&lt;expression> moet Boolean zijn. Het resultaat is booleaans.
 
 Voorbeeld:
 
@@ -154,7 +163,7 @@ Voorbeeld:
 <expression1> == <expression2>
 ```
 
-Beide &lt;expression1> en &lt;expression2> moet hetzelfde gegevenstype hebben. Het resultaat is booleaans.
+Zowel &lt;expression1> als &lt;expression2> moeten het zelfde gegevenstype hebben. Het resultaat is booleaans.
 
 Voorbeeld:
 
@@ -174,7 +183,7 @@ Voorbeeld:
 <expression1> != <expression2>
 ```
 
-Beide &lt;expression1> en &lt;expression2> moet hetzelfde gegevenstype hebben. Het resultaat is booleaans.
+Zowel &lt;expression1> als &lt;expression2> moeten het zelfde gegevenstype hebben. Het resultaat is booleaans.
 
 Voorbeeld:
 
@@ -376,7 +385,7 @@ Voorbeeld:
 3 % 2 -- returns 1.
 ```
 
-## Wiskunde {#math}
+## Math {#math}
 
 ### is numeriek
 
@@ -426,7 +435,7 @@ Voorbeeld:
 @ is decimal
 ```
 
-## Tekenreeks {#string}
+## String {#string}
 
 ### +
 

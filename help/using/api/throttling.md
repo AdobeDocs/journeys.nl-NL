@@ -7,14 +7,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
-source-git-commit: 7b8c9d2bfe244b040a9064a7a240ea6f43cc8b41
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 95%
+source-wordcount: '791'
+ht-degree: 91%
 
 ---
 
 # Werken met de beperkings-API
+
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
 
 De Throttling API helpt u om uw throttling configuraties tot stand te brengen, te vormen en te controleren om het aantal gebeurtenissen te beperken die per seconde worden verzonden.
 

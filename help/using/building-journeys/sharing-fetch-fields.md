@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 4%
+source-wordcount: '422'
+ht-degree: 3%
 
 ---
 
 # Velden voor het ophalen van gegevens van journeyStep-gebeurtenissen {#sharing-fetch-fields}
+
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
 
 Deze mixin wordt gedeeld door de tripStepEvent en tripStepProfileEvent.
 
@@ -29,7 +38,7 @@ Type: lang
 
 Definieert of de fout Ophalen in zich op de Adobe Experience Platform of op een aangepaste gegevensbron bevindt.
 
-Type: string
+Type: tekenreeks
 
 Waarden:
 * aep
@@ -39,26 +48,26 @@ Waarden:
 
 Type fout dat gebeurt wanneer de gegevens worden opgehaald verwerkt.
 
-Type: string
+Type: tekenreeks
 
 Waarden:
 * http
 * begrenzen
 * timedout
-* error
+* fout
 
 ## fetchErrorCode
 
 Code voor ophalen fout. Wordt weergegeven als de fout een code heeft, zoals een HTTP-code. Wanneer actionExecError bijvoorbeeld http is, vertegenwoordigt code 404 de HTTP 404-fout.
 
-Type: string
+Type: tekenreeks
 
 ## fetchOriginError
 
 Een time-out kan in twee gevallen optreden:
 
-* bij de eerste poging wordt de handeling uitgevoerd. In dit geval is de uitvoering niet voltooid en is er geen onderliggende fout
-* bij een nieuwe poging: in dit geval, beschrijft actionExecOrigError/actionExecOrigErrorCode de fout die op de poging alvorens wordt ontmoet opnieuw.
+* bij de eerste poging wordt de handeling uitgevoerd. In dit geval is de uitvoering niet voltooid, dus is er geen onderliggende fout
+* voor een nieuwe poging: in dit geval beschrijft actionExecOrigError/actionExecOrigErrorCode de fout die bij de poging vóór het opnieuw proberen wordt ontmoet.
 
 Bijvoorbeeld, worden de gegevens gehaald van de Verenigde Dienst van het Profiel en HTTP 500 fout is teruggekeerd bij de eerste poging. De fetch wordt opnieuw geprobeerd, maar de duur van de 2 pogingen overschrijdt de onderbreking. Vervolgens wordt de uitvoering van de handeling gecodeerd als een time-out. Het actieonderdeel ziet er als volgt uit:
 
@@ -71,13 +80,13 @@ Bijvoorbeeld, worden de gegevens gehaald van de Verenigde Dienst van het Profiel
     "fetchOrigErrorCode": "500"
 ```
 
-Type: string
+Type: tekenreeks
 
 ## fetchOriginErrorCode
 
 De foutcode van het systeem [!DNL Journey Orchestration] vraagt. Het kan bijvoorbeeld een 404, 500, enzovoort zijn.
 
-Type: string
+Type: tekenreeks
 
 ## fetchCount
 
@@ -87,7 +96,7 @@ Type: lang
 
 ## fetchPlatformTotalTime
 
-De totale hoeveelheid tijd die nodig is om de gegevens van Adobe Experience Platform op te halen in millis. Opmerking: deze hoeveelheid tijd wordt berekend vanaf het tijdstip waarop de motor de verrijkingsgebeurtenis naar de verrijkingsdienst verzendt en de reactie ontvangt .
+De totale hoeveelheid tijd die nodig is om de gegevens van Adobe Experience Platform op te halen in millis. Opmerking: deze hoeveelheid tijd wordt berekend vanaf het tijdstip waarop de motor het verrijkingsevenement naar de verrijkingsdienst verzendt en de reactie ontvangt.
 
 Type: lang
 

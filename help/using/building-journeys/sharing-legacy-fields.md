@@ -6,14 +6,23 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c3667870-4aa5-4693-b6b7-ef2a3de8658e
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 50%
+source-wordcount: '91'
+ht-degree: 25%
 
 ---
 
 # Oudere velden {#sharing-legacy-fields}
+
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
 
 Deze categorie bevat de oorspronkelijke velden voor stapgebeurtenissen. Deze velden maken deel uit van de volgende veldgroepen:
 

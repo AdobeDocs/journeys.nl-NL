@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
-source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 91%
+source-wordcount: '902'
+ht-degree: 85%
 
 ---
 
 # Journey samenstellen {#concept_owm_kdy_w2b}
+
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
 
 De **bedrijfsgebruiker** kan nu de journey bouwen. Onze journey bevat de volgende activiteiten:
 
@@ -27,7 +36,7 @@ De **bedrijfsgebruiker** kan nu de journey bouwen. Onze journey bevat de volgend
 >
 >De **[!UICONTROL Push]**- en **[!UICONTROL Email]**-activiteiten zijn alleen beschikbaar in het palet als u Adobe Campaign Standard hebt.
 
-Voor meer informatie over hoe u een reis kunt maken, raadpleegt u [deze pagina](../building-journeys/journey.md).
+Voor extra informatie over hoe te om een reis te bouwen, verwijs naar [ deze pagina ](../building-journeys/journey.md).
 
 ## Eerste stappen{#section_ntb_ws1_ffb}
 
@@ -77,7 +86,7 @@ Voor meer informatie over hoe u een reis kunt maken, raadpleegt u [deze pagina](
    >
    >In het tweede deel van de expressie is ‘Profiel’ optioneel.
 
-1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Voor meer informatie over naamruimten raadpleegt u [deze pagina](../event/selecting-the-namespace.md).
+1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Voor meer informatie over namespaces, zie [ deze pagina ](../event/selecting-the-namespace.md).
 
 In ons gebruiksscenario willen we alleen reageren op deze twee voorwaarden, dus we schakelen het selectievakje **[!UICONTROL Show path for other cases than the one(s) above]** niet in.
 
@@ -88,7 +97,7 @@ Na uw voorwaarde worden twee paden gemaakt:
 
 ![](../assets/journeyuc2_16.png)
 
-## Eerste pad: de klant is een loyaliteitslid {#section_otb_ws1_ffb}
+## Eerste weg: de klant is een loyaliteitslid {#section_otb_ws1_ffb}
 
 1. In het eerste pad voegen we een voorwaarde toe om te controleren of de klant een reservering heeft. Sleep een voorwaardeactiviteit en zet deze neer in uw journey.
 
@@ -102,7 +111,7 @@ Na uw voorwaarde worden twee paden gemaakt:
 
    ![](../assets/journeyuc2_18.png)
 
-1. Wanneer u een gebied van een externe gegevensbron selecteert, toont het juiste deel van het scherm de lijst van parameters die toen het vormen van de externe gegevensbron werden bepaald (zie [deze pagina](../usecase/configuring-the-data-sources.md)). Klik op de parameternaam en definieer de waarde van de sleutel van het reserveringssysteem, de Experience Cloud-ID, in ons voorbeeld:
+1. Wanneer u een gebied van een externe gegevensbron selecteert, toont het juiste deel van het scherm de lijst van parameters die toen het vormen van de externe gegevensbron (zie [ deze pagina ](../usecase/configuring-the-data-sources.md)) werden bepaald. Klik op de parameternaam en definieer de waarde van de sleutel van het reserveringssysteem, de Experience Cloud-ID, in ons voorbeeld:
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -130,9 +139,9 @@ Na uw voorwaarde worden twee paden gemaakt:
    * **[!UICONTROL Push platform]**: selecteer het platform: **[!UICONTROL Apple Push Notification Server]** (Apple) of **[!UICONTROL Firebase Cloud Messaging]** (Android).
    * **[!UICONTROL Registration token]**: voeg de volgende uitdrukking toe (op basis van de geconfigureerde gebeurtenis) met de geavanceerde modus:
 
-      ```
-      @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
-      ```
+     ```
+     @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+     ```
 
 1. Definieer de velden voor het personaliseren van pushmeldingen. In ons voorbeeld: voornaam en achternaam.
 
@@ -168,7 +177,7 @@ Na uw voorwaarde worden twee paden gemaakt:
 
 1. Voeg een **[!UICONTROL End]**-activiteit toe.
 
-Klik op de **[!UICONTROL Test]**-schakeloptie en test uw journey. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Raadpleeg voor meer informatie over de testmodus [deze pagina](../building-journeys/testing-the-journey.md).
+Klik op de **[!UICONTROL Test]**-schakeloptie en test uw journey. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Voor meer informatie over de testwijze, verwijs naar [ deze pagina ](../building-journeys/testing-the-journey.md).
 
 ![](../assets/journeyuc2_32bis.png)
 

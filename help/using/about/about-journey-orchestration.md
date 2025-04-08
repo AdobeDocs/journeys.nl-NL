@@ -6,20 +6,27 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 89%
 
 ---
 
 # Informatie over [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
+
 Stel real-timegebruiksscenario’s voor orkestratie samen aan de hand van contextuele data die zijn opgeslagen in gebeurtenissen of databronnen.
 
 [!DNL Journey Orchestration] is een applicatieservice die met het Adobe Experience Platform is geïntegreerd.
-
-![](../assets/journeydiagram.png)
 
 Met [!DNL Journey Orchestration] is real-timeorkestratie mogelijk aan de hand van contextuele data van gebeurtenissen, informatie van het Adobe Experience Platform of data van externe API-services. U kunt een aangepaste actie configureren als u een extern systeem gebruikt om uw berichten te verzenden. Als u Adobe Campaign Standard hebt, kunt u e-mails, pushberichten en sms-berichten verzenden met de [functies voor transactionele berichten](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl) van Adobe Campaign Standard.
 

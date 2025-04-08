@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 4%
+source-wordcount: '456'
+ht-degree: 2%
 
 ---
 
 # Geavanceerde gebruiksscenario&#39;s{#concept_vzy_ncy_w2b}
+
+
+>[!CAUTION]
+>
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>
+>
+>_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+
 
 ## Doel {#purpose}
 
@@ -36,23 +45,23 @@ Vervolgens controleren we twee voorwaarden:
 
 ![](../assets/journeyuc2_29.png)
 
-Voor dit gebruik moeten we twee gebeurtenissen maken (zie [deze pagina](../usecase/configuring-the-events.md)):
+Voor dit gebruiksgeval, zullen wij twee gebeurtenissen moeten tot stand brengen (zie [ deze pagina ](../usecase/configuring-the-events.md)):
 
 * De lobby-gebeurtenis die naar het systeem wordt geduwd wanneer een klant het hotel binnenkomt.
 * De bakengebeurtenis van het restaurant die zal worden geduwd wanneer een klant het restaurant ingaat.
 
-Wij zullen een verbinding aan twee gegevensbronnen moeten vormen (zie [deze pagina](../usecase/configuring-the-data-sources.md)):
+Wij zullen een verbinding aan twee gegevensbronnen (zie [ moeten vormen deze pagina ](../usecase/configuring-the-data-sources.md)):
 
 * De ingebouwde gegevensbron van Adobe Experience Platform, om de informatie voor onze twee voorwaarden (loyaliteitslidmaatschap en laatste contactdatum) evenals de informatie van de berichtverpersoonlijking terug te winnen.
 * Het hotelreserveringssysteem om de informatie over de reserveringsstatus op te halen.
 
 ## Voorwaarden {#prerequisites}
 
-Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Zie dit [page](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl).
+Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl).
 
 Adobe Campaign Standard is geconfigureerd voor het verzenden van e-mails en pushberichten.
 
-De Experience Cloud-id wordt gebruikt als sleutel om de klant in het reserveringssysteem voor hotels te identificeren.
+De Experience Cloud-id wordt gebruikt als sleutel voor de identificatie van de klant in het reserveringssysteem voor hotels.
 
 De gebeurtenissen worden verzonden van de mobiele telefoon van de klanten wanneer zij dichtbij een baken ontdekten. U moet een mobiele toepassing ontwerpen om gebeurtenissen van de mobiele telefoon van de klant naar de mobiele SDK te verzenden.
 
