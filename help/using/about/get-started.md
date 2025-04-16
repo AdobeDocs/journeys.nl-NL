@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: Aan de slag
-description: Ontdek de belangrijkste stappen om Journey Orchestration in te stellen en uw eerste journey te maken.
+description: Ontdek de belangrijkste stappen om Journey Orchestration in te stellen en uw eerste traject te maken.
 feature: Journeys
 role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 87%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**Op zoek naar Adobe Journey Optimizer**? Klik [hier](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
->_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+>_Deze documentatie verwijst naar verouderde materialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
 
 
 

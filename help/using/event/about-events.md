@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 81%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**Op zoek naar Adobe Journey Optimizer**? Klik [hier](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
->_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+>_Deze documentatie verwijst naar verouderde materialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
 
 
 
@@ -30,7 +30,7 @@ ht-degree: 81%
 >title="Informatie over gebeurtenissen"
 >abstract="Een gebeurtenis is gekoppeld aan een persoon en Dit betreft het gedrag van een persoon of iets dat met een persoon is gekoppeld. Dit is waar [!DNL Journey Orchestration] op let tijdens journey’s om vervolgens de beste acties te orkestreren."
 
-Een gebeurtenis is gekoppeld aan een persoon en Het heeft betrekking op het gedrag van een persoon (bijvoorbeeld een persoon heeft een product gekocht, een winkel bezocht, een website verlaten, enz.) of iets wat met een persoon in verband staat (bijvoorbeeld een persoon heeft 10 000 loyaliteitspunten bereikt). Dit is waar [!DNL Journey Orchestration] op let tijdens journey’s om vervolgens de beste acties te orkestreren.
+Een gebeurtenis is gekoppeld aan een persoon en Dit heeft betrekking op het gedrag van een persoon (een persoon heeft voorbeeld een product gekocht, een winkel bezocht, een website verlaten, enz.) of iets wat met een persoon in verband staat (een persoon heeft bijvoorbeeld 10.000 loyaliteitspunten bereikt). Dit is waar [!DNL Journey Orchestration] op let tijdens journey’s om vervolgens de beste acties te orkestreren.
 
 Deze configuratie is **verplicht**, aangezien [!DNL Journey Orchestration] is ontworpen om naar gebeurtenissen te luisteren, en wordt altijd uitgevoerd door een **technische gebruiker**.
 

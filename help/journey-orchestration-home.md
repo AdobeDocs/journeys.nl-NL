@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 9fb1f031df4084b78cfca8a693098a36bfb51435
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 78%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home) {target="_blank"} voor de documentatie van Journey Optimizer.
+>**Op zoek naar Adobe Journey Optimizer**? Klik [hier](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
->_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+>_Deze documentatie verwijst naar verouderde materialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
 
 
 ## Aan de slag
