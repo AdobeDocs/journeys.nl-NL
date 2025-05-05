@@ -18,7 +18,7 @@ ht-degree: 51%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -80,7 +80,7 @@ In de verschillende lijsten kunt u standaardacties op elk element uitvoeren. U k
 
 Bij het definiëren van een [gebeurtenispayload](../event/defining-the-payload-fields.md), een [veldengroep-payload](../datasource/field-groups.md) en het selecteren van velden in de [expressie-editor](../expression/expressionadvanced.md) wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt opgehaald uit de schemadefinitie in het Gegevenservaringmodel.
 
-Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en generieke velden. U kunt beschrijvingen van vriendschappelijke namen configureren via een API-aanroep. Zie de [ontwikkelaarshandleiding voor schemaregistratie](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) voor meer informatie.
+Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en generieke velden. U kunt beschrijvingen van vriendschappelijke namen configureren via een API-aanroep. Zie de [ontwikkelaarshandleiding voor schemaregistratie](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=nl-NL) voor meer informatie.
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -98,7 +98,7 @@ De toegankelijkheidsfuncties in Adobe Journey Optimizer worden geleverd door Ado
 * Kleurcontrast
 * Validatie van vereiste velden
 
-[ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"} in de documentatie van Adobe Experience Platform.
+[ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=nl-NL){target="_blank"} in de documentatie van Adobe Experience Platform.
 
 U kunt de volgende algemene sneltoetsen gebruiken in Adobe Journey Optimizer:
 
@@ -110,7 +110,7 @@ U kunt de volgende algemene sneltoetsen gebruiken in Adobe Journey Optimizer:
 | Een element dat de focus heeft selecteren of wissen | Enter of spatiebalk |
 | Een selectie annuleren, een deelvenster samenvouwen of een dialoogvenster sluiten | Esc |
 
-[ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"} in de documentatie van Adobe Experience Platform.
+[ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=nl-NL){target="_blank"} in de documentatie van Adobe Experience Platform.
 
 U kunt deze sneltoetsen gebruiken in specifieke delen van Journey Optimizer:
 

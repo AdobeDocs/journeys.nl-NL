@@ -18,19 +18,19 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
 
 
-U kunt of een segment tot stand brengen gebruikend de [ Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) of u kunt tot hen toegang hebben en direct tot stand brengen in [!DNL Journey Orchestration].
+U kunt of een segment tot stand brengen gebruikend de [ Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL) of u kunt tot hen toegang hebben en direct tot stand brengen in [!DNL Journey Orchestration].
 
 1. Klik in het bovenste menu op het tabblad **[!UICONTROL Segments]**. De lijst met Adobe Experience Platform-segmenten wordt weergegeven. U kunt naar een specifiek segment in de lijst zoeken.
 
    ![](../assets/segment1.png)
 
-1. Klik op **[!UICONTROL Add]** om een nieuw segment te maken. Het scherm van de segmentdefinitie staat u toe om alle vereiste gebieden te vormen om uw segment te bepalen. De configuratie is het zelfde als in de Dienst van de Segmentatie. Verwijs naar de [ gebruikersgids van de Bouwer van het Segment ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+1. Klik op **[!UICONTROL Add]** om een nieuw segment te maken. Het scherm van de segmentdefinitie staat u toe om alle vereiste gebieden te vormen om uw segment te bepalen. De configuratie is het zelfde als in de Dienst van de Segmentatie. Verwijs naar de [ gebruikersgids van de Bouwer van het Segment ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL).
 
    ![](../assets/segment2.png)
 

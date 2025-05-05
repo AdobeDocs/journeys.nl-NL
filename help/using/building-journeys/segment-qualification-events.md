@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -64,7 +64,7 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
    >[!NOTE]
    >
-   >Merk op dat **[!UICONTROL Enter]** en **[!UICONTROL Exit]** aan de **gerealiseerde** beantwoorden en **Uitgegeven** de status van de segmentparticipatie van Adobe Experience Platform. Voor meer op hoe te om een segment te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >Merk op dat **[!UICONTROL Enter]** en **[!UICONTROL Exit]** aan de **gerealiseerde** beantwoorden en **Uitgegeven** de status van de segmentparticipatie van Adobe Experience Platform. Voor meer op hoe te om een segment te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results).
 
 1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst.
 
@@ -100,7 +100,7 @@ Als het batchsegment nieuw wordt gemaakt en onmiddellijk wordt gebruikt in een r
 
 Wanneer het gebruiken van segmentkwalificatie voor gestroomde segmenten, is er minder risico om grote pieken van ingangen/uitgangen te krijgen toe te schrijven aan de ononderbroken evaluatie van het segment. Maar als de segmentdefinitie ertoe leidt dat een groot aantal klanten tegelijkertijd in aanmerking komt, kan er ook een piek zijn.
 
-Voor meer informatie bij het stromen segmentatie, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+Voor meer informatie bij het stromen segmentatie, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=nl-NL#api)
 
 ### Overbelasting voorkomen{#overloads-speed-segment-qualification}
 

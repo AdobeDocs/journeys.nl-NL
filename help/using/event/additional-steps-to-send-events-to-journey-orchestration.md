@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -101,4 +101,4 @@ Hier volgt een voorbeeld van een gebeurtenis Streaming ingestie-API&#39;s:
 
 Om de identificatie van de plaats te vergemakkelijken waar te om het &quot;gegevens&quot;deel te kleven, kunt u een JSON visualization hulpmiddel zoals [ https://jsonformatter.curiousconcept.com ](https://jsonformatter.curiousconcept.com) gebruiken
 
-Om het stromen Ingestie APIs problemen op te lossen, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
+Om het stromen Ingestie APIs problemen op te lossen, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=nl-NL).

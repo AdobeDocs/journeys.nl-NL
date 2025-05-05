@@ -30,16 +30,16 @@ Voor het testen en voorbereiden van uw integratie is een Postman-collectie besch
 
 We raden u aan deze stappen te volgen om uw reizen te exporteren en te importeren in verschillende omgevingen:
 
-1. Maak en parameter een reis in uw beginomgeving. [Meer informatie hier](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
-1. Controleer of de reisversie geen fout bevat. [Meer informatie hier](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
+1. Maak en parameter een reis in uw beginomgeving. [Meer informatie hier](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=nl-NL)
+1. Controleer of de reisversie geen fout bevat. [Meer informatie hier](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=nl-NL)
 1. Bellen **/lijst/reizen** API om de reis van UID en UID van uw recentste reisversie terug te winnen. Indien nodig, kunt u roepen **/trajecten/`{uid}`/last** om de UID van uw meest recente reisversie te vinden.
 1. Roep de **export** API met de parameters van uw beginomgeving (orgID en sandboxName).
 1. Open de geretourneerde lading en controleer vervolgens de volgende items:
    * Als uw geëxporteerde transport **specifieke referenties**, moet u deze geloofsbrieven met die vervangen die aan het nieuwe milieu beantwoorden.
-   * Als uw geëxporteerde transport **gebeurtenissen** dat een **XDM-schema**, moet u de verwijzing van schemaidentiteitskaart met schemaidentiteitskaart van het nieuwe milieu in de xdmEntiteitsknoop manueel bijwerken als IDs waarden verschillend zijn. Deze update moet voor elke gebeurtenis worden uitgevoerd. [Meer informatie hier](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
+   * Als uw geëxporteerde transport **gebeurtenissen** dat een **XDM-schema**, moet u de verwijzing van schemaidentiteitskaart met schemaidentiteitskaart van het nieuwe milieu in de xdmEntiteitsknoop manueel bijwerken als IDs waarden verschillend zijn. Deze update moet voor elke gebeurtenis worden uitgevoerd. [Meer informatie hier](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=nl-NL)
    * Als uw reis e-mail, sms of duw acties bevat, kunt u de malplaatjenaam of de naam moeten bijwerken mobileApp als de naam in het doelmilieu van verschillend is dan die in uw beginmilieu.
 1. Roep de **Importeren** API met de parameters van uw doelomgeving (orgID en sandboxName). Let erop dat u de import-API zo vaak kunt aanroepen als u wilt. De UUID en de naam van elk voorwerp in de reis worden geproduceerd telkens als u de invoer API roept.
-1. Nadat u de Reis hebt geïmporteerd, kunt u deze publiceren in de toepassing Journey Orchestration. Meer informatie [hier](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
+1. Nadat u de Reis hebt geïmporteerd, kunt u deze publiceren in de toepassing Journey Orchestration. Meer informatie [hier](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=nl-NL)
 
 
 ## Authentificatie
@@ -57,7 +57,7 @@ API-toegang voor Journeys Orchestration wordt ingesteld via de onderstaande stap
 
 >[!CAUTION]
 >
->De JWT-methode voor het genereren van toegangstokens is afgekeurd. Alle nieuwe integraties moeten worden gecreëerd met de [OAuth Server-aan-Server authentificatiemethode](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). De Adobe adviseert ook dat u uw bestaande integraties aan de methode OAuth migreert.
+>De JWT-methode voor het genereren van toegangstokens is afgekeurd. Alle nieuwe integraties moeten worden gecreëerd met de [OAuth Server-aan-Server authentificatiemethode](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=nl-NL#select-oauth-server-to-server). De Adobe adviseert ook dat u uw bestaande integraties aan de methode OAuth migreert.
 >
 >Lees de volgende belangrijke documentatie:
 >[Migratiehandleiding voor uw toepassingen van JWT naar OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),

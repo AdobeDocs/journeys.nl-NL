@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
 
 
-Als u de [ Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) gebruikt om uw segmenten tot stand te brengen, kunt u hefboomwerking hen in [!DNL Journey Orchestration]. Dankzij een toegewijde gebeurtenisactiviteit kunt u ervoor zorgen dat individuen op basis van Adobe Experience Platform-segmentingangen en -uitgangen een reis maken of vooruit gaan. Hierdoor kunt u ook complexe omstandigheden maken tijdens uw reizen met behulp van de eenvoudige of geavanceerde expressieeditor.
+Als u de [ Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL) gebruikt om uw segmenten tot stand te brengen, kunt u hefboomwerking hen in [!DNL Journey Orchestration]. Dankzij een toegewijde gebeurtenisactiviteit kunt u ervoor zorgen dat individuen op basis van Adobe Experience Platform-segmentingangen en -uitgangen een reis maken of vooruit gaan. Hierdoor kunt u ook complexe omstandigheden maken tijdens uw reizen met behulp van de eenvoudige of geavanceerde expressieeditor.
 
 Laten we zeggen dat je een &quot;zilveren klant&quot;-segment hebt. Met deze activiteit, kunt u alle nieuwe zilveren klanten een reis maken en hen een reeks gepersonaliseerde berichten verzenden. U kunt ook eenvoudig voorwaarden bouwen die op dit segment worden gebaseerd.
 

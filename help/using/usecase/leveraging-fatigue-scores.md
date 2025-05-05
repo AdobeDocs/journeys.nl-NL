@@ -16,7 +16,7 @@ Met deze gebruiksaanwijzing kunt u de vermoeidheidsscores benutten om te voorkom
 
 >[!NOTE]
 >
->De functie voor voorspellende vermoeidheidsscore is alleen beschikbaar voor klanten die de functie [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
+>De functie voor voorspellende vermoeidheidsscore is alleen beschikbaar voor klanten die de functie [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=nl-NL).
 
 ## De gebeurtenis configureren {#section_ptb_ws1_ffb}
 

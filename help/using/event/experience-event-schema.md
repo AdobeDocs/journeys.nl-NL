@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -79,7 +79,7 @@ Hier volgt het aankoopschema met de relatie die is gedefinieerd in het veld prod
 
 >[!NOTE]
 >
->Leer meer op schemaverhoudingen in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>Leer meer op schemaverhoudingen in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=nl-NL).
 
 In Journey Orchestration kunt u vervolgens alle velden uit de gekoppelde tabellen benutten:
 

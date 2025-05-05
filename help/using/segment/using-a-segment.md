@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -41,6 +41,6 @@ Voer de volgende stappen uit om een segment te gebruiken in een reisvoorwaarde:
 
    >[!NOTE]
    >
-   >Slechts zullen de individuen met de **Geleide** en **Bestaande** status van de segmentparticipatie als leden van het segment worden beschouwd. Voor meer op hoe te om een segment te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >Slechts zullen de individuen met de **Geleide** en **Bestaande** status van de segmentparticipatie als leden van het segment worden beschouwd. Voor meer op hoe te om een segment te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results).
 
 Voor meer informatie over reisvoorwaarden en hoe te om de eenvoudige uitdrukkingsredacteur te gebruiken, verwijs naar [ activiteit van de Voorwaarde ](../building-journeys/condition-activity.md#about_condition).

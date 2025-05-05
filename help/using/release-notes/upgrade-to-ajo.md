@@ -23,7 +23,7 @@ Journey Orchestration is een service die is gebaseerd op Adobe Experience Platfo
 
 ## Waarom zou ik naar Adobe Journey Optimizer verhuizen?
 
-**Toegang tot een gestroomlijnde interface** met de mogelijkheden van het Experience Platform, die snel toegang geven tot reizen, datasets, profielen, alarmering en meer. Geen behoefte om zich tussen Adobe Experience Platform en Journey Orchestration meer aan toegangsschema&#39;s of datasets terug te doen, is alles direct beschikbaar bij Adobe Journey Optimizer. Raadpleeg deze voor meer informatie [page](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html).
+**Toegang tot een gestroomlijnde interface** met de mogelijkheden van het Experience Platform, die snel toegang geven tot reizen, datasets, profielen, alarmering en meer. Geen behoefte om zich tussen Adobe Experience Platform en Journey Orchestration meer aan toegangsschema&#39;s of datasets terug te doen, is alles direct beschikbaar bij Adobe Journey Optimizer. Raadpleeg deze voor meer informatie [page](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html?lang=nl-NL).
 
 <table>
 <tr>
@@ -96,6 +96,6 @@ Door naar Adobe Journey Optimizer te verhuizen, kunt u nog steeds gebruikmaken v
 
 Vanwege de werking van de rapportstack van Adobe Journey Optimizer worden de gegevens van Journey en Campaign Standard echter niet gecombineerd. Reisgegevens zijn beschikbaar in Adobe Journey Optimizer-rapporten en leveringsinformatie in Adobe Campaign Standard. Er kan een configuratie van Experience Platform worden gemaakt om Adobe Campaign Standard-gegevens terug te brengen naar Adobe Experience Platform en beschikbaar te maken voor Customer Journey Analytics ([Meer informatie](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)) of andere rapportagetools van derden, zoals Tableau of PowerBI.
 
-Adobe Journey Optimizer-rapporten werken het best als Adobe Journey Optimizer communicatiemogelijkheden buiten de box gebruikt (beschikbaar in speciale Adobe Journey Optimizer-aanbiedingen). Voor meer informatie over hoe de Berichten in het reiscanvas kunnen worden geschreven, verwijs naar dit [page](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html).
+Adobe Journey Optimizer-rapporten werken het best als Adobe Journey Optimizer communicatiemogelijkheden buiten de box gebruikt (beschikbaar in speciale Adobe Journey Optimizer-aanbiedingen). Voor meer informatie over hoe de Berichten in het reiscanvas kunnen worden geschreven, verwijs naar dit [page](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html?lang=nl-NL).
 
 Neem contact op met uw accountteam voor meer informatie.

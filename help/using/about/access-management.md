@@ -18,7 +18,7 @@ ht-degree: 82%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -34,7 +34,7 @@ Ze kunnen worden beheerd door beheerders die toegang hebben tot de Admin Console
 Voor toegang tot [!DNL Journey Orchestration]moet een gebruiker:
 
 * deel van een [!DNL Journey Orchestration]-**[!UICONTROL product profile]** zijn dat is gekoppeld aan [!DNL Journey Orchestration]-toestemmingen.
-* deel van een [!DNL Adobe Experience Platform]-**[!UICONTROL product profile]** zijn. Er is geen verplichte toestemming. De gebruiker heeft de **[!UICONTROL profile management]**-toestemming nodig om platformsegmenten te maken en te bewerken vanuit de [!DNL Journey Orchestration]-interface. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console) voor meer informatie.
+* deel van een [!DNL Adobe Experience Platform]-**[!UICONTROL product profile]** zijn. Er is geen verplichte toestemming. De gebruiker heeft de **[!UICONTROL profile management]**-toestemming nodig om platformsegmenten te maken en te bewerken vanuit de [!DNL Journey Orchestration]-interface. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=nl-NL#adobe-admin-console) voor meer informatie.
 
 In Admin Console kunt u een van de volgende out-of-the-box productprofielen aan uw gebruikers toewijzen:
 
@@ -77,7 +77,7 @@ Hieronder ziet u de compatibiliteit tussen toestemmingen en de verschillende fun
 
 Met [!DNL Journey Orchestration] kunt u zelf productprofielen maken en een reeks toestemmingen en sandboxen aan uw gebruikers toewijzen. Met productprofielen kunt u toegang tot bepaalde functies of objecten in de interface toestaan of weigeren.
 
-Raadpleeg de [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) voor informatie over het maken en beheren van sandboxen.
+Raadpleeg de [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=nl-NL) voor informatie over het maken en beheren van sandboxen.
 
 Een productprofiel maken en een reeks toestemmingen en sandboxen toewijzen:
 
@@ -151,6 +151,6 @@ In [!DNL Journey Orchestration] kunt u uw instantie partitioneren in afzonderlij
 Sandboxen worden toegewezen via productprofielen in Admin Console. Raadpleeg deze [sectie](../about/access-management.md#create-product-profile)voor meer informatie over het toewijzen van sandboxen.
 
 [!DNL Journey Orchestration] weerspiegelt de Adobe Experience Platform-sandboxen die voor een bepaalde organisatie zijn gemaakt.
-U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe Experience Platform-instantie. Raadpleeg de [gebruikershandleiding voor sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) voor gedetailleerde informatie.
+U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe Experience Platform-instantie. Raadpleeg de [gebruikershandleiding voor sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=nl-NL) voor gedetailleerde informatie.
 
 U vindt de schakelfunctie voor sandboxen linksboven in het scherm. Als u van sandbox wilt wisselen, klikt u op de momenteel actieve sandbox in de schakelfunctie en selecteert u een andere sandbox in de vervolgkeuzelijst.
