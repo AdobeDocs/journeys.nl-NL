@@ -39,7 +39,7 @@ U kunt een tijdzone selecteren of de tijdzone gebruiken die is gedefinieerd in h
 
 >[!NOTE]
 >
->De streek van de profieltijd werkt met het **timeZone** gebied bestaand in de **3} gebiedsgroep van de Details van de Voorkeur {.**
+>De streek van de profieltijd werkt met het **timeZone** gebied bestaand in de **3&rbrace; gebiedsgroep van de Details van de Voorkeur &lbrace;.**
 
 ## Een vaste tijdzone definiëren {#fixed-timezone}
 

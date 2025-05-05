@@ -42,7 +42,7 @@ Dit zijn de belangrijkste stappen voor het configureren van een nieuwe gebeurten
 
    ![](../assets/journey6bis.png)
 
-   * **Op regels gebaseerde** gebeurtenissen: dit type gebeurtenis genereert geen eventID. Op het **gebied van identiteitskaart van de Gebeurtenis 0}, bepaalt u eenvoudig een regel die door het systeem zal worden gebruikt om de relevante gebeurtenissen te identificeren die uw reizen zullen teweegbrengen.** Deze regel kan zijn gebaseerd op elk veld dat beschikbaar is in de gebeurtenispayload, bijvoorbeeld de locatie van het profiel of het aantal items dat is toegevoegd aan de winkelwagen van het profiel.
+   * **Op regels gebaseerde** gebeurtenissen: dit type gebeurtenis genereert geen eventID. Op het **gebied van identiteitskaart van de Gebeurtenis 0&rbrace;, bepaalt u eenvoudig een regel die door het systeem zal worden gebruikt om de relevante gebeurtenissen te identificeren die uw reizen zullen teweegbrengen.** Deze regel kan zijn gebaseerd op elk veld dat beschikbaar is in de gebeurtenispayload, bijvoorbeeld de locatie van het profiel of het aantal items dat is toegevoegd aan de winkelwagen van het profiel.
 
    * **systeem-geproduceerde** gebeurtenissen: dit type vereist een eventID. Dit veld eventID wordt automatisch gegenereerd wanneer de gebeurtenis wordt gemaakt en toegevoegd aan de voorvertoning van de laadbewerking. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten overgaan beschikbaar in de voorproef van de lading. Zie [deze sectie](../event/previewing-the-payload.md).
 

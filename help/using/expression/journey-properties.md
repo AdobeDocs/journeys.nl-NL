@@ -24,7 +24,7 @@ ht-degree: 0%
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
 
 
-In de geavanceerde uitdrukkingsredacteur, zult u de **categorie van de Eigenschappen van de Reis van 0} vinden, onder de gebeurtenis en gegevensbroncategorieën.** Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen.
+In de geavanceerde uitdrukkingsredacteur, zult u de **categorie van de Eigenschappen van de Reis van 0&rbrace; vinden, onder de gebeurtenis en gegevensbroncategorieën.** Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen.
 
 >[!NOTE]
 >

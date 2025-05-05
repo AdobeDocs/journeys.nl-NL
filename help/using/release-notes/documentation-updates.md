@@ -22,7 +22,7 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 
 ## Juli 2022 {#july-2022}
 
-* In de reiseigenschappen, wordt de **optie van de Tijdzone van het 0} Profiel {nu onbruikbaar gemaakt door gebrek.** [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)
+* In de reiseigenschappen, wordt de **optie van de Tijdzone van het 0&rbrace; Profiel &lbrace;nu onbruikbaar gemaakt door gebrek.** [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)
 * In **wacht** activiteit, is de **Vaste datum** optie niet meer beschikbaar. [Meer informatie](../building-journeys/wait-activity.md)
 
 ## Juni 2022 {#june-2022}
