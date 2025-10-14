@@ -18,7 +18,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -28,7 +28,7 @@ Deze stap wordt uitgevoerd door de **bedrijfsgebruiker**. Hier maak je je reizen
 
 Met de interface voor reizen kunt u activiteiten van het palet gemakkelijk naar het canvas slepen. U kunt ook dubbelklikken op een activiteit om deze in het canvas toe te voegen bij de volgende beschikbare stap. Elke activiteit heeft een specifieke rol en plaats in het proces. De activiteiten worden gesequenceerd. Wanneer een activiteit wordt gebeëindigd, gaat de stroom verder en verwerkt de volgende activiteit, etc.
 
-Per reis is slechts één naamruimte toegestaan. Wanneer u de eerste gebeurtenis neerzet, worden gebeurtenissen met verschillende naamruimten grijs weergegeven. Als de eerste gebeurtenis geen naamruimte heeft, worden alle gebeurtenissen met een naamruimte grijs weergegeven. Zie [ deze pagina ](../event/selecting-the-namespace.md). Bovendien worden Adobe Experience Platform-veldgroepen grijs weergegeven als de rit gebeurtenissen zonder naamruimte bevat. En tot slot, als u verscheidene gebeurtenissen in de zelfde reis gebruikt, moeten zij zelfde namespace gebruiken.
+Per reis is slechts één naamruimte toegestaan. Wanneer u de eerste gebeurtenis neerzet, worden gebeurtenissen met verschillende naamruimten grijs weergegeven. Als de eerste gebeurtenis geen naamruimte heeft, worden alle gebeurtenissen met een naamruimte grijs weergegeven. Zie [&#x200B; deze pagina &#x200B;](../event/selecting-the-namespace.md). Bovendien worden Adobe Experience Platform-veldgroepen grijs weergegeven als de rit gebeurtenissen zonder naamruimte bevat. En tot slot, als u verscheidene gebeurtenissen in de zelfde reis gebruikt, moeten zij zelfde namespace gebruiken.
 
 Bij het starten van een nieuwe rit worden elementen die niet op het canvas kunnen worden neergezet als de eerste stap, verborgen. Dit heeft betrekking op alle handelingen, de activiteit van de aandoening, de wachttijd en de reactie.
 
@@ -38,7 +38,7 @@ Hier volgen de belangrijkste stappen voor het maken en publiceren van een reis.
 
 1. Klik in het bovenste menu op het tabblad **[!UICONTROL Home]**.
 
-   De lijst met reizen wordt weergegeven. Verwijs naar [ deze pagina ](../building-journeys/using-the-journey-designer.md) voor meer informatie over de interface.
+   De lijst met reizen wordt weergegeven. Verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/using-the-journey-designer.md) voor meer informatie over de interface.
 
    ![](../assets/journey30.png)
 
@@ -54,11 +54,11 @@ Hier volgen de belangrijkste stappen voor het maken en publiceren van een reis.
 
    ![](../assets/journey33.png)
 
-1. Sleep en zet uw andere activiteiten neer en vorm hen. Verwijs naar de pagina&#39;s [ activiteiten van de Gebeurtenis ](../building-journeys/event-activities.md), [ Ongeveer orchestratieactiviteiten ](../building-journeys/about-orchestration-activities.md) en [ Ongeveer actieactiviteiten ](../building-journeys/about-action-activities.md).
+1. Sleep en zet uw andere activiteiten neer en vorm hen. Verwijs naar de pagina&#39;s [&#x200B; activiteiten van de Gebeurtenis &#x200B;](../building-journeys/event-activities.md), [&#x200B; Ongeveer orchestratieactiviteiten &#x200B;](../building-journeys/about-orchestration-activities.md) en [&#x200B; Ongeveer actieactiviteiten &#x200B;](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. Uw reis wordt automatisch bewaard. Test uw reis en publiceer deze. Zie [ het testen van de reis ](../building-journeys/testing-the-journey.md) en [ het Publiceren van de reis ](../building-journeys/publishing-the-journey.md).
+1. Uw reis wordt automatisch bewaard. Test uw reis en publiceer deze. Zie [&#x200B; het testen van de reis &#x200B;](../building-journeys/testing-the-journey.md) en [&#x200B; het Publiceren van de reis &#x200B;](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
@@ -76,8 +76,8 @@ Een reis kan om de volgende redenen worden gesloten:
 * De reis wordt manueel gesloten via de **[!UICONTROL Close to new entrances]** knoop.
 * De einddatum van de reis is bereikt.
 
-Wanneer een reis wordt gesloten (om een van de bovenstaande redenen), heeft deze de status **[!UICONTROL Closed]** . De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken. Na standaard globale onderbreking van 30 dagen, zal de reis aan de **Voltooide** status schakelen. Zie deze [ sectie ](../building-journeys/changing-properties.md#entrance).
+Wanneer een reis wordt gesloten (om een van de bovenstaande redenen), heeft deze de status **[!UICONTROL Closed]** . De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken. Na standaard globale onderbreking van 30 dagen, zal de reis aan de **Voltooide** status schakelen. Zie deze [&#x200B; sectie &#x200B;](../building-journeys/changing-properties.md#entrance).
 
 Als u de voortgang van alle mensen op de reis moet stoppen, kunt u deze stoppen. Als de reis wordt stopgezet, wordt een time-out voor alle personen op de reis vastgesteld.
 
-Leren hoe te om een reis manueel te sluiten of tegen te houden, verwijs naar deze [ sectie ](../building-journeys/terminating-a-journey.md).
+Leren hoe te om een reis manueel te sluiten of tegen te houden, verwijs naar deze [&#x200B; sectie &#x200B;](../building-journeys/terminating-a-journey.md).

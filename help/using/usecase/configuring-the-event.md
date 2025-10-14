@@ -18,7 +18,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 In ons scenario, moeten wij een gebeurtenis ontvangen telkens als een persoon dichtbij een baken loopt dat naast de spanwijdte wordt geplaatst. De **technische gebruiker** moet de gebeurtenis vormen het systeem aan in onze reis zal luisteren.
 
-Voor extra informatie over gebeurtenisconfiguratie, verwijs naar [ deze pagina ](../event/about-events.md).
+Voor extra informatie over gebeurtenisconfiguratie, verwijs naar [&#x200B; deze pagina &#x200B;](../event/about-events.md).
 
 1. Klik in het bovenste menu op de tab **[!UICONTROL Events]** en klik op **[!UICONTROL Add]** om een nieuwe gebeurtenis te maken.
 
@@ -44,7 +44,7 @@ Voor extra informatie over gebeurtenisconfiguratie, verwijs naar [ deze pagina ]
    >
    >De lijst met velden verschilt per schema. Volgens de schemadefinitie zijn sommige velden mogelijk verplicht en vooraf geselecteerd.
 
-1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Voor meer informatie over namespaces, zie [ deze pagina ](../event/selecting-the-namespace.md).
+1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Voor meer informatie over namespaces, zie [&#x200B; deze pagina &#x200B;](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc1_6.png)
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -79,13 +79,13 @@ Hier volgt het aankoopschema met de relatie die is gedefinieerd in het veld prod
 
 >[!NOTE]
 >
->Leer meer op schemaverhoudingen in de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=nl-NL).
+>Leer meer op schemaverhoudingen in de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=nl-NL).
 
 In Journey Orchestration kunt u vervolgens alle velden uit de gekoppelde tabellen benutten:
 
-* wanneer het vormen van een eenheidsgebeurtenis, [ las meer ](../event/experience-event-schema.md#unitary_event_configuration)
-* wanneer het gebruiken van voorwaarden in een reis, [ las meer ](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* in de verpersoonlijking van de douaneactie, [ las meer ](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* wanneer het vormen van een eenheidsgebeurtenis, [&#x200B; las meer &#x200B;](../event/experience-event-schema.md#unitary_event_configuration)
+* wanneer het gebruiken van voorwaarden in een reis, [&#x200B; las meer &#x200B;](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* in de verpersoonlijking van de douaneactie, [&#x200B; las meer &#x200B;](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### Configuratie van eenheidsgebeurtenissen{#unitary_event_configuration}
 
@@ -101,7 +101,7 @@ De gekoppelde velden zijn niet beschikbaar:
 * in de sleutelformule voor gebeurtenissen
 * in event id condition (op regel gebaseerde gebeurtenissen)
 
-Leren hoe te om een eenheidsgebeurtenis te vormen, verwijs naar deze [ pagina ](../event/about-creating.md).
+Leren hoe te om een eenheidsgebeurtenis te vormen, verwijs naar deze [&#x200B; pagina &#x200B;](../event/about-creating.md).
 
 ### Reisomstandigheden met gebeurteniscontext{#journey_conditions_using_event_context}
 
@@ -111,7 +111,7 @@ Voeg een voorwaarde toe in een reis, geef de uitdrukking uit en ontvouw de gebeu
 
 ![](../assets/schema12.png)
 
-Leren hoe te om reisvoorwaarden te bepalen, verwijs naar deze [ pagina ](../building-journeys/condition-activity.md).
+Leren hoe te om reisvoorwaarden te bepalen, verwijs naar deze [&#x200B; pagina &#x200B;](../building-journeys/condition-activity.md).
 
 ### Aanpassing van handelingen met context van reisgebeurtenissen{#custom_action_personalization_with_journey_event_context}
 
@@ -119,5 +119,5 @@ De verbonden gebieden zijn beschikbaar wanneer het vormen van de actieparameters
 
 ![](../assets/schema13.png)
 
-Leren hoe te om douaneacties te gebruiken, verwijs naar deze [ pagina ](../building-journeys/using-custom-actions.md).
+Leren hoe te om douaneacties te gebruiken, verwijs naar deze [&#x200B; pagina &#x200B;](../building-journeys/using-custom-actions.md).
 

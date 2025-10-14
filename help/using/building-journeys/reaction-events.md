@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -31,7 +31,7 @@ U kunt dit mechanisme ook gebruiken om een actie uit te voeren wanneer er geen r
 
 Let op: u kunt alleen reactieactiviteiten op het canvas gebruiken als er al eerder een e-mail-, push- of SMS-activiteit is.
 
-Zie [ Ongeveer actieactiviteiten ](../building-journeys/about-action-activities.md).
+Zie [&#x200B; Ongeveer actieactiviteiten &#x200B;](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey45.png)
 
@@ -48,7 +48,7 @@ Hier volgen de verschillende stappen voor het configureren van reactiegebeurteni
 >
 >Reactiegebeurtenissen kunnen geen e-mail-, SMS- of pushacties bijhouden die op een andere reis plaatsvinden.
 >
->De gebeurtenisspoor van de reactie klikt op verbindingen van het type &quot;bijgehouden&quot; (zie deze [ pagina ](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=nl-NL#about-tracked-urls)). Er wordt geen rekening gehouden met abonnements- en spiegelpaginakoppelingen.
+>De gebeurtenisspoor van de reactie klikt op verbindingen van het type &quot;bijgehouden&quot; (zie deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=nl-NL#about-tracked-urls)). Er wordt geen rekening gehouden met abonnements- en spiegelpaginakoppelingen.
 
 >[!IMPORTANT]
 >

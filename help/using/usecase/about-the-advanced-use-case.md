@@ -18,7 +18,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -45,19 +45,19 @@ Vervolgens controleren we twee voorwaarden:
 
 ![](../assets/journeyuc2_29.png)
 
-Voor dit gebruiksgeval, zullen wij twee gebeurtenissen moeten tot stand brengen (zie [ deze pagina ](../usecase/configuring-the-events.md)):
+Voor dit gebruiksgeval, zullen wij twee gebeurtenissen moeten tot stand brengen (zie [&#x200B; deze pagina &#x200B;](../usecase/configuring-the-events.md)):
 
 * De lobby-gebeurtenis die naar het systeem wordt geduwd wanneer een klant het hotel binnenkomt.
 * De bakengebeurtenis van het restaurant die zal worden geduwd wanneer een klant het restaurant ingaat.
 
-Wij zullen een verbinding aan twee gegevensbronnen (zie [ moeten vormen deze pagina ](../usecase/configuring-the-data-sources.md)):
+Wij zullen een verbinding aan twee gegevensbronnen (zie [&#x200B; moeten vormen deze pagina &#x200B;](../usecase/configuring-the-data-sources.md)):
 
 * De ingebouwde gegevensbron van Adobe Experience Platform, om de informatie voor onze twee voorwaarden (loyaliteitslidmaatschap en laatste contactdatum) evenals de informatie van de berichtverpersoonlijking terug te winnen.
 * Het hotelreserveringssysteem om de informatie over de reserveringsstatus op te halen.
 
 ## Voorwaarden {#prerequisites}
 
-Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl).
+Voor ons gebruik hebben we drie Adobe Campaign Standard-sjablonen voor transactieberichten ontworpen. We gebruiken transactiesjablonen voor gebeurtenissen. Verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl).
 
 Adobe Campaign Standard is geconfigureerd voor het verzenden van e-mails en pushberichten.
 

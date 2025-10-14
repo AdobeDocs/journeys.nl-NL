@@ -18,22 +18,22 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
 
 
-Als u de [ Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL) gebruikt om uw segmenten tot stand te brengen, kunt u hefboomwerking hen in [!DNL Journey Orchestration]. Dankzij een toegewijde gebeurtenisactiviteit kunt u ervoor zorgen dat individuen op basis van Adobe Experience Platform-segmentingangen en -uitgangen een reis maken of vooruit gaan. Hierdoor kunt u ook complexe omstandigheden maken tijdens uw reizen met behulp van de eenvoudige of geavanceerde expressieeditor.
+Als u de [&#x200B; Dienst van de Segmentatie van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL) gebruikt om uw segmenten tot stand te brengen, kunt u hefboomwerking hen in [!DNL Journey Orchestration]. Dankzij een toegewijde gebeurtenisactiviteit kunt u ervoor zorgen dat individuen op basis van Adobe Experience Platform-segmentingangen en -uitgangen een reis maken of vooruit gaan. Hierdoor kunt u ook complexe omstandigheden maken tijdens uw reizen met behulp van de eenvoudige of geavanceerde expressieeditor.
 
 Laten we zeggen dat je een &quot;zilveren klant&quot;-segment hebt. Met deze activiteit, kunt u alle nieuwe zilveren klanten een reis maken en hen een reeks gepersonaliseerde berichten verzenden. U kunt ook eenvoudig voorwaarden bouwen die op dit segment worden gebaseerd.
 
 Hier volgen de mogelijkheden die [!DNL Journey Orchestration] u biedt met segmenten:
 
-* Open de lijst met Adobe Experience Platform-segmenten. Zie [ Creërend een segment ](../segment/creating-a-segment.md).
-* Maak rechtstreeks segmenten in [!DNL Journey Orchestration] op dezelfde manier als u ze maakt met de Segmentatieservice. Zie [ Creërend een segment ](../segment/creating-a-segment.md).
-* Gebruik de eenvoudige of geavanceerde expressie-editor om segmenten in de reisomstandigheden te benutten. Zie [ Gebruikend segmenten in voorwaarden ](../segment/using-a-segment.md).
-* Voeg een **[!UICONTROL Segment qualification]** -gebeurtenis toe aan uw reis om te luisteren naar de items en uitgangen van profielen in Adobe Experience Platform-segmenten. Zie [ de activiteiten van Gebeurtenissen ](../building-journeys/segment-qualification-events.md).
+* Open de lijst met Adobe Experience Platform-segmenten. Zie [&#x200B; Creërend een segment &#x200B;](../segment/creating-a-segment.md).
+* Maak rechtstreeks segmenten in [!DNL Journey Orchestration] op dezelfde manier als u ze maakt met de Segmentatieservice. Zie [&#x200B; Creërend een segment &#x200B;](../segment/creating-a-segment.md).
+* Gebruik de eenvoudige of geavanceerde expressie-editor om segmenten in de reisomstandigheden te benutten. Zie [&#x200B; Gebruikend segmenten in voorwaarden &#x200B;](../segment/using-a-segment.md).
+* Voeg een **[!UICONTROL Segment qualification]** -gebeurtenis toe aan uw reis om te luisteren naar de items en uitgangen van profielen in Adobe Experience Platform-segmenten. Zie [&#x200B; de activiteiten van Gebeurtenissen &#x200B;](../building-journeys/segment-qualification-events.md).
 
 ## Evaluatiemethode in Journey Orchestration {#evaluation-method-in-journey-orchestration}
 

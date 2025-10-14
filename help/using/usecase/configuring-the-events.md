@@ -18,7 +18,7 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 In ons scenario moeten we telkens een evenement ontvangen wanneer een persoon het hotel Marlton en het restaurant binnenkomt. De **technische gebruiker** moet de twee gebeurtenissen vormen wij het systeem willen in onze reis luisteren.
 
-Voor extra informatie over gebeurtenisconfiguratie, verwijs naar [ deze pagina ](../event/about-events.md).
+Voor extra informatie over gebeurtenisconfiguratie, verwijs naar [&#x200B; deze pagina &#x200B;](../event/about-events.md).
 
 1. Klik in het bovenste menu op de tab **[!UICONTROL Events]** en klik op **[!UICONTROL Add]** om een nieuwe gebeurtenis te maken.
 
@@ -48,7 +48,7 @@ Voor extra informatie over gebeurtenisconfiguratie, verwijs naar [ deze pagina ]
    >
    >De lijst met velden verschilt per schema. Volgens de schemadefinitie zijn sommige velden mogelijk verplicht en vooraf geselecteerd.
 
-1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Voor meer informatie over namespaces, zie [ deze pagina ](../event/selecting-the-namespace.md).
+1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Voor meer informatie over namespaces, zie [&#x200B; deze pagina &#x200B;](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 

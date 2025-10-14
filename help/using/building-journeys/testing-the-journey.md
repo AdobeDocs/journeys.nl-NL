@@ -18,7 +18,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -28,11 +28,11 @@ Voordat u uw reis kunt testen, moet u alle eventuele fouten oplossen. Zie [deze 
 
 U kunt uw reis testen voordat deze wordt gepubliceerd, met behulp van testprofielen. Dit staat u toe om te analyseren hoe de individuen in de reis stromen en problemen vóór publicatie oplossen.
 
-Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. Verwijs naar deze [ sectie ](../building-journeys/creating-test-profiles.md).
+Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. Verwijs naar deze [&#x200B; sectie &#x200B;](../building-journeys/creating-test-profiles.md).
 
 Voer de volgende stappen uit om de testmodus te gebruiken:
 
-1. Controleer voordat u de reis test of deze geldig is en of er geen fout optreedt. U kunt geen test starten voor een reis met fouten. Zie [ deze sectie ](../about/troubleshooting.md#section_h3q_kqk_fhb). Er wordt een waarschuwingssymbool weergegeven wanneer er fouten optreden.
+1. Controleer voordat u de reis test of deze geldig is en of er geen fout optreedt. U kunt geen test starten voor een reis met fouten. Zie [&#x200B; deze sectie &#x200B;](../about/troubleshooting.md#section_h3q_kqk_fhb). Er wordt een waarschuwingssymbool weergegeven wanneer er fouten optreden.
 
 1. U activeert de testmodus door te klikken op de schakeloptie **[!UICONTROL Test]** in de rechterbovenhoek.
 
@@ -50,11 +50,11 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
    ![](../assets/journeyuctest1.png)
 
-1. Configureer de verschillende verwachte velden. Op het **gebied van Identifier van het 0&rbrace; Profiel &lbrace;, ga de waarde van het gebied in dat wordt gebruikt om het testprofiel te identificeren.** Het kan bijvoorbeeld het e-mailadres zijn. Zorg ervoor dat u gebeurtenissen verzendt die betrekking hebben op testprofielen. Zie [ Vast uw gebeurtenissen ](#firing_events).
+1. Configureer de verschillende verwachte velden. Op het **gebied van Identifier van het 0&rbrace; Profiel &lbrace;, ga de waarde van het gebied in dat wordt gebruikt om het testprofiel te identificeren.** Het kan bijvoorbeeld het e-mailadres zijn. Zorg ervoor dat u gebeurtenissen verzendt die betrekking hebben op testprofielen. Zie [&#x200B; Vast uw gebeurtenissen &#x200B;](#firing_events).
 
    ![](../assets/journeyuctest1-bis.png)
 
-1. Nadat de gebeurtenissen zijn ontvangen, klikt u op de knop **[!UICONTROL Show log]** om het testresultaat weer te geven en te controleren. Zie [ het Bekijken van de logboeken ](#viewing_logs).
+1. Nadat de gebeurtenissen zijn ontvangen, klikt u op de knop **[!UICONTROL Show log]** om het testresultaat weer te geven en te controleren. Zie [&#x200B; het Bekijken van de logboeken &#x200B;](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
@@ -63,7 +63,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 ## Belangrijke opmerkingen {#important_notes}
 
 * Er is een interface beschikbaar voor het afvuren van gebeurtenissen naar de geteste reis, maar evenementen kunnen ook door systemen van derden, zoals Postman, worden verzonden.
-* Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Verwijs naar deze [ sectie ](../building-journeys/creating-test-profiles.md).
+* Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Verwijs naar deze [&#x200B; sectie &#x200B;](../building-journeys/creating-test-profiles.md).
 * De testmodus is alleen beschikbaar voor conceptochten waarbij een naamruimte wordt gebruikt. In de testmodus moet worden gecontroleerd of een persoon die de reis betreedt een testprofiel is en moet dus de Adobe Experience Platform kunnen bereiken.
 * Het maximumaantal testprofielen dat een reis tijdens een testsessie kan betreden, is 100.
 * Wanneer u de testmodus uitschakelt, worden de reizen verwijderd van alle mensen die het in het verleden hebben betreden of die er momenteel in zitten. Ook wordt de rapportage gewist.
@@ -80,7 +80,7 @@ De gemakkelijkste manier om dit te doen is door een **het profiel van de Update*
 
 ## Een testprofiel maken{#create-test-profile}
 
-Als u een nieuw testprofiel wilt maken, gebeurt dit volgens dezelfde procedure als wanneer u een profiel maakt in de Adobe Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl)
+Als u een nieuw testprofiel wilt maken, gebeurt dit volgens dezelfde procedure als wanneer u een profiel maakt in de Adobe Experience Platform. Het wordt uitgevoerd door API vraag. Zie deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl)
 
 U moet een profielschema gebruiken dat de &quot;details van de profieltest&quot;mengen bevat. De markering testProfile maakt deel uit van deze mix.
 
@@ -168,13 +168,13 @@ De visuele stroom werkt of de gebeurtenis via de interface of extern (bijvoorbee
 
 ## Testmodus voor op regels gebaseerde reizen {#test-rule-based}
 
-De testmodus is ook beschikbaar voor reizen die een op regels gebaseerde gebeurtenis gebruiken. Voor meer informatie over op regel-gebaseerde gebeurtenissen, verwijs naar [ deze pagina ](../event/about-events.md).
+De testmodus is ook beschikbaar voor reizen die een op regels gebaseerde gebeurtenis gebruiken. Voor meer informatie over op regel-gebaseerde gebeurtenissen, verwijs naar [&#x200B; deze pagina &#x200B;](../event/about-events.md).
 
 Wanneer het teweegbrengen van een gebeurtenis, staat het **scherm van de configuratie van de Gebeurtenis 0&rbrace; u toe om de gebeurtenisparameters te bepalen om in de test over te gaan.** U kunt de voorwaarde van de gebeurtenis-identiteitskaart bekijken door het tooltip pictogram in de hoogste juiste hoek te klikken. Er is ook knopinfo beschikbaar naast elk veld dat deel uitmaakt van de regelevaluatie.
 
 ![](../assets/alpha-event8.png)
 
-Voor meer informatie over hoe te om de testwijze te gebruiken, verwijs naar [ deze pagina ](../building-journeys/testing-the-journey.md).
+Voor meer informatie over hoe te om de testwijze te gebruiken, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/testing-the-journey.md).
 
 ## Logboeken weergeven {#viewing_logs}
 

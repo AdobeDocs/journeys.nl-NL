@@ -17,14 +17,14 @@ ht-degree: 35%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"}  voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"}  voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
 
-Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration. Voor de eigenschappen van Experience Platform, verwijs naar de volgende [ versienota&#39;s ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL).
+Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Journey Orchestration. Voor de eigenschappen van Experience Platform, verwijs naar de volgende [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=nl-NL).
 
-Voor de eigenschappen die na 2022 worden vrijgegeven, de verbindingen direct aan [ documentatie van Adobe Journey Optimizer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} .
+Voor de eigenschappen die na 2022 worden vrijgegeven, de verbindingen direct aan [&#x200B; documentatie van Adobe Journey Optimizer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} .
 
 ## Release van maart 2024 {#mar-rn-2024}
 
@@ -36,22 +36,22 @@ Er zijn nieuwe tussenliggende statussen toegevoegd aan de levenscyclus van de re
 * **het Stoppen** status tussen **Levende** status en **beëindigde** status
 * **het activeren van testwijze** of **het Deactiveren van testwijze** statussen tussen de **Ontwerp** status en de **(test)** status
 
-Wanneer een reis in een tussenstadium is, is het read-only. [ leer meer ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter){target="_blank"} 
+Wanneer een reis in een tussenstadium is, is het read-only. [&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter){target="_blank"} 
 
 ## Release van februari 2024 {#feb-rn-2024}
 
 ### Verbeteringen {#feb-2024-improvements}
 
-* **filter uw reizen** - u kunt **douanedata nu gebruiken om de reis** inventaris, naast de bestaande vooraf bepaalde datumfilters te filtreren. Op deze manier kunt u de lijst verfijnen door ritten weer te geven die op een bepaalde datum zijn gemaakt of gepubliceerd, binnen een bepaalde maand, gedurende een heel jaar of binnen een opgegeven tijdbereik. [ las meer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=nl-NL#filter){target="_blank"} 
-* **de acties van de Douane** - u kunt **inhoud-type** kopbal nu bijwerken. Dit nieuwe **inhoud-type** zou inhoud JSON moeten van verwijzingen voorzien. [ las meer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=nl-NL#url-configuration){target="_blank"} 
-* **Configuratie** - het attribuut identityMap in stepEvents is nu voorgevuld. De primaire identiteit wordt gedefinieerd als &quot;primary = true&quot;. [ las meer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=nl-NL){target="_blank"} 
-* **Gebruikersinterface** - de hoogste bar, in de transmissieschermen, is gereorganiseerd voor een betere ervaring. Onder de verschillende updates ziet u dat het potlood-pictogram waarmee u de reiseigenschappen kunt openen nu links van de bovenste balk naast de naam van de rit wordt weergegeven. [ las meer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=nl-NL#change-properties){target="_blank"} 
+* **filter uw reizen** - u kunt **douanedata nu gebruiken om de reis** inventaris, naast de bestaande vooraf bepaalde datumfilters te filtreren. Op deze manier kunt u de lijst verfijnen door ritten weer te geven die op een bepaalde datum zijn gemaakt of gepubliceerd, binnen een bepaalde maand, gedurende een heel jaar of binnen een opgegeven tijdbereik. [&#x200B; las meer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=nl-NL#filter){target="_blank"} 
+* **de acties van de Douane** - u kunt **inhoud-type** kopbal nu bijwerken. Dit nieuwe **inhoud-type** zou inhoud JSON moeten van verwijzingen voorzien. [&#x200B; las meer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=nl-NL#url-configuration){target="_blank"} 
+* **Configuratie** - het attribuut identityMap in stepEvents is nu voorgevuld. De primaire identiteit wordt gedefinieerd als &quot;primary = true&quot;. [&#x200B; las meer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=nl-NL){target="_blank"} 
+* **Gebruikersinterface** - de hoogste bar, in de transmissieschermen, is gereorganiseerd voor een betere ervaring. Onder de verschillende updates ziet u dat het potlood-pictogram waarmee u de reiseigenschappen kunt openen nu links van de bovenste balk naast de naam van de rit wordt weergegeven. [&#x200B; las meer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=nl-NL#change-properties){target="_blank"} 
 
 ## Release van januari 2024 {#jan-rn-2024}
 
 ### Verbeteringen {#jan-2024-improvements}
 
-* **de gebeurtenisduur van de Reactie** - de maximumduur die u in de **gebeurtenissen van de Reactie** kunt bepalen is nu 29 dagen in plaats van 30. [ las meer ](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html?lang=nl-NL){target="_blank"} 
+* **de gebeurtenisduur van de Reactie** - de maximumduur die u in de **gebeurtenissen van de Reactie** kunt bepalen is nu 29 dagen in plaats van 30. [&#x200B; las meer &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html?lang=nl-NL){target="_blank"} 
 * **Groepen van het Gebied** - Deze versie lost een kwestie op die gebiedsgroepen blokkeerde in bepaalde gevallen worden bewaard.
 * Ondersteuning van `<listObject>` is gewijzigd in meerdere functies.
 
@@ -68,8 +68,8 @@ Wanneer een reis in een tussenstadium is, is het read-only. [ leer meer ](https:
 * De indeling van het configuratievenster, dat wordt weergegeven in handelingen, gegevensbronnen, gebeurtenissen en reizen, is verbeterd.
 * U kunt nu statische of dynamische queryparameters definiëren in uw aangepaste handelingen. Verwijs naar de documentatie van Journey Optimizer [&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=nl-NL#url-configuration){target="_blank"} .
 * Nieuwe instructies voor het beheer van de groei van de ervaringen die door de Reizen worden opgedaan:
-   * We raden u aan om het aantal knooppunten tot 50 of minder te beperken om uw reizen uitvoerbaar, gemakkelijk te lezen, QA te houden en problemen op te lossen. Het aantal activiteiten wordt weergegeven in de linkerbovensectie van het reiscanvas. Verwijs naar de Journey Optimizer [ documentatie ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=nl-NL#journeys-guardrails-journeys){target="_blank"} 
-   * Tijdens het ontwikkelen en starten van reizen zullen we u op de hoogte stellen wanneer u de mijlpaal nadert van 100 rechtstreekse reizen in één keer. Als uw plannen meer dan 100 reizen per keer vereisen, gelieve een kaartje voor steun te creëren na het zien van de kennisgeving en wij zullen u helpen. Verwijs naar de Journey Optimizer [ documentatie ](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=nl-NL#journeys-guardrails-journeys){target="_blank"} 
+   * We raden u aan om het aantal knooppunten tot 50 of minder te beperken om uw reizen uitvoerbaar, gemakkelijk te lezen, QA te houden en problemen op te lossen. Het aantal activiteiten wordt weergegeven in de linkerbovensectie van het reiscanvas. Verwijs naar de Journey Optimizer [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=nl-NL#journeys-guardrails-journeys){target="_blank"} 
+   * Tijdens het ontwikkelen en starten van reizen zullen we u op de hoogte stellen wanneer u de mijlpaal nadert van 100 rechtstreekse reizen in één keer. Als uw plannen meer dan 100 reizen per keer vereisen, gelieve een kaartje voor steun te creëren na het zien van de kennisgeving en wij zullen u helpen. Verwijs naar de Journey Optimizer [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=nl-NL#journeys-guardrails-journeys){target="_blank"} 
 
 ## Release van maart 2023 {#mar-2023}
 
@@ -135,7 +135,7 @@ Wanneer een reis in een tussenstadium is, is het read-only. [ leer meer ](https:
 
 ### Verbeteringen
 
-* **de redacteur van de Uitdrukking** - de [ grens ](../functions/functionlimit.md) functie is toegevoegd om u toe te staan om het aantal punten van een lijst te beperken. De [ soort ](../functions/functionsort.md) functie staat u nu toe om een lijstvoorwerp te sorteren. De steun van listObject is ook toegevoegd aan [ disctinct ](../functions/functiondistinct.md) en [ separatelyWithNull ](../functions/functiondistinctwithnull.md) functies.
+* **de redacteur van de Uitdrukking** - de [&#x200B; grens &#x200B;](../functions/functionlimit.md) functie is toegevoegd om u toe te staan om het aantal punten van een lijst te beperken. De [&#x200B; soort &#x200B;](../functions/functionsort.md) functie staat u nu toe om een lijstvoorwerp te sorteren. De steun van listObject is ook toegevoegd aan [&#x200B; disctinct &#x200B;](../functions/functiondistinct.md) en [&#x200B; separatelyWithNull &#x200B;](../functions/functiondistinctwithnull.md) functies.
 
 ## Release van maart 2022 {#feb-2022-release}
 
@@ -154,7 +154,7 @@ Wanneer een reis in een tussenstadium is, is het read-only. [ leer meer ](https:
 
 ### Verbeteringen
 
-* De de stapgebeurtenissen van Journey Orchestration kunnen nu met andere datasets in [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL){target="_blank"} worden verbonden . Het **profileID** gebied, in het ingebouwde schema van de Gebeurtenis van de Stap van de Reis, wordt nu bepaald als identiteitsgebied. [Meer informatie](../building-journeys/sharing-overview.md#integration-cja)
+* De de stapgebeurtenissen van Journey Orchestration kunnen nu met andere datasets in [&#x200B; Adobe Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL){target="_blank"} worden verbonden . Het **profileID** gebied, in het ingebouwde schema van de Gebeurtenis van de Stap van de Reis, wordt nu bepaald als identiteitsgebied. [Meer informatie](../building-journeys/sharing-overview.md#integration-cja)
 * De begrenzingsregel voor Adobe Campaign Standard-acties is gewijzigd in 4000 oproepen/5 minuten. [Meer informatie](../action/working-with-adobe-campaign.md)
 
 ## Release oktober 2021 {#october-2021-release}
@@ -164,7 +164,7 @@ Wanneer een reis in een tussenstadium is, is het read-only. [ leer meer ](https:
 * **de redacteur van de Uitdrukking** - als machtsgebruiker, kunt u functies nu gebruiken om met kaarten te werken. [Meer informatie](../expression/field-references.md)
 * **Toegankelijkheid** - de verhogingen van de Toegankelijkheid zijn uitgevoerd. Journey Orchestration voldoet nu volledig aan toegankelijkheidsvereisten.
 * **Inzamelingen** - de series van voorwerpen die subvoorwerpen bevatten worden nu gesteund. [Meer informatie](../usecase/collections.md)
-* **Controle** - De gebeurtenissen van de Stap voor levende reizen en testwijze zijn verbeterd. [ de Nieuwe gebieden ](../building-journeys/sharing-field-list.md#serviceevents) zijn toegevoegd met betrekking tot de banen van de profieluitvoer. Voor een betere gebruikerservaring zijn de velden voor step-gebeurtenissen nu ingedeeld in verschillende categorieën in het schema voor Journey Step-gebeurtenissen voor Journey Orchestration. Alle vorige gebieden van stapgebeurtenissen zijn nog beschikbaar in de [ stepEvents ](../building-journeys/sharing-legacy-fields.md) categorie.
+* **Controle** - De gebeurtenissen van de Stap voor levende reizen en testwijze zijn verbeterd. [&#x200B; de Nieuwe gebieden &#x200B;](../building-journeys/sharing-field-list.md#serviceevents) zijn toegevoegd met betrekking tot de banen van de profieluitvoer. Voor een betere gebruikerservaring zijn de velden voor step-gebeurtenissen nu ingedeeld in verschillende categorieën in het schema voor Journey Step-gebeurtenissen voor Journey Orchestration. Alle vorige gebieden van stapgebeurtenissen zijn nog beschikbaar in de [&#x200B; stepEvents &#x200B;](../building-journeys/sharing-legacy-fields.md) categorie.
 
 ## Release september 2021 {#september-2021-release}
 
@@ -303,7 +303,7 @@ Om zich aan Adobe Campaign Standard SLAs te richten, wordt een het maximum van 1
 
 De time-outduur van de gebeurtenis wordt nu duidelijker opgegeven in het time-outpad. [Meer informatie](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-De [ getListItem ](../functions/functiongetlistitem.md) en [ gespleten ](../functions/functionsplit.md) functies zijn toegevoegd aan de lijst van functies beschikbaar in de geavanceerde uitdrukkingsredacteur. Dit zal meer mogelijkheden in uw koordberekeningen gebruiksgevallen aanbieden.
+De [&#x200B; getListItem &#x200B;](../functions/functiongetlistitem.md) en [&#x200B; gespleten &#x200B;](../functions/functionsplit.md) functies zijn toegevoegd aan de lijst van functies beschikbaar in de geavanceerde uitdrukkingsredacteur. Dit zal meer mogelijkheden in uw koordberekeningen gebruiksgevallen aanbieden.
 
 ## Release november 2020 {#november-release}
 

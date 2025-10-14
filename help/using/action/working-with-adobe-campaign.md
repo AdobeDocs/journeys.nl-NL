@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -34,7 +34,7 @@ Het Campaign Standard-transactiebericht en de bijbehorende gebeurtenis moeten wo
 >
 >Zodra de Adobe Campaign Standard-integratie is ingesteld, wordt automatisch een afluisterregel van 4000 oproepen per 5 minuten gedefinieerd voor Adobe Campaign Standard-acties. Dit komt overeen met de officiële schaal van Transactioneel Overseinen van Adobe Campaign Standard.
 >
->Lees meer over transactionele overseinen SLAs in [ de Beschrijving van het Product van Adobe Campaign Standard ](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html).
+>Lees meer over transactionele overseinen SLAs in [&#x200B; de Beschrijving van het Product van Adobe Campaign Standard &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html).
 
 Hier volgen de stappen om het te configureren:
 
@@ -56,8 +56,8 @@ Hier volgen de stappen om het te configureren:
    >
    >De ORG die aan deze Adobe Campaign Standard-instantie is gekoppeld, is gelijk aan de Journey Orchestration ORG.
 
-Wanneer het ontwerpen van uw reis, zullen drie acties in de **[!UICONTROL Action]** categorie beschikbaar zijn: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (zie [ Gebruikend de acties van Adobe Campaign ](../building-journeys/using-adobe-campaign-actions.md)). **de gebeurtenis van Reacties** zal u ook toestaan om op bericht te reageren klikt, opent, enz. (zie [ gebeurtenissen van Reacties ](../building-journeys/reaction-events.md)).
+Wanneer het ontwerpen van uw reis, zullen drie acties in de **[!UICONTROL Action]** categorie beschikbaar zijn: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (zie [&#x200B; Gebruikend de acties van Adobe Campaign &#x200B;](../building-journeys/using-adobe-campaign-actions.md)). **de gebeurtenis van Reacties** zal u ook toestaan om op bericht te reageren klikt, opent, enz. (zie [&#x200B; gebeurtenissen van Reacties &#x200B;](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 
-Als u een derdesysteem gebruikt om berichten te verzenden, moet u een douaneactie toevoegen en vormen. Zie [ Ongeveer de configuratie van de douaneactie ](../action/about-custom-action-configuration.md).
+Als u een derdesysteem gebruikt om berichten te verzenden, moet u een douaneactie toevoegen en vormen. Zie [&#x200B; Ongeveer de configuratie van de douaneactie &#x200B;](../action/about-custom-action-configuration.md).

@@ -18,7 +18,7 @@ ht-degree: 82%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -29,7 +29,7 @@ ht-degree: 82%
 
 Met [!DNL Journey Orchestration] kunt u een reeks toestemmingen aan uw gebruikers toewijzen om te definiëren tot welk deel van de interface ze toegang hebben.
 
-Ze kunnen worden beheerd door beheerders die toegang hebben tot de Admin Console. Voor meer informatie over Admin Console, verwijs naar de [ gids van de Onderneming en van teamadmin ](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html).
+Ze kunnen worden beheerd door beheerders die toegang hebben tot de Admin Console. Voor meer informatie over Admin Console, verwijs naar de [&#x200B; gids van de Onderneming en van teamadmin &#x200B;](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html).
 
 Voor toegang tot [!DNL Journey Orchestration]moet een gebruiker:
 

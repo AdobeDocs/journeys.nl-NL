@@ -18,7 +18,7 @@ ht-degree: 27%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -35,7 +35,7 @@ De **bedrijfsgebruiker** kan nu de journey bouwen. Onze reis zal slechts één w
 >
 >De **[!UICONTROL Push]**- en **[!UICONTROL Email]**-activiteiten zijn alleen beschikbaar in het palet als u Adobe Campaign Standard hebt.
 
-Voor extra informatie over hoe te om een reis te bouwen, verwijs naar [ deze pagina ](../building-journeys/journey.md).
+Voor extra informatie over hoe te om een reis te bouwen, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/journey.md).
 
 1. Klik in het bovenste menu op de tabbladen **[!UICONTROL Home]** en **[!UICONTROL Create]** om een nieuwe journey te maken.
 
@@ -61,7 +61,7 @@ Voor extra informatie over hoe te om een reis te bouwen, verwijs naar [ deze pag
 
    ![](../assets/journeyuc1_12.png)
 
-1. Zet een **[!UICONTROL Email]** -activiteit neer en selecteer de transactiesjabloon voor &quot;Spa-korting&quot;. Deze sjabloon is ontworpen met Adobe Campaign. Verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl).
+1. Zet een **[!UICONTROL Email]** -activiteit neer en selecteer de transactiesjabloon voor &quot;Spa-korting&quot;. Deze sjabloon is ontworpen met Adobe Campaign. Verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl).
 
    ![](../assets/journeyuc1_13.png)
 
@@ -77,7 +77,7 @@ Voor extra informatie over hoe te om een reis te bouwen, verwijs naar [ deze pag
 
    ![](../assets/journeyuc1_17.png)
 
-1. Klik op de schakeloptie **[!UICONTROL Test]** en test uw reis met testprofielen. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Voor meer informatie over de testwijze, verwijs naar [ deze pagina ](../building-journeys/testing-the-journey.md).
+1. Klik op de schakeloptie **[!UICONTROL Test]** en test uw reis met testprofielen. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Voor meer informatie over de testwijze, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -41,7 +41,7 @@ Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de optie uitsc
 
 Wanneer een reis &#39;eindigt&#39;, heeft deze de status **[!UICONTROL Closed (no entrance)]** . De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken.
 
-Na standaard globale onderbreking van 30 dagen, zal de reis aan de **Voltooide** status schakelen. Zie deze [ sectie ](#global_timeout).
+Na standaard globale onderbreking van 30 dagen, zal de reis aan de **Voltooide** status schakelen. Zie deze [&#x200B; sectie &#x200B;](#global_timeout).
 
 ## Tijdslimiet en fout bij reisactiviteiten {#timeout_and_error}
 
@@ -51,11 +51,11 @@ Toegestane waarden liggen tussen 1 en 30 seconden.
 
 We raden u aan een zeer korte **[!UICONTROL Timeout and error]** -waarde te definiëren als uw reis tijdgevoelig is (bijvoorbeeld: reageren op de locatie in real-time van een persoon), omdat u de handeling niet langer dan een paar seconden kunt uitstellen. Als uw reis minder tijdgevoelig is, kunt u een langere waarde gebruiken om meer tijd aan het geroepen systeem te geven om een geldige reactie te verzenden.
 
-[!DNL Journey Orchestration] gebruikt ook een algemene time-out. Zie de [ volgende sectie ](#global_timeout).
+[!DNL Journey Orchestration] gebruikt ook een algemene time-out. Zie de [&#x200B; volgende sectie &#x200B;](#global_timeout).
 
 ## Globale time-out voor transport {#global_timeout}
 
-Naast [ timeout ](#timeout_and_error) gebruikt in reisactiviteiten, is er ook een globale reisonderbreking die niet in de interface wordt getoond en niet kan worden veranderd. Deze onderbreking zal de vooruitgang van individuen in de reis 30 dagen na hun binnengaan stoppen. Dit betekent dat de reis van een individu niet langer mag duren dan 30 dagen. Na de periode van 30 dagen worden de gegevens van het individu verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en als fouten in de rapportage worden ze in aanmerking genomen.
+Naast [&#x200B; timeout &#x200B;](#timeout_and_error) gebruikt in reisactiviteiten, is er ook een globale reisonderbreking die niet in de interface wordt getoond en niet kan worden veranderd. Deze onderbreking zal de vooruitgang van individuen in de reis 30 dagen na hun binnengaan stoppen. Dit betekent dat de reis van een individu niet langer mag duren dan 30 dagen. Na de periode van 30 dagen worden de gegevens van het individu verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en als fouten in de rapportage worden ze in aanmerking genomen.
 
 >[!NOTE]
 >
@@ -69,4 +69,4 @@ De tijdzone wordt gedefinieerd op het niveau van de reis.
 
 U kunt een vaste tijdzone invoeren of Adobe Experience Platform-profielen gebruiken om de tijdzone van de reis te definiëren.
 
-Voor meer informatie over timezone beheer, zie [ deze pagina ](../building-journeys/timezone-management.md).
+Voor meer informatie over timezone beheer, zie [&#x200B; deze pagina &#x200B;](../building-journeys/timezone-management.md).

@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -28,9 +28,9 @@ Deze integratie is beschikbaar voor Adobe Campaign Classic v7 vanaf versie 21.1 
 
 De verbinding tussen de Journey Orchestration- en Campagneinstanties wordt door Adobe tijdens de levering ingesteld.
 
-Een gebruiksgeval van begin tot eind wordt voorgesteld in deze [ sectie ](../usecase/campaign-classic-use-case.md).
+Een gebruiksgeval van begin tot eind wordt voorgesteld in deze [&#x200B; sectie &#x200B;](../usecase/campaign-classic-use-case.md).
 
-Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de reisontwerper. Verwijs naar deze [ sectie ](../building-journeys/using-adobe-campaign-classic.md).
+Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de reisontwerper. Verwijs naar deze [&#x200B; sectie &#x200B;](../building-journeys/using-adobe-campaign-classic.md).
 
 ## Belangrijke opmerkingen
 
@@ -46,7 +46,7 @@ Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de
 
 ## Vereisten
 
-In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Verwijs naar de [ documentatie van Adobe Campaign ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=nl-NL#transactional-messaging).
+In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Verwijs naar de [&#x200B; documentatie van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=nl-NL#transactional-messaging).
 
 U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze payload vervolgens plakken tijdens het configureren van de handeling in Journey Orchestration (zie hieronder)
 
@@ -71,7 +71,7 @@ Hier volgt een voorbeeld:
 
 In Journey Orchestration moet u één actie per transactiemelding configureren. Voer de volgende stappen uit:
 
-1. Maak een nieuwe handeling. Verwijs naar deze [ sectie ](../action/action.md).
+1. Maak een nieuwe handeling. Verwijs naar deze [&#x200B; sectie &#x200B;](../action/action.md).
 1. Voer een naam en beschrijving in.
 1. Op het **type van Actie** gebied, uitgezochte **Adobe Campaign Classic**.
 1. Klik op het **gebied van de Lading** en kleef een voorbeeld van JSON nuttige lading die aan het bericht van de Campagne beantwoordt. Neem contact op met Adobe voor deze lading.

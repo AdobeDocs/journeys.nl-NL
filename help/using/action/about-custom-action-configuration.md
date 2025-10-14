@@ -18,17 +18,17 @@ ht-degree: 11%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
 
 
-Als u een systeem van derden gebruikt om berichten te verzenden of als u wilt dat [!DNL Journey Orchestration] API-aanroepen verzendt naar een systeem van derden, configureert u de verbinding met [!DNL Journey Orchestration] op deze locatie. De douaneactie die door technische gebruikers wordt bepaald zal dan in het linkerpalet van uw reis, in de **[!UICONTROL Action]** categorie (zie [ deze pagina ](../building-journeys/about-action-activities.md) beschikbaar zijn. Hier zijn een paar voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste acties: Epsilon, Facebook, Adobe.io, Firebase, enzovoort.
+Als u een systeem van derden gebruikt om berichten te verzenden of als u wilt dat [!DNL Journey Orchestration] API-aanroepen verzendt naar een systeem van derden, configureert u de verbinding met [!DNL Journey Orchestration] op deze locatie. De douaneactie die door technische gebruikers wordt bepaald zal dan in het linkerpalet van uw reis, in de **[!UICONTROL Action]** categorie (zie [&#x200B; deze pagina &#x200B;](../building-journeys/about-action-activities.md) beschikbaar zijn. Hier zijn een paar voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste acties: Epsilon, Facebook, Adobe.io, Firebase, enzovoort.
 
-De beperkingen worden vermeld in [ deze pagina ](../about/limitations.md).
+De beperkingen worden vermeld in [&#x200B; deze pagina &#x200B;](../about/limitations.md).
 
-In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Met betrekking tot de beperkingen, gelieve te verwijzen naar [ deze pagina ](../usecase/collections.md#limitations). De parameters hebben ook een verwachte indeling (bijvoorbeeld tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren. Verwijs naar dit [ gebruiksgeval ](../usecase/collections.md).
+In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Met betrekking tot de beperkingen, gelieve te verwijzen naar [&#x200B; deze pagina &#x200B;](../usecase/collections.md#limitations). De parameters hebben ook een verwachte indeling (bijvoorbeeld tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren. Verwijs naar dit [&#x200B; gebruiksgeval &#x200B;](../usecase/collections.md).
 
 Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vormen:
 

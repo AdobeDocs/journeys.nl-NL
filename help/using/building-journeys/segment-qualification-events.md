@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ## Informatie over segmentkwalificatiegebeurtenissen{#about-segment-qualification}
 
-Met deze activiteit kunt u luisteren naar de ingangen en uitgangen van profielen in Adobe Experience Platform-segmenten om ervoor te zorgen dat individuen op reis kunnen gaan of vooruit kunnen gaan. Voor meer informatie over segmentverwezenlijking, verwijs naar deze [ sectie ](../segment/about-segments.md).
+Met deze activiteit kunt u luisteren naar de ingangen en uitgangen van profielen in Adobe Experience Platform-segmenten om ervoor te zorgen dat individuen op reis kunnen gaan of vooruit kunnen gaan. Voor meer informatie over segmentverwezenlijking, verwijs naar deze [&#x200B; sectie &#x200B;](../segment/about-segments.md).
 
 Laten we zeggen dat je een &quot;zilveren klant&quot;-segment hebt. Met deze activiteit, kunt u alle nieuwe zilveren klanten een reis maken en hen een reeks gepersonaliseerde berichten verzenden.
 
@@ -64,7 +64,7 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
    >[!NOTE]
    >
-   >Merk op dat **[!UICONTROL Enter]** en **[!UICONTROL Exit]** aan de **gerealiseerde** beantwoorden en **Uitgegeven** de status van de segmentparticipatie van Adobe Experience Platform. Voor meer op hoe te om een segment te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results).
+   >Merk op dat **[!UICONTROL Enter]** en **[!UICONTROL Exit]** aan de **gerealiseerde** beantwoorden en **Uitgegeven** de status van de segmentparticipatie van Adobe Experience Platform. Voor meer op hoe te om een segment te evalueren, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results).
 
 1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst.
 
@@ -78,7 +78,7 @@ De nuttige lading bevat de volgende contextinformatie, die u in voorwaarden en a
 
 Wanneer u de expressie-editor gebruikt in een voorwaarde of handeling die volgt op een **[!UICONTROL Segment qualification]** -activiteit, hebt u toegang tot het **[!UICONTROL SegmentQualification]** -knooppunt. U kunt kiezen tussen **[!UICONTROL Last qualification time]** en **[!UICONTROL status]** (Enter of exit).
 
-Zie [ de activiteit van de Voorwaarde ](../building-journeys/condition-activity.md#about_condition).
+Zie [&#x200B; de activiteit van de Voorwaarde &#x200B;](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
 
@@ -100,7 +100,7 @@ Als het batchsegment nieuw wordt gemaakt en onmiddellijk wordt gebruikt in een r
 
 Wanneer het gebruiken van segmentkwalificatie voor gestroomde segmenten, is er minder risico om grote pieken van ingangen/uitgangen te krijgen toe te schrijven aan de ononderbroken evaluatie van het segment. Maar als de segmentdefinitie ertoe leidt dat een groot aantal klanten tegelijkertijd in aanmerking komt, kan er ook een piek zijn.
 
-Voor meer informatie bij het stromen segmentatie, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=nl-NL#api)
+Voor meer informatie bij het stromen segmentatie, verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=nl-NL#api)
 
 ### Overbelasting voorkomen{#overloads-speed-segment-qualification}
 
@@ -110,7 +110,7 @@ Gebruik in een **[!UICONTROL Segment Qualification]** -activiteit geen batchsegm
 
 ![](../assets/segment-error.png)
 
-Plaats op zijn plaats een afschilderingsregel voor gegevensbronnen en acties die in reizen worden gebruikt om het overbelasten van hen te vermijden (verwijs naar deze [ sectie ](../api/capping.md)). De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door het vakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of acties te controleren.
+Plaats op zijn plaats een afschilderingsregel voor gegevensbronnen en acties die in reizen worden gebruikt om het overbelasten van hen te vermijden (verwijs naar deze [&#x200B; sectie &#x200B;](../api/capping.md)). De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door het vakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of acties te controleren.
 
 Voordat u het segment in een productietraject gaat gebruiken, moet u altijd eerst het aantal personen beoordelen dat dagelijks voor dit segment in aanmerking komt. U kunt dit doen door de sectie **[!UICONTROL Segments]** in de Adobe Experience Platform te controleren en de grafiek aan de rechterkant te bekijken.
 

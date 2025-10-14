@@ -18,7 +18,7 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -33,7 +33,7 @@ Deze activiteiten staan voor de verschillende beschikbare communicatiekanalen. U
 
 Als u Adobe Campaign Standard hebt, zijn de volgende acties beschikbaar: **[!UICONTROL Email]**, **[!UICONTROL Push]** en **[!UICONTROL SMS]** . Zie [deze pagina](../building-journeys/using-adobe-campaign-actions.md).
 
-Als u douaneacties hebt gevormd, zullen zij ook hier verschijnen (zie [ deze pagina ](../building-journeys/using-custom-actions.md)).
+Als u douaneacties hebt gevormd, zullen zij ook hier verschijnen (zie [&#x200B; deze pagina &#x200B;](../building-journeys/using-custom-actions.md)).
 
 Wanneer u een handeling op het canvas neerzet, kunt u een **[!UICONTROL Label]** definiëren. Op deze manier kunt u een achtervoegsel toevoegen aan de naam van de handeling die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u dezelfde handeling meerdere malen op reis gebruikt en u deze gemakkelijker wilt identificeren. Rapporten zijn ook gemakkelijker te lezen. U kunt ook een optionele **[!UICONTROL Description]** toevoegen.
 

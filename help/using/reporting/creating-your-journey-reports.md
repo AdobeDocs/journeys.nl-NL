@@ -18,7 +18,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -54,15 +54,15 @@ U kunt als volgt de reisrapporten openen en het succes van uw leveringen volgen:
 
    ![](../assets/dynamic_report_journey_3.png)
 
-1. Sleep vanuit het tabblad **[!UICONTROL Panels]** zoveel deelvensters of vrije-vormtabellen als u wilt. Voor meer informatie, verwijs naar deze [ sectie ](#adding-panels).
+1. Sleep vanuit het tabblad **[!UICONTROL Panels]** zoveel deelvensters of vrije-vormtabellen als u wilt. Voor meer informatie, verwijs naar deze [&#x200B; sectie &#x200B;](#adding-panels).
 
    ![](../assets/dynamic_report_journey_4.png)
 
-1. Vervolgens kunt u uw gegevens filteren door de afmetingen en metriek van het tabblad **[!UICONTROL Components]** naar de vrije-vormtabel te slepen. Voor meer informatie, verwijs naar deze [ sectie ](#adding-components).
+1. Vervolgens kunt u uw gegevens filteren door de afmetingen en metriek van het tabblad **[!UICONTROL Components]** naar de vrije-vormtabel te slepen. Voor meer informatie, verwijs naar deze [&#x200B; sectie &#x200B;](#adding-components).
 
    ![](../assets/dynamic_report_journey_5.png)
 
-1. Voor een duidelijkere weergave van uw gegevens kunt u visualisaties toevoegen via het tabblad **[!UICONTROL Visualizations]** . Voor meer informatie, verwijs naar deze [ sectie ](#adding-visualizations).
+1. Voor een duidelijkere weergave van uw gegevens kunt u visualisaties toevoegen via het tabblad **[!UICONTROL Visualizations]** . Voor meer informatie, verwijs naar deze [&#x200B; sectie &#x200B;](#adding-visualizations).
 
 ## Deelvensters toevoegen{#adding-panels}
 

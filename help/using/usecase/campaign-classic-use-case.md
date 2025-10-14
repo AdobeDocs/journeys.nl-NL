@@ -16,7 +16,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -29,7 +29,7 @@ We maken eerst een transactionele e-mailsjabloon in Campagne. In Journey Orchest
 Raadpleeg de volgende pagina&#39;s voor meer informatie over de integratie van campagnes:
 
 * [Campagne maken](../action/acc-action.md)
-* [ Gebruikend de actie in een reis ](../building-journeys/using-adobe-campaign-classic.md).
+* [&#x200B; Gebruikend de actie in een reis &#x200B;](../building-journeys/using-adobe-campaign-classic.md).
 
 **Adobe Campaign**
 

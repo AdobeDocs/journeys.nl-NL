@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -64,9 +64,9 @@ Met de linkertabbladen kunt u uw rapport samenstellen en de gegevens naar wens f
 
 Op deze tabbladen hebt u toegang tot de volgende items:
 
-* **[!UICONTROL Panels]**: voeg een leeg paneel of een vrije vorm aan uw rapport toe beginnen uw gegevens te filtreren. Voor meer op dit, verwijs naar [ Toevoegend panelen ](../reporting/creating-your-journey-reports.md#adding-panels) sectie
-* **[!UICONTROL Visualizations]**: sleep en zet een selectie van visualisatie-items neer om uw rapport een grafische dimensie te geven. Voor meer op dit, verwijs naar [ het Toevoegen van visualisaties ](../reporting/creating-your-journey-reports.md#adding-visualizations) sectie.
-* **[!UICONTROL Components]**: pas uw rapporten aan met verschillende afmetingen, metriek, segmenten en tijdsperioden. Voor meer op dit, verwijs naar [ Toevoegend componenten ](../reporting/creating-your-journey-reports.md#adding-components) sectie.
+* **[!UICONTROL Panels]**: voeg een leeg paneel of een vrije vorm aan uw rapport toe beginnen uw gegevens te filtreren. Voor meer op dit, verwijs naar [&#x200B; Toevoegend panelen &#x200B;](../reporting/creating-your-journey-reports.md#adding-panels) sectie
+* **[!UICONTROL Visualizations]**: sleep en zet een selectie van visualisatie-items neer om uw rapport een grafische dimensie te geven. Voor meer op dit, verwijs naar [&#x200B; het Toevoegen van visualisaties &#x200B;](../reporting/creating-your-journey-reports.md#adding-visualizations) sectie.
+* **[!UICONTROL Components]**: pas uw rapporten aan met verschillende afmetingen, metriek, segmenten en tijdsperioden. Voor meer op dit, verwijs naar [&#x200B; Toevoegend componenten &#x200B;](../reporting/creating-your-journey-reports.md#adding-components) sectie.
 
 ## Samenvattingssjabloon reis {#ootb-template}
 

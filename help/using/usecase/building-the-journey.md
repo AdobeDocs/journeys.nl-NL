@@ -18,7 +18,7 @@ ht-degree: 85%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -36,7 +36,7 @@ De **bedrijfsgebruiker** kan nu de journey bouwen. Onze journey bevat de volgend
 >
 >De **[!UICONTROL Push]**- en **[!UICONTROL Email]**-activiteiten zijn alleen beschikbaar in het palet als u Adobe Campaign Standard hebt.
 
-Voor extra informatie over hoe te om een reis te bouwen, verwijs naar [ deze pagina ](../building-journeys/journey.md).
+Voor extra informatie over hoe te om een reis te bouwen, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/journey.md).
 
 ## Eerste stappen{#section_ntb_ws1_ffb}
 
@@ -86,7 +86,7 @@ Voor extra informatie over hoe te om een reis te bouwen, verwijs naar [ deze pag
    >
    >In het tweede deel van de expressie is ‘Profiel’ optioneel.
 
-1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Voor meer informatie over namespaces, zie [ deze pagina ](../event/selecting-the-namespace.md).
+1. We moeten een naamruimte selecteren. Een naamruimte wordt vooraf geselecteerd op basis van schema-eigenschappen. U kunt de voorinstelling behouden. Voor meer informatie over namespaces, zie [&#x200B; deze pagina &#x200B;](../event/selecting-the-namespace.md).
 
 In ons gebruiksscenario willen we alleen reageren op deze twee voorwaarden, dus we schakelen het selectievakje **[!UICONTROL Show path for other cases than the one(s) above]** niet in.
 
@@ -111,7 +111,7 @@ Na uw voorwaarde worden twee paden gemaakt:
 
    ![](../assets/journeyuc2_18.png)
 
-1. Wanneer u een gebied van een externe gegevensbron selecteert, toont het juiste deel van het scherm de lijst van parameters die toen het vormen van de externe gegevensbron (zie [ deze pagina ](../usecase/configuring-the-data-sources.md)) werden bepaald. Klik op de parameternaam en definieer de waarde van de sleutel van het reserveringssysteem, de Experience Cloud-ID, in ons voorbeeld:
+1. Wanneer u een gebied van een externe gegevensbron selecteert, toont het juiste deel van het scherm de lijst van parameters die toen het vormen van de externe gegevensbron (zie [&#x200B; deze pagina &#x200B;](../usecase/configuring-the-data-sources.md)) werden bepaald. Klik op de parameternaam en definieer de waarde van de sleutel van het reserveringssysteem, de Experience Cloud-ID, in ons voorbeeld:
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -177,7 +177,7 @@ Na uw voorwaarde worden twee paden gemaakt:
 
 1. Voeg een **[!UICONTROL End]**-activiteit toe.
 
-Klik op de **[!UICONTROL Test]**-schakeloptie en test uw journey. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Voor meer informatie over de testwijze, verwijs naar [ deze pagina ](../building-journeys/testing-the-journey.md).
+Klik op de **[!UICONTROL Test]**-schakeloptie en test uw journey. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Voor meer informatie over de testwijze, verwijs naar [&#x200B; deze pagina &#x200B;](../building-journeys/testing-the-journey.md).
 
 ![](../assets/journeyuc2_32bis.png)
 

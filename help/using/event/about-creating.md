@@ -18,7 +18,7 @@ ht-degree: 47%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -26,7 +26,7 @@ ht-degree: 47%
 
 Dit zijn de belangrijkste stappen voor het configureren van een nieuwe gebeurtenis:
 
-1. Klik in het bovenste menu op het tabblad **[!UICONTROL Events]**. De lijst met gebeurtenissen wordt weergegeven. Verwijs naar [ deze pagina ](../about/user-interface.md) voor meer informatie over de interface.
+1. Klik in het bovenste menu op het tabblad **[!UICONTROL Events]**. De lijst met gebeurtenissen wordt weergegeven. Verwijs naar [&#x200B; deze pagina &#x200B;](../about/user-interface.md) voor meer informatie over de interface.
 
    ![](../assets/journey5.png)
 
@@ -48,7 +48,7 @@ Dit zijn de belangrijkste stappen voor het configureren van een nieuwe gebeurten
 
    >[!NOTE]
    >
-   >Lees meer op gebeurtenistypen in [ deze sectie ](../event/about-events.md).
+   >Lees meer op gebeurtenistypen in [&#x200B; deze sectie &#x200B;](../event/about-events.md).
 1. Het aantal journey’s dat deze gebeurtenis gebruikt, wordt in het veld **[!UICONTROL Used in]** weergegeven. U kunt klikken op het pictogram **[!UICONTROL View journeys]** om de lijst weer te geven met journey’s die deze gebeurtenis gebruiken.
 1. Definieer het schema en de payloadvelden: hier selecteert u de gebeurtenisinformatie (gewoonlijk een payload genoemd) die [!DNL Journey Orchestration] verwacht te ontvangen. U kunt deze informatie vervolgens gebruiken tijdens uw journey. Zie [deze pagina](../event/defining-the-payload-fields.md).
    >[!NOTE]

@@ -18,7 +18,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -38,7 +38,7 @@ Met de **[!UICONTROL Update profile]** -actieactiviteit kunt u een bestaand Adob
 
 ## De profielupdate gebruiken
 
-1. Ontwerp uw reis door met een gebeurtenis te beginnen. Zie deze [ sectie ](../building-journeys/journey.md).
+1. Ontwerp uw reis door met een gebeurtenis te beginnen. Zie deze [&#x200B; sectie &#x200B;](../building-journeys/journey.md).
 
 1. In de **sectie van de Actie** van het palet, laat vallen de **het profiel van de Update** activiteit in het canvas.
 

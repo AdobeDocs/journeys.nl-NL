@@ -18,7 +18,7 @@ ht-degree: 12%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -26,7 +26,7 @@ ht-degree: 12%
 
 In ons gebruiksgeval, willen wij verpersoonlijkingsgegevens voor onze berichten gebruiken. We moeten ook controleren of de persoon een loyaliteitslid is en in de afgelopen 24 uur niet is benaderd. Deze informatie wordt opgeslagen in het gegevensbestand van het Profiel van de Klant in real time. De **technische gebruiker** moet de gegevensbron van Adobe Experience Platform vormen om die gebieden terug te winnen.
 
-Voor extra informatie over gegevensbronconfiguratie, verwijs naar [ deze pagina ](../datasource/about-data-sources.md).
+Voor extra informatie over gegevensbronconfiguratie, verwijs naar [&#x200B; deze pagina &#x200B;](../datasource/about-data-sources.md).
 
 1. Selecteer **[!UICONTROL Admin]** in het menuvenster. Klik in de sectie **[!UICONTROL Data sources]** op **[!UICONTROL Manage]** .
 1. Selecteer de ingebouwde Adobe Experience Platform-gegevensbron.

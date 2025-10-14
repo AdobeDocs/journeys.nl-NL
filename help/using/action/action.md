@@ -18,7 +18,7 @@ ht-degree: 72%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -39,9 +39,9 @@ De acties zijn beschikbaar in het linkerpalet van uw reis, in de **[!UICONTROL A
 >
 >De configuratie van aangepaste acties wordt altijd uitgevoerd door een **technische gebruiker**.
 
-In de lijst met **Acties** kunt u op C drukken om een nieuwe journey, actie, databron of gebeurtenis te maken. Voor meer informatie over kortere weg in [!DNL Journey Orchestration], zie [ deze sectie ](../about/user-interface.md#section_ksq_zr1_ffb).
+In de lijst met **Acties** kunt u op C drukken om een nieuwe journey, actie, databron of gebeurtenis te maken. Voor meer informatie over kortere weg in [!DNL Journey Orchestration], zie [&#x200B; deze sectie &#x200B;](../about/user-interface.md#section_ksq_zr1_ffb).
 
-Als u de actielijst wilt bekijken of een nieuwe actie wilt configureren, klikt u in de bovenste menu’s op **[!UICONTROL Actions]**. De lijst met acties wordt weergegeven. Zie [ deze pagina ](../about/user-interface.md) voor meer informatie over de interface.
+Als u de actielijst wilt bekijken of een nieuwe actie wilt configureren, klikt u in de bovenste menu’s op **[!UICONTROL Actions]**. De lijst met acties wordt weergegeven. Zie [&#x200B; deze pagina &#x200B;](../about/user-interface.md) voor meer informatie over de interface.
 
 ![](../assets/custom1.png)
 

@@ -18,7 +18,7 @@ ht-degree: 26%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -47,14 +47,14 @@ Hier volgt een lijst met ondersteunde functies.
 | Samenvoeging | [min](../functions/functionmin.md) |
 | Samenvoeging | [sum](../functions/functionsum.md) |
 | Conversie | [toBool](../functions/functiontobool.md) |
-| Conversie | [ toDateOnly ](../functions/functiontodateonly.md) |
+| Conversie | [&#x200B; toDateOnly &#x200B;](../functions/functiontodateonly.md) |
 | Conversie | [toDateTime](../functions/functiontodatetime.md) |
 | Conversie | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
 | Conversie | [toDecimal](../functions/functiontodecimal.md) |
 | Conversie | [toDuration](../functions/functiontoduration.md) |
 | Conversie | [toInteger](../functions/functiontointeger.md) |
 | Conversie | [toString](../functions/functiontostring.md) |
-| Datum | [ currentTimeInMillis ](../functions/functioncurrenttimeinmillis.md) |
+| Datum | [&#x200B; currentTimeInMillis &#x200B;](../functions/functioncurrenttimeinmillis.md) |
 | Datum | [inLastDays](../functions/functioninlastdays.md) |
 | Datum | [inLastHours](../functions/functioninlasthours.md) |
 | Datum | [inLastMonths](../functions/functioninlastmonths.md) |
@@ -67,13 +67,13 @@ Hier volgt een lijst met ondersteunde functies.
 | Datum | [nowWithDelta](../functions/functionnowwithdelta.md) |
 | Datum | [setHours](../functions/functionsethours.md) |
 | Datum | [setDays](../functions/functionsetdays.md) |
-| Datum | [ updateTimeZone ](../functions/functionupdatetimezone.md) |
+| Datum | [&#x200B; updateTimeZone &#x200B;](../functions/functionupdatetimezone.md) |
 | Lijst | [distinct](../functions/functiondistinct.md) |
 | Lijst | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| Lijst | [ filter ](../functions/functionfilter.md) |
+| Lijst | [&#x200B; filter &#x200B;](../functions/functionfilter.md) |
 | Lijst | [getListItem](../functions/functiongetlistitem.md) |
 | Lijst | [in](../functions/functionin.md) |
-| Lijst | [ snijdt ](../functions/functionintersect.md) |
+| Lijst | [&#x200B; snijdt &#x200B;](../functions/functionintersect.md) |
 | Lijst | [listSize](../functions/functionlistsize.md) |
 | Lijst | [serializeList](../functions/functionserializelist.md) |
 | Lijst | [sort](../functions/functionsort.md) |
@@ -81,10 +81,10 @@ Hier volgt een lijst met ondersteunde functies.
 | Math | [round](../functions/functionround.md) |
 | String | [concat](../functions/functionconcat.md) |
 | String | [contain](../functions/functioncontain.md) |
-| String | [ containIgnoreCase ](../functions/functioncontainwithignorecase.md) |
+| String | [&#x200B; containIgnoreCase &#x200B;](../functions/functioncontainwithignorecase.md) |
 | String | [endWith](../functions/functionendwith.md) |
-| String | [ endWithIgnoreCase ](../functions/functionendwithignorecase.md) |
-| String | [ equalIgnoreCase ](../functions/functionequalignorecase.md) |
+| String | [&#x200B; endWithIgnoreCase &#x200B;](../functions/functionendwithignorecase.md) |
+| String | [&#x200B; equalIgnoreCase &#x200B;](../functions/functionequalignorecase.md) |
 | String | [indexOf](../functions/functionindexof.md) |
 | String | [isEmpty](../functions/functionisempty.md) |
 | String | [isNotEmpty](../functions/functionisnotempty.md) |
@@ -92,7 +92,7 @@ Hier volgt een lijst met ondersteunde functies.
 | String | [length](../functions/functionlength.md) |
 | String | [lower](../functions/functionlower.md) |
 | String | [matchRegExp](../functions/functionmatchregexp.md) |
-| String | [ notEqualIgnoreCase ](../functions/functionnotequalignorecase.md) |
+| String | [&#x200B; notEqualIgnoreCase &#x200B;](../functions/functionnotequalignorecase.md) |
 | String | [replace](../functions/functionreplace.md) |
 | String | [replaceAll](../functions/functionreplaceall.md) |
 | String | [startWith](../functions/functionstartwith.md) |

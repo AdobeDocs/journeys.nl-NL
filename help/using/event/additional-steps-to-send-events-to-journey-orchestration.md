@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -31,7 +31,7 @@ ht-degree: 2%
 
 Voer de volgende stappen uit om gebeurtenissen te configureren die naar **[!UICONTROL Streaming Ingestion APIs]** moeten worden verzonden en die in [!DNL Journey Orchestration] moeten worden gebruikt:
 
-1. Krijg inlaat URL van Adobe Experience Platform APIs (zie [ Streaming Ingestie APIs ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl)).
+1. Krijg inlaat URL van Adobe Experience Platform APIs (zie [&#x200B; Streaming Ingestie APIs &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl)).
 1. Kopieer de lading van de ladingsvoorproef in het **[!UICONTROL Event]** menu. Zie [deze pagina](../event/defining-the-payload-fields.md).
 
 Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Streaming Ingestie-API&#39;s stuurt met de door u gekopieerde payload:
@@ -99,6 +99,6 @@ Hier volgt een voorbeeld van een gebeurtenis Streaming ingestie-API&#39;s:
 }
 ```
 
-Om de identificatie van de plaats te vergemakkelijken waar te om het &quot;gegevens&quot;deel te kleven, kunt u een JSON visualization hulpmiddel zoals [ https://jsonformatter.curiousconcept.com ](https://jsonformatter.curiousconcept.com) gebruiken
+Om de identificatie van de plaats te vergemakkelijken waar te om het &quot;gegevens&quot;deel te kleven, kunt u een JSON visualization hulpmiddel zoals [&#x200B; https://jsonformatter.curiousconcept.com &#x200B;](https://jsonformatter.curiousconcept.com) gebruiken
 
-Om het stromen Ingestie APIs problemen op te lossen, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=nl-NL).
+Om het stromen Ingestie APIs problemen op te lossen, verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=nl-NL).

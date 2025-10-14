@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -30,13 +30,13 @@ De **[!UICONTROL Stop]** en **[!UICONTROL Close to new entrances]** opties staan
 >
 >U kunt een gesloten of gestopt reis niet hervatten.
 >
->Het concept reis die eindigt wordt beschreven in deze [ sectie ](../building-journeys/journey.md#ending_a_journey).
+>Het concept reis die eindigt wordt beschreven in deze [&#x200B; sectie &#x200B;](../building-journeys/journey.md#ending_a_journey).
 
 ## Een reis sluiten
 
 U kunt een reis manueel sluiten om ervoor te zorgen dat de klanten die reeds de reis inging hun weg kunnen beëindigen maar de nieuwe gebruikers niet de reis kunnen ingaan.
 
-Wanneer deze gesloten is, heeft een rit de status **[!UICONTROL Closed (no entrance)]** . Na standaard globale onderbreking van 30 dagen, zal de reis aan de **Voltooide** status schakelen. Zie deze [ sectie ](../building-journeys/changing-properties.md#entrance).
+Wanneer deze gesloten is, heeft een rit de status **[!UICONTROL Closed (no entrance)]** . Na standaard globale onderbreking van 30 dagen, zal de reis aan de **Voltooide** status schakelen. Zie deze [&#x200B; sectie &#x200B;](../building-journeys/changing-properties.md#entrance).
 
 Een gesloten reisversie kan niet opnieuw worden gestart of verwijderd. U kunt er een nieuwe versie van maken of deze dupliceren. Alleen voltooide reizen kunnen worden verwijderd.
 

@@ -18,7 +18,7 @@ ht-degree: 63%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -54,11 +54,11 @@ Dit zijn de belangrijkste stappen voor de configuratie van databronnen:
 
 1. Selecteer **[!UICONTROL Admin]** in het menuvenster. Klik in de sectie **[!UICONTROL Data sources]** op **[!UICONTROL Manage]** .
 
-   De lijst met databronnen wordt weergegeven. Zie [ deze pagina ](../about/user-interface.md) voor meer informatie over de interface.
+   De lijst met databronnen wordt weergegeven. Zie [&#x200B; deze pagina &#x200B;](../about/user-interface.md) voor meer informatie over de interface.
 
    ![](../assets/journey18.png)
 
-1. Dan kunt u of gebiedsgroepen aan de ingebouwde gegevensbron (zie [ deze pagina ](../datasource/adobe-experience-platform-data-source.md)) toevoegen of een nieuwe externe gegevensbron (zie [ deze pagina ](../datasource/external-data-sources.md)) en bijbehorende gebiedsgroepen (zie [ deze pagina ](../datasource/field-groups.md)) tot stand brengen.
+1. Dan kunt u of gebiedsgroepen aan de ingebouwde gegevensbron (zie [&#x200B; deze pagina &#x200B;](../datasource/adobe-experience-platform-data-source.md)) toevoegen of een nieuwe externe gegevensbron (zie [&#x200B; deze pagina &#x200B;](../datasource/external-data-sources.md)) en bijbehorende gebiedsgroepen (zie [&#x200B; deze pagina &#x200B;](../datasource/field-groups.md)) tot stand brengen.
 
    ![](../assets/journey23.png)
 

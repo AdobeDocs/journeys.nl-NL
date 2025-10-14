@@ -19,7 +19,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -54,7 +54,7 @@ Een uitlijningsregel is specifiek voor één eindpunt, maar is globaal voor alle
 
 Bijvoorbeeld, laten wij zeggen dat u een het begrenzen regel van 100 vraag per seconde voor uw extern systeem hebt bepaald. Uw systeem wordt opgeroepen door een aangepaste actie in 10 verschillende journeys. Als één reis 200 vraag per seconde ontvangt, zal het de 100 beschikbare groeven gebruiken en de 100 resterende groeven verwerpen. Aangezien het maximumaantal is overschreden, hebben de andere 9 journeys geen slot meer. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
 
-Om meer op het in kaart brengen API te leren en hoe te om het in kaart brengen regels te vormen, verwijs naar [ deze pagina ](../api/capping.md).
+Om meer op het in kaart brengen API te leren en hoe te om het in kaart brengen regels te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../api/capping.md).
 
 ## Time-out en opnieuw proberen{#timeout}
 
@@ -82,7 +82,7 @@ Laten we een voorbeeld nemen voor een time-out van 5 seconden.
 
 **Hoe kan ik een het in kaart brengen regel vormen? Is er een standaard het afschilderen regel?**
 
-Standaard is er geen uitlijningsregel. De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL), gebruikend Capping API. Verwijs naar [ deze sectie ](../about/external-systems.md#capping) en [ deze pagina ](../api/capping.md).
+Standaard is er geen uitlijningsregel. De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL), gebruikend Capping API. Verwijs naar [&#x200B; deze sectie &#x200B;](../about/external-systems.md#capping) en [&#x200B; deze pagina &#x200B;](../api/capping.md).
 
 **hoeveel pogingen worden uitgevoerd? Kan ik het aantal pogingen veranderen of een minimumwachttijdperiode tussen pogingen bepalen?**
 
@@ -90,4 +90,4 @@ Voor een bepaalde vraag, kan een maximum van drie pogingen na de eerste vraag wo
 
 **waar kan ik onderbreking vormen? Is er een maximumwaarde?**
 
-In elke reis, kunt u een onderbrekingsduur bepalen. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. De duur van de onderbreking moet tussen 1 seconde en 30 seconden zijn. Verwijs naar [ deze sectie ](../about/external-systems.md#timeout) en [ deze pagina ](../building-journeys/changing-properties.md#timeout_and_error).
+In elke reis, kunt u een onderbrekingsduur bepalen. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. De duur van de onderbreking moet tussen 1 seconde en 30 seconden zijn. Verwijs naar [&#x200B; deze sectie &#x200B;](../about/external-systems.md#timeout) en [&#x200B; deze pagina &#x200B;](../building-journeys/changing-properties.md#timeout_and_error).

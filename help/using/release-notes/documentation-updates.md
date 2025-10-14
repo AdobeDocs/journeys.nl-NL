@@ -27,7 +27,7 @@ U kunt ook de [!DNL Journey Orchestration] [Opmerkingen bij de release](../relea
 
 ## Juni 2022 {#june-2022}
 
-* De nieuwe vraagvoorbeelden zijn toegevoegd aan deze [ pagina ](../building-journeys/query-examples.md)
+* De nieuwe vraagvoorbeelden zijn toegevoegd aan deze [&#x200B; pagina &#x200B;](../building-journeys/query-examples.md)
 
 ## Maart 2022 {#march-2022}
 

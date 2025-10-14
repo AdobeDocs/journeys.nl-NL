@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -35,7 +35,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van Journey Orchestration.
 ## Algemene actiedrempels
 
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. 
-* De ingebouwde **gebeurtenis van de Reactie** staat u toe om op uit-van-de-doos acties (zie deze [ pagina ](../building-journeys/reaction-events.md)) te reageren. Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
+* De ingebouwde **gebeurtenis van de Reactie** staat u toe om op uit-van-de-doos acties (zie deze [&#x200B; pagina &#x200B;](../building-journeys/reaction-events.md)) te reageren. Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
 
 ## Beperkingen van reisversies {#journey-versions-limitations}
 
@@ -46,7 +46,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van Journey Orchestration.
 
 ## Segmentkwalificatie {#segment-qualification}
 
-* De **kwalificatie van het Segment** activiteit kan niet samen met het Transactionele Overseinen van Adobe Campaign Standard worden gebruikt toe te schrijven aan productiebeperkingen. Zie [ Beschrijving van het Product van Adobe Campaign Standard ](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html). 
+* De **kwalificatie van het Segment** activiteit kan niet samen met het Transactionele Overseinen van Adobe Campaign Standard worden gebruikt toe te schrijven aan productiebeperkingen. Zie [&#x200B; Beschrijving van het Product van Adobe Campaign Standard &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Beperkingen voor aangepaste handelingen
@@ -60,7 +60,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van Journey Orchestration.
 
 ## Beperkingen Adobe Campaign-acties
 
-* Het Transactionele Overseinen van Adobe Campaign Standard heeft een schaal van 50 000 berichten per uur maximum over kanalen voor een bepaalde instantie. Zie [ Beschrijving van het Product van Adobe Campaign Standard ](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html). 
+* Het Transactionele Overseinen van Adobe Campaign Standard heeft een schaal van 50 000 berichten per uur maximum over kanalen voor een bepaalde instantie. Zie [&#x200B; Beschrijving van het Product van Adobe Campaign Standard &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Beperkingen voor gebeurtenissen

@@ -18,14 +18,14 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
 
 
 
-U kunt een tijdzone in de [ eigenschappen ](../building-journeys/changing-properties.md) van uw reis bepalen.
+U kunt een tijdzone in de [&#x200B; eigenschappen &#x200B;](../building-journeys/changing-properties.md) van uw reis bepalen.
 
 Als u eigenschappen wilt openen, klikt u op het potloodpictogram rechtsboven in het scherm.
 

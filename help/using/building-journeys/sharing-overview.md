@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -66,8 +66,8 @@ Hier worden de lijsten met XDM-velden weergegeven die aan de Adobe Experience Pl
 
 ## Integratie met de Analitycs van de Reis van de Klant{#integration-cja}
 
-De de stapgebeurtenissen van Journey Orchestration kunnen aan andere datasets in [ Adobe Customer Journey Analytics ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL) worden verbonden. Hier volgt de algemene workflow:
+De de stapgebeurtenissen van Journey Orchestration kunnen aan andere datasets in [&#x200B; Adobe Customer Journey Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=nl-NL) worden verbonden. Hier volgt de algemene workflow:
 
 * Customer Journey Analytics neemt de gegevensset &quot;Journey Step Event&quot; op.
 * Het **profileID** gebied in het bijbehorende &quot;schema van de Gebeurtenis van de Stap van de Reis voor Journey Orchestration&quot;wordt bepaald als gebied van de Identiteit. In Customer Journey Analytics, kunt u deze dataset aan een andere dataset dan verbinden die de zelfde waarde zoals persoon gebaseerde herkenningsteken heeft.
-* Als u deze dataset in Customer Journey Analytics, voor de analyse van de dwars-kanaalreis zou willen gebruiken, verwijs naar deze [ documentatie ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=nl-NL).
+* Als u deze dataset in Customer Journey Analytics, voor de analyse van de dwars-kanaalreis zou willen gebruiken, verwijs naar deze [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=nl-NL).

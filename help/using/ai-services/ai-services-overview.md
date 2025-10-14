@@ -18,7 +18,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -26,8 +26,8 @@ ht-degree: 2%
 
 Dankzij de integratie met intelligente services kunt u de kracht van kunstmatige intelligentie en het leren van machines benutten in gevallen waarin de klant gebruikmaakt van ervaring. Dit staat voor marketing analisten toe om voorspellingen op te zetten specifiek voor de behoeften van een bedrijf gebruikend zaken-vlakke configuraties zonder de behoefte aan de deskundigheid van de gegevenswetenschap.
 
-Voor meer informatie over de Intelligente Diensten, verwijs naar de [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=nl-NL).
+Voor meer informatie over de Intelligente Diensten, verwijs naar de [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=nl-NL).
 
-Deze integratie staat u toe om klantenvoorspellingen te hefboomwerking, zie [ Leveraging Klant AI ](../ai-services/leveraging-customer-ai.md)
+Deze integratie staat u toe om klantenvoorspellingen te hefboomwerking, zie [&#x200B; Leveraging Klant AI &#x200B;](../ai-services/leveraging-customer-ai.md)
 
 <!--* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)-->

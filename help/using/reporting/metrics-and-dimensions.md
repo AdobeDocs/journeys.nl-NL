@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -32,7 +32,7 @@ Hier vindt u de lijst met alle componenten die beschikbaar zijn in dynamische ra
 
 In de onderstaande tabel staan de afmetingen die worden gebruikt in reisrapporten en de definities daarvan.
 
-Meer op verenigbaarheid tussen dimensies en metriek leren, verwijs naar [ deze pagina ](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
+Meer op verenigbaarheid tussen dimensies en metriek leren, verwijs naar [&#x200B; deze pagina &#x200B;](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
 
 ## Reisafmetingen {#MBE_table_wk4_bnj_w2b}
 
