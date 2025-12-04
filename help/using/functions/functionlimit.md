@@ -3,13 +3,13 @@ product: adobe campaign
 title: limiet
 description: Meer informatie over de functielimiet
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7e006660-1206-4b8a-9e5b-c6fbeee9cc8f
-source-git-commit: 9f5ef0497227a370e2e1f4a62450611ae2e336b9
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -84,8 +84,8 @@ Retourneert een lijst met objecten.
 
 `limit(["A", "B", "C", "D", "E"], 3)`
 
-Retourneert `["A","B","C"]`.
+Retourneert `["A","B","C"]` .
 
 `limit(["A", "B", "C", "D", "E"], 3, false)`
 
-Retourneert `["C","D","E"]`.
+Retourneert `["C","D","E"]` .

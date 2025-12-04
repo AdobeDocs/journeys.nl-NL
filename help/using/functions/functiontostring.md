@@ -3,19 +3,19 @@ product: adobe campaign
 title: toString
 description: Meer informatie over de functie toString
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 942e7a44-1cb1-4c99-abd6-e0b045c42c80
-source-git-commit: c7730ecac062719e5e5adfd465d1cedb59b3eaf1
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 6%
+source-wordcount: '107'
+ht-degree: 3%
 
 ---
 
 # toString {#toString}
 
-Zet een argumentwaarde in een koordwaarde om, afhankelijk van zijn type. Raadpleeg voor meer informatie over gegevenstypen [deze pagina](../expression/data-types.md).
+Zet een argumentwaarde in een koordwaarde om, afhankelijk van zijn type. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 ## Categorie
 

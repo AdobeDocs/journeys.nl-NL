@@ -3,13 +3,13 @@ product: adobe campaign
 title: replaceAll
 description: Meer informatie over de functie replaceAll
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
-source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ De vervanging vindt plaats vanaf het begin van de tekenreeks tot het einde. Als 
 
 ## Categorie
 
-Tekenreeks
+String
 
 ## Functiesyntaxis
 
@@ -45,6 +45,6 @@ Retourneert een tekenreeks.
 
 `replaceAll("Hello World", "l", "x")`
 
-Retourneert &quot;Hexxo Worxd&quot;.
+Retourneert &quot;hexo Worxd&quot;.
 
-Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Raadpleeg het voorbeeld in [deze pagina](../functions/functionreplace.md#example_2).
+Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Verwijs naar het voorbeeld in [ deze pagina ](../functions/functionreplace.md#example_2).

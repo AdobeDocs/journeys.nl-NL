@@ -3,13 +3,13 @@ product: adobe campaign
 title: in
 description: Meer informatie over de functie in
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 6a19ae25-99c9-47f9-8417-c3d247dbbe3f
-source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 15%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 Controleert of de waarde van het eerste argument in de lijst voorkomt. De controle wordt uitgevoerd door Gelijk op elke argumentwaarde. De waarde wordt true geretourneerd als de argumentwaarde wordt gevonden, anders false.
 
-Het type van `<expression>` moet overeenkomen met items in de lijst. Typen items in de lijst moeten, ter herinnering, met elkaar overeenkomen.
+Het type van `<expression>` moet met punten van de lijst aanpassen. Typen items in de lijst moeten, ter herinnering, met elkaar overeenkomen.
 
 ## Categorie
 
@@ -31,7 +31,7 @@ Lijst
 
 | Parameter | Type |
 |-----------|------------------|
-| Tekenreeks | Tekenreeks |
+| String | String |
 | Boolean | Boolean |
 | Geheel | Geheel |
 | Decimaal | Decimaal |

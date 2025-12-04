@@ -3,13 +3,13 @@ product: adobe campaign
 title: Functies voor het beheer van verzamelingen
 description: Meer informatie over gegevenstypen in functies voor verzamelingsbeheer
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 1%
+source-wordcount: '604'
+ht-degree: 0%
 
 ---
 
@@ -59,21 +59,21 @@ Deze functies worden hieronder uitgelegd. In de volgende voorbeelden gebruiken w
 }
 ```
 
-**De functie &quot;all(`<condition>`)&quot;**
+**de functie &quot;allen (`<condition>`)&quot;**
 
-De **[!UICONTROL all]** functie laat de definitie van een filter op een bepaalde inzameling toe door een booleaanse uitdrukking te gebruiken.
+De functie **[!UICONTROL all]** laat de definitie van een filter op een bepaalde inzameling toe door een booleaanse uitdrukking te gebruiken.
 
 ```json
 <listExpression>.all(<condition>)
 ```
 
-Zo kunt u onder alle gebruikers van de app de toepassingen ophalen met IOS 13 (Booleaanse expressie &quot;app used == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (voorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
+Zo kunt u onder alle gebruikers van de app de toepassingen ophalen met IOS 13 (Booleaanse expressie &quot;app used == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (bijvoorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
 
-In een activiteit van de Voorwaarde van de Gegevensbron kunt u controleren of het resultaat van **[!UICONTROL all]** functie is null of niet. U kunt dit ook combineren **[!UICONTROL all]** functies met andere functies, zoals **[!UICONTROL count]**. Zie voor meer informatie [Voorwaarde van gegevensbron, activiteit](../building-journeys/condition-activity.md#data_source_condition).
+Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [ de activiteit van de Voorwaarde van Source van Gegevens ](../building-journeys/condition-activity.md#data_source_condition).
 
 **Voorbeeld 1:**
 
-We willen controleren of een gebruiker een specifieke versie van een toepassing heeft geïnstalleerd. Hiervoor krijgen we alle pushberichttokens die zijn gekoppeld aan mobiele toepassingen waarvoor de versie 1.0 is. Vervolgens voeren we een voorwaarde uit met de **[!UICONTROL count]** functie om te controleren of de geretourneerde lijst met tokens ten minste één element bevat.
+We willen controleren of een gebruiker een specifieke versie van een toepassing heeft geïnstalleerd. Hiervoor krijgen we alle pushberichttokens die zijn gekoppeld aan mobiele toepassingen waarvoor de versie 1.0 is. Vervolgens voeren we een voorwaarde uit met de functie **[!UICONTROL count]** om te controleren of de geretourneerde lijst met tokens ten minste één element bevat.
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -83,7 +83,7 @@ Het resultaat is waar.
 
 **Voorbeeld 2:**
 
-Hier gebruiken we de **[!UICONTROL count]** functie om te controleren of er pushberichttokens in de verzameling zijn.
+Hier gebruiken we de functie **[!UICONTROL count]** om te controleren of er pushberichttokens in de verzameling aanwezig zijn.
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -116,18 +116,18 @@ earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->Wanneer de filtervoorwaarde in de **all()** Als de functie leeg is, retourneert het filter alle elementen in de lijst. **Als u echter het aantal elementen van een verzameling wilt tellen, is de functie all niet vereist.**
+>Wanneer de het filtreren voorwaarde in **allen ()** functie leeg is, zal de filter alle elementen in de lijst terugkeren. **Nochtans, om het aantal elementen van een inzameling te tellen, wordt de alle functie niet vereist.**
 
 
 ```json
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
-Het resultaat van de expressie is **3**.
+Het resultaat van de uitdrukking is **3**.
 
 **Voorbeeld 3:**
 
-Hier controleren we of een individu in de afgelopen 24 uur geen communicatie heeft ontvangen. Wij filtreren de inzameling van ervaringsgebeurtenissen die uit de datasource ExperiencePlatform worden teruggewonnen, gebruikend twee uitdrukkingen die op twee elementen van de inzameling worden gebaseerd. Met name wordt de tijdstempel van de gebeurtenis vergeleken met de dateTime die door de **[!UICONTROL nowWithDelta]** functie.
+Hier controleren we of een individu in de afgelopen 24 uur geen communicatie heeft ontvangen. Wij filtreren de inzameling van ervaringsgebeurtenissen die uit de datasource ExperiencePlatform worden teruggewonnen, gebruikend twee uitdrukkingen die op twee elementen van de inzameling worden gebaseerd. Met name wordt de tijdstempel van de gebeurtenis vergeleken met de dateTime die door de functie **[!UICONTROL nowWithDelta]** wordt geretourneerd.
 
 ```json
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -167,14 +167,14 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** is alleen beschikbaar bij het manipuleren van gebeurtenisverzamelingen en **currentDataPackField**
->bij het manipuleren van gegevensbronverzamelingen. Bij het verwerken van verzamelingen met **[!UICONTROL all]**, **[!UICONTROL first]** en **[!UICONTROL last]**, wij
+>**[!UICONTROL currentEventField]** is slechts beschikbaar wanneer het manipuleren van gebeurtenisinzamelingen en **currentDataPackField**
+>bij het manipuleren van gegevensbronverzamelingen. Wanneer u verzamelingen verwerkt met **[!UICONTROL all]** , **[!UICONTROL first]** en **[!UICONTROL last]** , worden
 >loop elk element van de inzameling één voor één. **[!UICONTROL currentEventField]** en **currentDataPackField**
 >komt overeen met het element dat wordt herhaald.
 
-**De functies &quot;first(`<condition>`)&quot; en &quot;last(`<condition>`)&quot;**
+**de functies &quot;eerst (`<condition>`)&quot;en &quot;laatste (`<condition>`)&quot;**
 
-De **[!UICONTROL first]** en **[!UICONTROL last]** Met functies kunt u ook een filter op de verzameling definiëren en tegelijkertijd het eerste/laatste element van de lijst retourneren dat aan het filter voldoet.
+De functies **[!UICONTROL first]** en **[!UICONTROL last]** laten ook de definitie van een filter op de inzameling toe terwijl het terugkeren van het eerste/laatste element van de lijst die de filter ontmoet.
 
 _`<listExpression>.first(<condition>)`_
 
@@ -204,22 +204,21 @@ Het resultaat is &quot;token_2&quot;.
 >
 >De ervaringsgebeurtenissen worden uit de Adobe Experience Platform opgehaald als een verzameling in omgekeerde chronologische volgorde, vandaar:
 >
->* **[!UICONTROL first]** functie retourneert de meest recente gebeurtenis
+>* De functie **[!UICONTROL first]** retourneert de meest recente gebeurtenis
 >* **[!UICONTROL last]** functie retourneert de oudste functie.
-
 
 **Voorbeeld 3:**
 
-We controleren of de eerste (meest recente) Adobe Analytics-gebeurtenis met een waarde groter dan nul voor DMA-id een waarde heeft die gelijk is aan 602.
+We controleren of de eerste (meest recente) Adobe Analytics-gebeurtenis met een waarde groter dan nul voor DMA-id een waarde gelijk aan 602 heeft.
 
 ```json
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
 currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 ```
 
-**De functie &quot;at(`<index>`)&quot;**
+**de functie &quot;bij (`<index>`)&quot;**
 
-De **[!UICONTROL at]** kunt u verwijzen naar een specifiek element in een verzameling op basis van een index.
+Met de functie **[!UICONTROL at]** kunt u naar een specifiek element in een verzameling verwijzen op basis van een index.
 Index 0 is de eerste index van de verzameling.
 
 _`<listExpression>`.at(`<index>`)_

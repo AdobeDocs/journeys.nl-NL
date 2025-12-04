@@ -3,13 +3,13 @@ product: adobe campaign
 title: sort
 description: Meer informatie over de functie sorteren
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -71,9 +71,9 @@ Retourneert een lijst met objecten.
 
 `sort(["A", "C", "B"], true)`
 
-Retourneert `["A","B","C"]`.
+Retourneert `["A","B","C"]` .
 
 `sort([1, 3, 2], false)`
 
-Retourneert `[3, 2, 1]`.
+Retourneert `[3, 2, 1]` .
 

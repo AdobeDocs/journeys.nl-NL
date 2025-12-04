@@ -3,13 +3,13 @@ product: adobe campaign
 title: lengte
 description: Meer informatie over de lengte van de functie
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 5dda3f35-bce4-42c6-b958-de28abebcbf3
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: '35'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ Retourneert het aantal tekens van de tekenreeksexpressie in de parameter.
 
 ## Categorie
 
-Tekenreeks
+String
 
 ## Functiesyntaxis
 

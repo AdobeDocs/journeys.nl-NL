@@ -3,13 +3,13 @@ product: adobe campaign
 title: replace
 description: Meer informatie over de functie replace
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
-source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 4%
+source-wordcount: '148'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ De vervanging vindt plaats vanaf het begin van de tekenreeks tot het einde. Als 
 
 ## Categorie
 
-Tekenreeks
+String
 
 ## Functiesyntaxis
 
@@ -52,10 +52,10 @@ Retourneert &quot;Hexlo World&quot;.
 Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Hier volgt een voorbeeld:
 
 * te evalueren tekenreeks: `|OFFER_A|OFFER_B`
-* verstrekt door een profielattribuut `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
+* opgegeven door een profielkenmerk `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
 * Te vervangen tekenreeks: `|OFFER_A`
 * Tekenreeks vervangen door: `''`
-* U moet toevoegen `\\` vóór de `|` teken.
+* U moet `\\` vóór het `|` -teken toevoegen.
 
 De expressie is:
 

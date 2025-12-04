@@ -3,13 +3,13 @@ product: adobe campaign
 title: toDateTimeOnly
 description: Meer informatie over de functie toDateTime
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b19adbd0-8449-4bd4-bc4d-f1f305f87cb0
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 12%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
@@ -46,7 +46,7 @@ Retourneer een datetime zonder rekening te houden met tijdzone.
 
 `toDateTimeOnly ("2016-08-18")`
 
-retourneert een dateTime die staat voor 2016-08-18T00:00:00,000
+keert dateTime terug die 2016-08-18T00 :00: 00.000 vertegenwoordigt
 
 `toDateTimeOnly(now())`
 

@@ -3,13 +3,13 @@ product: adobe campaign
 title: indexOf
 description: Meer informatie over de functie indexOf
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7617bb25-ec4c-498f-947a-66bbdecd1069
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 15%
+source-wordcount: '63'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ Controleert of de eerste argumenttekenreeks eindigt met een specifieke tekenreek
 
 ## Categorie
 
-Tekenreeks
+String
 
 ## Functiesyntaxis
 
@@ -29,8 +29,8 @@ Tekenreeks
 
 | Parameter | Type |
 |-----------|------------------|
-| string | Tekenreeks |
-| opgegeven waarde | Tekenreeks |
+| string | String |
+| opgegeven waarde | String |
 
 ## Handtekening en type geretourneerd
 

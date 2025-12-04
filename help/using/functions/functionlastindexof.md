@@ -3,13 +3,13 @@ product: adobe campaign
 title: lastIndexOf
 description: Meer informatie over de functie lastIndexOf
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: e82f3c45-e2f0-421a-be7e-c52e4badebbf
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 13%
+source-wordcount: '63'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ Retourneert de positie (in het eerste argument) van de laatste instantie van de 
 
 ## Categorie
 
-Tekenreeks
+String
 
 ## Functiesyntaxis
 
@@ -29,8 +29,8 @@ Tekenreeks
 
 | Parameter | Type |
 |-----------|------------------|
-| string | Tekenreeks |
-| opgegeven waarde | Tekenreeks |
+| string | String |
+| opgegeven waarde | String |
 
 ## Handtekening en type geretourneerd
 

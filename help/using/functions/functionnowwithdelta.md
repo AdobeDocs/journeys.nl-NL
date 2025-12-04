@@ -3,19 +3,19 @@ product: adobe campaign
 title: nowWithDelta
 description: Meer informatie over de functie nowWithDelta
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: f23f729b-7edb-4efc-a7ea-904314a7b2e1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 6%
+source-wordcount: '110'
+ht-degree: 4%
 
 ---
 
 # nowWithDelta {#nowWithDelta}
 
-Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id wordt opgegeven, wordt de verschuiving van de tijdzone toegepast. Raadpleeg voor meer informatie over gegevenstypen [deze pagina](../expression/data-types.md).
+Retourneert de huidige datumtijd inclusief een verschuiving. Als een tijdzone-id wordt opgegeven, wordt de verschuiving van de tijdzone toegepast. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 ## Categorie
 
@@ -31,7 +31,7 @@ Datum
 |--- |--- |
 | delta | positieve of negatieve gehele waarde |
 | datumonderdeel | jaar, maanden, dagen, uren, minuten of seconden als een tekenreeks |
-| tijdzone-id | tekenreeksrepresentatie van de tijdzonewaarde. Zie voor meer informatie [Gegevenstypen](../expression/data-types.md). Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. |
+| tijdzone-id | tekenreeksrepresentatie van de tijdzonewaarde. Voor meer, zie [ types van Gegevens ](../expression/data-types.md). Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. |
 
 ## Handtekeningen en type geretourneerd
 

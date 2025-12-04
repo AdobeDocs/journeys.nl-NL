@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: filter
-description: Meer informatie over het functiefilter
+description: Meer informatie over het filter function
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 3c1c188c-0ffd-44c5-b1b3-1758ed12235e
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ Lijst
 
 | Parameter | Type | Beschrijving |
 |-----------|------------------|------------------|
-| listToFilter | listObject | lijst met objecten die moeten worden gefilterd. Dit moet een veldverwijzing zijn. |
+| listToFilter | listObject | lijst met te filteren objecten. Dit moet een veldverwijzing zijn. |
 | keyAttributeName | string | kenmerknaam in de objecten van de opgegeven lijst, gebruikt als sleutel voor filteren |
 | keyValueList | list | array van sleutelwaarden voor filteren |
 

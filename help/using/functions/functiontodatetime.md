@@ -3,13 +3,13 @@ product: adobe campaign
 title: toDateTime
 description: Meer informatie over de functie toDateTime
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
-source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 7%
+source-wordcount: '100'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ Conversie
 
 >[!NOTE]
 >
->Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. Raadpleeg voor meer informatie over gegevenstypen [deze pagina](../expression/data-types.md).
+>Tijdzone-id moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn. Voor meer informatie over gegevenstypes, verwijs naar [ deze pagina ](../expression/data-types.md).
 
 ## Handtekeningen en geretourneerde typen
 
@@ -46,7 +46,7 @@ Conversie
 
 `toDateTime(<integer>)`
 
-Retourneer een **dateTime**.
+Keer a **dateTime** terug.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -73,15 +73,15 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-Retourneert 2016-08-18T23:17:59,123Z
+Keert 2016-08-18T23 :17: 59.123Z terug
 
 `toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
-Retourneert 2016-08-18T23:17:59,123Z
+Keert 2016-08-18T23 :17: 59.123Z terug
 
 `toDateTime(1560762190189)`
 
-Retourneert 2019-06-17T09:03:10,189Z
+Keert 2019-06-17T09 :03: 10.189Z terug
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

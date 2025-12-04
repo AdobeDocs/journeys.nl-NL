@@ -3,13 +3,13 @@ product: adobe campaign
 title: Journeyeigenschappen
 description: Meer informatie over reiseigenschappen
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**Op zoek naar Adobe Journey Optimizer**? Klik [hier](https://experienceleague.adobe.com/nl/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
->_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
+>_Deze documentatie verwijst naar verouderde materialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over toegang tot Journey Orchestration of Journey Optimizer._
 
 
-In de geavanceerde uitdrukkingsredacteur, zult u de **categorie van de Eigenschappen van de Reis van 0&rbrace; vinden, onder de gebeurtenis en gegevensbroncategorieën.** Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen.
+In de geavanceerde uitdrukkingsredacteur, zult u de **categorie van de Eigenschappen van de Reis van 0} vinden, onder de gebeurtenis en gegevensbroncategorieën.** Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen.
 
 >[!NOTE]
 >
->De eigenschappen van de reis zijn ook beschikbaar in de eenvoudige uitdrukkingsredacteur. Zie deze [&#x200B; sectie &#x200B;](../building-journeys/condition-activity.md#about_condition)
+>De eigenschappen van de reis zijn ook beschikbaar in de eenvoudige uitdrukkingsredacteur. Zie deze [ sectie ](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 

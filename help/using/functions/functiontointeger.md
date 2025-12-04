@@ -3,13 +3,13 @@ product: adobe campaign
 title: toInteger
 description: Meer informatie over de functie toInteger
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 3fcbf4dd-3ca5-4f4b-b774-af6ac3170768
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 10%
+source-wordcount: '75'
+ht-degree: 6%
 
 ---
 
@@ -31,8 +31,8 @@ Conversie
 |--- |--- |
 | string | converteert de tekenreekswaarde als een geheel getal |
 | dateTime | zet de datum om als aantal milliseconden (epoch milliseconds) |
-| decimaal | converteert naar geheel getal door het decimale gedeelte te verwijderen (voorbeeld: 1,5 wordt 1) |
-| boolean | Zet de booleaanse waarde om als 1 indien true, 0 indien false |
+| decimaal | converteert naar geheel getal door het decimale gedeelte te verwijderen (1,5 wordt bijvoorbeeld 1). |
+| boolean | Zet de booleaanse waarde om als 1 indien waar (true), 0 indien onwaar (false) |
 
 ## Handtekeningen en type geretourneerd
 
