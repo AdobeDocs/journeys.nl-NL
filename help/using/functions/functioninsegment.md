@@ -31,7 +31,7 @@ Segmenten kunnen drie statussen hebben:
 * gerealiseerd: entiteit betreedt het segment.
 * verlaten: entiteit verlaat het segment.
 
-Slechts zullen de individuen met de **Geleide** en **Bestaande** status van de segmentparticipatie als leden van het segment worden beschouwd. Voor meer op hoe te om een segment te evalueren, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+Slechts zullen de individuen met de **Geleide** en **Bestaande** status van de segmentparticipatie als leden van het segment worden beschouwd. Voor meer op hoe te om een segment te evalueren, verwijs naar de [&#x200B; documentatie van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=nl-NL#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` betekent dat u een segmentLidmaatschap met de ingegaan/bestaande status hebt.
 
