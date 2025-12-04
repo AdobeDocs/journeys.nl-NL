@@ -47,4 +47,4 @@ Retourneert een tekenreeks.
 
 Retourneert &quot;hexo Worxd&quot;.
 
-Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Verwijs naar het voorbeeld in [ deze pagina ](../functions/functionreplace.md#example_2).
+Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Verwijs naar het voorbeeld in [&#x200B; deze pagina &#x200B;](../functions/functionreplace.md#example_2).

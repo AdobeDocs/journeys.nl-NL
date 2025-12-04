@@ -118,13 +118,13 @@ Voorbeeld:
 
 ### `entry` functie
 
-Om een element in een kaart terug te winnen, gebruiken wij de ingangsfunctie met een bepaalde sleutel. Deze wordt bijvoorbeeld gebruikt wanneer de sleutel van een gebeurtenis wordt gedefinieerd op basis van de geselecteerde naamruimte. Zie De naamruimte selecteren. Voor meer informatie, zie [ deze pagina ](../event/selecting-the-namespace.md).
+Om een element in een kaart terug te winnen, gebruiken wij de ingangsfunctie met een bepaalde sleutel. Deze wordt bijvoorbeeld gebruikt wanneer de sleutel van een gebeurtenis wordt gedefinieerd op basis van de geselecteerde naamruimte. Zie De naamruimte selecteren. Voor meer informatie, zie [&#x200B; deze pagina &#x200B;](../event/selecting-the-namespace.md).
 
 ```json
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &#39;Email&#39; is een verzameling, waaruit we de &#39;id&#39; in het eerste element gebruiken met &#39;first()&#39;. Voor meer informatie, zie [ deze pagina ](../expression/collection-management-functions.md).
+In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &#39;Email&#39; is een verzameling, waaruit we de &#39;id&#39; in het eerste element gebruiken met &#39;first()&#39;. Voor meer informatie, zie [&#x200B; deze pagina &#x200B;](../expression/collection-management-functions.md).
 
 ### `firstEntryKey` functie
 

@@ -154,4 +154,4 @@ substr(
 
 Uitleg: in dit voorbeeld worden `substr` - en `lastIndexOf` -functies gebruikt om accolades te verwijderen die de CRM-id omsluiten die is doorgegeven met een mobiele startgebeurtenis van de app.
 
-Voor meer op hoe te om de geavanceerde uitdrukkingsredacteur te gebruiken, let op [ deze video ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Voor meer op hoe te om de geavanceerde uitdrukkingsredacteur te gebruiken, let op [&#x200B; deze video &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).

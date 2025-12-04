@@ -84,7 +84,7 @@ Een mechanisme voor de syntaxisvalidatie controleert de integriteit van uw code.
 
 **Parameters vereist tijdens het samenstellen van voorwaarden met de geavanceerde expressie-editor**
 
-Als u een gebied van een externe gegevensbron selecteert die een te roepen parameter vereisen (zie [ deze pagina ](../datasource/external-data-sources.md). In een databron met betrekking tot weersomstandigheden is ‘city’ bijvoorbeeld een veelgebruikte parameter. Dit betekent dat u moet selecteren waar u deze parameter ‘city’ wilt ophalen. Functies kunnen ook op parameters worden toegepast om opmaakwijzigingen of samenvoegingen uit te voeren.
+Als u een gebied van een externe gegevensbron selecteert die een te roepen parameter vereisen (zie [&#x200B; deze pagina &#x200B;](../datasource/external-data-sources.md). In een databron met betrekking tot weersomstandigheden is ‘city’ bijvoorbeeld een veelgebruikte parameter. Dit betekent dat u moet selecteren waar u deze parameter ‘city’ wilt ophalen. Functies kunnen ook op parameters worden toegepast om opmaakwijzigingen of samenvoegingen uit te voeren.
 
 ![](../assets/journeyuc2_19.png)
 

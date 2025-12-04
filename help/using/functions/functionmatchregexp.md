@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # matchRegExp {#matchRegExp}
 
-Retourneert true als de tekenreeks in de eerste parameter overeenkomt met de reguliere expressie in de tweede parameter. Voor meer informatie, zie [ deze pagina ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Retourneert true als de tekenreeks in de eerste parameter overeenkomt met de reguliere expressie in de tweede parameter. Voor meer informatie, zie [&#x200B; deze pagina &#x200B;](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## Categorie
 
