@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**zoekend Adobe Journey Optimizer**? Klik [ hier ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
+>**zoekend Adobe Journey Optimizer**? Klik [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target="_blank"} voor de documentatie van Journey Optimizer.
 >
 >
 >_Deze documentatie verwijst naar erfenismaterialen van Journey Orchestration die door Journey Optimizer zijn vervangen. Neem contact op met uw accountteam als u vragen hebt over uw toegang tot Journey Orchestration of Journey Optimizer._
@@ -58,7 +58,7 @@ U kunt de **[!UICONTROL Filters]** openen door op het filterpictogram linksboven
 
 In de lijsten **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]** gebruikt u **[!UICONTROL Creation filters]** om te filteren op de aanmaakdatum en de gebruiker. U kunt bijvoorbeeld alleen de gebeurtenissen weergeven die u de afgelopen 30 dagen hebt gemaakt.
 
-In de reislijst (onder **[!UICONTROL Home]**) kunt u, naast **[!UICONTROL Creation filters]**, ook de weergegeven reizen filteren op basis van hun status, type en versie (**[!UICONTROL Status and version filters]**). Het type kan zijn: **[!UICONTROL Unitary event]** of **[!UICONTROL Segment qualification]** . U kunt er ook voor kiezen om alleen de ritten weer te geven die een bepaalde gebeurtenis, veldgroep of handeling gebruiken (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]** ). Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of gebruiker selecteren. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live reizen weer te geven die gisteren zijn gepubliceerd. Zie [ deze pagina ](../building-journeys/using-the-journey-designer.md).
+In de reislijst (onder **[!UICONTROL Home]**) kunt u, naast **[!UICONTROL Creation filters]**, ook de weergegeven reizen filteren op basis van hun status, type en versie (**[!UICONTROL Status and version filters]**). Het type kan zijn: **[!UICONTROL Unitary event]** of **[!UICONTROL Segment qualification]** . U kunt er ook voor kiezen om alleen de ritten weer te geven die een bepaalde gebeurtenis, veldgroep of handeling gebruiken (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]** ). Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of gebruiker selecteren. U kunt er bijvoorbeeld voor kiezen om alleen de nieuwste versies van live reizen weer te geven die gisteren zijn gepubliceerd. Zie [&#x200B; deze pagina &#x200B;](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -78,9 +78,9 @@ In de verschillende lijsten kunt u basishandelingen op elk element uitvoeren. U 
 
 ## Bladeren door Adobe Experience Platform-velden {#friendly-names-display}
 
-Wanneer het bepalen van [ gebeurtenislading ](../event/defining-the-payload-fields.md), [ lading van de gebiedsgroep ](../datasource/field-groups.md) en het selecteren van gebieden in de [ uitdrukkingsredacteur ](../expression/expressionadvanced.md), wordt de vertoningsnaam getoond naast de gebiedsnaam. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring.
+Wanneer het bepalen van [&#x200B; gebeurtenislading &#x200B;](../event/defining-the-payload-fields.md), [&#x200B; lading van de gebiedsgroep &#x200B;](../datasource/field-groups.md) en het selecteren van gebieden in de [&#x200B; uitdrukkingsredacteur &#x200B;](../expression/expressionadvanced.md), wordt de vertoningsnaam getoond naast de gebiedsnaam. Deze informatie wordt teruggewonnen van de schemadefinitie in het Model van de Gegevens van de Ervaring.
 
-Als de beschrijvers zoals &quot;xdm :alternateDisplayInfo&quot;terwijl vestiging schema&#39;s worden verstrekt, zullen de gebruikersvriendelijke namen vertoningsnamen vervangen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden.U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Voor meer informatie, zie de [ de ontwikkelaarsgids van de Registratie van het Schema ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Als de beschrijvers zoals &quot;xdm :alternateDisplayInfo&quot;terwijl vestiging schema&#39;s worden verstrekt, zullen de gebruikersvriendelijke namen vertoningsnamen vervangen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden.U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Voor meer informatie, zie de [&#x200B; de ontwikkelaarsgids van de Registratie van het Schema &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -98,7 +98,7 @@ De toegankelijkheidsfuncties in Adobe Journey Optimizer worden geleverd door Ado
 * Kleurcontrast
 * Validatie van vereiste velden
 
-[ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"} in de documentatie van Adobe Experience Platform.
+[&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"} in de documentatie van Adobe Experience Platform.
 
 U kunt de volgende algemene sneltoetsen gebruiken in Adobe Journey Optimizer:
 
@@ -110,7 +110,7 @@ U kunt de volgende algemene sneltoetsen gebruiken in Adobe Journey Optimizer:
 | Een element dat de focus heeft selecteren of wissen | Enter of Spatiebalk |
 | Een selectie annuleren, een deelvenster samenvouwen of een dialoogvenster sluiten | Esc |
 
-[ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"} in de documentatie van Adobe Experience Platform.
+[&#x200B; leer meer &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"} in de documentatie van Adobe Experience Platform.
 
 U kunt deze sneltoetsen gebruiken in specifieke delen van Journey Optimizer:
 

@@ -65,7 +65,7 @@ ht-degree: 7%
       + [Reisversies](using/building-journeys/journey-versions.md)
       + [Een reis beëindigen](using/building-journeys/terminating-a-journey.md)
       + [Tijdzonebeheer](using/building-journeys/timezone-management.md)
-      + [ de profielen van de Test ](using/building-journeys/creating-test-profiles.md)
+      + [&#x200B; de profielen van de Test &#x200B;](using/building-journeys/creating-test-profiles.md)
    + Activiteiten {#about-journey-building}
       + Gebeurtenisactiviteiten {#events-activities}
          + [Gebeurtenisactiviteiten](using/building-journeys/event-activities.md)
