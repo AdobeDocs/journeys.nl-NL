@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Functies voor het beheer van verzamelingen
+title: Verzamelbeheerfuncties
 description: Meer informatie over gegevenstypen in functies voor verzamelingsbeheer
 feature: Journeys
 role: Developer
 level: Experienced
 exl-id: e80b04fe-b2d3-4c1b-ba22-7e37a9ad1d57
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
-# Functies voor het beheer van verzamelingen {#collection-management-functions}
+# Verzamelbeheerfuncties {#collection-management-functions}
 
 De uitdrukkingstaal introduceert ook een reeks functies aan vraaginzamelingen.
 
@@ -69,7 +69,7 @@ De functie **[!UICONTROL all]** laat de definitie van een filter op een bepaalde
 
 Zo kunt u onder alle gebruikers van de app de toepassingen ophalen met IOS 13 (Booleaanse expressie &quot;app used == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (bijvoorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
 
-Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [&#x200B; de activiteit van de Voorwaarde van Source van Gegevens &#x200B;](../building-journeys/condition-activity.md#data_source_condition).
+Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [ de activiteit van de Voorwaarde van Source van Gegevens ](../building-journeys/condition-activity.md#data_source_condition).
 
 **Voorbeeld 1:**
 
@@ -91,7 +91,8 @@ count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.
 
 Het resultaat zal waar zijn.
 
-<!--Alternatively, you can check if there is no token in the collection:
+<!--
+Alternatively, you can check if there is no token in the collection:
 
    ```json
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
@@ -112,7 +113,8 @@ Note that when the condition in the **all()** function is empty, the filter will
 In both cases, the result of the expression is **3**.
 
 A query of experience events recorded on the Adobe Experience Platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the Adobe Experience Platform. For example, when using the .all() syntax to query experience events from the Adobe Experience Platform, we recommend enforcing the exclusion of the current event (by requiring an
-earlier timestamp) in order to only consider prior events.-->
+earlier timestamp) in order to only consider prior events.
+-->
 
 >[!NOTE]
 >
@@ -149,7 +151,8 @@ count(
 )._id}) > 0
 ```
 
-<!--**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
+<!--
+**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
 
 `count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
 
@@ -163,13 +166,13 @@ Alternatively, you can check if there is NO token in the collection:
 
 The result will be:
 
-`false`-->
+`false`
+-->
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** is slechts beschikbaar wanneer het manipuleren van gebeurtenisinzamelingen en **currentDataPackField**
->bij het manipuleren van gegevensbronverzamelingen. Wanneer u verzamelingen verwerkt met **[!UICONTROL all]** , **[!UICONTROL first]** en **[!UICONTROL last]** , worden
->loop elk element van de inzameling één voor één. **[!UICONTROL currentEventField]** en **currentDataPackField**
+>**[!UICONTROL currentEventField]** is alleen beschikbaar bij het manipuleren van gebeurtenisverzamelingen en **currentDataPackField**
+>bij het manipuleren van gegevensbronverzamelingen. Wanneer u verzamelingen verwerkt met **[!UICONTROL all]** , **[!UICONTROL first]** en **[!UICONTROL last]** , worden>loop elk element van de inzameling één voor één. **[!UICONTROL currentEventField]** en **currentDataPackField**
 >komt overeen met het element dat wordt herhaald.
 
 **de functies &quot;eerst (`<condition>`)&quot;en &quot;laatste (`<condition>`)&quot;**
